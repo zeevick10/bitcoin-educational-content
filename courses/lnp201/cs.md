@@ -587,7 +587,7 @@ Nakonec, budoucnost Bitcoinu je slibná s možnou projekcí jednoho milionu za p
 Gratulujeme! 🎉
 Úspěšně jste dokončili LN 201 školení - Úvod do Lightning Network!
 Můžete být na sebe hrdí, protože to není snadné. Vězte, že málokdo se dostane tak hluboko do králičí nory Bitcoinu.
-Především bych chtěl velmi poděkovat Fanisovi Makalakisovi za nabídnutí tohoto skvělého bezplatného kurzu zaměřeného na více etnický aspekt Lightning. Neváhejte ho sledovat na Twitteru, na jeho blogu nebo prostřednictvím jeho práce na LN market.
+Především bych chtěl velmi poděkovat Fanisovi Michalakisovi za nabídnutí tohoto skvělého bezplatného kurzu zaměřeného na více etnický aspekt Lightning. Neváhejte ho sledovat na Twitteru, na jeho blogu nebo prostřednictvím jeho práce na LN market.
 Pokud chcete projekt podpořit, neváhejte nás sponzorovat na Patreonu. Vaše dary budou použity na produkci obsahu pro nové výukové kurzy a samozřejmě budete první, kdo bude informován (včetně o Fanisově dalším kurzu, na kterém se pracuje!).
 
 Dobrodružství s Lightning Network pokračuje s výcvikem Umbrel a implementací uzlu Lightning Network. Teorie je za námi a je čas na praxi s kurzem LN 202 teď!

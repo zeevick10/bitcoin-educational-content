@@ -566,7 +566,7 @@ Xin chúc mừng! 🎉
 Bạn đã hoàn thành khóa LN 201 - Giới thiệu về Mạng Lưới Lightning!
 Bạn có thể tự hào về bản thân vì điều này không hề dễ dàng. Hãy biết rằng ít người đi sâu vào hố thỏ Bitcoin như vậy.
 
-Trước hết, một lời cảm ơn lớn đến Fanis Makalakis vì đã cung cấp cho chúng tôi khóa học miễn phí tuyệt vời này về khía cạnh dân tộc học của Lightning. Đừng ngần ngại theo dõi anh ấy trên Twitter, trên blog của mình, hoặc qua công việc của anh ấy tại thị trường LN.
+Trước hết, một lời cảm ơn lớn đến Fanis Michalakis vì đã cung cấp cho chúng tôi khóa học miễn phí tuyệt vời này về khía cạnh dân tộc học của Lightning. Đừng ngần ngại theo dõi anh ấy trên Twitter, trên blog của mình, hoặc qua công việc của anh ấy tại thị trường LN.
 
 Sau đó, nếu bạn muốn giúp đỡ dự án, đừng ngần ngại tài trợ cho chúng tôi trên Patreon. Quyên góp của bạn sẽ được sử dụng để sản xuất nội dung cho các khóa học mới và tất nhiên, bạn sẽ là người đầu tiên được thông báo (bao gồm cả khóa học tiếp theo của Fanis đang được thực hiện!).
 

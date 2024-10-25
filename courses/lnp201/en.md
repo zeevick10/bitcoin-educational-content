@@ -635,7 +635,7 @@ Congratulations! 🎉
 You have completed the LN 201 training - Introduction to the Lightning Network!
 You can be proud of yourself because it's not easy. Know that few people go as deep into the Bitcoin rabbit hole.
 
-First of all, a big thank you to Fanis Makalakis for offering us this great free course on a more ethnic aspect of Lightning. Don't hesitate to follow him on Twitter, on his blog, or through his work at LN market.
+First of all, a big thank you to Fanis Michalakis for offering us this great free course on a more ethnic aspect of Lightning. Don't hesitate to follow him on Twitter, on his blog, or through his work at LN market.
 
 Then, if you want to help the project, don't hesitate to sponsor us on Patreon. Your donations will be used to produce content for new training courses and of course, you will be the first to be informed (including for Fanis' next one which is in the works!).
 

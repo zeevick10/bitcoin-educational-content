@@ -616,7 +616,7 @@ Palju õnne! 🎉
 Olete lõpetanud LN 201 koolituse - Sissejuhatus Lightning Network'i!
 Võite endaga uhke olla, sest see pole lihtne. Teadke, et vähesed inimesed sukelduvad nii sügavale Bitcoin'i jäneseurgu.
 
-Esiteks, suur tänu Fanis Makalakis'ele, kes pakkus meile seda suurepärast tasuta kursust Lightning'i etnilisemast aspektist. Ärge kõhelge jälgimast teda Twitteris, tema blogis või tema töös LN turul.
+Esiteks, suur tänu Fanis Michalakis'ele, kes pakkus meile seda suurepärast tasuta kursust Lightning'i etnilisemast aspektist. Ärge kõhelge jälgimast teda Twitteris, tema blogis või tema töös LN turul.
 
 Seejärel, kui soovite projekti aidata, ärge kõhelge meid Patreonis sponsoreerimast. Teie annetusi kasutatakse uute koolituskursuste sisu tootmiseks ja loomulikult teavitatakse teid esimesena (kaasa arvatud Fanise järgmine, mis on töös!).
 

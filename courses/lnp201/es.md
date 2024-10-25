@@ -637,7 +637,7 @@ Por último, el futuro de Bitcoin es prometedor con una posible proyección de u
 ¡Has completado el curso LN 201 - Introducción a Lightning Network!
 Puedes estar orgulloso de ti mismo porque no es fácil. Sepa que son pocas las personas que bajan tan profundo en la madriguera de Bitcoin.
 
-En primer lugar, un gran agradecimiento a Fanis Makalakis por ofrecernos este gran curso gratuito sobre un aspecto más étnico de Lightning. No dudes en seguirlo en Twitter, en su blog o a través de su trabajo en LN market.
+En primer lugar, un gran agradecimiento a Fanis Michalakis por ofrecernos este gran curso gratuito sobre un aspecto más étnico de Lightning. No dudes en seguirlo en Twitter, en su blog o a través de su trabajo en LN market.
 
 Luego, si desea ayudar al proyecto, no dude en patrocinarnos en Patreon. Sus donaciones se utilizarán para producir contenido para nuevos cursos y, por supuesto, serán los primeros en ser informados (¡incluyendo el próximo de Fanis que está en proceso!).
 

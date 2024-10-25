@@ -610,7 +610,7 @@ Selamat! 🎉
 Anda telah menyelesaikan pelatihan LN 201 - Pengenalan ke Lightning Network!
 Anda patut bangga pada diri sendiri karena ini bukanlah hal yang mudah. Ketahuilah bahwa hanya sedikit orang yang menggali lebih dalam ke lubang kelinci Bitcoin.
 
-Pertama-tama, terima kasih banyak kepada Fanis Makalakis karena telah menawarkan kursus gratis yang hebat ini tentang aspek etnis Lightning. Jangan ragu untuk mengikutinya di Twitter, di blognya, atau melalui pekerjaannya di pasar LN.
+Pertama-tama, terima kasih banyak kepada Fanis Michalakis karena telah menawarkan kursus gratis yang hebat ini tentang aspek etnis Lightning. Jangan ragu untuk mengikutinya di Twitter, di blognya, atau melalui pekerjaannya di pasar LN.
 
 Kemudian, jika Anda ingin membantu proyek ini, jangan ragu untuk mensponsori kami di Patreon. Donasi Anda akan digunakan untuk memproduksi konten untuk kursus pelatihan baru dan tentu saja, Anda akan menjadi yang pertama untuk diinformasikan (termasuk untuk kursus berikutnya dari Fanis yang sedang dalam pengerjaan!).
 

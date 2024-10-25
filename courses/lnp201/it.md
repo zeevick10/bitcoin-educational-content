@@ -614,7 +614,7 @@ Congratulazioni! 🎉
 Hai completato il corso LN 201 - Introduzione a Lightning Network!
 Puoi essere fiero di te perché non è facile. Sappi che poche persone scendono così in profondità nella tana del Bitcoin.
 
-Innanzitutto, un grande ringraziamento a Fanis Makalakis per averci offerto questo fantastico corso gratuito su un aspetto più etnico di Lightning. Non esitare a seguirlo su Twitter, sul suo blog o tramite il suo lavoro presso LN market.
+Innanzitutto, un grande ringraziamento a Fanis Michalakis per averci offerto questo fantastico corso gratuito su un aspetto più etnico di Lightning. Non esitare a seguirlo su Twitter, sul suo blog o tramite il suo lavoro presso LN market.
 
 Inoltre, se desideri aiutare il progetto, non esitare a sponsorizzarci su Patreon. I tuoi doni saranno utilizzati per produrre contenuti per nuovi corsi e ovviamente sarai il primo a essere informato (compresa la prossima di Fanis che è in preparazione!).
 
