@@ -65,6 +65,9 @@ Klar til å begi deg ut på dette fengslende eventyret? La oss dykke sammen inn 
 <partId>aa99ef2c-da29-5317-a533-2ffa4f66f674</partId>
 
 ## Forklaring av Mining
+
+<chapterId>36a82de7-87ee-5e7a-b69e-48fc30030447</chapterId>
+
 ### Mining Forklart: Puslespillanalogien
 
 For å forklare konseptet med mining på en forenklet måte, kan en relevant analogi brukes: den om et puslespill. Akkurat som et puslespill, er mining en kompleks oppgave å utføre, men enkel å verifisere når den er fullført. I konteksten av Bitcoin-mining, streber minerne etter å raskt løse et digitalt puslespill. Den første miner som løser puslespillet, presenterer sin løsning for hele nettverket, som da enkelt kan verifisere gyldigheten. Denne vellykkede verifiseringen tillater mineren å validere en ny blokk og legge den til i Bitcoin Timechain. Som anerkjennelse for deres arbeid, som innebærer betydelige kostnader, blir mineren belønnet med et visst antall bitcoins. Denne belønningen fungerer som en økonomisk insentiv for minerne til å fortsette sitt arbeid med å validere transaksjoner og sikre Bitcoin-nettverket.
@@ -120,7 +123,9 @@ For eksempel, hvis et basseng finner en blokk og vinner 6,25 bitcoins, ville en 
 
 I konteksten av Bitcoin-gruvedrift er rollen til programvare like avgjørende som maskinvare. Et eksempel på dette er illustrert ved rollen til Bitmain, en produktiv produsent som utviklet Antminer S9. I tillegg til gruveutstyr, er industrien sterkt avhengig av samarbeidende gruvebassenger, som Brainspool, som kontrollerer omtrent 5% av den globale hashraten til Bitcoin-nettverket.
 Aktørene i denne industrien søker konstant å øke effektiviteten gjennom maskinvare og programvare. For eksempel er et populært programvare brukt i denne sammenhengen BrainsOS Plus. Denne programvaren erstatter gruvemaskinens originale operativsystem, slik at de samme operasjonene kan utføres mer effektivt. Med slik programvare kan en gruvearbeider øke effektiviteten til maskinen sin med 25%. Dette betyr at for en tilsvarende mengde elektrisitet, kan maskinen produsere en ekstra 25% av hashrate, og dermed øke belønningene mottatt av gruvearbeideren. Denne programvareoptimaliseringen er et essensielt element av konkurranseevne i Bitcoin-gruvedrift, og demonstrerer viktigheten av en integrert tilnærming som kombinerer både maskinvare- og programvareforbedringer for å maksimere effektivitet og avkastning.
+
 ### Regulering og Elektrisitetstariffer
+
 Som observert i Kina og andre steder, har regulering en betydelig innflytelse på mining. Selv om det ikke er betydelige minere i Frankrike, er regulering og høye elektrisitetstariffer i Europa store hindringer. Minere søker konstant etter billig elektrisitet for å maksimere sine profitter. Derfor tiltrekker ikke den høye kostnaden for elektrisitet i Europa og Frankrike minere til disse regionene.
 
 Minere har en tendens til å trekkes mot regioner med lave elektrisitetstariffer, ofte i fremvoksende land eller land med energioverskudd. For eksempel er en stor del av den globale hashraten lokalisert i Texas, USA. Texas har et uavhengig strømnett som ikke deler sine energiressurser med andre stater. Denne unikheten fører ofte til at Texas produserer mer elektrisitet enn nødvendig for å unngå mangel, noe som skaper et overskudd. Bitcoin-minere tar fordel av denne overproduksjonen ved å etablere operasjoner i Texas, hvor de kan mine bitcoins til svært lave elektrisitetspriser i perioder med energioverskudd. Denne situasjonen demonstrerer den betydelige innflytelsen av reguleringer og elektrisitetstariffer på Bitcoin-mining, og understreker viktigheten av disse faktorene i minernes beslutningsprosess angående plasseringen av deres miningoperasjoner.
@@ -142,6 +147,7 @@ Reguleringsrisiko Det understrekes at hvis et land som USA skulle bestemme seg f
 ![bilde](assets/overview/foundry.webp)
 
 For å bekjempe denne sentraliseringen diskuteres ulike strategier:
+
 - Hjemmeutvinning: Ideen om hjemmeutvinning er basert på desentraliseringen av utvinningsaktivitet. Det oppmuntrer enkeltpersoner til å delta i utvinning fra sine hjem, og distribuerer dermed hashraten mer bredt.
 - Stratum V2: Stratum V2-protokollen tilbyr en annen tilnærming. I motsetning til sin forgjenger, tillater Stratum V2 at gruvearbeidere kan velge hvilke transaksjoner de vil inkludere i blokkene de utvinner. Denne evnen styrker motstanden mot sensur og reduserer evnen store gruvebassenger har til å dominere nettverket. Ved å gi mer makt til individuelle gruvearbeidere, kan Stratum V2-protokollen spille en avgjørende rolle i kampen mot sentralisering av hashrate.
   Åpen kildekode for gruveprogramvare
@@ -221,6 +227,7 @@ Proof of Work (PoW) er essensielt fordi det representerer den fysiske koblingen 
 ![bilde](assets/overview/POWPOS.webp)
 
 ### Begrensningene ved Proof of Stake
+
 På den andre siden, selv om Proof of Stake (PoS) tillater deltakelse i liten skala, garanterer det ikke tilsvarende beskyttelse mot sentralisering. I et PoS-nettverk har de som allerede holder en stor mengde av valutaen uforholdsmessig stor makt, noe som reflekterer eksisterende maktulikheter i samfunnet for øvrig. Denne dynamikken kan potensielt videreføre sentralisering og konsentrasjon av makt i hendene på noen få, i strid med de grunnleggende distribusjonsmålene til Bitcoin-nettverket. Argumentet om at alle kan delta i PoS, selv i liten skala, ved å bli med i grupper, er ikke nødvendigvis robust. I et PoW-nettverk kan selv en liten bidragsyter, med beskjeden utstyr, aktivt delta og bidra til sikkerheten og distribusjonen av nettverket.
 
 ### Oppsummering
@@ -242,7 +249,9 @@ Denne situasjonen illustrerer også Bitcoins motstandsdyktighet, ofte vurdert ba
 ![bilde](assets/overview/pricevshashrate.webp)
 
 ### Hash Rate og Belønning
+
 Mining etablerer en bunnpris for Bitcoin, under hvilken gruvearbeidere ville selge med tap. Kostnaden ved gruvedrift påvirker prisen betydelig, som illustrert av forbudet mot gruvedrift i Kina, der hash-raten og prisen falt betydelig, men ble raskt gjenvunnet. Å fokusere utelukkende på prisen kan være misvisende. Å studere kostnaden, via lønnsomhetskalkulatorer, tilbyr et mer balansert perspektiv. Markedet kan imidlertid oppføre seg irrasjonelt, med gruvearbeidere som potensielt blir tvunget til å selge med tap, noe som potensielt kan senke prisen under gruvedriftskostnaden. For å vurdere helsen til Bitcoin og dets desentralisering, kunne en ligning som inkorporerer ulike faktorer, som antall noder og prisen, utvikles. Denne tilnærmingen kunne tilby en mer nyansert analyse av Bitcoin sammenlignet med diskusjoner basert utelukkende på pris.
+
 ### Gruvedrift for profitt eller for nettverket?
 
 Spørsmålet er dyptgående og omfatter flere dimensjoner av Bitcoin-gruvedrift. Balansen mellom å søke profitt og bidra til sikkerheten og distribusjonen av Bitcoin-nettverket er et konstant dilemma for gruvearbeidere. Debatten fortsetter i Bitcoin-samfunnet, med sterke argumenter på hver side.
@@ -264,6 +273,7 @@ Attakai-initiativet fremhever viktigheten av å bidra til nettverket samtidig so
 <chapterId>9d9a5908-2acc-501e-906b-a6fce9ecfebd</chapterId>
 
 ### Suverenitet før profitt?
+
 For å ta for oss det kritiske spørsmålet om rikdom gjennom gruvedrift, er det viktig å vurdere ulike perspektiver og tilnærminger. Spørsmål om lønnsomheten av gruvedrift er vanlige, med forespørsler rundt kjøp av aksjer i selskaper som Riot eller leasing av gruvedriftsmaskiner i land med lave energikostnader som Island eller Russland. Før man begir seg ut på gruvedrift, ville en nøkkelvurdering være å sammenligne lønnsomheten av gruvedrift med direkte kjøp av Bitcoin. Hvis kostnaden ved å utvinne en Bitcoin overstiger kostnaden ved å kjøpe den direkte, er det generelt klokere å kjøpe Bitcoin direkte. Dette unngår de mange utfordringene og kostnadene forbundet med gruveprosessen.
 
 Likevel tilbyr gruvedrift unike måter å involvere seg i Bitcoin-økosystemet på. For eksempel kan gruvedrift av Bitcoin om vinteren være en smart måte å varme opp hjemmet ditt på mens du genererer Bitcoin-inntekter. En annen mulighet er å investere i selskaper som selger gruvedriftsutstyr og lagrer og håndterer maskinene på steder med lave energikostnader, noe som gir tilgang til gunstige strømpriser uten bryet med å håndtere utstyret.
@@ -281,6 +291,7 @@ Muligheten for å utvinne virgin bitcoins samtidig som man unngår Know Your Cus
 I denne konteksten virker det klokt å velge en autonom og opplyst tilnærming til gruvedrift. Å skaffe sin egen hashrate og investere i personlig gruvedriftsutstyr, samtidig som man er klar over risikoene og utfordringene, kan potensielt tilby en tryggere og mer tilfredsstillende vei til å skaffe virgin bitcoins, og dermed styrke den finansielle suvereniteten til individet samtidig som man støtter Bitcoin-økosystemet som helhet.
 
 ### Er gruvedrift forbudt i Europa?
+
 Med spørsmålet om et potensielt forbud mot gruvedrift i Europa, blir diskusjoner om regulering stadig mer relevante. Det skiftende reguleringslandskapet kan faktisk ha en betydelig innflytelse på Bitcoin-gruvedriftsindustrien. Et forbud mot gruvedrift i Europa er et tenkelig scenario, spesielt med tanke på presedenser i Kina. Selv om gruvedriftsoperasjoner fortsetter i Kina til tross for forbudet, kan Europa følge en lignende vei. En bredere distribusjon av hashraten over forskjellige regioner kunne hjelpe med å styrke gruvesamfunnet i Europa, slik at de effektivt kan motvirke misforståelser og feiloppfatninger om gruvedrift, dens miljøpåvirkning og fotavtrykk på strømnettet.
 ![bilde](assets/overview/regulation.webp)
 
@@ -329,6 +340,7 @@ Oppsummert produserer både en elektrisk radiator og en Bitcoin-miner 1 kW varme
 Det som er viktig å forstå, er hvordan mining bidrar til desentraliseringen av Bitcoin.
 Flere eksisterende teknologier har blitt genialt kombinert for å bringe Nakamotos konsensus til liv. Denne konsensusen økonomisk belønner ærlige deltakere for deres bidrag til driften av Bitcoin-nettverket, samtidig som den avskrekker uærlige deltakere. Dette er et av nøkkelpunktene som lar nettverket eksistere bærekraftig.
 Ærlige aktører, de som miner i henhold til reglene, konkurrerer alle med hverandre for å oppnå den største mulige andelen av belønningen for å produsere nye blokker. Denne økonomiske insentiven fører naturlig til en form for sentralisering ettersom selskaper velger å spesialisere seg på denne lukrative aktiviteten ved å redusere kostnadene gjennom stordriftsfordeler. Disse industrielle aktørene har en fordelaktig posisjon for å kjøpe og vedlikeholde maskiner, samt forhandle om engrospriser på elektrisitet.
+
 > I begynnelsen ville de fleste brukere kjøre nettverksnoder, men etter hvert som nettverket vokser utover et visst punkt, ville det bli overlatt mer og mer til spesialister med serverfarmer av spesialisert maskinvare. En serverfarm ville bare trenge å ha en node på nettverket, og resten av LAN kobler seg til den noden.
 > Satoshi Nakamoto - 2. november 2008
 
@@ -397,6 +409,7 @@ Etter å ha gjennomgått alle disse punktene, kan du kjøpe maskinen din med hø
 
 For å oppsummere denne veiledningen i én setning: **"Ikke stol, verifiser."**
 [Du kan også henvende deg til profesjonelle innen rekonstruksjon av gruveutstyr, som vår partner 21energy. De tilbyr testede S9-maskiner, rengjort og med BraiiinOS+ programvare allerede installert. Med affiliatekoden "decouvre" vil du motta en 10% rabatt på kjøpet av en S9 samtidig som du støtter Attakai-prosjektet.](https://21energy.io/en/produkt/bitmain-antminer-s9-bundle/)
+
 ## Guide for kjøp av maskinvaremodifikasjoner for S9
 
 <chapterId>fa5f5eca-bcbf-5a83-9b03-98ecbadbabd6</chapterId>
@@ -426,8 +439,8 @@ I stedet for å bruke en Ethernet-kabel, kan du koble din Antminer via WIFI ved 
 ![bilde](assets/piece/7.webp)
 
 3. Valgfritt: legg til en smart plugg
-Hvis du ønsker å slå på/av din Antminer fra smarttelefonen din og overvåke strømforbruket, kan du legge til en smartplugg. Vi testet ANTELA-pluggen i 16A-versjonen, kompatibel med smartlife-appen. Denne smartpluggen lar deg se daglig og månedlig strømforbruk og kobler seg direkte til internett-ruteren din via WiFi.
-![bilde](assets/piece/8.webp)
+   Hvis du ønsker å slå på/av din Antminer fra smarttelefonen din og overvåke strømforbruket, kan du legge til en smartplugg. Vi testet ANTELA-pluggen i 16A-versjonen, kompatibel med smartlife-appen. Denne smartpluggen lar deg se daglig og månedlig strømforbruk og kobler seg direkte til internett-ruteren din via WiFi.
+   ![bilde](assets/piece/8.webp)
 
 Liste over utstyr og lenker
 
@@ -441,6 +454,7 @@ Liste over utstyr og lenker
 - [Elektrikerens sukker 2.5mm2](https://www.amazon.fr/Legrand-LEG98433-Borne-raccordement-Nylbloc/dp/B00BBHXLYS/ref=sr_1_3?__mk_fr_FR=ÅMÅŽÕÑ&crid=25IRJD7A0YN2A&keywords=sucre%2Belectrique%2B2mm2&qid=1676820815&sprefix=sucre%2Belectrique%2B2mm2%2Caps%2C84&sr=8-3&th=1)
 - [Vonets vap11g-300](https://www.amazon.fr/Vonets-VAP11G-300-Bridge-convertit-Ethernet/dp/B014SK2H6W/ref=sr_1_3_sspa?__mk_fr_FR=ÅMÅŽÕÑ&crid=13Q33UHRKCKG5&keywords=vonet&qid=1676819146&s=electronics&sprefix=vonet%2Celectronics%2C98&sr=1-3-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1)
 - [Valgfri ANTELA smart plugg](https://www.amazon.fr/dp/B09YYMVXJZ/ref=twister_B0B5X46QLW?_encoding=UTF8&psc=1)
+
 # Attakai - Modifisering av programvaren til en Antminer S9
 
 <partId>afc9c29a-84aa-5f1d-82e2-5fd9ff2e1805</partId>
@@ -552,7 +566,7 @@ På denne første siden kan du observere maskinens sanntidsytelse.
 - Tre sanntidsgrafer som viser temperaturen, hashraten og den generelle statusen til maskinen din.
 - På høyre side, den reelle hashraten, gjennomsnittlig chip-temperatur, estimert effektivitet i W/THs, og strømforbruk.
 - Nedenfor, viftehastigheten som en prosentandel av maksimal hastighet og antall rotasjoner per minutt.
-![image](assets/software/15.webp)
+  ![image](assets/software/15.webp)
 
 - Lenger ned, vil du finne en detaljert visning av hvert hashbord. Gjennomsnittstemperaturen på brettet og brikkene det inneholder, samt spenningen og frekvensen.
 - Detaljer om de aktive gruvebassengene i Pools.
@@ -755,6 +769,8 @@ Resultatet er en høyere hash rate per watt elektrisitet, noe som betyr større 
 <isCourseReview>true</isCourseReview>
 
 ## Kontrollere en Antminer S9 fra smarttelefonen din
+
 ### Opprette snarveier på iOS
 
 ![Kontrollere en Antminer S9 med smarttelefonen din](https://www.youtube.com/watch?v=OsKmdB2iw88&t=60s)
+

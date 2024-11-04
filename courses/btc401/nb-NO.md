@@ -145,6 +145,7 @@ El Salvadors adopsjon av Bitcoin reflekterer dets potensial som et verktøy for 
 El Salvadors omfavnelse av Bitcoin fremmer et mer inkluderende, konkurransedyktig og sikkert finanssystem, og utfordrer begrensningene til tradisjonell finans.
 
 #### Konklusjon
+
 Bitcoin sine grunnlag i **Cypherpunk-bevegelsen** og **østerriksk økonomi** gjør det til en unik og revolusjonerende form for penger. Å forstå disse prinsippene hjelper i å forstå hvorfor Bitcoin ble skapt og hvordan det fungerer i dag. For videre lesning, vurder **The Bitcoin Standard** av **Saifedean Ammous**.
 Takk for at du engasjerer deg med dette materialet!
 
@@ -162,7 +163,6 @@ I den første forelesningen av 'Hvordan Bitcoin'-kurset, begynte vi å utforske 
 
 ![video](https://youtu.be/UkwbPVhLeIk)
 I løpet av den andre forelesningen av 'Hvordan Bitcoin', gjennomførte vi en mer inngående undersøkelse av Bitcoins teknologistabel.
-
 
 ### Bitcoin-struktur
 
@@ -241,6 +241,7 @@ En annen viktig distinksjon er at **Bitcoin** ble skapt med det eneste formålet
 ### Energiforbruk og Miljøpåvirkning
 
 En av de mest vanlige kritikkene av Bitcoin er dets **energiforbruk**. Selv om Bitcoin-mining bruker energi, står det for mindre enn 1% av det globale elektrisitetsforbruket og mindre enn 3% av bortkastet energi. Videre benytter **Bitcoin-mining** ofte ubrukte eller fornybare energikilder, noe som gjør det grønnere enn ofte fremstilt.
+
 > **Definisjoner:**
 >
 > - _Bitcoin Mining:_ Prosessen med å validere transaksjoner og sikre nettverket ved å løse kryptografiske puslespill, noe som krever beregningskraft.
@@ -298,7 +299,7 @@ Ved å kjøre Bitcoin Core, får du muligheten til å:
 - **Bruke avanserte lommebokfunksjoner**: Administrere dine Bitcoin med personvern og sikkerhet, generere private nøkler offline og signere transaksjoner sikkert.
 - **Interagere direkte med Bitcoin-nettverket**: Ved å bruke Bitcoin Core kan du koble direkte til nettverket uten mellommenn, noe som sikrer at du får de mest nøyaktige dataene.
 - **Dra nytte av økt personvern**: Som en full node-operatør trenger du ikke å stole på eksterne tjenester, noe som beskytter transaksjonsprivatlivet ditt fra ekstern overvåking.
-Fordelene med å kjøre en Bitcoin-node er betydelige for enhver dedikert Bitcoin-entusiast. Ikke bare hjelper du med å sikre nettverket og forsterke dets desentralisering, men du forbedrer også ditt eget personvern, sikrer integriteten til dine egne transaksjoner, og tar en proaktiv rolle i Bitcoin-økosystemet. Å kjøre en node er et nøkkelsteg for å oppnå finansiell suverenitet og fullt ut omfavne Bitcoins desentraliserte natur.
+  Fordelene med å kjøre en Bitcoin-node er betydelige for enhver dedikert Bitcoin-entusiast. Ikke bare hjelper du med å sikre nettverket og forsterke dets desentralisering, men du forbedrer også ditt eget personvern, sikrer integriteten til dine egne transaksjoner, og tar en proaktiv rolle i Bitcoin-økosystemet. Å kjøre en node er et nøkkelsteg for å oppnå finansiell suverenitet og fullt ut omfavne Bitcoins desentraliserte natur.
 
 ### Grunnleggende Kommandoer
 
@@ -408,6 +409,7 @@ WantedBy=multi-user.target
 
 **Opprett og Konfigurer Bitcoin-bruker og Kataloger**
 Opprett en dedikert bruker og sett opp kataloger for Bitcoin Core.
+
 ```sh
 sudo adduser --disabled-login --gecos "" bitcoin
 sudo mkdir -p /var/lib/bitcoind
@@ -512,7 +514,9 @@ sudo mkdir -p /var/lib/lightning
 sudo chown bitcoin:bitcoin /var/lib/lightning
 sudo -u bitcoin nano /var/lib/lightning/config
 ```
+
 Legg til følgende linjer i konfigurasjonsfilen:
+
 ```ini
 network=testnet
 log-level=debug
@@ -672,11 +676,9 @@ Dette avslutter vår forelesning om sikkerhet og oppsett av enheter for Bitcoin 
 
 ![video](https://youtu.be/Vlm2ZdxcidA)
 
-
 I løpet av mer enn et tiår har Bitcoin vist seg å være en transformerende innovasjon i finansverdenen, med suksessfull drift på global skala og åpning av nye muligheter i den digitale økonomien. Likevel står den overfor utfordringer som krever kreative og samarbeidende løsninger. Den pågående utviklingen av Bitcoin presenterer en unik mulighet for de som er interessert i å forme fremtiden for desentralisert finans.
 
 ![Bilde](assets/en/1/8.webp)
-
 
 #### Åpne Problemer i Brukervennligheten til Bitcoin
 
@@ -704,6 +706,7 @@ Fleksibilitet innenfor Bitcoin-protokollen er nødvendig for å fremme forbedrin
 
 ![Bilde](assets/en/1/7.webp)
 Forsøk på å forbedre Bitcoins brukervennlighet kommer ofte på bekostning av sikkerhet og personvern. For eksempel gir brukervennlige forvaringslommebøker, som Wallet of Satoshi, et tilgjengelig grensesnitt, men kompromitterer betydelig på sikkerhet og personvern. Forenklede systemer kan øke brukervennligheten, men kan føre til problemer som adressegjenbruk, som undergraver personvernet. Derfor må eventuelle forbedringer i brukervennlighet nøye vurderes mot potensielle sikkerhets- og personvernkonsekvenser.
+
 #### Skalerbarhet og Personvernkonsekvenser
 
 Skalerbarhet og personvern er ofte i konflikt i Bitcoin-nettverket. Forbedringer som øker skalerbarheten, som større UTXOer eller redusert kryptografisk forvirring, reduserer generelt personvernet. På den annen side forbedrer personvernfokuserte teknikker som Moneros ring signaturer brukerens anonymitet, men har negativ innvirkning på skalerbarheten. Videre tilbyr introduksjonen av tilstandsfulle kontrakter, som sett i Ethereum, økt fleksibilitet på bekostning av redusert sikkerhet og skalerbarhet. Å balansere disse avveiningene er en kompleks utfordring som krever nøye vurdering.
@@ -776,6 +779,7 @@ Et klassisk eksempel på pålitelighetsingeniørarbeid kan spores tilbake til de
 I motsetning til pålitelighet, håndterer sikkerhet bevisste trusler. For eksempel gir en 256-bits kryptografisk nøkkel en matematisk garanti for sikkerhet på grunn av umuligheten av å brute-force den. Sikkerhetstiltak må ta hensyn til forskjellige trusselmodeller, fra fysisk manipulering til sofistikerte cyberangrep.
 
 ### Virkelige Anvendelser
+
 Vurder prosessen med å lage og lagre Bitcoin-nøkler ved hjelp av papirlommebøker. Selv om papirlommebøker kan være sikre, er de utsatt for fysisk skade og manipulering. Å sikre integriteten til slike lommebøker krever manipulasjonssikre metoder og robuste verifiseringsprotokoller.
 I et annet scenario, forestill deg en flyplasstransport der en sjåfør bruker en hemmelig kode for å autentisere passasjeren. Denne enkle, men effektive sikkerhetstiltaket forhindrer bedragere i å lure begge parter.
 
@@ -928,6 +932,7 @@ Ved å mestre disse konseptene og holde seg til beste praksis, vil du være godt
 Bitcoin er en digital valuta som opererer på et konsensusprotokoll, et sett med regler enige om av nettverksdeltakerne for å sikre uniformitet og funksjonalitet. I sin kjerne er Bitcoin en desentralisert hovedbok kjent som en blokkjede, hvor transaksjoner blir registrert og verifisert av nettverksnoder. Fullnoder, som lagrer hele historikken til Bitcoin-blokkjeden, spiller en avgjørende rolle i å opprettholde integriteten til denne hovedboken. Andre typer noder, som arkivnoder, beskårne noder, og SPV (Simplified Payment Verification) noder, bidrar også til nettverket på ulike måter. Konsensusprotokollen sikrer at alle disse nodene er enige om tilstanden til blokkjeden, noe som gjør Bitcoin robust mot sensur og svindel.
 
 #### Forhindre Endringer
+
 Styring i Bitcoin er avgjørende for å forhindre vilkårlige eller ondsinnede endringer i protokollen. Dette oppnås gjennom en konsensusmekanisme som krever bred enighet blant fellesskapet. Utviklere med programmeringskunnskap spiller en betydelig rolle i å foreslå endringer, men disse endringene må aksepteres av det bredere fellesskapet for å bli implementert.
 Bitcoin Core og alternative implementeringer har vedlikeholdere som overvåker utviklingen og vedlikeholdet av programvaren. Disse vedlikeholderne er ansvarlige for å flette kodeendringer, og sikre at de overholder konsensusreglene og ikke introduserer sårbarheter.
 
@@ -1009,6 +1014,7 @@ Adam Gibson bryter ned de ulike komponentene i en Bitcoin-node. Kapittelet fokus
 
 ![nodes network](assets/en/3/18.webp)
 **MERK**: Mempool er et midlertidig lagringsområde for transaksjoner som har blitt validert, men ikke ennå inkludert i en blokk.
+
 ### Node-komponenter
 
 #### Bitcoin Core-moduler
@@ -1075,7 +1081,9 @@ Noder må nøye håndtere sine peer-tilkoblinger for å sikre at de ikke kobler 
 #### Viktigheten av UTXO-settet
 
 UTXO-settet representerer den nåværende tilstanden til Bitcoin, og lister alle ubrukte transaksjonsutganger. Det er avgjørende for å validere transaksjoner og sikre at mynter ikke blir brukt mer enn én gang. Å holde dette settet lite og lett tilgjengelig er viktig for å opprettholde effektiviteten til nettverket.
+
 #### Konklusjon
+
 Å kjøre en Bitcoin-node er en kraftfull måte å delta i Bitcoin-nettverket på, som gir deg muligheten til å verifisere transaksjoner, opprettholde personvern, og bidra til sikkerheten og desentraliseringen av blokkjeden. Enten du velger å kjøre en full node eller tilpasse oppsettet ditt ved å beskjære blokkjeden eller deaktivere visse komponenter, vil forståelsen av de grunnleggende funksjonene og sikkerhetshensynene til en Bitcoin-node sette deg i stand til å ta informerte beslutninger og bidra til den pågående utviklingen av Bitcoin.
 
 ## Bitcoins Datastrukturer
@@ -1146,7 +1154,9 @@ Hver transaksjon i en Bitcoin-blokk inneholder følgende:
 ![TxOut-struktur](assets/en/3/5.webp)
 
 #### Parsingsteknikker
+
 I Rust kan vi bruke ulike teknikker for å parse disse strukturene:
+
 - Bruk `from_le_bytes` for å lese Little Endian data.
 - Implementer en egendefinert `parse` trait for å håndtere parsinglogikken for forskjellige strukturer.
 
@@ -1255,7 +1265,9 @@ impl OutPoint {
 ```
 
 #### Script Parsing Strategi
+
 For å analysere skript i transaksjoner, vil vi fokusere på vanlige opkoder som `OP_CHECKSIG`, `OP_HASH160` og `OP_PUSH`. Å parse disse skriptene er avgjørende for å validere transaksjoner og håndtere feil.
+
 ```Rust
 enum OpCode {
     False,
@@ -1340,6 +1352,7 @@ For konsensuskritiske applikasjoner, anbefales det å bruke eksisterende bibliot
 
 - Minere starter å mine tomme blokker for å spare tid.
 - Tomme blokker kan utvinnes raskt før man bytter til en full blokk når den forrige blokken er bekreftet.
+
 #### Grunner til Utvinning av Tomme Blokker
 
 Tomme blokker blir noen ganger utvunnet på grunn av tidsproblemer. Gravere (miners) har kanskje ikke mottatt den fullstendige listen over transaksjoner innen de starter utvinningen av neste blokk, så de velger å utvinne en tom blokk i stedet.
@@ -1398,7 +1411,9 @@ Bitcoin Core er den mest brukte implementasjonen av en fullstendig node. Den utf
 ![cli-gui](assets/en/3/13.webp)
 
 ##### Utforsking av Bitcoin Core
+
 For å få praktisk erfaring med Bitcoin Core, kan man kompilere og kjøre tester ved hjelp av Git. Denne prosessen innebærer:
+
 - Kompilering av kodebasen for å lage en kjørbar versjon. [bitcoin github](https://github.com/bitcoin/bitcoin) tilgang til doc/build-\*.md for instruksjoner.
 
 ```Bash
@@ -1476,8 +1491,9 @@ Uavhengig av type, utfører hver Bitcoin-lommebok tre grunnleggende funksjoner:
 3. **Vise Saldo**: Viser den nåværende saldoen i lommeboken.
 
 #### Rollen til Bitcoin-lommebøker
+
 - Bitcoin-lommebøker fungerer som nøkkelknipper, som holder og genererer kryptografiske nøkler.
-![keychain](assets/en/3/15.webp)
+  ![keychain](assets/en/3/15.webp)
 
 - De overvåker blockchain for innkommende transaksjoner.
 
@@ -1558,6 +1574,7 @@ use bdk::wallet::AddressIndex;
     let client = Client::new("ssl://electrum.blockstream.info:60002")?;
     let blockchain = ElectrumBlockchain::from(client);
 ```
+
 ```rust
 //synkroniser lommeboken med blokkjeden mottatt
 wallet.sync(&blockchain, SyncOptions::default())?;
@@ -1622,18 +1639,24 @@ BDK er avhengig av flere nøkkelavhengigheter, inkludert Rust-Bitcoin og Rust-Mi
 
 Ved å forstå disse komponentene, fra Bitcoin-noder og lommebøker til Bitcoin Development Kit (BDK), kan du navigere i Bitcoin-økosystemet med større selvtillit og kompetanse. Denne kunnskapen gir deg muligheten til å utvikle robuste og sikre Bitcoin-applikasjoner, og bidrar til den pågående utviklingen av denne revolusjonerende teknologien.
 
-
 # Lightning Network
 
 ## Historien om Betalingskanaler
 
-Velkommen til vår forelesning om moderne betalingsløsninger innen blokkjedeteknologi. I dag vil vi utforske den historiske konteksten og nøkkelutviklingene av multi-hop låser (MHLs) og Lytle Network.
+<chapterId>a0b11c6e-c0ff-5e65-b809-b2ab9a2fc37b</chapterId>
+<professor>best-lion</professor>
+
+![Video](https://youtu.be/VtpbCspK5T4)
+
+Velkommen til vår forelesning om moderne betalingsløsninger innen blokkjedeteknologi. I dag vil vi utforske den historiske konteksten og nøkkelutviklingene av multi-hop låser (MHLs) og Lightning Network.
+
 #### Oversikt og Historisk Kontekst
-Multi-hop låser (MHLs) og Lytle-nettverket er avanserte konsepter i blokkjedeteknologi som legger til rette for effektive og sikre mikrobetalinger på tvers av nettverket. Historisk sett oppsto behovet for disse innovasjonene fra ineffektiviteten og begrensningene som ble observert i den første implementeringen av blokkjedeteknologier, spesielt Bitcoin. Når vi går dypere inn, vil du forstå hvordan tema-baserte strukturer og lagdelte tilnærminger har revolusjonert blokkjedetransaksjoner.
+
+Multi-hop låser (MHLs) og Lightning-nettverket er avanserte konsepter i blokkjedeteknologi som legger til rette for effektive og sikre mikrobetalinger på tvers av nettverket. Historisk sett oppsto behovet for disse innovasjonene fra ineffektiviteten og begrensningene som ble observert i den første implementeringen av blokkjedeteknologier, spesielt Bitcoin. Når vi går dypere inn, vil du forstå hvordan tema-baserte strukturer og lagdelte tilnærminger har revolusjonert blokkjedetransaksjoner.
 
 ### Tema-Basert Struktur
 
-Introduksjonen av MHLs og Lytle-nettverket markerer et paradigmeskifte fra tradisjonelle, lineære blokkjedetransaksjoner til mer sofistikerte, flerlags systemer. Ved å inndele transaksjoner i spesifikke temaer eller segmenter, muliggjør disse innovasjonene en mer skalerbar og sikker betalingsinfrastruktur som adresserer mange av de iboende problemene i tidlige blokkjedeimplementasjoner.
+Introduksjonen av MHLs og Lightning-nettverket markerer et paradigmeskifte fra tradisjonelle, lineære blokkjedetransaksjoner til mer sofistikerte, flerlags systemer. Ved å inndele transaksjoner i spesifikke temaer eller segmenter, muliggjør disse innovasjonene en mer skalerbar og sikker betalingsinfrastruktur som adresserer mange av de iboende problemene i tidlige blokkjedeimplementasjoner.
 
 ### Problemer med Bitcoin
 
@@ -1655,7 +1678,7 @@ Til tross for den utenfor-kjeden naturen til betalingskanaler, forblir mulighete
 
 Betalingskanaler representerer et betydelig fremskritt i blokkjedeteknologi, og tilbyr en skalerbar og sikker metode for å gjennomføre transaksjoner samtidig som mange av de grunnleggende problemene assosiert med Bitcoin adresseres. Ettersom vi fortsetter å innovere og bygge på disse grunnlagene, ser fremtiden for blokkjede stadig mer lovende ut.
 
-Avslutningsvis gir forståelsen av den historiske konteksten og utfordringene til Bitcoin, og de innovative løsningene foreslått gjennom MHLs, Lytle-nettverket, og betalingskanaler, et omfattende syn på det nåværende landskapet og fremtidspotensialet til blokkjedeteknologi.
+Avslutningsvis gir forståelsen av den historiske konteksten og utfordringene til Bitcoin, og de innovative løsningene foreslått gjennom MHLs, Lightning-nettverket, og betalingskanaler, et omfattende syn på det nåværende landskapet og fremtidspotensialet til blokkjedeteknologi.
 
 ## Historien om Atomisk Ruting
 
@@ -1702,7 +1725,9 @@ Mellomledd som Diana og Carol er incentivert til å handle korrekt innen nettver
 Men, flere hopp i betalingsruten kan øke latens, gebyrer og potensiell upålitelighet. Å åpne flere kanaler kan bidra til å redusere antall hopp som kreves for ruting, noe som forbedrer den generelle effektiviteten.
 
 #### Kanalgraf og Likviditet
+
 Noder innen nettverket kan enten være en del av et offentlig annonsert kanalnettverk eller forbli uannonsert. Likviditeten til disse kanalene spiller en avgjørende rolle i effektiv ruting siden noder trenger tilstrekkelige balanser for å videresende betalinger vellykket.
+
 #### Kildebasert Ruting og Personvern
 
 Alice må ha kunnskap om nettverkstopologien for å bestemme betalingsruten. Kildebasert ruting brukes for å bevare personvern til tross for kompleksiteten ved å rute betalinger gjennom flere mellomledd.
@@ -1816,7 +1841,9 @@ Prosessen begynner med at lokale parter utveksler identitets- og kanaldetaljer. 
 Oppdagelse av Lightning-parter blir tilrettelagt av DNS og Bitcoin DNS seed-forespørsler, som gir IP- og nodinformasjon. Denne innledende oppdagelsesmekanismen hjelper noder med å koble seg til nettverket raskt.
 
 #### Funksjonskunngjøringer
+
 Noder kan kringkaste sine støttede funksjoner, noe som sikrer bakoverkompatibilitet samtidig som det tillater valgfrie forbedringer. Denne fleksibiliteten sikrer at alle noder kan samhandle jevnt, selv når protokollen utvikler seg.
+
 #### Håndtering av Bolt11 Fakturaer
 
 Nettverket sikrer unikheten til BOLT 11 fakturaer for å unngå flere betalinger for samme faktura. Hvis en faktura blir gjenbrukt, griper nettverksnoder inn og forhindrer dobbeltbetalinger, og opprettholder dermed transaksjonsintegriteten.
@@ -1871,7 +1898,9 @@ Effektiv likviditetshåndtering er en hjørnestein i vellykkede Lightning Networ
 - Dette representerer mengden Bitcoin en bruker kan sende ut fra sine Lightning-kanaler. Det er avgjørende for å initiere betalinger og sikre at transaksjoner kan rutes til mottakeren.
 
 #### Fjern (Innkommende) Likviditet:
+
 - Dette representerer mengden Bitcoin en bruker kan motta gjennom sine kanaler. Det er like viktig, da det sikrer at andre kan sende betalinger til brukeren.
+
 #### Eksempel på Likviditetsstyring:
 
 ![Eksempel på Likviditet](assets/en/4/10.webp)_Lightning Likviditet_
@@ -1946,7 +1975,9 @@ Nåværende algoritmer for å finne den optimale stien innenfor Lightning-nettve
 #### Inntekter fra Ruting:
 
 Inntekter gjennom rutegebyrer er vanligvis minimale, noe som gjør det mindre attraktivt for individuelle brukere å drive rutenoder for profitt.
+
 #### Ulike Lommebok Eksempler:
+
 - **Blink Wallet**: Basert i El Salvador, forvaltet, krever telefonnummer, har stabile sats, men mangler avanserte Lightning Network-funksjoner.
 - **Blitz Wallet**: Åpen kildekode, selvforvaltet, krever brukerstyrt likviditet, tilbyr omfattende informasjon for strømbrukere.
 - **SwissBitcoinPay**: Designet for handlende, forvaltet opptil 24 timer, minimale gebyrer for brukere med høyt volum.
@@ -1995,6 +2026,7 @@ Utviklere står overfor utfordringen med å implementere sømløs likviditetssty
 - **Mulige Løsninger**: Utviklere utforsker avanserte algoritmer for **likviditetsruting** og bruker **dobbel-finansierte kanaler** for å sikre at likviditet er tilgjengelig på begge ender av en transaksjon.
 
 > **Definisjoner**:
+
 - **Likviditet**: Tilgjengeligheten av midler i en Lightning-kanal for å gjøre eller motta betalinger.
 - **LSP (Lightning Service Provider)**: En tjeneste som hjelper brukere med å håndtere likviditet og kanaler på Lightning-nettverket.
 
@@ -2043,7 +2075,9 @@ Utviklere utforsker måter å tillate brukere å motta Lightning-betalinger selv
 > **Definisjoner**:
 >
 > - **Offline Betalinger**: Betalinger sendt eller mottatt mens en part ikke er koblet til Lightning-nettverket.
+
 - **Forvaringslommebøker**: Lommebøker der en tredjepart kontrollerer de private nøklene og håndterer transaksjoner på vegne av brukeren.
+
 ---
 
 ### Utfordring 4: Sikkerhetskopiering
@@ -2128,6 +2162,7 @@ Konseptualisert av Breeze Wallet, sikter Lightning Service Providers (LSPs) mot 
 **Ressurser for å holde seg oppdatert**
 For å holde seg oppdatert på de siste tekniske innovasjonene i Bitcoin og Lightning-nettverket, er det essensielt å utnytte verdifulle ressurser. Bitcoin OpTec-nyhetsbrevet, lightning dev e-postlisten, og materiale fra bransjeeksperter som Jason Lopp gir innsikt og oppdateringer om de pågående fremskrittene og forskningen på dette raskt utviklende feltet.
 Ved å forstå og sette pris på disse utviklingene, kan vi anerkjenne det mangefasetterte fremgangen og potensialet som både Bitcoin og Lightning Network har for fremtiden til digitale transaksjoner.
+
 ## Protokoller på toppen av LN
 
 <chapterId>f4d147bb-f146-5b36-a994-b9b70da83744</chapterId>
@@ -2171,6 +2206,7 @@ En bemerkelsesverdig integrasjon av Lightning-betalinger er i **Nostr**, en dese
 
 En annen protokoll, **RGB**, utvider ytterligere Lightning's funksjonalitet ved å muliggjøre **overføring av eiendeler** over Lightning Network. RGB tillater overføring av ulike eiendeler, inkludert tokens, over Lightning-kanaler, og utvider omfanget av hva som kan transaksjoneres.
 **Lightning Liquidity Service Providers (LSPs)** spiller også en kritisk rolle i utvidelsen av Lightning-betalinger. LSPs tilbyr likviditet for å motta betalinger, hjelper med å åpne **dobbel-finansierte kanaler**, og sikrer sømløse transaksjoner ved å avskjære betalinger og åpne kanaler på sparket.
+
 > **Definisjoner**:
 >
 > - **LNURL**: Et protokoll som tillater dynamisk fakturaopprettelse, noe som gjør betalinger enklere og mer fleksible.
@@ -2217,7 +2253,9 @@ Utvidelsen og integrasjonen av Lightning-betalinger gjennom ulike protokoller og
 #### Introduksjon
 
 Ajelex fokuserer på forretningsaspektet av Bitcoin-mining, og undersøker strategier for å opprettholde lønnsomhet i et konkurransepreget marked. Diskusjonen inkluderer en analyse av driftskostnader, effektivitetstiltak og økonomien som driver miningindustrien.
+
 ### 1. Gravkompleksitet og Lønnsomhetsfaktorer
+
 #### Tekniske og Strategiske Faktorer
 
 Gravkompleksitet i sammenheng med Bitcoin involverer primært de tekniske og strategiske elementene som bestemmer lønnsomheten av gruveoperasjoner. Det er avgjørende å forstå at gruvedrift ikke bare er et spill av tilfeldigheter, men en sofistikert prosess som krever nøye planlegging og kontinuerlig optimalisering.
@@ -2269,7 +2307,9 @@ Reisen til gruveutstyr har vært monumental, startende fra enkel CPU-gruvedrift 
 ![s19j pro vs antminer s9](assets/en/bonus/mining/2.webp)
 
 #### Gruveeffektivitet og Læring
+
 Mining gir ikke bare økonomiske belønninger, men også verdifull praktisk erfaring. Å skaffe KYC-frie bitcoins gjennom mining kan være et attraktivt forslag for de som er opptatt av personvern.
+
 #### Avanserte Verktøy og Teknikker
 
 Ettermarkedets programvare kan forbedre effektiviteten og funksjonaliteten til mining-utstyr. Verktøy som tilbyr optimalisering og auto-tuning evner sikrer at hver brikke opererer med maksimal effektivitet, balanserer hash rate og strømforbruk effektivt.
@@ -2324,6 +2364,9 @@ Avslutningsvis er verdenen av Bitcoin-mining et komplekst, flerfasett domene som
 Adam Gibson gir innsikt i Joinmarket, og detaljerer hvordan denne CoinJoin-implementeringen forbedrer Bitcoins personvern og fungibilitet. Han diskuterer hvordan Joinmarket muliggjør samarbeidende, tillitsløse og anonyme transaksjoner innenfor Bitcoin-økosystemet. Deretter viser han i en andre del hvordan man kjører Joinmarket i Signet.
 
 ## Cubo+ første års Hackathon
+
+<chapterId>3faf7daa-ea42-5b68-bcaf-04b70b2e02dd</chapterId>
+
 ### Gruppe 1 Hackathon - The Satoshi Legacy
 
 ![Video](https://youtu.be/NiaahH57N1w)

@@ -118,7 +118,7 @@ La oss se på hver enkelt:
 1. **Verdioppbevaring:** Penger fungerer som et middel for å lagre verdi for fremtidig bruk, noe som gjør det mulig for innehaveren å bevare sin kjøpekraft over tid. Ved å gjøre dette, gir det innehaveren muligheten til å spare og planlegge for fremtiden. Gull tjener som et fremragende eksempel på en slik verdioppbevaring, da det i århundrer har vært mulig å kjøpe en anstendig dress med bare en unse.
 2. **Byttemiddel:** For at penger skal fungere som et levedyktig byttemiddel for varer og tjenester, må det være lett å utveksle. Selv om enhver eiendel teknisk sett kan brukes som penger, er større og ikke-flyttbare eiendeler som hus ikke praktiske for bruk som et byttemiddel.
 3. **Enhet for Regnskap:** Til slutt bør penger fungere som en standard måleenhet for prising av varer og tjenester. Dette betyr at varer prises og verdsettes i form av disse pengene, noe som tillater enkel sammenligning av den relative verdien av forskjellige produkter og tjenester.
-Når disse tre essensielle funksjonene til penger er oppfylt i sin helhet, har slike penger evnen til å møte de strenge kravene til handel. Uten disse funksjonene er penger langt mindre pålitelige og troverdige, noe som fører til usikkerhet og uforutsigbarhet i handel, som kan ha skadelige effekter både på et personlig og nasjonalt nivå.
+   Når disse tre essensielle funksjonene til penger er oppfylt i sin helhet, har slike penger evnen til å møte de strenge kravene til handel. Uten disse funksjonene er penger langt mindre pålitelige og troverdige, noe som fører til usikkerhet og uforutsigbarhet i handel, som kan ha skadelige effekter både på et personlig og nasjonalt nivå.
 
 Med dette i tankene, når pengene vi bruker tilbyr oss et pålitelig middel for å lagre verdi, en effektiv metode for å lette transaksjoner, og et felles mål for verdi, muliggjør det oss å spare og bygge rikdom, handle med tillit og gjennomføre transaksjoner med letthet. Disse funksjonene sammen hjelper oss ikke bare i vår evne til å handle og spare, men legger også grunnlaget for et stabilt og effektivt økonomisk system, som fremmer større økonomisk vekst og velstand for individer og samfunn.
 
@@ -164,6 +164,8 @@ I de kommende modulene vil vi utforske to populære former for penger: Bitcoin o
 Fra byttehandel til oppfinnelsen av mynter og papirvaluta, har penger gjennomgått en rekke transformasjoner for å tilpasse seg de stadig skiftende behovene i samfunnet. Når vi går videre til neste kapittel, la oss endre kurs, og rette vår oppmerksomhet mot utviklingen av penger.
 
 ## En undersøkelse av hvordan vi kom hit
+
+<chapterId>4c8ebb36-a6d5-5637-93ca-9a4a222a1c58</chapterId>
 Fra tiden med byttehandel til den moderne æraen av digitale valutaer, har penger gjennomgått en fascinerende utvikling. Våre forfedre brukte skjell, perler og til og med husdyr som byttemiddel. I dag har vi virtuelle lommebøker og kontaktløse betalinger. Det er en bemerkelsesverdig reise som har sett utallige iterasjoner, kompromisser og tilpasninger for å møte det stadig skiftende behovet i samfunnet.
 
 Men hvordan har pengene vi bruker utviklet seg til å bli den uunnværlige delen av livene våre som de er i dag? I denne seksjonen vil vi utforske pengenes utvikling, fra deres tidligste former til de moderne digitale valutaene vi bruker i dag. Vi vil dykke inn i hver større iterasjon av penger, og se på hvordan de har hjulpet med å forme vårt moderne samfunn.
@@ -212,6 +214,7 @@ Men ettersom reising ble enklere, begynte verden å åpne seg, og folk innså at
 
 Samlet sett spilte varepenger en essensiell rolle i utviklingen av handel og handel, da det ga et standardisert byttemiddel som var bredt akseptert. Imidlertid, ettersom samfunnene ble mer avanserte, begynte andre former for penger som var mer praktiske og delbare å dukke opp.
 For å løse disse problemene begynte folk å søke etter varer som hadde globalt anerkjent knapphet, noe som førte til bruken av edle metaller som et byttemiddel.
+
 ### Myntet Penger
 
 Selv om det fortsatt teknisk sett var varepenger, da menneskene fortsatte sin søken etter overlegen valuta, snublet de over en uventet helt: edle metaller. Ikke bare var disse metallene vakre og ettertraktet for deres bruk i smykker, men de oppfylte også mange av kriteriene for hva som utgjør en utmerket monetær eiendel. Deres globaliserte knapphet i naturen og den betydelige investeringen som kreves for å utvinne, raffinere og lagre disse metallene ga dem en premie over andre tidligere former for penger.
@@ -239,6 +242,7 @@ For det andre var ikke metallstøttet papirpenger immune mot forfalskning. Selv 
 Selv om metallstøttet papirvaluta hadde sin rettferdige andel av problemer, banet dens forbedrede fungibilitet, delelighet og bærbarhet vei for bekvemmeligheten av fiatvalutaer vi bruker i dag, der praktikalitet ofte trumfer knapphet.
 
 ### Fiatvaluta
+
 Fiatvalutaer har vært grunnlaget for vårt monetære system i flere tiår. Uttrykket "fiat" er latin for "la det skje" og refererer til statens autoritet til å erklære en valuta som lovlig betalingsmiddel. I motsetning til valutaer som en gang var støttet av gull eller andre verdifulle gjenstander, kommer fiatvalutaens verdi fra regjeringens løfte om at noen vil akseptere den i bytte mot varer og tjenester.
 Fiatvalutaer dukket opp da land møtte frustrasjon rundt metallstøttet papirvaluta – regjeringer måtte skaffe mer gull for å trykke mer papirpenger. Dette var en hindring, så når et land trengte kapital, ville det midlertidig forlate denne standarden og utvide sitt pengeforsyning. Denne nye valutaen var støttet av ingenting annet enn troen på regjeringen, på grunn av det faktum at den var lovlig betalingsmiddel. Ikke bare det, denne nye valutaen devaluerte den gjenværende valutaen i omløp ved å inflere pengeforsyningen, og med flere dollar som jaget samme mengde varer, steg prisene.
 
@@ -283,6 +287,7 @@ Det sagt, selv om digitale valutaer representerer en ny grense i pengeevolusjone
 Etter å ha undersøkt de forskjellige formene for penger gjennom historien, bringer dette opp et relevant spørsmål:
 
 ### Er vi på rett vei?
+
 Gjennom denne reisen har vi utforsket den fascinerende utviklingen av penger, og sporet dens evolusjon fra byttehandel til vår nåværende digitale tidsalder. Vi har sett ulike valutaer stige og falle, fra skjell og perler til edle metaller og fiatpenger.
 
 Men, som vi har sett, har veien for pengeutviklingen ikke vært uten sine utfordringer. Økningen av myntklipping og valutamanipulasjon, bevegelsen mot sentralisering og bort fra et generelt akseptert byttemiddel er bare noen eksempler på hindringene vi har møtt på veien.
@@ -390,15 +395,15 @@ Med den konstante strømmen av sosiale medier og nyhetsdekning, har du sannsynli
 
 1. Inflasjon devaluerer vår valutas kjøpekraft. Med en forverrende valuta, er folk ikke lenger motivert til å spare. Dette tvinger individer med formue til å rette sine ressurser mot finansielle eiendeler mens individer uten formue mot konsum. Ettersom konsum dirigerer penger mot selskaper holdt av de rike, og smarte penger dirigerer deres kontanter mot eiendeler, ser vi ringvirkningene av stigende eiendelspriser på grunn av økt etterspørsel. Dette er alt mens inflasjonen herjer med valutaens kjøpekraft.
 2. På grunn av vår overdrevne gjeldsbyrde, er regjeringer incentivert til å undertrykke rentenivået. Ved å gjøre dette blir gjeldskonsum mer tiltalende, spesielt for de med velstand. Når kostnaden for kapital er så billig, låner folk utover sine midler, og kanaliserer mer kapital inn i eiendeler og driver opp prisene. Dette er flott for eiere av eiendeler; imidlertid blir prisene stadig mer uoppnåelige for de som prøver å komme seg på eiendomsmarkedet eller dyppe tærne i finansmarkedene. En enkel tommelfingerregel er at når rentenivået synker, øker eiendomsprisene ettersom kapital blir mer fritt tilgjengelig.
-**Hvordan forsterker denne inflasjonen ulikhet i formue?** Med tanke på at overklassen holder eiendeler og underklassen har en tendens til å holde valuta, følger det større og større formueulikhet ettersom kjøpekraften til valutaen minker og kostnaden for eiendeler jevnt stiger, og blir mer og mer uoppnåelige. Dette kan sees i "Figur X" nedenfor. Du vil legge merke til en betydelig forskjell i verdistigningen på eiendeler sammenlignet med lønninger.
+   **Hvordan forsterker denne inflasjonen ulikhet i formue?** Med tanke på at overklassen holder eiendeler og underklassen har en tendens til å holde valuta, følger det større og større formueulikhet ettersom kjøpekraften til valutaen minker og kostnaden for eiendeler jevnt stiger, og blir mer og mer uoppnåelige. Dette kan sees i "Figur X" nedenfor. Du vil legge merke til en betydelig forskjell i verdistigningen på eiendeler sammenlignet med lønninger.
 
 **Ytelse Etter Aktivaklasse**
 
-| Aktivaklasse        | Total Vekst (Jan 2010 - Jan 2021) | Årlig Vekst (Jan 2010 - Jan 2021) |
-| ------------------- | --------------------------------- | --------------------------------- |
-| Aksjemarkedet       | 236,84%                           | 11,67%                            |
-| Eiendom             | 66,38%                            | 4,74%                             |
-| Gull                | 73,10%                            | 5,11%                             |
+| Aktivaklasse             | Total Vekst (Jan 2010 - Jan 2021) | Årlig Vekst (Jan 2010 - Jan 2021) |
+| ------------------------ | --------------------------------- | --------------------------------- |
+| Aksjemarkedet            | 236,84%                           | 11,67%                            |
+| Eiendom                  | 66,38%                            | 4,74%                             |
+| Gull                     | 73,10%                            | 5,11%                             |
 | Gjennomsnittlig Timelønn | 33,37%                            | 2,65%                             |
 
 Figur: Ytelse etter Aktivaklasse ([Aksjer](https://finance.yahoo.com/quote/%5EGSPC/history/), [Eiendom](https://dqydj.com/historical-home-prices/), [Gull](https://goldprice.org/), [Lønninger](https://tradingeconomics.com/united-states/wages.))
@@ -456,7 +461,7 @@ Velkommen til Modul To, hvor vi vil utforske den fascinerende verdenen av Bitcoi
 - Fordelene med Bitcoin som en digital valuta
 - Forskjellen mellom bitcoin som en eiendel og Bitcoin som et nettverk
 - Hvordan samhandle med Bitcoin og dets ulike lag
-Ved slutten av dette modulen vil du ha en solid forståelse av Bitcoins opprinnelse, egenskaper og potensielle bruksområder. Men før vi dykker ned i Bitcoinens kompleksiteter, la oss først utforske historien til digitale valutaer som banet vei for denne teknologien som endrer måten vi tenker om penger på.
+  Ved slutten av dette modulen vil du ha en solid forståelse av Bitcoins opprinnelse, egenskaper og potensielle bruksområder. Men før vi dykker ned i Bitcoinens kompleksiteter, la oss først utforske historien til digitale valutaer som banet vei for denne teknologien som endrer måten vi tenker om penger på.
 
 ### Hva er denne tingen kalt Bitcoin
 
@@ -567,8 +572,8 @@ Sammenlignet med tradisjonelle banksystemer, selv om Bitcoin funksjonelt operere
 1. validere og behandle transaksjoner,
 2. overvåke transaksjoner for å sikre at det ikke forekommer juks eller dårlig oppførsel,
 3. sørge for at alt er oppdatert, fungerer jevnt og sikkert.
-Mens banker utfører disse rollene internt, noe som gir dem full kontroll over prosessen, krever Bitcoin samarbeid fra samfunnet for å utføre disse rollene. Med andre ord, for at Bitcoin skal kunne replikere disse prosessene i et desentralisert system, må Bitcoin sette ut hver av disse oppgavene for å sikre at ingen enkeltperson eller sentralisert enhet har uforholdsmessig kontroll over systemet.
-For å oppnå denne revolusjonerende bragden, har Bitcoin delt disse oppgavene inn i tre nøkkelroller: noder, gruvearbeidere og utviklere. Der noder verifiserer transaksjoner og setter og håndhever regler, ordner gruvearbeidere og bekrefter transaksjoner, og utviklere holder nettverket oppdatert og foreslår oppgraderinger. Ved å distribuere disse oppgavene blant disse nøkkelspillerne, har Bitcoin skapt et system som er sikkert, gjennomsiktig og ansvarlig overfor alle brukere.
+   Mens banker utfører disse rollene internt, noe som gir dem full kontroll over prosessen, krever Bitcoin samarbeid fra samfunnet for å utføre disse rollene. Med andre ord, for at Bitcoin skal kunne replikere disse prosessene i et desentralisert system, må Bitcoin sette ut hver av disse oppgavene for å sikre at ingen enkeltperson eller sentralisert enhet har uforholdsmessig kontroll over systemet.
+   For å oppnå denne revolusjonerende bragden, har Bitcoin delt disse oppgavene inn i tre nøkkelroller: noder, gruvearbeidere og utviklere. Der noder verifiserer transaksjoner og setter og håndhever regler, ordner gruvearbeidere og bekrefter transaksjoner, og utviklere holder nettverket oppdatert og foreslår oppgraderinger. Ved å distribuere disse oppgavene blant disse nøkkelspillerne, har Bitcoin skapt et system som er sikkert, gjennomsiktig og ansvarlig overfor alle brukere.
 
 La oss derfor ta en titt på hver av disse rollene…
 
@@ -612,6 +617,7 @@ På dette tidspunktet går transaksjonen inn i det som er kjent som mempoolen, i
 Gruvearbeidere tar nå disse ventende transaksjonene, pakker dem inn i en ny blokk, og konkurrerer mot hverandre for å utføre en bestemt oppgave lagt ut av programvaren som ligger til grunn for Bitcoin. Vinneren av konkurransen legger deretter til sin blokk og de inkluderte transaksjonene til blokkjeden, og fullfører disse transaksjonene. Vinneren blir også belønnet med nyutstedt bitcoin og gebyrene knyttet til de behandlede transaksjonene, noe som motiverer dem til å fortsette å behandle transaksjoner.
 
 #### Transaksjonsvalidering
+
 Når transaksjonen er bekreftet, bør Bob nå kunne se 0.00100000 bitcoin i lommeboken sin. Men det stopper ikke der. Nodene verifiserer deretter at minerne har gjort jobben sin riktig og at transaksjonene som er inkludert i denne nye blokken, oppfyller reglene som er avtalt av nodene. Hvis blokken ikke gjør det, vil den nye blokken bli avvist, og minerne vil miste sin miningbelønning.
 _**Morsomt Faktum:** Selv etter at en Bitcoin-transaksjon er bekreftet, eksisterer muligheten for reversering hvis noder avviser blokker. Imidlertid, med hver nye blokk som legges til blockchain etter transaksjonen, reduseres sannsynligheten for reversering eksponentielt. For å øke sikkerheten, plasserer børser og lommebøker ofte en hold på dine bitcoin til flere påfølgende blokker er lagt til— vanligvis tre til seks. Dette sikrer midler og garanterer transaksjonsfred i sinnet._
 
@@ -815,6 +821,7 @@ Før vi avslutter denne modulen, vil jeg gjerne etterlate deg med en siste tanke
 ### Dykke Dypere
 
 Hvis du er interessert i å utforske verden av Bitcoin ytterligere, er mange alternativer tilgjengelige. Slik som:
+
 1. **Noder:** Å kjøre en node er et utmerket startpunkt for de som er nysgjerrige på Bitcoin utover grunnleggende transaksjoner. Det lar deg ikke bare bidra til Bitcoin-nettverket ved å verifisere blockchainen og påvirke nye oppdateringer eller endringer, men minimerer tillit og tilbyr forbedret personvern ved å gi deg muligheten til å verifisere dine egne transaksjoner og saldoer. Ved å kjøre en node blir du en del av det desentraliserte nettverket og hjelper til med å sikre dets sikkerhet og integritet.
 
 2. **Mining:** Mining er en annen måte å bidra til Bitcoin-nettverket og potensielt tjene bitcoin. Selv om det krever litt mer ressurser enn å kjøre en node og ikke er like lønnsomt som det en gang var, er mining en givende aktivitet for de som er interessert i de tekniske aspektene ved nettverket.
@@ -843,7 +850,9 @@ Nå som du har gått gjennom modulen "En undersøkelse av hvordan vi kom hit", m
 6. Tenk deg et scenario der du trenger å sende penger til et familiemedlem i et annet land. Hvordan kan Bitcoins peer-to-peer natur og lave gebyrer være til fordel for deg i denne situasjonen?
 
 # Stabilitet Midt i Kaos - En Introduksjon til Tether & Verden av Stablecoins
+
 <partId>60b1f3c4-e161-53fe-84ca-88d8cd62aa75</partId>
+
 ## En introduksjon til Tether og verdenen av Stablecoins
 
 <chapterId>427a72b5-8af7-503e-bc45-bb8b95483993</chapterId>
@@ -877,6 +886,7 @@ Vi trenger en valuta knyttet til noe av relativ verdi, digitalt innfødt og tilg
 Og her kommer Tether inn.
 
 #### Hvem er Tether?
+
 I det stadig utviklende landskapet av fiat-valutaer, har Tether dukket opp som en sentral aktør, drevet av en visjon om å adressere de finansielle behovene til den moderne verden. Mens tradisjonelle valutaer kontinuerlig sliter med å holde tritt med kravene fra vår raskt endrende globale økonomi, og Bitcoins kortsiktige volatilitet gjør det utfordrende for de som mangler evnen til å spare, gjenkjente grunnleggerne av Tether en mulighet til å bygge en bro mellom disse verdenene.
 Tether er "en forstyrrer til det konvensjonelle finanssystemet og en pioner i den digitale bruken av tradisjonelle valutaer." Deres primære formål er å fremme adopsjonen av Bitcoin ved å bygge en bro mellom den tradisjonelle finansverdenen og Bitcoins digitale verden. De oppnår dette gjennom å tilby en rekke digitale tokens, ofte kalt “stablecoins,” som holder verdi på grunn av deres forankring—ingen ordspill ment—til fysiske verdensaktiva. Tether investerer også i Bitcoin-mining, Bitcoin-utdanning, Bitcoin-betalingsinfrastruktur, og avansert forskning og utvikling innen Bitcoin.
 
@@ -944,7 +954,9 @@ I hovedsak fungerer en stablecoin som en bro mellom tradisjonelle aktiva og Bitc
 Når det gjelder hvordan de opprettholder denne prisstabiliteten, la oss se nærmere på…
 
 Flertallet av stablecoins velger ofte å bruke en fiatvaluta som sin peg, med den amerikanske dollaren som en av de mer populære fiatvalutaene å pegge til. Av denne grunn vil vi først dykke inn i fiat-backede stablecoins. Det finnes imidlertid flere typer stablecoins, som vare-backede og algoritmiske, som vi også vil utforske.
+
 ### Fiat-støttede
+
 Stablecoins er designet for å opprettholde en stabil verdi i forhold til en knyttet eiendel. Når det kommer til fiat-støttede stablecoins, som USDt, er den enkleste måten for tokenet å opprettholde sin verdi på at utstederen av tokenet holder valutaen tokenet er knyttet til i en 1:1-forhold.
 
 Høres litt forvirrende ut? Ikke bekymre deg. Her er et eksempel:
@@ -994,6 +1006,7 @@ Men, akkurat som fiat-støttede stablecoins, er vare-støttede stablecoins avhen
 La oss nå se på den tredje formen for stablecoin...
 
 ### Algoritmisk
+
 En algoritmisk stablecoin er den siste typen stablecoin vi skal diskutere, og, akkurat som de andre, er den designet for å opprettholde en stabil verdi. I motsetning til andre stablecoins som er støttet av fysiske eiendeler, bruker algoritmiske stablecoins matematiske formler eller algoritmer—ofte i kombinasjon med noen eiendeler—for å regulere deres tilbud i forhold til etterspørsel for å opprettholde prisstabilitet.
 
 For de som er ukjente med begrepet algoritme, kan du tenke på en algoritme som rett og slett et sett med regler som skal følges. Dette kan høres forvirrende ut, så la oss se på en type algoritmisk stabilitetsmekanisme, kalt rebasemetoden, som et eksempel.
@@ -1159,7 +1172,7 @@ Selv om det er mange misforståelser rundt Bitcoin, la oss berøre de ni mest fr
 3. Bitcoin er verdiløs da den ikke er støttet av noe
 4. Bitcoins teknologi er allerede foreldet
 5. Bitcoin er for treg og dyr til å være et effektivt byttemiddel
-La oss dykke inn...
+   La oss dykke inn...
 
 Misforståelse En: Bitcoin er en boble som venter på å sprekke
 Siden oppstarten har Bitcoin blitt erklært død i mainstream media [473](https://99bitcoins.com/bitcoin-obituaries/) ganger (per mars 2023), men fortsetter å fungere feilfritt.
@@ -1337,6 +1350,7 @@ Og til slutt…
 
 Vi ønsker å starte med å si: **Alt forbruker energi**, enten vi innser det eller ikke. Selv en enkel handling, som å løpe med hunden din, krever at du og din firbente venn fyller dere med energi. Både du og hunden din er energiforbrukere.
 Nå er ikke vår intensjon å kritisere andre industrier for deres energiforbruk fordi, som diskutert ovenfor, energibruk signaliserer verdien folk finner i tjenestene eller produktene som tilbys. Det er imidlertid essensielt å sette Bitcoins energiforbruk i perspektiv. Vurder følgende [sammenligninger](https://bitcoinmagazine.com/business/bitcoin-energy-use-compare-industry):
+
 - Vaskemaskiner forbruker [18%](https://energypedia.info/wiki/The_Overall_Worldwide_Saving_Potential_from_Domestic_Washing_Machines#:~:text=Today%2C%20840%20million%20domestic%20washing,about%2019%20km3%20of%20water.) mer energi enn Bitcoin.
 - Gullgruvedrift og produksjon av smykker forbruker ti ganger mer energi enn Bitcoin.
 - Sjøtransport forbruker over 51 ganger mer energi enn Bitcoin.
@@ -1440,7 +1454,7 @@ Her er bare noen få eksempler på forholdene kvinner rundt om i verden fortsatt
 2. Avhengighet av mannlige slektninger: I mange patriarkalske samfunn er kvinner avhengige av mannlige slektninger for økonomisk støtte. Dette betyr at de ikke kan ta økonomiske beslutninger for seg selv og ofte er på nåde av sine mannlige slektninger. For eksempel, i Afghanistan, må kvinner ofte stole på mannlige familiemedlemmer for økonomisk assistanse, og de kan ikke være i stand til å få tilgang til finansielle tjenester uten tillatelse fra en mannlig verge.
 3. Restriksjoner på sysselsetting: I visse land har ikke kvinner lov til å arbeide utenfor hjemmet, noe som gjør det vanskelig for dem å oppnå økonomisk uavhengighet. For eksempel, i Syria, Irak, Afghanistan, Algerie, Palestina, Jordan og Iran, utgjør kvinner bare mellom [15 - 18%](https://www.worldatlas.com/articles/countries-where-women-are-least-likely-to-join-the-labor-force.html) av arbeidsstyrken.
 4. Mangel på eiendomsrettigheter: Det er fortsatt [75](https://blogs.worldbank.org/opendata/where-world-do-women-still-face-legal-barriers-own-and-administer-assets) nasjoner globalt hvor kvinner ikke har eiendomsrettigheter, noe som betyr at de er begrenset i sin evne til å eie land eller andre eiendeler. Dette gjør det vanskelig for dem å starte bedrifter eller få tilgang til kreditt, ettersom de ikke har noen sikkerhet å tilby. For eksempel, i noen deler av India, er kvinner ikke tillatt å eie eiendom, og de kan ikke være i stand til å få tilgang til kreditt uten tillatelse fra en mannlig slektning.
-Dette er bare noen få eksempler på de typer hindringer som kvinner i mange samtidige samfunn fortsatt står overfor når det gjelder å få tilgang til finansielle tjenester og oppnå økonomisk uavhengighet.
+   Dette er bare noen få eksempler på de typer hindringer som kvinner i mange samtidige samfunn fortsatt står overfor når det gjelder å få tilgang til finansielle tjenester og oppnå økonomisk uavhengighet.
 
 Denne mangelen på tilgang til grunnleggende tjenester gjør det utrolig vanskelig for disse kvinnene å oppnå økonomisk uavhengighet og ta kontroll over deres økonomiske liv. Det er imidlertid håp i horisonten. Siden oppgangen av Bitcoin, har disse kvinnene nå en løsning på dette problemet. Gjennom en enkel internettforbindelse har de nå tilgang til et tillitsløst, tillatelsesløst og desentralisert byttemiddel som den tradisjonelle bankindustrien ikke har klart å tilby. Bitcoin gir makt til kvinner som har blitt etterlatt av det tradisjonelle finanssystemet.
 
@@ -1495,6 +1509,7 @@ Fylt med håp og spenning, ser Mercedes potensialet for Bitcoin til å endre ver
 Mercedes' liv har vært en utrolig reise, og innvirkningen av Bitcoin på livet hennes er virkelig bemerkelsesverdig. Hennes historie tjener som et fyrtårn av håp for at Bitcoin kan bringe om meningsfull endring og myndiggjøre individer fra alle samfunnslag. Som en talsperson for økonomisk likhet, utnytter hun sin omfattende kunnskap og reiseerfaringer for å utdanne og løfte opp de som er marginalisert av tradisjonelle finansielle systemer. Hennes pågående innsats eksemplifiserer hvordan en persons lidenskap og besluttsomhet kan inspirere positiv endring i samfunn over hele verden.
 
 ## Stablecoin-historier
+
 <chapterId>7b6d8d57-905d-5168-9be6-3df7c938de2a</chapterId>
 Når vi nærmer oss slutten av dette kurset, ønsker vi å presentere en samling inspirerende historier om stablecoins. Disse vitnesbyrdene viser ekte erfaringer fra enkeltpersoner, bedriftseiere og selskaper som har utnyttet kraften til stablecoins for å løfte livene sine.
 
@@ -1595,10 +1610,12 @@ Nå som du har gått gjennom modulen "Overvinne Tviler" må du teste din nylig e
 <partId>204d7367-ae08-5348-98c8-8b74c6c1b261</partId>
 
 ## Evaluer kurset
+
 <chapterId>86e358bb-88f4-5d20-af53-93f0f3524590</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Avsluttende eksamen
+
 <chapterId>cbdb0b33-0491-5013-b96c-9a84dd085ed0</chapterId>
 <isCourseExam>true</isCourseExam>
 
@@ -1613,7 +1630,7 @@ Gratulerer med å ha kommet til slutten av kurset! Du har kommet langt. Gjennom 
 - Verdenen av Tether og dets ulike stablecoin-tilbud.
 - Å skille fakta fra fiksjon rundt de mange misforståelsene assosiert med Bitcoin og Stablecoins.
 - Ulike ekte eksempler som viser hvordan disse teknologiene aktivt brukes i vår dynamiske og stadig skiftende verden.
-Det sagt, hvis det var én overordnet lærdom å ta med seg fra dette kurset, ville det dreie seg om å forstå forskjellen mellom Bitcoin og stablecoins ved å anerkjenne de unike verditilbudene hver av disse teknologiene bringer til bordet. Tether's stablecoins tilbyr en verdifull løsning for individer som står overfor økonomiske utfordringer, lever under autoritære regimer, eller mangler tilgang til stabile valutaer eller tradisjonelle banksystemer. De gir alle muligheten til å få tilgang til mer stabile valutaer, fasilitere digitale betalinger, og muliggjøre grenseoverskridende formuebevegelighet. Det er imidlertid essensielt å anerkjenne at stablecoins ikke er uten risiko. Ikke bare har fiatvalutaer vist seg å miste verdi over lang tid, men de fleste stablecoins er avhengige av tredjepartsutstedere, noe som nødvendiggjør iboende tillit. Dette bør ikke tas lett på. Det er derfor av største viktighet å gjennomføre grundig due diligence før man lagrer formue i stablecoins.
+  Det sagt, hvis det var én overordnet lærdom å ta med seg fra dette kurset, ville det dreie seg om å forstå forskjellen mellom Bitcoin og stablecoins ved å anerkjenne de unike verditilbudene hver av disse teknologiene bringer til bordet. Tether's stablecoins tilbyr en verdifull løsning for individer som står overfor økonomiske utfordringer, lever under autoritære regimer, eller mangler tilgang til stabile valutaer eller tradisjonelle banksystemer. De gir alle muligheten til å få tilgang til mer stabile valutaer, fasilitere digitale betalinger, og muliggjøre grenseoverskridende formuebevegelighet. Det er imidlertid essensielt å anerkjenne at stablecoins ikke er uten risiko. Ikke bare har fiatvalutaer vist seg å miste verdi over lang tid, men de fleste stablecoins er avhengige av tredjepartsutstedere, noe som nødvendiggjør iboende tillit. Dette bør ikke tas lett på. Det er derfor av største viktighet å gjennomføre grundig due diligence før man lagrer formue i stablecoins.
 
 På den andre siden tilbyr Bitcoin en løsning på historiske problemer assosiert med de fleste former for penger—sentraliserte og utsatt for devaluering—ved å tilby potensialet for økt kjøpekraft på lang sikt gjennom et desentralisert digitalt grunnlag bygget rundt tilbudssknapphet, som setter styringen i hendene på brukerne. Selv om bitcoins kortsiktige volatilitet kan være en barriere for inngang for personer med begrenset kapital, for de som har kapasiteten til å se langsiktig, er dens evne til å transformere liv gjennom langsiktig formuesoppbygging bemerkelsesverdig og uutfordret.
 
@@ -1624,3 +1641,4 @@ Når vi avslutter dette kurset, håper vi at du vil ta kunnskapen ervervet her o
 Må denne nyfunne forståelsen styrke deg til å navigere den utviklende verdenen av finans med tillit og formål. Lykke til på din vei av vekst og oppdagelse!
 
 Fremtiden er lys!
+
