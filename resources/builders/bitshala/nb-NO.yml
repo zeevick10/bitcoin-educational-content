@@ -1,4 +1,4 @@
-beskrivelse: |
+description: |
   Bitshala er et grasrot, fellesskapsdrevet utdanningsinitiativ (en pathshala) ledet av indiske bitcoin-entusiaster, designet for å veilede og støtte nye utviklere når de begir seg ut på sin Bitcoin-reise.
 
   Selv om det finnes mange kurs som tilbyr overfladiske leksjoner om EVM og "smarte kontrakter", krever Bitcoin-utvikling en mye dypere og bredere forståelse av ulike tekniske felt.
@@ -7,5 +7,5 @@ beskrivelse: |
 
   Bitshala søker å fylle dette gapet ved å fremme skapelsen, kurateringen og publiseringen av mangfoldig åpen kildekode-innhold som møter de unike læringsbehovene til håpefulle Bitcoin-utviklere.
 
-bidragsytere:
+contributors:
   - rabbit-hole
