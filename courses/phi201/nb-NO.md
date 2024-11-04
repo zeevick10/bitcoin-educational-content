@@ -190,6 +190,7 @@ Men han tar feil om et grunnleggende punkt angående arbeiderklassen: det er ikk
 
 Ifølge Marx er utnyttelse en prosess som består i å trekke ut en del av verdien skapt av arbeideren uten å betale for den, noe som lar kapitalistene tjene en fortjeneste. Med andre ord, utnyttelse ville være en mekanisme som lar kapitalistene berike seg ved å stjele arbeidet til proletariatet.
 Denne analysen reflekterer en misforståelse av merverdi og det kooperative og dynamiske aspektet ved økonomisk liv. Faktisk er profitten som entreprenøren mottar, kompensasjon for risikoen de tar, og arbeideren eller ansatte er ikke en slave. I en konkurransepreget situasjon kan de akseptere eller avslå en kontrakt med sin arbeidsgiver. De tar et valg som reflekterer en kostnad-nytte analyse.
+
 ### Den industrielle revolusjonen i spørsmål
 
 Faktisk forvrenger den marxistiske analysen den historiske virkeligheten av den industrielle revolusjonen. Ludwig von Mises klargjorde dette problemet i sitt økonomiske verk [_Human Action_](http://herve.dequengo.free.fr/Mises/AH/AHTDM.htm) (se spesielt kapittelet med tittelen [Popular Interpretation of the Industrial Revolution](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2)) samt i en serie forelesninger publisert under tittelen: [_Economic Policy: Thoughts for Today and Tomorrow_](http://herve.dequengo.free.fr/Mises/PE/PE_TDM.htm). (Verdt å lese er også The Anti-Capitalistic Mentality [her](https://www.institutcoppet.org/wp-content/uploads/2011/05/La-Mentalit%C3%A9-anticapitaliste.pdf) og [her](http://herve.dequengo.free.fr/Mises/MAC/MAC_TDM.htm)).
@@ -206,8 +207,8 @@ Mises legger til at forbedringen av menneskets tilstand dermed ble muliggjort av
 > Den radikale endringen i situasjonen som har gitt de vestlige massene den nåværende levestandarden (en høy levestandard faktisk, sammenlignet med hva den var i før-kapitalistiske tider, og til hva den er i Sovjet-Russland) var effekten av kapitalakkumulering gjennom sparing og klok investering av langsynte entreprenører. Ingen teknologisk forbedring ville ha vært oppnåelig hvis de ekstra materielle kapitalene som kreves for praktisk bruk av nye oppfinnelser ikke hadde blitt gjort mulig ved å spare på forhånd.
 > Når det gjelder marxistisk historiografi, kan vi også henvise til Friedrich Hayek i _Capitalism and the Historians_ (University of Chicago Press, 1954) og hans kapittel med tittelen "History and Politics". Ifølge Hayek var det ikke industrialiseringen som gjorde arbeiderne elendige, som den mørke legenden om kapitalismen spredt av marxismen hevder. Han bemerker:
 > Den virkelige historien om forbindelsen mellom kapitalismen og oppkomsten av proletariatet er nesten det motsatte av det disse teoriene om ekspropriasjonen av massene antyder.
-Før den industrielle revolusjonen levde de fleste mennesker i rurale samfunn og var avhengige av landbruk for sin overlevelse. De hadde lite å selge på markedet, noe som begrenset deres muligheter og deres levestandard. Alle forventet å leve i absolutt fattigdom og så for seg en lignende skjebne for sine etterkommere. Ingen ble opprørt over en situasjon som syntes å være uunngåelig.
-![image](assets/1/img-106.webp)
+> Før den industrielle revolusjonen levde de fleste mennesker i rurale samfunn og var avhengige av landbruk for sin overlevelse. De hadde lite å selge på markedet, noe som begrenset deres muligheter og deres levestandard. Alle forventet å leve i absolutt fattigdom og så for seg en lignende skjebne for sine etterkommere. Ingen ble opprørt over en situasjon som syntes å være uunngåelig.
+> ![image](assets/1/img-106.webp)
 
 Med industrialiseringens inntog dukket nye muligheter opp, noe som skapte en voksende etterspørsel etter arbeidskraft. For første gang kunne mennesker uten land eller betydelige ressurser selge sin arbeidskraft til fabrikker og produsenter i bytte mot en lønn, noe som sikret sikkerhet for fremtiden.
 
@@ -314,8 +315,8 @@ Denne nyheten er basert på den grunnleggende distinksjonen mellom to termer i d
 - _Phusis_ er naturens lov (som gir ordet "fysikk" på fransk).
 - _Nomos_ er menneskelig lov (et begrep funnet i ordet "autonomi", som betyr "å adlyde sin egen lov").
   Byen fremstår med ideen om at loven (nomos) er av menneskelig opprinnelse, at den kan fritt modifiseres av mennesker, i motsetning til naturen, og kan gjelde for alle. Grekerne blir da klar over autonomien til det sosiale og politiske orden i forhold til den naturlige orden.
-Dette markerer fremveksten av politikk: den pågående diskusjonen om de aller reglene for sosialt liv. Fra nå av vil problemer bli løst gjennom samordnet handling og ikke av en uforanderlig hellig orden.
-Og Jean-Pierre Vernant legger til:
+  Dette markerer fremveksten av politikk: den pågående diskusjonen om de aller reglene for sosialt liv. Fra nå av vil problemer bli løst gjennom samordnet handling og ikke av en uforanderlig hellig orden.
+  Og Jean-Pierre Vernant legger til:
 
 > Gresk fornuft er den som, på en positiv, reflektert, metodisk måte, lar oss handle på menn, ikke for å transformere naturen. Innenfor sine grenser som i sine innovasjoner, er den datter av byen.
 
@@ -367,6 +368,7 @@ Når det gjelder de første tegnene på eksistensen av en kritisk holdning, av e
 
 ![bilde](assets/2/img-008.webp)
 Disse elementene indikerer, ifølge ham, at det var Thales som opprinnelig startet denne nye tradisjonen med frihet, basert på et originalt forhold mellom mester og disippel. Thales kunne tolerere kritikk og, dessuten, etablerte han tradisjonen med å anerkjenne den. Popper identifiserer her et brudd fra den dogmatiske tradisjonen, som kun tillater en enkelt skoledoktrine, for å erstatte den med pluralisme og fallibilisme.
+
 > Våre forsøk på å gripe og oppdage sannheten er ikke endelige, men er i stand til forbedring, vår kunnskap, vårt doktrinelegeme er konjekturalt i sin natur, de er laget av antagelser, hypoteser, og ikke av sikre og endelige sannheter.
 
 Det eneste middelet vi har for å nærme oss sannheten er kritikk og diskusjon. Fra antikkens Hellas kommer derfor denne tradisjonen:
@@ -630,6 +632,7 @@ Fra da av ville religiøs rasjonalisme definitivt seire over mystisismen.
 
 I middelalderen arvet Kirken og de kristne monarkiene en politisk modell fra Romerriket, som historikere kaller det teologisk-politiske systemet, noe som betyr et system der makten er hellig, dvs., der den politiske lederen også er en religiøs leder.
 Dette er grunnen til at middelaldersamfunn er kjennetegnet av politisk-religiøs enstemmighet. Politisk makt baserer sin legitimitet, autoritet og enhet på den kristne (eller muslimske) troen. Den anser seg selv som vokter av kulturell og religiøs ortodoksi og behandler som pariaer de som avviker fra denne enstemmigheten. I denne konteksten, selv om en viss toleranse kunne innrømmes til de som løsriver seg fra den felles kulturelle visjonen (som jøder), kunne ingen rett til pluralisme anerkjennes for dem. Det var ikke før ved slutten av middelalderen, med erobringen av Amerika, at problemet med sivile friheter ble avgjørende for Kirken og så fremveksten av en første filosofi om lov som bekreftet og beskyttet individuelle friheter, legitimerte pluralisme og fordømte statlig tvang.
+
 ### Saint Augustine og den teokratiske fristelsen
 
 Spørsmålet om forholdet mellom politikk og religion tok form med Saint Augustines verk _Civitas Dei_ (_Guds by_). I det forklarer han at to sfærer eksisterer:
@@ -724,6 +727,7 @@ Eller Le Goff fremhever i _L'usure au Moyen Âge_ (1967, gjenutgitt i 1986 under
 Men ifølge den franske historikeren, må oppgangen av kapitalismen plasseres i en bredere kontekst av økonomiske, sosiale og kulturelle transformasjoner som utfoldet seg over flere århundrer. Le Goff legger spesielt vekt på viktigheten av den kommersielle revolusjonen på 1400- og 1500-tallet, preget av utvidelsen av maritim handel og oppdagelsen av nye handelsruter, som stimulerte akkumuleringen av kapital og dominansen av markedslogikken.
 
 ### En kritikk av monetære manipulasjoner
+
 Den systematiske studien av økonomiske lover begynner i høymiddelalderen. De første økonomene er de skolastiske teologene ved Skolen i Paris. Den første blant dem som skrev en vitenskapelig avhandling helt viet til et økonomisk emne, er Nicolas Oresme (1325-1382). Rundt 1360 komponerte han sin _Avhandling om Opprinnelsen, Naturen, Loven, og Endringene av Penger_ som oppsummerer og utvikler ideene til skolastikerne i hans tid.
 ![image](assets/3/img-031.webp)
 
@@ -747,6 +751,8 @@ Dessuten, hvis to forskjellige valutaer nyter godt av lovlig betalingsmiddel, vi
 <partId>58793f94-f217-530a-a877-b5b6df70a5fe</partId>
 
 ## Forsvar for Religiøs Toleranse
+
+<chapterId>c4c9a729-4a0f-5814-8e32-9aff4d373018</chapterId>
 Fra renessansen ble Europa herjet av religionskriger. Toleranse ble derfor en av de store kampene i opplysningstiden.
 ![image](assets/4/img-112.webp)
 
@@ -776,8 +782,9 @@ Jo mer handel verdsettes, jo mer falmer fordommer i møte med økonomiske intere
 I _Sjette Brev_, _"Om presbyterianerne"_, gir Voltaire eksemplet med London Stock Exchange. I dette høydepunktet av internasjonal handel, "gjør jøden, muslimen og kristen" forretninger sammen, "som om de var av samme Religion". De reserverer "navnet på vantro bare for de som går konkurs".
 
 Passasjen er verdt å sitere i sin helhet fordi den er så berømt:
+
 > Gå inn på London Stock Exchange, et sted mer respektabelt enn mange domstoler; der ser du delegater fra alle nasjoner samlet for menneskehetens nytte. Der handler jøden, muslimen og kristne med hverandre som om de var av samme religion, og kaller kun de som går konkurs for vantro; der stoler presbyterianeren på anabaptisten, og anglikaneren aksepterer løftet fra kvakeren. Etter å ha forlatt disse fredelige og frie forsamlingene, går noen til synagogen, andre går for å drikke; en går for å bli døpt i et stort kar i Faderens, Sønnens og Den Hellige Ånds navn; en annen får skåret sønnens forhud og mumler hebraiske ord over barnet som han ikke forstår; andre går til sin kirke for å vente på Guds inspirasjon, med hattene på hodene, og alle er fornøyde.
-Handel forener derfor mennesker rundt en "samme religion", profitt. Og det lar individer se bort fra religiøse eller klasseforskjeller, som er opphavet til konflikter. I England er profitt dermed en fredelig religion. Men hva med i Frankrike?
+> Handel forener derfor mennesker rundt en "samme religion", profitt. Og det lar individer se bort fra religiøse eller klasseforskjeller, som er opphavet til konflikter. I England er profitt dermed en fredelig religion. Men hva med i Frankrike?
 
 I _Tenth Letter_, "Om Handel", beskriver Voltaire det franske tankesettet som følger: "handelsmannen hører ofte sitt yrke omtalt med forakt, til det punktet at han er dum nok til å skamme seg over det." I kontrast, i England, føler handelsmannen en "rettferdig stolthet", og sammenligner seg selv "ikke uten grunn, med en romersk borger". Voltaire hyller det engelske middelklassen, deres handel og deres fredelige samfunn.
 
@@ -886,6 +893,7 @@ _Handel og Regjering_ inneholder det som senere ville bli kalt en teori om verdi
 
 Dermed ligger ikke verdien inne i tingen i form av en mengde arbeid som måtte ha blitt produsert (arbeidsverditesen som ville være den til Adam Smith og Ricardo) men utenfor tingen, med andre ord, i intensiteten av ønsket som kjøperen opplever.
 Det er også en avhandling om filosofi i den forstand at den demonstrerer hvordan fri og frivillig utveksling er et verktøy for frigjøring mer rettferdig enn statlig intervensjon fordi det er egalitært og anti-hierarkisk. Det er i stand til å etablere modne og ansvarlige borgere og er svaret på det tyranniske drivet til det Ancien Régime. Faktisk, hvis individualismens overskridelser kan reguleres av markedet, kan ingenting regulere misbruket av sentralmakt. Dette er grunnen til at Condillac inviterer makten til å frigjøre handelen fra enhver hindring og å avstå fra enhver intervensjon i den økonomiske sfæren.
+
 ### Et manifest for frihet i Amerika
 
 I 1776 publiserte en engelskmann ved navn Thomas Paine i Amerika et brennende pamflett som kritiserte det engelske monarkiet og talsmann for uavhengigheten til de amerikanske kolonistene: _Common Sense_.
@@ -985,6 +993,7 @@ Videre henter Artikkel 2 i den franske Menneskerettighetserklæringen fra 1789 o
 > Målet med enhver politisk forening er bevaringen av de naturlige og uforanderlige menneskerettighetene. Disse rettighetene er frihet, eiendom, sikkerhet og motstand mot undertrykkelse.
 
 ### To revolusjoner sammenlignet
+
 Den amerikanske revolusjonen ble ledet av menn som snakket om grunnleggende uavhendelige rettigheter. Den førte til dannelsen av en desentralisert stat med begrenset styringsmakt. På den andre siden av Atlanteren fant et annet politisk eksperiment sted: den franske revolusjonen, som begynte som et modig opprør fra folket, endte i en rekke massakrer, blodige interne konflikter, og banet vei for det militære diktaturet til Napoleon Bonaparte. Hvorfor en slik forskjell?
 På 1800-tallet forsøkte Alexis de Tocqueville, en fransk politisk filosof, å peke på disse forskjellene mellom de to søsterrevolusjonene. Han tilskriver suksessen til den amerikanske revolusjonen flere faktorer.
 
@@ -1067,8 +1076,8 @@ Men dette betyr ikke å ofre politisk frihet, deltakelse i makt. Constant spesif
 Faktisk, i sine _Prinsipper for politikk_, hevder Benjamin Constant:
 
 > Folkets suverenitet er ikke ubegrenset, den er avgrenset innenfor de grenser trukket av rettferdighet og individets rettigheter. Viljen til et helt folk kan ikke gjøre det som er urettferdig, rettferdig.
-Dette er en ny kritikk av Rousseau og _Samfunnskontrakten_: selv en generell vilje er underlagt grenser, og den kan ikke endre det som faller under naturlig lov. Det finnes en rett som er tidligere og overlegen politisk autoritet: det er naturlig lov. Denne retten setter grenser for politisk makt og begrenser individuelle friheter.
-Å si at all legitim makt må være grunnlagt på den generelle viljen betyr ikke at alt den generelle viljen bestemmer er legitimt. Constant stiller seg dermed i rekke med Erklæringen om menneskets og borgerens rettigheter fra 1789, Artikkel II, som fastslår at Staten kun er instituert for å bevare naturlige rettigheter, det vil si frihet, ansvar og eiendom. Det finnes derfor områder hvor politisk makt ikke har innflytelse: moral og religion, men også vitenskapene som faller under kunnskapens autoritet og til slutt industri, legger Constant til.
+> Dette er en ny kritikk av Rousseau og _Samfunnskontrakten_: selv en generell vilje er underlagt grenser, og den kan ikke endre det som faller under naturlig lov. Det finnes en rett som er tidligere og overlegen politisk autoritet: det er naturlig lov. Denne retten setter grenser for politisk makt og begrenser individuelle friheter.
+> Å si at all legitim makt må være grunnlagt på den generelle viljen betyr ikke at alt den generelle viljen bestemmer er legitimt. Constant stiller seg dermed i rekke med Erklæringen om menneskets og borgerens rettigheter fra 1789, Artikkel II, som fastslår at Staten kun er instituert for å bevare naturlige rettigheter, det vil si frihet, ansvar og eiendom. Det finnes derfor områder hvor politisk makt ikke har innflytelse: moral og religion, men også vitenskapene som faller under kunnskapens autoritet og til slutt industri, legger Constant til.
 
 ### Politisk Frihet og Økonomisk Frihet
 
@@ -1105,7 +1114,7 @@ Faktisk er utjevningen ledsaget av en større skjørhet hos individer som blir i
 Forfatteren av _Demokrati i Amerika_ advarer oss:
 
 > Faktisk er det en edel og legitim lidenskap for likhet som oppmuntrer menn til å ønske å være alle sterke og anerkjente. Denne lidenskapen har en tendens til å heve de små til de stores rang; men det er også i menneskehjertet en fordervet smak for likhet, som fører de svake til å ønske å bringe de sterke ned til deres nivå, og som reduserer menn til å foretrekke likhet i trelldom fremfor ulikhet i frihet. (...) Nasjonene i våre dager kan ikke gjøre det slik at forholdene innenfor dem ikke er like; men det er opp til dem om likheten fører dem til trelldom eller til frihet, til opplysning eller til barbari, til velstand eller til elendighet.
-For Tocqueville er mennesket mye mer tiltrukket av likhet enn av frihet. Og han ser dette som en stor fare for demokratiet. Hvorfor foretrekker mennesket lidenskapen for likhet mellom de to? Fordi frihet produserer direkte synlige kostnader, og dens fordeler er mer fjerne, innskrevet i det lange løp (frihet gir ikke innhold, bare kapasiteten til å søke lykke i henhold til ens eget skjønn). Omvendt bringer likhet umiddelbart synlige positive resultater og dens feil avslører seg selv kun i det lange løp.
+> For Tocqueville er mennesket mye mer tiltrukket av likhet enn av frihet. Og han ser dette som en stor fare for demokratiet. Hvorfor foretrekker mennesket lidenskapen for likhet mellom de to? Fordi frihet produserer direkte synlige kostnader, og dens fordeler er mer fjerne, innskrevet i det lange løp (frihet gir ikke innhold, bare kapasiteten til å søke lykke i henhold til ens eget skjønn). Omvendt bringer likhet umiddelbart synlige positive resultater og dens feil avslører seg selv kun i det lange løp.
 
 ### Rett til Arbeid
 
@@ -1136,8 +1145,8 @@ Under sosialistiske ideers herredømme observerte Bastiat at det elektorale mask
 Staten blir da, ifølge Bastiats ord,
 
 > den store fiksjonen gjennom hvilken alle streber etter å leve på bekostning av alle andre. ([_Staten_](http://bastiat.org/fr/l_etat.html))
-Bastiat utvikler også ideen om at konflikter oppstår når loven avviker fra sin rettmessige rolle. I sitt berømte pamflett [_The Law_](http://bastiat.org/fr/la_loi.html), demonstrerer han hvorfor og hvordan loven har blitt "alle grådigheters slagmark," noe som betyr en kilde til privilegier, situasjonsbestemte leier og vilkårlig beskatning. Så snart det er innrømmet i prinsippet at loven kan avvikes fra sitt sanne oppdrag, at den kan bryte med eiendommer i stedet for å garantere dem, følger en klassekamp nødvendigvis, enten for å forsvare seg mot plyndring eller for å organisere den til ens egen fordel.
-![image](assets/5/img-098.webp)
+> Bastiat utvikler også ideen om at konflikter oppstår når loven avviker fra sin rettmessige rolle. I sitt berømte pamflett [_The Law_](http://bastiat.org/fr/la_loi.html), demonstrerer han hvorfor og hvordan loven har blitt "alle grådigheters slagmark," noe som betyr en kilde til privilegier, situasjonsbestemte leier og vilkårlig beskatning. Så snart det er innrømmet i prinsippet at loven kan avvikes fra sitt sanne oppdrag, at den kan bryte med eiendommer i stedet for å garantere dem, følger en klassekamp nødvendigvis, enten for å forsvare seg mot plyndring eller for å organisere den til ens egen fordel.
+> ![image](assets/5/img-098.webp)
 
 I tilfeller der loven kun håndhever hver enkelt individs rettigheter og garanterer _"den kollektive organiseringen av den individuelle retten til legitimt forsvar,"_ er ingen i en posisjon til å utnytte den til sin egen fordel på bekostning av alle, til et slikt omfang at selve regjeringsformen blir et sekundært spørsmål.
 
@@ -1171,6 +1180,7 @@ Borgerens frigjøring, ifølge Marx, betyr ikke i det hele tatt menneskets frigj
 Denne politiske illusjonen av liberalismen er den sekulære siden av den religiøse illusjonen, legger Marx til. Formelen er velkjent: "religion er opium for folket." Religion er en trøst, den gir eufori og lover frigjøring i etterlivet. Men den avleder mennesket fra hans sanne frigjøring her på jorden. Borgerskapet er, i forhold til arbeiderens aktivitet, som Guds rike i forhold til elendig eksistens på denne jorden. Det blir aldri realisert. Denne doble separasjonen utgjør en dobbel fremmedgjøring, som betyr menneskets ikke-oppfyllelse av sin menneskelighet eller hans imaginære oppnåelse.
 
 ### Økonomisk Fremmedgjøring
+
 Faktisk, for Marx og i samsvar med historisk materialisme, er det økonomisk fremmedgjøring som ligger til grunn for politisk fremmedgjøring så vel som religiøs fremmedgjøring. I økonomisk fremmedgjøring, et resultat av kapitalismen (definert som privat eierskap til produksjonsmidlene), er arbeideren tvunget til å selge sin arbeidskraft som en vare. Videre er han fratatt produktet av sitt arbeid, som eies av arbeidsgiveren. Han er dermed fremmedgjort, noe som betyr at han er separert fra seg selv fordi hans arbeid blir noe fremmed for ham som han utfører med tvang, for å overleve. Likevel, arbeid, for Marx, er den essensielt menneskelige handlingen, den gjennom hvilken selve essensen av mennesket, nemlig frihet, realiseres. Dette er grunnen til at frigjøringen av arbeid også betyr å gjenopprette mennesket til sin verdighet og menneskelighet.
 
 Politisk revolusjon er derfor en illusjon, ifølge ham, så lenge den ikke er ledsaget av en økonomisk og sosial revolusjon som er i stand til å frigjøre mennesket fra kapitalistisk trelldom og dermed oppnå enhet mellom arbeideren og borgeren, mellom samfunnet og staten, det private sfæren og det offentlige sfæren. Den formelle friheten og likheten til borgeren vil dermed bli virkelig, i et klasseløst samfunn.
@@ -1244,7 +1254,7 @@ Faktisk finner man den samme prosessen med politisk sentralisering og det samme 
 Når det gjelder autentisk liberalisme, er den opptatt av rettferdighet. Men Hayek minner oss om at det tilhører sivilsamfunnet og ikke Staten å organisere denne solidariteten. Det som skiller liberalisme og sosialisme er ikke målene, men midlene. Ifølge Hayek,
 
 > Liberalisme ønsker at vi skal gjøre best mulig bruk av konkurransekreftene som et middel til å koordinere menneskelige anstrengelser; den ønsker ikke at vi skal la ting være som de er.
-Det er derfor Hayek legger til at staten har et ubestridelig aktivitetsområde:
+> Det er derfor Hayek legger til at staten har et ubestridelig aktivitetsområde:
 > Å skape forhold der konkurranse vil være så effektiv som mulig, å erstatte den der den ikke kan være effektiv, å tilby tjenester som er av en slik natur at profitt, i henhold til Smiths formel, ikke kan dekke kostnadene for noen gruppe.
 
 På den annen side er planleggingen av økonomien og samfunnet generelt, essensen av sosialismen, rettet mot konkurranse som sådan. Imidlertid, ifølge Hayek, er det en uforenlighet mellom sosialismens mål (sosial rettferdighet, likhet og sikkerhet) og de midlene sosialismen ser for seg for å oppnå dem (avskaffelse av privat eiendom, kollektivisering av produksjonsmidlene, planøkonomi).
@@ -1270,6 +1280,7 @@ Til slutt oppfordrer Hayek sine samtidige til å vende ryggen til "galskapen" og
 <partId>49e581cb-3dca-5f10-ac34-5b4cbd3d7c36</partId>
 
 ## Triumfen til Keynes
+
 <chapterId>f40fc495-bcf7-5b7a-95ad-3a3ccba3e3ba</chapterId>
 
 Kapitalismen blir ofte anklaget for å være kilden til påbudet: "vi må alltid produsere mer," eller formelen: "forbruk er bra for vekst." Imidlertid stammer ikke disse ideene fra tradisjonell kapitalisme, men fra keynesianismen, som har dominert feltet for økonomisk vitenskap og den politiske klassen siden 1930-tallet.
@@ -1355,6 +1366,7 @@ Bretton Woods-systemet, designet i 1944 og fullt implementert i 1959, var basert
 
 ![image](assets/6/img-007.webp)
 På den tiden, spesielt under Vietnamkrigen, førte økningen i USAs regjeringsunderskudd til at mange utenlandske land, inkludert Frankrike, ønsket å konvertere sine dollar til gull hos FED. Den 15. august 1971 bestemte president Nixon seg for å kansellere løftet om dollar-konvertibilitet til gull, og skapte dermed den første helt papirbaserte valutaen i USAs historie. Fra denne dagen kan man datere øyeblikket da penger fullstendig kom under kontroll av sentralbankene. I et intervju skal Richard Nixon ha uttalt:
+
 > Vi er alle keynesianere i dag.
 
 Faktisk, for mange keynesianske økonomer, ga oppgivelsen av gullstandarden regjeringene den fleksibiliteten som var nødvendig for å svare på eller forhindre økonomiske kriser.
@@ -1387,6 +1399,7 @@ For Hayek, kommer den tidligere ustabiliteten i markedsøkonomien fra det faktum
 Hayek trodde at et fritt marked av private valutaer ville føre til større monetær stabilitet. Nesten 50 år senere, representerer en kryptovaluta som Bitcoin Hayeks konkurransepregete visjon ved å tilby et desentralisert alternativ til det monopolistiske systemet til sentralbankene. Bitcoin, med sin emisjonsgrense på 21 millioner enheter, er en garanti mot inflasjon og regulatorisk vilkårlighet.
 
 ## Evaluer kurset
+
 <chapterId>6759868f-749d-5fe7-bbb1-24f603e8b34e</chapterId>
 <isCourseReview>true</isCourseReview>
 
@@ -1412,3 +1425,4 @@ Vi har nå opplevd alle variantene av statisme, og de har alle mislyktes. Overal
 På en måte er vår situasjon bedre enn i fortiden. Etter de påfølgende feilene av ulike sosialistiske, kommunistiske og sosialdemokratiske eksperimenter, vet vi i dag hvordan vi kan skille, bedre enn i går, sanne ideer fra falske. Og falske ideer kan tilbakevises og erstattes med sanne. Som Mises sa:
 Alt som skjer i det globale samfunnet vi lever i, er resultatet av ideer. Det gode og det dårlige. Det som er nødvendig, er å bekjempe falske ideer. (...) Vår sivilisasjon kan overleve, og den må. Og den vil overleve takket være bedre ideer enn de som styrer verden i dag; og disse bedre ideene vil bli utviklet av den oppvoksende generasjonen.
 (_Economic Policy: Thoughts for Today and Tomorrow_, 1979).
+

@@ -770,7 +770,8 @@ Resultatet er en høyere hash rate per watt elektrisitet, noe som betyr større 
 
 ## Kontrollere en Antminer S9 fra smarttelefonen din
 
+<chapterId>6e7c234a-a445-5070-b087-531d16c42107</chapterId>
+
 ### Opprette snarveier på iOS
 
 ![Kontrollere en Antminer S9 med smarttelefonen din](https://www.youtube.com/watch?v=OsKmdB2iw88&t=60s)
-

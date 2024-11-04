@@ -1641,6 +1641,8 @@ Ved å forstå disse komponentene, fra Bitcoin-noder og lommebøker til Bitcoin 
 
 # Lightning Network
 
+<partId>d7ac2ad7-a4b3-564f-8a8d-cfec5297b3a5</partId>
+
 ## Historien om Betalingskanaler
 
 <chapterId>a0b11c6e-c0ff-5e65-b809-b2ab9a2fc37b</chapterId>
