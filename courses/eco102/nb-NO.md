@@ -86,6 +86,7 @@ Han publiserte først den innledende serien av Økonomiske Sofismer, hvor han an
 Det første møtet fant sted i Bordeaux den 23. februar 1846, hvor Bordeaux Foreningen for Frihandel ble etablert. Snart spredte bevegelsen seg over hele Frankrike. I Paris ble en innledende kjerne dannet blant medlemmene av Samfunnet for Økonomer, som deputerte, industriledere og handelsmenn sluttet seg til. Betydelige grupper dannet seg også i Marseille, Lyon og Le Havre.
 ![bilde](assets/image/00/IMG24.webp)
 Februarrevolusjonen i 1848 førte til at monarkiet til Louis-Philippe, kjent som Julimonarkiet (1830-1848), ble styrtet, og innledet den Andre Republikken. Bastiat ble deretter valgt som medlem av den lovgivende forsamlingen som en deputert for Landes. Han satt i sentrum-venstre, sammen med Alexis de Tocqueville, mellom monarkistene og sosialistene. Der arbeidet han for å forsvare individuelle friheter som sivile rettigheter og motsatte seg alle restriktive politikker, enten de kom fra høyre eller venstre. Han ble valgt til visepresident i Finanskomiteen og arbeidet konstant for å minne sine meddeputerte om denne enkle sannheten, ofte glemt i parlamentene:
+
 > Man kan ikke gi til noen, ved lov, uten å være forpliktet til å ta fra andre ved en annen lov.
 
 Nesten alle hans bøker og essays ble skrevet i løpet av de siste seks årene av hans liv, fra 1844 til 1850. I 1850 skrev Bastiat to av sine mest berømte verk: Loven og en serie pamfletter med tittelen Det som ses og det som ikke ses. Loven har blitt oversatt til mange fremmedspråk, inkludert engelsk, tysk, spansk, russisk og italiensk.
@@ -151,8 +152,10 @@ Produsenter ty til overtalelse, forhandling og kontrakt, mens plyndrere ty til m
 ![bilde](assets/image/01/IMG17.webp)
 
 ## Antoine Destutt de Tracy
+
 <chapterId>ddf64e9f-2ce0-5651-8eb8-bae578eb0b9b</chapterId>
 Det er lite kjent, men Destutt de Tracy hadde en avgjørende innflytelse på den fremtidige presidenten i USA, Thomas Jefferson, mens han var ambassadør i Paris på 1780-tallet.
+
 > "For enhver mann er hans første land hans hjemland, og det andre er Frankrike" & "Tyranni er når folket frykter sin regjering; frihet er når regjeringen frykter folket."
 >
 > Thomas Jefferson
@@ -218,6 +221,7 @@ Hva er målet med anmeldelsen? Tittelen taler for seg selv: å sensurere regjeri
 
 _(Benjamin Constant)_
 De adopterer fra Benjamin Constant distinksjonen mellom de gamle og de moderne, karakterisert på den ene siden av krig, og på den andre av handel og industri. Men de legger til med Say at politisk økonomi gir den beste forklaringen på sosiale fenomener. De forstår spesielt at nasjoner oppnår fred og velstand når eiendomsrettigheter og fri handel respekteres. Fra nå av, for dem, er politisk økonomi den sanne og eneste grunnlaget for politikk. Til filosofi, som begrenser seg til den abstrakte kritikken av regjeringsformer, må en teori basert på kunnskap om økonomiske interesser substitueres. Politisk økonomi, ved å demonstrere hvordan folk trives og forfaller, har lagt de sanne grunnlagene for politikk.
+
 > Dunoyer
 
 ![bilde](assets/image/03/IMG07.webp)
@@ -297,7 +301,6 @@ Spørsmålet om frihandel er fortsatt relevant i dag. Geografibøker i skolen he
 
 <chapterId>c3926110-e0b2-503c-96d9-5d3a6a661484</chapterId>
 
-![video](https://youtu.be/Z8EDhTS-s_Q?si=KSe8O-NTLXP3nRSb)
 
 Frédéric Bastiat, som uttrykte seg på 1840-tallet, er arving til en generasjon av opplysningsfilosofer som kjempet mot sensur og for friheten til å debattere. Tenk på Montesquieu, Diderot, Voltaire, Condorcet, men også Rousseau.
 
@@ -340,7 +343,6 @@ Ifølge Bastiat eksisterer samfunnet, menneskene og eiendommene før lovene, og 
 ## Klassisk Utdannelse
 
 <chapterId>87d9a8c9-2352-5cb2-8b93-678118a8145c</chapterId>
-![video](https://youtu.be/Nl9jnDV5RxE?si=pi5790tPHLGMzch_)
 Den 24. februar 1848, etter tre dager med opptøyer i Paris, abdiserte kong Louis-Philippe I sin makt. Dette markerte fødselen til Den andre republikken.
 
 ![image](assets/image/06/IMG20.webp)
@@ -379,8 +381,8 @@ Det er trist å tenke at vår sosiale og politiske filosofi har forblitt fast p�
 Men, som Bastiat minner oss på, utelukker monopol fremgang.
 
 ## Proteksjonisme og Sosialisme
+
 <chapterId>ce6cb8a8-7dc9-5ef7-939d-9a559b4d2c74</chapterId>
-![video](https://youtu.be/7q5qQNe7M48?si=lU63cOehitXxkpjR)
 
 ![bilde](assets/image/07/IMG11.webp)
 
@@ -415,6 +417,7 @@ Den 27. juni 1848, dagen etter et blodig nytt opprør i Paris, dvælte han i et 
 
 Og han ville fortsette å analysere dets perverse effekter deretter. Her er ett eksempel, sitert i brevet til Cobden:
 På grunn av de naturlige tilbøyelighetene i det menneskelige hjertet, begynte alle å kreve fra staten, for seg selv, en større andel av velvære. Det vil si, staten eller statskassen ble satt til plyndring. Alle klasser krevde fra staten, som om det var en rettighet, midlene til eksistens. Anstrengelsene som ble gjort i denne retningen av staten, førte bare til skatter og hindringer, og til økningen av elendighet.
+
 - 3° Bastiat legger til at i hans syn var proteksjonisme den første manifestasjonen av denne forstyrrelsen. Kapitalistene begynte med å be om lovens inngripen for å øke sin andel av rikdommen. Uunngåelig ønsket arbeiderne å gjøre det samme.
 
 ![bilde](assets/image/07/IMG08.webp)
@@ -426,7 +429,6 @@ For å konkludere, proteksjonister og sosialister deler et felles punkt, ifølge
 
 <chapterId>96902abd-6915-5b25-a187-a4790162b86c</chapterId>
 
-![video](https://youtu.be/nBY6VUhtUis?si=EpWFShKZEQOyqRjg)
 
 Pierre-Joseph Proudhon er en av de viktigste representantene for fransk sosialisme midt på 1800-tallet. Han er spesielt kjent for denne uttalelsen: "Eiendom er tyveri" i "Hva er eiendom?" i 1840.
 
@@ -466,6 +468,7 @@ Faktisk, ifølge Bastiat, sammenfaller menneskehetens fremgang med dannelsen av 
 
 ![bilde](assets/image/08/IMG15.webp)
 Uten akkumulert kapital eller materialer, ville Robinson være dømt til døden. Han forklarer deretter at kapital beriker arbeideren på to måter:
+
 - Det øker produksjonen, og dermed reduserer prisen på varer til konsum
 - Som har effekten av å øke lønningene.
 
@@ -476,12 +479,13 @@ I det moderne samfunnet fungerer kapital som en utjevnende kraft. Faktisk sier B
 Som konklusjon anerkjente både Proudhon og Bastiat viktigheten av kapitalakkumulering og tendensen til at noen menn utnytter andre. Imidlertid trakk de ikke de samme konklusjonene. Proudhon, lik Marx, forutså en økende forarmelse av massene i kapitalistiske land. Bastiat trodde at kapitalismen ville føre til enestående velstand på tvers av alle klasser, og utviklingen av en stadig mer betydelig middelklasse. Dette er faktisk hva som skjedde.
 
 # Økonomiske Sofismer
+
 <partId>59686d1d-58c6-59a8-9fc4-74a10d24cdbe</partId>
+
 ## Det som er sett og det som ikke er sett
 
 <chapterId>25fb02a9-5d68-5c58-bd0f-d4b8e1fd91f9</chapterId>
 
-![video](https://youtu.be/KfhX-EXRYu0?si=JL9jjaP9u0HUnSm_)
 
 I dette kapittelet vil jeg avdekke en helt ny teknologi, en revolusjonerende teknologi. En forsker har utviklet et par bioniske briller med et ultrakraftig minikamera innebygd i fronten. Denne teknologien gjør det mulig å se detaljer som er umulige å se med det blotte øye. I armene er det en elektronisk brikke som overfører bilder direkte til skyen via smarttelefonen min.
 
@@ -523,7 +527,6 @@ Den store leksen fra denne serien av tekster er at statlig intervensjon har perv
 
 <chapterId>f4e759ed-1cb2-55c7-885e-0a60244758a4</chapterId>
 
-![video](https://youtu.be/TB2Bhl1qWKw?si=YyZ6ZxL2F3xDca3V)
 I 1840 stemte Deputertkammeret for en lov som økte importskattene for å beskytte den franske industrien. Dette er den berømte økonomiske patriotisme, som vi fortsatt møter i dag.
 
 ![bilde](assets/image/10/IMG13.webp)
@@ -566,7 +569,6 @@ Ekte rikdom, ifølge Bastiat, er derfor settet av nyttige ting som vi produserer
 
 <chapterId>551fc499-2119-5a52-9114-412d29434c22</chapterId>
 
-![video](https://youtu.be/VAewCBZGmaY?si=DRRU4eTbiB5iNU3J)
 
 > Når de rike går ned i vekt, dør de fattige.
 
@@ -626,7 +628,7 @@ Det finnes imidlertid to komplementære måter å opplyse borgernes dømmekraft 
 
 - Først finnes det en "filosofisk eller religiøs moral" som virker ved å rense og korrigere menneskelig handling (mennesket som en agent)
 - Deretter finnes det en "økonomisk moral", som virker ved å vise mennesket "de nødvendige konsekvensene av hans handlinger" (mennesket som en pasient)
-Faktisk er disse to moralske rammeverkene perfekt komplementære.
+  Faktisk er disse to moralske rammeverkene perfekt komplementære.
 
 1. Den første adresserer hjertet og oppmuntrer individer til å gjøre godt; det er den religiøse eller filosofiske moralen. Den er den mest edle. Den roter i menneskets hjerte bevisstheten om hans plikt. Den forteller ham:
 
@@ -651,10 +653,12 @@ Politisk økonomi har derfor en åpenbar praktisk nytte. Den avslører plyndring
 Igjen, det ville vært færre Tartuffer hvis det var færre Orgoner som lyttet til dem. Her er hva Bastiat har å si om dette emnet:
 
 ![bilde](assets/image/12/IMG07.webp)
+
 > La derfor religiøs moral berøre Tartuffers hjerter om den kan. Politisk økonomis oppgave er å opplyse deres duppeditter. Av disse to tilnærmingene, hvilken fungerer mest effektivt for sosial fremgang? Må det sies? Jeg tror det er den andre. Jeg frykter at menneskeheten ikke kan unnslippe nødvendigheten av først å lære defensiv moral.
 
 Selvfølgelig er ikke politisk økonomi den universelle vitenskapen; den utelukker ikke filosofiske og religiøse tilnærminger. "Men hvem har noensinne vist en så overdreven påstand i dens navn?" undrer Bastiat.
 Én ting er sikkert, det er ikke politikken som kan endre tingenes gang og perfeksjonere mennesket. Tvert imot, det er nødvendig å begrense politikken og holde den til sin strenge rolle, som er sikkerhet. Det er heller på de kulturelle, familiære, religiøse og foreningsmessige områdene, gjennom arbeid med ideer, gjennom utdanning og opplæring, kort sagt, gjennom det sivile samfunn, at ansvar og solidaritet kan styrkes.
+
 # Økonomiske Harmonier
 
 <partId>db04dfa4-a53e-5d3e-a307-a68ebc36dc4f</partId>
@@ -663,7 +667,6 @@ Selvfølgelig er ikke politisk økonomi den universelle vitenskapen; den utelukk
 
 <chapterId>895ccd1d-7b52-5a8b-8b2c-6ec0056cf632</chapterId>
 
-![video](https://youtu.be/1LRA2HqsZ4w?si=lJwZw843vmaiKBTr)
 
 Kan et harmonisk samfunn klare seg uten skrevne lover, regler, undertrykkende tiltak? Hvis menn er overlatt til frihet, vil vi ikke da være vitne til uorden, anarki, desorganisering? Hvordan unngå å skape en ren samling av individer som handler utenfor enhver samordning, hvis ikke gjennom lover og en sentralisert politisk organisasjon?
 
@@ -677,6 +680,7 @@ Mirakelet med det frie markedet, forteller han oss, er at det bruker kunnskap so
 
 Bastiat gir noen eksempler for å illustrere fordelene med dette markedet. Vi har blitt så vant til dette fenomenet at vi ikke lenger legger merke til det.
 La oss vurdere en snekker i en landsby, sier han, og observere alle tjenestene han gir til samfunnet og alle de han mottar:
+
 > Hver dag, når han våkner, kler han på seg, og han har personlig ikke laget noen av klærne sine. Likevel, for at disse klærne skal være tilgjengelige for ham, måtte en enorm mengde arbeid, industri, transport og geniale oppfinnelser ha blitt utført over hele verden.
 >
 > Så spiser han frokost. For at brødet han spiser skal komme på bordet hans hver morgen, måtte land ryddes, pløyes; jern, stål, tre, stein måtte omdannes til arbeidsverktøy; alt dette, tatt hver for seg, antar en uberegnelig masse arbeid satt i spill, ikke bare i rom, men også i tid.
@@ -705,12 +709,14 @@ Friedrich Hayek, i sitt essay "The Use of Knowledge in Society" i 1945, forklart
 
 ## Frihet og ansvar er nøkkelen til det sosiale problemet
 
+<chapterId>78baa7ef-2c80-5fc7-8881-c1be4662b96f</chapterId>
+
 I et brev til Alphonse de Lamartine i 1845, skrev Bastiat at hans hele filosofi er inneholdt i et enkelt prinsipp:
 
 > Frihet er den beste formen for sosial organisasjon.
-Men han legger til en betingelse
-"At loven ikke skal eliminere konsekvensene, positive eller negative, av alles handlinger. Dette er det korollariske prinsippet om ansvarlighet.": "At loven ikke skal eliminere konsekvensene, positive eller negative, av alles handlinger. Dette er det korollariske prinsippet om ansvarlighet."
-Med andre ord, frihet og ansvarlighet kan ikke skilles; de er uatskillelige. For ham skiller liberalismen seg fra sosialismen ved troen på at frihet ikke kan eksistere uten ansvarlighet. Men hvilke realiteter dekker ordene frihet og ansvarlighet nøyaktig?
+> Men han legger til en betingelse
+> "At loven ikke skal eliminere konsekvensene, positive eller negative, av alles handlinger. Dette er det korollariske prinsippet om ansvarlighet.": "At loven ikke skal eliminere konsekvensene, positive eller negative, av alles handlinger. Dette er det korollariske prinsippet om ansvarlighet."
+> Med andre ord, frihet og ansvarlighet kan ikke skilles; de er uatskillelige. For ham skiller liberalismen seg fra sosialismen ved troen på at frihet ikke kan eksistere uten ansvarlighet. Men hvilke realiteter dekker ordene frihet og ansvarlighet nøyaktig?
 
 Frihet er i hovedsak definert på en negativ måte: å være fri er å handle uten ekstern tvang i utøvelsen av ens egne rettigheter. Dette betyr imidlertid ikke fraværet av alle begrensninger. Fordi frihet krever gjensidighet: den pålegger oss også å handle uten å krenke andres eiendom og dermed reparere eventuell skade, om nødvendig. Dette er ansvarlighet.
 
@@ -763,7 +769,6 @@ Med andre ord, kollektive valg er ikke ansvarlige valg siden, på den ene siden,
 
 <chapterId>0c078806-6c58-53f9-a720-5fb62386e56b</chapterId>
 
-![video](https://youtu.be/M4yjsSrRfQ4?si=xJmTNMxIZ3WTtqgM)
 
 I det forrige kurset så vi hvorfor frihet og ansvar er nøkkelen til det sosiale problemet. Vi vil nå fordype oss i dette punktet ved å vise hvordan Frédéric Bastiat ser på de ondene som plager samfunnene og deres løsning.
 
@@ -810,7 +815,6 @@ Det må klargjøres at denne utviklingen av fremgang gjennom ansvarlighet er på
 
 <chapterId>fa2172e9-22fa-5c01-a3c8-1e8316c064a4</chapterId>
 
-![video](https://youtu.be/3T9iRFce9oI?si=AVY8PA6fdVK7ML-r)
 
 ![bilde](assets/image/16/IMG1.webp)
 Frédéric Bastiat, i sitt berømte pamflett "Loven," fordømmer forvrengningen av loven som består i å legalisere, under navnet "solidaritet," det som faktisk må kalles plyndring. Det er faktisk en motsetning i å ønske å pålegge brorskap gjennom loven, det vi i dag ville kalle "sosial rettferdighet" eller solidaritet.
@@ -830,7 +834,7 @@ Dette er hva Bastiat kaller "sofismen av juridisk brorskap." La oss sitere ham p
 Og igjen:
 
 > Regjeringer utøver bare en handling som er sanksjonert av makt. Nå, det er tillatt å tvinge noen til å være rettferdig, ikke å tvinge dem til å være veldedige. Loven, når den søker å gjøre med makt det moral oppnår gjennom overtalelse, langt fra å stige til veldedighetens rike, faller inn i plyndringens domene.
-Likevel har denne forvrengningen av loven et navn, det er sosialisme, det vil si ideologien om tvungen omfordeling av rikdom av Staten. Sosialisme, ifølge Bastiat, kjennetegnes ved ideologien om juridisk plyndring. Men listigheten av denne ideologien er at den maskerer sin vold under et misbruk av språk: oppfordringen til solidaritet eller brorskap.
+> Likevel har denne forvrengningen av loven et navn, det er sosialisme, det vil si ideologien om tvungen omfordeling av rikdom av Staten. Sosialisme, ifølge Bastiat, kjennetegnes ved ideologien om juridisk plyndring. Men listigheten av denne ideologien er at den maskerer sin vold under et misbruk av språk: oppfordringen til solidaritet eller brorskap.
 
 ![image](assets/image/16/IMG4.webp)
 
@@ -863,7 +867,6 @@ Loven kan tvinge en mann til å være rettferdig, men den kan ikke tvinge ham ti
 
 <chapterId>a48a0616-2105-5520-8312-e21a0b6489c7</chapterId>
 
-![video](https://youtu.be/M7g5ZhX7uwM?si=Hu3kTmj9pE-eRZmw)
 
 Med eiendom bør vi ikke forstå land her. Det betyr "arbeiderens rett over verdien han har skapt gjennom sitt arbeid." Bastiat spesifiserer:
 
@@ -916,7 +919,6 @@ _(Cicero)_
 
 <chapterId>b4122847-e477-578e-ba34-d35844ac4715</chapterId>
 
-![video](https://youtu.be/DJgC0W8ViHs?si=xmSWGDYcbb_2tpPt)
 
 Hovedideen til Bastiat i "Loven", hans berømte pamflett datert 1850, er å vise hvorfor og hvordan loven har blitt til plyndring, det vil si en kilde til privilegier, situasjonsbestemte leier og fiskal vilkårlighet.
 
@@ -962,10 +964,11 @@ De er sikre på at deres naturlige rettigheter er garantert og urørlige. Sikre 
 
 Bastiat skrev i Loven, en tid før han døde.
 Et århundre etter døden til Frédéric Bastiat, er juridisk plyndring tydelig evident i Verdenserklæringen om menneskerettigheter fra 1948, spesielt i dens artikler 22 ("alle har rett til sosial sikkerhet"), 23 ("alle har rett til arbeid"), 24 ("alle har rett til hvile og fritid"), 25 ("alle har rett til en levestandard tilstrekkelig for helsen og velværet"), 26 ("alle har rett til utdanning").
+
 ## Rollen til Lov og Stat
+
 <chapterId>52258229-7c7c-592b-aa27-203b03aa41c9</chapterId>
 
-![video](https://youtu.be/YffrxCE5xmc?si=HPLmL9YSnHIQGNNa)
 
 I 1848 var Bastiat en stortingsrepresentant. Han ble utnevnt til visepresident i finanskomiteen. Han var derfor spesielt godt plassert til å svare på dette spørsmålet: hva er Staten? Vi vender oss til Staten for å sikre vårt velvære. Men Bastiat minner oss om at Staten ikke kan gi noe til borgerne som den ikke først har tatt fra dem.
 
@@ -1015,9 +1018,8 @@ Skrev Frédéric Bastiat i en kort pamflett med tittelen Staten.
 
 <partId>3b62de5c-5d4a-5182-ab14-f7ef13c97e28</partId>
 
-
-
 ## Evaluer kurset
+
 <chapterId>db20170d-ceb6-56cd-b4e5-c690942f8b29</chapterId>
 <isCourseReview>true</isCourseReview>
 
@@ -1025,7 +1027,6 @@ Skrev Frédéric Bastiat i en kort pamflett med tittelen Staten.
 
 <chapterId>2a2a181a-e477-5be1-ba1f-af59490c364e</chapterId>
 
-![video](https://youtu.be/bzaIT_G-d4E?si=lzcCHS4FAneNmVSS)
 
 Bastiats innflytelse begynte å avta mot slutten av det 19. århundret, med fremveksten av sosialisme og spesielt marxisme innen universiteter og forskningsinstitutter, finansiert med offentlige midler.
 
@@ -1052,3 +1053,4 @@ Men som Bastiat treffende demonstrerte, har statlig intervensjon perverse effekt
 Hvis vi ser på ting fra denne vinkelen, forklarte Reagan til GE-ansatte, fremstår de såkalte miraklene med statlig forbruk i et helt annet lys. Fordi skatter motvirker produksjon, og rikdommen skapt av offentlig forbruk kan ikke fullt ut kompensere for de som ble forhindret fra å bli skapt på grunn av skattene som ble pålagt for å betale for disse utgiftene.
 ![bilde](assets/image/20/IMG10.webp)
 I bunn og grunn tok Reagan fra Bastiat flere nøkkelelementer av et liberalt syn på samfunn og menneske: primatet til sivilsamfunnet over Staten, verdien av valg og individuelt ansvar, betydningen av entreprenøren i rikdomsskaping, viktigheten av et fleksibelt og minimalt lovverk, som tillater tillit og respekt for kontrakter, den grunnleggende loven om at rikdom må skapes før den kan distribueres, ønsket om å gi alle en sjanse i konkurranseutsatte markeder…
+
