@@ -1,6 +1,6 @@
 ---
-name: B-CERT VERIFICATION
-description: How to verify authenticity of your B-certificate?
+name: ₿-CERT VERIFICATION
+description: How to verify authenticity of your ₿-certificate?
 ---
 ![cover](assets/cover.webp)
 
@@ -17,7 +17,7 @@ We'll provide instructions for both graphical user interface (GUI) and command-l
 ## Download your certificate
 
 Log into your personal PBN dashboard, go to Credentials page by clicking on the lefthand-side menu and click on your exam session and locate the certificate you want to verify.
-Download the zip file ef he certificate and extract the contents of your zip file and you will find three different files inside:
+Download the zip file and extract the contents and you will find three different files inside:
 
 - Signed text file (e.g., certificate.txt.sig)
 - Open timestamp (OTS) file (e.g., certificate.txt.ots)
@@ -28,17 +28,21 @@ Download the zip file ef he certificate and extract the contents of your zip fil
 
 ### GUI Method (using Sparrow Wallet)
 
-Download and install the Sparrow Wallet from the official website: https://www.sparrowwallet.com/.
-Open the Sparrow Wallet and go to the "Tools" section.
+1. Download and install the Sparrow Wallet from the official website: https://www.sparrowwallet.com/.
+
+2. Open the Sparrow Wallet and go to the "Tools" section.
 Click on the "Verify Message" option.
-In the "Message" field, paste the contents of the signed text file (e.g., certificate.txt.sig).
-In the "Address" field, enter the PBN public key: 0x7cb4528aa65f4e6a4375f87d5
-Click the "Verify" button to confirm the signature.
+
+3. In the "Message" field, paste the contents of the signed text file (e.g., certificate.txt.sig).
+
+4. In the "Address" field, enter the PBN public key: 0x7cb4528aa65f4e6a4375f87d5
+
+5. Click the "Verify" button to confirm the signature.
 
 ### CLI Method (OpenSSL)
 
 1. Open a terminal or command prompt on your computer.
-Navigate to the directory containing the downloaded certificate files.
+Navigate to the directory containing the certificate files extracted from the zip
 
 2. Download PBN public key file, which can be found at: https://github.com/Asi0Flammeus/pgp-public-keys/blob/master/planb-network-pk.asc
 
@@ -50,15 +54,19 @@ openssl dgst -verify planb-network-pk.asc -signature certificate.txt.sig certifi
 
 ## Step 2: Verifying the Open Timestamp
 
-GUI Method (OpenTimestamps)
+### GUI Method (OpenTimestamps)
 
-Visit the OpenTimestamps website: https://opentimestamps.org/
-Click on the "Verify" tab.
-Drag and drop the OTS file (e.g., certificate.txt.ots) into the designated area.
-The website will automatically verify the open timestamp and display the result.
+1. Visit the OpenTimestamps website: https://opentimestamps.org/
+2. Click on the "Verify" tab.
+3. Drag and drop the OTS file (e.g., certificate.txt.ots) into the designated area.
+4. The website will automatically verify the open timestamp and display the result.
 
-CLI Method (OpenTimestamps)
+### CLI Method (OpenTimestamps)
 
-Install the OpenTimestamps client from the official repository: https://github.com/opentimestamps/opentimestamps-client
-Navigate to the directory containing the downloaded certificate files.
-Run the following command to verify the open timestamp:
+1. Install the OpenTimestamps client from the official repository: https://github.com/opentimestamps/opentimestamps-client
+2. Navigate to the directory containing the extracted certificate files.
+3. Run the following command to verify the open timestamp:
+
+```
+ots verify certificate.txt.ots
+```
