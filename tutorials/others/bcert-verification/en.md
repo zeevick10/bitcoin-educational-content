@@ -19,9 +19,9 @@ We'll provide instructions for both graphical user interface (GUI) and command-l
 Log into your personal PBN dashboard, go to Credentials page by clicking on the lefthand-side menu and click on your exam session and locate the certificate you want to verify.
 Download the zip file and extract the contents and you will find three different files inside:
 
-- Signed text file (e.g., certificate.txt.sig)
-- Open timestamp (OTS) file (e.g., certificate.txt.ots)
-- PDF certificate (e.g., certificate.pdf)
+- Signed text file (e.g., `certificate.txt.sig`)
+- Open timestamp (OTS) file (e.g., `certificate.txt.ots`)
+- PDF certificate (e.g., `certificate.pdf`)
 
 ## Step 1: Verifying the Signature of the Text File
 
@@ -33,9 +33,9 @@ Download the zip file and extract the contents and you will find three different
 2. Open the Sparrow Wallet and go to the "Tools" section.
 Click on the "Verify Message" option.
 
-3. In the "Message" field, paste the contents of the signed text file (e.g., certificate.txt.sig).
+3. In the "Message" field, paste the contents of the signed text file (e.g., `certificate.txt.sig`).
 
-4. In the "Address" field, enter the PBN public key: 0x7cb4528aa65f4e6a4375f87d5
+4. In the "Address" field, enter the PBN public key: `0x7cb4528aa65f4e6a4375f87d5`
 
 5. Click the "Verify" button to confirm the signature.
 
@@ -48,7 +48,7 @@ Navigate to the directory containing the certificate files extracted from the zi
 
 3. Run the following command to verify the signature:
 
-```
+```bash
 openssl dgst -verify planb-network-pk.asc -signature certificate.txt.sig certificate.txt
 ```
 
@@ -58,7 +58,7 @@ openssl dgst -verify planb-network-pk.asc -signature certificate.txt.sig certifi
 
 1. Visit the OpenTimestamps website: https://opentimestamps.org/
 2. Click on the "Verify" tab.
-3. Drag and drop the OTS file (e.g., certificate.txt.ots) into the designated area.
+3. Drag and drop the OTS file (e.g., `certificate.txt.ots`) into the designated area.
 4. The website will automatically verify the open timestamp and display the result.
 
 ### CLI Method (OpenTimestamps)
@@ -67,6 +67,6 @@ openssl dgst -verify planb-network-pk.asc -signature certificate.txt.sig certifi
 2. Navigate to the directory containing the extracted certificate files.
 3. Run the following command to verify the open timestamp:
 
-```
+```bash
 ots verify certificate.txt.ots
 ```
