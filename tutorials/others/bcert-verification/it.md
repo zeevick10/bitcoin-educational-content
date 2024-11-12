@@ -20,9 +20,9 @@ Forniremo istruzioni per entrambi i metodi, sia tramite interfaccia grafica (GUI
 Accedi al tuo dashboard personale PBN, vai alla pagina Credenziali cliccando sul menu a sinistra, quindi seleziona la tua sessione d'esame e individua il certificato che desideri verificare.
 Scarica il file zip ed estrai i contenuti: troverai tre file diversi al suo interno:
 
-- File di testo firmato (ad es., certificate.txt.sig)
-- File Open Timestamp (OTS) (ad es., certificate.txt.ots)
-- Certificato in PDF (ad es., certificate.pdf)
+- File di testo firmato (ad es., `certificate.txt.sig`)
+- File Open Timestamp (OTS) (ad es., `certificate.txt.ots`)
+- Certificato in PDF (ad es., `certificate.pdf`)
 
 ## Passo 1: Verifica la firma del file di testo
 
@@ -33,9 +33,9 @@ Scarica il file zip ed estrai i contenuti: troverai tre file diversi al suo inte
 
 2. Apri Sparrow Wallet e vai alla sezione "Strumenti". Clicca sull'opzione "Verifica Messaggio".
 
-3. Nel campo "Messaggio", incolla il contenuto del file di testo firmato (ad es., certificate.txt.sig).
+3. Nel campo "Messaggio", incolla il contenuto del file di testo firmato (ad es., `certificate.txt.sig`).
 
-4. Nel campo "Indirizzo", inserisci la chiave pubblica PBN: 0x7cb4528aa65f4e6a4375f87d5.
+4. Nel campo "Indirizzo", inserisci la chiave pubblica PBN: `0x7cb4528aa65f4e6a4375f87d5`.
 
 5. Clicca sul pulsante "Verifica" per confermare la firma.
 
@@ -48,7 +48,7 @@ Naviga nella directory contenente i file del certificato estratti dal file zip.
 
 3. Esegui il seguente comando per verificare la firma:
 
-```
+```bash
 openssl dgst -verify planb-network-pk.asc -signature certificate.txt.sig certificate.txt
 ```
 
@@ -58,7 +58,7 @@ openssl dgst -verify planb-network-pk.asc -signature certificate.txt.sig certifi
 
 1. Visit the OpenTimestamps website: https://opentimestamps.org/
 2. Click on the "Verify" tab.
-3. Drag and drop the OTS file (e.g., certificate.txt.ots) into the designated area.
+3. Drag and drop the OTS file (e.g., `certificate.txt.ots`) into the designated area.
 4. The website will automatically verify the open timestamp and display the result.
 
 ### Metodo a linea di comando (CLI) OpenTimestamps
@@ -69,6 +69,6 @@ openssl dgst -verify planb-network-pk.asc -signature certificate.txt.sig certifi
 
 3. Esegui il seguente comando per verificare l'open timestamp:
 
-```
+```bash
 ots verify certificate.txt.ots
 ```
