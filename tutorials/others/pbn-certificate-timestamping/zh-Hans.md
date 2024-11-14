@@ -19,7 +19,7 @@ description: 了解Plan ₿ 网络如何为您的证书和文凭发放可验证�
 基本上，第一个操作允许您验证是谁发放了证书（或文凭），而第二个操作允许您验证证书是何时被发放的。
 我们相信，这种简单的证明机制使我们能够发放带有无可否认证明的证书和文凭，任何人都可以自行验证。
 
-![./assets/proof-mechanism.webp]
+![image](./assets/proof-mechanism.webp]
 
 请注意，由于这种证明机制，任何试图改变您的证书或文凭的哪怕是最小的细节都会创建一个完全不同的sha256哈希值的签名文件，这将立即揭示篡改行为，因为签名和时间戳记将不再有效。此外，如果有人试图恶意伪造Plan ₿网络的一些证书或文凭，简单的签名验证就会揭露这种欺诈行为。
 
@@ -43,15 +43,15 @@ OpenTimestamps能够免费提供这项服务，归功于一种高效的方式，
 
 登录到您的个人PBN仪表板。
 
-![./assets/login.webp]
+![image](./assets/login.webp]
 
 通过点击左侧菜单进入证书页面，并选择您的考试场次或课程完成证书。
 
-![./assets/credential.webp]
+![image](./assets/credential.webp]
 
 下载zip文件。
 
-![./assets/download.webp]
+![image](./assets/download.webp]
 
 通过右键点击`.zip`文件并选择“提取”来提取内容。您将在里面找到三个不同的文件：
 

@@ -19,7 +19,7 @@ Na Plan ₿ Network vám nabízíme certifikáty a diplomy, které jsou kryptogr
 V podstatě první operace umožňuje ověřit, kdo certifikát (nebo diplom) vydal, zatímco druhá umožňuje ověřit, kdy byl vydán.
 Věříme, že tento jednoduchý mechanismus důkazů nám umožňuje vydávat certifikáty a diplomy s nespornými důkazy, které si kdokoli může ověřit sám.
 
-![./assets/proof-mechanism.webp]
+![image](./assets/proof-mechanism.webp]
 
 Vezměte na vědomí, že díky tomuto mechanismu důkazů jakýkoliv pokus o změnu i nejmenšího detailu vašeho certifikátu nebo diplomu vytvoří zcela odlišný sha256 hash podepsaného souboru, což by okamžitě odhalilo manipulaci, protože podpis a časové razítko by již nebyly platné. Navíc, pokud by se někdo pokusil zlomyslně padělat nějaké certifikáty nebo diplomy jménem Plan ₿ Network, jednoduché ověření podpisu by odhalilo podvod.
 
@@ -43,15 +43,15 @@ Jakmile je tato transakce v nějakém bloku, kdokoli s původním souborem a sou
 
 Přihlaste se do svého osobního PBN dashboardu.
 
-![./assets/login.webp]
+![image](./assets/login.webp]
 
 Přejděte na stránku s pověřeními kliknutím na menu na levé straně a vyberte svou zkouškovou session nebo svůj diplom o dokončení kurzu.
 
-![./assets/credential.webp]
+![image](./assets/credential.webp]
 
 Stáhněte zip soubor.
 
-![./assets/download.webp]
+![image](./assets/download.webp]
 
 Rozbalte obsah kliknutím pravým tlačítkem na soubor `.zip` a výběrem "Rozbalit". Uvnitř najdete tři různé soubory:
 

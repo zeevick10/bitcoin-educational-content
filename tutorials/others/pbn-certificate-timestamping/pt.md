@@ -19,7 +19,7 @@ Na Rede Plan ₿, oferecemos a você um certificado e diplomas que são assinado
 Basicamente, a primeira operação permite que você verifique quem emitiu o certificado (ou diploma), enquanto a segunda permite que você verifique quando foi emitido.
 Acreditamos que este simples mecanismo de prova nos permite emitir certificados e diplomas com provas inegáveis que qualquer um pode verificar por conta própria.
 
-![./assets/proof-mechanism.webp]
+![image](./assets/proof-mechanism.webp]
 
 Note que, graças a este mecanismo de prova, qualquer tentativa de alterar até o menor detalhe do seu certificado ou diploma criará um hash sha256 completamente diferente do arquivo assinado, o que revelaria imediatamente a adulteração porque a assinatura e o carimbo de tempo não seriam mais válidos. Além disso, se alguém tentar forjar maliciosamente alguns certificados ou diplomas em nome da Rede Plan ₿, uma simples verificação da assinatura revelaria a fraude.
 
@@ -43,15 +43,15 @@ Uma vez que esta transação estiver em algum bloco, qualquer pessoa com o arqui
 
 Faça login no seu painel PBN pessoal.
 
-![./assets/login.webp]
+![image](./assets/login.webp]
 
 Vá para a página de Credenciais clicando no menu lateral esquerdo e selecione sua sessão de exame ou seu Diploma de Conclusão de Curso.
 
-![./assets/credential.webp]
+![image](./assets/credential.webp]
 
 Baixe o arquivo zip.
 
-![./assets/download.webp]
+![image](./assets/download.webp]
 
 Extraia o conteúdo clicando com o botão direito no arquivo `.zip` e selecionando "Extrair". Você encontrará três arquivos diferentes dentro:
 

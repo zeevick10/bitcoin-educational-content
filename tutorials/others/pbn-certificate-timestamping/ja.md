@@ -19,7 +19,7 @@ Plan ₿ Networkでは、私たちが暗号的に署名し、Timechain（つま�
 基本的に、最初の操作は誰が証明書（または卒業証書）を発行したかを検証することを可能にし、二番目の操作はいつ発行されたかを検証することを可能にします。
 私たちは、このシンプルな証明メカニズムが、誰もが自分で検証できる否定できない証拠を持つ証明書と卒業証書を発行することを可能にすると信じています。
 
-![./assets/proof-mechanism.webp]
+![image](./assets/proof-mechanism.webp]
 
 この証明メカニズムのおかげで、証明書や卒業証書の最小の詳細を変更しようとすると、署名されたファイルのsha256ハッシュが完全に異なるものになり、署名とタイムスタンプがもはや有効でないため、改ざんが即座に明らかになります。さらに、誰かが悪意を持ってPlan B Networkを代表して証明書や卒業証書を偽造しようとした場合、署名の検証だけで詐欺が明らかになります。
 
@@ -42,15 +42,15 @@ OpenTimestampsは、Bitcoin Blockchainにこのような証明を格納する非
 
 個人のPBNダッシュボードにログインしてください。
 
-![./assets/login.webp]
+![image](./assets/login.webp]
 
 左側のメニューをクリックしてCredentialsページに移動し、試験セッションまたはコース完了証明書を選択してください。
 
-![./assets/credential.webp]
+![image](./assets/credential.webp]
 
 zipファイルをダウンロードしてください。
 
-![./assets/download.webp]
+![image](./assets/download.webp]
 
 `.zip` ファイルを右クリックして「展開」を選択し、内容を展開します。中には3つの異なるファイルが見つかります：
 
