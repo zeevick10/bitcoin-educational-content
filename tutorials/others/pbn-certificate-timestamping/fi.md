@@ -19,7 +19,7 @@ Plan ₿ -verkossa tarjoamme sinulle sertifikaatteja ja diplomeja, jotka on kryp
 Käytännössä ensimmäinen toimenpide mahdollistaa sen, että voit varmistaa, kuka on myöntänyt sertifikaatin (tai diplomin), kun taas toinen toimenpide mahdollistaa sen, että voit varmistaa, milloin se on myönnetty.
 Uskomme, että tämä yksinkertainen todistusmekanismi mahdollistaa meidän myöntää sertifikaatteja ja diplomeja kiistattomin todistein, joita kuka tahansa voi itse varmistaa.
 
-![image](./assets/proof-mechanism.webp]
+![image](./assets/proof-mechanism.webp)
 
 Huomaa, että tämän todistusmekanismin ansiosta minkä tahansa sertifikaatin tai diplomin pieninkin yksityiskohdan muuttaminen luo täysin erilaisen sha256-tiivisteen allekirjoitetusta tiedostosta, mikä paljastaisi välittömästi manipuloinnin, koska allekirjoitus ja aikaleimaus eivät enää olisi päteviä. Lisäksi, jos joku yrittää pahantahtoisesti väärentää sertifikaatteja tai diplomeja Plan B -verkon nimissä, allekirjoituksen yksinkertainen varmistaminen paljastaisi petoksen.
 
@@ -42,15 +42,15 @@ Kun tämä transaktio on jossakin lohkossa, kuka tahansa alkuperäisen tiedoston
 
 Kirjaudu henkilökohtaiseen PBN-kojelautaasi.
 
-![image](./assets/login.webp]
+![image](./assets/login.webp)
 
 Siirry Todistukset-sivulle napsauttamalla vasemmanpuoleista valikkoa ja valitse tenttisi istunto tai suoritustodistuksesi.
 
-![image](./assets/credential.webp]
+![image](./assets/credential.webp)
 
 Lataa zip-tiedosto.
 
-![image](./assets/download.webp]
+![image](./assets/download.webp)
 
 Pura sisältö napsauttamalla oikealla `.zip`-tiedostoa ja valitsemalla "Pura". Löydät sisältä kolme eri tiedostoa:
 

@@ -19,7 +19,7 @@ En Plan ₿ Network, te ofrecemos un certificado y diplomas que están firmados 
 Básicamente, la primera operación te permite verificar quién emite el certificado (o diploma) mientras que la segunda te permite verificar cuándo fue emitido.
 Creemos que este sencillo mecanismo de prueba nos permite emitir certificados y diplomas con pruebas indiscutibles que cualquiera puede verificar por sí mismo.
 
-![image](./assets/proof-mechanism.webp]
+![image](./assets/proof-mechanism.webp)
 
 Nota que gracias a este mecanismo de prueba, cualquier intento de alterar incluso el más mínimo detalle de tu certificado o diploma creará un hash sha256 completamente diferente del archivo firmado, lo que revelaría instantáneamente la manipulación porque la firma y el sellado de tiempo ya no serían válidos. Además, si alguien intenta falsificar maliciosamente algunos certificados o diplomas en nombre de Plan ₿ Network, una simple verificación de la firma revelaría el fraude.
 
@@ -43,15 +43,15 @@ Una vez que esta transacción esté en algún bloque, cualquiera con el archivo 
 
 Inicia sesión en tu panel de control personal de PBN.
 
-![image](./assets/login.webp]
+![image](./assets/login.webp)
 
 Ve a la página de Credenciales haciendo clic en el menú del lado izquierdo, y selecciona tu sesión de examen o tu Diploma de Finalización de Curso.
 
-![image](./assets/credential.webp]
+![image](./assets/credential.webp)
 
 Descarga el archivo zip.
 
-![image](./assets/download.webp]
+![image](./assets/download.webp)
 
 Extrae el contenido haciendo clic derecho en el archivo `.zip` y seleccionando "Extraer". Encontrarás tres archivos diferentes dentro:
 

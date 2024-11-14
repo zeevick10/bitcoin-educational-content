@@ -19,7 +19,7 @@ Im Plan ₿ Netzwerk bieten wir Ihnen ein Zertifikat und Diplome an, die kryptog
 Grundsätzlich ermöglicht Ihnen die erste Operation zu überprüfen, wer das Zertifikat (oder Diplom) ausgestellt hat, während die zweite Operation Ihnen ermöglicht zu überprüfen, wann es ausgestellt wurde.
 Wir glauben, dass dieses einfache Nachweisverfahren es uns ermöglicht, Zertifikate und Diplome mit unbestreitbaren Nachweisen auszustellen, die jeder selbst überprüfen kann.
 
-![image](./assets/proof-mechanism.webp]
+![image](./assets/proof-mechanism.webp)
 
 Beachten Sie, dass dank dieses Nachweisverfahrens jeder Versuch, auch das kleinste Detail Ihres Zertifikats oder Diploms zu ändern, einen völlig anderen sha256-Hash der signierten Datei erzeugen würde, was sofort eine Manipulation aufdecken würde, da die Signatur und die Zeitstempelung nicht mehr gültig wären. Darüber hinaus würde eine einfache Überprüfung der Signatur den Betrug aufdecken, falls jemand versucht, böswillig einige Zertifikate oder Diplome im Namen des Plan B Netzwerks zu fälschen.
 
@@ -42,15 +42,15 @@ Sobald diese Transaktion in einem Block enthalten ist, kann jeder mit der urspr�
 
 Loggen Sie sich in Ihr persönliches PBN-Dashboard ein.
 
-![image](./assets/login.webp]
+![image](./assets/login.webp)
 
 Gehen Sie zur Seite "Credentials", indem Sie im Menü auf der linken Seite klicken, und wählen Sie Ihre Prüfungssitzung oder Ihr Abschlusszeugnis aus.
 
-![image](./assets/credential.webp]
+![image](./assets/credential.webp)
 
 Laden Sie die Zip-Datei herunter.
 
-![image](./assets/download.webp]
+![image](./assets/download.webp)
 
 Extrahieren Sie den Inhalt, indem Sie mit der rechten Maustaste auf die `.zip`-Datei klicken und "Extrahieren" auswählen. Sie finden drei verschiedene Dateien darin:
 

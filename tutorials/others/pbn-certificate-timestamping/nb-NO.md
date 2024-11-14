@@ -19,7 +19,7 @@ Hos Plan ₿ Network tilbyr vi deg et sertifikat og diplomer som er kryptografis
 I utgangspunktet lar den første operasjonen deg verifisere hvem som utstedte sertifikatet (eller diplomet), mens den andre lar deg verifisere når det ble utstedt.
 Vi tror at denne enkle bevismekanismen gjør det mulig for oss å utstede sertifikat og diplom med ubestridelige bevis som hvem som helst kan verifisere på egen hånd.
 
-![image](./assets/proof-mechanism.webp]
+![image](./assets/proof-mechanism.webp)
 
 Merk at takket være denne bevismekanismen vil ethvert forsøk på å endre selv den minste detalj av ditt sertifikat eller diplom skape en helt annen sha256-hash av den signerte filen, noe som umiddelbart ville avsløre manipulering fordi signaturen og tidsstemplingen ikke ville være gyldige lenger. Videre, hvis noen forsøker å forfalske noen sertifikater eller diplomer på vegne av Plan ₿ Network, ville en enkel verifisering av signaturen avsløre svindelen.
 
@@ -43,15 +43,15 @@ Når denne transaksjonen er i en blokk, kan hvem som helst med den opprinnelige 
 
 Logg inn på ditt personlige PBN-dashboard.
 
-![image](./assets/login.webp]
+![image](./assets/login.webp)
 
 Gå til legitimasjonssiden ved å klikke på menyen på venstre side, og velg din eksamensøkt eller ditt diplom for kursgjennomføring.
 
-![image](./assets/credential.webp]
+![image](./assets/credential.webp)
 
 Last ned zip-filen.
 
-![image](./assets/download.webp]
+![image](./assets/download.webp)
 
 Pakk ut innholdet ved å høyreklikke på `.zip`-filen og velge "Pakk ut". Du vil finne tre forskjellige filer inni:
 

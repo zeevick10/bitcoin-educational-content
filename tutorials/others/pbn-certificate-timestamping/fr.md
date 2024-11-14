@@ -19,7 +19,7 @@ Chez Plan ₿ Network, nous vous offrons un certificat et des diplômes qui sont
 Fondamentalement, la première opération vous permet de vérifier qui a émis le certificat (ou diplôme) tandis que la seconde vous permet de vérifier quand il a été émis.
 Nous croyons que ce mécanisme de preuve simple nous permet de délivrer des certificats et diplômes avec des preuves indéniables que n'importe qui peut vérifier par lui-même.
 
-![image](./assets/proof-mechanism.webp]
+![image](./assets/proof-mechanism.webp)
 
 Notez que grâce à ce mécanisme de preuve, toute tentative de modifier même le moindre détail de votre certificat ou diplôme créera un hash sha256 complètement différent du fichier signé, ce qui révélerait instantanément une falsification car la signature et l'horodatage ne seraient plus valides. De plus, si quelqu'un tente de forger malicieusement des certificats ou diplômes au nom de Plan ₿ Network, une simple vérification de la signature révélerait la fraude.
 
@@ -43,15 +43,15 @@ Une fois cette transaction incluse dans un bloc, quiconque possédant le fichier
 
 Connectez-vous à votre tableau de bord sur la plateform ₿ Network.
 
-![image](./assets/login.webp]
+![image](./assets/login.webp)
 
 Accédez à la page des Credentials en cliquant sur le menu latéral gauche, et sélectionnez votre session d'examen ou votre Diplôme de Fin de Cours.
 
-![image](./assets/credential.webp]
+![image](./assets/credential.webp)
 
 Téléchargez le fichier zip.
 
-![image](./assets/download.webp]
+![image](./assets/download.webp)
 
 Extrayez le contenu en cliquant droit sur le fichier `.zip` et en sélectionnant "Extraire". Vous trouverez trois fichiers différents à l'intérieur :
 

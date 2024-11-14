@@ -19,7 +19,7 @@ Plan ₿ võrgustikus pakume teile tunnistusi ja diplomeid, mis on krüptograafi
 Põhimõtteliselt võimaldab esimene operatsioon kontrollida, kes tunnistuse (või diplomi) väljastas, samas kui teine võimaldab kontrollida, millal see väljastati.
 Usume, et see lihtne tõendamismehhanism võimaldab meil väljastada tunnistusi ja diplomeid vaieldamatute tõenditega, mida igaüks saab iseseisvalt kontrollida.
 
-![image](./assets/proof-mechanism.webp]
+![image](./assets/proof-mechanism.webp)
 
 Pange tähele, et tänu sellele tõendamismehhanismile loob teie tunnistuse või diplomi isegi kõige väiksema detaili muutmine täiesti erineva sha256 räsi allkirjastatud failist, mis paljastaks kohe võltsimise, kuna allkiri ja ajatempliga märkimine ei oleks enam kehtivad. Lisaks, kui keegi üritab pahatahtlikult võltsida mõningaid tunnistusi või diplomeid Plan ₿ võrgustiku nimel, paljastaks lihtne allkirja kontroll pettuse.
 
@@ -43,15 +43,15 @@ Kui see tehing on mõnes plokis, saab igaüks, kellel on algne fail ja sellega s
 
 Logige sisse oma isiklikule PBN armatuurlauale.
 
-![image](./assets/login.webp]
+![image](./assets/login.webp)
 
 Liikuge Credentials lehele, klõpsates vasakpoolse menüü peal, ja valige oma eksami sessioon või kursuse lõpetamise diplom.
 
-![image](./assets/credential.webp]
+![image](./assets/credential.webp)
 
 Laadige alla zip-fail.
 
-![image](./assets/download.webp]
+![image](./assets/download.webp)
 
 Pakkige sisu lahti, paremklõpsates `.zip` failil ja valides "Extract". Leiate seest kolm erinevat faili:
 

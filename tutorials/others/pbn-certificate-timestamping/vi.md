@@ -19,7 +19,7 @@ Tại Mạng Plan ₿, chúng tôi cung cấp cho bạn chứng chỉ và bằng
 Cơ bản thì thao tác đầu tiên cho phép bạn xác minh ai là người cấp chứng chỉ (hoặc bằng cấp) trong khi thao tác thứ hai cho phép bạn xác minh khi nào nó được cấp.
 Chúng tôi tin rằng cơ chế chứng minh đơn giản này cho phép chúng tôi cấp chứng chỉ và bằng cấp với bằng chứng không thể chối cãi mà bất kỳ ai cũng có thể tự mình xác minh.
 
-![image](./assets/proof-mechanism.webp]
+![image](./assets/proof-mechanism.webp)
 
 Lưu ý rằng nhờ vào cơ chế chứng minh này, bất kỳ nỗ lực nào nhằm thay đổi ngay cả chi tiết nhỏ nhất của chứng chỉ hoặc bằng cấp của bạn sẽ tạo ra một mã hash sha256 hoàn toàn khác của tệp đã ký, điều này sẽ lập tức tiết lộ sự can thiệp bởi vì chữ ký và dấu thời gian sẽ không còn hợp lệ nữa. Hơn nữa, nếu ai đó cố gắng giả mạo một số chứng chỉ hoặc bằng cấp thay mặt cho Mạng Plan ₿, việc xác minh chữ ký đơn giản sẽ tiết lộ gian lận.
 
@@ -43,15 +43,15 @@ Sau khi giao dịch này được đưa vào một khối, bất kỳ ai có fil
 
 Đăng nhập vào bảng điều khiển PBN cá nhân của bạn.
 
-![image](./assets/login.webp]
+![image](./assets/login.webp)
 
 Truy cập trang Credentials bằng cách nhấp vào menu bên trái, và chọn phiên thi của bạn hoặc Bằng Tốt Nghiệp Khóa Học của bạn.
 
-![image](./assets/credential.webp]
+![image](./assets/credential.webp)
 
 Tải xuống file zip.
 
-![image](./assets/download.webp]
+![image](./assets/download.webp)
 
 Giải nén nội dung bằng cách nhấp chuột phải vào file `.zip` và chọn "Extract". Bạn sẽ tìm thấy ba file khác nhau bên trong:
 
