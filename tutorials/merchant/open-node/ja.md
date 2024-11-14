@@ -5,7 +5,7 @@ description: オンラインビジネス用にOpen Nodeを設定する
 
 ---
 
-![cover](assets/cover.png)
+![cover](assets/cover.webp)
 
 OpenNode (https://www.opennode.com/) は、簡単なBitcoin支払いソリューションです。強力なAPI、eコマースプラグイン、またはホストされた支払いページを使用して、ビジネスに対して迅速かつ低コストのBitcoin支払いと支払いを実現します。
 

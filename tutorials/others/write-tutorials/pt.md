@@ -154,7 +154,7 @@ description: [Descrição]
 
 ### Como adicionar diagramas ao tutorial?
 
-Para adicionar diagramas ao seu tutorial, você pode utilizar ferramentas de criação de diagramas online, como o Draw.io, Lucidchart, ou qualquer outra ferramenta de sua preferência que permita salvar ou exportar imagens em formatos compatíveis (como `.png`, `.jpg`, `.webp`). Após criar seu diagrama:
+Para adicionar diagramas ao seu tutorial, você pode utilizar ferramentas de criação de diagramas online, como o Draw.io, Lucidchart, ou qualquer outra ferramenta de sua preferência que permita salvar ou exportar imagens em formatos compatíveis (como `.webp`, `.webp`, `.webp`). Após criar seu diagrama:
 
 1. Exporte ou salve a imagem do diagrama no formato desejado.
 2. Adicione a imagem ao seu tutorial utilizando a sintaxe markdown para imagens, conforme mostrado anteriormente.

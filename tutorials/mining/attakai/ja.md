@@ -5,7 +5,7 @@ description: S9を家庭用暖房システムに変換する
 
 ---
 
-![cover](assets/cover.png)
+![cover](assets/cover.webp)
 
 # Attakai - ホームマイニングを可能にし、アクセスしやすくする！
 
