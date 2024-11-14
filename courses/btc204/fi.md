@@ -7,6 +7,7 @@ objectives:
   - Käyttää menetelmiä ja työkaluja yksityisyytesi suojaamiseen Bitcoinissa
   - Ymmärtää ketjuanalyysimenetelmiä ja kehittää puolustusstrategioita
 ---
+
 # Suojaa yksityisyytesi Bitcoinissa
 
 Maailmassa, jossa rahoitustransaktioiden yksityisyys on vähitellen muuttumassa ylellisyydeksi, on olennaista ymmärtää ja hallita yksityisyyden suojan periaatteita Bitcoinin käytössäsi. Tämä koulutus antaa sinulle kaikki avaimet, sekä teoreettiset että käytännölliset, saavuttaaksesi tämän itsenäisesti.
@@ -1107,7 +1108,6 @@ Jos haluat oppia, kuinka merkitä UTXO:si, olemme tehneet täydellisen oppaan t�
 
 https://planb.network/tutorials/privacy/utxo-labelling
 
-
 ## KYC ja avaintunnistus
 
 <chapterId>cec6b9d9-0eed-4f85-bc4e-1e9aa59ca605</chapterId>
@@ -1274,7 +1274,7 @@ Muita menetelmiä hankkia bitcoineja samalla kun suojataan yksityisyyttäsi, on 
 
 Toinen menetelmä koostuu työskentelystä vaihdossa bitcoineihin. Tämä hankintamenetelmä voi olla mielenkiintoinen, mutta vaaditun tunnistautumisen aste vaihtelee suuresti olosuhteiden mukaan.
 
-_Tämän luvun kirjoittamiseen käytin kurssia [BTC205](https://planb.network/fr/courses/btc205) jonka loi [@pivi\_\_\_](https://x.com/pivi___) PlanB Networkissa (toistaiseksi saatavilla vain ranskaksi)._
+\_Tämän luvun kirjoittamiseen käytin kurssia [BTC205](https://planb.network/fr/courses/btc205) jonka loi [@pivi\_\_\_](https://x.com/pivi___) PlanB Networkissa (toistaiseksi saatavilla vain ranskaksi).\_
 
 ## Konsolidointi, UTXO-hallinta ja CIOH
 
@@ -1341,7 +1341,6 @@ Tässä esimerkissä olisi viisasta ylläpitää vähintään 940 000 satoshin a
 Yksi yleisimmin käytetyistä heuristiikoista ketjuanalyysissä on COIH (_Common Input Ownership Heuristic_), joka mahdollistaa oletuksen, että kaikki Bitcoin-siirron sisääntulot kuuluvat samalle entiteetille. Tarkalleen ottaen konsolidoinnin periaate on kuluttaa useita UTXO:ja sisääntuloina ja luoda yksi UTXO ulostulona. Näin ollen konsolidointi mahdollistaa COIH:n soveltamisen.
 
 ![BTC204](assets/notext/45/04.webp)
-
 
 Käytännössä tämä tarkoittaa, että ulkopuolinen tarkkailija voi päätellä, että kaikki konsolidoidut UTXO:t todennäköisesti kuuluvat samalle henkilölle ja että tuotettu yksittäinen ulostulo kuuluu myös heille. Tämä tilanne voi vaarantaa yksityisyytesi yhdistämällä erilaisia siirtotarinoita. Esimerkiksi sanotaan, että konsolidoin 3 P2P:llä hankittua UTXO:a UTXO:n kanssa, joka on saatu alustalta, joka vaatii KYC:n:
 ![BTC204](assets/notext/45/05.webp)
@@ -2386,7 +2385,7 @@ Ricochet tarkoittaa yksinkertaisesti bitcoinien lähettämistä itselleen. On t�
 Seuraavassa luvussa tutkimme erilaisia tekniikoita salaisiin omaisuuden siirtoihin. Nämä menetelmät eroavat radikaalisti tähän asti tarkastelluista sekä toiminnan että tulosten osalta.
 
 https://planb.network/tutorials/privacy/ricochet
- 
+
 ## Salaiset Omaisuuden Siirrot
 
 <chapterId>a2067036-849c-4d6b-87d2-44235cfae7a1</chapterId>
@@ -3630,18 +3629,21 @@ Koska tämä ominaisuus on uusi, on suositeltavaa olla varovainen ja välttää 
 _Tämän Silent Payments -luvun luomiseen käytin [Silent Payments -selityssivustoa](https://silentpayments.xyz/) ja [BIP352-selitysdokumenttia](https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki)._
 
 # Johtopäätös
+
 <partId>2aee56c0-b285-4799-b4f7-373a552ee2b2</partId>
 
+## Arvioi kurssi
 
-## Anna meille palautetta tästä kurssista
 <chapterId>195d149f-80fa-5816-8b46-995a9226d082</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Loppukoe
+
 <chapterId>e803d394-e3c1-5816-a6b4-a69a2472019c</chapterId>
 <isCourseExam>true</isCourseExam>
 
 ## Viimeinen sana
+
 <chapterId>cd8e5c67-50e4-4dcd-8e04-88ba5ec95305</chapterId>
 
 Onnittelut Bitcoinin yksityisyyden suojan koulutuksen suorittamisesta!
@@ -3651,4 +3653,3 @@ Jos minun pitäisi valita tämän koulutuksen tärkein osa, valitsisin ketjuanal
 Tässä koulutuksessa keskityimme yksinomaan Bitcoinin yksityisyyteen pääketjussa. Myös toisen kerroksen järjestelmien, kuten Lightning Networkin ja sivuketjujen, yksityisyysongelmat ovat merkittäviä ja niillä on hyvin spesifisiä ominaisuuksia. Vaikka off-chain -transaktioiden käyttö voi olla tehokas strategia välttää monia Bitcoinissa tutkimiamme jäljitettävyysriskejä, se altistaa sinut myös muille riskeille, joista on myös tärkeää olla tietoinen. Siksi nämä aiheet käsitellään tulevassa omistetussa koulutuksessa PlanB Networkissa.
 
 Jos pidit tästä koulutuksesta, olisin erittäin kiitollinen, jos voisit jakaa sen ystäviesi kanssa ja sosiaalisessa mediassa. Kiitos! :)
-

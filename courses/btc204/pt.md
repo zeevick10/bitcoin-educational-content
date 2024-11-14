@@ -3498,7 +3498,7 @@ Como essa funcionalidade é recente, é aconselhável exercer cautela e evitar u
 <partId>2aee56c0-b285-4799-b4f7-373a552ee2b2</partId>
 
 
-## Dê-nos seu feedback sobre este curso
+## Avalie o curso
 <chapterId>195d149f-80fa-5816-8b46-995a9226d082</chapterId>
 <isCourseReview>true</isCourseReview>
 

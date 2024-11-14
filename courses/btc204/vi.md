@@ -3458,7 +3458,7 @@ Vì tính năng này là mới, nên cần thận trọng và tránh sử dụng
 <partId>2aee56c0-b285-4799-b4f7-373a552ee2b2</partId>
 
 
-## Cho chúng tôi biết phản hồi của bạn về khóa học này
+## Đánh giá khóa học
 <chapterId>195d149f-80fa-5816-8b46-995a9226d082</chapterId>
 <isCourseReview>true</isCourseReview>
 
