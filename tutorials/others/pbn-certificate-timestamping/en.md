@@ -5,12 +5,12 @@ description: Understand how Plan ₿ Network issue verifiable proof for your cer
 
 ![cover](assets/cover.webp)
 
-If you are reading this, there is a high probability to you receive either a Bitcoin Certificate or a diploma of completion for one of the course you did on Plan B Network, so congratulation for this achievement!
+If you are reading this, there is a high probability to you receive either a Bitcoin Certificate or a diploma of completion for one of the course you did on Plan ₿ Network, so congratulation for this achievement!
 
-In this tutorial, we are going to see how Plan B Network issue verifiable for
+In this tutorial, we are going to see how Plan ₿ Network issue verifiable for
 your Bitcoin Certificate or any Diploma of Course Completion. Then in a second part we will see how to verify the authenticity of these proofs.
 
-# Plan B Network proof mechanism
+# Plan ₿ Network proof mechanism
 
 At Plan ₿ Network, we offer you a certificate and diplomas that are cryptographically signed by us, and time-stamped on the Timechain (ie. The Bitcoin blockchain). In order to achieve this, we had to come with a proof mechanism that rely on 2 cryptographic operations:
 
@@ -22,11 +22,11 @@ We believe that this simple proof mechanism enables us to issue certificate and 
 
 ![image](./assets/proof-mechanism.webp)
 
-Note that thanks to this proof mechanism, any attempt to alter even the smallest detail of your certificate or diploma will create a completely different sha256 hash of the signed file, which would instantly revealing tampering because the signature and the timestamping will not be valid anymore. Furthermore, if anyone tries to maliciously forge some certificates or diplomas on behalf of Plan B Network, a simple verification of the signature would reveal the fraud.
+Note that thanks to this proof mechanism, any attempt to alter even the smallest detail of your certificate or diploma will create a completely different sha256 hash of the signed file, which would instantly revealing tampering because the signature and the timestamping will not be valid anymore. Furthermore, if anyone tries to maliciously forge some certificates or diplomas on behalf of Plan ₿ Network, a simple verification of the signature would reveal the fraud.
 
 ## How does the GPG-signature work?
 
-The GPG signature is obtained with the use of an open-source software name GNU Private Guard. This software allows anyone to easily create private keys, sign and verify signature and also encrypt and decrypt files. For this scope of this tutorial, know that Plan B Network use GPG to create its private/public key and to sign any Bitcoin Certificate or Diploma of Course Completion.
+The GPG signature is obtained with the use of an open-source software name GNU Private Guard. This software allows anyone to easily create private keys, sign and verify signature and also encrypt and decrypt files. For this scope of this tutorial, know that Plan ₿ Network use GPG to create its private/public key and to sign any Bitcoin Certificate or Diploma of Course Completion.
 
 On the other hand, if someone wants to verify the authenticity of a signed file they can use GPG to import the public key of the issuer and verify. In the second part of the tutorial we will see how to do it with a terminal.
 
@@ -38,7 +38,7 @@ Anyone can use OpenTimestamps to time-stamp a file, and obtain a verifiable proo
 OpenTimestamps is able to offer this service for free thanks to a highly efficient way to store such proof in the Bitcoin Blockchain. It uses the sha256 has of the file as a unique identifier of your file and build a merkle tree with other hashes of submitted files from other users and only anchor the hash of the Merkle Tree structure in an OpReturn Transaction.
 Once this transaction is in some block, anyone with the initial file and the `.ots` file associated to it can verify the authencity of the timestamping. In the second part of the tutorial we will see how to verify your Bitcoin Certificate or any Diploma of Course Completion with a teminal and with a graphical interface via the website of OpenTimestamps.
 
-# How to verify a Plan B Network Certificate or Diploma
+# How to verify a Plan ₿ Network Certificate or Diploma
 
 ## Step 1. Download your Certificate or Diploma
 
@@ -148,4 +148,4 @@ Note that the verification is successful if following **both** message are displ
 1. The GPG signature is reported as **"Good signature from Plan ₿ Network"**
 2. The OpenTimestamps verification shows a specific Bitcoin block timestamp and reports **"Success! Bitcoin block [blockheight] attests data existed as of [timestamp]"**
 
-Now that you know how Plan B Network issue verifiable proof for any Bitcoin Certificate and Diploma of Course Completion, you can easily verify the integrity of it.
+Now that you know how Plan ₿ Network issue verifiable proof for any Bitcoin Certificate and Diploma of Course Completion, you can easily verify the integrity of it.
