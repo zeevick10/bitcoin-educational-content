@@ -1,9 +1,9 @@
-question: Mikä on SHA256:n esikäsittelyn toisen vaiheen tarkoitus?
-answer: Lisätä alkuperäisen viestin koon binääriesitys bitteinä
+question: Jotta tätä elliptistä käyrää voitaisiin käyttää kryptografisissa tarkoituksissa, minkä kentän on määriteltävä se?
+answer: Positiivisten kokonaislukujen äärellinen kenttä.
 wrong_answers:
-  - Lisätä täytebittejä syötteeseen
-  - Jakaa syöte eri 512-bittisiin viestilohkoihin
-  - Suorittaa 64 laskentakierrosta tiivistysfunktiossa
+  - Reaalilukujen kenttä.
+  - Reaalilukujen äärellinen kenttä.
+  - Kompleksilukujen kenttä.
 explanation: |
-  SHA256:n esikäsittelyn toinen vaihe sisältää alkuperäisen viestin koon binääriesityksen lisäämisen bitteinä. Tämä tehdään käyttämällä edellisessä vaiheessa varattuja 64 bittiä.
+  Bitcoinissa elliptinen käyrä secp256k1 määritellään positiivisten kokonaislukujen äärellisen kentän yli moduloituna alkuluvulla välttääkseen likiarvoja ja varmistaakseen turvallisuuden.
 reviewed: false

@@ -1,9 +1,8 @@
-question: Qual é a equação que define uma curva elíptica?
-answer: "y\xB2 = x\xB3 + ax + b"
+question: Qual é o principal papel técnico de uma carteira Bitcoin?
+answer: Armazenar pares de chaves criptográficas.
 wrong_answers:
-  - "y\xB2 = x\xB3 + ax"
-  - "y\xB2 = x\xB3 + b"
-  - "y\xB2 = x\xB3 + ax - b"
+  - Armazenar bitcoins.
+  - Armazenar UTXOs.
+  - Armazenar transações.
 explanation: |
-  "Uma curva elíptica é definida pela equação y\xB2 = x\xB3 + ax + b. Cada ponto nesta curva possui uma simetria distintiva que é fundamental para sua utilidade na criptografia."
-reviewed: false
+  Uma carteira Bitcoin não armazena diretamente bitcoins, mas sim pares de chaves criptográficas que são usados para gerenciar e gastar UTXOs.

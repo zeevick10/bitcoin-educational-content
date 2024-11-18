@@ -1,0 +1,8 @@
+question: Fungsi apa yang digunakan untuk menurunkan kunci anak dari kunci induk dalam Bitcoin?
+answer: HMAC-SHA512.
+wrong_answers:
+  - SHA256.
+  - MD5.
+  - BLAKE2.
+explanation: |
+  Fungsi HMAC-SHA512 digunakan dalam menurunkan kunci anak dari kunci induk dalam dompet HD Bitcoin.

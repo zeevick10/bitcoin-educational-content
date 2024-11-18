@@ -1,0 +1,9 @@
+question: Какая функция используется для получения дочернего ключа из родительского ключа в Bitcoin?
+answer: HMAC-SHA512.
+wrong_answers:
+  - SHA256.
+  - MD5.
+  - BLAKE2.
+explanation: |
+  Функция HMAC-SHA512 используется для получения дочерних ключей из родительских ключей в HD-кошельках Bitcoin.
+reviewed: false

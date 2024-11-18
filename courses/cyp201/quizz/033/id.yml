@@ -1,0 +1,8 @@
+question: Dalam BIP mana ide frase pemulihan, atau frase mnemonik (12/24 kata), diusulkan?
+answer: BIP39.
+wrong_answers:
+  - BIP16.
+  - BIP32.
+  - BIP44.
+explanation: |
+  BIP39 memperkenalkan frase mnemonik pemulihan 24 kata, untuk memfasilitasi pencadangan kunci bagi pengguna dompet HD.

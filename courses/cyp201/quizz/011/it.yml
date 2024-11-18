@@ -1,9 +1,9 @@
-question: Cosa rappresentano le costanti K nel processo di funzionamento della funzione SHA-256?
-answer: I primi 32 bit delle parti decimali delle radici cubiche dei primi 64 numeri primi.
+question: In cosa consiste l'operazione di concatenazione?
+answer: Mettere due operandi uno di seguito all'altro.
 wrong_answers:
-  - I primi 32 bit delle parti decimali delle radici quadrate dei primi 64 numeri primi.
-  - I primi 32 bit delle parti decimali delle radici cubiche dei primi 8 numeri primi.
-  - I primi 32 bit delle parti decimali delle radici quadrate dei primi 8 numeri primi.
+  - Sommare due operandi.
+  - Dividere due operandi.
+  - Sottrarre due operandi.
 explanation: |
-  Nel processo di funzionamento della funzione SHA-256, le costanti K, da 0 a 63, rappresentano i primi 32 bit delle parti decimali delle radici cubiche dei primi 64 numeri primi. Questi vengono utilizzati come ingredienti di base nella ricetta crittografica.
+  La concatenazione prevede di posizionare due operandi uno dopo l'altro senza modificarli, ampiamente utilizzata in crittografia.
 reviewed: false

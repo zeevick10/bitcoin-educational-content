@@ -1,9 +1,9 @@
-question: Wie groß ist ein Bitcoin öffentlicher Schlüssel?
-answer: 512-Bit-Nummer
+question: Was sind die grundlegenden Informationen, die es ermöglichen, eine gute mnemonische Phrase für ein HD-Wallet zu bestimmen?
+answer: Eine externe Entropie, die es ermöglicht, eine zufällige oder pseudo-zufällige Zahl zu bestimmen.
 wrong_answers:
-  - 256-Bit-Nummer
-  - 128-Bit-Nummer
-  - 1024-Bit-Nummer
+  - Der Vorname des Wallet-Besitzers.
+  - Keine Informationen, wir wählen direkt die Wörter, die uns gefallen.
+  - Das Erstellungsdatum des Wallets.
 explanation: |
-  Im Bitcoin-System wird der eindeutige private Schlüssel verwendet, um einen 512-Bit öffentlichen Schlüssel abzuleiten.
+  Die mnemonische Phrase wird von einer Entropiequelle abgeleitet, was bedeutet, dass sie auf zufälligen oder pseudo-zufälligen Informationen basiert, um die Sicherheit der privaten Schlüssel zu gewährleisten.
 reviewed: false

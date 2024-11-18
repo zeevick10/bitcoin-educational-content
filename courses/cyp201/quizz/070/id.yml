@@ -1,0 +1,9 @@
+question: Apa itu alamat penerimaan (umumnya)?
+answer: Sebuah hash dari kunci publik dengan metadata yang dimasukkan ke dalam format tertentu.
+wrong_answers:
+  - Sebuah hash dari kunci privat dengan metadata yang dimasukkan ke dalam format tertentu.
+  - Sebuah hash dari kunci ekstensi dengan metadata yang dimasukkan ke dalam format tertentu.
+  - Sebuah hash dari kode rantai dengan metadata.
+explanation: |
+  Alamat penerimaan umumnya adalah hash dari kunci publik yang terkait dengan metadata, digunakan dalam scriptPubKey untuk menetapkan kondisi.
+reviewed: false

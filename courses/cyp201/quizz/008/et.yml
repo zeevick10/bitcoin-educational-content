@@ -1,0 +1,8 @@
+question: Mitu vooru koosneb SHA256 tihendusfunktsioon?
+answer: 64 vooru.
+wrong_answers:
+  - 10 vooru.
+  - 128 vooru.
+  - 150 vooru.
+explanation: |
+  SHA256 tihendusfunktsioon teostab iga töödeldud andmebloki jaoks 64 vooru.

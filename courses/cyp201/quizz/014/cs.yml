@@ -1,10 +1,9 @@
-question: Kolik kol výpočtu se provádí ve kompresní funkci SHA256?
-answer: 64
+question: Která funkce se používá k odvození dětského klíče od rodičovského klíče v Bitcoinu?
+answer: HMAC-SHA512.
 wrong_answers:
-  - 32
-  - 128
-  - 256
+  - SHA256.
+  - MD5.
+  - BLAKE2.
 explanation: |
-  Ve kompresní funkci SHA256 se provádí 64 kol výpočtu.
-  Podobně jako v cyklistickém závodě, každé kolo zlepšuje pozici funkce.
+  Funkce HMAC-SHA512 se používá k odvození dětských klíčů od rodičovských klíčů v Bitcoin HD peněženkách.
 reviewed: false

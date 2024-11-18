@@ -1,10 +1,9 @@
-question: Wie viele Runden der Berechnung werden in der Kompressionsfunktion von SHA256 durchgeführt?
-answer: 64
+question: Welche Funktion wird verwendet, um einen Kind-Schlüssel von einem Eltern-Schlüssel in Bitcoin abzuleiten?
+answer: HMAC-SHA512.
 wrong_answers:
-  - 32
-  - 128
-  - 256
+  - SHA256.
+  - MD5.
+  - BLAKE2.
 explanation: |
-  In der Kompressionsfunktion von SHA256 werden 64 Runden der Berechnung durchgeführt.
-  Ähnlich wie bei einem Radrennen verbessert jede Runde die Position der Funktion.
+  Die Funktion HMAC-SHA512 wird verwendet, um Kind-Schlüssel von Eltern-Schlüsseln in Bitcoin HD-Wallets abzuleiten.
 reviewed: false

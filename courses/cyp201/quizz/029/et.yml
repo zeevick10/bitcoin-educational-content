@@ -1,0 +1,8 @@
+question: Mida tõestab digitaalallkiri Bitcoin'i süsteemis läbi scriptSig?
+answer: Eravihma võtme omamist, mis on seotud kindla avaliku võtmega.
+wrong_answers:
+  - Bitcoin'i aadressi omamist.
+  - Võimet kaevandada Bitcoin'i plokki.
+  - Bitcoin'i tehingu kehtivust.
+explanation: |
+  Digitaalallkiri tõestab, et kasutajal on eravihma võti ilma, et ta peaks seda avalikustama, tagades tehingu autentsuse.

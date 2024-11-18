@@ -1,0 +1,9 @@
+question: Mis on elliptilise kõvera nimi, mida kasutatakse digitaalsete allkirjade algoritmides Bitcoinis?
+answer: secp256k1.
+wrong_answers:
+  - secp256r1.
+  - secp160k1.
+  - secp521r1.
+explanation: |
+  Kõverat secp256k1 kasutatakse Bitcoin protokollis digitaalsete allkirjade jaoks.
+reviewed: false

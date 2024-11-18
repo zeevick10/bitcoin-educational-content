@@ -1,10 +1,9 @@
-question: Có bao nhiêu vòng tính toán được thực hiện trong hàm nén của SHA256?
-answer: 64
+question: Hàm nào được sử dụng để tạo ra khóa con từ khóa cha trong Bitcoin?
+answer: HMAC-SHA512.
 wrong_answers:
-  - 32
-  - 128
-  - 256
+  - SHA256.
+  - MD5.
+  - BLAKE2.
 explanation: |
-  Trong hàm nén của SHA256, 64 vòng tính toán được thực hiện.
-  Giống như trong một cuộc đua xe đạp, mỗi vòng đua cải thiện vị trí của hàm.
+  Hàm HMAC-SHA512 được sử dụng trong việc tạo ra khóa con từ khóa cha trong ví HD Bitcoin.
 reviewed: false

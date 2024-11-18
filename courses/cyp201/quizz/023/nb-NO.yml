@@ -1,0 +1,9 @@
+question: Hva er størrelsen på en ukomprimert Bitcoin offentlig nøkkel inkludert prefikset?
+answer: 520 bits.
+wrong_answers:
+  - 512 bytes.
+  - 256 bits.
+  - 512 bits.
+explanation: |
+  En ukomprimert Bitcoin offentlig nøkkel med sitt prefiks er 520 bits, som består av x- og y-koordinatene til punktet på den elliptiske kurven.
+reviewed: false

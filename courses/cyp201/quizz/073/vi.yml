@@ -1,9 +1,7 @@
-question: Lựa chọn bổ sung nào để tăng cường bảo mật cho ví Bitcoin?
-answer: Thêm một cụm mật khẩu.
+question: Đúng hay Sai? "Nếu ai đó muốn tối ưu hóa quyền riêng tư của mình, họ không nên sử dụng lại cùng một địa chỉ nhiều lần."
+answer: Đúng.
 wrong_answers:
-  - Thêm một cụm từ ghi nhớ thứ hai.
-  - Thêm chữ ký số.
-  - Thêm lịch sử giao dịch.
+  - Sai.
 explanation: |
-  Thêm một cụm mật khẩu là một lựa chọn bổ sung để tăng cường bảo mật
-  cho ví Bitcoin.
+  Sử dụng lại cùng một địa chỉ làm giảm quyền riêng tư bằng cách tiết lộ các liên kết giữa các giao dịch khác nhau trên blockchain.
+reviewed: false

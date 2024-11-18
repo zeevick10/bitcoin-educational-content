@@ -341,7 +341,11 @@ The different options for strong authentication offer varying levels of security
 
 For optimal security with strong authentication, it is recommended to use a secure email address, a secure password manager, and adopt 2FA using YubiKeys. It is also advisable to purchase two YubiKeys to anticipate loss or theft, for example, keeping a backup copy both at home and on your person.
 
+As for potential threats to SIM 2FA, here is a common example: a SIM swap attack occurs when an attacker steals a user's phone number by linking it to a SIM card controlled by the attacker. There are several ways an attacker can successfully complete the attack; however, this threat is usually only a major concern for high-profiles and people of interest.
+
 Biometrics can be used as a substitute, but it is less secure than the combination of knowledge and possession. Biometric data should remain on the authentication device and not be disclosed online. It is important to consider the threat model associated with different authentication methods and adjust practices accordingly.
+
+Finally, it may be useful to give a short context about HOTP and TOTP OTPs: HOTP is a one-time password based on the HMAC (Hash-based Message Authentication Code) algorithm, while a TOTP is a time-based OTP. Key features of such algorithms are that passwords can only be used once, each generated value is unique and exists a shared key between the user's device (client) and authentication service (server). The difference between the two systems is how factor moves: the TOTP is time-based, while the HOTP system is counter-based.
 
 ### Conclusion of the training:
 

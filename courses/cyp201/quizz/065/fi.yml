@@ -1,9 +1,9 @@
-question: Mikä on pääasiallinen etu käyttää uutta avainparia jokaisessa Bitcoin-siirrossa?
-answer: Se parantaa turvallisuutta.
+question: HD-lompakon johdannaispoluissa, mihin syvyys 0 vastaa?
+answer: Pääavain.
 wrong_answers:
-  - Se parantaa nopeutta.
-  - Se parantaa anonyymiyttä.
-  - Se parantaa laillisuutta.
+  - Laajennettu avain.
+  - Vastaanotto-osoitteet.
+  - Valuutan tyyppi.
 explanation: |
-  Uuden avainparin käyttäminen jokaisessa siirrossa parantaa Bitcoin-siirtojen turvallisuutta. Se kuitenkin monimutkaistaa niiden varmuuskopiointia ja säilyttää vain osittain luottamuksellisuuden.
+  Syvyys 0 johdannaispoluissa vastaa pääavainta, joka on lähtökohta kaikille johdannaisille HD-lompakossa.
 reviewed: false

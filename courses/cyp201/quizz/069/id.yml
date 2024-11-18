@@ -1,0 +1,9 @@
+question: Apa yang ditunjukkan oleh jalur derivasi berikut? m/44'/0'/0'/0/0
+answer: Sebuah alamat Legacy eksternal pada mainnet.
+wrong_answers:
+  - Sebuah alamat SegwitV1 eksternal pada mainnet.
+  - Sebuah alamat Legacy internal pada testnet.
+  - Sebuah alamat SegwitV0 eksternal pada mainnet.
+explanation: |
+  Jalur derivasi m/44'/0'/0'/0/0 menunjukkan sebuah alamat Legacy eksternal pada jaringan utama (mainnet). 44' = Legacy, 0' = mainnet, 0 = eksternal
+reviewed: false

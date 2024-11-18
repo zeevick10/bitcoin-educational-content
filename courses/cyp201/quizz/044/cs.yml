@@ -1,12 +1,9 @@
-question: Jaká je role generátorového bodu v eliptické křivce?
-answer: Používá se k výpočtu bodu na eliptické křivce.
+question: Jak sestavit obnovovací frázi (mnemoniku) v binárním kódu?
+answer: Připojte náhodné číslo se svým kontrolním součtem na konec.
 wrong_answers:
-  - Používá se k generování nonce.
-  - Používá se k šifrování klíčů.
-  - Používá se k ukládání klíčů.
+  - Připojte náhodné číslo se svým kontrolním součtem na začátek.
+  - Připojte náhodné číslo se semenem.
+  - Rozdělte náhodné číslo na dvě části a vložte kontrolní součet do prostředka.
 explanation: |
-  Generátorový bod je specifický bod na eliptické křivce, který se
-  používá při výpočtu dalších bodů na křivce. Používá se při generování
-  veřejných a soukromých klíčů, stejně jako při vytváření a ověřování digitálních
-  podpisů.
+  Pro generování binární mnemonické fráze připojte kontrolní součet na konec náhodného čísla před jeho převedením do slov.
 reviewed: false

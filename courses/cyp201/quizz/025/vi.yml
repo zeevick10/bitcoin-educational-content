@@ -1,11 +1,9 @@
-question: Bậc của đường cong (n) cho đường cong secp256k1 trong hệ thập phân là bao nhiêu?
-answer: 2^256 - 432420386565659656852420866394968145599
+question: "Nonce" trong mật mã học là gì?
+answer: Một số được dùng với mục đích sử dụng một lần.
 wrong_answers:
-  - 2^256 - 2^32 - 2^9 - 2^8 - 2^7 - 2^6 - 2^4 -1
-  - 2^256 - 432420386565659656852420866394968145598
-  - 2^256 - 432420386565659656852420866394968145600
+  - Một số chẵn.
+  - Chữ ký số.
+  - Một số có thể tái sử dụng.
 explanation: |
-  Bậc của đường cong (n) cho đường cong secp256k1 là số điểm trên
-  đường cong, bao gồm cả điểm tại vô cực. Đối với secp256k1, n bằng 2^256 -
-  432420386565659656852420866394968145599 trong hệ thập phân.
+  Nonce là một số được sử dụng một lần cho các hoạt động mật mã, đảm bảo tính duy nhất của một số giá trị trong các thuật toán.
 reviewed: false

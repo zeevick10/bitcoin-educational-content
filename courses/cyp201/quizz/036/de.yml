@@ -1,9 +1,9 @@
-question: Was ist der Ausgangspunkt für die Berechnung aller öffentlichen Schlüssel der Benutzer im Bitcoin-System?
-answer: Punkt G
+question: Was ist ein PRNG?
+answer: Ein Algorithmus, der Zufallszahlen aus einem Seed und einer Transformationsfunktion generiert.
 wrong_answers:
-  - Punkt K
-  - Punkt U
-  - Punkt O
+  - Ein Hardwaregerät, das wirklich zufällige Zahlen erzeugt.
+  - Ein Generator, der Zufallszahlen ohne jeglichen Seed produziert.
+  - Ein Algorithmus, der vorhersehbare Zahlen generiert.
 explanation: |
-  Der Punkt G ist der Ausgangspunkt für die Berechnung aller öffentlichen Schlüssel der Benutzer im Bitcoin-System.
+  Ein PRNG erzeugt pseudo-zufällige Zahlen aus einem Seed, aber im Gegensatz zu einem TRNG ist er nicht wirklich zufällig.
 reviewed: false

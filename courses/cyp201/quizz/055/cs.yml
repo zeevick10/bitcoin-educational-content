@@ -1,9 +1,9 @@
-question: Jak se někdy hrubě říká sbírce soukromých klíčů v Bitcoinové peněžence?
-answer: Just a Bunch Of Keys (JBOC)
+question: Z čeho se skládá payload rozšířeného klíče?
+answer: Veřejný nebo soukromý klíč a přidružený řetězový kód.
 wrong_answers:
-  - Just a Bunch Of Coins (JBOC)
-  - Just a Bunch Of Cryptos (JBOC)
-  - Just a Bunch Of Codes (JBOC)
+  - Soukromý klíč a přidružený veřejný klíč.
+  - Řetězový kód, veřejný klíč a soukromý klíč.
+  - Soukromý klíč a index derivace.
 explanation: |
-  Sbírka soukromých kryptografických klíčů odvozených z jednoho hlavního klíče v Bitcoinové peněžence je někdy označována mírně hrubším názvem "Just a Bunch Of Keys" (JBOC).
+  Payload rozšířeného klíče zahrnuje buď veřejný nebo soukromý klíč spolu s řetězovým kódem používaným pro derivaci dceřiných klíčů.
 reviewed: false

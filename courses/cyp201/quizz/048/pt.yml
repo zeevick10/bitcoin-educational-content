@@ -1,9 +1,8 @@
-question: Qual é a função principal de uma carteira de Bitcoin?
-answer: Refere-se a uma coleção de chaves criptográficas privadas derivadas de uma única chave mestra.
+question: Qual é a função usada para gerar a semente a partir da frase mnemônica e da senha?
+answer: PBKDF2.
 wrong_answers:
-  - É um dispositivo físico que armazena criptomoedas.
-  - É uma plataforma digital para comprar e vender criptomoedas.
-  - É um software que minera novos bitcoins.
+  - SHA256.
+  - HMAC.
+  - Argon2.
 explanation: |
-  Uma carteira de Bitcoin, especificamente uma Carteira Determinística Hierárquica (HD wallet), é uma coleção de chaves criptográficas privadas derivadas de uma única chave mestra. Essas chaves são essenciais para a posse de criptomoedas.
-reviewed: false
+  PBKDF2 (Password-Based Key Derivation Function 2) é usada para derivar a semente a partir da frase mnemônica e da senha em carteiras HD.

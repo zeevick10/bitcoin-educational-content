@@ -3,10 +3,12 @@ answer: Šifrují DNS spojení, čímž poskytují větší soukromí a bezpečn
 wrong_answers:
   - Zrychlují internetové připojení.
   - Blokují veškerou reklamu.
-  - Umožňují přístup na zablokované webové stránky.
+  - Umožňují přístup k zablokovaným webovým stránkám.
 explanation: |
-  DOH (DNS přes HTTPS) a DOT (DNS přes TLS) šifrují DNS spojení,
-  čímž poskytují větší soukromí a bezpečnost. Tyto protokoly jsou široce používány v podnicích
-  kvůli jejich zvýšené bezpečnosti a jsou nativně podporovány Windows, Androidem a
-  iPhonem. Zlepšují soukromí a bezpečnost tím, že brání útokům "man in the middle".
-reviewed: false
+  DOH (DNS přes HTTPS) a DOT (DNS přes TLS) šifrují DNS
+  spojení, čímž poskytují větší soukromí a bezpečnost. Tyto
+  protokoly jsou široce používány v podnicích díky jejich
+  zvýšenému zabezpečení a jsou nativně podporovány Windows,
+  Androidem a iPhonem. Zlepšují soukromí a bezpečnost tím,
+  že brání útokům "man in the middle".
+reviewed: true

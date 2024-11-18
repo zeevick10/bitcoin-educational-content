@@ -1,0 +1,9 @@
+question: Apa tujuan dari rantai eksternal dalam proses derivasi?
+answer: Untuk mengisolasi alamat yang dimaksudkan untuk dipublikasikan.
+wrong_answers:
+  - Untuk mengisolasi alamat perubahan.
+  - Untuk mengelola transaksi masuk.
+  - Untuk memisahkan kunci privat dari kunci publik.
+explanation: |
+  Rantai eksternal digunakan untuk mendapatkan alamat yang dimaksudkan untuk dipublikasikan, seperti alamat untuk menerima pembayaran.
+reviewed: false

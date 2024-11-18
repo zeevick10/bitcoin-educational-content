@@ -5,8 +5,9 @@ wrong_answers:
   - Pokud nevlastníte Bitcoin, nedostanete žádné odměny.
   - Pokud nemáte těžební stroj, nedostanete žádné odměny.
 explanation: |
-  Přísloví "Not your hashrate, not your reward" je podobné dobře známému
-  přísloví ve světě kryptoměn, "Not your keys, not your Bitcoins." To znamená,
-  že pokud nekontrolujete hashrate, nekontrolujete odměny z těžby.
-  To je proto, že odměny z těžby jsou přímo úměrné hashrate.
-reviewed: false
+  Přísloví "Not your hashrate, not your reward" je podobné
+  dobře známému přísloví ve světě kryptoměn,
+  "Not your keys, not your Bitcoins." To znamená, že pokud
+  nekontrolujete hashrate, nekontrolujete odměny z těžby. To je proto,
+  že odměny z těžby jsou přímo úměrné hashrate.
+reviewed: true

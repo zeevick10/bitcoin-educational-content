@@ -1,9 +1,9 @@
-question: Was ist das ultimative Ziel einer kryptografischen Hash-Funktion?
-answer: Arbiträre Informationen in einen Fingerabdruck fester Größe umwandeln.
+question: Welche Größe muss die Eingabe der SHA256-Funktion haben, nachdem sie aufgefüllt wurde?
+answer: Ein Vielfaches von 512 Bits.
 wrong_answers:
-  - Daten zur sicheren Übertragung verschlüsseln.
-  - Einen eindeutigen Schlüssel für jeden Benutzer generieren.
-  - Daten zur effizienten Speicherung komprimieren.
+  - Von 256 Bits.
+  - Von 256 Bytes.
+  - Ein Vielfaches von 256 Bits.
 explanation: |
-  Das ultimative Ziel einer kryptografischen Hash-Funktion besteht darin, arbiträre Informationen in einen Fingerabdruck fester Größe umzuwandeln. Dieser Fingerabdruck ist eindeutig für die Eingabedaten, und selbst eine kleine Änderung in der Eingabe führt zu einem drastisch unterschiedlichen Fingerabdruck.
+  Die SHA256-Funktion erfordert, dass die Eingabe nach dem Auffüllen ein Vielfaches von 512 Bits beträgt, um korrekt zu funktionieren.
 reviewed: false

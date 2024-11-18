@@ -1,12 +1,8 @@
-question: Mikä on ECDSA-algoritmin tarkoitus Bitcoin-siirtojen yhteydessä?
-answer: Vahvistaa digitaalisia allekirjoituksia.
+question: Mitä salasana edustaa HD-lompakossa?
+answer: Vaihtoehtoisen kryptografisen suolan mielivaltaisessa koossa.
 wrong_answers:
-  - Salaamaan siirtotietoja.
-  - Generoimaan Bitcoin-osoitteita.
-  - Louhimaan uusia Bitcoineja.
+  - 25. sana muistilauseessa.
+  - Pakollinen kryptografinen suola kiinteässä koossa.
+  - Toinen siemen.
 explanation: |
-  ECDSA (Elliptic Curve Digital Signature Algorithm) käytetään
-  Bitcoin-siirtojen yhteydessä digitaalisten allekirjoitusten vahvistamiseen. Tämä mahdollistaa
-  siirron vastaanottajan vahvistaa allekirjoitetun viestin aitouden tarvitsematta
-  lähettäjän yksityistä avainta.
-reviewed: false
+  Salasana on vaihtoehtoinen kryptografinen suola, joka parantaa lompakon turvallisuutta lisäämällä lisätietoja muistilauseeseen siemenen määrittämiseksi.

@@ -1,0 +1,8 @@
+question: Hvor mange runder består SHA256 kompresjonsfunksjonen av?
+answer: 64 runder.
+wrong_answers:
+  - 10 runder.
+  - 128 runder.
+  - 150 runder.
+explanation: |
+  SHA256 kompresjonsfunksjonen utfører 64 runder for hver blokk av data som behandles.

@@ -1,9 +1,9 @@
-question: Quale funzione viene utilizzata per generare il seed dalla passphrase in un portafoglio Bitcoin?
-answer: pbkdf2
+question: Come comprimere una chiave pubblica?
+answer: Manteniamo il valore della sua coordinata x e aggiungiamo un prefisso che indica quale coordinata y scegliere.
 wrong_answers:
-  - sha256
-  - md5
-  - bcrypt
+  - Manteniamo il valore della sua coordinata y e aggiungiamo un prefisso che indica quale coordinata x scegliere.
+  - Hashiamo la chiave pubblica per comprimerla.
+  - Usiamo un doppio hash SHA256 per comprimere la chiave pubblica.
 explanation: |
-  La funzione pbkdf2 viene utilizzata per generare il seed dalla passphrase in un portafoglio Bitcoin. Questo seed consente la derivazione di tutte le coppie di chiavi figlie del portafoglio.
+  La compressione di una chiave pubblica viene eseguita mantenendo la coordinata x e aggiungendo un prefisso 0x02 o 0x03 per indicare se y è pari o dispari.
 reviewed: false

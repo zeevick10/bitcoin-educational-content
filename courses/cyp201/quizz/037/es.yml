@@ -1,9 +1,8 @@
-question: ¿Cuál es el algoritmo que utiliza Bitcoin para vincular las claves privadas y públicas?
-answer: Algoritmo de Firma Digital de Curva Elíptica (ECDSA)
+question: ¿Por qué es importante usar una buena fuente de entropía para generar claves privadas?
+answer: Una entropía deficiente puede hacer que las claves privadas sean predecibles y vulnerables a ataques.
 wrong_answers:
-  - Estándar de Cifrado Avanzado (AES)
-  - Rivest-Shamir-Adleman (RSA)
-  - Algoritmo de Hash Seguro 2 (SHA-2)
+  - Una buena entropía ayuda a optimizar el rendimiento del monedero.
+  - La entropía no juega ningún papel en la seguridad de las claves privadas.
+  - Una entropía deficiente ralentiza las transacciones.
 explanation: |
-  Bitcoin utiliza el Algoritmo de Firma Digital de Curva Elíptica (ECDSA) para vincular las claves privadas y públicas.
-reviewed: false
+  Si la entropía utilizada para generar claves privadas es baja, podría permitir a un atacante adivinar o calcular estas claves, comprometiendo la seguridad del monedero.

@@ -1,9 +1,7 @@
-question: Mikä on lisävaihtoehto Bitcoin-lompakon turvallisuuden parantamiseksi?
-answer: Salasanan lisääminen.
+question: Totta vai tarua? "Jos haluaa optimoida yksityisyytensä, ei tulisi käyttää samaa osoitetta useita kertoja."
+answer: Totta.
 wrong_answers:
-  - Toisen muistisäännön lisääminen.
-  - Digitaalisen allekirjoituksen lisääminen.
-  - Tapahtumahistorian lisääminen.
+  - Tarua.
 explanation: |
-  Salasanan lisääminen on lisävaihtoehto Bitcoin-lompakon turvallisuuden parantamiseksi.
+  Saman osoitteen uudelleenkäyttö heikentää yksityisyyttä paljastamalla linkit eri transaktioiden välillä lohkoketjussa.
 reviewed: false

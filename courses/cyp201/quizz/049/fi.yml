@@ -1,11 +1,9 @@
-question: Mikä on Bitcoin-parannusehdotusten (BIPs) tarkoitus?
-answer: Ne ovat päivitysehdotuksia, jotka parantavat HD-lompakoiden toiminnallisuutta ja turvallisuutta.
+question: Miten tehokas salalause tulisi valita?
+answer: Sen tulisi olla pitkä, monipuolinen ja satunnainen, ilman yhteyttä käyttäjään.
 wrong_answers:
-  - Ne ovat ehdotuksia Bitcoinin arvon nostamiseksi.
-  - Ne ovat ehdotuksia Bitcoinin louhintaprosessin muuttamiseksi.
-  - Ne ovat ehdotuksia Bitcoinin käytön säätelyksi.
+  - Sen tulisi olla helppo muistaa ja liittyä käyttäjän ympäristöön.
+  - Sen tulisi olla lyhyt, mutta sisältää numeroita.
+  - Sen tulisi sisältää vähintään 10 numeroa.
 explanation: |
-  Bitcoin-parannusehdotukset (BIPs) ovat protokollia, jotka pyrkivät parantamaan
-  HD-lompakoiden toiminnallisuutta ja turvallisuutta. Esimerkiksi BIP32 esitteli
-  käsitteen deterministisesti ja hierarkkisesti johdetuista avaimista.
+  Tehokkaan salalauseen tulisi olla pitkä (20–40 merkkiä), monipuolinen ja satunnainen, jotta se tarjoaisi maksimaalisen turvallisuuden, samankaltaisesti kuin hyvä salasana.
 reviewed: false

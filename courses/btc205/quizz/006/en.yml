@@ -6,10 +6,6 @@ wrong_answers:
   - 2000 euros
 explanation: |
   KYC light in Switzerland allows for the purchase and sale of bitcoins
-
-
   without providing identification, as long as the purchase amount does not exceed
-
-
-  1000 euros per day.'''
+  1000 euros per day.
 reviewed: false

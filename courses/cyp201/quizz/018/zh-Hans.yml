@@ -1,0 +1,8 @@
+question: 私钥存储在哪里？
+answer: 在比特币钱包中
+wrong_answers:
+  - 在区块链上
+  - 在比特币社区服务器上。
+  - 在点对点网络上。
+explanation:
+  钱包包含访问比特币所需的私钥。

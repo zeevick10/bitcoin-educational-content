@@ -1,9 +1,9 @@
-question: Mikä algoritmi Bitcoin käyttää yhdistääkseen yksityiset ja julkiset avaimet?
-answer: Elliptic Curve Digital Signature Algorithm (ECDSA)
+question: Miksi on tärkeää käyttää hyvää entropian lähdettä yksityisten avainten luomiseen?
+answer: Huono entropia voi tehdä yksityisistä avaimista ennustettavia ja alttiita hyökkäyksille.
 wrong_answers:
-  - Advanced Encryption Standard (AES)
-  - Rivest-Shamir-Adleman (RSA)
-  - Secure Hash Algorithm 2 (SHA-2)
+  - Hyvä entropia auttaa optimoimaan lompakon suorituskykyä.
+  - Entropialla ei ole roolia yksityisten avainten turvallisuudessa.
+  - Huono entropia hidastaa transaktioita.
 explanation: |
-  Bitcoin hyödyntää Elliptic Curve Digital Signature Algorithm (ECDSA) -algoritmia yhdistääkseen yksityiset ja julkiset avaimet.
+  Jos yksityisten avainten luomiseen käytetty entropia on alhainen, se saattaa mahdollistaa hyökkääjän arvata tai laskea nämä avaimet, vaarantaen lompakon turvallisuuden.
 reviewed: false

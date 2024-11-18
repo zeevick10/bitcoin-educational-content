@@ -1,0 +1,9 @@
+question: Bagaimana cara membuat frasa pemulihan (mnemonik) dalam biner?
+answer: Gabungkan angka acak dengan checksum-nya di akhir.
+wrong_answers:
+  - Gabungkan angka acak dengan checksum-nya di awal.
+  - Gabungkan angka acak dengan sebuah seed.
+  - Bagi angka acak menjadi dua bagian dan sisipkan checksum di tengah.
+explanation: |
+  Untuk menghasilkan frasa mnemonik biner, gabungkan checksum ke akhir angka acak sebelum mengonversinya menjadi kata-kata.
+reviewed: false

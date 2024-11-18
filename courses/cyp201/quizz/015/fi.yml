@@ -1,10 +1,9 @@
-question: Mikä on SHA256-tiivistefunktion tulosteen koko?
-answer: 256 bittiä
+question: Mikä on elliptisen käyrän nimi, jota käytetään digitaalisen allekirjoituksen algoritmeissa Bitcoinissa?
+answer: secp256k1.
 wrong_answers:
-  - 512 bittiä
-  - 128 bittiä
-  - 1024 bittiä
+  - secp256r1.
+  - secp160k1.
+  - secp521r1.
 explanation: |
-  SHA256-tiivistefunktio tuottaa 256-bittisen tiivisteen muuttuvankokoisesta
-  syötteestä. Tästä syystä sitä kutsutaan SHA256:ksi.
+  secp256k1-käyrää käytetään Bitcoin-protokollassa digitaalisiin allekirjoituksiin.
 reviewed: false

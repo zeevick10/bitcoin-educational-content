@@ -1,9 +1,8 @@
-question: Qual è l'equazione che definisce una curva ellittica?
-answer: "y\xB2 = x\xB3 + ax + b"
+question: Qual è il ruolo tecnico principale di un portafoglio Bitcoin?
+answer: Conservare coppie di chiavi crittografiche.
 wrong_answers:
-  - "y\xB2 = x\xB3 + ax"
-  - "y\xB2 = x\xB3 + b"
-  - "y\xB2 = x\xB3 + ax - b"
+  - Conservare bitcoin.
+  - Conservare UTXO.
+  - Conservare transazioni.
 explanation: |
-  "Una curva ellittica è definita dall'equazione y\xB2 = x\xB3 + ax + b. Ogni punto su questa curva ha una simmetria distintiva che è fondamentale per la sua utilità in crittografia."
-reviewed: false
+  Un portafoglio Bitcoin non conserva direttamente i bitcoin, ma coppie di chiavi crittografiche che vengono utilizzate per gestire e spendere gli UTXO.

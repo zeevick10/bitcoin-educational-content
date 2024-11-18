@@ -1,0 +1,8 @@
+question: 哪个前缀或HRP对应于SegWit标准地址？
+answer: "bc"
+wrong_answers:
+  - "1"
+  - "0x"
+  - "btc"
+explanation:
+  前缀"bc"用于比特币主网上的SegWit地址。

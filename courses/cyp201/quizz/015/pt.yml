@@ -1,9 +1,9 @@
-question: Qual é o tamanho de saída da função hash SHA256?
-answer: 256 bits
+question: Qual é o nome da curva elíptica usada para algoritmos de assinatura digital no Bitcoin?
+answer: secp256k1.
 wrong_answers:
-  - 512 bits
-  - 128 bits
-  - 1024 bits
+  - secp256r1.
+  - secp160k1.
+  - secp521r1.
 explanation: |
-  A função hash SHA256 gera um hash de 256 bits a partir de uma entrada de tamanho variável. É por isso que é chamada de SHA256.
+  A curva secp256k1 é usada no protocolo Bitcoin para assinaturas digitais.
 reviewed: false

@@ -1,0 +1,8 @@
+question: 通过应用HMAC-SHA512对种子进行计算得到哪些信息？
+answer: 钱包的主密钥和主链代码。
+wrong_answers:
+  - 钱包的扩展密钥。
+  - 钱包的xpub和xprv。
+  - 私钥签名代码。
+explanation: |
+  通过种子，HMAC-SHA512派生出主密钥和主链代码，这些是密钥生成的基础。

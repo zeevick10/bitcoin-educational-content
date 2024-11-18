@@ -1,0 +1,8 @@
+question: Dalam jalur derivasi dompet HD, apa yang dimaksud dengan kedalaman 0?
+answer: Kunci induk.
+wrong_answers:
+  - Kunci ekstensi.
+  - Alamat penerima.
+  - Jenis mata uang.
+explanation: |
+  Kedalaman 0 dalam jalur derivasi merujuk pada kunci induk, yang merupakan titik awal untuk semua derivasi dalam dompet HD.

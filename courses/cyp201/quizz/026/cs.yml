@@ -1,9 +1,9 @@
-question: Jaká je nejmenší jednotka Bitcoinu?
-answer: Satoshi
+question: Proč je důležité nikdy neopakovat použití nonce v algoritmu ECDSA?
+answer: Opakované použití nonce ohrožuje bezpečnost a může odhalit soukromý klíč.
 wrong_answers:
-  - Bit
-  - Byte
-  - Coin
+  - Opakované použití nonce zpomaluje výkon.
+  - Opakované použití nonce prodlužuje podpisy.
+  - Opakované použití nonce zvyšuje velikost veřejného klíče.
 explanation: |
-  V systému Bitcoinu je jednotkou účtu bitcoin (všimněte si malého "b"). Je dělitelný až na osm desetinných míst, přičemž nejmenší jednotkou je satoshi.
+  Opakované použití nonce v ECDSA může umožnit útočníkovi odhalit soukromý klíč, čímž ohrožuje bezpečnost.
 reviewed: false

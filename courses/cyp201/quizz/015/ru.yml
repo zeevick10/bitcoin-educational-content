@@ -1,0 +1,9 @@
+question: Как называется эллиптическая кривая, используемая для алгоритмов цифровой подписи в Bitcoin?
+answer: secp256k1.
+wrong_answers:
+  - secp256r1.
+  - secp160k1.
+  - secp521r1.
+explanation: |
+  Кривая secp256k1 используется в протоколе Bitcoin для цифровых подписей.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Bagaimana cara memilih passphrase yang efektif?
+answer: Harus panjang, beragam, dan acak, tanpa koneksi ke pengguna.
+wrong_answers:
+  - Harus mudah diingat dan terkait dengan lingkungan pengguna.
+  - Harus pendek tapi termasuk angka.
+  - Harus mengandung setidaknya 10 digit.
+explanation: |
+  Sebuah passphrase yang efektif harus panjang (20 hingga 40 karakter), beragam, dan acak untuk memberikan keamanan maksimal, mirip dengan kata sandi yang baik.

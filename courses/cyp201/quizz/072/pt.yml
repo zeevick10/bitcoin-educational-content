@@ -1,9 +1,8 @@
-question: O que é uma frase mnemônica no contexto de uma carteira de Bitcoin?
-answer: É um backup da carteira.
+question: Qual é a função usada para gerar um endereço?
+answer: HASH160.
 wrong_answers:
-  - É uma senha para a carteira.
-  - É um histórico de transações da carteira.
-  - É uma assinatura digital da carteira.
+  - HASH256.
+  - HASH512.
+  - SHA256.
 explanation: |
-  Uma frase mnemônica é gerada para garantir o backup da carteira de Bitcoin.
-reviewed: false
+  A função HASH160, que combina SHA256 e RIPEMD-160, é usada para gerar endereços Bitcoin a partir de chaves públicas.

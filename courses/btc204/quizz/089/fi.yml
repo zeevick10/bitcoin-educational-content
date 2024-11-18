@@ -1,0 +1,11 @@
+question: Miten "makers" saavat korvauksen JoinMarketissa?
+
+answer: "Takers" maksamien palkkioiden kautta.
+
+wrong_answers:
+  - Louhintapalkkioiden kautta.
+  - Vapaaehtoisten lahjoitusten kautta "takers"ilta.
+  - Bitcoin-yhteisön myöntämien apurahojen kautta.
+
+explanation: |
+  "Makers" jättävät bitcoinejaan saataville "takers"ille ja saavat vastineeksi palkkioita palvelustaan. "Takers" puolestaan maksavat käyttääkseen "makers"ien bitcoineja suorittaakseen omat coinjoin-transaktionsa.

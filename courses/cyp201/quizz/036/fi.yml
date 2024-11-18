@@ -1,9 +1,9 @@
-question: Mikä on lähtökohta kaikkien käyttäjien julkisten avainten laskemiselle Bitcoin-järjestelmässä?
-answer: Piste G
+question: Mikä on PRNG?
+answer: Algoritmi, joka luo satunnaisia numeroita siemenestä ja muunnosfunktiosta.
 wrong_answers:
-  - Piste K
-  - Piste U
-  - Piste O
+  - Laitteisto, joka luo todella satunnaisia numeroita.
+  - Generaattori, joka tuottaa satunnaisia numeroita ilman siementä.
+  - Algoritmi, joka luo ennustettavia numeroita.
 explanation: |
-  Piste G on lähtökohta kaikkien käyttäjien julkisten avainten laskemiselle Bitcoin-järjestelmässä.
+  PRNG luo pseudo-satunnaisia numeroita siemenestä, mutta toisin kuin TRNG, se ei ole todella satunnainen.
 reviewed: false

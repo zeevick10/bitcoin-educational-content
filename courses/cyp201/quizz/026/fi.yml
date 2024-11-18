@@ -1,11 +1,9 @@
-question: Mikä on Bitcoinin pienin yksikkö?
-answer: Satoshi
+question: Miksi on tärkeää olla koskaan uudelleenkäyttämättä nonce-arvoa ECDSA-algoritmissa?
+answer: Nonce-arvon uudelleenkäyttö vaarantaa turvallisuuden ja voi paljastaa yksityisen avaimen.
 wrong_answers:
-  - Bit
-  - Tavu
-  - Kolikko
+  - Nonce-arvon uudelleenkäyttö hidastaa suorituskykyä.
+  - Nonce-arvon uudelleenkäyttö pidentää allekirjoituksia.
+  - Nonce-arvon uudelleenkäyttö kasvattaa julkisen avaimen kokoa.
 explanation: |
-  Bitcoin-järjestelmässä laskentayksikkönä toimii bitcoin (huomaa pieni
-  "b"). Se on jaettavissa kahdeksaan desimaalipaikkaan asti, ja pienin yksikkö on
-  satoshi.
+  Nonce-arvon uudelleenkäyttö ECDSA: ssa voi mahdollistaa hyökkääjän yksityisen avaimen löytämisen, vaarantaen turvallisuuden.
 reviewed: false

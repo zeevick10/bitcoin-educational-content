@@ -1,0 +1,8 @@
+question: Apa fungsi pseudo-random yang digunakan dalam PBKDF2 untuk menghitung seed dari dompet HD Bitcoin?
+answer: HMAC-SHA512.
+wrong_answers:
+  - HMAC-SHA256.
+  - HMAC-SHA1.
+  - SHA3-512.
+explanation: |
+  HMAC-SHA512 adalah fungsi pseudo-random yang digunakan dalam PBKDF2 untuk menghasilkan seed dari dompet HD Bitcoin.

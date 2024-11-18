@@ -1,11 +1,9 @@
-question: Qual è lo scopo dei bit di padding nella fase di preprocessing di SHA256?
-answer: Per far sì che la dimensione dell'input raggiunga un multiplo perfetto di 512 bit
+question: Come si chiama la costruzione della funzione hash SHA256?
+answer: Costruzione di Merkle-Damgard.
 wrong_answers:
-  - Per aumentare la dimensione dell'input a 256 bit
-  - Per aggiungere complessità all'input
-  - Per ridurre la dimensione dell'input a 512 bit
+  - Costruzione Sponge.
+  - Costruzione di Funzioni Hash Iterative (HAIFA).
+  - Costruzione di Feistel.
 explanation: |
-  Nella fase di preprocessing di SHA256, vengono aggiunti bit di padding all'input
-  per far sì che la sua dimensione raggiunga un multiplo perfetto di 512 bit. Questo viene fatto per garantire che
-  tutti gli ingredienti si mescolino perfettamente nella ricetta crittografica.
+  SHA256 utilizza la Costruzione di Merkle-Damgard, una struttura comunemente usata per creare funzioni hash sicure.
 reviewed: false

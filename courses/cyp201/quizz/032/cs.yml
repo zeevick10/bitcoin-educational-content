@@ -1,9 +1,9 @@
-question: Jaký význam má nevratnost funkce ECDSA pro bezpečnost Bitcoin peněženky?
-answer: Je nemožné získat soukromý klíč z veřejného klíče
+question: Který BIP (Bitcoin Improvement Proposal) navrhl první verzi HD peněženky na Bitcoinu?
+answer: BIP32.
 wrong_answers:
-  - Je možné získat soukromý klíč z veřejného klíče
-  - Je možné získat veřejný klíč ze soukromého klíče
-  - Je nemožné získat veřejný klíč ze soukromého klíče
+  - BIP16.
+  - BIP39.
+  - BIP44.
 explanation: |
-  Funkce ECDSA je nevratná, což znamená, že je nemožné získat soukromý klíč z veřejného klíče. Tato nevratnost je základním kamenem bezpečnosti Bitcoin peněženky.
+  BIP32, navržený v roce 2012, je první, který představil koncept hierarchických deterministických (HD) peněženek v Bitcoinu.
 reviewed: false

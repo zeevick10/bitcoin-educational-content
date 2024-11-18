@@ -1,0 +1,9 @@
+question: Apa itu BIP (Bitcoin Improvement Proposal) yang mengusulkan versi pertama dari dompet HD pada Bitcoin?
+answer: BIP32.
+wrong_answers:
+  - BIP16.
+  - BIP39.
+  - BIP44.
+explanation: |
+  BIP32, yang diusulkan pada tahun 2012, adalah yang pertama memperkenalkan konsep dompet deterministik hierarkis (HD) di Bitcoin.
+reviewed: false

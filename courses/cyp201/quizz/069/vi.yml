@@ -1,8 +1,9 @@
-question: Chuẩn phổ biến nhất được sử dụng cho cụm từ khôi phục 24 từ trong ví Bitcoin là gì?
-answer: Một entropy 256 bit.
+question: Con đường dẫn sau đây chỉ ra điều gì? m/44'/0'/0'/0/0
+answer: Một địa chỉ Legacy bên ngoài trên mainnet.
 wrong_answers:
-  - Một entropy 128 bit.
-  - Một entropy 160 bit.
-  - Một entropy 512 bit.
+  - Một địa chỉ SegwitV1 bên ngoài trên mainnet.
+  - Một địa chỉ Legacy bên trong trên testnet.
+  - Một địa chỉ SegwitV0 bên ngoài trên mainnet.
 explanation: |
-  Chuẩn phổ biến nhất được sử dụng cho cụm từ khôi phục 24 từ là một entropy 256 bit.
+  Con đường dẫn m/44'/0'/0'/0/0 chỉ ra một địa chỉ Legacy bên ngoài trên mạng chính (mainnet). 44' = Legacy, 0' = mainnet, 0 = bên ngoài
+reviewed: false

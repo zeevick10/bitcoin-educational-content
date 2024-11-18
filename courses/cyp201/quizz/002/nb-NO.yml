@@ -1,0 +1,9 @@
+question: Hvilke hashfunksjoner brukes i Bitcoin-protokollen?
+answer: SHA-256, RIPEMD-160
+wrong_answers:
+  - MD5, SHA3-256
+  - Keccak-256, SHA-512
+  - SHA-1, Whirlpool
+explanation: |
+  I Bitcoin brukes SHA-256 og RIPEMD-160.
+reviewed: false

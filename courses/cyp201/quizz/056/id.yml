@@ -1,0 +1,8 @@
+question: Apa tujuan dari kunci ekstensi?
+answer: Untuk mengumpulkan semua informasi yang diperlukan untuk menghasilkan kunci anak ke dalam satu string.
+wrong_answers:
+  - Untuk mengumpulkan semua informasi yang diperlukan untuk merekonstruksi seluruh dompet HD ke dalam satu string.
+  - Untuk mengumpulkan informasi tentang UTXO di dalam dompet.
+  - Untuk mengumpulkan frasa mnemonik dan kata sandi ke dalam satu format.
+explanation: |
+  Kunci ekstensi memungkinkan semua informasi yang diperlukan untuk menghasilkan kunci anak dapat terkandung, sehingga mempermudah pengelolaan akun dalam dompet HD.

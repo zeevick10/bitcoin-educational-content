@@ -1,0 +1,9 @@
+question: Siin on jada kümnendarve (10 25 13 18 02 31). Mis on õige teisendus Bech32-ks?
+answer: 2edjzl
+wrong_answers:
+  - 2udjpr
+  - 2uaz2c
+  - 3bdjsr
+explanation: |
+  Kümnendarvude teisendamine Bech32-ks toimub läbi spetsiifilise vastavustabeli, ja jada 10 25 13 18 02 31 vastab 2edjzl-le.
+reviewed: false

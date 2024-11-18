@@ -1,0 +1,9 @@
+question: Apa saja fungsi hash yang digunakan dalam protokol Bitcoin?
+answer: SHA-256, RIPEMD-160
+wrong_answers:
+  - MD5, SHA3-256
+  - Keccak-256, SHA-512
+  - SHA-1, Whirlpool
+explanation: |
+  Dalam Bitcoin, SHA-256 dan RIPEMD-160 digunakan.
+reviewed: false

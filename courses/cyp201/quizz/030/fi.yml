@@ -1,11 +1,8 @@
-question: Mikä yhtälö määrittelee elliptisen käyrän?
-answer: "y² = x³ + ax + b"
+question: Mikä on Bitcoin-lompakon pääasiallinen tekninen rooli?
+answer: Tallentaa kryptografisia avainpareja.
 wrong_answers:
-  - "y² = x³ + ax"
-  - "y² = x³ + b"
-  - "y² = x³ + ax - b"
+  - Tallentaa bitcoineja.
+  - Tallentaa UTXO: ja.
+  - Tallentaa transaktioita.
 explanation: |
-  "Elliptinen käyrä määritellään yhtälöllä y² = x³ + ax + b.\
-  \ Jokaisella tämän käyrän pisteellä on erottuva symmetria, joka on avainasemassa sen hyödyllisyydessä\
-  \ kryptografiassa."
-reviewed: false
+  Bitcoin-lompakko ei suoraan tallenna bitcoineja, vaan kryptografisia avainpareja, joita käytetään UTXO: jen hallintaan ja käyttämiseen.

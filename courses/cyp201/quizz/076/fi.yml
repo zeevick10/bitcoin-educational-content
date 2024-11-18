@@ -1,9 +1,8 @@
-question: Mitä tapahtuu, jos Bitcoin-lompakon salasana vaihdetaan?
-answer: Bitcoin-lompakko muuttuu täysin erilaiseksi
+question: Miten SegWit-osoitteen tarkistussumma lasketaan?
+answer: BCH-koodilla.
 wrong_answers:
-  - Bitcoin-lompakko muuttuu saavuttamattomaksi
-  - Bitcoin-lompakko pysyy samana
-  - Bitcoin-lompakko menettää kaikki bitcoinsinsa
+  - HASH160: lla.
+  - HASH256: lla.
+  - SHA512: lla.
 explanation: |
-  Jos salasana vaihdetaan, Bitcoin-lompakko muuttuu täysin erilaiseksi,
-  koska salasana on osa kaikkien lompakon avainten rakentamista ja laskentaa.
+  SegWit-osoitteiden tarkistussumma lasketaan käyttämällä BCH-koodia, mikä mahdollistaa mahdollisten virheiden havaitsemisen osoitteessa.

@@ -1,0 +1,8 @@
+question: 在比特币协议中，什么是HASH160？
+answer: 一个SHA256哈希后跟一个RIPEMD160哈希。
+wrong_answers:
+  - 一个双重RIPEMD160哈希。
+  - 一个双重SHA256哈希。
+  - 一个MD5哈希后跟一个SHA256哈希。
+explanation: |
+  HASH160结合了一个SHA256哈希后跟RIPEMD160，特别用于生成比特币地址。

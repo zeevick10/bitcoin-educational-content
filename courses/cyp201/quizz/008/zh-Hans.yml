@@ -1,0 +1,8 @@
+question: SHA256压缩函数由多少轮组成？
+answer: 64轮。
+wrong_answers:
+  - 10轮。
+  - 128轮。
+  - 150轮。
+explanation:
+  SHA256压缩函数对每个处理的数据块执行64轮。

@@ -1,9 +1,8 @@
-question: Miksi on olennaista varmuuskopioida Bitcoin-lompakon 24 sanan palautuslause?
-answer: Estääkseen varojen menetyksen.
+question: Mikä etuliite tai HRP vastaa SegWit-standardin osoitetta?
+answer: "bc"
 wrong_answers:
-  - Varmistaakseen palautuslauseen tarkkuuden.
-  - Luodakseen lompakolle entropiaa.
-  - Salatakseen palautuslauseen lisäturvallisuuden vuoksi.
+  - "1"
+  - "0x"
+  - "btc"
 explanation: |
-  Varmuuskopioimalla 24 sanan palautuslauseen on olennaista estääkseen varojen menetyksen.
-reviewed: false
+  Etuliitettä "bc" käytetään SegWit-osoitteissa Bitcoinin pääverkossa.

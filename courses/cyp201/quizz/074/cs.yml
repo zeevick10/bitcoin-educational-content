@@ -1,9 +1,8 @@
-question: Proč je zásadní zálohovat 24slovní obnovovací frázi Bitcoin peněženky?
-answer: Aby se předešlo jakékoli ztrátě prostředků.
+question: Jaká předpona nebo HRP odpovídá standardní adrese SegWit?
+answer: "bc"
 wrong_answers:
-  - Ověřit přesnost obnovovací fráze.
-  - Generovat entropii pro peněženku.
-  - Šifrovat obnovovací frázi pro zvýšenou bezpečnost.
+  - "1"
+  - "0x"
+  - "btc"
 explanation: |
-  Zálohování 24slovní obnovovací fráze je zásadní, aby se předešlo jakékoli ztrátě prostředků.
-posouzeno: false
+  Předpona "bc" se používá pro adresy SegWit na hlavní síti Bitcoinu.

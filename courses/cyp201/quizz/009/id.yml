@@ -1,0 +1,9 @@
+question: Apa nama konstruksi dari fungsi hash SHA256?
+answer: Konstruksi Merkle-Damgard.
+wrong_answers:
+  - Konstruksi Sponge.
+  - Konstruksi Fungsi Hash Iteratif (HAIFA).
+  - Konstruksi Feistel.
+explanation: |
+  SHA256 menggunakan Konstruksi Merkle-Damgard, sebuah struktur yang umum digunakan untuk menciptakan fungsi hash yang aman.
+reviewed: false

@@ -1,10 +1,9 @@
-question: Qual é o papel do operador XOR na função de compressão do SHA256?
-answer: Para processar os bits um por um de acordo com sua posição
+question: Quantas iterações são usadas na função PBKDF2 no Bitcoin?
+answer: 2048.
 wrong_answers:
-  - Retornar 1 apenas se ambos os operandos forem iguais a 1
-  - Retornar o valor oposto de um operando
-  - Deslocar os bits para a direita por um número escolhido
+  - 512.
+  - 1000.
+  - 21000.
 explanation: |
-  Na função de compressão do SHA256, o operador XOR é usado para processar
-  os bits um por um de acordo com sua posição. Isso é feito usando uma tabela verdade.
+  O Bitcoin utiliza 2048 iterações na função PBKDF2 para aumentar a segurança da semente.
 reviewed: false

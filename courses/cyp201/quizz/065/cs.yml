@@ -1,11 +1,9 @@
-question: Jaká je hlavní výhoda používání nového páru klíčů pro každou Bitcoin transakci?
-answer: Zvyšuje bezpečnost.
+question: Co odpovídá hloubce 0 v cestách derivace HD peněženky?
+answer: Hlavní klíč.
 wrong_answers:
-  - Zvyšuje rychlost.
-  - Zvyšuje anonymitu.
-  - Zvyšuje legalitu.
+  - Rozšířený klíč.
+  - Přijímací adresy.
+  - Typ měny.
 explanation: |
-  Použití nového páru klíčů pro každou transakci zvyšuje bezpečnost Bitcoin
-  transakcí. Avšak komplikuje jejich zálohování a pouze částečně zachovává
-  důvěrnost.
+  Hloubka 0 v cestách derivace odpovídá hlavnímu klíči, který je výchozím bodem pro všechny derivace v HD peněžence.
 reviewed: false

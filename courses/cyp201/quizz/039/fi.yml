@@ -1,10 +1,8 @@
-question: Mihin julkisten ja yksityisten avainten turvallisuus perustuu?
-answer: Diskreetin logaritmin ongelma
+question: Mitkä ovat kryptografisesti turvallisen satunnaislukugeneraattorin (PRNG) ominaisuudet?
+answer: Sen on oltava ennustamaton, tilastollisesti satunnainen ja hyökkäyksiltä suojattu.
 wrong_answers:
-  - Alkulukujen tekijöihinjakoon
-  - Reppuongelma
-  - Kauppamatkustajan ongelma
+  - Sen on oltava nopea, pilvessä käytettävä ja avoimen lähdekoodin.
+  - Sen on oltava epädeterministinen, perustuttava fyysiseen ilmiöön ja skaalautuva.
+  - Sen on oltava laitteistopohjainen, prosessorin tuottama ja peruutettavissa.
 explanation: |
-  Julkisten ja yksityisten avainten turvallisuus perustuu diskreetin logaritmin
-  ongelmaan, monimutkaiseen matemaattiseen kysymykseen.
-reviewed: false
+  Kryptografisesti turvallisen satunnaislukugeneraattorin on oltava ennustamaton, kestettävä hyökkäyksiä, vaikka osa tuloksista paljastuisikin, ja sillä on oltava riittävän pitkä jakso toistuvien sekvenssien välttämiseksi.

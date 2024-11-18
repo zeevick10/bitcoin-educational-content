@@ -1,11 +1,9 @@
-question: Jaká je hlavní výhoda Hierarchických Deterministických Peněženek (HD peněženky)?
-answer: Umožňují deterministické a hierarchické generování dceřiných klíčových párů z jednoho kusu informace.
+question: Jaká funkce se používá k odvození dětského klíčového páru z rodičovského klíčového páru v HD peněžence?
+answer: HMAC-SHA512.
 wrong_answers:
-  - Umožňují generování více soukromých klíčů z jednoho veřejného klíče.
-  - Umožňují generování více veřejných klíčů z jednoho soukromého klíče.
-  - Umožňují generování více peněženek z jednoho páru klíčů.
+  - SHA256.
+  - Argon2d.
+  - PBKDF2.
 explanation: |
-  HD peněženky umožňují deterministické a hierarchické generování
-  dceřiných klíčových párů z jednoho kusu informace. To zjednodušuje generování a
-  správu klíčů, přičemž udržuje vysokou úroveň bezpečnosti.
+  HMAC-SHA512 se používá k odvození dětského klíčového páru z rodičovského klíčového páru v HD peněžence.
 reviewed: false

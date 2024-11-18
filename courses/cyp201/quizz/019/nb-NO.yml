@@ -1,0 +1,9 @@
+question: Hva er den mest kjente elliptiske kurven brukt i kryptografiske systemer?
+answer: secp256r1.
+wrong_answers:
+  - secp256k1.
+  - secp160r1.
+  - ed25519.
+explanation: |
+  Den elliptiske kurven secp256r1 er mye brukt i mange kryptografiske systemer, men Bitcoin bruker kurven secp256k1.
+reviewed: false

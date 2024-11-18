@@ -1,0 +1,8 @@
+question: 用于生成地址的函数是什么？
+answer: HASH160。
+wrong_answers:
+  - HASH256。
+  - HASH512。
+  - SHA256。
+explanation: |
+  HASH160函数结合了SHA256和RIPEMD-160，用于从公钥生成比特币地址。

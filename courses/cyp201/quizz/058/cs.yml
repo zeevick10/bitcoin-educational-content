@@ -1,11 +1,9 @@
-question: Jaká je role entropie v Bitcoin HD peněžence?
-answer: Je základem každé HD peněženky a nezbytná pro její bezpečnost.
+question: Jaká metadata jsou přidána k rozšířenému klíči kromě jeho payloadu?
+answer: Verze / hloubka / otisk rodiče / index / kontrolní součet.
 wrong_answers:
-  - Pomáhá při ověřování transakcí.
-  - Zvyšuje rychlost transakcí.
-  - Sníží velikost blockchainu.
+  - Verze / index.
+  - Verze / hloubka / oddělovač / kontrolní součet.
+  - Nejsou přidána žádná metadata.
 explanation: |
-  Entropie, neboli náhodnost, je základem jakékoli HD peněženky. Je nezbytná
-  pro bezpečnost peněženky, protože zajišťuje nepředvídatelnost generovaných
-  soukromých klíčů.
+  Rozšířený klíč zahrnuje několik kusů metadat. Jsou zde verze, hloubka, otisk rodiče, index a kontrolní součet pro usnadnění derivace klíče.
 reviewed: false

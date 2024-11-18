@@ -1,0 +1,9 @@
+question: Apa yang dimaksud dengan operasi konkatenasi?
+answer: Menyambungkan dua operan secara berurutan.
+wrong_answers:
+  - Menambahkan dua operan.
+  - Membagi dua operan.
+  - Mengurangi dua operan.
+explanation: |
+  Konkatenasi melibatkan penempatan dua operan satu setelah yang lain tanpa mengubahnya, sering digunakan dalam kriptografi.
+reviewed: false

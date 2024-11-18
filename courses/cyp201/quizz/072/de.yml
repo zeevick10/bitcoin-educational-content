@@ -1,9 +1,8 @@
-question: Was ist eine Mnemonik-Phrase im Zusammenhang mit einer Bitcoin-Wallet?
-answer: Es handelt sich um eine Sicherungskopie der Wallet.
+question: Welche Funktion wird verwendet, um eine Adresse zu generieren?
+answer: HASH160.
 wrong_answers:
-  - Es handelt sich um ein Passwort für die Wallet.
-  - Es handelt sich um eine Transaktionshistorie der Wallet.
-  - Es handelt sich um eine digitale Signatur der Wallet.
+  - HASH256.
+  - HASH512.
+  - SHA256.
 explanation: |
-  Eine Mnemonik-Phrase wird generiert, um die Sicherung der Bitcoin-Wallet zu gewährleisten.
-reviewed: false
+  Die Funktion HASH160, die SHA256 und RIPEMD-160 kombiniert, wird verwendet, um Bitcoin-Adressen aus öffentlichen Schlüsseln zu generieren.

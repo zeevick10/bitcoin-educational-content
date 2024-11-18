@@ -1,9 +1,9 @@
-question: ¿Cómo se determina el número de palabras en la frase de recuperación en la generación de una frase mnemotécnica para una billetera de Bitcoin?
-answer: Depende del tamaño de la entropía.
+question: ¿Cuál es el propósito de una cadena externa en el proceso de derivación?
+answer: Aislar direcciones destinadas a ser públicas.
 wrong_answers:
-  - Depende del tamaño del checksum.
-  - Siempre son 24 palabras.
-  - Se genera de forma aleatoria.
+  - Aislar direcciones de cambio.
+  - Gestionar transacciones entrantes.
+  - Separar claves privadas de claves públicas.
 explanation: |
-  Dependiendo del tamaño de la entropía, la frase de recuperación consistirá en 12 palabras para 128 bits, 15 palabras para 160 bits y 24 palabras para 256 bits.
+  La cadena externa se utiliza para derivar direcciones destinadas a ser públicas, como aquellas para recibir pagos.
 reviewed: false

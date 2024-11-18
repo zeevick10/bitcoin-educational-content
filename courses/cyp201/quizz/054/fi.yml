@@ -1,10 +1,9 @@
-question: Mikä on BIP43:n ja BIP44:n tarkoitus Bitcoin-ekosysteemissä?
-answer: Ne standardisoivat HD-lompakoiden rakenteen ja hierarkian.
+question: Mestariavaimen ja mestariketjukoodin arvojen laskemiseksi HMAC-SHA512-funktion ensimmäinen syöte on siemen. Mikä on tämän funktion toinen syötearvo, joka toimii avaimena?
+answer: "Bitcoin seed".
 wrong_answers:
-  - Ne esittelivät 24-sanan mnemonic-lauseen.
-  - Ne mullistivat avainten luonti- ja säilytystavan.
-  - Ne ehdottivat lisäsalasanan lisäämistä vahvistamaan yksittäisten avainten turvallisuutta.
+  - Mnemoninen lause.
+  - Salasana.
+  - "Siemen".
 explanation: |
-  BIP43 ja BIP44 standardisoivat HD-lompakoiden rakenteen ja hierarkian,
-  tehden niistä helpommin saavutettavia ja käytettävämpiä suurelle yleisölle.
+  Merkkijono "Bitcoin seed" käytetään avaimena HMAC-SHA512: ssa johdettakseen mestariavain ja mestariketjukoodi siemenestä.
 reviewed: false

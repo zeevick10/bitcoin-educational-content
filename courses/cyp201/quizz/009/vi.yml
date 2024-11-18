@@ -1,11 +1,9 @@
-question: Mục đích của các bit đệm trong giai đoạn tiền xử lý của SHA256 là gì?
-answer: Để kích thước của đầu vào đạt được một bội số hoàn hảo của 512 bit
+question: Cấu trúc của hàm băm SHA256 được gọi là gì?
+answer: Merkle-Damgard Construction.
 wrong_answers:
-  - Để tăng kích thước của đầu vào lên 256 bit
-  - Để thêm độ phức tạp cho đầu vào
-  - Để giảm kích thước của đầu vào xuống còn 512 bit
+  - Sponge Construction.
+  - Iterative Hash Functions Construction (HAIFA).
+  - Feistel Construction.
 explanation: |
-  Trong giai đoạn tiền xử lý của SHA256, các bit đệm được thêm vào đầu vào
-  để kích thước của nó đạt được một bội số hoàn hảo của 512 bit. Điều này được thực hiện để đảm bảo rằng
-  tất cả các thành phần hòa quyện hoàn hảo trong công thức mã hóa.
+  SHA256 sử dụng Merkle-Damgard Construction, một cấu trúc thường được sử dụng để tạo ra các hàm băm an toàn.
 reviewed: false

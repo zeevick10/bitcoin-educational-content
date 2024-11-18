@@ -1,0 +1,9 @@
+question: Kuidas avalikku võtit kokku suruda?
+answer: Hoiame selle x-koordinaadi väärtust ja lisame prefiksi, mis näitab, millist y-koordinaati valida.
+wrong_answers:
+  - Hoiame selle y-koordinaadi väärtust ja lisame prefiksi, mis näitab, millist x-koordinaati valida.
+  - Avaliku võtme kokkusurumiseks kasutame selle räsiväärtust.
+  - Avaliku võtme kokkusurumiseks kasutame kahekordset SHA256 räsi.
+explanation: |
+  Avaliku võtme kokkusurumine toimub nii, et hoitakse x-koordinaati ja lisatakse prefiks 0x02 või 0x03, et näidata, kas y on paaris või paaritu.
+reviewed: false

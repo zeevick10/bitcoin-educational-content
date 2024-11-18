@@ -1,0 +1,8 @@
+question: 在比特币中，用于从父密钥派生子密钥的函数是什么？
+answer: HMAC-SHA512。
+wrong_answers:
+  - SHA256。
+  - MD5。
+  - BLAKE2。
+explanation:
+  HMAC-SHA512函数用于在比特币HD钱包中从父密钥派生子密钥。

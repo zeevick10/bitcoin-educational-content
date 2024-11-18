@@ -1,9 +1,9 @@
-question: Qual è la principale sfida nella generazione di numeri casuali sui computer per le transazioni Bitcoin?
-answer: I risultati ottenuti non sono veramente casuali.
+question: Con una chiave pubblica estesa, posso derivare...
+answer: ...chiavi pubbliche figlio normali.
 wrong_answers:
-  - Il processo è troppo complesso per la maggior parte degli utenti.
-  - Richiede molta potenza di calcolo.
-  - Non è compatibile con tutti i tipi di computer.
+  - ...chiavi pubbliche figlio rinforzate.
+  - ...chiavi private figlio normali.
+  - ...chiavi private figlio rinforzate.
 explanation: |
-  I computer seguono algoritmi predefiniti, il che rende difficile generare numeri veramente casuali. Questa è una sfida significativa nella crittografia, dove la casualità è cruciale per la sicurezza delle chiavi private e delle transazioni Bitcoin.
+  Una chiave pubblica estesa consente la derivazione solo di chiavi pubbliche figlio normali, ma non di chiavi private.
 reviewed: false

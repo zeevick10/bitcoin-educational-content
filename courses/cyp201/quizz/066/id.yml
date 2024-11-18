@@ -1,0 +1,8 @@
+question: Mengenai notasi dari sebuah jalur derivasi, apa arti dari tanda apostrof atau "H" yang tercatat di sebelah kanan angka? Contoh m/84'/0'.
+answer: Ini menunjukkan derivasi yang diperketat.
+wrong_answers:
+  - Ini menunjukkan derivasi normal.
+  - Itu ada untuk dekorasi.
+  - Ini menunjukkan kunci perubahan.
+explanation: |
+  Tanda apostrof atau "H" dalam jalur derivasi menunjukkan derivasi yang diperketat, yang menggunakan kunci privat induk dan rentang indeks yang sesuai.

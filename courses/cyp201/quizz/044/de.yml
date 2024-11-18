@@ -1,9 +1,9 @@
-question: Was ist die Rolle des Generatorpunkts in der elliptischen Kurve?
-answer: Er wird verwendet, um den Punkt auf der elliptischen Kurve zu berechnen.
+question: Wie konstruiert man die Wiederherstellungsphrase (Mnemonik) in Binärform?
+answer: Füge die Zufallszahl am Ende mit ihrer Prüfsumme zusammen.
 wrong_answers:
-  - Er wird verwendet, um die Nonce zu generieren.
-  - Er wird verwendet, um die Schlüssel zu verschlüsseln.
-  - Er wird verwendet, um die Schlüssel zu speichern.
+  - Füge die Zufallszahl am Anfang mit ihrer Prüfsumme zusammen.
+  - Füge die Zufallszahl mit einem Seed zusammen.
+  - Teile die Zufallszahl in zwei Teile und füge die Prüfsumme in der Mitte ein.
 explanation: |
-  Der Generatorpunkt ist ein spezifischer Punkt auf der elliptischen Kurve, der bei der Berechnung anderer Punkte auf der Kurve verwendet wird. Er wird bei der Generierung von öffentlichen und privaten Schlüsseln sowie bei der Erstellung und Überprüfung digitaler Signaturen verwendet.
+  Um eine binäre mnemonische Phrase zu generieren, füge die Prüfsumme am Ende der Zufallszahl hinzu, bevor sie in Wörter umgewandelt wird.
 reviewed: false

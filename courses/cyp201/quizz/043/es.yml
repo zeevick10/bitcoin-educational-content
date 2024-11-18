@@ -1,11 +1,9 @@
-question: ¿Cuál es el orden de la curva secp256k1 utilizada en Bitcoin?
-answer: 2^256 - 432420386565659656852420866394968145599
+question: ¿Cómo determinar el tamaño en bits del checksum para una frase de recuperación?
+answer: Divide el tamaño del número aleatorio (entropía) por 32.
 wrong_answers:
-  - 2^256
-  - 2^256 - 1
-  - 2^256 - 432420386565659656852420866394968145598
+  - Divide el tamaño del número aleatorio (entropía) por 8.
+  - Divide el tamaño del número aleatorio (entropía) por 16.
+  - Multiplica el tamaño del número aleatorio (entropía) por 2.
 explanation: |
-  El orden de la curva secp256k1 utilizada en Bitcoin es 2^256 -
-  432420386565659656852420866394968145599.
-  Este es el número de puntos en la curva.
+  El tamaño del checksum se obtiene dividiendo el tamaño de la entropía por 32, de acuerdo con BIP39.
 reviewed: false

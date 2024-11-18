@@ -1,11 +1,9 @@
-question: Jaký je účel Návrhů na vylepšení Bitcoinu (BIPs)?
-answer: Jsou to návrhy na vylepšení, které zvyšují funkčnost a bezpečnost HD peněženek.
+question: Jak by měla být vybrána efektivní heslová fráze?
+answer: Měla by být dlouhá, rozmanitá a náhodná, bez spojení s uživatelem.
 wrong_answers:
-  - Jsou to návrhy na zvýšení hodnoty Bitcoinu.
-  - Jsou to návrhy na změnu procesu těžby Bitcoinu.
-  - Jsou to návrhy na regulaci používání Bitcoinu.
+  - Měla by být snadno zapamatovatelná a souviset s prostředím uživatele.
+  - Měla by být krátká, ale obsahovat čísla.
+  - Měla by obsahovat alespoň 10 číslic.
 explanation: |
-  Návrhy na vylepšení Bitcoinu (BIPs) jsou protokoly, které mají za cíl zlepšit
-  funkčnost a bezpečnost HD peněženek. Například BIP32 představil koncept
-  deterministicky a hierarchicky odvozených klíčů.
+  Efektivní heslová fráze by měla být dlouhá (20 až 40 znaků), rozmanitá a náhodná, aby poskytovala maximální bezpečnost, podobně jako dobré heslo.
 reviewed: false

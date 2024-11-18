@@ -1,11 +1,9 @@
-question: Mikä on entropian rooli Bitcoin HD-lompakossa?
-answer: Se on minkä tahansa HD-lompakon perusta ja olennainen sen turvallisuuden kannalta.
+question: Mitä metatietoja lisätään laajennettuun avaimen lisäksi sen kuormaan?
+answer: Versio / syvyys / vanhemman sormenjälki / indeksi / tarkistussumma.
 wrong_answers:
-  - Se auttaa tapahtumien vahvistamisessa.
-  - Se nopeuttaa tapahtumia.
-  - Se vähentää lohkoketjun kokoa.
+  - Versio / indeksi.
+  - Versio / syvyys / erotin / tarkistussumma.
+  - Metatietoja ei lisätä.
 explanation: |
-  Entropia eli satunnaisuus on minkä tahansa HD-lompakon perusta. Se on olennainen
-  lompakon turvallisuuden kannalta, sillä se varmistaa generoitavien yksityisten
-  avainten arvaamattomuuden.
+  Laajennettu avain sisältää useita metatietoja. Siinä on versio, syvyys, vanhemman sormenjälki, indeksi ja tarkistussumma avaimen johdannan helpottamiseksi.
 reviewed: false

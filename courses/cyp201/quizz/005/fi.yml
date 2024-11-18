@@ -1,11 +1,8 @@
-question: Mikä on kryptografisen hajautusfunktion lopullinen tavoite?
-answer: Muuntaa mielivaltaisen kokoiset tiedot kiinteänkokoiseksi sormenjäljeksi.
+question: Mikä koon tulee olla SHA256-funktion syötteen, kun se on täytetty?
+answer: 512 bitin monikerta.
 wrong_answers:
-  - Salata tiedot turvallista siirtoa varten.
-  - Luoda jokaiselle käyttäjälle uniikki avain.
-  - Tiivistää tiedot tehokasta tallennusta varten.
+  - 256 bitin.
+  - 256 tavun.
+  - 256 bitin monikerta.
 explanation: |
-  Kryptografisen hajautusfunktion lopullinen tavoite on muuntaa mielivaltaisen kokoiset
-  tiedot kiinteänkokoiseksi sormenjäljeksi. Tämä sormenjälki on yksilöllinen syötetiedoille,
-  ja jopa pieni muutos syötteessä johtaa merkittävästi erilaiseen sormenjälkeen.
-reviewed: false
+  SHA256-funktio vaatii, että syötteen on oltava 512 bitin monikerta täytteen jälkeen toimiakseen oikein.

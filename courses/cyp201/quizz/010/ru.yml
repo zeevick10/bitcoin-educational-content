@@ -1,0 +1,8 @@
+question: Какие алгоритмы используются для генерации ключей в HD-кошельках Bitcoin?
+answer: HMAC/PBKDF2
+wrong_answers:
+  - NMAC/PBKDF1
+  - KMAC/Scrypt
+  - CMAC/Argon2
+explanation: |
+  HD-кошельки Bitcoin используют HMAC (Hash-based Message Authentication Code) для генерации ключей и PBKDF2 (Password-Based Key Derivation Function 2) для генерации сида.

@@ -1,9 +1,9 @@
-question: Hai thành phần chính trong cơ chế bảo mật của giao thức Bitcoin là gì?
-answer: Các thuật toán HMAC và PBKDF2
+question: Khóa công khai Bitcoin được xác định như thế nào?
+answer: Nó được xác định bằng cách cộng và nhân đôi các điểm trên đường cong elliptic từ điểm sinh ra sử dụng khóa riêng.
 wrong_answers:
-  - Các hàm băm SHA-256 và RIPEMD-160
-  - Thuật toán Chữ ký Số Đường cong Elliptic (ECDSA) và hàm băm SHA-256
-  - RSA và trao đổi khóa Diffie-Hellman
+  - Nó được xác định từ một số ngẫu nhiên hoặc giả ngẫu nhiên.
+  - Nó được xác định bằng cách băm khóa riêng của nó.
+  - Nó được xác định bằng cách băm hạt giống của nó.
 explanation: |
-  Các thuật toán HMAC và PBKDF2 là các thành phần chính trong cơ chế bảo mật của giao thức Bitcoin. Chúng ngăn chặn nhiều loại tấn công tiềm ẩn và đảm bảo tính toàn vẹn của ví Bitcoin.
+  Khóa công khai được tạo ra từ khóa riêng thông qua các phép toán trên đường cong elliptic, bắt đầu từ điểm sinh ra.
 reviewed: false

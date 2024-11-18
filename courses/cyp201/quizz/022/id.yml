@@ -1,0 +1,9 @@
+question: Bagaimana kunci publik Bitcoin ditentukan?
+answer: Ditentukan dengan menambahkan dan menggandakan titik pada kurva eliptik dari titik generator menggunakan kunci privat.
+wrong_answers:
+  - Ditentukan dari angka acak atau pseudo-acak.
+  - Ditentukan dengan meng-hash kunci privatnya.
+  - Ditentukan dengan meng-hash benihnya.
+explanation: |
+  Kunci publik dihasilkan dari kunci privat melalui operasi pada kurva eliptik, dimulai dari titik generator.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Apa yang diwakili oleh passphrase dalam dompet HD?
+answer: Sebuah garam kriptografi opsional berukuran sembarang.
+wrong_answers:
+  - Sebuah kata ke-25 pada frasa mnemonik.
+  - Sebuah garam kriptografi wajib berukuran tetap.
+  - Sebuah benih kedua.
+explanation: |
+  Passphrase merupakan garam kriptografi opsional, yang meningkatkan keamanan dompet dengan menambahkan informasi tambahan pada frasa mnemonik untuk menentukan benih.

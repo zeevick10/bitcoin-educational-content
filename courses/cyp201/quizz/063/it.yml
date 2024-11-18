@@ -1,9 +1,9 @@
-question: Qual è l'importanza della sicurezza della chiave privata nell'ecosistema Bitcoin?
-answer: Essa garantisce la sicurezza delle transazioni Bitcoin.
+question: Quali sono i due tipi di derivazione di chiavi figlio in un portafoglio HD?
+answer: Derivazione normale e derivazione rinforzata.
 wrong_answers:
-  - Essa garantisce la velocità delle transazioni Bitcoin.
-  - Essa garantisce l'anonimato delle transazioni Bitcoin.
-  - Essa garantisce la legalità delle transazioni Bitcoin.
+  - Derivazione semplice e derivazione complessa.
+  - Derivazione ellittica e derivazione curva.
+  - Derivazione statica e derivazione dinamica.
 explanation: |
-  Le chiavi private sono il fondamento che garantisce la sicurezza delle transazioni Bitcoin. Devono essere generate in modo veramente casuale per evitare qualsiasi vulnerabilità associata alla prevedibilità.
+  I due tipi di derivazione sono la derivazione normale, che utilizza la chiave pubblica genitore, e la derivazione rinforzata, che utilizza la chiave privata genitore.
 reviewed: false

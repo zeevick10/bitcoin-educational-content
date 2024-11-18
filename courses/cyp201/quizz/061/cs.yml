@@ -1,10 +1,9 @@
-question: Proč se doporučuje používat open-source peněženky pro transakce s Bitcoinem?
-answer: Umožňují ověření generování náhodných čísel.
+question: Jaká proměnná umožňuje odlišit mezi sebou sourozenecké klíčové páry (které mají stejný rodičovský pár)?
+answer: Index.
 wrong_answers:
-  - Jsou levnější než peněženky s uzavřeným zdrojovým kódem.
-  - Jsou rychlejší než peněženky s uzavřeným zdrojovým kódem.
-  - Jsou bezpečnější než peněženky s uzavřeným zdrojovým kódem.
+  - Kryptografická sůl.
+  - Křestní jméno.
+  - Rodičovský řetězec kódu.
 explanation: |
-  Open-source peněženky umožňují uživatelům ověřit generování náhodného
-  čísla, což je klíčový krok pro zajištění bezpečnosti soukromých klíčů a transakcí s Bitcoinem.
+  Index se používá k odlišení sourozeneckých klíčových párů odvozených od stejného rodičovského páru v HD peněžence.
 reviewed: false

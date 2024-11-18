@@ -1,8 +1,11 @@
-question: Kích thước của khóa riêng Bitcoin là bao nhiêu?
-answer: Số 256-bit
+question: JBOK wallet trong bối cảnh của Bitcoin là gì?
+
+answer: Một ví lưu trữ các khóa riêng lẻ được xác định một cách ngẫu nhiên, không có liên kết nào giữa chúng.
+
 wrong_answers:
-  - Số 512-bit
-  - Số 128-bit
-  - Số 1024-bit
-explanation: |
-  Trong hệ thống Bitcoin, khóa riêng là một số 256-bit ngẫu nhiên hoặc giả ngẫu nhiên.
+  - Một ví tạo ra các khóa theo cách phân cấp từ một hạt giống duy nhất.
+  - Một ví tạo ra các khóa từ các khóa trước đó.
+  - Một ví chỉ sử dụng cụm từ ghi nhớ để tạo ra các khóa.
+
+explanation:
+  Một ví JBOK (Just a Bunch Of Keys - Chỉ là một nhóm các khóa) chứa các khóa riêng lẻ được tạo ra một cách ngẫu nhiên và độc lập với nhau, không giống như các ví HD.

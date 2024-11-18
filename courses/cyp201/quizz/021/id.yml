@@ -1,0 +1,9 @@
+question: Berapa ukuran kunci privat Bitcoin?
+answer: 256 bit.
+wrong_answers:
+  - 512 byte.
+  - 520 bit.
+  - 512 bit.
+explanation: |
+  Kunci privat Bitcoin memiliki ukuran standar sebesar 256 bit, sesuai dengan algoritma kurva eliptik yang digunakan dalam Bitcoin.
+reviewed: false

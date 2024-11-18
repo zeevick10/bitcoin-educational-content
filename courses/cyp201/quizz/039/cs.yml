@@ -1,9 +1,9 @@
-question: Na čem je založena bezpečnost veřejných a soukromých klíčů?
-answer: Na problému diskrétního logaritmu
+question: Jaké jsou charakteristiky kryptograficky bezpečného PRNG?
+answer: Musí být nepředvídatelný, statisticky náhodný a odolný vůči útokům.
 wrong_answers:
-  - Na problému faktorizace prvočísel
-  - Na problému batohu
-  - Na problému obchodního cestujícího
+  - Musí být rychlý, použitelný v cloudu a open source.
+  - Musí být nedeterministický, založený na fyzikálním jevu a škálovatelný.
+  - Musí být založený na hardwaru, generovaný procesorem a reverzibilní.
 explanation: |
-  Bezpečnost veřejných a soukromých klíčů spočívá na problému diskrétního logaritmu, což je složitá matematická otázka.
+  Kryptograficky bezpečný PRNG musí být nepředvídatelný, odolný i v případě, že jsou některé výsledky odhaleny, a mít dostatečně dlouhé období, aby se zabránilo opakování sekvencí.
 reviewed: false

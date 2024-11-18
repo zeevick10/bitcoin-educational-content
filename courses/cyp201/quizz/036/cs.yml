@@ -1,9 +1,9 @@
-question: Jaký je výchozí bod pro výpočet veřejných klíčů uživatelů v systému Bitcoin?
-answer: Bod G
+question: Co je PRNG?
+answer: Algoritmus, který generuje náhodná čísla z počáteční hodnoty a transformační funkce.
 wrong_answers:
-  - Bod K
-  - Bod U
-  - Bod O
+  - Hardwarové zařízení, které generuje skutečně náhodná čísla.
+  - Generátor, který produkuje náhodná čísla bez jakékoli počáteční hodnoty.
+  - Algoritmus, který generuje předvídatelná čísla.
 explanation: |
-  Bod G je výchozím bodem pro výpočet veškerých veřejných klíčů uživatelů v systému Bitcoin.
+  PRNG generuje pseudo-náhodná čísla z počáteční hodnoty, ale na rozdíl od TRNG, nejsou skutečně náhodná.
 reviewed: false

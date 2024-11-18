@@ -1,9 +1,8 @@
-question: Mikä on päähaaste satunnaislukujen tuottamisessa tietokoneilla Bitcoin-siirtoja varten?
-answer: Saadut tulokset eivät ole todella satunnaisia.
+question: Laajennetun julkisen avaimen avulla voin johtaa...
+answer: ...tavallisia lapsen julkisia avaimia.
 wrong_answers:
-  - Prosessi on liian monimutkainen useimmille käyttäjille.
-  - Se vaatii paljon laskentatehoa.
-  - Se ei ole yhteensopiva kaikkien tietokonetyyppien kanssa.
+  - ...vahvistettuja lapsen julkisia avaimia.
+  - ...tavallisia lapsen yksityisiä avaimia.
+  - ...vahvistettuja lapsen yksityisiä avaimia.
 explanation: |
-  Tietokoneet noudattavat asetettuja algoritmeja, mikä tekee todella satunnaisten lukujen tuottamisesta vaikeaa. Tämä on merkittävä haaste kryptografiassa, jossa satunnaisuus on olennaisen tärkeää yksityisavainten ja Bitcoin-siirtojen turvallisuuden kannalta.
-reviewed: false
+  Laajennettu julkinen avain mahdollistaa vain tavallisten lapsen julkisten avainten johdannan, mutta ei yksityisiä avaimia.

@@ -1,9 +1,9 @@
-question: Qual é o papel do ponto gerador na curva elíptica?
-answer: Ele é usado para calcular o ponto na curva elíptica.
+question: Como construir a frase de recuperação (mnemônica) em binário?
+answer: Concatene o número aleatório com seu checksum no final.
 wrong_answers:
-  - É usado para gerar o nonce.
-  - É usado para criptografar as chaves.
-  - É usado para armazenar as chaves.
+  - Concatene o número aleatório com seu checksum no início.
+  - Concatene o número aleatório com uma semente.
+  - Divida o número aleatório em duas partes e insira o checksum no meio.
 explanation: |
-  O ponto gerador é um ponto específico na curva elíptica que é usado no cálculo de outros pontos na curva. Ele é usado na geração de chaves públicas e privadas, bem como na criação e verificação de assinaturas digitais.
+  Para gerar uma frase mnemônica binária, concatene o checksum ao final do número aleatório antes de converter em palavras.
 reviewed: false

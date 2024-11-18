@@ -1,9 +1,8 @@
-question: Mitkä ovat alustusvektorit SHA-256-funktion käsittelyssä?
-answer: Ensimmäisten 8 alkuluvun neliöjuurten desimaaliosien ensimmäiset 32 bittiä
+question: Mitkä algoritmit ovat käytössä johdannaisissa Bitcoin HD-lompakoissa?
+answer: HMAC/PBKDF2
 wrong_answers:
-  - Ensimmäisten 8 alkuluvun kuutiojuurten desimaaliosien ensimmäiset 32 bittiä
-  - Ensimmäisten 64 alkuluvun neliöjuurten desimaaliosien ensimmäiset 32 bittiä
-  - Ensimmäisten 64 alkuluvun kuutiojuurten desimaaliosien ensimmäiset 32 bittiä
+  - NMAC/PBKDF1
+  - KMAC/Scrypt
+  - CMAC/Argon2
 explanation: |
-  SHA-256-funktion käsittelyssä alustusvektorit, A:sta H:een, ovat ensimmäisten 8 alkuluvun neliöjuurten desimaaliosien ensimmäiset 32 bittiä. Nämä toimivat perusaineina kryptografisessa reseptissä.
-reviewed: false
+  Bitcoin HD-lompakot käyttävät HMACia (Hash-pohjainen viestin autentikointikoodi) avainjohdannaisiin ja PBKDF2: ta (salasanaan perustuva avainjohdannaisfunktio 2) siemenjohdannaisiin.

@@ -1,9 +1,9 @@
-question: Qual è il punto di partenza per calcolare tutte le chiavi pubbliche degli utenti nel sistema Bitcoin?
-answer: Punto G
+question: Cos'è un PRNG?
+answer: Un algoritmo che genera numeri casuali a partire da un seme e una funzione di trasformazione.
 wrong_answers:
-  - Punto K
-  - Punto U
-  - Punto O
+  - Un dispositivo hardware che genera numeri veramente casuali.
+  - Un generatore che produce numeri casuali senza alcun seme.
+  - Un algoritmo che genera numeri prevedibili.
 explanation: |
-  Il punto G è il punto di partenza per calcolare tutte le chiavi pubbliche degli utenti nel sistema Bitcoin.
+  Un PRNG genera numeri pseudo-casuali a partire da un seme, ma a differenza di un TRNG, non è veramente casuale.
 reviewed: false

@@ -1,0 +1,8 @@
+question: 用于从助记词和可选密码短语中派生种子的关键派生函数是什么？
+answer: PBKDF2。
+wrong_answers:
+  - Lyra2。
+  - Argon2d。
+  - Scrypt。
+explanation:
+  PBKDF2函数用于从助记词和可选密码短语中派生HD钱包的种子。

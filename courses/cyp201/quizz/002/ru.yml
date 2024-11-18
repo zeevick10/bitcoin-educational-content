@@ -1,0 +1,9 @@
+question: Какие хеш-функции используются в протоколе Bitcoin?
+answer: SHA-256, RIPEMD-160
+wrong_answers:
+  - MD5, SHA3-256
+  - Keccak-256, SHA-512
+  - SHA-1, Whirlpool
+explanation: |
+  В Bitcoin используются SHA-256 и RIPEMD-160.
+reviewed: false

@@ -1,8 +1,9 @@
-question: Hàm nào được sử dụng để tạo ra seed từ cụm mật khẩu trong ví Bitcoin?
-answer: pbkdf2
+question: Làm thế nào để nén một khóa công khai?
+answer: Chúng ta giữ giá trị của tọa độ x và thêm một tiền tố chỉ ra tọa độ y nào được chọn.
 wrong_answers:
-  - sha256
-  - md5
-  - bcrypt
+  - Chúng ta giữ giá trị của tọa độ y và thêm một tiền tố chỉ ra tọa độ x nào được chọn.
+  - Chúng ta băm khóa công khai để nén nó.
+  - Chúng ta sử dụng băm SHA256 kép để nén khóa công khai.
 explanation: |
-  Hàm pbkdf2 được sử dụng để tạo ra seed từ cụm mật khẩu trong ví Bitcoin. Seed này cho phép tạo ra tất cả các cặp khóa con của ví.
+  Việc nén một khóa công khai được thực hiện bằng cách giữ tọa độ x và thêm tiền tố 0x02 hoặc 0x03 để chỉ ra liệu y là chẵn hay lẻ.
+reviewed: false

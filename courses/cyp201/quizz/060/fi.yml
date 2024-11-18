@@ -1,11 +1,9 @@
-question: Mikä on pääetu Hierarkkisesti Deterministisissä Lompakoissa (HD-lompakot)?
-answer: Ne mahdollistavat deterministisen ja hierarkkisen lapsiavainparien luonnin yhdestä tiedonpalasta.
+question: Mikä funktio käytetään johdettavan lapsiavainparin muodostamiseen vanhemmasta avainparista HD-lompakossa?
+answer: HMAC-SHA512.
 wrong_answers:
-  - Ne mahdollistavat useiden yksityisten avainten luonnin yhdestä julkisesta avaimesta.
-  - Ne mahdollistavat useiden julkisten avainten luonnin yhdestä yksityisestä avaimesta.
-  - Ne mahdollistavat useiden lompakoiden luonnin yhdestä avainparista.
+  - SHA256.
+  - Argon2d.
+  - PBKDF2.
 explanation: |
-  HD-lompakot mahdollistavat deterministisen ja hierarkkisen lapsiavainparien luonnin
-  yhdestä tiedonpalasta. Tämä tekee avainten luonnin ja hallinnan helpommaksi samalla
-  ylläpitäen korkeaa turvallisuustasoa.
+  HMAC-SHA512: tä käytetään lapsiavainparin johdattamiseen vanhemmasta avainparista HD-lompakossa.
 reviewed: false

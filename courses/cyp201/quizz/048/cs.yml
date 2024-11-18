@@ -1,9 +1,9 @@
-question: Jaká je hlavní funkce Bitcoinové peněženky?
-answer: Odkazuje na sbírku soukromých kryptografických klíčů odvozených z jednoho hlavního klíče.
+question: Jaká funkce se používá k vygenerování seedu z mnemonické fráze a hesla?
+answer: PBKDF2.
 wrong_answers:
-  - Jedná se o fyzické zařízení, které uchovává kryptoměny.
-  - Jedná se o digitální platformu pro nákup a prodej kryptoměn.
-  - Jedná se o software, který těží nové bitcoiny.
+  - SHA256.
+  - HMAC.
+  - Argon2.
 explanation: |
-  Bitcoinová peněženka, konkrétně Hierarchická Deterministická Peněženka (HD peněženka), je sbírka soukromých kryptografických klíčů odvozených z jednoho hlavního klíče. Tyto klíče jsou nezbytné pro vlastnictví kryptoměny.
+  PBKDF2 (Password-Based Key Derivation Function 2) se používá k odvození seedu z mnemonické fráze a hesla v HD peněženkách.
 reviewed: false

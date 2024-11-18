@@ -1,9 +1,9 @@
-question: Miten tarkistussumman koko määritetään luotaessa mnemonista fraasia Bitcoin-lompakkoa varten?
-answer: Jakamalla entropian koko 32:lla.
+question: Mitä seuraava johdannaispolku tarkoittaa? m/84'/0'/1'/0/7
+answer: Ulkoinen SegwitV0-osoite pääverkossa.
 wrong_answers:
-  - Kertomalla entropian koko 32:lla.
-  - Lisäämällä 32 entropian kokoon.
-  - Vähentämällä 32 entropian koosta.
+  - Ulkoinen SegwitV1-osoite pääverkossa.
+  - Sisäinen Legacy-osoite testiverkossa.
+  - Ulkoinen Legacy-osoite pääverkossa.
 explanation: |
-  Tarkistussumman koko määritetään jakamalla entropian koko 32:lla. Esimerkiksi 256-bittinen entropia tuottaa 8-bittisen tarkistussumman.
+  Johdannaispolku m/84'/0'/1'/0/7 osoittaa ulkoisen SegwitV0-osoitteen pääverkossa (mainnet). 84' = SegWit v0, 0' = pääverkko, 1 = ulkoinen
 reviewed: false

@@ -1,11 +1,9 @@
-question: Mikä on generaattoripisteen rooli elliptisellä käyrällä?
-answer: Sitä käytetään laskemaan piste elliptisellä käyrällä.
+question: Kuinka rakentaa palautuslause (mnemoninen) binäärinä?
+answer: Yhdistä satunnaisluku ja sen tarkistussumma lopussa.
 wrong_answers:
-  - Sitä käytetään nonce-arvon generoimiseen.
-  - Sitä käytetään avainten salaamiseen.
-  - Sitä käytetään avainten tallentamiseen.
+  - Yhdistä satunnaisluku ja sen tarkistussumma alussa.
+  - Yhdistä satunnaisluku siemenen kanssa.
+  - Jaa satunnaisluku kahteen osaan ja lisää tarkistussumma keskelle.
 explanation: |
-  Generaattoripiste on tietty piste elliptisellä käyrällä, jota
-  käytetään muiden pisteiden laskemisessa käyrällä. Sitä käytetään julkisten ja yksityisten avainten
-  generoinnissa, sekä digitaalisten allekirjoitusten luomisessa ja varmentamisessa.
+  Binäärin muotoisen mnemonisen lauseen luomiseksi, yhdistä tarkistussumma satunnaisluvun loppuun ennen muuntamista sanoiksi.
 reviewed: false

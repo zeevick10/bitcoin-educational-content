@@ -1,11 +1,8 @@
-question: Mitä HMAC tarkoittaa?
-answer: Hash-pohjainen viestin autentikointikoodi
+question: Mikä on pakkaamattoman Bitcoin-julkisen avaimen koko mukaan lukien sen etuliite?
+answer: 520 bittiä.
 wrong_answers:
-  - Hierarkkinen pääautentikointikoodi
-  - Hashattu pääautentikointikoodi
-  - Hierarkkinen viestin autentikointikoodi
+  - 512 tavua.
+  - 256 bittiä.
+  - 512 bittiä.
 explanation: |
-  HMAC tarkoittaa Hash-pohjaista viestin autentikointikoodia. Se on tyyppi
-  viestin autentikointikoodista (MAC), joka sisältää kryptografisen hajautusfunktion ja
-  salaisen kryptografisen avaimen.
-reviewed: false
+  Pakkaamaton Bitcoin-julkinen avain etuliitteineen on 520 bittiä, joka koostuu elliptisen käyrän pisteiden x- ja y-koordinaateista.

@@ -1,0 +1,9 @@
+question: Apa arti dari awalan "0x"?
+answer: Angka setelah awalan ini dinyatakan dalam basis 16 (heksadesimal).
+wrong_answers:
+  - Angka setelah awalan ini dinyatakan dalam basis 2 (biner).
+  - Angka setelah awalan ini dinyatakan dalam basis 10 (desimal).
+  - Angka setelah awalan ini dinyatakan dalam basis 8 (oktal).
+explanation: |
+  Awalan "0x" menunjukkan bahwa angka setelahnya dinyatakan dalam basis 16 (heksadesimal).
+reviewed: false
