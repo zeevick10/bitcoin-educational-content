@@ -851,7 +851,7 @@ Jedoch ist die Dollarisierung keine Wunderlösung. Obwohl sie die Hyperinflation
 Im Jahr 2007 erreichte die Inflationsrate in Simbabwe die Marke von 50% pro Monat und markierte offiziell das Land als von Hyperinflation betroffen. Nach der Dollarisierung im Jahr 2009 hörte die Hyperinflation auf, aber das Land stand vor anderen wirtschaftlichen Herausforderungen.
 Es ist besorgniserregend festzustellen, dass Simbabwe versucht hat, seine eigene Währung wieder einzuführen und Anzeichen einer erneuten hohen Inflation aufgetreten sind. Nach Angaben einiger internationaler Organisationen könnte das Land bereits wieder die Kriterien für Hyperinflation erfüllen, auch wenn es noch nicht die offizielle Schwelle von 50 % pro Monat erreicht hat. Dies erinnert daran, wie gefährlich übermäßige Geldausgabe und die Finanzierung von Defiziten durch die Zentralbank sein können.
 
-## Schlussfolgerung
+### Schlussfolgerung
 
 In meinem Buch "Alles über Bitcoin" habe ich ein ganzes Kapitel der Hyperinflation in Simbabwe gewidmet. Dort erläutere ich die wichtigsten Ereignisse und gebe verschiedene Beispiele, wie das Land schließlich die Hyperinflation beendet hat.
 
