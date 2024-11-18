@@ -820,7 +820,7 @@ Seega, pärast 2009. aastat, püsiva rahanduskriisi ja möllava hüperinflatsioo
 
 Siiski, dollariseerimine ei ole imelahendus. Kuigi see võib lõpetada hüperinflatsiooni, esitab see teisi majanduslikke väljakutseid. Üheks tagajärjeks on autonoomse rahapoliitika kaotus. Ilma oma valuutata ei saa riik kohandada oma rahapoliitikat, et reageerida sisemistele majandusšokkidele. 2007. aastal jõudis Zimbabwe inflatsioonimäär 50% kuus, ametlikult märgistades riiki hüperinflatsioonis olevaks. Pärast dollariseerimist 2009. aastal lõppes hüperinflatsioon, kuid riik seisab silmitsi teiste majanduslike väljakutsetega. On murettekitav märkida, et Zimbabwe on pärast seda üritanud oma valuutat uuesti kasutusele võtta ja kõrge inflatsiooni märgid on taas ilmnenud. Teatud rahvusvaheliste organisatsioonide sõnul võib riik juba vastata hüperinflatsiooni kriteeriumidele, isegi kui see ei ole veel ametlikku 50% kuus läve saavutanud. See toimib meeldetuletusena liigse rahatrüki ja keskpanga defitsiidi rahastamise ohtudest.
 
-## Järeldus
+### Järeldus
 
 Minu raamatus pealkirjaga "Kõik Bitcoini kohta" olen pühendanud terve peatüki Zimbabwe hüperinflatsioonile. Ma kirjeldan olulisi sündmusi, pakkudes mitmesuguseid näiteid, mis illustreerivad, kuidas riik lõpuks hüperinflatsioonile lõpu tegi.
 
@@ -834,11 +834,17 @@ Peamine õppetund on see, et hüperinflatsioonist ülesaamiseks on mitmeid strat
 
 ## Hüperinflatsiooni pangatähtede kollektsiooni tutvustus
 
+<chapterId>f3ffbb47-3aeb-54bd-80a9-adccb0f419e2</chapterId>
+
 kaneeritud kollektsiooni link on saadaval Bitcoin Educational Toolkitis, mis on kättesaadav platvormi ressursside jaotisest.
 
 # Kuidas me siia jõudsime?
 
+<partId>f66ca17e-be9e-5d30-a098-f7affd8962a1</partId>
+
 ## Teise tasandi raha ja keskpankade tekkimine
+
+<chapterId>0455ffe3-9d45-5a67-ac96-3f815dc507a1</chapterId>
 
 Transkript:
 

@@ -70,6 +70,7 @@ Kami juga akan membahas privasi pada tingkat jaringan node dan penyebaran transa
 <partId>b9bbbde3-34c0-4851-83e8-e2ffb029cf31</partId>
 
 ## Model UTXO Bitcoin
+<chapterId>8d6b50c5-bf74-44f4-922b-25204991cb75</chapterId>
 
 Bitcoin pada dasarnya adalah mata uang, tetapi apakah Anda tahu secara konkret bagaimana BTC direpresentasikan dalam protokol?
 
@@ -1298,6 +1299,7 @@ Jika Anda menemukan diri Anda perlu mengkonsolidasikan bitcoin Anda, prioritaska
 Dalam hal apapun, ingatlah bahwa setiap konsolidasi pasti akan mengakibatkan kehilangan privasi. Oleh karena itu, evaluasilah dengan hati-hati kebutuhan operasi ini dan dampak potensial terhadap privasi Anda, dengan mempertimbangkan risikonya.
 
 ## Praktik Baik Lainnya
+<chapterId>b5216965-7d13-4ea1-9b7c-e292966a487b</chapterId>
 
 Mari kita jelajahi bersama beberapa praktik baik lainnya yang dapat membantu Anda mengoptimalkan privasi Anda pada Bitcoin.
 

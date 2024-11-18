@@ -3590,6 +3590,8 @@ Siden denne funksjonen er ny, er det tilrådelig å utøve forsiktighet og unng�
 
 _For å lage dette kapittelet om Silent Payments, brukte jeg [nettstedet for forklaring av Silent Payments](https://silentpayments.xyz/) og [dokumentet for forklaring av BIP352](https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki)._
 
+# Konklusjon
+<partId>2aee56c0-b285-4799-b4f7-373a552ee2b2</partId>
 ## Evaluer kurset
 
 <chapterId>195d149f-80fa-5816-8b46-995a9226d082</chapterId>

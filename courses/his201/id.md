@@ -979,7 +979,7 @@ Dalam bulan-bulan yang mengikuti, perbaikan teknis, ekonomi, dan penambangan ter
 <partId>811e7c15-497a-46df-b67b-27eefbc73a63</partId>
 
 ## Demam Emas Digital
-<chapterId>8e9899ca-e7a7-471b-8e69-847a56714d3</chapterId>
+<chapterId>8e9899ca-e7a7-471b-8e69-847a56714d3b</chapterId>
 
 Dalam bagian sebelumnya, kita telah mempelajari efek dari publikasi presentasi Bitcoin di Slashdot (slashdotting) dan bagaimana masalah teknis awal dikelola oleh Satoshi dan para pembantunya. Pada akhir musim panas, proyek tersebut telah melewati badai dan siap menyambut jumlah orang yang semakin meningkat. Musim gugur tahun 2010 menandai periode kesuksesan bagi Bitcoin.
 Periode ini secara khusus merupakan era emas untuk penambangan, yang melihat peningkatan signifikan dengan munculnya pertanian GPU pertama dan koperasi pertama. Sumber daya yang dikerahkan meningkat, dan kinerja algoritma khusus meningkat. Ini agaknya sebuah "demam emas digital," seperti yang ditulis oleh seorang blogger saat itu (menggunakan pseudonim jimbobway), mencatat bahwa "ribuan pengguna internet" menambang bitcoin "dengan harapan keberuntungan" dan bahwa banyak dari mereka berusaha "mengembangkan perangkat lunak dan perangkat keras untuk menambang bitcoin lebih efisien" dengan harapan menjadi sangat kaya. (*asli: "Bitcoins: A New Digital Gold Rush (...) Thousands of users on the Internet are now mining for bitcoins in hopes of fortune. Many are trying to develop software and hardware tools to mine for bitcoins more efficiently in hopes of becoming filthy rich."*)

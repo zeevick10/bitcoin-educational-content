@@ -3417,6 +3417,7 @@ Kuna see funktsioon on hiljutine, on soovitatav olla ettevaatlik ja vältida Sil
 *Selle Silent Payments'i peatüki loomiseks kasutasin [Silent Payments'i selgitavat saiti](https://silentpayments.xyz/) ja [BIP352 selgitavat dokumenti](https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki).*
 
 # Järeldus
+<partId>2aee56c0-b285-4799-b4f7-373a552ee2b2</partId>
 
 ## Hinnake kursust
 <chapterId>195d149f-80fa-5816-8b46-995a9226d082</chapterId>

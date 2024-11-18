@@ -1,3 +1,23 @@
+---
+name: Sejarah Filosofis Kebebasan
+goal: Menemukan evolusi kebebasan sepanjang zaman, dari filsuf kuno hingga tantangan modern.
+objectives:
+  - Menganalisis filosofi politik tentang kebebasan dan kekuasaan.
+  - Melacak asal-usul historis kebebasan dari Zaman Kuno hingga Abad Pertengahan.
+  - Mengkaji kebangkitan dan kemunduran kebebasan dari abad ke-19 hingga abad ke-20.
+---
+
+# Perjalanan Melalui Sejarah Filosofis Kebebasan
+
+Sejarah Filosofis Kebebasan mengeksplorasi kebebasan sepanjang sejarah. Damien Theillier mengkaji dua filosofi politik: kebebasan dan kekuasaan. Dia menganalisis pemikiran dari tokoh-tokoh seperti Frédéric Bastiat, Lord Acton, Karl Marx, dan Murray Rothbard, menyoroti pandangan mereka tentang produksi, penjarahan, perjuangan kelas, dan Negara.
+Kursus ini kembali ke asal-usul kebebasan di Zaman Kuno, dengan bangsa Yunani dan Romawi, melalui Abad Pertengahan, di mana kebebasan manusia dibahas dalam konteks agama dan politik. Ini menunjukkan bagaimana gagasan kebebasan berkembang dengan lahirnya universitas dan bentuk-bentuk awal kapitalisme di kota-kota Italia.
+Dari masa Renaisans hingga Pencerahan, kursus ini mengkaji kebangkitan kebebasan, yang ditandai dengan toleransi beragama dan kebebasan ekonomi, yang mencapai puncaknya pada tahun 1776 dengan peristiwa-peristiwa besar seperti Kongres Philadelphia. Abad ke-19 dan ke-20 menyaksikan puncak dan kemunduran kebebasan, menghadapi kritik terhadap kapitalisme dan bahaya kolektivisme, yang memberikan perspektif tentang tantangan kontemporer bagi kebebasan.
++++
+
+# Kebebasan atau Kekuasaan
+
+<partId>e59475e9-3ae4-5e66-a17e-218de0281b06</partId>
+
 ## Pendahuluan: Hanya ada dua filsafat politik
 
 <chapterId>ffa60c0d-ee2b-575d-a4ac-4e9ccdad396f</chapterId>
@@ -1411,4 +1431,3 @@ Kita sekarang telah mengalami semua varian statisme, dan semuanya telah gagal. D
 Dalam arti tertentu, situasi kita lebih baik daripada di masa lalu. Setelah kegagalan berturut-turut dari berbagai eksperimen sosialis, komunis, dan sosial-demokrat, kita hari ini tahu bagaimana membedakan, lebih baik dari kemarin, ide-ide yang benar dari yang salah. Dan ide-ide yang salah dapat dibantah dan digantikan dengan yang benar. Seperti kata Mises:
 Semua yang terjadi dalam masyarakat global tempat kita hidup adalah hasil dari ide-ide. Baik yang baik maupun yang buruk. Yang diperlukan adalah untuk melawan ide-ide palsu. (...) Peradaban kita dapat bertahan, dan harus bertahan. Dan akan bertahan berkat ide-ide yang lebih baik daripada yang menguasai dunia saat ini; dan ide-ide yang lebih baik ini akan dikembangkan oleh generasi yang sedang tumbuh.
 (_Kebijakan Ekonomi: Pemikiran untuk Hari Ini dan Esok_, 1979).
-

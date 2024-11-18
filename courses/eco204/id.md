@@ -844,12 +844,17 @@ Poin kunci adalah ada beberapa strategi untuk mengatasi hiperinflasi. Seseorang 
 
 ## Presentasi koleksi uang kertas hiperinflasi
 
+<chapterId>f3ffbb47-3aeb-54bd-80a9-adccb0f419e2</chapterId>
+
 Link ke koleksi yang telah discan tersedia di Bitcoin Educational Toolkit, dapat diakses dari bagian Resources dari platform.
 
 # Bagaimana kita bisa sampai di sini?
 
+<partId>f66ca17e-be9e-5d30-a098-f7affd8962a1</partId>
+
 ## Kemunculan Lapisan Kedua Uang dan Bank Sentral
 
+<chapterId>0455ffe3-9d45-5a67-ac96-3f815dc507a1</chapterId>
 Transkrip:
 
 Kemunculan lapisan kedua uang dan bank sentral pertama adalah subjek yang menarik. Tema ini dibahas secara luas dalam buku "Layered Money" oleh Nick Battia. Saya sangat merekomendasikannya bagi mereka yang tertarik pada evolusi dan kompleksitas sistem moneter kita. Tujuan dari bagian ini adalah untuk memahami asal-usul penciptaan uang dan bagaimana hal itu dapat menyebabkan hiperinflasi.
@@ -938,4 +943,3 @@ Hiperinflasi adalah subjek yang menarik yang telah dipelajari melalui berbagai p
 - "The Downfall of Money: Germany’s Hyperinflation and the Destruction of the Middle Class" oleh Frederick Taylor. Eksplorasi naratif tentang dampak sosial dan ekonomi hiperinflasi pada masyarakat Jerman.
 
 - "Currency Boards for Developing Countries: A Handbook" oleh Steve Hanke dan Kurt Schuler. Meskipun fokusnya adalah pada dewan mata uang, buku ini menawarkan perspektif tentang cara menghindari situasi hiperinflasi.
-
