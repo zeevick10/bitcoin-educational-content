@@ -1,6 +1,6 @@
 ---
-navn: Teoretisk introduksjon til Lightning Network
-mål: Oppdag Lightning Network fra et teknisk perspektiv
+name: Teoretisk introduksjon til Lightning Network
+goal: Oppdag Lightning Network fra et teknisk perspektiv
 objectives:
   - Forstå driften av nettverkets kanaler.
   - Bli kjent med begrepene HTLC, LNURL og UTXO.
@@ -50,6 +50,7 @@ I vårt eksempel har Alice 100 000 satoshier på sin side av kanalen, og Bob har
 **Satoshi** (eller "sat") er en enhet for konto på Bitcoin. Likt en cent for euroen, er en satoshi rett og slett en brøkdel av Bitcoin. En satoshi er lik **0.00000001 Bitcoin**, eller en hundredel milliondel av en Bitcoin. Bruken av satoshi blir stadig mer praktisk ettersom verdien av Bitcoin stiger.
 
 ### Fordelingen av Midler i Kanalen
+
 La oss gå tilbake til betalingskanalen. Det nøkkelkonseptet her er "**siden av kanalen**". Hver deltaker har midler på sin side av kanalen: Alice 100 000 satoshis og Bob 30 000. Som vi har sett, representerer summen av disse midlene den totale kapasiteten til kanalen, et tall som settes når den åpnes.
 
 ![LNP201](assets/en/02.webp)
@@ -87,6 +88,7 @@ Dette er slutten på dette første kapittelet, hvor vi har lagt grunnlaget for L
 
 ![bitcoin, addresses, utxo, and transactions](https://youtu.be/cadCJ2V7zTg)
 Dette kapittelet er litt spesielt siden det ikke vil være direkte viet til Lightning, men til Bitcoin. Faktisk er Lightning Network et lag på toppen av Bitcoin. Det er derfor essensielt å forstå visse grunnleggende konsepter av Bitcoin for å ordentlig forstå hvordan Lightning fungerer i de påfølgende kapitlene. I dette kapittelet vil vi gå gjennom grunnleggende om Bitcoin mottaksadresser, UTXOer, samt funksjonen til Bitcoin-transaksjoner.
+
 ### Bitcoin-adresser, private nøkler og offentlige nøkler
 
 En Bitcoin-adresse er en serie tegn som er avledet fra en **offentlig nøkkel**, som selv er beregnet fra en **privat nøkkel**. Som du sikkert vet, brukes den til å låse bitcoins, noe som tilsvarer å motta dem i vår lommebok.
@@ -114,6 +116,7 @@ En UTXO er en bit av bitcoin som kan være av hvilken som helst verdi, for eksem
 UTXOer kan ikke deles. Hver gang de brukes til å bruke beløpet i bitcoins de representerer, må det gjøres i sin helhet. Det er litt som en seddel: hvis du har en €10 seddel og du skylder bakeren €5, kan du ikke bare klippe seddelen i to. Du må gi ham €10 seddelen, og han vil gi deg €5 i veksel. Dette er nøyaktig samme prinsipp for UTXOer på Bitcoin! For eksempel, når Alice låser opp et skript med sin private nøkkel, låser hun opp hele UTXOen. Hvis hun ønsker å sende bare en del av midlene representert av denne UTXOen til Bob, kan hun "fragmentere" den til flere mindre. Hun vil da sende 0,0015 BTC til Bob og sende resten, 0,0005 BTC, til en **endringsadresse**.
 
 Her er et eksempel på en transaksjon med 2 utganger:
+
 - En UTXO på 0.0015 BTC for Bob, låst av et skript som krever Bobs private nøkkelsignatur.
 - En UTXO på 0.0005 BTC for Alice, låst av et skript som krever hennes egen signatur.
 
@@ -168,6 +171,7 @@ Det er avgjørende å klart skille de forskjellige nivåene av utveksling på Li
 
 ![LNP201](assets/en/10.webp)
 Det er verdt å merke seg at en Lightning-node kan kommunisere via P2P-protokollen uten å åpne en kanal, men for å utveksle midler, er en kanal nødvendig.
+
 ### Steg for å åpne en Lightning-kanal
 
 1. **Meldingsutveksling**: Alice ønsker å åpne en kanal med Bob. Hun sender ham en melding som inneholder beløpet hun ønsker å sette inn i kanalen (130 000 sats) og hennes offentlige nøkkel. Bob svarer ved å dele sin egen offentlige nøkkel.
@@ -215,6 +219,7 @@ I neste kapittel vil vi utforske den tekniske funksjonen av en Lightning-transak
 I dette kapittelet vil vi oppdage den tekniske funksjonen av en transaksjon innenfor en kanal på Lightning-nettverket, det vil si når midler flyttes fra den ene siden av kanalen til den andre.
 
 ### Påminnelse om kanalens livssyklus
+
 Som tidligere sett, begynner en Lightning-kanal med en **åpning** via en Bitcoin-transaksjon. Kanalen kan **lukkes** når som helst, også via en Bitcoin-transaksjon. Mellom disse to øyeblikkene kan et nesten uendelig antall transaksjoner utføres innenfor kanalen, uten å gå gjennom Bitcoin-blockchainen. La oss se hva som skjer under en transaksjon i kanalen.
 ![LNP201](assets/en/17.webp)
 
@@ -255,6 +260,7 @@ La oss ta et annet eksempel: etter den første transaksjonen der Alice sendte 30
 Igjen, denne transaksjonen publiseres ikke på blockchainen, men kan publiseres når som helst i tilfelle kanalen lukkes.
 
 Oppsummert, når midler overføres innenfor en Lightning-kanal:
+
 - Alice og Bob oppretter en ny **forpliktelsestransaksjon**, som reflekterer den nye fordelingen av midler. - Denne Bitcoin-transaksjonen er **signert** av begge parter, men **ikke publisert** på Bitcoin-blockchainen så lenge kanalen forblir åpen.
 - Forpliktelsestransaksjonene sikrer at hver deltaker kan gjenopprette sine midler når som helst på Bitcoin-blockchainen ved å publisere den siste signerte transaksjonen.
 
@@ -297,8 +303,8 @@ For å forhindre denne typen juks fra Alice, på Lightning Network, legges **sik
 
 1. **Tidsbegrensningen**: Hver forpliktelsestransaksjon inkluderer en tidsbegrensning for Alices midler. Tidsbegrensningen er en smart kontrakt-primitiv som setter en tidsbetingelse som må oppfylles for at en transaksjon skal legges til i en blokk. Dette betyr at Alice ikke kan gjenopprette sine midler før et visst antall blokker har passert hvis hun publiserer en av forpliktelsestransaksjonene. Denne tidsbegrensningen begynner å gjelde fra bekreftelsen av forpliktelsestransaksjonen. Varigheten er generelt proporsjonal med størrelsen på kanalen, men den kan også manuelt konfigureres.
 2. **Tilbakekallingsnøkkelen**: Alices midler kan også umiddelbart brukes av Bob hvis han besitter **tilbakekallingsnøkkelen**. Denne nøkkelen består av en hemmelighet holdt av Alice og en hemmelighet holdt av Bob. Merk at denne hemmeligheten er forskjellig for hver forpliktelsestransaksjon.
-Takket være disse to kombinerte mekanismene, har Bob tid til å oppdage Alices forsøk på å jukse, og straffe henne ved å hente ut sitt resultat med tilbakekallingsnøkkelen, noe som for Bob betyr å gjenvinne alle midlene i kanalen. Vår nye forpliktelsestransaksjon vil nå se slik ut:
-![LNP201](assets/en/25.webp)
+   Takket være disse to kombinerte mekanismene, har Bob tid til å oppdage Alices forsøk på å jukse, og straffe henne ved å hente ut sitt resultat med tilbakekallingsnøkkelen, noe som for Bob betyr å gjenvinne alle midlene i kanalen. Vår nye forpliktelsestransaksjon vil nå se slik ut:
+   ![LNP201](assets/en/25.webp)
 
 La oss detaljere funksjonen av denne mekanismen sammen.
 
@@ -335,6 +341,7 @@ Selv om Bob i dette tilfellet ikke har noen økonomisk interesse i å prøve å 
 
 Dette sikkerhetssystemet sikrer at deltakerne overholder reglene til Lightning Network, og de kan ikke tjene på å publisere gamle forpliktelsestransaksjoner.
 På dette tidspunktet i opplæringen vet du nå hvordan Lightning-kanaler åpnes og hvordan transaksjoner innenfor disse kanalene fungerer. I neste kapittel vil vi oppdage de forskjellige måtene å lukke en kanal på og gjenopprette dine bitcoins på hovedblokkjeden.
+
 ## Kanallukking
 
 <chapterId>29a72223-2249-5400-96f0-3756b1629bc2</chapterId>
@@ -375,8 +382,8 @@ I en **kooperativ lukking** er Alice og Bob enige om å lukke kanalen. Slik går
 
 3. Alice og Bob forhandler sammen om gebyrene for **lukkingstransaksjonen**. Disse gebyrene beregnes generelt basert på Bitcoin-gebyrmarkedet på tidspunktet for lukking. Det er viktig å merke seg at **det alltid er personen som åpnet kanalen** (Alice i vårt eksempel) som betaler lukkegebyrene.
 4. De konstruerer en ny **lukkingstransaksjon**. Denne transaksjonen ligner en forpliktelsestransaksjon, men uten tidsbegrensninger eller tilbakekallingsmekanismer, siden begge parter samarbeider og det er ingen risiko for juks. Denne kooperative lukkingstransaksjonen er derfor forskjellig fra forpliktelsestransaksjoner.
-For eksempel, hvis Alice eier **100,000 satoshis** og Bob **30,000 satoshis**, vil den avsluttende transaksjonen sende **100,000 satoshis** til Alices adresse og **30,000 satoshis** til Bobs adresse, uten tidsbegrensninger. Når denne transaksjonen er signert av begge parter, publiseres den av Alice. Når transaksjonen er bekreftet på Bitcoin-blockchainen, vil Lightning-kanalen offisielt være lukket.
-![LNP201](assets/en/32.webp)
+   For eksempel, hvis Alice eier **100,000 satoshis** og Bob **30,000 satoshis**, vil den avsluttende transaksjonen sende **100,000 satoshis** til Alices adresse og **30,000 satoshis** til Bobs adresse, uten tidsbegrensninger. Når denne transaksjonen er signert av begge parter, publiseres den av Alice. Når transaksjonen er bekreftet på Bitcoin-blockchainen, vil Lightning-kanalen offisielt være lukket.
+   ![LNP201](assets/en/32.webp)
 
 **Samarbeidslukking** er den foretrukne metoden for å lukke fordi den er rask (ingen tidsbegrensning) og transaksjonsgebyrene justeres i henhold til de nåværende Bitcoin-markedsforholdene. Dette unngår å betale for lite, noe som kunne risikere å blokkere transaksjonen i mempoolene, eller å betale for mye unødvendig, noe som fører til unødvendig økonomisk tap for deltakerne.
 
@@ -414,7 +421,7 @@ Det er tre måter å lukke en kanal på:
 1. **Samarbeidslukking**: Rask og mindre kostbar, hvor begge parter er enige om å lukke kanalen og publisere en skreddersydd avsluttende transaksjon.
 2. **Tvungen Lukking**: Mindre ønskelig, ettersom den er avhengig av å publisere en forpliktelsestransaksjon, med potensielt uegnede gebyrer og en tidsbegrensning, som bremser ned lukkingen.
 3. **Juks**: Hvis en av partene prøver å stjele midler ved å publisere en gammel transaksjon, kan den andre bruke tilbakekallingsnøkkelen til å straffe dette juksinget.
-I de kommende kapitlene vil vi utforske Lightning Network fra et bredere perspektiv, med fokus på hvordan nettverket opererer.
+   I de kommende kapitlene vil vi utforske Lightning Network fra et bredere perspektiv, med fokus på hvordan nettverket opererer.
 
 # Et Likviditetsnettverk
 
@@ -485,7 +492,7 @@ De mellomliggende nodene pålegger avgifter for å tillate betalinger å passere
 
 1. "**Base fee**": et fast beløp per kanal, ofte **1 sat** som standard, men tilpassbart.
 2. "**Variabel avgift**": en prosentandel av det overførte beløpet, beregnet i **deler per million (ppm)**. Som standard er den **1 ppm** (1 sat per million satoshier overført), men den kan også justeres.
-Avgiftene varierer også avhengig av overføringens retning. For eksempel, for en overføring fra Alice til Suzie, gjelder Alices avgifter. Omvendt, fra Suzie til Alice, brukes Suzies avgifter.
+   Avgiftene varierer også avhengig av overføringens retning. For eksempel, for en overføring fra Alice til Suzie, gjelder Alices avgifter. Omvendt, fra Suzie til Alice, brukes Suzies avgifter.
 
 For eksempel, for en kanal mellom Alice og Suzie, kunne vi ha:
 
@@ -566,6 +573,7 @@ Her er hvordan denne prosessen fungerer i vårt eksempel med Alice, Suzie og Bob
 
 ![LNP201](assets/en/48.webp)
 **Opprette hemmeligheten**: Bob genererer en tilfeldig hemmelighet notert som _s_ (forhåndsbildet), og beregner hashen notert som _r_ med hashfunksjonen notert som _h_. Vi har:
+
 $$
 r = h(s)
 $$
@@ -671,7 +679,7 @@ De 2 hovedmeldingene utvekslet mellom Lightning-noder er som følger:
 
 - "**Channel Announcements**": meldinger som signaliserer åpningen av en ny kanal.
 - "**Kanaloppdateringer**": oppdateringsmeldinger om tilstanden til en kanal, spesielt om utviklingen av gebyrer (men ikke om fordelingen av likviditet).
-Lightning-noder overvåker også Bitcoin-blockchainen for å oppdage transaksjoner som lukker kanaler. Den lukkede kanalen fjernes deretter fra kartet siden den ikke lenger kan brukes til å rute våre betalinger.
+  Lightning-noder overvåker også Bitcoin-blockchainen for å oppdage transaksjoner som lukker kanaler. Den lukkede kanalen fjernes deretter fra kartet siden den ikke lenger kan brukes til å rute våre betalinger.
 
 ### Ruting av en Betaling
 
@@ -702,7 +710,7 @@ Men siden Alice ikke kjenner den eksakte fordelingen av midler i hver kanal, må
 - **Transaksjonsgebyrer**: ved valg av den beste ruten vurderer også den sendende noden gebyrene som pålegges av hver mellomliggende node og søker å minimere de totale rutekostnadene.
 - **Utløp av HTLC-er**: for å unngå blokkerte betalinger, er også utløpstiden for HTLC-er en parameter å vurdere.
 - **Antall mellomliggende noder**: til slutt, mer generelt, vil den sendende noden forsøke å finne en rute med færrest mulige noder for å redusere risikoen for feil og begrense Lightning-transaksjonsgebyrer.
-Ved å analysere disse kriteriene, kan den sendende noden teste de mest sannsynlige rutene og forsøke å optimalisere dem. I vårt eksempel kunne Alice rangere de beste rutene som følger:
+  Ved å analysere disse kriteriene, kan den sendende noden teste de mest sannsynlige rutene og forsøke å optimalisere dem. I vårt eksempel kunne Alice rangere de beste rutene som følger:
 
 1. `Alice → 1 → 2 → 5 → Bob`, fordi det er den korteste ruten med høyest kapasitet.
 2. `Alice → 1 → 2 → 4 → 5 → Bob`, fordi denne ruten tilbyr gode kapasiteter, selv om den er lengre enn den første.
@@ -768,6 +776,7 @@ Deretter delen ment for nyttelasten:
 
 p0x7x7dpp5l7r9y50wrzz0lwnsqgxdks50lxtwkl0mhd9lslr4rcgdtt2n6lssp5l3pkhdx0cmc9gfsqvw5xjhph84my2frzjqxqyz5vq9qsp5k4mkzv5jd8u5n89d2yc50x7ptkl0zprx0dfjh3km7g0x98g70hsqq7sqqqgqqyqqqqlgqqvnv2k5ehwnylq3rhpd9g2y0sq9ujyxsqqypjqqyqqqqqqqqqqqsqqqqq9qsq3vql5f6e45xztgj7y6xw6ghrcz3vmh8msrz8myvhsarxg42ce9yyn53lgnryx0m6qqld8fql
 ```
+
 De to delene er separert av en `1`. Denne separasjonen ble valgt i stedet for et spesialtegn for å tillate enkel kopiering og liming av hele fakturaen ved å dobbeltklikke.
 
 I den første delen kan vi se at:
@@ -816,6 +825,7 @@ Innholdet i en faktura inkluderer flere biter av informasjon nødvendig for å b
 Fakturaene er deretter kodet i **bech32**, samme format som for Bitcoin SegWit-adresser (format som starter med `bc1`).
 
 ### LNURL Uttak
+
 I en tradisjonell transaksjon, som et kjøp i en butikk, genereres fakturaen for det totale beløpet som skal betales. Når fakturaen presenteres (i form av en QR-kode eller en streng med tegn), kan kunden skanne den og fullføre transaksjonen. Betalingen følger deretter den tradisjonelle prosessen som vi studerte i forrige avsnitt. Imidlertid kan denne prosessen noen ganger være veldig tungvint for brukeropplevelsen, ettersom den krever at mottakeren sender informasjon til avsenderen via fakturaen.
 For visse situasjoner, som å ta ut bitcoins fra en nettjeneste, er den tradisjonelle prosessen for tungvint. I slike tilfeller forenkler **LNURL** uttaksløsningen denne prosessen ved å vise en QR-kode som mottakerens lommebok skanner for automatisk å opprette fakturaen. Tjenesten betaler deretter fakturaen, og brukeren ser ganske enkelt et øyeblikkelig uttak.
 
@@ -850,7 +860,9 @@ I det følgende kapittelet vil vi se hvordan en nodeoperatør kan håndtere likv
 I dette kapittelet vil vi utforske strategier for effektiv håndtering av likviditet på Lightning-nettverket. Likviditetsstyring varierer avhengig av brukertype og kontekst. Vi vil se på hovedprinsippene og eksisterende teknikker for å bedre forstå hvordan man kan optimalisere denne styringen.
 
 ### Likviditetsbehov
+
 Det er tre hovedbrukerprofiler på Lightning, hver med spesifikke likviditetsbehov:
+
 1. **Betalende**: Dette er den som utfører betalinger. De trenger utgående likviditet for å kunne overføre midler til andre brukere. For eksempel kan dette være en forbruker.
 2. **Selgeren (eller Mottakeren)**: Dette er den som mottar betalinger. De trenger innkommende likviditet for å kunne akseptere betalinger til sin node. For eksempel kan dette være en bedrift eller en nettbutikk.
 3. **Ruteren**: En mellomliggende node, ofte spesialisert i å rute betalinger, som må optimalisere sin likviditet i hver kanal for å rute så mange betalinger som mulig og tjene avgifter.
@@ -963,6 +975,7 @@ Vi har sett at likviditetsstyring er en utfordring på Lightning for å sikre en
 ![LNP201](assets/en/84.webp)
 
 ### Anerkjennelser
+
 Jeg vil gjerne takke hver og en av dere for deres interesse, støtte og spørsmål gjennom denne serien. Opprinnelig var ideen min å skape franskspråklig innhold rundt de tekniske aspektene ved Lightning, gitt mangelen på tilgjengelige ressurser. Det var en personlig utfordring jeg ønsket å ta på meg ved å kombinere teknisk rigor med tilgjengelighet. Hvis du likte dette gratis kurset, er du velkommen til å vurdere det i "_Rate this course_"-seksjonen og dele det med dine kjære og på dine sosiale nettverk.
 Takk, vi sees snart!
 
@@ -987,3 +1000,4 @@ Takk, vi sees snart!
 **Gratulerer med fullføringen av dette kurset!**
 
 Vennligst merk at dette kapittelet for øyeblikket er under konstruksjon og en forbedret versjon vil snart ankomme. I mellomtiden, hvis du er ivrig etter å fortsette din Bitcoin-reise, inviterer vi deg til å utforske de andre kursene og opplæringene som er tilgjengelige på vår plattform. Fortsett det gode arbeidet og lykke til med læringen!
+

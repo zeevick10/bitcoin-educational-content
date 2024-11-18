@@ -1,26 +1,3 @@
----
-name: Sejarah Filsafat tentang Kebebasan
-goal: Menemukan evolusi kebebasan sepanjang zaman, dari filsuf kuno hingga tantangan modern.
-objectives:
-  - Menganalisis filsafat politik tentang kebebasan dan kekuasaan.
-  - Melacak asal-usul historis kebebasan dari Zaman Kuno hingga Abad Pertengahan.
-  - Mengkaji naik turunnya kebebasan dari abad ke-19 hingga abad ke-20.
----
-
-# Perjalanan Melalui Sejarah Filsafat tentang Kebebasan
-
-Sejarah Filsafat tentang Kebebasan mengeksplorasi kebebasan sepanjang sejarah. Damien Theillier meneliti dua filsafat politik: kebebasan dan kekuasaan. Dia menganalisis pemikir seperti Frédéric Bastiat, Lord Acton, Karl Marx, dan Murray Rothbard, memberikan penerangan tentang pandangan mereka mengenai produksi, penjarahan, perjuangan kelas, dan Negara.
-
-Kursus ini kembali ke asal-usul kebebasan di Zaman Kuno, dengan orang Yunani dan Romawi, melalui Abad Pertengahan, di mana kebebasan manusia dibahas dalam konteks agama dan politik. Ini menunjukkan bagaimana ide-ide kebebasan berkembang dengan lahirnya universitas dan bentuk kapitalisme pertama di kota-kota Italia.
-
-Dari Renaissance hingga Pencerahan, kursus ini mengkaji naiknya kebebasan, ditandai dengan toleransi agama dan kebebasan ekonomi, mencapai puncaknya pada tahun 1776 dengan peristiwa besar seperti Kongres Philadelphia. Abad ke-19 dan ke-20 menyaksikan puncak dan penurunan kebebasan, menghadapi kritik terhadap kapitalisme dan bahaya kolektivisme, menempatkan dalam perspektif tantangan kontemporer untuk kebebasan.
-
-+++
-
-# Kebebasan atau Kekuasaan
-
-<partId>e59475e9-3ae4-5e66-a17e-218de0281b06</partId>
-
 ## Pendahuluan: Hanya ada dua filsafat politik
 
 <chapterId>ffa60c0d-ee2b-575d-a4ac-4e9ccdad396f</chapterId>
@@ -210,8 +187,8 @@ Mises menambahkan bahwa peningkatan kondisi manusia dengan demikian dimungkinkan
 > Perubahan radikal dalam situasi yang telah memberikan kepada massa Barat standar hidup saat ini (standar hidup yang tinggi memang, dibandingkan dengan apa adanya di zaman pra-kapitalis, dan dengan apa adanya di Rusia Soviet) adalah efek dari akumulasi modal melalui tabungan dan investasi yang bijaksana oleh pengusaha yang berpandangan jauh. Tidak ada perbaikan teknologi yang bisa dicapai jika modal material tambahan yang diperlukan untuk penggunaan praktis dari penemuan baru tidak dimungkinkan oleh tabungan sebelumnya.
 > Mengenai historiografi Marxis, kita juga bisa merujuk ke Friedrich Hayek dalam _Kapitalisme dan Para Sejarawan_ (University of Chicago Press, 1954) dan babnya yang berjudul "Sejarah dan Politik". Menurut Hayek, bukan industrialisasi yang membuat pekerja menderita, seperti legenda gelap kapitalisme yang dipropagandakan oleh Marxisme mengklaim. Dia mencatat:
 > Sejarah nyata hubungan antara kapitalisme dan munculnya proletariat hampir kebalikan dari apa yang teori-teori ekspropriasi massa ini sarankan.
-Sebelum Revolusi Industri, sebagian besar orang hidup di masyarakat pedesaan dan bergantung pada pertanian untuk kelangsungan hidup mereka. Mereka memiliki sedikit untuk dijual di pasar, yang membatasi peluang mereka dan standar hidup mereka. Semua orang mengharapkan untuk hidup dalam kemiskinan absolut dan membayangkan nasib serupa untuk keturunannya. Tidak ada yang merasa marah oleh situasi yang tampaknya tidak terhindarkan.
-![image](assets/1/img-106.webp)
+> Sebelum Revolusi Industri, sebagian besar orang hidup di masyarakat pedesaan dan bergantung pada pertanian untuk kelangsungan hidup mereka. Mereka memiliki sedikit untuk dijual di pasar, yang membatasi peluang mereka dan standar hidup mereka. Semua orang mengharapkan untuk hidup dalam kemiskinan absolut dan membayangkan nasib serupa untuk keturunannya. Tidak ada yang merasa marah oleh situasi yang tampaknya tidak terhindarkan.
+> ![image](assets/1/img-106.webp)
 
 Dengan munculnya industrialisasi, peluang baru muncul, menciptakan permintaan yang meningkat untuk tenaga kerja. Untuk pertama kalinya, orang-orang tanpa tanah atau sumber daya signifikan dapat menjual tenaga kerja mereka ke pabrik dan perusahaan manufaktur sebagai imbalan untuk upah, memastikan keamanan untuk masa depan.
 
@@ -317,8 +294,8 @@ Kebaruan ini didasarkan pada perbedaan mendasar antara dua istilah dalam bahasa 
 - _Phusis_ adalah hukum alam (yang memberikan kata "fisika" dalam bahasa Prancis).
 - _Nomos_ adalah hukum manusia (istilah yang ditemukan dalam kata "otonomi," yang berarti "mematuhi hukum sendiri").
   Kota muncul dengan ide bahwa hukum (nomos) berasal dari manusia, bahwa itu dapat bebas dimodifikasi oleh manusia, tidak seperti alam, dan dapat berlaku untuk semua. Orang Yunani kemudian menjadi sadar akan otonomi tatanan sosial dan politik terhadap tatanan alam.
-Ini menandai kemunculan politik: diskusi berkelanjutan tentang aturan-aturan kehidupan sosial itu sendiri. Mulai sekarang, masalah akan diselesaikan melalui tindakan bersama dan bukan oleh tatanan suci yang tidak berubah.
-Dan Jean-Pierre Vernant menambahkan:
+  Ini menandai kemunculan politik: diskusi berkelanjutan tentang aturan-aturan kehidupan sosial itu sendiri. Mulai sekarang, masalah akan diselesaikan melalui tindakan bersama dan bukan oleh tatanan suci yang tidak berubah.
+  Dan Jean-Pierre Vernant menambahkan:
 
 > Akal Yunani adalah yang memungkinkan kita bertindak atas manusia, bukan untuk mengubah alam, dengan cara yang positif, reflektif, metodis. Dalam batasannya sekaligus dalam inovasinya, ia adalah putri dari kota.
 
@@ -370,6 +347,7 @@ Mengenai tanda-tanda pertama dari keberadaan sikap kritis, kebebasan berpikir ya
 
 ![image](assets/2/img-008.webp)
 Elemen-elemen ini menunjukkan, menurutnya, bahwa Thales adalah orang yang memulai tradisi kebebasan baru ini, berdasarkan hubungan asli antara guru dan murid. Thales mampu mentolerir kritik dan, lebih dari itu, ia menetapkan tradisi untuk mengakui kritik tersebut. Popper mengidentifikasi di sini sebuah pergeseran dari tradisi dogmatis, yang hanya memperbolehkan satu doktrin sekolah, untuk digantikan dengan pluralisme dan fallibilisme.
+
 > Upaya kita untuk memahami dan menemukan kebenaran tidak definitif tetapi mampu diperbaiki, pengetahuan kita, badan doktrin kita bersifat konjektural, terbuat dari asumsi, hipotesis, dan bukan dari kebenaran yang pasti dan final.
 
 Satu-satunya cara yang kita miliki untuk mendekati kebenaran adalah kritik dan diskusi. Dari Yunani kuno, oleh karena itu, datanglah tradisi ini:
@@ -637,6 +615,7 @@ Sejak saat itu, rasionalisme agama akan secara definitif mengungguli mistisisme.
 
 Pada Abad Pertengahan, Gereja dan monarki Kristen mewarisi model politik dari Kekaisaran Romawi, yang oleh sejarawan disebut sistem teologis-politik, yang berarti sistem di mana kekuasaan adalah sakral, yaitu, di mana pemimpin politik juga merupakan pemimpin agama.
 Inilah mengapa masyarakat abad pertengahan dicirikan oleh unanimisme politik-religius. Basis kekuasaan politik mendapatkan legitimasi, otoritas, dan kesatuan dari iman Kristen (atau Muslim). Mereka menganggap diri mereka sebagai penjaga ortodoksi budaya dan agama dan memperlakukan sebagai orang buangan mereka yang menyimpang dari keseragaman ini. Dalam konteks ini, meskipun toleransi tertentu bisa diberikan kepada mereka yang terlepas dari visi budaya bersama (seperti Yahudi), tidak ada hak pluralisme yang bisa diakui untuk mereka. Baru pada akhir Abad Pertengahan, dengan penaklukan Amerika, masalah kebebasan sipil menjadi krusial bagi Gereja dan melihat kemunculan filsafat hukum pertama yang menegaskan dan melindungi kebebasan individu, melegitimasi pluralisme, dan mengutuk paksaan negara.
+
 ### Santo Agustinus dan Godaan Teokratis
 
 Pertanyaan tentang hubungan antara politik dan agama terbentuk dengan karya Santo Agustinus _Civitas Dei_ (_Kota Allah_). Di dalamnya, ia menjelaskan bahwa dua lingkup koeksistensi:
@@ -732,6 +711,7 @@ Atau Le Goff menyoroti dalam _L'usure au Moyen Âge_ (1967, diterbitkan ulang pa
 Namun, menurut sejarawan Prancis tersebut, munculnya kapitalisme harus ditempatkan dalam konteks yang lebih luas dari transformasi ekonomi, sosial, dan budaya yang terungkap selama beberapa abad. Le Goff secara khusus menekankan pentingnya Revolusi Komersial abad ke-15 dan ke-16, ditandai dengan ekspansi perdagangan maritim dan penemuan rute perdagangan baru, yang merangsang akumulasi modal dan dominasi logika pasar.
 
 ### Kritik terhadap Manipulasi Moneter
+
 Studi sistematis tentang hukum ekonomi dimulai pada Abad Pertengahan Tinggi. Para ekonom pertama adalah teolog skolastik dari Sekolah Paris. Yang pertama di antara mereka yang menulis sebuah risalah ilmiah yang sepenuhnya didedikasikan untuk subjek ekonomi adalah Nicolas Oresme (1325-1382). Sekitar tahun 1360, ia menyusun _Treatise on the Origin, Nature, Law, and Alterations of Money_ yang merangkum dan mengembangkan ide-ide skolastik pada zamannya.
 ![image](assets/3/img-031.webp)
 
@@ -755,6 +735,7 @@ Lebih lanjut, jika dua mata uang berbeda mendapat manfaat dari tender legal, age
 <partId>58793f94-f217-530a-a877-b5b6df70a5fe</partId>
 
 ## Pembelaan untuk Toleransi Agama
+
 <chapterId>c4c9a729-4a0f-5814-8e32-9aff4d373018</chapterId>
 Sejak zaman Renaissance, Eropa telah dilanda oleh perang agama. Oleh karena itu, toleransi menjadi salah satu pertarungan besar dari Pencerahan.
 
@@ -999,6 +980,7 @@ Selanjutnya, Pasal 2 dari Deklarasi Hak Asasi Manusia Prancis tahun 1789 juga te
 > Tujuan dari setiap asosiasi politik adalah pelestarian hak-hak alami dan tidak dapat dihapuskan dari manusia. Hak-hak ini adalah kebebasan, properti, keamanan, dan perlawanan terhadap penindasan.
 
 ### Dua Revolusi Dibandingkan
+
 Revolusi Amerika dipimpin oleh para pria yang berbicara tentang hak-hak dasar yang tidak dapat dicabut. Hal ini mengarah pada pembentukan negara hukum yang terdesentralisasi dan terbatas. Di sisi lain Atlantik, sebuah eksperimen politik lain terjadi: Revolusi Prancis, yang dimulai sebagai pemberontakan berani dari rakyat, berakhir dalam serangkaian pembantaian, konflik internal yang berdarah, dan membuka jalan bagi diktator militer Napoleon Bonaparte. Mengapa ada perbedaan seperti itu?
 Pada abad ke-19, Alexis de Tocqueville, seorang filsuf politik Prancis, mencoba menentukan perbedaan antara kedua revolusi saudara tersebut. Dia mengatributkan kesuksesan Revolusi Amerika pada beberapa faktor.
 
@@ -1079,8 +1061,8 @@ Tetapi ini tidak berarti mengorbankan kebebasan politik, partisipasi dalam kekua
 Memang, dalam _Principles of Politics_, Benjamin Constant menegaskan:
 
 > Kedaulatan rakyat tidak tidak terbatas, itu dibatasi dalam batas-batas yang ditelusuri oleh keadilan dan hak-hak individu. Kehendak seluruh rakyat tidak dapat membuat apa yang tidak adil menjadi adil.
-Ini adalah kritik baru terhadap Rousseau dan _Kontrak Sosial_: bahkan kehendak umum pun memiliki batasan, dan tidak dapat mengubah apa yang berada di bawah hukum alam. Ada hak yang lebih dahulu dan lebih tinggi dari otoritas politik: itu adalah hukum alam. Hak ini menetapkan batas kekuasaan politik dan membatasi kebebasan individu.
-Mengatakan bahwa semua kekuasaan yang sah harus didasarkan pada kehendak umum tidak berarti bahwa segala sesuatu yang diputuskan oleh kehendak umum adalah sah. Constant dengan demikian menyelaraskan dirinya dengan Deklarasi Hak Asasi Manusia tahun 1789, Pasal II, yang menetapkan bahwa Negara didirikan hanya untuk melestarikan hak alam, yaitu, kebebasan, tanggung jawab, dan properti. Oleh karena itu, ada bidang di mana kekuasaan politik tidak memiliki pengaruh: moral dan agama, tetapi juga ilmu pengetahuan yang berada di bawah otoritas pengetahuan dan akhirnya industri, tambah Constant.
+> Ini adalah kritik baru terhadap Rousseau dan _Kontrak Sosial_: bahkan kehendak umum pun memiliki batasan, dan tidak dapat mengubah apa yang berada di bawah hukum alam. Ada hak yang lebih dahulu dan lebih tinggi dari otoritas politik: itu adalah hukum alam. Hak ini menetapkan batas kekuasaan politik dan membatasi kebebasan individu.
+> Mengatakan bahwa semua kekuasaan yang sah harus didasarkan pada kehendak umum tidak berarti bahwa segala sesuatu yang diputuskan oleh kehendak umum adalah sah. Constant dengan demikian menyelaraskan dirinya dengan Deklarasi Hak Asasi Manusia tahun 1789, Pasal II, yang menetapkan bahwa Negara didirikan hanya untuk melestarikan hak alam, yaitu, kebebasan, tanggung jawab, dan properti. Oleh karena itu, ada bidang di mana kekuasaan politik tidak memiliki pengaruh: moral dan agama, tetapi juga ilmu pengetahuan yang berada di bawah otoritas pengetahuan dan akhirnya industri, tambah Constant.
 
 ### Kebebasan Politik dan Kebebasan Ekonomi
 
@@ -1118,7 +1100,7 @@ Memang, penyamaan disertai dengan kerapuhan individu yang lebih besar yang menja
 Penulis _Demokrasi di Amerika_ memperingatkan kita:
 
 > Memang, ada gairah yang mulia dan sah untuk kesetaraan yang mendorong manusia untuk ingin menjadi kuat dan dihormati. Gairah ini cenderung mengangkat yang kecil ke peringkat yang besar; tetapi juga ada dalam hati manusia selera yang rusak untuk kesetaraan, yang membuat yang lemah ingin menurunkan yang kuat ke tingkat mereka, dan yang mengurangi manusia untuk lebih memilih kesetaraan dalam perbudakan daripada ketidaksetaraan dalam kebebasan. (...) Bangsa-bangsa di zaman kita tidak dapat membuat kondisi di dalamnya tidak setara; tetapi terserah mereka apakah kesetaraan membawa mereka ke perbudakan atau ke kebebasan, ke pencerahan atau ke barbarisme, ke kemakmuran atau ke kesengsaraan.
-Untuk Tocqueville, manusia jauh lebih tertarik pada kesetaraan daripada kebebasan. Dan ia melihat ini sebagai bahaya besar bagi demokrasi. Mengapa manusia lebih memilih gairah untuk kesetaraan di antara keduanya? Karena kebebasan menghasilkan biaya yang langsung terlihat, dan manfaatnya lebih jauh, tercatat dalam jangka panjang (kebebasan tidak menyediakan konten, hanya kapasitas untuk mencari kebahagiaan menurut penilaian sendiri). Sebaliknya, kesetaraan membawa hasil positif yang langsung terlihat dan kekurangannya hanya terungkap dalam jangka panjang.
+> Untuk Tocqueville, manusia jauh lebih tertarik pada kesetaraan daripada kebebasan. Dan ia melihat ini sebagai bahaya besar bagi demokrasi. Mengapa manusia lebih memilih gairah untuk kesetaraan di antara keduanya? Karena kebebasan menghasilkan biaya yang langsung terlihat, dan manfaatnya lebih jauh, tercatat dalam jangka panjang (kebebasan tidak menyediakan konten, hanya kapasitas untuk mencari kebahagiaan menurut penilaian sendiri). Sebaliknya, kesetaraan membawa hasil positif yang langsung terlihat dan kekurangannya hanya terungkap dalam jangka panjang.
 
 ### Hak untuk Bekerja
 
@@ -1149,8 +1131,8 @@ Di bawah pemerintahan ide-ide sosialis, Bastiat mengamati bahwa mesin pemilu dig
 Negara kemudian menjadi, menurut kata-kata Bastiat,
 
 > fiksi besar melalui mana setiap orang berusaha untuk hidup atas biaya orang lain. ([_The State_](http://bastiat.org/fr/l_etat.html))
-Bastiat juga mengembangkan gagasan bahwa konflik muncul ketika hukum menyimpang dari peran yang seharusnya. Dalam pamflet terkenalnya [_The Law_](http://bastiat.org/fr/la_loi.html), ia menunjukkan mengapa dan bagaimana hukum telah menjadi "medan pertempuran semua keserakahan," yang berarti sumber dari hak istimewa, sewa situasional, dan perpajakan yang sewenang-wenang. Sejak saat diakui secara prinsip bahwa hukum dapat dialihkan dari misi sejatinya, bahwa ia dapat melanggar properti alih-alih menjaminnya, perjuangan kelas secara alami mengikuti, baik untuk melawan penjarahan atau untuk mengorganisirkannya demi keuntungan sendiri.
-![image](assets/5/img-098.webp)
+> Bastiat juga mengembangkan gagasan bahwa konflik muncul ketika hukum menyimpang dari peran yang seharusnya. Dalam pamflet terkenalnya [_The Law_](http://bastiat.org/fr/la_loi.html), ia menunjukkan mengapa dan bagaimana hukum telah menjadi "medan pertempuran semua keserakahan," yang berarti sumber dari hak istimewa, sewa situasional, dan perpajakan yang sewenang-wenang. Sejak saat diakui secara prinsip bahwa hukum dapat dialihkan dari misi sejatinya, bahwa ia dapat melanggar properti alih-alih menjaminnya, perjuangan kelas secara alami mengikuti, baik untuk melawan penjarahan atau untuk mengorganisirkannya demi keuntungan sendiri.
+> ![image](assets/5/img-098.webp)
 
 Dalam kasus di mana hukum hanya menegakkan hak setiap individu dan menjamin _"organisasi kolektif dari hak individu untuk pertahanan yang sah,"_ tidak ada yang dalam posisi untuk mengeksploitasinya demi keuntungan mereka sendiri atas kerugian semua, hingga tingkat bahwa bentuk pemerintahan menjadi pertanyaan sekunder.
 
@@ -1183,13 +1165,17 @@ Pembebasan warga negara, menurut Marx, sama sekali tidak menandakan pembebasan m
 Ilusi politik liberalisme ini adalah sisi sekuler dari ilusi agama, tambah Marx. Rumusnya terkenal: "agama adalah opium bagi rakyat." Agama adalah penghiburan, memberikan euforia dan menjanjikan pembebasan di akhirat. Tetapi itu mengalihkan manusia dari pembebasan sejatinya di bumi ini. Kewarganegaraan, dalam hubungannya dengan aktivitas pekerja, seperti kerajaan Tuhan dalam hubungannya dengan eksistensi yang menyedihkan di bumi ini. Ini tidak pernah terwujud. Pemisahan ganda ini merupakan alienasi ganda, berarti tidak terpenuhinya oleh manusia atas kemanusiaannya atau pencapaian imajinasinya.
 
 ### Alienasi Ekonomi
+
 Faktanya, bagi Marx dan sesuai dengan materialisme historis, alienasi ekonomi adalah akar dari alienasi politik serta alienasi agama. Dalam alienasi ekonomi, sebagai hasil dari kapitalisme (didefinisikan sebagai kepemilikan pribadi atas sarana produksi), pekerja dipaksa menjual tenaga kerjanya sebagai komoditas. Lebih lanjut, ia terampas dari produk kerjanya, yang dimiliki oleh majikan. Ia dengan demikian menjadi teralienasi, artinya terpisah dari dirinya sendiri karena pekerjaannya menjadi sesuatu yang asing baginya yang ia lakukan dengan terpaksa, untuk bertahan hidup. Namun, pekerjaan, bagi Marx, adalah tindakan yang sangat manusiawi, satu-satunya melalui mana esensi sejati manusia, yaitu kebebasan, direalisasikan. Inilah mengapa pembebasan tenaga kerja juga berarti mengembalikan manusia ke martabat dan kemanusiaannya.
 
 Revolusi politik oleh karena itu adalah ilusi, menurutnya, selama tidak disertai dengan revolusi ekonomi dan sosial yang mampu membebaskan manusia dari perbudakan kapitalis dan dengan demikian mencapai kesatuan antara pekerja dan warga negara, antara masyarakat dan negara, ruang privat dan ruang publik. Kebebasan dan kesetaraan formal warga negara akan menjadi nyata, dalam masyarakat tanpa kelas.
 
 ## Kritik Austria terhadap Marxisme
 
+<chapterId>f05dae71-c478-5de1-996e-1b7b4255d373</chapterId>
+
 Sekolah Ekonomi Austria, yang didirikan oleh Carl Menger pada akhir abad ke-19, menentang teori Karl Marx sejak awal.
+![image](assets/5/img-083.webp)
 
 ### Perjuangan Kelas
 
@@ -1254,7 +1240,7 @@ Memang, proses sentralisasi politik yang sama dan keinginan yang sama untuk meng
 Adapun liberalisme autentik, itu berkaitan dengan keadilan. Tapi Hayek mengingatkan kita bahwa itu adalah tugas masyarakat sipil, bukan Negara, untuk mengorganisir solidaritas ini. Yang membedakan liberalisme dan sosialisme bukanlah tujuannya, melainkan sarana. Menurut Hayek,
 
 > Liberalisme ingin kita memanfaatkan sebaik-baiknya kekuatan persaingan sebagai sarana untuk mengkoordinasikan upaya manusia; itu tidak ingin kita membiarkan segala sesuatunya apa adanya.
-Itulah sebabnya, Hayek menambahkan, Negara memiliki area aktivitas yang tidak dapat disangkal:
+> Itulah sebabnya, Hayek menambahkan, Negara memiliki area aktivitas yang tidak dapat disangkal:
 > Untuk menciptakan kondisi di mana persaingan akan seefektif mungkin, menggantikannya di mana tidak bisa efektif, menyediakan layanan yang sifatnya sedemikian rupa sehingga keuntungan, menurut formula Smith, tidak dapat mengganti biaya ke grup mana pun.
 
 Sebaliknya, perencanaan ekonomi dan masyarakat pada umumnya, esensi dari sosialisme, diarahkan melawan persaingan sebagai suatu hal. Namun, menurut Hayek, ada ketidakcocokan antara tujuan sosialisme (keadilan sosial, kesetaraan, dan keamanan) dan cara yang dipertimbangkan oleh sosialisme untuk mencapainya (penghapusan hak milik pribadi, kolektivisasi sarana produksi, ekonomi terencana).
@@ -1280,6 +1266,7 @@ Kesimpulannya, Hayek meminta rekan-rekannya untuk berpaling dari "kegilaan" dan 
 <partId>49e581cb-3dca-5f10-ac34-5b4cbd3d7c36</partId>
 
 ## Kemenangan Keynes
+
 <chapterId>f40fc495-bcf7-5b7a-95ad-3a3ccba3e3ba</chapterId>
 
 Kapitalisme sering dituduh sebagai sumber perintah: "kita harus selalu memproduksi lebih banyak," atau dari formula: "konsumsi itu baik untuk pertumbuhan." Namun, ide-ide ini tidak berasal dari kapitalisme tradisional tetapi dari Keynesianisme, yang telah mendominasi bidang ilmu ekonomi dan kelas politik sejak tahun 1930-an.
@@ -1339,6 +1326,8 @@ Tidak ada agama yang menyebar ke seluruh dunia secepat agama pekerjaan. Didorong
 
 ## Meninggalkan Standar Emas
 
+<chapterId>f52da9ae-c4bc-5d1a-8fd0-8fcae5948e34</chapterId>
+
 Uang adalah alat yang memungkinkan manusia untuk melampaui barter, untuk menyimpan, dan untuk berkoordinasi dalam skala besar melalui pasar. Ini telah memungkinkan spesialisasi tenaga kerja, keuntungan komparatif, keuntungan dari perdagangan, perhitungan ekonomi. Tanpa uang, tidak ada peradaban modern.
 
 ### Emas sebagai Standar Global
@@ -1363,6 +1352,7 @@ Sistem Bretton Woods, yang dirancang pada tahun 1944 dan sepenuhnya diterapkan p
 
 ![image](assets/6/img-007.webp)
 Pada masa itu, khususnya selama Perang Vietnam, peningkatan defisit pemerintah AS menyebabkan banyak negara asing, termasuk Prancis, ingin menukarkan dolar mereka menjadi emas di FED. Pada 15 Agustus 1971, Presiden Nixon memutuskan untuk membatalkan janji konversi dolar menjadi emas, sehingga menciptakan mata uang kertas sepenuhnya pertama dalam sejarah Amerika Serikat. Dari hari ini dapat ditetapkan momen ketika uang sepenuhnya berada di bawah kontrol bank sentral. Dalam sebuah wawancara, dikatakan Richard Nixon menyatakan:
+
 > Kita semua adalah Keynesian hari ini.
 
 Memang, bagi banyak ekonom Keynesian, pengabaian standar emas memberi pemerintah fleksibilitas yang diperlukan untuk merespons atau mencegah krisis ekonomi.
@@ -1395,6 +1385,7 @@ Bagi Hayek, ketidakstabilan ekonomi pasar masa lalu berasal dari fakta bahwa reg
 Hayek percaya bahwa pasar bebas mata uang privat akan mengarah pada stabilitas moneter yang lebih besar. Hampir 50 tahun kemudian, sebuah cryptocurrency seperti Bitcoin mewujudkan visi kompetitif Hayek dengan menawarkan alternatif terdesentralisasi terhadap sistem monopoli bank sentral. Bitcoin, dengan batas emisi 21 juta unit, adalah jaminan terhadap inflasi dan sewenang-wenang regulator.
 
 ## Evaluasi kursus
+
 <chapterId>6759868f-749d-5fe7-bbb1-24f603e8b34e</chapterId>
 <isCourseReview>true</isCourseReview>
 
@@ -1420,3 +1411,4 @@ Kita sekarang telah mengalami semua varian statisme, dan semuanya telah gagal. D
 Dalam arti tertentu, situasi kita lebih baik daripada di masa lalu. Setelah kegagalan berturut-turut dari berbagai eksperimen sosialis, komunis, dan sosial-demokrat, kita hari ini tahu bagaimana membedakan, lebih baik dari kemarin, ide-ide yang benar dari yang salah. Dan ide-ide yang salah dapat dibantah dan digantikan dengan yang benar. Seperti kata Mises:
 Semua yang terjadi dalam masyarakat global tempat kita hidup adalah hasil dari ide-ide. Baik yang baik maupun yang buruk. Yang diperlukan adalah untuk melawan ide-ide palsu. (...) Peradaban kita dapat bertahan, dan harus bertahan. Dan akan bertahan berkat ide-ide yang lebih baik daripada yang menguasai dunia saat ini; dan ide-ide yang lebih baik ini akan dikembangkan oleh generasi yang sedang tumbuh.
 (_Kebijakan Ekonomi: Pemikiran untuk Hari Ini dan Esok_, 1979).
+

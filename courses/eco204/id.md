@@ -17,9 +17,11 @@ Di sini, kami akan menyoroti tren dan pola umum dalam episode hiperinflasi sepan
 +++
 
 # Pendahuluan
+
 <partId>6fe4d15d-f6e6-54be-9e04-0a75ac98df8b</partId>
 
 ## Pendahuluan
+
 <chapterId>9d1aba8d-0485-5020-9863-5de37e6db8e0</chapterId>
 
 Program ini bertujuan untuk memberikan pemahaman mendalam tentang kemunculan hiperinflasi di dunia yang didominasi oleh mata uang Fiat dan untuk mengkaji konsekuensi signifikan mereka. Peserta akan menjelajahi siklus hiperinflasi secara detail, menganalisis penyebab, pemicu, dan contoh historis serta kontemporer. Mereka juga akan memeriksa dampak nyata hiperinflasi terhadap ekonomi dan kehidupan sehari-hari, mempelajari dampaknya terhadap nilai mata uang, daya beli, dan tabungan individu serta kolektif.
@@ -55,13 +57,17 @@ Bagian 4 - Bagaimana kita bisa sampai di sini?
 Semoga berhasil!
 
 # Apa itu inflasi?
+
 <partId>2b4f456c-3649-5cf9-b9b0-a5bffe92d962</partId>
 
 ## Fenomena moneter
+
 <chapterId>b2cbc915-c4ec-52b5-860c-0958f58c91e4</chapterId>
 
 ### Definisi inflasi
+
 Inflasi adalah konsep yang sering disalahpahami karena definisi yang beragam yang dikaitkannya. Persepsi tentang inflasi berbeda di antara berbagai kelompok seperti para pengguna Bitcoin dan ekonom tradisional. Mari kita klarifikasi definisi-definisi tersebut sebelum membahas hiperinflasi:
+
 - Definisi dari Robert: Inflasi adalah peningkatan berlebihan dalam instrumen pembayaran (uang kertas, modal) yang menyebabkan kenaikan harga dan depresiasi mata uang.
 
 - Definisi dari Larousse: Inflasi adalah fenomena yang ditandai dengan kenaikan umum dan berkelanjutan dalam tingkat harga. Di sini, kata "umum" sangat krusial.
@@ -219,6 +225,7 @@ Analisis ini menunjukkan bahwa kepercayaan terhadap mata uang, dan dengan perlua
 Sebagai kesimpulan, studi ini tentang devaluasi moneter membuka pintu ke pemahaman mendalam tentang mekanisme inflasi, yang akan dijelajahi dalam video-video berikutnya. Kami akan membahas berbagai jenis inflasi dan ambang batas di mana mereka beralih ke inflasi tinggi atau hiperinflasi. Dasar yang kokoh ini akan memungkinkan kita untuk mengatasi kompleksitas inflasi dalam sesi-sesi mendatang. Terima kasih atas perhatian Anda, dan sampai jumpa di video berikutnya untuk melanjutkan eksplorasi ini tentang dinamika moneter.
 
 ## Jenis-jenis Inflasi
+
 <chapterId>b438fe09-375e-5bb2-9196-7dd687b9f98c</chapterId>
 
 ### Inflasi bukan fenomena multifaktorial
@@ -256,6 +263,7 @@ Diskusi ini menyoroti pentingnya memahami mekanisme yang mendasari inflasi dan d
 ### Mengapa pencetakan uang tidak selalu menyebabkan inflasi?
 
 #### Inflasi ≠ CPI
+
 Inflasi, meskipun sering dikaitkan dengan peningkatan pasokan uang, tidak selalu memiliki korelasi langsung dengan pencetakan uang, seperti yang diilustrasikan oleh periode setelah krisis keuangan 2008. Meskipun terjadi pencetakan uang yang signifikan untuk menyelamatkan bank-bank, dekade berikutnya tidak mengalami inflasi tinggi, dengan rata-rata antara 0 dan 2% per tahun. Situasi ini menimbulkan pertanyaan: mengapa pencetakan uang besar-besaran tidak menghasilkan inflasi yang proporsional? Jawabannya terletak pada beberapa nuansa terkait pengukuran inflasi dan Indeks Harga Konsumen (CPI).
 
 Penjelasan pertama terletak pada cara inflasi diukur. Indeks Harga Konsumen (CPI), yang digunakan sebagai indikator utama inflasi, memiliki beberapa keterbatasan. Misalnya, CPI tidak secara komprehensif memperhitungkan evolusi harga real estat. Meskipun CPI mencakup komponen yang terkait dengan sewa, apresiasi substansial harga rumah tidak sepenuhnya tercermin. Akibatnya, peningkatan signifikan dalam biaya perumahan dapat terjadi tanpa sepenuhnya tertangkap oleh CPI, berpotensi meremehkan inflasi sebenarnya.
@@ -271,6 +279,7 @@ Teori Moneter Modern (MMT) menawarkan perspektif berbeda tentang penciptaan uang
 Contoh ilustratif dari MMT adalah kompleks militer-industri Amerika. Menurut MMT, ratusan miliar dolar dapat dialokasikan ke sektor ini tanpa menyebabkan inflasi, berkat kapasitas penyerapannya. Sebaliknya, jika dana yang signifikan disuntikkan ke dalam pembangunan jalan di Amerika Serikat, di mana jumlah perusahaan dan tenaga kerja terbatas, inflasi dapat terjadi karena kelangkaan sumber daya dan peningkatan biaya yang diminta oleh pemasok.
 Jepang sering dikutip oleh pendukung MMT sebagai contoh lain dari ketiadaan inflasi meskipun terjadi pencetakan uang yang signifikan. Namun, situasi di Jepang juga menyoroti keterbatasan ukuran tradisional inflasi seperti Indeks Harga Konsumen (CPI). Di Jepang, sebagian besar uang yang dicetak disimpan atau diinvestasikan dalam real estat atau pasar saham, bukan dibelanjakan dalam ekonomi konsumsi saat ini. CPI, dengan tidak sepenuhnya menangkap dinamika ini, mungkin meremehkan inflasi sebenarnya.
 Analisis terhadap Jepang (https://ideas.repec.org/p/ces/ceswps/_9821.html) juga menyoroti bahwa perilaku agen ekonomi, seperti menyimpan atau berinvestasi pada aset yang tidak termasuk dalam CPI, dapat menyembunyikan dampak inflasi dari pencetakan uang. Selain itu, kemampuan berbagai sektor untuk menyerap likuiditas yang disuntikkan memainkan peran krusial dalam terjadinya atau tidaknya inflasi.
+
 #### Neraca Bank dan Bank Sentral
 
 Sebuah contoh ketiga mengapa pencetakan uang tidak menyebabkan inflasi adalah bahwa hubungan antara pencetakan uang dan inflasi dimoderasi oleh bagaimana uang yang baru diciptakan diperkenalkan ke dalam ekonomi. Jika uang ini tetap berada di neraca bank swasta tanpa dipinjamkan kepada aktor ekonomi, maka tidak akan langsung berdampak pada ekonomi riil dan, oleh karena itu, tidak akan menghasilkan inflasi.
@@ -348,6 +357,7 @@ Sangat penting untuk memahami perbedaan antara berbagai jenis inflasi, pemahaman
 
 ![image](assets/chapitre-2.2/17.webp)
 Saat menjelajahi tipe-tipe inflasi, umum untuk menemukan istilah seperti "Demand Pull" dan "Cost Push" dalam sumber-sumber pendidikan. Konsep-konsep ini, meskipun valid, cenderung menjelaskan peningkatan harga daripada inflasi sebagai fenomena moneter. Berikut adalah analisis yang lebih mendalam:
+
 - Demand Pull:
   Inflasi Demand Pull sering dijelaskan sebagai situasi di mana permintaan dalam ekonomi melebihi produksi yang tersedia. Namun, tanpa peningkatan yang sesuai dalam pasokan uang, situasi ini hanya akan menyebabkan redistribusi pengeluaran. Konsumen mungkin menghabiskan lebih banyak untuk barang-barang esensial dan lebih sedikit untuk yang lain, sehingga menetralisir efek inflasi secara keseluruhan.
 
@@ -372,6 +382,7 @@ Bernholz mengusulkan klasifikasi inflasi yang disederhanakan namun tepat ke dala
   Klasifikasi oleh Bernholz ini menyoroti progresi berbahaya dari inflasi moderat ke hiperinflasi, menekankan pentingnya kontrol moneter dan anggaran dalam mencegah spiral inflasi yang merusak. Ini juga menunjukkan bahwa konsekuensi merugikan terhadap pembiayaan negara dapat terjadi jauh sebelum mencapai tahap hiperinflasi, memberikan perspektif yang lebih halus tentang implikasi inflasi pada berbagai derajat.
 
 ### Kesimpulan: Ringkasan Tipe-Tipe Inflasi
+
 Kesimpulan, kami telah mengeksplorasi berbagai jenis inflasi, dimulai dengan istilah yang sering terdengar seperti "inflasi merayap," "inflasi berjalan," dan "inflasi galloping," masing-masing menandakan tingkat persentase inflasi yang berbeda dalam sebuah ekonomi. Namun, untuk studi mendalam kami tentang hiperinflasi, kategori inflasi moderat, inflasi tinggi, dan hiperinflasi, seperti yang dijelaskan oleh Bernholz, terbukti menjadi tolak ukur penting.
 
 - Inflasi Moderat:
@@ -389,9 +400,11 @@ Dalam diskusi kami selanjutnya, kami akan mendalami hiperinflasi, mengeksplorasi
 Terima kasih atas perhatian Anda. Sesi berikutnya akan sepenuhnya didedikasikan untuk mendefinisikan dan mendemistifikasi hiperinflasi, dengan mempertimbangkan berbagai perspektif akademis dan praktis. Kami menantikan untuk melanjutkan eksplorasi ini dengan Anda dalam pertemuan kami selanjutnya.
 
 # Apa itu hiperinflasi?
+
 <partId>3f541663-1e2f-5410-8ee0-f61c5d009fa5</partId>
 
 ## Definisi Hiperinflasi
+
 <chapterId>d2a71a2e-5f36-58d9-993c-d431f4aa07fd</chapterId>
 
 ### Definisi Hiperinflasi
@@ -436,9 +449,10 @@ Definisi umum hiperinflasi, seperti yang diajukan oleh Kagan yang menyatakan tin
 - Buku Bernold, yang mempelajari 30 periode hiperinflasi yang berbeda, sehingga memperluas lingkup analisis.
 - Koleksi pribadi David dari banknote dari 36 periode hiperinflasi, memungkinkan pemahaman yang nyata dan historis.
 - Tabel Hanky Cross (versi 2012, diperbarui pada 2016 dengan Venezuela), mencantumkan 57 periode hiperinflasi berdasarkan definisi Kagan.
-Perlu dicatat bahwa beberapa periode historis inflasi tinggi tidak termasuk dalam tabel klasik hiperinflasi, seringkali karena kriteria klasifikasi yang ketat. Misalnya, selama Perang Kemerdekaan Amerika pada November 1779, dan selama Perang Saudara Amerika pada Maret 1864, tingkat inflasi bulanan adalah 47,4% dan 40% masing-masing. Tingkat ini, meskipun tinggi, tidak melebihi ambang batas 50% yang ditetapkan oleh Kagan, sehingga periode ini tidak diklasifikasikan sebagai kasus hiperinflasi. Penghilangan ini menggambarkan keterbatasan definisi yang kaku dan menyoroti kebutuhan akan pendekatan yang lebih halus untuk memahami hiperinflasi dalam semua kompleksitasnya.
+  Perlu dicatat bahwa beberapa periode historis inflasi tinggi tidak termasuk dalam tabel klasik hiperinflasi, seringkali karena kriteria klasifikasi yang ketat. Misalnya, selama Perang Kemerdekaan Amerika pada November 1779, dan selama Perang Saudara Amerika pada Maret 1864, tingkat inflasi bulanan adalah 47,4% dan 40% masing-masing. Tingkat ini, meskipun tinggi, tidak melebihi ambang batas 50% yang ditetapkan oleh Kagan, sehingga periode ini tidak diklasifikasikan sebagai kasus hiperinflasi. Penghilangan ini menggambarkan keterbatasan definisi yang kaku dan menyoroti kebutuhan akan pendekatan yang lebih halus untuk memahami hiperinflasi dalam semua kompleksitasnya.
 
 ## Persamaan Weimar vs Zimbabwe
+
 <chapterId>11eef458-aab8-5c63-8523-264d0ba69f5d</chapterId>
 
 ### Dua era, dua bencana
@@ -507,8 +521,8 @@ Weimar: "Spekulasi pada inflasi melibatkan peminjaman mark kertas, mengubahnya m
 Zimbabwe: Para "Burner-preneurs"
 
 7. Kejujuran dan kerja keras kehilangan daya tariknya
-Dalam konteks ekonomi yang tidak stabil, nilai-nilai tradisional seperti kerja keras, hemat, dan integritas bisa tertutupi oleh daya tarik kekayaan cepat. Spekulasi dan perdagangan mata uang seringkali menawarkan imbalan yang jauh lebih tinggi daripada pekerjaan reguler, menyebabkan gangguan dalam prioritas masyarakat.
-Weimar: "Ketika nilai-nilai lama seperti hemat, jujur, dan kerja keras kehilangan daya tariknya, semua orang berusaha untuk cepat kaya, terutama karena spekulasi mata uang atau saham tampaknya bisa menghasilkan jauh lebih banyak daripada bekerja."
+   Dalam konteks ekonomi yang tidak stabil, nilai-nilai tradisional seperti kerja keras, hemat, dan integritas bisa tertutupi oleh daya tarik kekayaan cepat. Spekulasi dan perdagangan mata uang seringkali menawarkan imbalan yang jauh lebih tinggi daripada pekerjaan reguler, menyebabkan gangguan dalam prioritas masyarakat.
+   Weimar: "Ketika nilai-nilai lama seperti hemat, jujur, dan kerja keras kehilangan daya tariknya, semua orang berusaha untuk cepat kaya, terutama karena spekulasi mata uang atau saham tampaknya bisa menghasilkan jauh lebih banyak daripada bekerja."
 
 Zimbabwe: "Praktik-praktik ini, sementara memperkaya beberapa individu, membuat kelas pekerja perkotaan dan populasi pedesaan miskin. Pendidikan kehilangan nilainya, karena perdagangan ini didorong oleh orang-orang yang tidak memerlukan pendidikan atau kerja keras untuk membenarkannya. Yang mereka butuhkan hanyalah koneksi dan modal awal untuk memulai bisnis uang mudah mereka."
 
@@ -553,7 +567,7 @@ Weimar: "Semua kejahatan terhadap negara, masing-masing dan setiap satu dari mer
 Zimbabwe: "Setiap penduduk di Zimbabwe adalah seorang kriminal. Seberat apa pun kedengarannya, itu adalah kenyataan. Dengan berbagai peraturan kecil yang mengatur setiap aspek kehidupan, tidak terhindarkan bahwa setiap orang akan melanggar hukum setiap hari. Memiliki mata uang asing adalah ilegal, menurut SI yang diterbitkan pada tahun 2004. Memiliki beberapa rekening bank untuk menghindari batas penarikan harian adalah ilegal. Tidak memiliki plat nomor yang benar pada mobil Anda, atau tidak memiliki lisensi radio mobil atau izin generator, semuanya adalah hukum yang dilanggar oleh seseorang, di suatu tempat."
 
 13. Membeli Mata Uang Asing dengan Harga Berapapun
-Pembelian panik mata uang asing sering kali menandai titik kritis dalam devaluasi mata uang, memperburuk penurunan nilai intrinsik.
+    Pembelian panik mata uang asing sering kali menandai titik kritis dalam devaluasi mata uang, memperburuk penurunan nilai intrinsik.
 
 > Weimar: "Mannheimer, atas instruksi bosnya, keluar pada Agustus 1921 dan mulai membeli mata uang asing dengan harga berapapun - 'karena Jerman memiliki jumlah mark kertas yang tak terbatas tetapi tidak memiliki mata uang asing.' Ini adalah tanda pertama dari kehancuran nilai mark secara absolut."
 
@@ -589,6 +603,7 @@ Zimbabwe: "Kami sekarang menggunakan voucher ini untuk membayar sewa kepada pemi
 Ini mengakhiri video ini tentang kesamaan pengalaman selama periode hiperinflasi di Zimbabwe dan Republik Weimar. Dalam video berikutnya, kami akan membahas perbedaan dan paralel kontemporer. Terima kasih.
 
 ## Weimar vs Zimbabwe: Perbedaan dan Paralel Kontemporer
+
 <chapterId>643f279c-d89f-5600-a2e2-b1bbbba0ab69</chapterId>
 
 Dalam bab ini, kami akan menjelajahi perbedaan dan paralel kontemporer antara periode hiperinflasi masa lalu dan masa kini, dengan anekdot dan perbandingan yang relevan untuk hari ini.
@@ -602,8 +617,8 @@ Di Jerman, umum untuk populasi mengatributkan inflasi pada kenaikan dolar daripa
 ![image](assets/chapitre-3.3/3.webp)
 
 2. Mata uang kebutuhan (Notgeld)
-Menghadapi krisis moneter dan ekonomi, Jerman beralih ke "Notgeld" (uang darurat). Nota-nota ini, dicetak oleh kota atau perusahaan tertentu, dirancang untuk mengatasi kekurangan mata uang umum. Menariknya, Prancis juga menggunakan Notgeld, khususnya pada tahun 1920-an. Inisiatif ini bukan hanya sebagai konsekuensi langsung dari hiperinflasi tetapi juga memiliki akar pada gangguan yang disebabkan oleh Perang Dunia I. Perang tidak hanya mengganggu ekonomi tetapi juga meningkatkan biaya logam. Akibatnya, nilai intrinsik koin logam seringkali melebihi nilai nominalnya, mendorong orang untuk menyimpannya. Dalam ketiadaan koin, beberapa institusi, seperti Kamar Dagang Lyon, mencetak Notgeld mereka sendiri.
-![image](assets/chapitre-3.3/0.webp)
+   Menghadapi krisis moneter dan ekonomi, Jerman beralih ke "Notgeld" (uang darurat). Nota-nota ini, dicetak oleh kota atau perusahaan tertentu, dirancang untuk mengatasi kekurangan mata uang umum. Menariknya, Prancis juga menggunakan Notgeld, khususnya pada tahun 1920-an. Inisiatif ini bukan hanya sebagai konsekuensi langsung dari hiperinflasi tetapi juga memiliki akar pada gangguan yang disebabkan oleh Perang Dunia I. Perang tidak hanya mengganggu ekonomi tetapi juga meningkatkan biaya logam. Akibatnya, nilai intrinsik koin logam seringkali melebihi nilai nominalnya, mendorong orang untuk menyimpannya. Dalam ketiadaan koin, beberapa institusi, seperti Kamar Dagang Lyon, mencetak Notgeld mereka sendiri.
+   ![image](assets/chapitre-3.3/0.webp)
 
 > "Apa yang harus dilakukan, harus dilakukan." - sebuah pepatah lokal
 
@@ -633,8 +648,8 @@ Untuk mempelajari lebih lanjut tentang pengelolaan krisis Jerman, buku ini juga 
 
 1. Manipulasi kebijakan moneter untuk mengendalikan ekonomi.
    Dalam sejarah Republik Weimar, jelas bahwa para industrialis enggan melihat apresiasi Mark. Kemampuan mereka untuk meminjam dan melunasi utang mereka dengan mata uang yang sangat terdepresiasi memberi mereka keuntungan yang signifikan. Mekanisme ini memfasilitasi pembangunan kompleks industri besar dengan hampir tanpa biaya. Para industrialis ini khawatir akan apresiasi Mark karena menghambat aktivitas mereka. Beberapa bahkan melihat inflasi yang merajalela sebagai hal yang baik, percaya itu menjamin pekerjaan untuk populasi. Namun, mereka tidak menyadari dampak merugikan inflasi ini terhadap tabungan dan ekonomi pada umumnya. Bagi para aktor ekonomi ini, pencetakan uang adalah berkah.
-Weimar: "Inilah mengapa apresiasi terhadap mark sangat ditakuti, dan bahkan beberapa minggu 'stabilitas' setelah Genoa menyebabkan stagnasi bisnis."
-Weimar: "Kalangan industri menghadapi bahaya di mana uang tunai akan menjadi lebih berharga daripada barang, dan sebuah kehancuran akan terjadi ketika semua orang mencoba mengubah aset mereka menjadi uang tunai."
+   Weimar: "Inilah mengapa apresiasi terhadap mark sangat ditakuti, dan bahkan beberapa minggu 'stabilitas' setelah Genoa menyebabkan stagnasi bisnis."
+   Weimar: "Kalangan industri menghadapi bahaya di mana uang tunai akan menjadi lebih berharga daripada barang, dan sebuah kehancuran akan terjadi ketika semua orang mencoba mengubah aset mereka menjadi uang tunai."
 
 Sebuah paralel kontemporer dapat ditarik dengan pernyataan Christine Lagarde, yang menyarankan bahwa warga negara harus memprioritaskan prospek pekerjaan daripada perlindungan tabungan mereka. Sama seperti para industrialis Weimar, dia tampaknya mendukung pencetakan uang sebagai alat untuk merangsang pekerjaan, dengan mengorbankan nilai tabungan.
 
@@ -662,8 +677,8 @@ Konsep perusahaan zombie bukanlah hal baru. Faktanya, hal ini sudah ada di Repub
 Fenomena perusahaan zombie tidak terbatas pada sejarah pasca-perang Jerman. Bahkan hari ini, banyak perusahaan besar bertahan berkat akses istimewa ke kredit bunga sangat rendah. Jika mereka harus meminjam dengan suku bunga yang lebih konvensional, banyak di antara mereka yang akan berhenti menguntungkan. Ini sangat relevan karena kita berada di tahun 2023, dan setelah periode panjang suku bunga hampir nol, mereka telah mulai naik. Perkembangan terbaru dalam lanskap keuangan ini pasti akan menjadi ujian yang menentukan bagi perusahaan-perusahaan yang pernah disebut "zombie".
 
 5. Cepat kaya!
-Sepanjang sejarah, telah ada momen ketika individu berusaha untuk cepat kaya, seperti yang terjadi di Weimar dan Zimbabwe melalui arbitrase. Saat ini, kita melihat tren serupa dengan munculnya beberapa cryptocurrency. Orang-orang tergoda oleh keuntungan cepat, mengambil risiko dengan harapan penggandaan eksponensial investasi mereka. Pendekatan ini dapat mengingatkan kita pada apa yang diamati selama periode hiperinflasi, di mana arbitrase digunakan untuk memperoleh keuntungan cepat, seringkali dengan mengorbankan orang lain.
-![image](assets/chapitre-3.3/6.webp)
+   Sepanjang sejarah, telah ada momen ketika individu berusaha untuk cepat kaya, seperti yang terjadi di Weimar dan Zimbabwe melalui arbitrase. Saat ini, kita melihat tren serupa dengan munculnya beberapa cryptocurrency. Orang-orang tergoda oleh keuntungan cepat, mengambil risiko dengan harapan penggandaan eksponensial investasi mereka. Pendekatan ini dapat mengingatkan kita pada apa yang diamati selama periode hiperinflasi, di mana arbitrase digunakan untuk memperoleh keuntungan cepat, seringkali dengan mengorbankan orang lain.
+   ![image](assets/chapitre-3.3/6.webp)
 
 6. Tabungan, Obat terhadap Ketidakpastian
 
@@ -675,6 +690,7 @@ Bayangkan skenario di mana Anda memiliki keluarga atau orang-orang terkasih yang
 Hari ini, di hadapan penurunan daya beli, investasi mengambil alih. Namun, pendekatan ini datang dengan risiko tersendiri. Tabungan selalu menjadi obat terhadap ketidakpastian. Memiliki cadangan finansial untuk mengelola situasi tak terduga berkontribusi pada ketenangan pikiran dan memperkuat koherensi sosial. Kesimpulannya, melindungi daya beli kita penting untuk menjaga stabilitas sosial dan individu.
 
 ## Redenominasi di Amerika Latin
+
 <chapterId>918eafd7-409d-5205-ad52-a52e63b23a64</chapterId>
 
 Sekarang, kita akan melihat berbagai periode redenominasi di negara-negara Amerika Latin.
@@ -688,6 +704,7 @@ Di slide, di sebelah kiri, adalah tahun-tahun redenominasi, nama mata uang baru,
 Di sisi kanan slide, ada grafik inflasi. Panah merah mewakili tahun-tahun hiperinflasi, yang didefinisikan menurut kriteria Kagan sebagai tingkat inflasi 50% per bulan. Kriteria ini terkadang dapat menyebabkan interpretasi yang ambigu, dengan tahun-tahun yang memiliki tingkat inflasi tinggi tetapi tidak memenuhi definisi ketat hiperinflasi.
 Perlu dicatat bahwa redenominasi, selama periode inflasi, adalah langkah umum yang diambil oleh pemerintah. Namun, ini tidak menyelesaikan masalah mendasar dari inflasi atau hiperinflasi. Ini hanya cara untuk mengganti nama mata uang dan menghilangkan nol, tanpa benar-benar menangani penyebab utama hiperinflasi: ekspansi pasokan uang. Dalam video selanjutnya, kita akan membahas solusi nyata untuk mengatasi dan menyelesaikan masalah hiperinflasi. Dalam seri ini, kita akan menyoroti konsekuensi dari redenominasi sederhana tanpa reformasi yang memadai: inflasi tetap berlanjut.
 Setelah Argentina, studi kami akan mencakup Brasil, Bolivia, Peru, Nikaragua, dan Venezuela. Kami akan memeriksa redenominasi yang telah terjadi di negara-negara ini.
+
 ### Argentina
 
 ![image](assets/chapitre-3.4/1.webp)
@@ -736,7 +753,7 @@ Peru menawarkan kasus menarik mengenai efek dari aturan 50% yang sewenang-wenang
 Mengkaji periode redenominasi, tahun 1988 dianggap sebagai tahun hiperinflasi, terutama pada bulan September. Juli-Agustus 1990 juga melihat periode hiperinflasi. Pada tahun 1988, tingkat inflasi tahunan adalah 667%, dengan puncak 50% pada bulan September. Sebaliknya, tahun 1989 mengalami tingkat inflasi sebesar 3000% tanpa bulan mana pun yang melebihi 50%, sehingga tidak diklasifikasikan sebagai hiperinflasi. Pada tahun 1990, inflasi mencapai puncaknya pada 7481%. Jelas bahwa aturan 50% bisa bersifat sewenang-wenang, karena tahun 1988 dianggap sebagai tahun hiperinflasi, tidak seperti tahun 1989. Jika aturan ini dipertimbangkan kembali, mungkin bijaksana untuk menurunkan ambang batas untuk memasukkan periode seperti yang dialami oleh Peru pada tahun 1989.
 
 > Memahami apa yang terjadi
-Hal penting yang perlu dipahami tentang redenominasi mata uang adalah ketika nilai mata uang mencapai angka astronomis, seperti 5 atau 10 juta, mata uang tersebut direvaluasi. Proses ini dapat diulang beberapa kali, melibatkan perubahan dalam mata uang. Hasilnya adalah tabungan individu dapat terpengaruh secara serius, bahkan tanpa adanya hiperinflasi. Sebagai contoh, jika seseorang menabung $1.000 dalam satu tahun dan berhasil menyisihkan $100, tahun berikutnya denominasi terendah bisa menjadi $1.000, membuat $100 yang sebelumnya disimpan menjadi tidak berharga. Erosi tabungan seperti itu tidak memerlukan hiperinflasi yang jelas. Bahkan jika seseorang telah menabung $10.000 selama sepuluh tahun terakhir, jumlah tersebut bisa berakhir menjadi nilai yang tidak signifikan, tidak cukup untuk membeli sebotol air sederhana. Realitas ini terlihat di banyak negara yang telah mengalami redenominasi, meskipun hanya beberapa bulan diklasifikasikan sebagai hiperinflasi. Sebaliknya, beberapa negara, seperti Nikaragua, telah mengalami bertahun-tahun hiperinflasi.
+> Hal penting yang perlu dipahami tentang redenominasi mata uang adalah ketika nilai mata uang mencapai angka astronomis, seperti 5 atau 10 juta, mata uang tersebut direvaluasi. Proses ini dapat diulang beberapa kali, melibatkan perubahan dalam mata uang. Hasilnya adalah tabungan individu dapat terpengaruh secara serius, bahkan tanpa adanya hiperinflasi. Sebagai contoh, jika seseorang menabung $1.000 dalam satu tahun dan berhasil menyisihkan $100, tahun berikutnya denominasi terendah bisa menjadi $1.000, membuat $100 yang sebelumnya disimpan menjadi tidak berharga. Erosi tabungan seperti itu tidak memerlukan hiperinflasi yang jelas. Bahkan jika seseorang telah menabung $10.000 selama sepuluh tahun terakhir, jumlah tersebut bisa berakhir menjadi nilai yang tidak signifikan, tidak cukup untuk membeli sebotol air sederhana. Realitas ini terlihat di banyak negara yang telah mengalami redenominasi, meskipun hanya beberapa bulan diklasifikasikan sebagai hiperinflasi. Sebaliknya, beberapa negara, seperti Nikaragua, telah mengalami bertahun-tahun hiperinflasi.
 
 ### Nikaragua
 
@@ -762,6 +779,7 @@ Fakta penting tentang Venezuela adalah keanggotaannya dalam Uni Moneter Latin. U
 Selama periode ini, koin 5 bolivar dari Venezuela memiliki berat yang sama dengan koin dari negara-negara anggota Uni, termasuk Italia, Spanyol, Belgia, dan Prancis. Bolivar-bolivar ini terbuat dari perak, dengan koin tertentu dari tahun 1929 yang beratnya 25 gram dan memiliki kemurnian 900, atau 90% perak murni. Dengan harga perak saat ini, koin ini bernilai sekitar 17 hingga 18 dolar AS.
 
 Setelah adopsi kurs tukar mengambang pada tahun 1983, beberapa redenominasi diikuti:
+
 - Pada tahun 2008: bolivar fuerte, atau "bolivar kuat," diperkenalkan, mencapai hingga 100.000 sebelum redenominasi seribu menjadi satu.
 - Pada tahun 2018: Soberano diperkenalkan dengan uang kertas mencapai 1 juta. Pada tahun 2021, itu digantikan oleh bolivar digital, yang juga mencapai satu juta, sebelum redenominasi baru satu juta menjadi satu. Saat ini, uang kertas 10 atau 20 setara dengan 10 juta atau 20 juta dalam Soberano.
   Uang kertas dari periode ini, yang berasal dari tahun 2018, dibagikan di berbagai konferensi Bitcoin di Biarritz, Toronto, dan Miami. Uang kertas Soberano ini mencapai nilai maksimum 1 juta. Kemudian dilakukan redenominasi, mengurangi nilai satu juta menjadi sekitar 3 sen. Saat ini, 10 lembar uang kertas 1 juta setara dengan satu lembar uang kertas 10. Sejak tahun 2016, Venezuela mengalami hiperinflasi, mewakili periode ke-57 dalam tabel tertentu.
@@ -777,6 +795,7 @@ Berdasarkan kriteria inflasi 50% per bulan, beberapa periode bisa diklasifikasik
 Kesimpulannya, hiperinflasi hanya satu aspek dari tantangan ekonomi. Inflasi tinggi sendiri bisa sama merusaknya. Bagian selanjutnya akan mengeksplorasi solusi yang mungkin untuk mengatasi hiperinflasi.
 
 ## Cara mengatasi hiperinflasi
+
 <chapterId>e3484a31-a851-5f92-8af5-00eddae67db1</chapterId>
 
 ### Cara mengakhiri inflasi moderat dan tinggi
@@ -784,6 +803,7 @@ Kesimpulannya, hiperinflasi hanya satu aspek dari tantangan ekonomi. Inflasi tin
 Kesimpulan yang disebutkan diambil dari buku "Monetary Regime and Inflation" oleh Bernold. Menurut Bernold, satu-satunya metode untuk mengakhiri inflasi adalah melaksanakan reformasi moneter dan memberlakukan pembatasan pada pemerintah. Pembatasan ini melibatkan pembentukan sebuah institusi, seperti bank sentral, yang beroperasi secara independen dari keputusan politik pemerintah. Inflasi tinggi dan hiperinflasi seringkali merupakan hasil dari pembiayaan defisit anggaran melalui penciptaan moneter. Untuk mengatasi inflasi moderat, sangat penting untuk mengurangi pertumbuhan pasokan uang. Bernold juga menyarankan bahwa pertumbuhan moneter ini harus relatif terhadap negara-negara tetangga. Sebuah poin mengejutkan adalah bahwa, selama periode inflasi tinggi atau hiperinflasi, total nilai pasokan uang sebenarnya dapat menurun. Contoh mencolok dari situasi ini adalah Zimbabwe.
 
 ### Solusi Kontraintuitif
+
 Saat mempelajari Zimbabwe, diperhatikan bahwa 10 triliun unit pasokan uang telah kehilangan seluruh nilainya. Di Weimar, dimungkinkan untuk mencetak dua pertiga dari total nilai nominal 65 miliar unit pasokan uang dalam satu hari. Ini menunjukkan bagaimana pasokan uang dapat dihilangkan nilainya. Untuk mengatasi situasi ini, perlu untuk secara signifikan meningkatkan pasokan uang agar mencapai level yang tepat. Kemudian, reformasi moneter menjadi hal yang tidak dapat dihindari. Dalam situasi inflasi tinggi, reformasi ini tidak terelakkan, tetapi harus memastikan bahwa ada cukup uang beredar. Setelah langkah ini, pembatasan dapat diberlakukan pada pemerintah.
 
 Menurut pengamatan Bernold, dalam menyelesaikan masalah inflasi, lembaga seperti IMF dan Bank Dunia tidak selalu mengadopsi strategi yang tepat. Dalam beberapa kasus, ketika sebuah negara perlu meningkatkan pasokan uangnya, lembaga-lembaga ini berusaha untuk menguranginya. Kuncinya adalah mencapai level moneter yang memadai dan kemudian memberlakukan batasan pada pertumbuhannya, sehingga menghindari pembiayaan pengeluaran pemerintah melalui penciptaan moneter.
@@ -810,7 +830,7 @@ Oleh karena itu, setelah tahun 2009, menghadapi krisis moneter yang berkepanjang
 Namun, dolarisasi bukan solusi ajaib. Meskipun dapat mengakhiri hiperinflasi, ini menyajikan tantangan ekonomi lainnya. Salah satu konsekuensinya adalah hilangnya kebijakan moneter otonom. Tanpa mata uangnya sendiri, sebuah negara tidak dapat menyesuaikan kebijakan moneternya untuk merespons guncangan ekonomi internal.
 Pada tahun 2007, tingkat inflasi Zimbabwe mencapai ambang batas 50% per bulan, secara resmi menandai negara tersebut sedang mengalami hiperinflasi. Setelah dolarisasi pada tahun 2009, hiperinflasi berhenti, tetapi negara tersebut menghadapi tantangan ekonomi lainnya. Perlu diperhatikan bahwa Zimbabwe sejak itu telah mencoba untuk mengenalkan kembali mata uangnya sendiri, dan tanda-tanda inflasi tinggi telah muncul kembali. Menurut beberapa organisasi internasional, negara tersebut mungkin sudah memenuhi kriteria untuk hiperinflasi lagi, meskipun belum mencapai ambang batas resmi 50% per bulan. Ini berfungsi sebagai pengingat akan bahaya penerbitan uang berlebihan dan pembiayaan defisit bank sentral.
 
-## Kesimpulan
+### Kesimpulan
 
 Dalam buku saya yang berjudul "Segala Hal Tentang Bitcoin," saya mengabdikan sebuah bab penuh untuk hiperinflasi di Zimbabwe. Saya merinci peristiwa penting, memberikan berbagai contoh yang menggambarkan bagaimana negara tersebut pada akhirnya mengakhiri hiperinflasi.
 
@@ -819,8 +839,6 @@ Dalam buku saya yang berjudul "Segala Hal Tentang Bitcoin," saya mengabdikan seb
 Bagi mereka yang penasaran tentang pengalaman Jerman setelah Perang Dunia I, saya sangat merekomendasikan buku komik "The Reich's Banker." Ini menceritakan bagaimana Jerman berhasil mengatasi hiperinflasi, terutama melalui penciptaan Rentenmark.
 
 ![image](assets/chapitre-3.5/4.webp)
-
-Dalam buku saya yang berjudul "Segala Hal Tentang Bitcoin," saya mengabdikan sebuah bab penuh untuk hiperinflasi di Zimbabwe. Saya merinci peristiwa penting, memberikan berbagai contoh yang menggambarkan bagaimana negara tersebut pada akhirnya mengakhiri hiperinflasi. Bagi mereka yang penasaran tentang pengalaman Jerman setelah Perang Dunia I, saya sangat merekomendasikan buku komik "The Reich's Banker." Ini menceritakan bagaimana Jerman berhasil mengatasi hiperinflasi, terutama melalui penciptaan Rentenmark.
 
 Poin kunci adalah ada beberapa strategi untuk mengatasi hiperinflasi. Seseorang dapat memilih dolarisasi atau memperkenalkan mata uang baru. Solusi ini hanya akan berhasil jika populasi memiliki kepercayaan pada mereka. Sangat penting untuk memberlakukan batasan yang ketat. Bank sentral yang benar-benar independen sangat penting. Bank tersebut tidak boleh mengembangbiakkan pasokan uang untuk menutupi defisit pemerintah. Dalam kasus inflasi ringan, membatasi pertumbuhan pasokan uang harus cukup. Namun, ketika dihadapkan dengan hiperinflasi, sangat penting untuk pertama-tama memiliki pasokan uang yang sesuai untuk ukuran ekonomi yang bersangkutan. Kemudian, sangat penting untuk memberlakukan batasan ketat pada pemerintah untuk menstabilkan situasi.
 
@@ -837,7 +855,9 @@ Transkrip:
 Kemunculan lapisan kedua uang dan bank sentral pertama adalah subjek yang menarik. Tema ini dibahas secara luas dalam buku "Layered Money" oleh Nick Battia. Saya sangat merekomendasikannya bagi mereka yang tertarik pada evolusi dan kompleksitas sistem moneter kita. Tujuan dari bagian ini adalah untuk memahami asal-usul penciptaan uang dan bagaimana hal itu dapat menyebabkan hiperinflasi.
 
 ![image](assets/chapitre-4.1/1.webp)
+
 ### Uang Piramida dan Bank Sentral
+
 #### Florin
 
 Sejarah uang dapat ditelusuri kembali ke Italia abad ke-13, khususnya Florence. Pada waktu itu, florin dan surat wesel adalah hal yang umum. Contoh yang terkenal adalah florin, yang dihiasi dengan sosok Santo Yohanes Pembaptis.
@@ -869,6 +889,7 @@ Setelah Bursa Saham Antwerp, tonggak penting berikutnya adalah pendirian VOC, Pe
 
 ![image](assets/chapitre-4.1/5.webp)
 Setelah pembentukan VOC, elemen signifikan lain dalam sejarah moneter adalah pengenalan koin emas oleh Bank of Amsterdam. Koin-koin ini, yang berasal dari tahun 1722, terbuat dari perak. Namun, yang benar-benar merevolusi keuangan pada waktu itu bukanlah koin itu sendiri, melainkan akun yang terkait dengan mata uang ini di Bank of Amsterdam. Akun-akun ini menjadi sarana utama pertukaran internasional. Transaksi hanya dicatat dalam register atau buku besar. Berkat sistem ini, Amsterdam menjadi pusat ekonomi global. Seiring waktu, Bank of Amsterdam memutuskan untuk mengimposisikan penggunaan akun-akun ini. Penukar uang independen diwajibkan untuk menukarkan koin mereka dengan deposit di bank setiap hari.
+
 #### Pembentukan Bank of England untuk membiayai perang
 
 Pembentukan Bank of England didorong oleh kebutuhan untuk membiayai perang pada akhir abad ke-17. Seperti Bank of Amsterdam, ia mengimposisikan deposit dengan dekrit. Keunikan Bank of England adalah menempatkan bank-bank swasta pada posisi sekunder dalam sistem moneter, sehingga menciptakan apa yang bisa disebut sebagai "lapisan ketiga" mata uang.
@@ -886,17 +907,21 @@ Menyusul kepanikan bank tahun 1796, terjadi fenomena di mana semua orang mencoba
 Bank sentral telah berkembang menjadi pemberi pinjaman terakhir, menangguhkan konversibilitas mata uang mereka menjadi emas. Meskipun tindakan ini awalnya dimaksudkan sebagai solusi sementara, pada akhirnya menjadi permanen, menandai kedatangan konsep pemberi pinjaman terakhir. Transformasi ini telah membentuk bank sentral seperti yang kita kenal saat ini. Namun, dalam ekonomi yang lebih rapuh, kemampuan untuk mencetak uang sesuka hati dapat menyebabkan konsekuensi yang tidak diinginkan, seperti hiperinflasi, jika digunakan secara tidak bertanggung jawab.
 
 ## Evaluasi kursus
+
 <chapterId>1a37317e-372a-5241-b478-8316d44f9283</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Ujian Akhir
+
 <chapterId>d01831c3-6c4d-59e3-95bc-03e97a05c142</chapterId>
 <isCourseExam>true</isCourseExam>
 
 ## Buku dan Sumber
+
 <chapterId>c44e4519-0741-527b-b3b0-3f513e87147d</chapterId>
 
 Hiperinflasi adalah subjek yang menarik yang telah dipelajari melalui berbagai peristiwa sejarah. Jika Anda ingin mendalami topik ini, berikut adalah daftar 10 sumber penting untuk dibaca dan dipelajari:
+
 - "When Money Dies: The Nightmare of Deficit Spending, Devaluation, and Hyperinflation in Weimar Germany" oleh Adam Fergusson. Buku ini menjelaskan krisis hiperinflasi di Jerman setelah Perang Dunia I.
 - "The Economics of Inflation - A Study of Currency Depreciation in Post-War Germany" oleh Costantino Bresciani-Turroni. Analisis mendalam tentang hiperinflasi di Jerman pada tahun 1920-an.
 
@@ -913,3 +938,4 @@ Hiperinflasi adalah subjek yang menarik yang telah dipelajari melalui berbagai p
 - "The Downfall of Money: Germany’s Hyperinflation and the Destruction of the Middle Class" oleh Frederick Taylor. Eksplorasi naratif tentang dampak sosial dan ekonomi hiperinflasi pada masyarakat Jerman.
 
 - "Currency Boards for Developing Countries: A Handbook" oleh Steve Hanke dan Kurt Schuler. Meskipun fokusnya adalah pada dewan mata uang, buku ini menawarkan perspektif tentang cara menghindari situasi hiperinflasi.
+

@@ -17,9 +17,11 @@ Siin rõhutame trende ja ühiseid mustreid hüperinflatsiooni episoodides läbi 
 +++
 
 # Sissejuhatus
+
 <partId>6fe4d15d-f6e6-54be-9e04-0a75ac98df8b</partId>
 
 ## Sissejuhatus
+
 <chapterId>9d1aba8d-0485-5020-9863-5de37e6db8e0</chapterId>
 
 See programm eesmärgib pakkuda sügavat mõistmist hüperinflatsioonide tekkest Fiat-valuuta domineerivas maailmas ja uurida nende olulisi tagajärgi. Osalejad uurivad hüperinflatsiooni tsükleid detailsemalt, analüüsides põhjuseid, käivitajaid ning ajaloolisi ja kaasaegseid näiteid. Samuti vaadeldakse hüperinflatsioonide käegakatsutavat mõju majandusele ja igapäevaelule, uurides tagajärgi valuuta väärtusele, ostujõule ning individuaalsetele ja kollektiivsetele säästudele.
@@ -55,13 +57,17 @@ Jaotis 4 - Kuidas me siia jõudsime?
 Edu!
 
 # Mis on inflatsioon?
+
 <partId>2b4f456c-3649-5cf9-b9b0-a5bffe92d962</partId>
 
 ## Monetaarne nähtus
+
 <chapterId>b2cbc915-c4ec-52b5-860c-0958f58c91e4</chapterId>
 
 ### Inflatsiooni definitsioonid
+
 Inflatsioon on kontseptsioon, mida tihti valesti mõistetakse seoses sellega kaasnevate mitmete definitsioonidega. Inflatsiooni tajumine varieerub erinevate gruppide seas, nagu bitcoinide pooldajad ja traditsioonilised majandusteadlased. Alustame definitsioonide selgitamisega enne hüperinflatsiooni arutelu:
+
 - Roberti definitsioon: Inflatsioon on maksevahendite (pangatähed, kapital) liigne suurenemine, mis põhjustab hindade tõusu ja valuuta väärtuse languse.
 
 - Larousse'i definitsioon: Inflatsioon on nähtus, mida iseloomustab üldise ja pideva hinnataseme tõusu. Siin on sõna "üldine" oluline.
@@ -210,11 +216,13 @@ Post-Lahesõja Iraagi majanduses tekkis eristuv nähtus: kahehinnasüsteem. Kaup
 ![image](assets/chapitre-2.1/18.webp)
 Näide on illustreeritud läbi kaalu uurimise, mis vastas kaheksale Hispaania reaalile või ühele Hispaania dollarile. See kaal, millele oli märgitud Rooma numbriga selle väärtus, kasutati valuutavahetajate poolt müntide väärtuse hindamiseks nende kaalu, mitte ainult nende tembelduse põhjal. Münte kaaludes suutsid vahetajad kindlaks teha, kas neid oli muudetud või kahjustatud, mis oleks võinud nende väärtust vähendada. See praktika rõhutab, et kuigi riigi poolt standardiseeritud tembeldamine andis valuutale teatud nominaalse väärtuse, peitus tõeline väärtus sisalduva väärtusliku metalli kaalus.
 See analüüs näitab, et usaldus valuuta vastu, ja laiendatult selle väärtus, oli kinnitatud selle käegakatsutavas aines, mitte pelgalt riigi väites. See rõhutab duaalsust riigi poolt peale pandud nimiväärtuse ja väärtusliku metalli sisalduse poolt dikteeritud sisemise väärtuse vahel. Seega, valuuta ületab olemuselt lihtsalt riigi instrumenti, olles oma fundamentaalses väärtuses lahutamatult seotud käegakatsutavate ja mõõdetavate elementidega.
+
 #### Järeldus
 
 Kokkuvõttes avab see uuring rahalise devalveerimise teemal ukse sügavamale inflatsioonimehhanismide mõistmisele, mida uuritakse järgnevates videotes. Me arutame erinevaid inflatsiooni tüüpe ja seda, millal nad ületavad läve kõrgeks või hüperinflatsiooniks. See kindel alus võimaldab meil käsitleda inflatsiooni keerukusi tulevastes sessioonides. Täname teie tähelepanu eest ja kohtume järgmises videos, et jätkata rahandusdünaamika uurimist.
 
 ## Inflatsiooni tüübid
+
 <chapterId>b438fe09-375e-5bb2-9196-7dd687b9f98c</chapterId>
 
 ### Inflatsioon ei ole multifaktoriaalne nähtus
@@ -252,6 +260,7 @@ See arutelu rõhutab inflatsiooni ja deflatsiooni aluseks olevate mehhanismide m
 ### Miks rahatrükk ei põhjusta alati inflatsiooni?
 
 #### Inflatsioon ≠ THI
+
 Inflatsioon, kuigi tihti seostatakse rahapakkumise suurenemisega, ei oma alati otseset seost rahatrükkimisega, nagu näitab periood pärast 2008. aasta finantskriisi. Hoolimata olulisest rahatrükkimisest pankade päästmiseks, ei kogenud järgnev kümnend kõrget inflatsiooni, keskmiselt jäi see 0 ja 2% vahele aastas. See olukord tõstatab küsimuse: miks massiivne rahatrükk ei toonud kaasa proportsionaalset inflatsiooni? Vastus peitub mitmes nüansis, mis on seotud inflatsiooni mõõtmise ja Tarbijahinnaindeksiga (CPI).
 
 Esimene selgitus peitub selles, kuidas inflatsiooni mõõdetakse. Tarbijahinnaindeks (CPI), mida kasutatakse inflatsiooni peamise näitajana, omab teatud piiranguid. Näiteks ei võta see täielikult arvesse kinnisvarahindade arengut. Kuigi CPI sisaldab komponenti, mis on seotud üürihindadega, ei kajastu selles märkimisväärselt kinnisvara hindade tõus täielikult. Selle tulemusena võivad eluasemekulud oluliselt suureneda ilma, et see oleks CPI poolt täielikult tabatud, võimalikult alahinnates tegelikku inflatsiooni.
@@ -345,6 +354,7 @@ On oluline mõista erinevate inflatsioonitüüpide vahelist eristust, mõistmine
 
 ![image](assets/chapitre-2.2/17.webp)
 Inflatsiooni tüüpide uurimisel kohtab sageli termineid nagu "Nõudluse Tõmme" ja "Kulude Tõuge" haridusallikates. Need kontseptsioonid, kuigi kehtivad, kipuvad seletama pigem hinnatõuse kui inflatsiooni kui rahandusnähtust. Siin on sügavam analüüs:
+
 - Nõudluse Tõmme:
   Nõudluse Tõmme inflatsiooni selgitatakse sageli olukorrana, kus majanduse nõudlus ületab saadaoleva tootmise. Siiski, ilma vastava rahapakkumise suurenemiseta, viib see olukord lihtsalt kulutuste ümberjaotamiseni. Tarbijad võivad kulutada rohkem esmatarbekaupadele ja vähem teistele, neutraliseerides seeläbi üldise inflatsiooniefekti.
 
@@ -369,7 +379,9 @@ Bernholz pakub lihtsustatud, kuid täpset inflatsiooni klassifikatsiooni kolme k
   Bernholzi klassifikatsioon rõhutab ohtlikku progressiooni mõõdukast inflatsioonist hüperinflatsioonini, rõhutades rahalise ja eelarvelise kontrolli kriitilist tähtsust hävitavate inflatsioonispiraalide vältimisel. Samuti näitab see, et riigi rahastamisele kahjulikud tagajärjed võivad ilmneda juba enne hüperinflatsiooni staadiumi saabumist, pakkudes nüansseeritud perspektiivi inflatsiooni mõjudest erinevatel tasemetel.
 
 ### Järeldus: Inflatsiooni Tüüpide Kokkuvõte
+
 Kokkuvõttes oleme uurinud erinevaid inflatsioonitüüpe, alustades tavaliselt kuuldavatest terminitest nagu "hiiliv inflatsioon", "kõndiv inflatsioon" ja "galopeeriv inflatsioon", igaüks tähistab erinevaid inflatsiooniprotsentide tasemeid majanduses. Siiski, meie põhjalikuks uurimiseks hüperinflatsiooni kohta, on mõõduka inflatsiooni, kõrge inflatsiooni ja hüperinflatsiooni kategooriad, nagu Bernholz kirjeldab, osutunud olulisteks verstapostideks.
+
 - Mõõdukas Inflatsioon:
   See näitab rahapakkumise taset üle normi, kuigi seda taset on võimalik säilitada ilma olulise defitsiitse rahastamiseta riigi poolt.
 
@@ -385,9 +397,11 @@ Tulevastes aruteludes süveneme hüperinflatsiooni veelgi, uurides selle definit
 Täname teid tähelepanu eest. Järgmine sessioon on pühendatud täielikult hüperinflatsiooni määratlemisele ja demüstifitseerimisele, võttes arvesse erinevaid akadeemilisi ja praktilisi perspektiive. Ootame huviga selle uurimise jätkamist teiega meie järgmisel kohtumisel.
 
 # Mis on hüperinflatsioon?
+
 <partId>3f541663-1e2f-5410-8ee0-f61c5d009fa5</partId>
 
 ## Hüperinflatsiooni definitsioonid
+
 <chapterId>d2a71a2e-5f36-58d9-993c-d431f4aa07fd</chapterId>
 
 ### Hüperinflatsiooni definitsioonid
@@ -438,9 +452,10 @@ Niisiis, kui palju hüperinflatsiooni juhtumeid kokku on?
 - Bernoldi raamat, mis uurib 30 erinevat hüperinflatsiooni perioodi, laiendades seeläbi analüüsi ulatust.
 - Davidi isiklik pangatähtede kogu 36 hüperinflatsiooni perioodist, võimaldades käegakatsutavat ja ajaloolist mõistmist.
 - Hanky Crossi tabel (2012. aasta versioon, uuendatud 2016. aastal Venezuelaga), mis loetleb 57 hüperinflatsiooni perioodi Kagan'i definitsiooni alusel.
-On märkimisväärne, et teatud ajaloolised kõrge inflatsiooni perioodid ei ole klassikaliste hüperinflatsiooni tabelite hulka arvatud, sageli rangete klassifitseerimiskriteeriumide tõttu. Näiteks Ameerika Iseseisvussõja ajal novembris 1779 ja Ameerika Kodusõja ajal märtsis 1864 olid kuised inflatsioonimäärad vastavalt 47,4% ja 40%. Need määrad, kuigi kõrged, ei ületa Kagan'i poolt ette nähtud 50% läve, jättes need perioodid hüperinflatsiooni juhtumitena klassifitseerimata. See väljajätmine illustreerib jäikade definitsioonide piiranguid ja rõhutab vajadust peenema lähenemise järele, et mõista hüperinflatsiooni kogu selle keerukuses.
+  On märkimisväärne, et teatud ajaloolised kõrge inflatsiooni perioodid ei ole klassikaliste hüperinflatsiooni tabelite hulka arvatud, sageli rangete klassifitseerimiskriteeriumide tõttu. Näiteks Ameerika Iseseisvussõja ajal novembris 1779 ja Ameerika Kodusõja ajal märtsis 1864 olid kuised inflatsioonimäärad vastavalt 47,4% ja 40%. Need määrad, kuigi kõrged, ei ületa Kagan'i poolt ette nähtud 50% läve, jättes need perioodid hüperinflatsiooni juhtumitena klassifitseerimata. See väljajätmine illustreerib jäikade definitsioonide piiranguid ja rõhutab vajadust peenema lähenemise järele, et mõista hüperinflatsiooni kogu selle keerukuses.
 
 ## Weimari vs Zimbabwe sarnasused
+
 <chapterId>11eef458-aab8-5c63-8523-264d0ba69f5d</chapterId>
 
 ### Kaks ajastut, kaks katastroofi
@@ -476,7 +491,7 @@ Weimar: "Praegune koguväljaanne ulatub 63 000 miljardi euroni. Mõne päeva pä
 Zimbabwe: "17. septembril 2006 kuulutas RBZ-i kuberner Gideon Gono: '10 triljonit on endiselt väljas ja see on muutunud sõnnikuks.'"
 
 3. Pangatähed, mis on vähem väärt kui paber, millele need on trükitud
-Teatud majandusolukordades võib pangatähe sisemine väärtus muutuda madalamaks kui paber, millele see on trükitud. See drastiline väärtuse langus muudab pangatähed, mis on tavaliselt väärtuse ja ostujõu sümbolid, lihtsalt väärtusetuteks paberitükkideks.
+   Teatud majandusolukordades võib pangatähe sisemine väärtus muutuda madalamaks kui paber, millele see on trükitud. See drastiline väärtuse langus muudab pangatähed, mis on tavaliselt väärtuse ja ostujõu sümbolid, lihtsalt väärtusetuteks paberitükkideks.
    > Weimar: "Terveid markade pangatähtede nimiväärtusi peeti peaaegu väärtusetuks kohe, kui need trükikojast väljusid."
 
 > Zimbabwe: "Keskpank raiskas raha, trükkides pangatähe, mis polnud väärt paberit, millele see oli trükitud. Teisisõnu, selle väärtus oli madalam kui tualettpaberil. Nii absurdne kui see ka ei tundu, oli odavam kasutada ZWD 100 triljoni pangatähte tualettpaberina kui osta tegelikku tualettpaberit."
@@ -509,8 +524,8 @@ Weimar: "Inflatsioonispekulatsioon hõlmas pabermärkide laenamist, nende muutmi
 Zimbabwe: "Põletusettevõtjad"
 
 7. Ausus ja kõva töö kaotavad oma võlu
-Ebastabiilsetes majandusolukordades võivad traditsioonilised väärtused nagu raske töö, kokkuhoid ja ausus jääda kiire rikkuse ahvatluse varju. Spekulatsioon ja valuutakauplemine pakuvad tihti palju suuremaid tulusid kui tavaline töö, põhjustades ühiskondlike prioriteetide muutumist.
-Weimar: "Kui vanad voorused nagu kokkuhoid, ausus ja raske töö kaotasid oma võlu, püüdis igaüks kiiresti rikkaks saada, eriti kuna valuuta või aktsiaspekulatsioonid võisid ilmselt tuua palju rohkem kui töö."
+   Ebastabiilsetes majandusolukordades võivad traditsioonilised väärtused nagu raske töö, kokkuhoid ja ausus jääda kiire rikkuse ahvatluse varju. Spekulatsioon ja valuutakauplemine pakuvad tihti palju suuremaid tulusid kui tavaline töö, põhjustades ühiskondlike prioriteetide muutumist.
+   Weimar: "Kui vanad voorused nagu kokkuhoid, ausus ja raske töö kaotasid oma võlu, püüdis igaüks kiiresti rikkaks saada, eriti kuna valuuta või aktsiaspekulatsioonid võisid ilmselt tuua palju rohkem kui töö."
 
 Zimbabwe: "Need praktikad, kuigi rikastasid mõningaid üksikisikuid, vaesestasid linna töölisklassi ja maapiirkondade elanikkonda. Haridus kaotas oma väärtuse, kuna see kaubandus oli juhitud inimeste poolt, kes ei vajanud haridust ega raske tööd selle õigustamiseks. Kõik, mida nad vajasid, olid sidemed ja algkapital, et alustada oma kerge raha äri."
 
@@ -589,6 +604,7 @@ Zimbabwe: "Nüüd kasutasime neid vautšereid üüri maksmiseks üürileandjatel
 See lõpetab selle video sarnasustest hüperinflatsiooni perioodidel Zimbabwes ja Weimari Vabariigis. Järgmises videos arutame erinevusi ja kaasaegseid paralleele. Aitäh.
 
 ## Weimar vs Zimbabwe: Erinevused ja Kaasaegsed Paralleelid
+
 <chapterId>643f279c-d89f-5600-a2e2-b1bbbba0ab69</chapterId>
 
 Sel peatükis uurime erinevusi ja kaasaegseid paralleele mineviku ja oleviku hüperinflatsiooni perioodide vahel, tuues esile anekdoote ja asjakohaseid võrdlusi tänaseks.
@@ -602,7 +618,7 @@ Saksamaal oli rahvastiku seas levinud arvamus, et inflatsiooni põhjustab dollar
 ![image](assets/chapitre-3.3/3.webp)
 
 2. Hädavajalik valuuta (Notgeld)
-Rahalise ja majanduskriisi ees seistes pöördus Saksamaa "Notgeldi" (hädaabi raha) poole. Need märkmed, mida trükkisid linnad või teatud ettevõtted, olid mõeldud üldise valuuta nappuse lahendamiseks. Huvitaval kombel kasutas ka Prantsusmaa Notgeldi, eriti 1920. aastatel. See algatus ei olnud ainult hüperinflatsiooni otsene tagajärg, vaid sellel olid juured ka Esimese maailmasõja poolt põhjustatud häiretes. Sõda mitte ainult ei destabiliseerinud majandust, vaid suurendas ka metallide hinda. Selle tulemusena ületas metallmüntide sisemine väärtus sageli nende nimiväärtust, mis ajendas inimesi neid koguma. Müntide puudumisel trükkisid mõned asutused, nagu Lyon'i Kaubanduskoda, oma Notgeldi.
+   Rahalise ja majanduskriisi ees seistes pöördus Saksamaa "Notgeldi" (hädaabi raha) poole. Need märkmed, mida trükkisid linnad või teatud ettevõtted, olid mõeldud üldise valuuta nappuse lahendamiseks. Huvitaval kombel kasutas ka Prantsusmaa Notgeldi, eriti 1920. aastatel. See algatus ei olnud ainult hüperinflatsiooni otsene tagajärg, vaid sellel olid juured ka Esimese maailmasõja poolt põhjustatud häiretes. Sõda mitte ainult ei destabiliseerinud majandust, vaid suurendas ka metallide hinda. Selle tulemusena ületas metallmüntide sisemine väärtus sageli nende nimiväärtust, mis ajendas inimesi neid koguma. Müntide puudumisel trükkisid mõned asutused, nagu Lyon'i Kaubanduskoda, oma Notgeldi.
 
 > "Mis tehtud, see tehtud." - kohalik ütlus
 
@@ -628,8 +644,8 @@ Saksamaa kriisi haldamise kohta lisateabe saamiseks on see raamat samuti hädava
 
 1. Rahapoliitika manipuleerimine majanduse kontrollimiseks.
    Weimari Vabariigi ajaloost on ilmne, et töösturid olid vastumeelsed Marki väärtuse tõusu nägemisele. Nende võime laenata ja tagasi maksta oma võlgu tugevalt devalveeritud valuutas andis neile märkimisväärse eelise. See mehhanism hõlbustas tohutute tööstuskomplekside ehitamist peaaegu ilma kuludeta. Need töösturid kartsid Marki väärtuse tõusu, kuna see takistas nende tegevust. Mõned isegi pidasid möllavat inflatsiooni heaks asjaks, uskudes, et see tagab elanikkonnale tööhõive. Siiski ei mõistnud nad selle inflatsiooni kahjulikku mõju säästudele ja majandusele üldiselt. Nende majandustegelaste jaoks oli rahatrükk õnnistus.
-Weimar: "Sellepärast kardeti marka väärtuse tõusu väga ja isegi mõned nädalad 'stabiilsust' pärast Genovat põhjustasid äritegevuse seiskumise."
-Weimar: "Tööstusringkonnad seisid silmitsi ohuga, et sularaha muutub kaupadest väärtuslikumaks ja kokkuvarisemine toimub, kui kõik üritavad oma varad sularahaks teisendada."
+   Weimar: "Sellepärast kardeti marka väärtuse tõusu väga ja isegi mõned nädalad 'stabiilsust' pärast Genovat põhjustasid äritegevuse seiskumise."
+   Weimar: "Tööstusringkonnad seisid silmitsi ohuga, et sularaha muutub kaupadest väärtuslikumaks ja kokkuvarisemine toimub, kui kõik üritavad oma varad sularahaks teisendada."
 
 Kaasaegse paralleeli võib tõmmata Christine Lagarde'i avaldustega, vihjates, et kodanikud peaksid tööhõive väljavaadet prioriteetsemaks pidama kui oma säästude kaitsmist. Nagu Weimari töösturid, tundub ka tema pooldavat rahatrükkimist tööhõive stimuleerimise vahendina, säästude väärtuse arvelt.
 
@@ -657,8 +673,8 @@ Zombiettevõtete kontseptsioon ei ole uus. Tegelikult oli see olemas juba Weimar
 Zombiettevõtete nähtus ei piirdu ainult Saksamaa järgsesõja ajalooga. Isegi tänapäeval ellujäävad paljud suured ettevõtted tänu privileegitud juurdepääsule väga madala intressimääraga krediidile. Kui nad peaksid laenama tavapärasemate määrade juures, lõpetaks paljud neist kasumlik olemise. See on eriti asjakohane, kuna me elame 2023. aastal ja pärast pikka peaaegu nullilähedase intressimäära perioodi on need hakanud tõusma. See hiljutine areng finantsmaastikul saab kahtlemata olema otsustav test nendele ettevõtetele, mida kunagi nimetati "zombideks".
 
 5. Rikkaks saamine kiiresti!
-Ajaloo vältel on olnud hetki, mil inimesed püüavad kiiresti rikkaks saada, nagu juhtus Weimaris ja Zimbabwes arbitraaži kaudu. Tänapäeval näeme sarnast trendi teatud krüptovaluutade esilekerkimisega. Inimesi ahvatlevad kiired kasumid, võttes riske lootuses oma investeeringut eksponentsiaalselt suurendada. See lähenemine võib meenutada seda, mida täheldatakse hüperinflatsiooni perioodidel, kus arbitraaži kasutatakse kiirete kasumite saamiseks, sageli teiste arvelt.
-![image](assets/chapitre-3.3/6.webp)
+   Ajaloo vältel on olnud hetki, mil inimesed püüavad kiiresti rikkaks saada, nagu juhtus Weimaris ja Zimbabwes arbitraaži kaudu. Tänapäeval näeme sarnast trendi teatud krüptovaluutade esilekerkimisega. Inimesi ahvatlevad kiired kasumid, võttes riske lootuses oma investeeringut eksponentsiaalselt suurendada. See lähenemine võib meenutada seda, mida täheldatakse hüperinflatsiooni perioodidel, kus arbitraaži kasutatakse kiirete kasumite saamiseks, sageli teiste arvelt.
+   ![image](assets/chapitre-3.3/6.webp)
 
 6. Säästmine, ravim ebakindluse vastu
 
@@ -670,6 +686,7 @@ Kujutage ette stsenaariumi, kus teil on perekond või lähedased, keda soovite k
 Täna, ostujõu languse ees, võtab investeerimine üle. Siiski kaasneb selle lähenemisega oma riskid. Säästmine on alati olnud ravim ebakindluse vastu. Finantsreservide olemasolu ettenägematute olukordade haldamiseks aitab kaasa meelerahule ja tugevdab sotsiaalset sidusust. Kokkuvõttes on meie ostujõu kaitsmine oluline sotsiaalse ja individuaalse stabiilsuse säilitamiseks.
 
 ## Redenominatsioonid Ladina-Ameerikas
+
 <chapterId>918eafd7-409d-5205-ad52-a52e63b23a64</chapterId>
 
 Nüüd vaatame erinevaid redenominatsiooni perioode Ladina-Ameerika riikides.
@@ -713,8 +730,7 @@ Kõrgeima nimiväärtusega pangatäht oli 500 000 ja viimane rahareform 1994. aa
 ![image](assets/chapitre-3.4/3.webp)
 
 Boliivia on veel üks näide riigist, mis on läbinud ägeda inflatsiooni perioode, nõudes valuuta redenominatsioone. Siin on kokkuvõte selle rahandusajaloost:
-Enne oma iseseisvust 1825. aastal kasutas Boliivia valuutana Hispaania dollarit. Pärast iseseisvumist tutvustas riik Boliivia Soli vahemikus 1827 kuni 1864, asendades Hispaania dollari. Siiski tuleb märkida, et esimesed pangatähed Boliivias ilmusid alles 1864. aastal.
-1864. aastal tutvustati esimest "Bolivianot", mille vahetuskurss oli 1000:1 võrreldes Boliivia Soliga. See valuuta oli käibel kuni saavutas denominatsiooni 10 000 Bolivianot.
+Enne oma iseseisvust 1825. aastal kasutas Boliivia valuutana Hispaania dollarit. Pärast iseseisvumist tutvustas riik Boliivia Soli vahemikus 1827 kuni 1864, asendades Hispaania dollari. Siiski tuleb märkida, et esimesed pangatähed Boliivias ilmusid alles 1864. aastal. 1864. aastal tutvustati esimest "Bolivianot", mille vahetuskurss oli 1000:1 võrreldes Boliivia Soliga. See valuuta oli käibel kuni saavutas denominatsiooni 10 000 Bolivianot.
 Seejärel muutis Boliivia oma valuutat "Boliivia Pesoks", mis koges nii tõsist hüperinflatsiooni, et lõpuks jõudis denominatsioonideni kuni 10 miljonit. See inflatsiooniepisood saavutas haripunkti aastatel 1984-1985, kusjuures kuised inflatsioonimäärad tihti lähenesid hüperinflatsiooni lävele 50%. Perspektiivi andmiseks, pidev 50% inflatsioonimäär kuus terve aasta vältel toob kaasa aastase inflatsioonimäära umbes 12 800%. 1985. aastal saavutas Boliivia aastane inflatsioonimäär 11 749%, näidates, et peaaegu igal kuul oli inflatsioon lähedal või ületas 50% läve.
 
 Sellele rahanduskriisile reageerides tutvustas Boliivia 1987. aastal uut valuutat, lihtsalt nimetatud "Bolivianoks", vahetuskursiga 1 miljon Boliivia Pesot 1 Boliviano kohta. See Boliviano versioon on tänaseni käibel.
@@ -729,7 +745,7 @@ Peruu esitab huvitava juhtumi seoses suvalise 50% reegli mõjudega. Alustades om
 Vaadates ümbernimetamise perioode, peetakse 1988. aastat hüperinflatsiooni aastaks, eriti septembris. Juuli-august 1990 nägi samuti hüperinflatsiooni perioodi. 1988. aastal oli aastane inflatsioonimäär 667%, tipnes 50%-ga septembris. Vastupidiselt, 1989. aastal koges inflatsioonimäär 3000%, ilma et ükski kuu ületaks 50%, seega seda ei klassifitseeritud hüperinflatsiooniks. 1990. aastal tipnes inflatsioon 7481%-ga. On selge, et 50% reegel võib olla suvaline, kuna 1988. aastat peeti hüperinflatsiooni aastaks, erinevalt 1989. aastast. Kui seda reeglit kaalutaks ümber, võiks olla mõistlik läve alandada, et hõlmata perioode nagu see, mida Peruu koges 1989. aastal.
 
 > Mõistes, mis toimub
-Valuuta ümberarvestamise põhiaspekt, mida tuleb mõista, on see, et kui valuuta väärtus jõuab astronoomilistesse suurustesse, nagu 5 või 10 miljonit, viiakse läbi ümberarvestus. See protsess võib korduda mitu korda, hõlmates valuuta muutust. Tulemuseks on, et inimeste säästud võivad olla tugevalt mõjutatud, isegi hüperinflatsiooni puudumisel. Näiteks, kui keegi säästab ühe aasta jooksul 1000 dollarit ja suudab järgmisel aastal kõrvale panna 100 dollarit, võib madalaima nimiväärtusega rahatäht olla 1000 dollarit, muutes varem säästetud 100 dollari väärtusetuks. Selline säästude kulumine ei nõua ilmset hüperinflatsiooni. Isegi kui keegi on kümne aasta jooksul säästnud 10 000 dollarit, võib see summa lõpuks olla väärt tühine summa, mis ei võimalda osta isegi lihtsat pudelit vett. See reaalsus on ilmne paljudes riikides, mis on kogenud ümberarvestusi, isegi kui ainult mõned kuud on klassifitseeritud hüperinflatsiooniliseks. Seevastu mõned riigid, nagu Nicaragua, on kogenud järjestikuseid hüperinflatsiooni aastaid.
+> Valuuta ümberarvestamise põhiaspekt, mida tuleb mõista, on see, et kui valuuta väärtus jõuab astronoomilistesse suurustesse, nagu 5 või 10 miljonit, viiakse läbi ümberarvestus. See protsess võib korduda mitu korda, hõlmates valuuta muutust. Tulemuseks on, et inimeste säästud võivad olla tugevalt mõjutatud, isegi hüperinflatsiooni puudumisel. Näiteks, kui keegi säästab ühe aasta jooksul 1000 dollarit ja suudab järgmisel aastal kõrvale panna 100 dollarit, võib madalaima nimiväärtusega rahatäht olla 1000 dollarit, muutes varem säästetud 100 dollari väärtusetuks. Selline säästude kulumine ei nõua ilmset hüperinflatsiooni. Isegi kui keegi on kümne aasta jooksul säästnud 10 000 dollarit, võib see summa lõpuks olla väärt tühine summa, mis ei võimalda osta isegi lihtsat pudelit vett. See reaalsus on ilmne paljudes riikides, mis on kogenud ümberarvestusi, isegi kui ainult mõned kuud on klassifitseeritud hüperinflatsiooniliseks. Seevastu mõned riigid, nagu Nicaragua, on kogenud järjestikuseid hüperinflatsiooni aastaid.
 
 ### Nicaragua
 
@@ -755,9 +771,10 @@ Märkimisväärne fakt Venezuelast on selle liikmelisus Ladina Rahaliidus. See l
 Sellel perioodil oli Venezuela 5 bolivari mündi kaal sama kui Liidu liikmesriikide, sealhulgas Itaalia, Hispaania, Belgia ja Prantsusmaa müntidel. Need bolivarid olid valmistatud hõbedast, konkreetse 1929. aasta mündi kaaluga 25 grammi ja puhtusega 900 ehk 90% puhas hõbe. Praeguse hõbeda hinna juures on see münt väärt umbes 17 kuni 18 USA dollarit.
 
 Pärast ujuva vahetuskursi vastuvõtmist 1983. aastal järgnes mitu ümberarvestust.
+
 - 2008. aastal tutvustati bolívar fuerte't ehk "tugevat bolívari", mis saavutas väärtuse kuni 100 000 enne ümberarvestust tuhandest ühele.
 - 2018. aastal tutvustati Soberanot, mille kupüürid ulatusid 1 miljonini. 2021. aastal asendati see digitaalse bolívariga, mis samuti saavutas miljoni, enne uut ümberarvestust miljonist ühele. Täna on 10 või 20 kupüüri väärtus võrdne 10 miljoni või 20 miljoni Soberanoga.
-  Sellest perioodist, mis ulatub tagasi 2018. aastasse, jagatakse kupüüre erinevatel Bitcoin'i konverentsidel Biarritzis, Torontos ja Miamis. Need Soberano kupüürid saavutasid maksimaalse väärtuse 1 miljon. Seejärel toimus ümberarvestus, vähendades 1 miljoni väärtust umbes 3 sendini. Praegu vastab 10 kupüüri 1 miljonist ühele 10 kupüürile. Alates 2016. aastast on Venezuelas esinenud hüperinflatsioon, mis esindab 57. perioodi konkreetses tabelis.
+        Sellest perioodist, mis ulatub tagasi 2018. aastasse, jagatakse kupüüre erinevatel Bitcoin'i konverentsidel Biarritzis, Torontos ja Miamis. Need Soberano kupüürid saavutasid maksimaalse väärtuse 1 miljon. Seejärel toimus ümberarvestus, vähendades 1 miljoni väärtust umbes 3 sendini. Praegu vastab 10 kupüüri 1 miljonist ühele 10 kupüürile. Alates 2016. aastast on Venezuelas esinenud hüperinflatsioon, mis esindab 57. perioodi konkreetses tabelis.
 
 Järgmises videos tutvustatakse hüperinflatsiooni kupüüride kollektsiooni, keskendudes Venezuelale ja teistele loetletud riikidele. See kollektsioon sisaldab peaaegu kõiki Venezuela kupüüre. Uuring keskendub iga mainitud riigi erinevatele ümberarvestustele. Lisaks uuritakse ümberarvestusi Zimbabwes, mis on märkimisväärse huviga teema.
 
@@ -770,6 +787,7 @@ Lähtudes 50% inflatsiooni kuus kriteeriumist, oleks mitmeid perioode võinud kl
 Järelduseks, hüperinflatsioon on vaid üks majanduslike väljakutsete aspekt. Kõrge inflatsioon üksi võib olla samavõrd kahjulik. Järgmises jaotises uuritakse võimalikke lahendusi hüperinflatsioonist ülesaamiseks.
 
 ## Kuidas ületada hüperinflatsiooni
+
 <chapterId>e3484a31-a851-5f92-8af5-00eddae67db1</chapterId>
 
 ### Kuidas lõpetada mõõdukas ja kõrge inflatsioon
@@ -777,6 +795,7 @@ Järelduseks, hüperinflatsioon on vaid üks majanduslike väljakutsete aspekt. 
 Mainitud järeldused on tuletatud raamatust "Monetary Regime and Inflation" autorilt Bernold. Bernoldi sõnul on ainus viis inflatsiooni lõpetamiseks viia läbi rahareform ja kehtestada valitsusele piirangud. Need piirangud hõlmavad institutsiooni, nagu keskpank, loomist, mis tegutseb sõltumatult valitsuse poliitilistest otsustest. Kõrge ja hüperinflatsioon on sageli eelarvepuudujääkide rahastamise tulemus rahaloome kaudu. Mõõduka inflatsiooni korral on oluline vähendada rahapakkumise kasvu. Bernold soovitab ka, et see rahapakkumise kasv peaks olema suhteline naaberriikidega. Üllatav punkt on see, et kõrge või hüperinflatsiooni perioodidel võib rahapakkumise koguväärtus tegelikult väheneda. Selle olukorra silmatorkav näide on Zimbabwe.
 
 ### Vastuintuitiivsed lahendused
+
 Zimbabwe uurimisel märgati, et 10 triljonit rahaühikut kaotasid kogu oma väärtuse. Weimaris oli võimalik ühe päevaga trükkida kahe kolmandiku kogunimiväärtusest 65 miljardit rahaühikut. See näitab, kuidas rahapakkumist saab devalveerida. Olukorra parandamiseks on vajalik rahapakkumist oluliselt suurendada, et jõuda sobivale tasemele. Seejärel on hädavajalik rahareform. Kõrge inflatsiooni olukorras on see reform vältimatu, kuid tuleb tagada, et ringluses oleks piisavalt raha. Pärast seda sammu saab valitsusele kehtestada piiranguid.
 Bernoldi tähelepanekute kohaselt ei võta institutsioonid nagu IMF ja Maailmapank inflatsiooniprobleemide lahendamisel alati õiget strateegiat. Mõnel juhul, kui riigil on vaja oma rahapakkumist suurendada, püüavad need institutsioonid seda vähendada. Võtmeks on jõuda adekvaatsele rahatasemele ja seejärel piirata selle kasvu, vältides nii valitsuse kulutuste rahastamist raha loomise kaudu.
 
@@ -799,8 +818,7 @@ Zimbabwe saavutas iseseisvuse 1980. aastal ja tutvustas Zimbabwe dollarit. Algus
 
 Seega, pärast 2009. aastat, püsiva rahanduskriisi ja möllava hüperinflatsiooni tõttu, loobus Zimbabwe oma rahvusvaluutast ja lubas kasutada välisvaluutasid, peamiselt USA dollarit. See otsus, kuigi radikaalne, lõpetas hüperinflatsiooni. Oluline õppetund on see, et liigse rahaemissiooni peatamine ja keskpanga eelarvepuudujäägi rahastamise lõpetamine võib lõpetada hüperinflatsiooni.
 
-Siiski, dollariseerimine ei ole imelahendus. Kuigi see võib lõpetada hüperinflatsiooni, esitab see teisi majanduslikke väljakutseid. Üheks tagajärjeks on autonoomse rahapoliitika kaotus. Ilma oma valuutata ei saa riik kohandada oma rahapoliitikat, et reageerida sisemistele majandusšokkidele.
-2007. aastal jõudis Zimbabwe inflatsioonimäär 50% kuus, ametlikult märgistades riiki hüperinflatsioonis olevaks. Pärast dollariseerimist 2009. aastal lõppes hüperinflatsioon, kuid riik seisab silmitsi teiste majanduslike väljakutsetega. On murettekitav märkida, et Zimbabwe on pärast seda üritanud oma valuutat uuesti kasutusele võtta ja kõrge inflatsiooni märgid on taas ilmnenud. Teatud rahvusvaheliste organisatsioonide sõnul võib riik juba vastata hüperinflatsiooni kriteeriumidele, isegi kui see ei ole veel ametlikku 50% kuus läve saavutanud. See toimib meeldetuletusena liigse rahatrüki ja keskpanga defitsiidi rahastamise ohtudest.
+Siiski, dollariseerimine ei ole imelahendus. Kuigi see võib lõpetada hüperinflatsiooni, esitab see teisi majanduslikke väljakutseid. Üheks tagajärjeks on autonoomse rahapoliitika kaotus. Ilma oma valuutata ei saa riik kohandada oma rahapoliitikat, et reageerida sisemistele majandusšokkidele. 2007. aastal jõudis Zimbabwe inflatsioonimäär 50% kuus, ametlikult märgistades riiki hüperinflatsioonis olevaks. Pärast dollariseerimist 2009. aastal lõppes hüperinflatsioon, kuid riik seisab silmitsi teiste majanduslike väljakutsetega. On murettekitav märkida, et Zimbabwe on pärast seda üritanud oma valuutat uuesti kasutusele võtta ja kõrge inflatsiooni märgid on taas ilmnenud. Teatud rahvusvaheliste organisatsioonide sõnul võib riik juba vastata hüperinflatsiooni kriteeriumidele, isegi kui see ei ole veel ametlikku 50% kuus läve saavutanud. See toimib meeldetuletusena liigse rahatrüki ja keskpanga defitsiidi rahastamise ohtudest.
 
 ## Järeldus
 
@@ -812,13 +830,11 @@ Neile, kes on huvitatud Saksamaa kogemusest pärast Esimest maailmasõda, soovit
 
 ![image](assets/chapitre-3.5/4.webp)
 
-Minu raamatus pealkirjaga "Kõik Bitcoini kohta" olen pühendanud terve peatüki Zimbabwe hüperinflatsioonile. Ma kirjeldan olulisi sündmusi, pakkudes mitmesuguseid näiteid, mis illustreerivad, kuidas riik lõpuks hüperinflatsioonile lõpu tegi. Neile, kes on huvitatud Saksamaa kogemusest pärast Esimest maailmasõda, soovitan väga koomiksiraamatut "Reichsbanki pankur". See jutustab, kuidas Saksamaa suutis hüperinflatsioonist üle saada, eriti tänu Rentenmarki loomisele.
-
 Peamine õppetund on see, et hüperinflatsioonist ülesaamiseks on mitmeid strateegiaid. Võib valida dollariseerimise või uue valuuta kasutuselevõtu. Need lahendused toimivad ainult siis, kui elanikkonnal on nendesse usku. On hädavajalik kehtestada ranged piirangud. Täiesti sõltumatu keskpank on oluline. See ei tohi rahapakkumist suurendada, et katta valitsuse puudujääke. Mõõduka inflatsiooni korral piisab rahapakkumise kasvu piiramisest. Siiski, kui tegemist on hüperinflatsiooniga, on hädavajalik esmalt tagada sobiv rahapakkumine majanduse suuruse jaoks. Seejärel on imperatiivne kehtestada valitsusele ranged piirangud olukorra stabiliseerimiseks.
 
 ## Hüperinflatsiooni pangatähtede kollektsiooni tutvustus
 
-Skaneeritud kollektsiooni link on saadaval Bitcoin Educational Toolkitis, mis on kättesaadav platvormi ressursside jaotisest.
+kaneeritud kollektsiooni link on saadaval Bitcoin Educational Toolkitis, mis on kättesaadav platvormi ressursside jaotisest.
 
 # Kuidas me siia jõudsime?
 
@@ -829,7 +845,9 @@ Transkript:
 Teise tasandi raha ja esimeste keskpankade tekkimine on põnev teema. Seda teemat arutatakse põhjalikult raamatus "Layered Money" autorilt Nick Battia. Soovitan seda väga neile, kes on huvitatud meie rahandussüsteemide arengust ja keerukusest. Selle jaotise eesmärk on mõista raha loomise päritolu ja kuidas see võib viia hüperinflatsioonini.
 
 ![image](assets/chapitre-4.1/1.webp)
+
 ### Püramiidraha ja Keskpangad
+
 #### Floriin
 
 Raha ajalugu ulatub tagasi 13. sajandi Itaaliasse, täpsemalt Firenzesse. Sel ajal olid levinud floriinid ja vekslid. Märkimisväärne näide on floriin, mida kaunistas Püha Johannese Kastija kuju.
@@ -879,17 +897,21 @@ Järgnedes 1796. aasta pangapaanikale, toimus nähtus, kus kõik üritasid "raha
 Keskpankadel on arenenud viimase instantsi laenuandjateks, peatades oma valuuta vahetatavuse kullaks. Kuigi see tegevus oli algselt mõeldud ajutise lahendusena, muutus see lõpuks püsivaks, märkides viimase instantsi laenuandja kontseptsiooni algust. See muutus on kujundanud keskpanku, nagu me neid täna tunneme. Siiski, haavatavamates majandustes võib see võime trükkida raha tahtmise järgi viia soovimatute tagajärgedeni, nagu hüperinflatsioon, kui seda kasutatakse vastutustundetult.
 
 ## Kursuse hindamine
+
 <chapterId>1a37317e-372a-5241-b478-8316d44f9283</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Lõpueksam
+
 <chapterId>d01831c3-6c4d-59e3-95bc-03e97a05c142</chapterId>
 <isCourseExam>true</isCourseExam>
 
 ## Raamatud ja ressursid
+
 <chapterId>c44e4519-0741-527b-b3b0-3f513e87147d</chapterId>
 
 Hüperinflatsioon on põnev teema, mida on uuritud läbi erinevate ajalooliste sündmuste. Kui soovite sellesse teemasse süveneda, siis siin on nimekiri 10 olulisest ressursist, mida lugeda ja uurida:
+
 - "Kui Raha Sureb: Defitsiidi Kulutamise, Devalveerimise ja Hüperinflatsiooni Õudusnägu Weimari Saksamaal" autor Adam Fergusson. See raamat kirjeldab hüperinflatsiooni kriisi Saksamaal pärast Esimest maailmasõda.
 - "Inflatsiooni Majandusteadus - Valuuta Väärtuse Languse Uuring Sõjajärgses Saksamaal" autor Costantino Bresciani-Turroni. Süvitsi analüüs Saksa hüperinflatsioonist 1920ndatel.
 

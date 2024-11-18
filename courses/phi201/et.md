@@ -190,6 +190,7 @@ Kuid ta eksib ühes fundamentaalses punktis töölisklassi osas: mitte kapital e
 
 Marxi sõnul on ärakasutamine protsess, mis seisneb töötaja loodud väärtuse osa väljavõtmises ilma selle eest tasumata, mis võimaldab kapitalistidel kasumit teenida. Teisisõnu, ärakasutamine oleks mehhanism, mis võimaldab kapitalistidel rikastuda, varastades proletariaadi tööd.
 See analüüs peegeldab arusaamatust ülejääkväärtuse ning majanduselu koostöölise ja dünaamilise olemuse osas. Tõepoolest, ettevõtja saadav kasum on kompensatsioon riski eest, mida nad võtavad, ning töötaja või palgatöötaja ei ole ori. Konkurentsitingimustes võivad nad lepingu oma tööandjaga kas vastu võtta või keelduda. Nad teevad valiku, mis peegeldab kulude-tulude analüüsi.
+
 ### Tööstusrevolutsiooni Küsimus
 
 Tegelikult moonutab marksistlik analüüs tööstusrevolutsiooni ajaloolist reaalsust. Ludwig von Mises selgitas seda küsimust oma majandusteaduse traktaadis [_Human Action_](http://herve.dequengo.free.fr/Mises/AH/AHTDM.htm) (vaata eriti peatükki pealkirjaga [Popular Interpretation of the Industrial Revolution](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2)) ning samuti sarjas loenguid, mis avaldati pealkirja all: [_Economic Policy: Thoughts for Today and Tomorrow_](http://herve.dequengo.free.fr/Mises/PE/PE_TDM.htm). (Samuti väärib lugemist, Antikapitalistlik Mentaliteet [siin](https://www.institutcoppet.org/wp-content/uploads/2011/05/La-Mentalit%C3%A9-anticapitaliste.pdf) ja [siin](http://herve.dequengo.free.fr/Mises/MAC/MAC_TDM.htm)).
@@ -206,7 +207,7 @@ Mises lisab, et inimolukorra paranemine sai võimalikuks tänu kapitali kogunemi
 > Radikaalne muutus olukorras, mis on andnud Lääne massidele praeguse elustandardi (tõepoolest kõrge elustandard, võrreldes sellega, mis see oli enne kapitalismi, ja sellega, mis see on Nõukogude Venemaal), oli kapitali kogunemise tulemus säästmise ja kaugelenägelike ettevõtjate tarkade investeeringute kaudu. Ükski tehnoloogiline täiustus ei oleks olnud saavutatav, kui uute leiutiste praktiliseks kasutamiseks vajalikud lisamateriaalsed kapitalid poleks olnud teostatavad eelneva säästmise kaudu.
 > Marksistliku historiograafia osas võime samuti viidata Friedrich Hayekile teoses _Capitalism and the Historians_ (Chicago Ülikooli Press, 1954) ja tema peatükile pealkirjaga "Ajalugu ja poliitika". Hayeki sõnul ei teinud industrialiseerimine töölisi õnnetuks, nagu kapitalismi tumeda legendi poolt, mida marksism levitab, väidetakse. Ta märgib:
 > Kapitalismi ja proletariaadi tõusu vahelise seose tegelik ajalugu on peaaegu vastupidine sellele, mida nende masside väljatõrjumise teooriad vihjavad.
-Enne tööstusrevolutsiooni elas enamik inimesi maapiirkondades ja sõltus oma ellujäämiseks põllumajandusest. Neil oli turul vähe müüa, mis piiras nende võimalusi ja elatustaset. Kõik eeldasid, et nad elavad absoluutses vaesuses ja nägid ette sarnast saatust oma järeltulijatele. Keegi ei olnud väljaspoolt pahandatud olukorra pärast, mis tundus paratamatu.
+> Enne tööstusrevolutsiooni elas enamik inimesi maapiirkondades ja sõltus oma ellujäämiseks põllumajandusest. Neil oli turul vähe müüa, mis piiras nende võimalusi ja elatustaset. Kõik eeldasid, et nad elavad absoluutses vaesuses ja nägid ette sarnast saatust oma järeltulijatele. Keegi ei olnud väljaspoolt pahandatud olukorra pärast, mis tundus paratamatu.
 
 ![image](assets/1/img-106.webp)
 
@@ -316,8 +317,8 @@ See uudsus põhineb kahe kreeka keele termini, "phusis" ja "nomos", mis tähista
 - _Phusis_ on loodusseadus (mis annab prantsuse keeles sõna "füüsika").
 - _Nomos_ on inimseadus (termin, mida leidub sõnas "autonoomia", mis tähendab "oma seadusele allumist").
   Linn (polis) tekib ideega, et seadus (nomos) on inimlikku päritolu, et seda saab inimeste poolt vabalt muuta, erinevalt loodusest, ja see võib kehtida kõigile. Kreeklased saavad siis teadlikuks sotsiaalse ja poliitilise korra autonoomiast loodusliku korra suhtes.
-See tähistab poliitika ilmumist: pidev arutelu sotsiaalse elu väga reeglite üle. Edaspidi lahendatakse probleeme ühise tegevuse kaudu, mitte muutumatu püha korra abil.
-Ja Jean-Pierre Vernant lisab:
+  See tähistab poliitika ilmumist: pidev arutelu sotsiaalse elu väga reeglite üle. Edaspidi lahendatakse probleeme ühise tegevuse kaudu, mitte muutumatu püha korra abil.
+  Ja Jean-Pierre Vernant lisab:
 
 > Kreeka mõistus on see, mis positiivsel, reflektiivsel, meetodilisel viisil võimaldab meil tegutseda inimeste, mitte looduse muutmise nimel. Oma piirides nagu ka uuendustes, on see linna tütar.
 
@@ -369,6 +370,7 @@ Esimeste kriitilise suhtumise märkide, uue mõttevabaduse ilmnemise kohta, ilmu
 
 ![image](assets/2/img-008.webp)
 Need tõendid näitavad tema sõnul, et just Thales oli see, kes algatas uue vabaduse traditsiooni, mis põhines algupärasel suhtel õpetaja ja õpilase vahel. Thales suutis taluda kriitikat ja lisaks lõi ta traditsiooni seda tunnustada. Popper tuvastab siin murdepunkti dogmaatilisest traditsioonist, mis lubab ainult ühe koolkonna doktriini, asendamaks selle pluralismi ja ekslikkusega.
+
 > Meie katsed tõde haarata ja avastada ei ole lõplikud, vaid on võimelised paranema, meie teadmised, meie doktriinid on oletuslikud, need koosnevad eeldustest, hüpoteesidest, mitte kindlatest ja lõplikest tõdedest.
 
 Ainus vahend, mis meil tõele lähenemiseks on, on kriitika ja arutelu. Seega pärineb antiik-Kreekast see traditsioon:
@@ -622,8 +624,7 @@ See on kesktee, mis püüab lepitada usku ja mõistust. Tõeline ratsionalism ei
 
 Kristlik keskaeg oli 13. sajandi alguses märgitud ülikoolide sünni ja paljususega Läänes. Ülikool on sama linna õpilaste ja meistrite kogukond kiriku kontrolli all ja hõlmab põhimõtteliselt nelja teaduskonda: kunstid, teoloogia, õigusteadus, meditsiin. Teoloogiat käsitatakse teadusena, Kreeka teaduse eeskujul.
 
-![image](assets/3/img-041.webp)
-1200. aastal asutas Philippe-Auguste Pariisi Ülikooli, mis sai kiiresti Euroopa tuntuimaks ülikooliks. 1257. aastal asutas Robert de Sorbon Pariisi Ülikoolis teoloogiakolledži, mida hiljem hakati nimetama Sorbonne'iks. Nendes ülikoolides tekkis uus õpetamis- ja uurimismeetod, mida tuntakse skolastikana (ladina keeles schola, kool). See hõlmas "disputatsiooni", omamoodi vastuolulist debatti publiku ees. Esitati tees, millele järgnesid vastuväited, millele tuli vastata. Kui kõik argumendid olid ammendatud, lahendas meister arutelu põhjendatud lahendusega.
+![image](assets/3/img-041.webp) 1200. aastal asutas Philippe-Auguste Pariisi Ülikooli, mis sai kiiresti Euroopa tuntuimaks ülikooliks. 1257. aastal asutas Robert de Sorbon Pariisi Ülikoolis teoloogiakolledži, mida hiljem hakati nimetama Sorbonne'iks. Nendes ülikoolides tekkis uus õpetamis- ja uurimismeetod, mida tuntakse skolastikana (ladina keeles schola, kool). See hõlmas "disputatsiooni", omamoodi vastuolulist debatti publiku ees. Esitati tees, millele järgnesid vastuväited, millele tuli vastata. Kui kõik argumendid olid ammendatud, lahendas meister arutelu põhjendatud lahendusega.
 
 Selle ajastu suurte aristotellike meistrite seas võime mainida Albert Suurt (1200-1280) ja Thomas Aquinast (1224-1274). Viimane, seades mõistuse õigustesse, tõi esile filosoofilise tarkuse eripära ja autonoomia teoloogiaga võrreldes. Nagu arm andis eelduse loomusele ja täitis selle, eeldab ja täiustab usk mõistust.
 
@@ -635,6 +636,7 @@ Sellest ajast alates valitseks usuline ratsionalism kindlalt müstitsismi üle.
 
 Keskaegses Euroopas päris Kirik ja kristlikud monarhiad poliitilise mudeli Rooma Impeeriumilt, mida ajaloolased nimetavad teoloogilis-poliitiliseks süsteemiks, tähendades süsteemi, kus võim on püha, st poliitiline juht on ka usuline juht.
 Sellepärast iseloomustavad keskaegseid ühiskondi politiilis-religioosne üksmeelsus. Poliitiline võim rajab oma legitiimsuse, autoriteedi ja ühtsuse kristlikule (või moslemi) usule. See peab end kultuurilise ja religioosse õigeusu kaitsjaks ning kohtleb pariaatidena neid, kes sellest üksmeelsusest kõrvale kaldub. Selles kontekstis, isegi kui teatud tolerants võidi lubada neile, kes eraldusid ühisest kultuurilisest visioonist (nagu juudid), ei tunnustatud neile pluralismi õigust. Alles keskaja lõpus, Ameerika vallutamisega, muutus tsiviilvabaduste probleem Kiriku jaoks kriitiliseks ning nägi esimese õigusfilosoofia tekkimist, mis kinnitas ja kaitses individuaalseid vabadusi, legitimeeris pluralismi ja mõistis riikliku sunduse hukka.
+
 ### Püha Augustinus ja Teokraatlik Kiusatus
 
 Poliitika ja religiooni suhte küsimus võttis kuju Püha Augustinuse teose _Civitas Dei_ (_Jumala Linn_) kaudu. Selles selgitab ta, et kaks sfääri eksisteerivad koos:
@@ -665,6 +667,9 @@ Oma poolel ei kõhelnud Püha Louis vastu seista paavst Innocent IV-le, kes oli 
 Kiriku teokraatlik kiusatus põrkub samuti kokku "jumaliku õiguse" teooriaga. Kui Prantsusmaa kuningad kuulutavad end "jumaliku õiguse" alusel monarhideks, on see selleks, et pääseda paavsti haardest ja tõmmata oma autoriteet otse Jumalalt, ilma et peaksid klergilt korraldusi vastu võtma.
 
 ## Piibellik Eetika: Inimese Püha Väärtus
+
+<chapterId>7a27494d-8481-52ea-a551-e430bdb5315f</chapterId>
+
 Vanas mõttemaailmas allutati inimene jumalikule kosmosele, see tähendab täiuslikule universumile, mille osa ta vaid oli. Monoteism seevastu väidab inimese lõpmatult ülekaalukamat väärtust looduse üle, kuna inimene on loodud Jumala näo järgi. See oluline punkt on tõelise eetilise revolutsiooni alguseks. Piibel kinnitab iga inimolendi püha ja lõpmatut väärtust.
 Seetõttu muudab piibellik eetika meie suhet kurjusega. See toob kaasa terava ja enneolematu tundlikkuse inimkannatuste suhtes. Seega julgustab see meid pidama ebanormaalseks ja talumatuks kurjust, mida inimkond seni oli täiesti talutavaks pidanud, eriti kurjust, mis tehakse teistele, nõrkadele, süütutele.
 
@@ -725,6 +730,7 @@ Le Goff toob esile teoses _L'usure au Moyen Âge_ (1967, uuesti avaldatud 1986 p
 Siiski, prantsuse ajaloolase sõnul tuleb kapitalismi tõusu paigutada laiemasse majanduslike, sotsiaalsete ja kultuuriliste transformatsioonide konteksti, mis lahti rullusid mitme sajandi vältel. Le Goff rõhutab eriti 15. ja 16. sajandi Kaubandusrevolutsiooni tähtsust, mida iseloomustas merenduskaubanduse laienemine ja uute kaubateede avastamine, mis stimuleeris kapitali kogunemist ja turulogika ülekaalu.
 
 ### Monetaarsete manipulatsioonide kriitika
+
 Süstemaatiline majandusseaduste uurimine algab kõrgkeskajal. Esimesed majandusteadlased on Pariisi Kooli skolastilised teoloogid. Neist esimene, kes kirjutas teadusliku traktaadi, mis oli täielikult pühendatud majandusteemale, on Nicolas Oresme (1325-1382). Umbes 1360. aastal koostas ta oma _Traktaadi raha päritolu, olemuse, seaduse ja muutuste kohta_, mis võtab kokku ja arendab oma aja skolastikute ideid.
 ![image](assets/3/img-031.webp)
 
@@ -748,6 +754,7 @@ Pealegi, kui kaks erinevat valuutat naudivad seaduslikku maksevahendit, siis age
 <partId>58793f94-f217-530a-a877-b5b6df70a5fe</partId>
 
 ## Palve Usutolerantsi Eest
+
 <chapterId>c4c9a729-4a0f-5814-8e32-9aff4d373018</chapterId>
 Renessansist alates oli Euroopat laastamas ususõjad. Tolerantsus sai seega Valgustusajastu üheks suureks võitluseks.
 ![image](assets/4/img-112.webp)
@@ -866,8 +873,7 @@ Lühidalt, kui kõik saavad vabalt järgida oma eraõiguslikku huvi loodusõigus
 
 Oma lühikese ametiaja jooksul Rahandusministrina (Kontrolöri Üldine) augustist 1774 kuni maini 1776 üritas Ann-Robert Jacques Turgot teha suuri reforme, et lõpetada liigne kulutamine, arvukad kohalikud monopolid ja naasta vabakaubanduse juurde. Ta läks isegi nii kaugele, et manitses kuningas Louis XVI sellistes sõnades:
 
-> Te peate, Sire, oma lahkuselt relvastuma oma lahkus ise, arvestades, kust tuleb raha, mida saate oma õukondlastele jagada.
-> 1774. aastal avaldas ta oma Kuus Eediti, et kaotada tsunftid ja meistrivõimud (korporatsioonid, mis olid muutunud monopolideks ja takistusteks tööturul), kaotada sisemised tollimaksud teraviljakaubanduselt, kaotada sunnitöö (korvee) ja kehtestada sallivus protestantide suhtes.
+> Te peate, Sire, oma lahkuselt relvastuma oma lahkus ise, arvestades, kust tuleb raha, mida saate oma õukondlastele jagada. 1774. aastal avaldas ta oma Kuus Eediti, et kaotada tsunftid ja meistrivõimud (korporatsioonid, mis olid muutunud monopolideks ja takistusteks tööturul), kaotada sisemised tollimaksud teraviljakaubanduselt, kaotada sunnitöö (korvee) ja kehtestada sallivus protestantide suhtes.
 
 Kahjuks põhjustasid nisu hinnatõusud, mis järgnesid kehvadele saakidele, kahtlusi tema reformides. Turgot kirjutas oma kaitseks:
 
@@ -955,6 +961,8 @@ See spontaanse korra idee saab Friedrich Hayeki töö võtmekontseptsiooniks, ke
 
 ## Revolutsioonide Ajastu
 
+<chapterId>c260e3ab-31a2-5ad7-b775-4bdcdc13b859</chapterId>
+
 Suur uudsus sellel modernsel perioodil Lääne ajaloos on ühiskonna esilekerkimine, mis korraldab end väljaspool religioosset sõltuvust. See ei tähenda religioosse uskumuse kadumist ega Jumala surma. Kuid Jumalast saab eraasi, mis ei segune enam poliitiliste asjadega. Religioon ei kao, kuid selle juhtiv roll troonitakse. See muutub individuaalsete uskumuste süsteemiks.
 
 Lääne maailma sekulariseerumine ei toimunud üleöö. Sellele valmistasid ette ideed. Nagu sageli, on filosoofia suurte kultuurimuutuste eesliinil.
@@ -994,8 +1002,8 @@ Lisaks ammutab 1789. aasta Prantsuse Inim- ja Kodanikuõiguste Deklaratsiooni ar
 > Iga poliitilise ühenduse eesmärk on inimese loomulike ja tühistamatute õiguste säilitamine. Need õigused on vabadus, omand, turvalisus ja vastupanu rõhumisele.
 
 ### Kahe Revolutsiooni Võrdlus
-Ameerika revolutsiooni juhtisid mehed, kes rääkisid põhiõigustest, mida ei saa võtta. See viis detsentraliseeritud ja piiratud õigusriigi loomiseni. Atlandi ookeani teisel kaldal toimus teine poliitiline eksperiment: Prantsuse revolutsioon, mis algas rahva julge ülestõusuna, lõppes veriste massimõrvade, veriste sisemiste konfliktidega ja sillutas tee Napoleon Bonaparte'i sõjaväelise diktatuuri jaoks. Miks selline erinevus?
-19. sajandil üritas prantsuse poliitiline filosoof Alexis de Tocqueville tuvastada neid erinevusi kahe õerevolutsiooni vahel. Ta omistab Ameerika revolutsiooni edu mitmele tegurile.
+
+Ameerika revolutsiooni juhtisid mehed, kes rääkisid põhiõigustest, mida ei saa võtta. See viis detsentraliseeritud ja piiratud õigusriigi loomiseni. Atlandi ookeani teisel kaldal toimus teine poliitiline eksperiment: Prantsuse revolutsioon, mis algas rahva julge ülestõusuna, lõppes veriste massimõrvade, veriste sisemiste konfliktidega ja sillutas tee Napoleon Bonaparte'i sõjaväelise diktatuuri jaoks. Miks selline erinevus? 19. sajandil üritas prantsuse poliitiline filosoof Alexis de Tocqueville tuvastada neid erinevusi kahe õerevolutsiooni vahel. Ta omistab Ameerika revolutsiooni edu mitmele tegurile.
 
 ![image](assets/4/img-076.webp)
 
@@ -1019,7 +1027,7 @@ Kolmas seisus hõlmas kõiki neid, kes ei kuulunud klerusse ega aadlisse. Oma ku
 > Kas monopoli mõju ei ole teada? Kui see heidutab neid, kes on välja jäetud, kas pole teada, et see muudab need, keda see soosib, vähem oskuslikuks? Kas pole teada, et igasugune töö, millest on eemaldatud vaba konkurents, tehakse kallimalt ja halvemini?
 
 4. augusti 1789 öö on Prantsuse revolutsiooni alustala, veelgi enam kui 14. juuli, mis valiti rahvuspühaks. Tõepoolest, siis toimunud istungil lõpetas Konstitutsiooniline Assamblee feodaalsüsteemi. Privileegid kaotati, nii aadlike kui ka kleruse omad. 1791. aasta märtsis, pärast mitmeid kuid omamoodi õiguslikus vaakumis, kaotati ka tsunftid ja kehtestati täielik töövabadus. Revolutsioon kinnitas Turgoti tööd. Kuid mitte kauaks...
-Prantsusmaal, 1791. aasta lõpuks, süvendas näljahäda rahutusi. Mässud halvasid teraviljakaubanduse ja leib oli napp. Ulatuslik liikumine nõudis agrariaadiseadust, see tähendab riigi poolt nisutootmise jaotamist. Assamblee siiski vastustas seda kollektiviseerimise katset. Alguses hääletas see kirikuvarade konfiskeerimise poolt ja teises etapis Vaimulikkonna Tsiviilkonstitutsiooni.
+   Prantsusmaal, 1791. aasta lõpuks, süvendas näljahäda rahutusi. Mässud halvasid teraviljakaubanduse ja leib oli napp. Ulatuslik liikumine nõudis agrariaadiseadust, see tähendab riigi poolt nisutootmise jaotamist. Assamblee siiski vastustas seda kollektiviseerimise katset. Alguses hääletas see kirikuvarade konfiskeerimise poolt ja teises etapis Vaimulikkonna Tsiviilkonstitutsiooni.
 
 Kirikuvarade konfiskeerimise eesmärk oli vältida finantskriisi; see oli mõeldud tagatiseks Assignaatidele, tähendades massilist paberraha emiteerimist.
 
@@ -1037,9 +1045,13 @@ See on ka Friedrich Hayeki raamatu _Vabaduse Konstitutsioon_ mõtte mõte:
 
 # Tipp ja Allakäik: 19. sajandist 20. sajandini
 
+<partId>39810d57-19e3-5166-8f2e-40b763154148</partId>
+
 ## Modernsete Vabadus
 
+<chapterId>e575f4c1-7144-591b-ab98-d976ec4102fb</chapterId>
 Benjamin Constanti sõnul ei saa vabadust meie modernsetes ühiskondades enam mõista nagu antiikühiskondades otsest osalust linna asjades.
+![image](assets/5/img-103.webp)
 
 ### Vabadus Eraelus
 
@@ -1067,8 +1079,8 @@ Kuid see ei tähenda poliitilise vabaduse ohverdamist, osalemist võimus. Consta
 Tõepoolest, oma _Poliitika Põhimõtetes_ väidab Benjamin Constant:
 
 > Rahva suveräänsus ei ole piiramatu, see on piiritletud õigluse ja üksikisikute õiguste poolt tõmmatud piiridega. Kogu rahva tahe ei saa muuta õiglaseks seda, mis on ebaõiglane.
-See on uus kriitika Rousseau ja _Sotsiaallepingu_ suhtes: isegi üldine tahe on piiratud ning see ei saa muuta seda, mis kuulub loomuliku õiguse alla. Olemas on õigus, mis on poliitilisest autoriteedist varasem ja ülem: see on loomulik õigus. See õigus seab poliitilise võimu piirid ja piirab individuaalseid vabadusi.
-Öelda, et kõik legitiimne võim peab põhinema üldisel tahtel, ei tähenda, et kõik, mida üldine tahe otsustab, on legitiimne. Constant seostab end seega 1789. aasta Inimõiguste Deklaratsiooni artikliga II, mis sätestab, et riik on asutatud ainult loomulike õiguste säilitamiseks, see tähendab vabadust, vastutust ja omandit. Seega on valdkondi, kus poliitilisel võimul ei ole mõju: moraal ja religioon, aga ka teadused, mis kuuluvad teadmiste autoriteedi alla ja lõpuks tööstus, lisab Constant.
+> See on uus kriitika Rousseau ja _Sotsiaallepingu_ suhtes: isegi üldine tahe on piiratud ning see ei saa muuta seda, mis kuulub loomuliku õiguse alla. Olemas on õigus, mis on poliitilisest autoriteedist varasem ja ülem: see on loomulik õigus. See õigus seab poliitilise võimu piirid ja piirab individuaalseid vabadusi.
+> Öelda, et kõik legitiimne võim peab põhinema üldisel tahtel, ei tähenda, et kõik, mida üldine tahe otsustab, on legitiimne. Constant seostab end seega 1789. aasta Inimõiguste Deklaratsiooni artikliga II, mis sätestab, et riik on asutatud ainult loomulike õiguste säilitamiseks, see tähendab vabadust, vastutust ja omandit. Seega on valdkondi, kus poliitilisel võimul ei ole mõju: moraal ja religioon, aga ka teadused, mis kuuluvad teadmiste autoriteedi alla ja lõpuks tööstus, lisab Constant.
 
 ### Poliitiline Vabadus ja Majanduslik Vabadus
 
@@ -1105,7 +1117,8 @@ Tõepoolest, võrdsustumisega kaasneb indiviidide suurem haavatavus, kes muutuva
 _Demokraatia Ameerikas_ autor hoiatab meid:
 
 > Tõepoolest, on olemas üllas ja legitiimne võrdsuse iha, mis ärgitab inimesi soovima olla kõik tugevad ja austatud. See kirg kipub tõstma väikeseid suurte hulka; kuid inimhinges on ka rikutud maitse võrdsuse järele, mis viib nõrgad soovima tuua tugevad oma tasemele ja mis paneb inimesi eelistama võrdsust orjuses ebavõrdsusele vabaduses. (...) Meie päevade rahvad ei saa teha nii, et tingimused nende seas ei oleks võrdsed; kuid neist sõltub, kas võrdsus viib neid orjusesse või vabadusse, valgustatusse või barbaarsusesse, jõukusse või viletsusse.
-Tocqueville'i jaoks on inimene palju rohkem võrduse kui vabaduse poole kaldu. Ja ta näeb selles demokraatia suurt ohtu. Miks eelistab inimene kahe vahel võrduse kirge? Sest vabadus toob kaasa otse nähtavad kulud ja selle hüved on kaugemal, pikemas perspektiivis (vabadus ei paku sisu, vaid ainult võimekust otsida õnne oma hinnangu järgi). Vastupidi, võrdsus toob kohe nähtavad positiivsed tulemused ja selle puudused ilmnevad alles pikemas perspektiivis.
+> Tocqueville'i jaoks on inimene palju rohkem võrduse kui vabaduse poole kaldu. Ja ta näeb selles demokraatia suurt ohtu. Miks eelistab inimene kahe vahel võrduse kirge? Sest vabadus toob kaasa otse nähtavad kulud ja selle hüved on kaugemal, pikemas perspektiivis (vabadus ei paku sisu, vaid ainult võimekust otsida õnne oma hinnangu järgi). Vastupidi, võrdsus toob kohe nähtavad positiivsed tulemused ja selle puudused ilmnevad alles pikemas perspektiivis.
+
 ### Tööõigus
 
 Tööõigus on hea näide demokraatliku egalitarismi kõrvalekalletest. 1848. aasta põhiseaduslikus assamblees peetud kõnes võttis Tocqueville seisukoha tööõiguse vastu põhiseaduse eelnõus. Kui riik võtab endale kohustuse pakkuda tööd kõigile töötajatele, või kui see tagab, et nad alati leiavad selle tööturult, nagu sotsialistid soovivad, siis viib see riigi olukorda, kus see muutub "suureks ja ainulaadseks töö korraldajaks."
@@ -1135,8 +1148,8 @@ Sotsialistlike ideede valitsemisajal täheldas Bastiat, et valimismasinat kasuta
 Riik muutub siis Bastiati sõnade kohaselt
 
 > suureks fiktsiooniks, mille kaudu kõik püüavad elada teiste arvelt. ([_Riik_](http://bastiat.org/fr/l_etat.html))
-Bastiat arendab ka mõtet, et konflikt tekib siis, kui seadus kaldub kõrvale oma õiguspärasest rollist. Oma kuulsas pamfletis [_Seadus_](http://bastiat.org/fr/la_loi.html) näitab ta, miks ja kuidas seadus on muutunud "kõigi ahnuse lahinguväljaks", tähendades privileegide, situatsiooniliste rentide ja suvalise maksustamise allikat. Niipea, kui põhimõtteliselt tunnistatakse, et seadust saab kõrvale juhtida selle tõelisest missioonist, et see võib rikkuda varasid selle asemel, et neid tagada, järgneb paratamatult klassivõitlus, kas kaitseks röövimise vastu või selle korraldamiseks oma kasuks.
-![image](assets/5/img-098.webp)
+> Bastiat arendab ka mõtet, et konflikt tekib siis, kui seadus kaldub kõrvale oma õiguspärasest rollist. Oma kuulsas pamfletis [_Seadus_](http://bastiat.org/fr/la_loi.html) näitab ta, miks ja kuidas seadus on muutunud "kõigi ahnuse lahinguväljaks", tähendades privileegide, situatsiooniliste rentide ja suvalise maksustamise allikat. Niipea, kui põhimõtteliselt tunnistatakse, et seadust saab kõrvale juhtida selle tõelisest missioonist, et see võib rikkuda varasid selle asemel, et neid tagada, järgneb paratamatult klassivõitlus, kas kaitseks röövimise vastu või selle korraldamiseks oma kasuks.
+> ![image](assets/5/img-098.webp)
 
 Juhtudel, kui seadus lihtsalt jõustab iga üksikisiku õigusi ja tagab _"üksikisiku õiguse legitiimsele kaitsele kollektiivse korralduse,"_ ei ole keegi positsioonis seda oma kasuks ära kasutada kõigi arvelt, nii et valitsusvorm muutub teisejärguliseks küsimuseks.
 
@@ -1169,13 +1182,17 @@ Kodaniku emantsipatsioon, Marxi sõnul, ei tähenda sugugi inimese emantsipatsio
 See poliitiline illusioon liberalismist on religioosse illusiooni ilmalik külg, lisab Marx. Valem on tuntud: "religioon on rahva oopium." Religioon on lohutus, see pakub eufooriat ja lubab emantsipatsiooni teispoolsuses. Kuid see juhib inimest eemale tema tõelisest emantsipatsioonist siin maapeal. Kodakondsus on, võrreldes töölise tegevusega, nagu Jumala riik võrreldes õnnetu eksistentsiga siin maa peal. See ei realiseeru kunagi. See kahekordne eraldatus kujutab endast kahekordset võõrandumist, tähendades inimese inimlikkuse mittetäitmist või tema kujuteldavat saavutust.
 
 ### Majanduslik võõrandumine
+
 Tegelikult, Marx'i ja ajaloolise materialismi kohaselt, on majanduslik võõrandumine poliitilise võõrandumise ning samuti usulise võõrandumise juur. Majanduslikus võõrandumises, mis on kapitalismi (määratletud kui tootmisvahendite eraomand) tulemus, on töötaja sunnitud müüma oma tööjõudu kui kaupa. Lisaks on ta ilma jäetud oma töö viljast, mis kuulub tööandjale. Ta on seega võõrandunud, tähendades eraldatud iseendast, kuna tema töö muutub talle võõraks, mida ta teeb jõuga, ellujäämiseks. Ometi on töö Marx'i jaoks inimliku tegevuse kvintessents, see, mille kaudu inimese olemuse tuum, nimelt vabadus, realiseerub. Seetõttu tähendab töö vabastamine ka inimese taastamist tema väärikusesse ja inimlikkusesse.
 
 Polüitiline revolutsioon on seega illusioon, tema sõnul, niikaua kui see ei käi käsikäes majandusliku ja sotsiaalse revolutsiooniga, mis suudab vabastada inimese kapitalistlikust orjusest ja seeläbi saavutada ühtsuse töötaja ja kodaniku, ühiskonna ja riigi, era- ja avaliku sfääri vahel. Kodaniku formaalne vabadus ja võrdsus muutuvad seega reaalseks, klassideta ühiskonnas.
 
 ## Austria Kriitika Marxismi Suhtes
 
+<chapterId>f05dae71-c478-5de1-996e-1b7b4255d373</chapterId>
+
 Austria Majanduskool, mille asutas Carl Menger 19. sajandi lõpus, oli Karl Marx'i teooriatele algusest peale vastu.
+![image](assets/5/img-083.webp)
 
 ### Klassivõitlus
 
@@ -1240,7 +1257,7 @@ Tõepoolest, poliitilise tsentraliseerimise sama protsess ja sama soov asendada 
 Autentse liberalismi puhul on mure õigluse pärast. Kuid Hayek meenutab meile, et see solidaarsus kuulub tsiviilühiskonnale, mitte riigile korraldada. Liberalismi ja sotsialismi eristavad mitte eesmärgid, vaid vahendid. Hayeki sõnul,
 
 > Liberalism soovib, et me kasutaksime konkurentsi jõude inimjõupingutuste koordineerimise vahendina võimalikult hästi; see ei taha, et me jätaksime asjad nii nagu need on.
-Sellepärast, lisab Hayek, on riigil eitamatu tegevusvaldkond:
+> Sellepärast, lisab Hayek, on riigil eitamatu tegevusvaldkond:
 > Luua tingimused, kus konkurents oleks võimalikult efektiivne, asendada see seal, kus see ei saa efektiivne olla, pakkuda teenuseid, mis on sellist laadi, et kasum, Smithi valemile toetudes, ei suuda katta kulusid ühelegi grupile.
 
 Vastupidi, majanduse ja ühiskonna üldine planeerimine, sotsialismi olemus, on suunatud konkurentsi vastu iseenesest. Siiski, Hayeki sõnul on sotsialismi eesmärkide (sotsiaalne õiglus, võrdsus ja turvalisus) ja sotsialismi poolt nende saavutamiseks ette nähtud vahendite (eraomandi kaotamine, tootmisvahendite kollektiviseerimine, planeeritud majandus) vahel vastuolu.
@@ -1266,6 +1283,7 @@ Kokkuvõttes kutsub Hayek oma kaasaegseid pöörama selga "hullusele" ja "kaasae
 <partId>49e581cb-3dca-5f10-ac34-5b4cbd3d7c36</partId>
 
 ## Keynesi triumf
+
 <chapterId>f40fc495-bcf7-5b7a-95ad-3a3ccba3e3ba</chapterId>
 
 Kapitalismi süüdistatakse tihti käskluses: "me peame alati rohkem tootma," või valemis: "tarbimine on hea majanduskasvuks." Siiski, need ideed ei pärine traditsioonilisest kapitalismist, vaid Keynesianismist, mis on domineerinud majandusteaduse valdkonnas ja poliitilises klassis alates 1930ndatest.
@@ -1307,8 +1325,8 @@ Lõpetades École Polytechnique'i 1919. aastal, oli Rueff kõrge riigiametniku k
 See raamat sisaldab võtmepeatükki pealkirjaga: "Terve raha või totalitaarne riik". Selles peatükis arendab ta kahte väidet. Esimene: "Vale raha toob kaasa sotsiaalse korra häire". Teine väide tuleneb esimesest: "Sotsiaalne korra häire toob kaasa sotsiaalse orjuse". Vale raha on paberraha, mis on lahti ühendatud igasugusest füüsilisest reaalsusest ja mida manipuleerib valitsev võim. Sotsiaalne korra häire on sellest tulenev inflatsioon ja tarbimine. Sotsiaalne orjus on ühiskonna sõltuvus riigist, kõigi finantsiliste, moraalsete ja poliitiliste autonoomiate kaotus.
 
 1947. aastal, viis aastat pärast _The General Theory_ prantsusekeelset tõlget, avaldas ta artikli pealkirjaga: _The Errors of the General Theory of Lord Keynes_. Ta andis järgmised hoiatused:
-On tõenäoline, et järgmine depressiooniperiood viib Lord Keynesi poolt soovitatud poliitika laialdase rakendamiseni üle maailma. Ma ei karda eksida, öeldes, et see poliitika vähendab töötust vaid vähesel määral, kuid sellel on sügavad tagajärjed riikide arengule, kus seda rakendatakse. (...) Lord Keynesi tõttu saab järgmisest tsüklist sügavate poliitiliste muutuste võimalus, mida mõned loodavad, samas kui teised kardavad. Igatahes, valel teoorial põhinevad abinõud, mida rakendatakse, omavad sügavalt erinevaid tagajärgi nendest, mida oli kavatsetud edendada. Nende ebatõhusus on suure osa avaliku arvamuse jaoks uus põhjus nõuda režiimi asendamist, mis, eitades ennast, on ennast hävitanud.
-Alates 1958. aastast viiakse Jacques Rueffi poolt inspireeritud Prantsuse majanduse korrigeerimise poliitikat läbi kindral de Gaulle'i autoriteedi all. See viib kuulsa "Trente Glorieuses'i" (Kolmkümmend Hiilgavat Aastat) saavutamiseni.
+      On tõenäoline, et järgmine depressiooniperiood viib Lord Keynesi poolt soovitatud poliitika laialdase rakendamiseni üle maailma. Ma ei karda eksida, öeldes, et see poliitika vähendab töötust vaid vähesel määral, kuid sellel on sügavad tagajärjed riikide arengule, kus seda rakendatakse. (...) Lord Keynesi tõttu saab järgmisest tsüklist sügavate poliitiliste muutuste võimalus, mida mõned loodavad, samas kui teised kardavad. Igatahes, valel teoorial põhinevad abinõud, mida rakendatakse, omavad sügavalt erinevaid tagajärgi nendest, mida oli kavatsetud edendada. Nende ebatõhusus on suure osa avaliku arvamuse jaoks uus põhjus nõuda režiimi asendamist, mis, eitades ennast, on ennast hävitanud.
+      Alates 1958. aastast viiakse Jacques Rueffi poolt inspireeritud Prantsuse majanduse korrigeerimise poliitikat läbi kindral de Gaulle'i autoriteedi all. See viib kuulsa "Trente Glorieuses'i" (Kolmkümmend Hiilgavat Aastat) saavutamiseni.
 
 ![image](assets/6/img-014.webp)
 
@@ -1321,7 +1339,7 @@ Ta lisab: "Inflatsioon on kulutuste subsideerimine, mis ei too midagi sisse raha
 ![image](assets/6/img-004.webp)
 
 1976. aastal ründab ta viimast korda Keynesianismi artiklis ajalehele _Le Monde_.
-Ükski religioon pole maailmas nii kiiresti levinud kui tööhõive usk. Ajendatuna töötuse tragöödiate mälestusest, mis laastasid Inglismaad ja Saksamaad 1920. aastatel, on see saanud peaaegu iga riigi majanduspoliitika väljendatud või mõistetud põhimõtteks. Peites oma eesmärki nutika ja petliku "üldteooria" varju all, mille entusiastlikud ja pimedad jüngrid on tõstnud valitsuste tegevuse piibli staatusesse, on see varjanud inflatsioonipoliitikate tõelist palet, mida see kattis. Selle kaudse tee kaudu on see andnud hea südametunnistuse valitsustele, mis, olles ammendanud oma maksustamise ja laenamise võimalused, pöördusid rahaloomise petlike naudingute poole. (_Keynesia ajastu lõpp ehk: Millal pikk jooks otsa sai_, Euromoney, aprill 1976, lk 70-7.)
+      Ükski religioon pole maailmas nii kiiresti levinud kui tööhõive usk. Ajendatuna töötuse tragöödiate mälestusest, mis laastasid Inglismaad ja Saksamaad 1920. aastatel, on see saanud peaaegu iga riigi majanduspoliitika väljendatud või mõistetud põhimõtteks. Peites oma eesmärki nutika ja petliku "üldteooria" varju all, mille entusiastlikud ja pimedad jüngrid on tõstnud valitsuste tegevuse piibli staatusesse, on see varjanud inflatsioonipoliitikate tõelist palet, mida see kattis. Selle kaudse tee kaudu on see andnud hea südametunnistuse valitsustele, mis, olles ammendanud oma maksustamise ja laenamise võimalused, pöördusid rahaloomise petlike naudingute poole. (_Keynesia ajastu lõpp ehk: Millal pikk jooks otsa sai_, Euromoney, aprill 1976, lk 70-7.)
 
 ## Kullastandardist loobumine
 
@@ -1351,6 +1369,7 @@ Bretton Woodsi süsteem, mis kavandati 1944. aastal ja rakendati täielikult 195
 
 ![image](assets/6/img-007.webp)
 Sel ajal, eriti Vietnamis toimunud sõja ajal, viis USA valitsuse defitsiidi suurenemine paljud välisriigid, sealhulgas Prantsusmaa, soovima oma dollareid FEDis kullaks vahetada. 15. augustil 1971 otsustas president Nixon tühistada dollari vahetatavuse lubaduse kullaks, luues sellega Ameerika Ühendriikide ajaloo esimese täielikult paberil põhineva valuuta. Sellest päevast alates saab dateerida hetke, mil raha täielikult läks keskpankade kontrolli alla. Intervjuus väidetakse, et Richard Nixon on öelnud:
+
 > Me oleme kõik tänapäeval Keynesi järgijad.
 
 Tõepoolest, paljude Keynesi majandusteadlaste jaoks andis kullastandardist loobumine valitsustele vajaliku paindlikkuse majanduskriisidele reageerimiseks või nende ärahoidmiseks.
@@ -1383,6 +1402,7 @@ Hayeki jaoks tuleneb turumajanduse varasem ebastabiilsus asjaolust, et turumehha
 Hayek uskus, et eraomanduses olevate valuutade vaba turg viiks suurema rahalise stabiilsuseni. Peaaegu 50 aastat hiljem kehastab krüptoraha nagu Bitcoin Hayeki konkurentsivõimelist visiooni, pakkudes detsentraliseeritud alternatiivi keskpankade monopolistlikule süsteemile. Bitcoin, mille emiteerimislimiit on 21 miljonit ühikut, on garantii inflatsiooni ja regulaatorite meelevaldsuse vastu.
 
 ## Hinda kursust
+
 <chapterId>6759868f-749d-5fe7-bbb1-24f603e8b34e</chapterId>
 <isCourseReview>true</isCourseReview>
 

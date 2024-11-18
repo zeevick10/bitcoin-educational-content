@@ -87,6 +87,7 @@ Tahun berikutnya, ia mendirikan "Asosiasi untuk Perdagangan Bebas" di Prancis da
 Pertemuan pertama berlangsung di Bordeaux pada tanggal 23 Februari 1846, di mana Asosiasi Perdagangan Bebas Bordeaux didirikan. Tak lama, gerakan tersebut menyebar ke seluruh Prancis. Di Paris, inti awal terbentuk di antara anggota Masyarakat Ekonom, yang kemudian bergabung dengan anggota parlemen, industrialis, dan pedagang. Grup-grup signifikan juga terbentuk di Marseille, Lyon, dan Le Havre.
 ![image](assets/image/00/IMG24.webp)
 Revolusi Februari 1848 menggulingkan monarki Louis-Philippe, yang dikenal sebagai Monarki Juli (1830-1848), dan menyaksikan kedatangan Republik Kedua. Bastiat kemudian terpilih sebagai anggota majelis legislatif sebagai wakil dari Landes. Ia duduk di tengah-kiri, bersama dengan Alexis de Tocqueville, di antara para monarkis dan sosialis. Di sana, ia berusaha untuk mempertahankan kebebasan individu seperti hak-hak sipil dan menentang semua kebijakan pembatasan, baik yang datang dari kanan maupun kiri. Ia terpilih sebagai wakil presiden Komite Keuangan dan terus-menerus berusaha mengingatkan rekan-rekan deputinya tentang kebenaran sederhana ini, yang sering terlupakan di parlemen:
+
 > Seseorang tidak dapat memberikan kepada beberapa orang, melalui undang-undang, tanpa diwajibkan untuk mengambil dari orang lain melalui undang-undang lain.
 
 Hampir semua buku dan esainya ditulis selama enam tahun terakhir hidupnya, dari 1844 hingga 1850. Pada tahun 1850, Bastiat menulis dua karya terkenalnya: The Law dan serangkaian pamflet berjudul What is Seen and What is Not Seen. The Law telah diterjemahkan ke dalam banyak bahasa asing, termasuk Inggris, Jerman, Spanyol, Rusia, dan Italia.
@@ -150,8 +151,10 @@ Produsen menggunakan persuasi, negosiasi, dan kontrak, sementara penjarah menggu
 ![image](assets/image/01/IMG17.webp)
 
 ## Antoine Destutt de Tracy
+
 <chapterId>ddf64e9f-2ce0-5651-8eb8-bae578eb0b9b</chapterId>
 Sedikit yang diketahui, namun Destutt de Tracy memiliki pengaruh yang menentukan terhadap Presiden Amerika Serikat masa depan, Thomas Jefferson, saat ia menjadi duta besar di Paris pada tahun 1780-an.
+
 > "Bagi setiap orang, negara pertamanya adalah tanah airnya, dan yang kedua adalah Prancis" & "Tirani adalah ketika rakyat takut pada pemerintahnya; kebebasan adalah ketika pemerintah takut pada rakyatnya."
 >
 > Thomas Jefferson
@@ -206,6 +209,7 @@ Apa tujuan dari ulasan tersebut? Judulnya sudah menjelaskan: untuk mengkritik pe
 
 _(Benjamin Constant)_
 Mereka mengadopsi dari Benjamin Constant perbedaan antara Orang Kuno dan Orang Modern, yang ditandai di satu sisi oleh perang, dan di sisi lain oleh perdagangan dan industri. Namun, mereka menambahkan dengan Say bahwa ekonomi politik memberikan penjelasan terbaik tentang fenomena sosial. Mereka khususnya memahami bahwa bangsa-bangsa mencapai perdamaian dan kemakmuran ketika hak milik dan perdagangan bebas dihormati. Mulai sekarang, bagi mereka, ekonomi politik adalah dasar sejati dan satu-satunya dari politik. Untuk filsafat, yang membatasi dirinya pada kritik abstrak terhadap bentuk-bentuk pemerintahan, harus digantikan dengan teori yang didasarkan pada pengetahuan tentang kepentingan ekonomi. Ekonomi politik, dengan menunjukkan bagaimana bangsa-bangsa makmur dan menurun, telah meletakkan dasar sejati dari politik.
+
 > Dunoyer
 
 ![image](assets/image/03/IMG07.webp)
@@ -336,6 +340,7 @@ Cukup membuka hampir setiap buku tentang filsafat, politik, atau sejarah secara 
 
 Pertama-tama, dia mengatakan, orang Romawi menganggap properti sebagai fakta yang murni konvensional, sebagai ciptaan buatan hukum tertulis. Mengapa? Sederhana, Bastiat menjelaskan, karena mereka hidup dari perbudakan dan penjarahan. Bagi mereka, semua properti adalah buah dari penjarahan. Oleh karena itu, mereka tidak dapat memperkenalkan ke dalam legislasi ide bahwa dasar dari properti yang sah adalah tenaga kerja tanpa menghancurkan dasar-dasar masyarakat mereka.
 Mereka memang memiliki definisi empiris tentang properti, "jus utendi et abutendi" (hak untuk menggunakan dan menyalahgunakan). Namun, definisi ini hanya menyangkut efek dan bukan penyebabnya, dengan kata lain, asal-usul etis dari properti. Untuk benar-benar menetapkan properti, seseorang harus kembali ke konstitusi manusia itu sendiri, dan memahami hubungan dan keterkaitan yang diperlukan antara kebutuhan, kemampuan, tenaga kerja, dan properti. Apakah orang Romawi, yang merupakan pemilik budak, dapat membayangkan ide bahwa "setiap orang memiliki dirinya sendiri, dan oleh karena itu tenaga kerjanya, dan, akibatnya, produk dari tenaga kerjanya"? Bastiat bertanya-tanya.
+
 > Oleh karena itu, mari kita tidak terkejut, Bastiat menyimpulkan, melihat ide Romawi bahwa properti adalah fakta konvensional dan institusi hukum muncul kembali pada abad kedelapan belas; bahwa, jauh dari Hukum menjadi korolari dari Properti, adalah Properti yang merupakan korolari dari Hukum.
 
 Memang, Rousseau membagikan ide hukum umum ini tentang dasar properti pada hukum. Rousseau mengatributkan kepada hukum, dan akibatnya kepada rakyat, kekuasaan absolut atas individu dan properti.
@@ -355,6 +360,7 @@ Sangat menyedihkan untuk berpikir bahwa filsafat sosial dan politik kita tetap t
 Namun, seperti yang diingatkan Bastiat, monopoli mengecualikan kemajuan.
 
 ## Proteksionisme dan Sosialisme
+
 <chapterId>ce6cb8a8-7dc9-5ef7-939d-9a559b4d2c74</chapterId>
 
 ![image](assets/image/07/IMG11.webp)
@@ -391,12 +397,12 @@ Pada 27 Juni 1848, sehari setelah pemberontakan baru yang berdarah di Paris, dal
 Dan dia akan terus menganalisis efek perversenya setelah itu. Berikut adalah satu contoh, yang dikutip dalam surat kepada Cobden:
 
 > Berdasarkan kecenderungan alami hati manusia, setiap orang mulai menuntut dari negara, untuk diri mereka sendiri, bagian yang lebih besar dari kesejahteraan. Artinya, negara atau kas negara diletakkan untuk dijarah. Semua kelas menuntut dari negara, seolah-olah dengan hak, sarana keberadaan. Upaya yang dilakukan dalam arah ini oleh negara hanya mengarah pada pajak dan hambatan, dan pada peningkatan kemiskinan.
+
 - 3° Bastiat menambahkan bahwa menurut pandangannya, proteksionisme adalah manifestasi pertama dari gangguan ini. Para kapitalis mulai meminta intervensi hukum untuk meningkatkan bagian kekayaan mereka. Tak terelakkan, para pekerja ingin melakukan hal yang sama.
-![image](assets/image/07/IMG08.webp)
-Untuk menyimpulkan, menurut Bastiat, proteksionis dan sosialis memiliki titik persamaan: apa yang mereka cari dari hukum bukan untuk memastikan setiap orang bebas menggunakan kemampuan mereka dan mendapatkan imbalan yang adil atas usaha mereka, melainkan untuk memihak eksploitasi yang lebih atau kurang lengkap dari satu kelas warga negara oleh kelas lain. Dengan proteksionisme, adalah minoritas yang mengeksploitasi mayoritas. Dengan sosialisme, adalah mayoritas yang mengeksploitasi minoritas. Dalam kedua kasus, keadilan dilanggar dan kepentingan umum terkompromi. Bastiat menentang keduanya.
+  ![image](assets/image/07/IMG08.webp)
+  Untuk menyimpulkan, menurut Bastiat, proteksionis dan sosialis memiliki titik persamaan: apa yang mereka cari dari hukum bukan untuk memastikan setiap orang bebas menggunakan kemampuan mereka dan mendapatkan imbalan yang adil atas usaha mereka, melainkan untuk memihak eksploitasi yang lebih atau kurang lengkap dari satu kelas warga negara oleh kelas lain. Dengan proteksionisme, adalah minoritas yang mengeksploitasi mayoritas. Dengan sosialisme, adalah mayoritas yang mengeksploitasi minoritas. Dalam kedua kasus, keadilan dilanggar dan kepentingan umum terkompromi. Bastiat menentang keduanya.
 
 > Negara adalah fiksi besar di mana setiap orang berusaha hidup atas biaya orang lain.
-
 
 ## Proudhon
 
@@ -438,6 +444,7 @@ Memang, menurut Bastiat, kemajuan umat manusia bertepatan dengan pembentukan mod
 
 ![image](assets/image/08/IMG15.webp)
 Tanpa modal atau material yang terakumulasi, Robinson akan terancam mati. Kemudian ia menjelaskan bahwa modal memperkaya pekerja dengan dua cara:
+
 - Ini meningkatkan produksi, sehingga menurunkan harga barang untuk konsumsi
 - Yang berdampak pada peningkatan upah.
 
@@ -505,7 +512,7 @@ Bastiat kemudian menyusun teks satir yang kemudian menjadi salah satu karya pali
 Dalam petisi ini, para pembuat lilin meminta para deputi untuk perlindungan hukum terhadap saingan asing yang berbahaya:
 
 > Kami menderita karena kompetisi yang tidak tertahankan dari saingan asing yang, tampaknya, berada dalam kondisi yang sangat superior untuk memproduksi cahaya sehingga ia membanjiri pasar nasional kita dengan harga yang sangat murah.
-Jadi, siapakah pesaing asing yang tidak adil ini? Tidak lain adalah matahari. Para produsen kemudian menyoroti peluang yang akan ada dalam "memperuntukkan pasar nasional untuk tenaga kerja nasional", dengan memerintahkan melalui sebuah undang-undang untuk menutup "semua jendela, atap kaca, tirai, penutup jendela, tirai, gorden, ventilasi atas, dalam satu kata semua bukaan, lubang, celah, dan retakan yang biasa dilalui sinar matahari masuk ke dalam rumah".
+> Jadi, siapakah pesaing asing yang tidak adil ini? Tidak lain adalah matahari. Para produsen kemudian menyoroti peluang yang akan ada dalam "memperuntukkan pasar nasional untuk tenaga kerja nasional", dengan memerintahkan melalui sebuah undang-undang untuk menutup "semua jendela, atap kaca, tirai, penutup jendela, tirai, gorden, ventilasi atas, dalam satu kata semua bukaan, lubang, celah, dan retakan yang biasa dilalui sinar matahari masuk ke dalam rumah".
 
 Dengan kata lain, para pembuat lilin mencoba menunjukkan efek buruk dari "pesaing asing" (matahari) terhadap ekonomi Prancis. Karena tidak hanya matahari dapat menyediakan "produk" yang sama seperti lilin, tetapi ia melakukannya secara gratis. Dua ratus tahun kemudian, cerita ini tetap sangat relevan. Pertimbangkan para sopir taksi yang meminta undang-undang untuk melarang VTC dan Uber. Pikirkan tentang toko buku yang ingin melarang Amazon.
 
@@ -582,6 +589,8 @@ Bastiat mungkin menambahkan bahwa sebanyak pentingnya mengurangi pengeluaran neg
 
 ## Dua Moralitas
 
+<chapterId>c518e449-f638-553c-9a49-15da48023d41</chapterId>
+
 Semua orang tahu Tartuffe atau sang Penipu, komedi oleh Molière di mana seorang pemuja yang licik mencoba untuk merayu Elmire dan menipu suaminya Orgon. Bagaimana seseorang dapat melindungi diri dari penipuan seorang munafik yang berpura-pura melakukan kebaikan sambil merencanakan melawan Anda?
 
 Bastiat mencatat bahwa ada dua cara untuk mengakhiri jenis penipuan ini: memperbaiki Tartuffe atau mencerahkan Orgon. Tentu saja, akan selalu ada Tartuffe, tetapi kekuatan mereka untuk berbuat jahat akan jauh berkurang jika ada lebih sedikit Orgon yang mendengarkan mereka.
@@ -592,10 +601,10 @@ Namun, ada dua cara komplementer untuk mencerahkan penilaian warga negara, seper
 
 - Pertama, ada "moralitas filosofis atau religius" yang bertindak dengan memurnikan dan memperbaiki tindakan manusia (manusia sebagai agen)
 - Kemudian, ada "moralitas ekonomi", yang bertindak dengan menunjukkan kepada manusia "konsekuensi yang diperlukan dari tindakannya" (manusia sebagai pasien)
-Sebenarnya, ini adalah dua kerangka moral yang sempurna saling melengkapi.
+  Sebenarnya, ini adalah dua kerangka moral yang sempurna saling melengkapi.
 
 1. Yang pertama menargetkan hati dan mendorong individu untuk berbuat baik; itu adalah moralitas religius atau filosofis. Ini adalah yang paling mulia. Ini menanamkan dalam hati manusia kesadaran akan kewajibannya. Ini mengatakan kepadanya:
-Tingkatkan diri Anda; bersihkan diri Anda; berhentilah melakukan kejahatan; lakukan kebaikan, kendalikan hasrat Anda; korbankan kepentingan Anda; jangan menindas tetangga Anda yang merupakan kewajiban Anda untuk mencintai dan meringankan beban mereka; berlakulah adil terlebih dahulu dan beramal setelahnya. Singkatnya, ini mengajarkan tentang kebajikan, tindakan tanpa pamrih. Moralitas ini, kata Bastiat, akan selamanya menjadi yang paling indah dan menyentuh, karena menunjukkan apa yang terbaik dalam manusia.
+   Tingkatkan diri Anda; bersihkan diri Anda; berhentilah melakukan kejahatan; lakukan kebaikan, kendalikan hasrat Anda; korbankan kepentingan Anda; jangan menindas tetangga Anda yang merupakan kewajiban Anda untuk mencintai dan meringankan beban mereka; berlakulah adil terlebih dahulu dan beramal setelahnya. Singkatnya, ini mengajarkan tentang kebajikan, tindakan tanpa pamrih. Moralitas ini, kata Bastiat, akan selamanya menjadi yang paling indah dan menyentuh, karena menunjukkan apa yang terbaik dalam manusia.
 
 ![image](assets/image/12/IMG04.webp)
 
@@ -614,6 +623,7 @@ Ekonomi Politik, oleh karena itu, memiliki utilitas praktis yang jelas. Ini meng
 Sekali lagi, akan ada lebih sedikit Tartuffe jika ada lebih sedikit Orgon yang mendengarkan mereka. Inilah yang dikatakan Bastiat tentang hal ini:
 
 ![image](assets/image/12/IMG07.webp)
+
 > Biarlah moralitas agama menyentuh hati Tartuffe jika bisa. Tugas ekonomi politik adalah untuk mencerahkan orang-orang yang tertipu. Dari kedua pendekatan ini, mana yang paling efektif untuk kemajuan sosial? Haruskah dikatakan? Saya percaya itu yang kedua. Saya khawatir umat manusia tidak bisa menghindari kebutuhan untuk pertama-tama mempelajari moralitas defensif.
 
 Tentu saja, ekonomi politik bukanlah ilmu universal; itu tidak mengecualikan pendekatan filosofis dan agama. "Tapi siapa yang pernah menampilkan klaim yang begitu berlebihan atas namanya?" Bastiat bertanya-tanya.
@@ -638,6 +648,7 @@ Keajaiban pasar bebas, katanya, adalah bahwa itu menggunakan pengetahuan yang ti
 
 Bastiat memberikan beberapa contoh untuk mengilustrasikan manfaat dari pasar ini. Kita telah menjadi begitu terbiasa dengan fenomena ini sehingga kita tidak lagi memperhatikannya.
 Mari kita pertimbangkan seorang tukang kayu di sebuah desa, katanya, dan amati semua layanan yang dia berikan kepada masyarakat dan semua yang dia terima:
+
 > Setiap hari, saat bangun, dia berpakaian, dan dia tidak membuat sendiri pakaian-pakaian itu. Namun, agar pakaian-pakaian itu tersedia baginya, sejumlah besar pekerjaan, industri, transportasi, dan penemuan-penemuan cerdas harus dilakukan di seluruh dunia.
 >
 > Kemudian dia sarapan. Untuk roti yang dia makan tiba di meja setiap pagi, lahan harus dibersihkan, dibajak; besi, baja, kayu, batu harus diubah menjadi alat kerja; semua hal yang masing-masing, diambil secara terpisah, mengasumsikan massa pekerjaan yang tak terhitung jumlahnya yang dimainkan, tidak hanya dalam ruang tetapi dalam waktu.
@@ -678,8 +689,8 @@ Perencanaan ekonomi, yang mengklaim dapat melakukan lebih baik dari pasar, tidak
 Dalam sebuah surat kepada Alphonse de Lamartine pada tahun 1845, Bastiat menulis bahwa seluruh filosofinya terkandung dalam satu prinsip:
 
 > Kebebasan adalah bentuk organisasi sosial yang terbaik.
-![image](assets/image/14/IMG1.webp)
-Namun, ia menambahkan sebuah syarat
+> ![image](assets/image/14/IMG1.webp)
+> Namun, ia menambahkan sebuah syarat
 
 > "Bahwa hukum tidak boleh menghilangkan konsekuensi, positif atau negatif, dari tindakan setiap orang. Ini adalah prinsip korolar dari tanggung jawab."
 
@@ -698,8 +709,8 @@ Ketika seseorang menghabiskan uangnya sendiri, seseorang berhati-hati untuk tida
 Tetapi dari mana fenomena ketidakbertanggungjawaban atau desponsibilisasi berasal? Frédéric Bastiat memberi kita jawaban atas pertanyaan ini, sebuah jawaban politik. Dia berkata, saya kutip:
 
 > "Intervensi Negara mengambil alih pemerintahan diri kita sendiri."
-Memang, statisme secara terus-menerus mengurangi inisiatif pribadi dan pilihan bebas orang. Negara melakukan untuk mereka apa yang bisa mereka lakukan sendiri dan lebih baik. Dengan demikian, negara mengurangi individu dari konsekuensi tindakan mereka. Ini menghancurkan tanggung jawab.
-![image](assets/image/14/IMG5.webp)
+> Memang, statisme secara terus-menerus mengurangi inisiatif pribadi dan pilihan bebas orang. Negara melakukan untuk mereka apa yang bisa mereka lakukan sendiri dan lebih baik. Dengan demikian, negara mengurangi individu dari konsekuensi tindakan mereka. Ini menghancurkan tanggung jawab.
+> ![image](assets/image/14/IMG5.webp)
 
 Menurut Bastiat, hipertrofi hukum dan intervensi berlebihan dari Negara memiliki konsekuensi menghasilkan perjuangan untuk kekuasaan, penjarahan, hak istimewa, monopoli, perang, singkatnya, segala sesuatu yang menghambat kemajuan peradaban.
 Risiko terlalu memihak pada jalur hukum atau kontrol birokrasi adalah hal itu menghambat semua motivasi dengan mengenakan banjir kendala, sehingga mencabut kita dari berbagai kemajuan yang inisiatif pribadi dan pilihan bebas izinkan.
@@ -733,6 +744,7 @@ Kita akan melihat dalam kursus lain, menurut Bastiat, satu-satunya layanan publi
 Dengan kata lain, pilihan kolektif bukanlah pilihan yang bertanggung jawab karena, di satu sisi, mereka tidak menimbulkan pengambilan risiko bagi pembuat keputusan, dan di sisi lain, mereka memaksa orang lain untuk menderita konsekuensi tertentu, yang sama bencananya seperti halnya tidak bermoral.
 
 ## Kekuatan Tanggung Jawab
+
 <chapterId>0c078806-6c58-53f9-a720-5fb62386e56b</chapterId>
 
 Pada kursus sebelumnya, kita telah melihat mengapa kebebasan dan tanggung jawab menjadi kunci untuk masalah sosial. Kita akan sekarang menggali lebih dalam poin ini dengan menunjukkan bagaimana Frédéric Bastiat memandang kejahatan yang menimpa masyarakat dan solusinya.
@@ -800,7 +812,7 @@ Inilah yang Bastiat sebut "sofisme persaudaraan hukum." Mari kita kutip dia pada
 Dan lagi:
 
 > Pemerintah hanya pernah melakukan tindakan yang disanksi oleh Kekuatan. Sekarang, memaksa seseorang untuk adil diperbolehkan, tidak untuk memaksa mereka untuk menjadi dermawan. Hukum, ketika berusaha melakukan dengan paksa apa yang moralitas capai melalui persuasi, jauh dari naik ke ranah Amal, jatuh ke dalam domain Perampasan.
-Namun, perbuatan memperdaya hukum ini memiliki nama, itu adalah sosialisme, yaitu, ideologi redistribusi kekayaan yang dipaksakan oleh Negara. Sosialisme, menurut Bastiat, dicirikan oleh ideologi perampasan hukum. Namun, kecerdikan ideologi ini adalah bahwa ia menyembunyikan kekerasannya di bawah penyalahgunaan bahasa: seruan kepada solidaritas atau persaudaraan.
+> Namun, perbuatan memperdaya hukum ini memiliki nama, itu adalah sosialisme, yaitu, ideologi redistribusi kekayaan yang dipaksakan oleh Negara. Sosialisme, menurut Bastiat, dicirikan oleh ideologi perampasan hukum. Namun, kecerdikan ideologi ini adalah bahwa ia menyembunyikan kekerasannya di bawah penyalahgunaan bahasa: seruan kepada solidaritas atau persaudaraan.
 
 ![image](assets/image/16/IMG4.webp)
 
@@ -846,8 +858,8 @@ Dipahami dalam pengertian ini, hak atas Properti adalah di antara hak-hak yang t
 
 > Hukum adalah organisasi kolektif dari hak individu atas pertahanan yang sah.
 > The Law
-Misi utamanya adalah untuk mempertahankan orang dan propertinya.
-![image](assets/image/17/IMG6.webp)
+> Misi utamanya adalah untuk mempertahankan orang dan propertinya.
+> ![image](assets/image/17/IMG6.webp)
 
 _(François Quesnay, pemimpin Fisiokrat)_
 
@@ -981,9 +993,8 @@ Tulis Frédéric Bastiat dalam sebuah pamflet singkat berjudul The State.
 
 <partId>3b62de5c-5d4a-5182-ab14-f7ef13c97e28</partId>
 
-
-
 ## Evaluasi kursus
+
 <chapterId>db20170d-ceb6-56cd-b4e5-c690942f8b29</chapterId>
 <isCourseReview>true</isCourseReview>
 
@@ -1015,3 +1026,4 @@ Namun, seperti yang dengan tepat ditunjukkan oleh Bastiat, intervensi negara mem
 Jika kita melihat hal-hal dari sudut pandang ini, Reagan menjelaskan kepada karyawan GE, keajaiban-keajaiban yang disebut dari pengeluaran negara tampak dalam cahaya yang sepenuhnya berbeda. Karena pajak menghambat produksi, dan kekayaan yang diciptakan oleh pengeluaran publik tidak dapat sepenuhnya menggantikan mereka yang dicegah untuk lahir oleh pajak yang dikenakan untuk membayar pengeluaran ini.
 
 Pada intinya, Reagan mengambil dari Bastiat beberapa elemen kunci dari visi liberal masyarakat dan manusia: supremasi masyarakat sipil atas Negara, nilai pilihan dan tanggung jawab individu, pentingnya pengusaha dalam penciptaan kekayaan, pentingnya kerangka hukum yang fleksibel dan minimal, yang memungkinkan kepercayaan dan penghormatan terhadap kontrak, hukum fundamental bahwa kekayaan harus diciptakan sebelum dapat didistribusikan, keinginan untuk memberikan kesempatan kepada semua orang di pasar yang kompetitif…
+

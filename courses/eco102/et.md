@@ -339,7 +339,9 @@ Bastiat'i sõnul eksisteerivad ühiskond, inimesed ja omandid enne seadusi ning 
 
 ## Klassikaline haridus
 
-<chapterId>87d9a8c9-2352-5cb2-8b93-678118a8145c</chapterId> 24. veebruaril 1848, pärast kolme päeva kestnud rahutusi Pariisis, loobus kuningas Louis-Philippe I võimust. See tähistas Teise Vabariigi sündi.
+<chapterId>87d9a8c9-2352-5cb2-8b93-678118a8145c</chapterId>
+
+24. veebruaril 1848, pärast kolme päeva kestnud rahutusi Pariisis, loobus kuningas Louis-Philippe I võimust. See tähistas Teise Vabariigi sündi.
 
 ![image](assets/image/06/IMG20.webp)
 
@@ -768,6 +770,8 @@ Teisisõnu, kollektiivsed valikud ei ole vastutustundlikud valikud, kuna ühelt 
 
 ## Vastutuse Jõud
 
+<chapterId>0c078806-6c58-53f9-a720-5fb62386e56b</chapterId>
+
 Eelmisel kursusel nägime, miks vabadus ja vastutus on sotsiaalse probleemi võtmeks. Nüüd süveneme sellesse teemasse, näidates, kuidas Frédéric Bastiat vaatleb ühiskondi vaevavaid kurje ja nende lahendust.
 
 Liberale on mõnikord kritiseeritud kurja eiramise ja ideaalses maailmas puhta ja täiusliku vabaduse utoopia loomise eest. See kriitika on meie autori suhtes täiesti alusetu.
@@ -1047,4 +1051,3 @@ Kuid nagu Bastiat tabavalt tõestas, on riigisekkumisel perverssed mõjud, mida 
 Kui vaadata asju sellest vaatenurgast, selgitas Reagan GE töötajatele, riikliku kulutamise nn imed paistavad täiesti erinevas valguses. Kuna maksud pärsivad tootmist ja avaliku sektori kulutuste loodud rikkus ei suuda täielikult kompenseerida neid, mis jäid sündimata maksude tõttu, mis koguti nende kulutuste katteks.
 
 Olemuselt võttis Reagan Bastiat'lt mitu liberaalse ühiskonna- ja inimvaate võtmelementi: tsiviilühiskonna primaarsus riigi ees, valiku ja individuaalse vastutuse väärtus, ettevõtja tähtsus rikkuse loomisel, paindliku ja minimaalse õigusraamistiku tähtsus, mis võimaldab usaldust ja lepingute austamist, fundamentaalne seadus, et rikkus tuleb luua enne, kui seda saab jaotada, soov anda kõigile võimalus konkurentsivõimelistel turgudel…
-
