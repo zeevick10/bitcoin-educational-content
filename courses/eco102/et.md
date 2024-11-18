@@ -1,7 +1,7 @@
 ---
-nimi: Frédéric Bastiat, elu, mõjud ja majandusmõte
-eesmärk: Saada sügav arusaam 19. sajandi Prantsuse majandusteadlase ja mõtleja Frédéric Bastiati elust, mõjutajatest, vastastest ja majandusteooriatest.
-eesmärgid:
+name: Frédéric Bastiat, elu, mõjud ja majandusmõte
+goal: Saada sügav arusaam 19. sajandi Prantsuse majandusteadlase ja mõtleja Frédéric Bastiati elust, mõjutajatest, vastastest ja majandusteooriatest.
+objectives:
   - Õppida tundma Frédéric Bastiati elu ja ajaloolist konteksti.
   - Mõista Bastiati mõjutajaid.
   - Vaadelda Bastiati ideoloogilisi vastaseid.
@@ -87,6 +87,7 @@ Järgmisel aastal asutas ta Prantsusmaal "Vabakaubanduse Assotsiatsiooni" ja hei
 Esimene kohtumine toimus Bordeaux's 23. veebruaril 1846, mille käigus loodi Bordeaux Vabakaubanduse Assotsiatsioon. Peagi levis liikumine üle kogu Prantsusmaa. Pariisis moodustati esialgne tuumik Majandusteadlaste Seltsi liikmete hulgas, millele liitusid saadikud, töösturid ja kaupmehed. Olulised rühmad moodustusid ka Marseille's, Lyonis ja Le Havres.
 ![image](assets/image/00/IMG24.webp)
 Veebruarirevolutsioon 1848. aastal kukutas Louis-Philippe'i monarhia, mida tuntakse Juuli Monarhiana (1830-1848), ja tõi kaasa Teise Vabariigi alguse. Bastiat valiti seejärel seadusandliku kogu liikmeks Landes'i departemangu saadikuna. Ta istus kesk-vasakul, koos Alexis de Tocqueville'iga, monarhistide ja sotsialistide vahel. Seal püüdis ta kaitsta individuaalseid vabadusi, nagu kodanikuvabadused, ja vastustas kõikidele piiravatele poliitikatele, olgu need paremalt või vasakult. Ta valiti rahanduskomitee asepresidendiks ja püüdis pidevalt meenutada oma kaassaadikutele seda lihtsat tõde, mis parlamendis sageli unustatakse:
+
 > Seadusega ei saa mõnele anda, ilma et oleks kohustatud teistelt teise seadusega võtma.
 
 Peaaegu kõik tema raamatud ja esseed kirjutas ta oma elu viimase kuue aasta jooksul, aastatel 1844 kuni 1850. Aastal 1850 kirjutas Bastiat kaks oma kuulsaimat teost: "Seadus" ja esseedeseeria "Mis on nähtav ja mis ei ole nähtav". "Seadus" on tõlgitud paljudesse võõrkeeltesse, sealhulgas inglise, saksa, hispaania, vene ja itaalia keelde.
@@ -118,8 +119,7 @@ _(Say, Destutt de Tracy, Quesnay, de Gournay)_
 
 Adam Smithi huvitas jõukus, mitte iseenesest, vaid kui vahend üksikisikute moraalseks tõstmiseks. Tema jaoks koosneb rahvaste rikkus üksikisikute rikkusest. Kui soovite jõukat rahvast, ütleb Adam Smith, laske üksikisikutel vabalt tegutseda. Ja turg toimib, sest see võimaldab kõigil oma eelistusi väljendada ja oma huve järgida.
 
-![image](assets/image/01/IMG08.webp)
-18. sajandi alguse suur uudsus modernsete majandusteadlaste seas on see, et nad huvitusid iga üksikisiku tahtest taastada nende tegutsemisvõime, mõeldes samal ajal, kuidas ohjeldada kirgi ja konflikte. Inimene soovib loomupäraselt parandada oma ja oma lähedaste olukorda kaupade ja teenuste vahetuse kaudu.
+![image](assets/image/01/IMG08.webp) 18. sajandi alguse suur uudsus modernsete majandusteadlaste seas on see, et nad huvitusid iga üksikisiku tahtest taastada nende tegutsemisvõime, mõeldes samal ajal, kuidas ohjeldada kirgi ja konflikte. Inimene soovib loomupäraselt parandada oma ja oma lähedaste olukorda kaupade ja teenuste vahetuse kaudu.
 Mida Adam Smith näitab, on see, et saab teenida ainult oma huve, teenides teiste huve.
 
 > Anna mulle, mida vajan, ja sa saad minult, mida ise vajad. (...) Me ei oota oma õhtusööki lihuniku, õllepruulija või pagaril heatahtlikkusest, vaid nende endi huvist lähtuvalt.
@@ -152,8 +152,10 @@ Tootjad kasutavad veenmist, läbirääkimisi ja lepingut, samas kui röövlid ka
 ![image](assets/image/01/IMG17.webp)
 
 ## Antoine Destutt de Tracy
+
 <chapterId>ddf64e9f-2ce0-5651-8eb8-bae578eb0b9b</chapterId>
 Vähe on teada, kuid Destutt de Tracy avaldas otsustavat mõju tulevasele Ameerika Ühendriikide presidendile Thomas Jeffersonile, kui viimane oli 1780ndatel Pariisis suursaadik.
+
 > "Iga mehe jaoks on tema esimene kodumaa tema sünnimaa ja teine on Prantsusmaa" & "Türannia on siis, kui rahvas kardab oma valitsust; vabadus on siis, kui valitsus kardab rahvast."
 >
 > Thomas Jefferson
@@ -219,6 +221,7 @@ Mis on ülevaate eesmärk? Pealkiri räägib enda eest: valitsuse tsenseerimine.
 
 _(Benjamin Constant)_
 Nad võtavad Benjamin Constantilt üle vanaaegsete ja uusaegsete eristuse, mida iseloomustab ühelt poolt sõda ja teiselt poolt kaubandus ja tööstus. Kuid nad lisavad Say'ga, et poliitiline ökonoomia pakub parimat selgitust sotsiaalsetele nähtustele. Nad mõistavad eriti, et rahvad saavutavad rahu ja jõukuse, kui austatakse omandiõigusi ja vaba kaubandust. Edaspidi on nende jaoks poliitiline ökonoomia tõeline ja ainus poliitika alus. Filosoofiale, mis piirdub valitsusvormide abstraktse kriitikaga, tuleb asendada teooriaga, mis põhineb majandushuvide teadmistel. Poliitiline ökonoomia, näidates, kuidas rahvad õitsevad ja allakäivad, on rajanud poliitika tõelised alused.
+
 > Dunoyer
 
 ![pilt](assets/image/03/IMG07.webp)
@@ -276,8 +279,7 @@ Liiga eesmärk oli mobiliseerida avalikku arvamust, et survestada parlamenti ter
 - Edendada rahvaste vahelist rahu
 
 _(Jeremy Bentham)_
-Benthami utilitarismi jünger Cobden oli veendunud, et tööjõu ja kaubanduse vabadus teenib otseselt kõige arvukamate, vaeseimate ja kõige enam kannatavate ühiskonnakihtide huve. Vastupidi, toll kui suvaliste keeldude ja privileegide instrument võis kasu tuua ainult teatud kõige võimsamatele tööstustele.
-1841. aasta valimistel valiti parlamenti viis liigat, sealhulgas Cobden. 26. mail 1846 sai ühepoolsest vabakaubandusest kuningriigi seadus. Sellest ajast alates koges Ühendkuningriik vabaduse ja jõukuse hiilgavat perioodi.
+Benthami utilitarismi jünger Cobden oli veendunud, et tööjõu ja kaubanduse vabadus teenib otseselt kõige arvukamate, vaeseimate ja kõige enam kannatavate ühiskonnakihtide huve. Vastupidi, toll kui suvaliste keeldude ja privileegide instrument võis kasu tuua ainult teatud kõige võimsamatele tööstustele. 1841. aasta valimistel valiti parlamenti viis liigat, sealhulgas Cobden. 26. mail 1846 sai ühepoolsest vabakaubandusest kuningriigi seadus. Sellest ajast alates koges Ühendkuningriik vabaduse ja jõukuse hiilgavat perioodi.
 Huvitav on see, et Bastiat omastas osa nende meetodist; ta omandas nende keele ja kohandas selle prantsuse konteksti. Raamat Cobdenist ja Liigast sai kiiresti edukaks ja Bastiat tegi majandusteadlaste maailmas sensatsioonilise sisenemise. Ta asutas Bordeaux's vabakaubanduse pooldajate ühenduse ja kolis seejärel selle Pariisi. Talle pakuti Journal des Économistes juhtimist. Liikumine sündis ja see jätkus kuni 1848. aastani.
 
 ![image](assets/image/04/IMG09.webp)
@@ -337,8 +339,7 @@ Bastiat'i sõnul eksisteerivad ühiskond, inimesed ja omandid enne seadusi ning 
 
 ## Klassikaline haridus
 
-<chapterId>87d9a8c9-2352-5cb2-8b93-678118a8145c</chapterId>
-24. veebruaril 1848, pärast kolme päeva kestnud rahutusi Pariisis, loobus kuningas Louis-Philippe I võimust. See tähistas Teise Vabariigi sündi.
+<chapterId>87d9a8c9-2352-5cb2-8b93-678118a8145c</chapterId> 24. veebruaril 1848, pärast kolme päeva kestnud rahutusi Pariisis, loobus kuningas Louis-Philippe I võimust. See tähistas Teise Vabariigi sündi.
 
 ![image](assets/image/06/IMG20.webp)
 
@@ -358,6 +359,7 @@ Piisab peaaegu suvalise filosoofia, poliitika või ajaloo raamatu avamisest, et 
 
 Esiteks, ütleb ta, pidasid roomlased omandit puhtalt konventsionaalseks faktiks, kirjutatud seaduse kunstlikuks loominguks. Miks? Lihtsalt, Bastiat selgitab, sest nad elasid orjusest ja röövimisest. Nende jaoks olid kõik omandid röövimise viljad. Seetõttu ei saanud nad seadusandlusse tuua ideed, et legitiimse omandi aluseks on töö, ilma et nad hävitaksid oma ühiskonna alused.
 Nad tõepoolest omistasid omandile empiirilise definitsiooni, "jus utendi et abutendi" (õigus kasutada ja kuritarvitada). Siiski puudutas see definitsioon ainult tagajärgi, mitte põhjuseid, teisisõnu, omandi eetilisi algpõhjuseid. Omandi õigesti kehtestamiseks peab minema tagasi inimese väga konstitutsiooni juurde ja mõistma vajaduste, võimete, töö ja omandi vahelist suhet ja vajalikku seost. Kas roomlased, kes olid orjaomanikud, võisid mõelda ideele, et "iga inimene omab iseennast ja seega oma tööd ning järelikult oma töö tulemust"? Bastiat imestab.
+
 > Seetõttu, Bastiat järeldab, ärgem olgem üllatunud, kui näeme Rooma ideed, et omand on konventsionaalne fakt ja õiguslik institutsioon, taasilmumas kaheksateistkümnendal sajandil; et, kaugel sellest, et Seadus oleks Omandi korollaar, on Omand hoopis Seaduse korollaar.
 
 Tõepoolest, Rousseau jagab seda ühist õiguslikku ideed, et omand põhineb seadusel. Rousseau omistab seadusele ja järelikult rahvale absoluutse võimu üksikisikute ja omandite üle.
@@ -377,6 +379,7 @@ On kurb mõelda, et meie sotsiaalne ja poliitiline filosoofia on jäänud kinni 
 Siiski, nagu Bastiat meile meenutab, monopol välistab edasimineku.
 
 ## Protektsionism ja Sotsialism
+
 <chapterId>ce6cb8a8-7dc9-5ef7-939d-9a559b4d2c74</chapterId>
 
 ![image](assets/image/07/IMG11.webp)
@@ -413,17 +416,16 @@ Veebruaris 1848 toimunud revolutsiooniga ja selle barrikaadidega ilmus esile oht
 Ja ta jätkaks selle pärastisi perversseid mõjusid analüüsida. Siin on üks näide, mida tsiteeriti kirjas Cobdenile:
 
 > Inimhinge loomulike kalduvuste tõttu hakkas igaüks nõudma riigilt endale suuremat heaolu osa. See tähendab, et riik või riigikassa pandi rüüstamisele. Kõik klassid nõudsid riigilt justkui õigusega eksistentsi vahendeid. Riigi selles suunas tehtud pingutused viisid ainult maksude ja takistuste ning vaesuse suurenemiseni.
+
 - 3° Bastiat lisab, et tema vaates oli protektsionism selle häire esimene ilming. Kapitalistid alustasid seaduse sekkumise palumisega, et suurendada oma rikkuse osa. Paratamatult soovisid töölised sama teha.
-![image](assets/image/07/IMG08.webp)
-Kokkuvõtteks, Bastiati sõnul jagavad protektsionistid ja sotsialistid ühist seisukohta: mida nad seaduselt otsivad, ei ole mitte kõigile vaba võimekuse rakendamise ja nende pingutuste õiglase tasu tagamine, vaid pigem ühe kodanikuklassi rohkem või vähem täielik ärakasutamine teise poolt. Protektsionismi korral on vähemus see, kes enamust ära kasutab. Sotsialismi puhul on enamik see, kes vähemust ära kasutab. Mõlemal juhul on õiglus rikutud ja üldine huvi on ohus. Bastiat seab need üksteise vastu.
+  ![image](assets/image/07/IMG08.webp)
+  Kokkuvõtteks, Bastiati sõnul jagavad protektsionistid ja sotsialistid ühist seisukohta: mida nad seaduselt otsivad, ei ole mitte kõigile vaba võimekuse rakendamise ja nende pingutuste õiglase tasu tagamine, vaid pigem ühe kodanikuklassi rohkem või vähem täielik ärakasutamine teise poolt. Protektsionismi korral on vähemus see, kes enamust ära kasutab. Sotsialismi puhul on enamik see, kes vähemust ära kasutab. Mõlemal juhul on õiglus rikutud ja üldine huvi on ohus. Bastiat seab need üksteise vastu.
 
 > Riik on suur väljamõeldis, mille kaudu kõik püüavad elada teiste arvelt.
-
 
 ## Proudhon
 
 <chapterId>96902abd-6915-5b25-a187-a4790162b86c</chapterId>
-
 
 Pierre-Joseph Proudhon on üks 19. sajandi keskpaiga Prantsuse sotsialismi peamisi esindajaid. Ta on eriti kuulus väitega: "Omand on vargus" teoses "Mis on omand?" aastal 1840.
 
@@ -462,6 +464,7 @@ Tõepoolest, Bastiati sõnul langeb inimkonna progress kokku kapitali kujunemise
 
 ![image](assets/image/08/IMG15.webp)
 Ilma kogunenud kapitali või materjalideta oleks Robinson hukule määratud. Ta selgitab siis, et kapital rikastab töölist kaht viisi:
+
 - See suurendab tootmist, vähendades seeläbi tarbekaupade hinda
 - Mis omakorda suurendab palku.
 
@@ -529,8 +532,8 @@ Bastiat koostas seejärel satiirilise teksti, mis hiljem sai üheks tema kuulsai
 Selles petitsioonis paluvad küünlatootjad deputaatidelt õiguslikku kaitset ohtliku rivaali vastu:
 
 > Me kannatame talumatu konkurentsi all välismaise rivaali poolt, kes, nagu näib, on valguse tootmiseks nii ülekaalukates tingimustes, et ta ujutab meie riikliku turu üle uskumatult madala hinnaga.
-Niisiis, kes on see ebaõiglane väliskonkurent? See on keegi muu kui päike. Tootjad rõhutavad seejärel võimalust reserveerida "rahvuslik turg rahvuslikule tööjõule", tellides seadusega sulgeda "kõik aknad, katuseaknad, varjud, luugid, rulood, kardinad, fassaadiaknad, ühesõnaga kõik avad, augud, praod ja lõhed, mille kaudu päikesevalgus on harjunud majadesse sisenema".
-Teisisõnu, küünlatootjad üritavad demonstreerida "väliskonkurendi" (päike) kahjulikke mõjusid Prantsusmaa majandusele. Sest mitte ainult ei suuda päike pakkuda sama "toodet" nagu küünlad, vaid teeb seda tasuta. Kakssada aastat hiljem on see lugu uskumatult asjakohane. Mõelge taksojuhtidele, kes paluvad seadusel keelata VTC-d ja Uberi. Mõelge raamatupoodidele, mis tahavad keelata Amazoni.
+> Niisiis, kes on see ebaõiglane väliskonkurent? See on keegi muu kui päike. Tootjad rõhutavad seejärel võimalust reserveerida "rahvuslik turg rahvuslikule tööjõule", tellides seadusega sulgeda "kõik aknad, katuseaknad, varjud, luugid, rulood, kardinad, fassaadiaknad, ühesõnaga kõik avad, augud, praod ja lõhed, mille kaudu päikesevalgus on harjunud majadesse sisenema".
+> Teisisõnu, küünlatootjad üritavad demonstreerida "väliskonkurendi" (päike) kahjulikke mõjusid Prantsusmaa majandusele. Sest mitte ainult ei suuda päike pakkuda sama "toodet" nagu küünlad, vaid teeb seda tasuta. Kakssada aastat hiljem on see lugu uskumatult asjakohane. Mõelge taksojuhtidele, kes paluvad seadusel keelata VTC-d ja Uberi. Mõelge raamatupoodidele, mis tahavad keelata Amazoni.
 
 ![image](assets/image/10/IMG22.webp)
 
@@ -620,10 +623,10 @@ Siiski on kaks täiendavat viisi kodanike otsustusvõime valgustamiseks, nagu Ba
 
 - Esiteks on olemas "filosoofiline või religioosne moraal", mis toimib inimtegevuse puhastamise ja parandamise kaudu (inimene kui tegutseja)
 - Seejärel on olemas "majanduslik moraal", mis toimib näidates inimesele "tema tegude vältimatuid tagajärgi" (inimene kui kannataja)
-Tegelikult on need kaks täiesti täiendavat moraaliraamistikku.
+  Tegelikult on need kaks täiesti täiendavat moraaliraamistikku.
 
 1. Esimene kõnetab südant ja julgustab inimesi head tegema; see on religioosne või filosoofiline moraal. See on kõige üllam. See juurdab inimese südamesse tema kohusetunde. See ütleb talle:
-Parandage ennast; puhastage ennast; lõpetage kurja tegemine; tehke head, taltsutage oma kirgi; ohverdage oma huvid; ärge rõhutage oma naabrit, kelle armastamine ja aitamine on teie kohus; olge esmalt õiglane ja seejärel heategev.
+   Parandage ennast; puhastage ennast; lõpetage kurja tegemine; tehke head, taltsutage oma kirgi; ohverdage oma huvid; ärge rõhutage oma naabrit, kelle armastamine ja aitamine on teie kohus; olge esmalt õiglane ja seejärel heategev.
 
 Lühidalt, see õpetab vooruslikkust, isetut tegu. See moraal, ütleb Bastiat, jääb igavesti kõige ilusamaks ja liigutavamaks, sest see näitab inimeses parimat.
 
@@ -644,6 +647,7 @@ Poliiitiline majandus on seega ilmselge praktilise kasutusega. See paljastab rö
 Taas kord oleks vähem Tartuffesid, kui oleks vähem Orgoneid, kes neid kuulavad. Siin on, mida Bastiat sellel teemal ütleb:
 
 ![image](assets/image/12/IMG07.webp)
+
 > Las religioosne moraal puudutab siis Tartuffeside südameid, kui see suudab. Poliitilise majanduse ülesanne on valgustada nende petetuid. Nendest kahest lähenemisest, kumb töötab kõige tõhusamalt sotsiaalse progressi jaoks? Kas seda tuleb öelda? Ma usun, et see on teine. Kardan, et inimkond ei saa pääseda vajadusest esmalt õppida kaitsev moraal.
 
 Muidugi pole poliitiline majandus universaalne teadus; see ei välista filosoofilisi ja religioosseid lähenemisi. "Aga kes on kunagi sellist ülemäärast nõuet selle nimel esitanud?" imestab Bastiat.
@@ -668,6 +672,7 @@ Vaba turu ime, nagu ta meile ütleb, on see, et see kasutab teadmisi, mida üksk
 
 Bastiat toob mõned näited, et illustreerida selle turu eeliseid. Oleme selle nähtusega nii harjunud, et me ei pööra sellele enam tähelepanu.
 Vaatleme küla puuseppa, ütleb ta, ja jälgime kõiki teenuseid, mida ta ühiskonnale pakub ja kõiki neid, mida ta saab:
+
 > Iga päev, ärgates, paneb ta riidesse, ja ta ei ole ise ühtegi oma riietest valmistanud. Ometi, et need riided talle kättesaadavaks teha, pidi kogu maailmas toimuma tohutu hulk tööd, tööstust, transporti ja geniaalseid leiutisi.
 >
 > Seejärel sööb ta hommikusööki. Selleks, et leib jõuaks iga hommik tema lauale, tuli maid puhastada, künda; rauda, terast, puitu, kivi tuli tööriistadeks muuta; kõik asjad, mis igaüks eraldi võetuna eeldavad mängu pandud arvutamatut töömassi, mitte ainult ruumis, vaid ka ajas.
@@ -688,8 +693,7 @@ Mis on hämmastav, Bastiat järeldab, on tohutu ebaproportsionaalsus, mis eksist
 > Ma olen pliiats, tavaline puidust pliiats, mis on tuttav kõigile poistele ja tüdrukutele ning täiskasvanutele, kes oskavad lugeda ja kirjutada. See on üks lihtsamaid objekte inimtsivilisatsioonis. Ja ometi ei tea ükski inimene maailmas, kuidas mind toota.
 
 ![image](assets/image/13/IMG03.webp)
-See taasavastab Bastiati idee nähtamatust koostööst miljonite inimeste vahel, kes ei tunne teineteist, viies sellise argise asja nagu pliiatsi loomiseni. Keegi ei tea, kuidas pliiatsit omaette teha. Ometi osalevad miljonid inimolendid teadmatult selle lihtsa pliiatsi loomises, vahetades ja koordineerides oma teadmisi ja oskusi hinnasüsteemi sees ilma ühegi kõrgema autoriteedita, kes dikteeriks nende käitumist. See lugu demonstreerib, et vabad inimesed, kes tegutsevad oma legitiimsete huvide nimel, toimivad ühiskonna hüvanguks rohkem kui ükski planeeritud ja tsentraliseeritud majandusstrateegia.
-1976. aasta majandusnobelist, Milton Friedman, külastas samuti seda pliiatsilugu, et selgitada laiemale avalikkusele, kuidas turumajandus toimib.
+See taasavastab Bastiati idee nähtamatust koostööst miljonite inimeste vahel, kes ei tunne teineteist, viies sellise argise asja nagu pliiatsi loomiseni. Keegi ei tea, kuidas pliiatsit omaette teha. Ometi osalevad miljonid inimolendid teadmatult selle lihtsa pliiatsi loomises, vahetades ja koordineerides oma teadmisi ja oskusi hinnasüsteemi sees ilma ühegi kõrgema autoriteedita, kes dikteeriks nende käitumist. See lugu demonstreerib, et vabad inimesed, kes tegutsevad oma legitiimsete huvide nimel, toimivad ühiskonna hüvanguks rohkem kui ükski planeeritud ja tsentraliseeritud majandusstrateegia. 1976. aasta majandusnobelist, Milton Friedman, külastas samuti seda pliiatsilugu, et selgitada laiemale avalikkusele, kuidas turumajandus toimib.
 
 Oma telesarja "Vaba valik" ("Free to Choose") ühes osas analüüsib ta nii tavalise ja lihtsa eseme nagu pliiats erinevaid komponente ning toob esile spontaanse korra ime, mille loovad tuhanded majanduslikud suhted üle kogu maailma. Inimesed, kes ei tunne teineteist, kes ei jaga sama usku ega kombeid, suudavad siiski koordineerida, et toota seda objekti. Ta jõuab järeldusele, et vaba turg on hädavajalik mitte ainult jõukuse, vaid ka harmoonia ja rahu tagamiseks.
 
@@ -708,8 +712,8 @@ Majandusplaneerimine, mis väidab, et suudab turust paremini, viib mitte ainult 
 Kirjas Alphonse de Lamartine'ile 1845. aastal kirjutas Bastiat, et tema kogu filosoofia sisaldub ühes põhimõttes:
 
 > Vabadus on parim sotsiaalse korralduse vorm.
-![image](assets/image/14/IMG1.webp)
-Siiski lisab ta tingimuse
+> ![image](assets/image/14/IMG1.webp)
+> Siiski lisab ta tingimuse
 
 > "Seadus ei tohiks kõrvaldada kõiki, nii positiivseid kui ka negatiivseid, igaühe tegevuse tagajärgi. See on vastutuse kõrvalpõhimõte.": "Seadus ei tohiks kõrvaldada kõiki, nii positiivseid kui ka negatiivseid, igaühe tegevuse tagajärgi. See on vastutuse kõrvalpõhimõte."
 
@@ -728,8 +732,8 @@ Kui inimene kulutab oma raha, on ta ettevaatlik, et mitte liiga palju võlgu võ
 Kuid kust tuleb vastutustundetuse või vastutusest vabastamise nähtus? Frédéric Bastiat annab meile sellele küsimusele vastuse, poliitilise vastuse. Ta ütleb, ma tsiteerin:
 
 > "Riigi sekkumine võtab meilt endi valitsemise."
-Tõepoolest, riigikesksus vähendab pidevalt eraalgatust ja inimeste vaba valikut. See teeb nende eest seda, mida nad võiksid ise ja paremini teha. Seeläbi võtab see inimestelt nende tegude tagajärgede eest vastutuse. See hävitab vastutustunde.
-![image](assets/image/14/IMG5.webp)
+> Tõepoolest, riigikesksus vähendab pidevalt eraalgatust ja inimeste vaba valikut. See teeb nende eest seda, mida nad võiksid ise ja paremini teha. Seeläbi võtab see inimestelt nende tegude tagajärgede eest vastutuse. See hävitab vastutustunde.
+> ![image](assets/image/14/IMG5.webp)
 
 Bastiat' sõnul toob seaduste hüpertroofia ja riigi liigne sekkumine kaasa võimuvõitluse, röövimise, privileegide, monopolide, sõdade ja lühidalt öeldes kõik, mis takistab tsivilisatsiooni edasiminekut.
 Liiga suur eelistamine seaduste või bürokraatliku kontrolli teele tähendab, et see heidutab kõiki motivatsioone, kehtestades piirangute tulva, jättes meid seeläbi ilma eraalgatuse ja vaba valiku võimaldatud mitmekülgsetest edusammudest.
@@ -763,6 +767,7 @@ Me näeme teises kursuses, Bastiat' sõnul, riigi ainult legitiimsed avalikud te
 Teisisõnu, kollektiivsed valikud ei ole vastutustundlikud valikud, kuna ühelt poolt ei kaasne otsustajatele riskivõtmist ja teiselt poolt sunnivad nad teisi teatud tagajärgi taluma, mis on sama katastroofiline kui see on ebaõiglane.
 
 ## Vastutuse Jõud
+
 Eelmisel kursusel nägime, miks vabadus ja vastutus on sotsiaalse probleemi võtmeks. Nüüd süveneme sellesse teemasse, näidates, kuidas Frédéric Bastiat vaatleb ühiskondi vaevavaid kurje ja nende lahendust.
 
 Liberale on mõnikord kritiseeritud kurja eiramise ja ideaalses maailmas puhta ja täiusliku vabaduse utoopia loomise eest. See kriitika on meie autori suhtes täiesti alusetu.
@@ -828,7 +833,7 @@ See on see, mida Bastiat nimetab "seadusliku vendluse sofismiks". Tsiteerigem te
 Ja veel:
 
 > Valitsused teostavad alati ainult jõuga sanktsioneeritud tegevust. Nüüd on lubatud kedagi sundida olema õiglane, kuid mitte sundida olema heategev. Seadus, kui see püüab jõuga teha seda, mida moraal saavutab veenmise kaudu, ei tõuse heategevuse valdkonda, vaid langeb röövimise domeeni.
-Kuid selle seaduse perverssusel on nimi, see on sotsialism, see tähendab riigi poolt jõuga rikkuse ümberjaotamise ideoloogia. Sotsialismi, Bastiati sõnul, iseloomustab seadusliku röövimise ideoloogia. Kuid selle ideoloogia kavalus on see, et see maskeerib oma vägivalla keele väärkasutuse alla: üleskutse solidaarsusele või vendlusele.
+> Kuid selle seaduse perverssusel on nimi, see on sotsialism, see tähendab riigi poolt jõuga rikkuse ümberjaotamise ideoloogia. Sotsialismi, Bastiati sõnul, iseloomustab seadusliku röövimise ideoloogia. Kuid selle ideoloogia kavalus on see, et see maskeerib oma vägivalla keele väärkasutuse alla: üleskutse solidaarsusele või vendlusele.
 
 ![image](assets/image/16/IMG4.webp)
 
@@ -873,8 +878,8 @@ Selles mõttes mõistetuna on omandiõigus nende õiguste hulgas, mis ei tulene 
 
 > Seadus on üksikisiku õiguse legitiimsele kaitsele kollektiivne korraldus.
 > Seadus
-Selle missioon on kaitsta inimest ja tema vara.
-![image](assets/image/17/IMG6.webp)
+> Selle missioon on kaitsta inimest ja tema vara.
+> ![image](assets/image/17/IMG6.webp)
 
 _(François Quesnay, füsiokraatide juht)_
 
@@ -1007,9 +1012,8 @@ Kirjutas Frédéric Bastiat lühikeses pamfletis pealkirjaga Riik.
 
 <partId>3b62de5c-5d4a-5182-ab14-f7ef13c97e28</partId>
 
-
-
 ## Hinda kursust
+
 <chapterId>db20170d-ceb6-56cd-b4e5-c690942f8b29</chapterId>
 <isCourseReview>true</isCourseReview>
 
@@ -1043,3 +1047,4 @@ Kuid nagu Bastiat tabavalt tõestas, on riigisekkumisel perverssed mõjud, mida 
 Kui vaadata asju sellest vaatenurgast, selgitas Reagan GE töötajatele, riikliku kulutamise nn imed paistavad täiesti erinevas valguses. Kuna maksud pärsivad tootmist ja avaliku sektori kulutuste loodud rikkus ei suuda täielikult kompenseerida neid, mis jäid sündimata maksude tõttu, mis koguti nende kulutuste katteks.
 
 Olemuselt võttis Reagan Bastiat'lt mitu liberaalse ühiskonna- ja inimvaate võtmelementi: tsiviilühiskonna primaarsus riigi ees, valiku ja individuaalse vastutuse väärtus, ettevõtja tähtsus rikkuse loomisel, paindliku ja minimaalse õigusraamistiku tähtsus, mis võimaldab usaldust ja lepingute austamist, fundamentaalne seadus, et rikkus tuleb luua enne, kui seda saab jaotada, soov anda kõigile võimalus konkurentsivõimelistel turgudel…
+

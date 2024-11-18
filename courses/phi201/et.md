@@ -1,7 +1,7 @@
 ---
-nimi: Vabaduse filosoofiline ajalugu
-eesmärk: Avastada vabaduse evolutsiooni läbi aegade, alates iidsetest filosoofidest kuni tänapäeva väljakutseteni.
-eesmärgid:
+name: Vabaduse filosoofiline ajalugu
+goal: Avastada vabaduse evolutsiooni läbi aegade, alates iidsetest filosoofidest kuni tänapäeva väljakutseteni.
+objectives:
   - Analüüsida poliitilisi filosoofiaid vabaduse ja võimu teemal.
   - Jälgida vabaduse ajaloolisi algusi antiikajast keskajani.
   - Uurida vabaduse tõusu ja langust 19. sajandist 20. sajandini.

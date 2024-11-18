@@ -1,7 +1,7 @@
 ---
-nimi: Teoreetiline sissejuhatus Lightning Network'i
-eesmärk: Avasta Lightning Network tehnilisest perspektiivist
-eesmärgid:
+name: Teoreetiline sissejuhatus Lightning Network'i
+goal: Avasta Lightning Network tehnilisest perspektiivist
+objectives:
   - Mõista võrgu kanalite toimimist.
   - Tutvuda terminitega HTLC, LNURL ja UTXO.
   - Omandada teadmised likviidsuse haldamisest ja LNN tasudest.

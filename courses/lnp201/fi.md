@@ -1,5 +1,5 @@
 ---
-nimi: Teoreettinen johdatus Lightning-verkkoon
+name: Teoreettinen johdatus Lightning-verkkoon
 goal: Tutustu Lightning-verkkoon teknisestä näkökulmasta
 objectives:
   - Ymmärrä verkon kanavien toiminta.

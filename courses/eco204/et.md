@@ -1,7 +1,7 @@
 ---
-nimi: Hüperinflatsiooni Uuringud
-eesmärk: Mõista hüperinflatsioonide teket Fiat-valuuta domineerivas maailmas ja nende tagajärgi
-eesmärgid:
+name: Hüperinflatsiooni Uuringud
+goal: Mõista hüperinflatsioonide teket Fiat-valuuta domineerivas maailmas ja nende tagajärgi
+objectives:
   - Uurida hüperinflatsiooni tsükleid
   - Mõista hüperinflatsioonide tegelikku mõju meie igapäevaelule
   - Uurida hüperinflatsioonide sarnasusi läbi aegade

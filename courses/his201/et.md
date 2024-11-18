@@ -1,7 +1,7 @@
 ---
-nimi: Bitcoini loomise ajalugu
-eesmärk: Avastada Bitcoini alguste, käivitamise ja varajase arengu ajalugu.
-eesmärgid:
+name: Bitcoini loomise ajalugu
+goal: Avastada Bitcoini alguste, käivitamise ja varajase arengu ajalugu.
+objectives:
   - Mõista tehnilist konteksti, milles Bitcoin tekkis
   - Mõista, kuidas Satoshi Nakamoto Bitcoini kujundas
   - Tunda sündmusi, mis tähistasid süsteemi käivitamist ja selle arengut
