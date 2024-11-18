@@ -3418,11 +3418,17 @@ Kuna see funktsioon on hiljutine, on soovitatav olla ettevaatlik ja vältida Sil
 
 # Järeldus
 
-## Anna meile tagasisidet selle kursuse kohta
+## Hinnake kursust
+<chapterId>195d149f-80fa-5816-8b46-995a9226d082</chapterId>
+<isCourseReview>true</isCourseReview>
 
 ## Lõpueksam
+<chapterId>e803d394-e3c1-5816-a6b4-a69a2472019c</chapterId>
+<isCourseExam>true</isCourseExam>
 
 ## Lõppsõna
+
+<chapterId>cd8e5c67-50e4-4dcd-8e04-88ba5ec95305</chapterId>
 
 Palju õnne Bitcoin'i privaatsuse koolituse lõpetamise puhul!
 Oleme käsitlenud palju keerukaid ja tehnilisi teemasid selles koolitusel, kuid pole hädavajalik kasutada kõiki tutvustatud tööriistu. Peamine eesmärk oli anda teile võimalus valida, millist informatsiooni soovite avalikustada ja millist eelistate konfidentsiaalsena hoida Bitcoin'i kasutamisel. See kehastab privaatsuse kaitse olemust. Informeeritud valikute tegemiseks selle kohta, millist informatsiooni jagada või varjata, on vajalik olla teadlik meie tegevuse tagajärgedest. Loodan, et see koolitus on aidanud teil seda teadmist omandada. Kui peaksin valima selle koolituse kõige olulisema osa, valiksin jaotise, mis on pühendatud ahela analüüsile. Oma potentsiaalsete ründajate kasutatavate tehnikate mõistmine on parim viis enda kaitsmiseks. Seetõttu oleks minu soovitus hoolikalt üle vaadata see osa ja püüda mõista kõiki selle detaile.

@@ -67,6 +67,7 @@ Kami juga akan membahas privasi pada tingkat jaringan node dan penyebaran transa
 ![BTC204](assets/notext/11/5.webp)
 
 # Definisi dan Konsep Kunci
+<partId>b9bbbde3-34c0-4851-83e8-e2ffb029cf31</partId>
 
 ## Model UTXO Bitcoin
 
@@ -3454,7 +3455,7 @@ Mengingat fitur ini baru, disarankan untuk berhati-hati dan menghindari mengguna
 <partId>2aee56c0-b285-4799-b4f7-373a552ee2b2</partId>
 
 
-## Berikan kami umpan balik tentang kursus ini
+## Evaluasi kursus ini 
 <chapterId>195d149f-80fa-5816-8b46-995a9226d082</chapterId>
 <isCourseReview>true</isCourseReview>
 
