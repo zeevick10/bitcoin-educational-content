@@ -1,5 +1,5 @@
 question: Missä numerojärjestelmässä laajennettu avain yleensä koodataan esitettäväksi käyttäjälle?
-answer: Base 58: ssa.
+answer: Base 58; ssa.
 wrong_answers:
   - bech32: ssa.
   - Base 16: ssa.

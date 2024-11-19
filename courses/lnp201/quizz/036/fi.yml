@@ -1,4 +1,4 @@
-question: Mikä ehto on täytettävä, jotta HTLC: n vastaanottaja saa varat?
+question: Mikä ehto on täytettävä, jotta HTLC; n vastaanottaja saa varat?
 answer: Heidän on annettava salaisuus (preimage) maksun avaamiseksi.
 wrong_answers:
   - Heidän on hyväksyttävä jokaisen välittävän solmun reititysmaksut.

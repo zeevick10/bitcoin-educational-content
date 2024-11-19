@@ -1,4 +1,4 @@
-question: Mikä on HTLC: ien päämäärä Lightning-verkossa?
+question: Mikä on HTLC; ien päämäärä Lightning-verkossa?
 answer: Mahdollistaa turvalliset maksusiirrot välityspalvelimien kautta ilman, että niiden luotettavuuteen tarvitsee luottaa
 wrong_answers:
   - Vähentää transaktiomaksuja jokaisesta maksusta välityspalvelimien kautta

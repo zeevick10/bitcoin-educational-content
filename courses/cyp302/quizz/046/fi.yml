@@ -1,4 +1,4 @@
-question: Mikä funktio käytetään laskemaan kokonaislukujen määrän, jotka ovat pienempiä kuin N ja ovat keskenään suhteettomia N: n kanssa?
+question: Mikä funktio käytetään laskemaan kokonaislukujen määrän, jotka ovat pienempiä kuin N ja ovat keskenään suhteettomia N; n kanssa?
 answer: Eulerin Phi-funktio
 wrong_answers:
   - Eulerin Gamma-funktio

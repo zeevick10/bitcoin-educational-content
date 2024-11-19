@@ -1,5 +1,5 @@
 question: Miten Legacy-osoitteen tarkistussumma lasketaan?
-answer: HASH256: n avulla.
+answer: HASH256; n avulla.
 wrong_answers:
   - HASH160: n avulla.
   - BCH-koodin avulla.

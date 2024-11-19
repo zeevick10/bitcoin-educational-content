@@ -1,4 +1,4 @@
-question: Jos kokonaisluku N on kahden alkuluvun p ja q tulo, kuinka N: n järjestys lasketaan?
+question: Jos kokonaisluku N on kahden alkuluvun p ja q tulo, kuinka N; n järjestys lasketaan?
 answer: (p - 1) * (q - 1)
 wrong_answers:
   - (p * q) - 1

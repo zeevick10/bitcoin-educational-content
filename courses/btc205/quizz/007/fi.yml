@@ -1,4 +1,4 @@
-question: Mikä on KYC: n soveltamiseen liittyvä riski?
+question: Mikä on KYC; n soveltamiseen liittyvä riski?
 answer: Henkilökohtaisia käyttäjätietoja sisältävien arkaluonteisten tietokantojen keskittäminen.
 wrong_answers:
   - Henkilökohtaisia käyttäjätietoja sisältävien arkaluonteisten tietokantojen hajauttaminen.

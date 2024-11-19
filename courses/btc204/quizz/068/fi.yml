@@ -1,6 +1,6 @@
-question: Miten voimme minimoida COIH: n vaikutukset yhdistäessämme UTXO: ja?
+question: Miten voimme minimoida COIH; n vaikutukset yhdistäessämme UTXO; ja?
 
-answer: Yhdistämällä vain samasta lähteestä peräisin olevia UTXO: ja.
+answer: Yhdistämällä vain samasta lähteestä peräisin olevia UTXO; ja.
 
 wrong_answers:
   - Lähettämällä UTXO: ja kolmansien osapuolien osoitteisiin.

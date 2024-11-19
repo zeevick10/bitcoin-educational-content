@@ -1,4 +1,4 @@
-question: Mikä tekniikka auttaa suojaamaan KYC: n aiheuttaman seurannan riskiltä?
+question: Mikä tekniikka auttaa suojaamaan KYC; n aiheuttaman seurannan riskiltä?
 answer: Coinjoin-transaktiot
 wrong_answers:
   - VPN: n käyttö

@@ -5,5 +5,5 @@ wrong_answers:
   - Se kääntää aakkosten kirjaimet ympäri
   - Se poistaa kirjaimet kirjaimen "Z" jälkeen
 explanation: |
-  Modulo 26 -operaatio mahdollistaa kirjainten palaamisen takaisin "Z": n jälkeen, jotta jokainen salattu kirjain pysyy aakkosten 26 kirjaimen sisällä.
+  Modulo 26 -operaatio mahdollistaa kirjainten palaamisen takaisin "Z"; n jälkeen, jotta jokainen salattu kirjain pysyy aakkosten 26 kirjaimen sisällä.
 reviewed: false

@@ -5,5 +5,5 @@ wrong_answers:
   - Diskreetti muuttuja on spesifinen fyysisille kokeille, jatkuva muuttuja on abstrakti välillään.
   - Diskreettejä muuttujia ei ole olemassa nykyaikaisessa kryptografiassa, käytössä ovat vain jatkuvat muuttujat.
 explanation: |
-  Diskreeteillä muuttujilla on rajallinen joukko tuloksia, kun taas jatkuvat muuttujat voivat saada minkä tahansa arvon tietyllä välillä, kuten reaaliluvut 0: n ja 1: n välillä.
+  Diskreeteillä muuttujilla on rajallinen joukko tuloksia, kun taas jatkuvat muuttujat voivat saada minkä tahansa arvon tietyllä välillä, kuten reaaliluvut 0: n ja 1; n välillä.
 reviewed: false

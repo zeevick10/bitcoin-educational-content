@@ -1,4 +1,4 @@
-question: Missä BIP: ssä ehdotetaan palautuslauseen tai muistilauseen (12/24 sanaa) ideaa?
+question: Missä BIP; ssä ehdotetaan palautuslauseen tai muistilauseen (12/24 sanaa) ideaa?
 answer: BIP39.
 wrong_answers:
   - BIP16.

@@ -1,4 +1,4 @@
-question: Mikä on kertakäyttöisten salasanojen (HOTP ja TOTP) etu SMS-viesteihin verrattuna 2FA: ssa?
+question: Mikä on kertakäyttöisten salasanojen (HOTP ja TOTP) etu SMS-viesteihin verrattuna 2FA; ssa?
 answer: Ne vaativat kryptografista laskentaa ja ne tallennetaan paikallisesti eikä muistiin.
 wrong_answers:
   - Ne vaativat kryptografista laskentaa ja ne tallennetaan muistiin eikä paikallisesti.

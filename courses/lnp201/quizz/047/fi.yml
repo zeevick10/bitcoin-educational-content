@@ -1,4 +1,4 @@
-question: Mikä on LNURL: n rooli Lightning-siirroissa?
+question: Mikä on LNURL; n rooli Lightning-siirroissa?
 answer: Yksinkertaistaa vuorovaikutusta solmujen ja Lightning-sovellusten välillä
 wrong_answers:
   - Helpottaa kanavien luomista jokaiselle maksulle

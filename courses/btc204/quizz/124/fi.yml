@@ -1,4 +1,4 @@
-question: Mikä vaihtoehto mahdollistaa P2P-siirron V2: n ottamisen käyttöön tai poistamisen käytöstä Bitcoin Core -konfiguraatiotiedostossa?
+question: Mikä vaihtoehto mahdollistaa P2P-siirron V2; n ottamisen käyttöön tai poistamisen käytöstä Bitcoin Core -konfiguraatiotiedostossa?
 
 answer: v2transport=
 

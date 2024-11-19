@@ -1,6 +1,6 @@
 question: Mitä tuleva anonset osoittaa?
 
-answer: Ryhmän koko erottamattomista UTXO: ista syklin tulosteessa.
+answer: Ryhmän koko erottamattomista UTXO; ista syklin tulosteessa.
 
 wrong_answers:
   - Ryhmän koko erottamattomista UTXO: ista syklin syötteessä.

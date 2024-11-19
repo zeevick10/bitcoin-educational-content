@@ -1,6 +1,6 @@
-question: Mikä on BIP47: n päätavoite?
+question: Mikä on BIP47; n päätavoite?
 
-answer: Saada uniikki tunniste, jolla voi vastaanottaa BTC: tä ilman osoitteiden uudelleenkäyttöä.
+answer: Saada uniikki tunniste, jolla voi vastaanottaa BTC; tä ilman osoitteiden uudelleenkäyttöä.
 
 wrong_answers:
   - Kasvattaa lohkojen kokoa nopeampien transaktioiden mahdollistamiseksi.

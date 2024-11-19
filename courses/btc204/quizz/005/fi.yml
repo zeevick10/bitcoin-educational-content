@@ -1,5 +1,5 @@
 question: Mikä on syöte transaktiossa?
-answer: Viittaus aiempaan käyttämättömään UTXO: oon.
+answer: Viittaus aiempaan käyttämättömään UTXO; oon.
 wrong_answers:
   - Vahvistussignaali louhijoilta.
   - Uusi lohko lisätty lohkoketjuun.

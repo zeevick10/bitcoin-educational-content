@@ -1,6 +1,6 @@
 question: Mikä on "post-mix" lompakon rooli Zerolink-protokollassa?
 
-answer: Säilyttää UTXO: t sekoittamisen jälkeen.
+answer: Säilyttää UTXO; t sekoittamisen jälkeen.
 
 wrong_answers:
   - Säilyttää UTXO: t ennen sekoittamista.

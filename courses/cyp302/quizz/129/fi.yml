@@ -1,4 +1,4 @@
-question: Mikä muu brittiläinen löytö GCHQ: n tutkijoiden toimesta edelsi Diffien ja Hellmanin löytöä, mutta pysyi salaisena?
+question: Mikä muu brittiläinen löytö GCHQ; n tutkijoiden toimesta edelsi Diffien ja Hellmanin löytöä, mutta pysyi salaisena?
 answer: Asymmetrisen kryptografian ja avainvaihdon konseptit
 wrong_answers:
   - Symmetrinen salausprotokolla kehitetty ilman avaimen tarvetta

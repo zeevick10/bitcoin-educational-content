@@ -1,4 +1,4 @@
-question: Mitä tietoa lasketaan siemenestä soveltamalla HMAC-SHA512: tä?
+question: Mitä tietoa lasketaan siemenestä soveltamalla HMAC-SHA512; tä?
 answer: Lompakon pääavain ja pääketjukoodi.
 wrong_answers:
   - Lompakon laajennettu avain.

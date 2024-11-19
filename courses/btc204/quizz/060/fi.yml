@@ -1,6 +1,6 @@
 question: Mitä tietoja tulisi merkitä etikettiin?
 
-answer: UTXO: n alkuperä.
+answer: UTXO; n alkuperä.
 
 wrong_answers:
   - UTXO: n luontipäivämäärä.

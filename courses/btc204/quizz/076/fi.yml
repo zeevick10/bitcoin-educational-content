@@ -1,6 +1,6 @@
 question: Mikä on coinjoin-siirto?
 
-answer: Yhteistyössä tehty siirto, jossa useat käyttäjät yhdistävät UTXO: nsa.
+answer: Yhteistyössä tehty siirto, jossa useat käyttäjät yhdistävät UTXO; nsa.
 
 wrong_answers:
   - Yhteistyössä tehty siirto vain kahden käyttäjän välillä.

@@ -5,5 +5,5 @@ wrong_answers:
   - Lohkon koko raja
   - Vakio siirtomuoto
 explanation: |
-  Nämä olivat ei-operaatio-ohjeita, jotka eivät mitätöineet skriptiä, jos ne suoritettiin. Ne mahdollistivat OP_CHECKLOCKTIMEVERIFY: n ja OP_CHECKSEQUENCEVERIFY: n lisäämisen protokollaan vuosina 2015/2016.
+  Nämä olivat ei-operaatio-ohjeita, jotka eivät mitätöineet skriptiä, jos ne suoritettiin. Ne mahdollistivat OP_CHECKLOCKTIMEVERIFY: n ja OP_CHECKSEQUENCEVERIFY; n lisäämisen protokollaan vuosina 2015/2016.
 reviewed: false

@@ -1,4 +1,4 @@
-question: Miksi UTXO: ja usein verrataan seteleihin?
+question: Miksi UTXO; ja usein verrataan seteleihin?
 answer: Ne on käytettävä kokonaisuudessaan
 wrong_answers:
   - Niitä voidaan käyttää useita kertoja, kunnes ne on käytetty loppuun

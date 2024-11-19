@@ -1,4 +1,4 @@
-question: Miksi biometriset tiedot katsotaan vähemmän turvallisiksi kuin tiedon ja hallussapidon yhdistelmä 2FA: ssa?
+question: Miksi biometriset tiedot katsotaan vähemmän turvallisiksi kuin tiedon ja hallussapidon yhdistelmä 2FA; ssa?
 answer: Biometriset tiedot tulisi säilyttää tunnistuslaitteessa eikä niitä tulisi paljastaa verkossa.
 wrong_answers:
   - Biometriset tiedot on helpompi poimia, vaikka ne säilytettäisiin offline-tilassa tunnistuslaitteessa.

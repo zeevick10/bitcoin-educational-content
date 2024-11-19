@@ -1,4 +1,4 @@
-question: Mitä tapahtuu, jos maksu HTLC: n kautta ei valmistu määräajassa?
+question: Mitä tapahtuu, jos maksu HTLC; n kautta ei valmistu määräajassa?
 answer: Maksu peruutetaan ja varat palautuvat lähettäjälle.
 wrong_answers:
   - Maksu jää viimeisen välittäjäsolmun haltuun

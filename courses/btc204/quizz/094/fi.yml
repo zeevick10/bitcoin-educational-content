@@ -1,6 +1,6 @@
 question: Mikä seuraavista vastauksista ei ole suositeltu käytäntö hallitakseen omaa doxxic-muutostaan?
 
-answer: Doxxic UTXO: iden yhdistäminen yhteen.
+answer: Doxxic UTXO; iden yhdistäminen yhteen.
 
 wrong_answers:
   - Doxxic UTXO: iden sekoittaminen pienemmässä altaassa.

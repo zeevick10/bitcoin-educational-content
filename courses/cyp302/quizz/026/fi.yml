@@ -1,4 +1,4 @@
-question: Mikä on XOR: n vastine modulo-operaatiolle?
+question: Mikä on XOR; n vastine modulo-operaatiolle?
 answer: XOR vastaa modulo 2 -operaatiota bitteihin
 wrong_answers:
   - XOR vastaa klassista vähennys modulo 3 -operaatiota

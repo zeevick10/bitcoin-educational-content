@@ -1,4 +1,4 @@
-question: Mikä on pääasiallinen ero CPU: n ja ASIC: n välillä Bitcoin-louhinnan kontekstissa?
+question: Mikä on pääasiallinen ero CPU; n ja ASIC; n välillä Bitcoin-louhinnan kontekstissa?
 answer: CPU voi suorittaa monenlaisia laskutoimituksia olematta erityisesti optimoitu mihinkään tiettyyn laskutoimitukseen, kun taas ASIC voi suorittaa vain yhdenlaisen laskutoimituksen, mutta hyvin tehokkaasti.
 wrong_answers:
   - CPU on energiatehokkaampi kuin ASIC

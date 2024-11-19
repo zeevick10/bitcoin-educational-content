@@ -1,6 +1,6 @@
 question: Mitä retrospektiivinen anonsetti ilmaisee?
 
-answer: Todennäköisten lähteiden määrän UTXO: lle syklien lopussa.
+answer: Todennäköisten lähteiden määrän UTXO; lle syklien lopussa.
 
 wrong_answers:
   - Ryhmän koon erottamattomista UTXO: ista syklien lopussa.

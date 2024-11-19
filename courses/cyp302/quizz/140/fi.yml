@@ -1,4 +1,4 @@
-question: Mikä on tekijöihin jakamisen ongelman luonne, joka on asymmetristen kryptosysteemien kuten RSA: n turvallisuuden perustana?
+question: Mikä on tekijöihin jakamisen ongelman luonne, joka on asymmetristen kryptosysteemien kuten RSA; n turvallisuuden perustana?
 answer: Luvun jakaminen kahteen hyvin suureen alkulukuun
 wrong_answers:
   - Luvun jakaminen peräkkäisiin kahden tekijöihin
