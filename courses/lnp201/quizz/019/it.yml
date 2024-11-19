@@ -6,4 +6,4 @@ wrong_answers:
   - Che le commissioni sono condivise tra i due partecipanti
 explanation: |
   Le transazioni di impegno firmate assicurano che ciascun partecipante possa recuperare i propri fondi pubblicando l'ultima versione in caso di chiusura del canale.
-recensito: false
+  recensito: false

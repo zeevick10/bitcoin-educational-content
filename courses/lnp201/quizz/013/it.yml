@@ -6,4 +6,4 @@ wrong_answers:
   - Bob riceve automaticamente i fondi nel canale
 explanation: |
   Senza la firma di Bob sulla transazione di prelievo, Alice non può garantire il recupero dei suoi fondi in caso di problemi, correndo il rischio di perdita.
-recensito: false
+  recensito: false

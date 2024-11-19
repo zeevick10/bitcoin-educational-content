@@ -8,6 +8,6 @@ wrong_answers:
   - Biến rời rạc không tồn tại trong mật mã học hiện đại, chỉ có biến liên tục được sử dụng.
 
 explanation:
-Biến rời rạc có một tập hợp hữu hạn các kết quả, trong khi biến liên tục có thể nhận bất kỳ giá trị nào trong một khoảng, như các số thực giữa 0 và 1.
+  Biến rời rạc có một tập hợp hữu hạn các kết quả, trong khi biến liên tục có thể nhận bất kỳ giá trị nào trong một khoảng, như các số thực giữa 0 và 1.
 
 reviewed: false

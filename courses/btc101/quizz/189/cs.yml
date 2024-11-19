@@ -6,9 +6,9 @@ wrong_answers:
   - Prostřednictvím využití algoritmu Důkazu vkladu.
 explanation: >-
   Problém byzantských generálů je klasický problém v
-distribuovaném výpočtu, který zahrnuje dosažení konsenzu
-v síti, kde některé uzly mohou být chybné nebo
-záludné. Bitcoin tento problém řeší prostřednictvím využití
-blockchainu založeného na Důkazu práce, což zajišťuje, že všechny
-uzly souhlasí se stavem historie transakcí.
+  distribuovaném výpočtu, který zahrnuje dosažení konsenzu
+  v síti, kde některé uzly mohou být chybné nebo
+  záludné. Bitcoin tento problém řeší prostřednictvím využití
+  blockchainu založeného na Důkazu práce, což zajišťuje, že všechny
+  uzly souhlasí se stavem historie transakcí.
 reviewed: true

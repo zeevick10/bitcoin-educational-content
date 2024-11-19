@@ -6,4 +6,4 @@ wrong_answers:
   - Non necessitano di aggiornamenti della chiave
 explanation: |
   I cifrari a flusso pseudocasuale sono più pratici perché consentono di estendere una chiave corta in un flusso chiave più lungo, evitando la necessità di memorizzare una chiave lunga quanto il messaggio stesso.
-recensito: false
+  recensito: false

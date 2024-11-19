@@ -6,4 +6,4 @@ wrong_answers:
   - Perché crittografa solo il messaggio senza un tag
 explanation: |
   Uno schema di crittografia autenticata è progettato per rilevare modifiche del ciphertext, il che rende il tag non valido in caso di tentativi di manomissione e garantisce resistenza agli attacchi di tipo chosen-ciphertext.
-recensito: false
+  recensito: false

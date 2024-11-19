@@ -6,4 +6,4 @@ wrong_answers:
   - Quando i fondi disponibili sono esauriti
 explanation: |
   Le transazioni di impegno sono costruite e firmate per ogni cambiamento nella allocazione, ma sono pubblicate sulla blockchain solo alla fine, in caso di chiusura del canale.
-recensito: false
+  recensito: false

@@ -6,9 +6,9 @@ wrong_answers:
   - Käyttämällä Proof of Stake -algoritmia.
 explanation: >-
   Bysantin kenraalien ongelma on klassinen ongelma
-hajautetussa laskennassa, joka käsittää konsensuksen saavuttamisen
-verkossa, jossa jotkut solmuista voivat olla viallisia tai
-ilkeämielisiä. Bitcoin ratkaisee tämän ongelman käyttämällä
-Proof of Work -pohjaista lohkoketjua, mikä varmistaa, että kaikki
-solmut ovat yhtä mieltä tapahtumahistorian tilasta.
+  hajautetussa laskennassa, joka käsittää konsensuksen saavuttamisen
+  verkossa, jossa jotkut solmuista voivat olla viallisia tai
+  ilkeämielisiä. Bitcoin ratkaisee tämän ongelman käyttämällä
+  Proof of Work -pohjaista lohkoketjua, mikä varmistaa, että kaikki
+  solmut ovat yhtä mieltä tapahtumahistorian tilasta.
 reviewed: true

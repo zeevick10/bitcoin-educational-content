@@ -6,4 +6,4 @@ wrong_answers:
   - La firma crittografica di ogni nodo sul percorso
 explanation: |
   Il nodo mittente deve conoscere la topologia della rete per calcolare il percorso verso il destinatario, permettendogli di scegliere il miglior percorso.
-recensito: false
+  recensito: false

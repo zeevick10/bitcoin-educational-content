@@ -6,4 +6,4 @@ wrong_answers:
   - L'apertura di un nuovo canale di pagamento
 explanation: |
   Una transazione di impegno rappresenta l'attuale distribuzione dei fondi nel canale dopo ogni transazione Lightning, ma non viene pubblicata sulla blockchain finché il canale rimane aperto.
-recensito: false
+  recensito: false

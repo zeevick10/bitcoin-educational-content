@@ -6,4 +6,4 @@ wrong_answers:
   - 3bdjsr
 explanation: |
   La conversione di numeri decimali in Bech32 è effettuata attraverso una specifica tabella di corrispondenza, e la sequenza 10 25 13 18 02 31 corrisponde a 2edjzl.
-recensito: false
+  recensito: false

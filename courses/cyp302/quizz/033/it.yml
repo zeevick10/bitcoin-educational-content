@@ -6,4 +6,4 @@ wrong_answers:
   - Aggiungere una distribuzione uniforme ai valori di una catena
 explanation: |
   Il seme è una stringa più corta utilizzata come punto di partenza da un algoritmo di espansione per generare una catena pseudocasuale più lunga.
-recensito: false
+  recensito: false

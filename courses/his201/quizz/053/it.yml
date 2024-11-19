@@ -6,4 +6,4 @@ wrong_answers:
   - Il formato standard della transazione
 explanation: |
   Questi erano istruzioni no-op che non invalidavano lo script se eseguite. Hanno permesso l'aggiunta di OP_CHECKLOCKTIMEVERIFY e OP_CHECKSEQUENCEVERIFY al protocollo nel 2015/2016.
-recensito: false
+  recensito: false

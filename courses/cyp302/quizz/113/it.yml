@@ -6,4 +6,4 @@ wrong_answers:
   - Serve solo come memoria temporanea per i dati fino alla fine del processo
 explanation: |
   L'array K è utilizzato per trasformare l'array S nel processo di pianificazione della chiave, il che permette la generazione di un flusso di chiavi pseudocasuale per cifrare il testo in chiaro.
-recensito: false
+  recensito: false

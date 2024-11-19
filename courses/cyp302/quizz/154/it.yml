@@ -6,4 +6,4 @@ wrong_answers:
   - Perché "d" è calcolato indipendentemente da φ(N)
 explanation: |
   Trovare "d" è difficile perché si basa sulla conoscenza di φ(N), che a sua volta dipende dai valori di p e q, i fattori primi di N.
-recensito: false
+  recensito: false

@@ -6,4 +6,4 @@ wrong_answers:
   - Dovrebbe contenere almeno 10 cifre.
 explanation: |
   Una passphrase efficace dovrebbe essere lunga (da 20 a 40 caratteri), diversificata e casuale per fornire la massima sicurezza, similmente a una buona password.
-recensito: false
+  recensito: false

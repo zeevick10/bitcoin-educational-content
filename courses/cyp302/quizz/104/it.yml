@@ -6,4 +6,4 @@ wrong_answers:
   - Decifrare automaticamente i messaggi intercettati
 explanation: |
   Uno schema di crittografia autenticata combina la crittografia e un codice di autenticazione (MAC) per garantire sia la riservatezza dei messaggi che la loro autenticità.
-recensito: false
+  recensito: false

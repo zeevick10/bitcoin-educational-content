@@ -6,4 +6,4 @@ wrong_answers:
   - Non c'è una lunghezza fissa per S in RC4 standard
 explanation: |
   In RC4 standard, l'array S contiene 256 byte, il che aumenta significativamente la complessità dei calcoli e migliora la sicurezza rispetto alla versione semplificata con solo 8 byte.
-recensito: false
+  recensito: false

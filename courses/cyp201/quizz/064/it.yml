@@ -6,4 +6,4 @@ wrong_answers:
   - Tra 2^31 e 2^32 - 1.
 explanation: |
   Le chiavi figlio normali utilizzano un intervallo di indici tra 0 e 2^31 - 1, mentre le chiavi rinforzate hanno un indice che inizia da 2^31.
-recensito: false
+  recensito: false

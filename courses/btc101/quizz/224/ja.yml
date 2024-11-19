@@ -6,4 +6,4 @@ wrong_answers:
   - 遅延した高コストのBitcoin取引。
 explanation: >-
   Lightning Networkは即時で低コストのBitcoin取引を可能にし、Bitcoinのスケーラビリティ問題を解決します。
-レビュー済み: true
+  レビュー済み: true

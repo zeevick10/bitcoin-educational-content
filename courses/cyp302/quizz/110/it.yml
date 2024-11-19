@@ -6,4 +6,4 @@ wrong_answers:
   - La necessità di utilizzare una chiave pubblica in aggiunta a una chiave privata
 explanation: |
   RC4 presenta significative debolezze nella generazione del flusso di chiavi, che espongono la crittografia ad attacchi, da qui il suo abbandono graduale nei moderni protocolli di sicurezza.
-recensito: false
+  recensito: false

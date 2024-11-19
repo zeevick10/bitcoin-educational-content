@@ -6,4 +6,4 @@ wrong_answers:
   - 3bdjsr
 explanation: |
   10進数の数列をBech32に変換するには、特定の対応表を通じて行われ、数列10 25 13 18 02 31は2edjzlに対応します。
-レビュー済み: false
+  レビュー済み: false

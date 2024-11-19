@@ -6,4 +6,4 @@ wrong_answers:
   - Per consentire agli utenti di accedere senza una password
 explanation: |
   Memorizzando gli hash delle password, anche in caso di violazione dei dati, le password effettive non possono essere lette direttamente, aumentando così la sicurezza.
-recensito: false
+  recensito: false

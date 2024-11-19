@@ -6,4 +6,4 @@ wrong_answers:
   - MD5, SHA-1, SHA-256
 explanation: |
   この章では、サイバーセキュリティで使用される暗号技術の側面として、SSL/TLSと対称/非対称暗号化が挙げられています。
-レビュー済み: true
+  レビュー済み: true

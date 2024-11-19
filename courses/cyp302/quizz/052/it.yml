@@ -6,4 +6,4 @@ wrong_answers:
   - Determinare l'identità moltiplicativa
 explanation: |
   I polinomi irriducibili sono utilizzati per strutturare la moltiplicazione nei campi finiti, assicurando che ogni elemento rimanga all'interno del campo.
-recensito: false
+  recensito: false

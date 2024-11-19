@@ -6,4 +6,4 @@ wrong_answers:
   - CMAC/Argon2
 explanation: |
   I portafogli HD Bitcoin utilizzano HMAC (Hash-based Message Authentication Code) per la derivazione delle chiavi e PBKDF2 (Password-Based Key Derivation Function 2) per la derivazione del seed.
-recensito: false
+  recensito: false

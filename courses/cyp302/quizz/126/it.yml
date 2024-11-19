@@ -6,4 +6,4 @@ wrong_answers:
   - Consente lo scambio di valuta elettronica.
 explanation: |
   Il protocollo Diffie-Hellman permette a due parti di condividere pubblicamente informazioni assicurando che solo loro possano generare una chiave comune per proteggere i loro futuri scambi.
-recensito: false
+  recensito: false

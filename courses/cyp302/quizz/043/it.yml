@@ -6,4 +6,4 @@ wrong_answers:
   - Gruppi di numeri razionali o elementi descritti da numeri razionali
 explanation: |
   La crittografia utilizza gruppi basati su interi, o elementi descritti da interi come i punti su una curva ellittica, per operazioni di cifratura e firma.
-recensito: false
+  recensito: false

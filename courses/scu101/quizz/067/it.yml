@@ -6,4 +6,4 @@ wrong_answers:
   - Non è compatibile con tutti i siti web.
 explanation: |
   Il Single Sign-On (SSO) offerto dai giganti di internet presenta problemi in termini di disponibilità e rischi di censura. Questo perché se il fornitore di SSO subisce un'interruzione o decide di bloccare un utente, l'utente potrebbe perdere l'accesso a tutti i servizi che utilizzano quel SSO per l'autenticazione.
-recensito: true
+  recensito: true

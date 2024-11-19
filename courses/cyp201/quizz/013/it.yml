@@ -6,4 +6,4 @@ wrong_answers:
   - Il numero che segue questo prefisso è espresso in base 8 (ottale).
 explanation: |
   Il prefisso "0x" indica che il numero che segue è espresso in base 16 (esadecimale).
-recensito: false
+  recensito: false

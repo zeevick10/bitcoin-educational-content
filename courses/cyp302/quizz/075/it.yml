@@ -6,4 +6,4 @@ wrong_answers:
   - Assicura l'uso di chiavi uniche
 explanation: |
   Il principio di Kerckhoff consente la verifica pubblica dei difetti di sicurezza, come nei sistemi open-source, il che rende i sistemi più affidabili attraverso la trasparenza. La sicurezza è garantita unicamente dalla chiave, non dal processo di crittografia in sé.
-recensito: false
+  recensito: false

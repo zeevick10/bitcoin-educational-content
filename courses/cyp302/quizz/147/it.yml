@@ -6,4 +6,4 @@ wrong_answers:
   - (p - 1) + (q - 1)
 explanation: |
   Per N uguale al prodotto di due numeri primi p e q, l'ordine di N si calcola come (p - 1) * (q - 1).
-recensito: false
+  recensito: false

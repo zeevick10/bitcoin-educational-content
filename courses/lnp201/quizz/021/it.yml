@@ -6,4 +6,4 @@ wrong_answers:
   - Blocca l'uso della chiave di revoca
 explanation: |
   Il timelock impone un ritardo durante il quale il truffatore non può recuperare i propri fondi, dando così all'altra parte l'opportunità di rispondere.
-recensito: false
+  recensito: false

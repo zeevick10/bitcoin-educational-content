@@ -6,4 +6,4 @@ wrong_answers:
   - Un intero che è maggiore dell'altro
 explanation: |
   Un intero è coprimo con un altro se il loro massimo comune divisore è 1, il che significa che non condividono nessun altro fattore comune.
-recensito: false
+  recensito: false

@@ -6,4 +6,4 @@ wrong_answers:
   - Perché i cifrari a flusso sono sempre più lenti
 explanation: |
   I cifrari a flusso sono progettati per cifrare i dati continuamente (bit per bit o byte per byte), il che complica il loro utilizzo in modalità a blocchi che richiede l'elaborazione in blocchi di dimensione fissa.
-recensito: false
+  recensito: false

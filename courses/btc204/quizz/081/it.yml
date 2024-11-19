@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Nei cosiddetti coinjoin "Chaumiani", l'uso di Tor e le firme cieche di David Chaum sono combinati per garantire che il coordinatore non possa sapere a quale utente appartiene ciascun output.
 
-recensito: false
+  recensito: false

@@ -6,4 +6,4 @@ wrong_answers:
   - Il codice di firma della chiave privata.
 explanation: |
   Dal seed, HMAC-SHA512 deriva la chiave principale e il codice catena principale, che sono la base per la generazione delle chiavi.
-recensito: false
+  recensito: false

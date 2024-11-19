@@ -6,4 +6,4 @@ wrong_answers:
   - Un'entropia scarsa rallenta le transazioni.
 explanation: |
   Se l'entropia utilizzata per generare le chiavi private è bassa, potrebbe permettere a un attaccante di indovinare o calcolare queste chiavi, compromettendo la sicurezza del portafoglio.
-recensito: false
+  recensito: false

@@ -6,4 +6,4 @@ wrong_answers:
   - "Seed"。
 explanation: |
   文字列"Bitcoin seed"は、シードからマスターキーとマスターチェーンコードを導出するために、HMAC-SHA512でキーとして使用されます。
-レビュー済み: false
+  レビュー済み: false

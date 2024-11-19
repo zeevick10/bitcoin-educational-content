@@ -6,4 +6,4 @@ wrong_answers:
   - I cifrari a flusso richiedono sempre del padding.
 explanation: |
   La confusione nasce dal fatto che alcuni considerano i cifrari a blocchi solo come algoritmi che utilizzano specifiche modalità di blocco, mentre in realtà possono includere schemi di crittografia come la modalità OFB.
-recensito: false
+  recensito: false

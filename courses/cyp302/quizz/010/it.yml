@@ -6,4 +6,4 @@ wrong_answers:
   - Sostituisce i cavi fisici con comunicazioni sicure.
 explanation: |
   In un ambiente di comunicazione aperto, dove i canali possono essere monitorati, la crittografia garantisce la sicurezza proteggendo i dati scambiati, anche in presenza di potenziali attacchi.
-recensito: false
+  recensito: false

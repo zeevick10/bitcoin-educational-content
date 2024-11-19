@@ -6,4 +6,4 @@ wrong_answers:
   - Comunicare direttamente con tutti i nodi intermediari
 explanation: |
   Il nodo mittente è responsabile del calcolo dell'intero percorso fino al destinatario, poiché i nodi intermedi conoscono solo il loro vicino immediato.
-recensito: false
+  recensito: false

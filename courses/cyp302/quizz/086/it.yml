@@ -6,4 +6,4 @@ wrong_answers:
   - Non funziona con messaggi superiori a 256 bit
 explanation: |
   Il metodo ECB ("Electronic Code Book") è deterministico: blocchi identici di dati vengono cifrati nello stesso modo, il che permette di rilevare schemi nel testo cifrato.
-recensito: false
+  recensito: false

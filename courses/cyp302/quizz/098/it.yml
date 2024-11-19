@@ -6,4 +6,4 @@ wrong_answers:
   - Bloccando automaticamente i messaggi sospetti
 explanation: |
   Un MAC consente al destinatario di verificare che un messaggio non sia stato modificato attraverso un tag generato con una chiave segreta condivisa, limitando le possibilità di manipolazione.
-recensito: false
+  recensito: false

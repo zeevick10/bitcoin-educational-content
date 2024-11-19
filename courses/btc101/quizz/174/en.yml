@@ -6,5 +6,5 @@ wrong_answers:
   - Electricity consumption and transaction fees.
 explanation: >-
   Mining Bitcoin requires substantial computational power, which in turn consumes electricity. 
-Besides, miners need to invest in specialized hardware to effectively mine it.
+  Besides, miners need to invest in specialized hardware to effectively mine it.
 reviewed: false

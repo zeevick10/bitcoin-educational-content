@@ -6,4 +6,4 @@ wrong_answers:
   - Ai primi 64 bit delle parti decimali delle radici quadrate dei primi 8 numeri primi.
 explanation: |
   I vettori di inizializzazione di SHA256 si basano sui primi 64 bit delle parti decimali delle radici cubiche dei primi 8 numeri primi.
-recensito: false
+  recensito: false

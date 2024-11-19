@@ -6,4 +6,4 @@ wrong_answers:
   - Confrontando direttamente la password con quella degli altri utenti
 explanation: |
   Il servizio genera un hash della password inserita e lo confronta con quello memorizzato, senza mai memorizzare direttamente la password, garantendo così una maggiore sicurezza.
-recensito: false
+  recensito: false

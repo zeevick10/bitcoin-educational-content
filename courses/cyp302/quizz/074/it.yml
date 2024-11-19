@@ -6,4 +6,4 @@ wrong_answers:
   - La parola diventa "ZHA"
 explanation: |
   Utilizzando una chiave di 7, ogni lettera della parola "CAT" viene spostata di 7 posizioni nell'alfabeto, il che produce la parola cifrata "JHA".
-recensito: false
+  recensito: false

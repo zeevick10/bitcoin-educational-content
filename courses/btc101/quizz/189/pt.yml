@@ -6,9 +6,9 @@ wrong_answers:
   - Por meio do uso de um algoritmo de Prova de Participação.
 explanation: >-
   O Problema dos Generais Bizantinos é um problema clássico em
-computação distribuída, que envolve alcançar consenso
-em uma rede onde alguns dos nós podem ser defeituosos ou
-maliciosos. O Bitcoin resolve este problema por meio do uso de uma
-blockchain baseada em Prova de Trabalho, o que garante que todos
-os nós concordem com o estado do histórico de transações.
+  computação distribuída, que envolve alcançar consenso
+  em uma rede onde alguns dos nós podem ser defeituosos ou
+  maliciosos. O Bitcoin resolve este problema por meio do uso de uma
+  blockchain baseada em Prova de Trabalho, o que garante que todos
+  os nós concordem com o estado do histórico de transações.
 reviewed: true

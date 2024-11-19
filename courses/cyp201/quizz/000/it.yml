@@ -6,4 +6,4 @@ wrong_answers:
   - Garantire la riservatezza dei dati.
 explanation: |
   L'hashing trasforma dati di qualsiasi dimensione in un output di dimensione fissa, utile per verificare l'integrità senza necessariamente crittografare o autenticare i dati.
-recensito: false
+  recensito: false

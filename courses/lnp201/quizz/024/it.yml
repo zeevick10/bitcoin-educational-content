@@ -6,4 +6,4 @@ wrong_answers:
   - Costringono all'apertura di un nuovo canale se la transazione è errata
 explanation: |
   Il timelock e la chiave di revoca scoraggiano i partecipanti dal barare assicurando che qualsiasi tentativo di barare risulti in una perdita immediata di fondi per la parte colpevole.
-recensito: false
+  recensito: false

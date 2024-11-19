@@ -6,4 +6,4 @@ wrong_answers:
   - Un numero da 1 a 26
 explanation: |
   Nella cifratura a scorrimento, la chiave è un numero compreso tra 0 e 25, che corrisponde al numero di posizioni di scorrimento applicate a ogni lettera del messaggio in un alfabeto di 26 lettere.
-recensito: false
+  recensito: false

@@ -6,4 +6,4 @@ wrong_answers:
   - La fattura viene pagata tramite una transazione on-chain su Bitcoin.
 explanation: |
   Quando Bob invia una fattura ad Alice, lei crea e firma una nuova transazione di impegno per aggiustare la distribuzione dei fondi, trasferendo così 30.000 satoshi nel canale.
-recensito: false
+  recensito: false

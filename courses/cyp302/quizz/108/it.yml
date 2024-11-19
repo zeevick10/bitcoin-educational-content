@@ -6,4 +6,4 @@ wrong_answers:
   - Non consente l'autenticazione del mittente al momento della sessione.
 explanation: |
   Un sistema di crittografia autenticata non protegge da attacchi come il replay, il riordinamento e la riflessione senza l'aggiunta di indicatori come identificatori e numeri di sequenza.
-recensito: false
+  recensito: false

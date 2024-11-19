@@ -6,4 +6,4 @@ wrong_answers:
   - Aggiungere una chiave extra in ogni messaggio
 explanation: |
   Aggiungere un identificatore unico per ogni partecipante nel messaggio criptato impedisce gli attacchi di riflessione, poiché permette di distinguere l'origine dei messaggi.
-recensito: false
+  recensito: false

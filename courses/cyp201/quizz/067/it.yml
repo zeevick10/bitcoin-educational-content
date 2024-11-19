@@ -6,4 +6,4 @@ wrong_answers:
   - Un indirizzo Legacy esterno sulla rete principale.
 explanation: |
   Il percorso di derivazione m/84'/0'/1'/0/7 indica un indirizzo SegwitV0 esterno sulla rete principale (mainnet). 84' = SegWit v0, 0' = mainnet, 1 = esterno
-recensito: false
+  recensito: false

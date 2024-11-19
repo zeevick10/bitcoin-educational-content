@@ -6,4 +6,4 @@ wrong_answers:
   - Consentire ad Alice di criptare il messaggio per verificarne l'integrità
 explanation: |
   Nella crittografia asimmetrica, la chiave pubblica di Alice consente a Bob di inviare un messaggio criptato che solo lei può decriptare, garantendo così la confidenzialità del messaggio.
-recensito: false
+  recensito: false

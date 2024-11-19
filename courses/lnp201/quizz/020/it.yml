@@ -6,4 +6,4 @@ wrong_answers:
   - Bloccare la transazione con un timelock inappropriato
 explanation: |
   Il principale rischio è che una parte possa tentare di barare pubblicando una vecchia transazione di impegno, il che potrebbe permetterle di recuperare fondi che non ha più.
-recensito: false
+  recensito: false

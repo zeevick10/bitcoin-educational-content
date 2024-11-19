@@ -6,4 +6,4 @@ wrong_answers:
   - Restituisce sempre 0 indipendentemente dal risultato
 explanation: |
   L'operazione XOR (o "or esclusivo") produce 1 se i due bit sono diversi (0 e 1 o 1 e 0) e 0 se sono uguali.
-recensito: false
+  recensito: false

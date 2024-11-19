@@ -6,4 +6,4 @@ wrong_answers:
   - Perché dipende dalla moltiplicazione e non dalla divisione.
 explanation: |
   Fattorizzare un numero enorme, il prodotto di due grandi numeri primi, richiede potenze di calcolo che superano la capacità degli attuali computer, rendendo questo compito praticamente irrealizzabile.
-recensito: false
+  recensito: false

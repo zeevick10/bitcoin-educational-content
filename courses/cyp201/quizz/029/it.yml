@@ -6,4 +6,4 @@ wrong_answers:
   - La validità di una transazione Bitcoin.
 explanation: |
   Una firma digitale dimostra che l'utente possiede la chiave privata senza doverla rivelare, garantendo l'autenticità della transazione.
-recensito: false
+  recensito: false

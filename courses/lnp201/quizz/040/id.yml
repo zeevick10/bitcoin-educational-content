@@ -6,4 +6,4 @@ wrong_answers:
   - Berkomunikasi langsung dengan semua node perantara
 explanation: |
   Node pengirim bertanggung jawab untuk menghitung seluruh rute ke penerima, karena node perantara hanya mengetahui tetangga mereka yang langsung.
-direview: false
+  direview: false

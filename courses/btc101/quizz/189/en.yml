@@ -6,9 +6,9 @@ wrong_answers:
   - Through the use of a Proof of Stake algorithm.
 explanation: >-
   The Byzantine Generals' Problem is a classic problem in
-distributed computing, which involves achieving consensus
-in a network where some of the nodes may be faulty or
-malicious. Bitcoin solves this problem through the use of a
-blockchain based on Proof of Work, which ensures that all
-nodes agree on the state of the transaction history.
+  distributed computing, which involves achieving consensus
+  in a network where some of the nodes may be faulty or
+  malicious. Bitcoin solves this problem through the use of a
+  blockchain based on Proof of Work, which ensures that all
+  nodes agree on the state of the transaction history.
 reviewed: true

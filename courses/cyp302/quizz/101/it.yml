@@ -6,4 +6,4 @@ wrong_answers:
   - Un codice di autenticazione del messaggio basato su Diffie-Hellman
 explanation: |
   Un HMAC è un codice di autenticazione del messaggio che utilizza una funzione hash, come SHA-256, per creare un tag che verifica l'integrità e l'autenticità di un messaggio.
-recensito: false
+  recensito: false

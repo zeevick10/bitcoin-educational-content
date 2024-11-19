@@ -6,4 +6,4 @@ wrong_answers:
   - La dimostrazione matematica della sicurezza
 explanation: |
   La dimostrazione di sicurezza nella crittografia moderna si concentra su obiettivi e ipotesi matematiche, escludendo aspetti come l'interfaccia utente, che non è rilevante per la sicurezza crittografica.
-recensito: false
+  recensito: false

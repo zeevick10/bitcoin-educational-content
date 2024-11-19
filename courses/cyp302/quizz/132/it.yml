@@ -6,4 +6,4 @@ wrong_answers:
   - Codici di Autenticazione dei Messaggi (MAC)
 explanation: |
   Le firme digitali in Bitcoin dimostrano il possesso dei fondi firmando le transazioni con una chiave privata al fine di sbloccare lo script che protegge un UTXO.
-recensito: false
+  recensito: false

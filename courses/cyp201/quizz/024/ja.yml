@@ -6,4 +6,4 @@ wrong_answers:
   - Gx = A12345F9... Gy = 3B76EBC1...
 explanation: |
   生成点Gは、楕円曲線secp256k1上の事前に定義された点で、Bitcoinにおいて秘密鍵から公開鍵を生成するために使用されます。
-レビュー済み: false
+  レビュー済み: false

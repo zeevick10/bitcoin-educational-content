@@ -6,4 +6,4 @@ wrong_answers:
   - Colpire molto forte il computer per costringerlo a rivelare la chiave segreta
 explanation: |
   Un attacco brute force comporta il test sistematico di tutte le chiavi possibili per decifrare un messaggio criptato.
-recensito: false
+  recensito: false

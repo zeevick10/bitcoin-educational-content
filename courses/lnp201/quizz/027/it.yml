@@ -6,4 +6,4 @@ wrong_answers:
   - Impedisce l'uso della chiave di revoca
 explanation: |
   La chiusura forzata è meno desiderabile perché include un blocco temporale, che rallenta il processo, e le commissioni possono essere inappropriate poiché sono state stabilite al momento della creazione del canale.
-recensito: false
+  recensito: false

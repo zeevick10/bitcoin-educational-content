@@ -6,4 +6,4 @@ wrong_answers:
   - Una stringa casuale scelta solo dai valori binari 0 e 1
 explanation: |
   Una stringa pseudocasuale è prodotta da un algoritmo di espansione a partire da un seme più piccolo, in modo che imiti una selezione uniforme tra tutte le stringhe della stessa lunghezza.
-recensito: false
+  recensito: false

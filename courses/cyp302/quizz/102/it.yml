@@ -6,4 +6,4 @@ wrong_answers:
   - Creare un tag, poi usare una chiave pubblica per crittografarlo
 explanation: |
   Per garantire la sicurezza, la crittografia autenticata deve prima crittografare il messaggio, poi generare un tag sul testo crittografato. Altri ordini sono potenzialmente vulnerabili.
-recensito: false
+  recensito: false

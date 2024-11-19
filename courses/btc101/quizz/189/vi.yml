@@ -6,9 +6,9 @@ wrong_answers:
   - Thông qua việc sử dụng thuật toán Bằng chứng Cổ phần (Proof of Stake).
 explanation: >-
   Vấn đề Tướng Byzantine là một vấn đề cổ điển trong
-tính toán phân tán, liên quan đến việc đạt được sự đồng thuận
-trong một mạng lưới nơi một số nút có thể bị lỗi hoặc
-có ý đồ xấu. Bitcoin giải quyết vấn đề này thông qua việc sử dụng một
-blockchain dựa trên Bằng chứng Công việc, đảm bảo rằng tất cả
-các nút đều đồng ý với trạng thái của lịch sử giao dịch.
+  tính toán phân tán, liên quan đến việc đạt được sự đồng thuận
+  trong một mạng lưới nơi một số nút có thể bị lỗi hoặc
+  có ý đồ xấu. Bitcoin giải quyết vấn đề này thông qua việc sử dụng một
+  blockchain dựa trên Bằng chứng Công việc, đảm bảo rằng tất cả
+  các nút đều đồng ý với trạng thái của lịch sử giao dịch.
 reviewed: true

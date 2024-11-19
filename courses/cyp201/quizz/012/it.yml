@@ -6,4 +6,4 @@ wrong_answers:
   - 21000.
 explanation: |
   Bitcoin utilizza 2048 iterazioni nella funzione PBKDF2 per aumentare la sicurezza del seed.
-recensito: false
+  recensito: false

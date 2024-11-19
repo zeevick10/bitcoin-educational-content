@@ -6,4 +6,4 @@ wrong_answers:
   - Verificando l'indirizzo IP del mittente
 explanation: |
   Alice utilizza la chiave segreta condivisa per generare un tag dal messaggio ricevuto. Se questo tag corrisponde a quello inviato da Bob, lei sa che il messaggio è autentico e integro.
-recensito: false
+  recensito: false

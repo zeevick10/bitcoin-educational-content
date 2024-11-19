@@ -6,4 +6,4 @@ wrong_answers:
   - chiave privata genitore || indice.
 explanation: |
   Per derivare una chiave figlio normale, si utilizza la chiave pubblica del genitore con l'indice e il codice catena nella funzione HMAC-SHA512.
-recensito: false
+  recensito: false

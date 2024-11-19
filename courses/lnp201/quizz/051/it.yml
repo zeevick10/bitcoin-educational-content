@@ -6,4 +6,4 @@ wrong_answers:
   - Un collegamento diretto con ogni altro nodo della rete
 explanation: |
   La tecnica di apertura a triangolo permette a ciascun nodo di ottenere una liquidità bilanciata, sia in entrata che in uscita, formando un anello di canali tra vari partecipanti.
-recensito: false
+  recensito: false

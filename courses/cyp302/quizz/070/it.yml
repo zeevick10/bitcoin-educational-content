@@ -6,4 +6,4 @@ wrong_answers:
   - Una cifratura asimmetrica
 explanation: |
   La cifratura a scorrimento è un esempio di cifratura sostitutiva monoalfabetica, dove ogni lettera nel messaggio viene spostata di un numero fisso di posizioni nell'alfabeto.
-recensito: false
+  recensito: false
