@@ -1,4 +1,4 @@
-question: Co je "kapacita" platebního kanálu?
+question: Co je kapacita platebního kanálu?
 answer: Celková částka finančních prostředků, které mohou dva účastníci vyměnit
 wrong_answers:
   - Časový limit, po který může kanál zůstat otevřený

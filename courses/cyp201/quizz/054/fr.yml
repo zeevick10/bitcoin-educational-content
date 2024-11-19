@@ -5,5 +5,5 @@ wrong_answers:
   - La passphrase.
   - “Seed”.
 explanation: |
-  La chaîne de caractères "Bitcoin seed" est utilisée comme clé dans HMAC-SHA512 pour dériver la clé maîtresse et le code de chaîne maître à partir de la graine.
+  La chaîne de caractères Bitcoin seed est utilisée comme clé dans HMAC-SHA512 pour dériver la clé maîtresse et le code de chaîne maître à partir de la graine.
 reviewed: false

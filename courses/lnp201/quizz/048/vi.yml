@@ -1,4 +1,4 @@
-question: Công nghệ "Keysend" làm thế nào để cho phép chuyển tiền mà không cần hóa đơn?
+question: Công nghệ Keysend làm thế nào để cho phép chuyển tiền mà không cần hóa đơn?
 answer: Người gửi tạo ra một bí mật trong các HTLCs để mở khóa quỹ
 wrong_answers:
   - Người nhận tạo ra một hash để xác nhận việc chuyển tiền

@@ -5,5 +5,5 @@ wrong_answers:
   - Sedang
   - Rendah
 explanation: >
-  Berkat kriptografi yang digunakan untuk membuat dompet tersebut, kemungkinan seseorang secara tidak sengaja menebak daftar 12 atau 24 kata Anda sangat rendah sekali. Ini seperti mencari "angka" yang tepat antara 1 dan $2^256$, yang hampir setara dengan menemukan atom tertentu di Alam Semesta.
+  Berkat kriptografi yang digunakan untuk membuat dompet tersebut, kemungkinan seseorang secara tidak sengaja menebak daftar 12 atau 24 kata Anda sangat rendah sekali. Ini seperti mencari angka yang tepat antara 1 dan $2^256$, yang hampir setara dengan menemukan atom tertentu di Alam Semesta.
 reviewed: true

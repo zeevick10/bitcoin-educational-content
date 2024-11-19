@@ -1,9 +1,9 @@
-question: Co znamená apostrof nebo písmeno "H" uvedené vpravo od čísla v notaci cesty derivace? Příklad m/84'/0'.
+question: Co znamená apostrof nebo písmeno H uvedené vpravo od čísla v notaci cesty derivace? Příklad m/84'/0'.
 answer: Značí to zpevněnou derivaci.
 wrong_answers:
   - Značí to normální derivaci.
   - Je to tam pro dekoraci.
   - Značí to změnový klíč.
 explanation: |
-  Apostrof nebo "H" v cestě derivace značí zpevněnou derivaci, která využívá rodičovský soukromý klíč a odpovídající rozsah indexů.
+  Apostrof nebo H v cestě derivace značí zpevněnou derivaci, která využívá rodičovský soukromý klíč a odpovídající rozsah indexů.
 reviewed: false

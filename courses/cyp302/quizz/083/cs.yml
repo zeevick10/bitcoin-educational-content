@@ -1,4 +1,4 @@
-question: Proč jsou "pseudonáhodné proudové šifry" v praxi běžněji používány než jednorázové šifrovací klíče?
+question: Proč jsou pseudonáhodné proudové šifry v praxi běžněji používány než jednorázové šifrovací klíče?
 answer: Umožňují použití kratšího klíče při generování delšího klíčového proudu
 wrong_answers:
   - Nevyžadují tajný klíč

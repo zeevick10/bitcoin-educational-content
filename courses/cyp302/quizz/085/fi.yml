@@ -1,4 +1,4 @@
-question: Mikä on "lohkosalaus" kryptografiassa?
+question: Mikä on lohkosalaus kryptografiassa?
 answer: Algoritmi, joka muuntaa kiinteän pituuden merkkijonon toiseksi samanpituiseksi merkkijonoksi
 wrong_answers:
   - Epäsymmetrinen salaus, joka perustuu julkisiin ja yksityisiin salaisiin avaimiin

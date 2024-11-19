@@ -1,4 +1,4 @@
-question: Mida tähendab Lightning arve inimloetavas osas eesliide "lnbc"?
+question: Mida tähendab Lightning arve inimloetavas osas eesliide lnbc?
 answer: See näitab Lightning tehingut Bitcoin'i plokiahelas
 wrong_answers:
   - Et arve kehtib ainult Bitcoin'i testvõrgus

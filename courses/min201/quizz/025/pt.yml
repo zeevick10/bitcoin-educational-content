@@ -7,5 +7,5 @@ wrong_answers:
 explanation: |
   A camada base da rede Bitcoin, na qual a Lightning
   Network depende para abrir e fechar canais de pagamento,
-  é frequentemente referida como a "camada de liquidação".
+  é frequentemente referida como a camada de liquidação.
 reviewed: true

@@ -1,4 +1,4 @@
-question: Miten "Keysend"-teknologia mahdollistaa varojen siirron ilman laskua?
+question: Miten Keysend-teknologia mahdollistaa varojen siirron ilman laskua?
 answer: Lähettäjä luo salaisuuden HTLC; issä varojen vapauttamiseksi
 wrong_answers:
   - Vastaanottaja luo tiivisteen siirron vahvistamiseksi

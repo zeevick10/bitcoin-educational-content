@@ -5,5 +5,5 @@ wrong_answers:
   - En spesiell type Bitcoin-lommebok.
   - En krypteringsalgoritme for Bitcoin.
 explanation: |
-  En UTXO er et ubrukt transaksjonsutdata, så det er i bunn og grunn et "stykke bitcoin".
+  En UTXO er et ubrukt transaksjonsutdata, så det er i bunn og grunn et stykke bitcoin.
 reviewed: false

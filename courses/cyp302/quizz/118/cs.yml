@@ -1,4 +1,4 @@
-question: Jakou roli hraje operace substituce bytů ("S-Box") v šifrování AES?
+question: Jakou roli hraje operace substituce bytů (S-Box) v šifrování AES?
 answer: Zavádí zmatek substitucí každého bytu jiným
 wrong_answers:
   - Zajišťuje integritu kontrolou bytů zprávy

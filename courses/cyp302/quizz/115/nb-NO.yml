@@ -1,4 +1,4 @@
-question: Hva betyr begrepet "diffusjon" i sammenheng med AES-kryptering?
+question: Hva betyr begrepet diffusjon i sammenheng med AES-kryptering?
 answer: En endring i klarteksten resulterer i en betydelig endring i kryptert tekst
 wrong_answers:
   - Kryptert tekst er alltid samme lengde

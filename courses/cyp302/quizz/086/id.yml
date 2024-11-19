@@ -5,4 +5,4 @@ wrong_answers:
   - Ini tidak berfungsi dengan pesan lebih dari 128 bit
   - Ini tidak berfungsi dengan pesan lebih dari 256 bit
 explanation: |
-  Metode ECB ("Electronic Code Book") bersifat deterministik: blok data yang identik dienkripsi dengan cara yang sama, yang memungkinkan pola dapat terdeteksi dalam teks terenkripsi.
+  Metode ECB (Electronic Code Book) bersifat deterministik: blok data yang identik dienkripsi dengan cara yang sama, yang memungkinkan pola dapat terdeteksi dalam teks terenkripsi.

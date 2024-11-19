@@ -7,5 +7,5 @@ wrong_answers:
 explanation: |
   The reward for mining is programmed to halve every 210,000
   blocks, which is approximately every four years: an event
-  known as "halving".
+  known as halving.
 reviewed: true

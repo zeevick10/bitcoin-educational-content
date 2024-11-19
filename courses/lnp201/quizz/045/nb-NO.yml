@@ -1,4 +1,4 @@
-question: Hva lar "LNURL-withdraw"-funksjonen brukere gjøre?
+question: Hva lar LNURL-withdraw-funksjonen brukere gjøre?
 answer: Ta ut midler fra en tjeneste ved å skanne en QR-kode
 wrong_answers:
   - Gjøre en direkte betaling uten rutegebyrer

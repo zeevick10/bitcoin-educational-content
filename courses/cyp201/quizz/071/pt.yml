@@ -1,4 +1,4 @@
-question: Verdadeiro ou Falso? "Pode-se determinar uma chave pública apenas conhecendo seu endereço SegWitv0."
+question: Verdadeiro ou Falso? Pode-se determinar uma chave pública apenas conhecendo seu endereço SegWitv0.
 answer: Falso.
 wrong_answers:
   - Verdadeiro.

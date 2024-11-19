@@ -1,4 +1,4 @@
-question: Comment la technologie "Keysend" permet-elle de réaliser un transfert de fonds sans invoice ?
+question: Comment la technologie Keysend permet-elle de réaliser un transfert de fonds sans invoice ?
 answer: L'émetteur génère un secret dans les HTLC pour débloquer les fonds
 wrong_answers:
   - Le destinataire génère un hash pour valider le transfert

@@ -1,4 +1,4 @@
-question: Pravda nebo lež? "Lze určit veřejný klíč pouze znalostí jeho SegWitv0 adresy."
+question: Pravda nebo lež? Lze určit veřejný klíč pouze znalostí jeho SegWitv0 adresy.
 answer: Lež.
 wrong_answers:
   - Pravda.

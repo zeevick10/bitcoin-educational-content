@@ -7,5 +7,5 @@ wrong_answers:
 explanation: |
   Bitcoin-verkon peruskerros, johon Lightning
   Network tukeutuu avatessaan ja sulkiessaan maksukanavia,
-  on usein kutsuttu "maksujen selvityskerrokseksi".
+  on usein kutsuttu maksujen selvityskerrokseksi.
 reviewed: true

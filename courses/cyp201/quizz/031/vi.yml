@@ -8,4 +8,4 @@ wrong_answers:
   - Các cặp khóa đều ngẫu nhiên và không có liên kết phân cấp.
 
 explanation:
-  Trong ví HD, tất cả các khóa đều được phái sinh từ một thông tin duy nhất gọi là "seed," cho phép quản lý các khóa một cách có hệ thống và phân cấp.
+  Trong ví HD, tất cả các khóa đều được phái sinh từ một thông tin duy nhất gọi là seed, cho phép quản lý các khóa một cách có hệ thống và phân cấp.

@@ -1,4 +1,4 @@
-question: Que signifie le terme "champ premier" ou "corps premier" ?
+question: Que signifie le terme champ premier ou corps premier ?
 answer: Un champ avec un nombre premier d'éléments
 wrong_answers:
   - Un champ contenant des nombres premiers uniquement

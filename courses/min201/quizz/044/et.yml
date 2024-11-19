@@ -1,4 +1,4 @@
-question: Mis on "neitsi bitcoineid"?
+question: Mis on neitsi bitcoineid?
 answer: Värskelt kaevandatud bitcoineid, mida ei ole kunagi kulutatud ja millel puudub ajalugu.
 wrong_answers:
   - Bitcoinid, mida on kasutatud ebaseaduslikes tegevustes.

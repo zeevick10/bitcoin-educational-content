@@ -1,4 +1,4 @@
-question: Apa peran dari operasi substitusi byte ("S-Box") dalam enkripsi AES?
+question: Apa peran dari operasi substitusi byte (S-Box) dalam enkripsi AES?
 answer: Ini memperkenalkan kebingungan dengan menggantikan setiap byte dengan yang lain
 wrong_answers:
   - Ini memastikan integritas dengan memeriksa byte pesan

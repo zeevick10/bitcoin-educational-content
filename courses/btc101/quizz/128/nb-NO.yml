@@ -7,4 +7,4 @@ wrong_answers:
 explanation: >-
   Gruvearbeidere i Bitcoin-nettverket har rollen med å validere transaksjoner
   ved å inkludere dem i en blokk. De gjør dette ved å løse et kryptografisk puslespill i
-  en prosess kalt "proof of work".
+  en prosess kalt proof of work.

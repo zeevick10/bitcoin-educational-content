@@ -5,5 +5,5 @@ wrong_answers:
   - C'est ici pour faire joli.
   - Cela indique une clé de change.
 explanation: |
-  L'apostrophe ou le "H" dans un chemin de dérivation indique une dérivation renforcée, qui utilise la clé privée parent et la fourchette d'index correspondante.
+  L'apostrophe ou le H dans un chemin de dérivation indique une dérivation renforcée, qui utilise la clé privée parent et la fourchette d'index correspondante.
 reviewed: false

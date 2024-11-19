@@ -1,4 +1,4 @@
-question: Cosa significa il termine "diffusione" nel contesto della crittografia AES?
+question: Cosa significa il termine diffusione nel contesto della crittografia AES?
 answer: Un cambiamento nel testo in chiaro comporta un cambiamento significativo nel testo cifrato
 wrong_answers:
   - Il testo cifrato ha sempre la stessa lunghezza

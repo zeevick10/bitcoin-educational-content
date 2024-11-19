@@ -6,5 +6,5 @@ wrong_answers:
   - Polttamisen todistamisen prosessin kautta.
 explanation: >-
   Louhijat vahvistavat siirtoja ja sisällyttävät ne lohkoon prosessin avulla,
-  jota kutsutaan "työn todistamiseksi". Tämä sisältää kryptografisen pulman ratkaisemisen.
+  jota kutsutaan työn todistamiseksi. Tämä sisältää kryptografisen pulman ratkaisemisen.
 reviewed: true

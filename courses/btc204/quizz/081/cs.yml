@@ -8,6 +8,6 @@ wrong_answers:
   - P2TR adresy.
 
 explanation: |
-  V takzvaných "Chaumian" coinjoinech je kombinováno použití Tor a Davidovy Chaumovy slepé podpisy, aby se zajistilo, že koordinátor nemůže vědět, který výstup patří kterému uživateli.
+  V takzvaných Chaumian coinjoinech je kombinováno použití Tor a Davidovy Chaumovy slepé podpisy, aby se zajistilo, že koordinátor nemůže vědět, který výstup patří kterému uživateli.
 
 reviewed: false

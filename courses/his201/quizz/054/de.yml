@@ -1,4 +1,4 @@
-question: Welcher amerikanische Entwickler entdeckte einen "seltsamen Block" während des Wertüberlaufvorfalls am 15. August 2010?
+question: Welcher amerikanische Entwickler entdeckte einen seltsamen Block während des Wertüberlaufvorfalls am 15. August 2010?
 answer: Jeff Garzik
 wrong_answers:
   - Gavin Andresen

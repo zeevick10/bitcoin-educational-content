@@ -7,6 +7,6 @@ wrong_answers:
   - Durch den Prozess des Proof of Burn.
 explanation: >-
   Miner validieren Transaktionen und fügen sie einem Block durch einen Prozess hinzu,
-  der "Proof of Work" genannt wird. Dies beinhaltet das Lösen eines kryptografischen Rätsels.
+  der Proof of Work genannt wird. Dies beinhaltet das Lösen eines kryptografischen Rätsels.
 reviewed: true
 ```

@@ -1,4 +1,4 @@
-question: Come funziona la fase "stem" nel protocollo Dandelion?
+question: Come funziona la fase stem nel protocollo Dandelion?
 
 answer: La transazione viene inviata attraverso un percorso casuale di nodi.
 
@@ -8,6 +8,6 @@ wrong_answers:
   - La transazione viene criptata incrementalmente ad ogni passo della trasmissione.
 
 explanation: |
-  Dandelion utilizza prima una fase "stem" dove la transazione viene inviata attraverso un percorso casuale di nodi. La transazione viene poi trasmessa all'intera rete nella fase "fluff".
+  Dandelion utilizza prima una fase stem dove la transazione viene inviata attraverso un percorso casuale di nodi. La transazione viene poi trasmessa all'intera rete nella fase fluff.
 
   recensito: false

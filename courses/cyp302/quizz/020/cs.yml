@@ -1,4 +1,4 @@
-question: Co v matematice znamená operace "modulo"?
+question: Co v matematice znamená operace modulo?
 answer: Zbytek po dělení
 wrong_answers:
   - Podíl dělení

@@ -5,4 +5,4 @@ wrong_answers:
   - Setiap pasangan kunci dalam dompet ditentukan secara deterministik dari pasangan kunci sebelumnya.
   - Pasangan kunci semuanya acak dan tanpa keterkaitan hierarkis.
 explanation: |
-  Dalam dompet HD, semua kunci berasal dari sebuah informasi unik yang disebut "seed," yang memungkinkan pengelolaan kunci secara hierarkis dan deterministik.
+  Dalam dompet HD, semua kunci berasal dari sebuah informasi unik yang disebut seed, yang memungkinkan pengelolaan kunci secara hierarkis dan deterministik.

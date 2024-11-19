@@ -6,6 +6,6 @@ wrong_answers:
   - Eine Liste von 64 Wörtern.
 explanation: |
   In einem Bitcoin-Wallet wird der private Schlüssel oft
-  durch eine Liste von 12 oder 24 Wörtern dargestellt, die auch als "Seed-Phrase"
-  oder "mnemonische Phrase" bekannt ist.
+  durch eine Liste von 12 oder 24 Wörtern dargestellt, die auch als Seed-Phrase
+  oder mnemonische Phrase bekannt ist.
 reviewed: true

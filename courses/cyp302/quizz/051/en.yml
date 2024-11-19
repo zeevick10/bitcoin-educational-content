@@ -1,4 +1,4 @@
-question: What does the term "champ premier" or "corps premier" mean?
+question: What does the term champ premier or corps premier mean?
 answer: A field with a prime number of elements
 wrong_answers:
   - A field containing only prime numbers

@@ -1,4 +1,4 @@
-question: Mikä on maksukanavan "kapasiteetti"?
+question: Mikä on maksukanavan kapasiteetti?
 answer: Kaksi osallistujaa voivat vaihtaa keskenään olevien varojen kokonaismäärä
 wrong_answers:
   - Kanavan avoinna pysymisen aikaraja

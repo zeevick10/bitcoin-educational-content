@@ -8,6 +8,6 @@ explanation: |
   Graças à criptografia usada para criar a carteira, a
   probabilidade de alguém adivinhar acidentalmente sua lista de
   12 ou 24 palavras é astronomicamente baixa. É como encontrar
-  o "número certo" entre 1 e $2^256$, o que é quase
+  o número certo entre 1 e $2^256$, o que é quase
   equivalente a encontrar um átomo definido no Universo.
 reviewed: true

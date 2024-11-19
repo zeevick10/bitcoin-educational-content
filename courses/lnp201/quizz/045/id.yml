@@ -1,4 +1,4 @@
-question: Apa yang memungkinkan pengguna melakukan dengan fitur "LNURL-withdraw"?
+question: Apa yang memungkinkan pengguna melakukan dengan fitur LNURL-withdraw?
 answer: Menarik dana dari sebuah layanan dengan memindai kode QR
 wrong_answers:
   - Melakukan pembayaran langsung tanpa biaya perutean

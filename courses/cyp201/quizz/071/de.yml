@@ -1,4 +1,4 @@
-question: Wahr oder Falsch? "Man kann einen öffentlichen Schlüssel bestimmen, indem man nur seine SegWitv0-Adresse kennt."
+question: Wahr oder Falsch? Man kann einen öffentlichen Schlüssel bestimmen, indem man nur seine SegWitv0-Adresse kennt.
 answer: Falsch.
 wrong_answers:
   - Wahr.

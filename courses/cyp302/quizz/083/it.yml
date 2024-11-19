@@ -1,4 +1,4 @@
-question: Perché i "cifrari a flusso pseudocasuale" sono più comunemente utilizzati nella pratica rispetto ai blocchetti usa e getta?
+question: Perché i cifrari a flusso pseudocasuale sono più comunemente utilizzati nella pratica rispetto ai blocchetti usa e getta?
 answer: Consentono l'uso di una chiave più corta generando un flusso chiave più lungo
 wrong_answers:
   - Non richiedono una chiave segreta

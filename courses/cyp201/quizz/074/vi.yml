@@ -1,8 +1,8 @@
 question: Tiền tố hoặc HRP nào tương ứng với địa chỉ chuẩn SegWit?
-answer: "bc"
+answer: bc
 wrong_answers:
-  - "1"
-  - "0x"
-  - "btc"
+  - 1
+  - 0x
+  - btc
 explanation: |
-  Tiền tố "bc" được sử dụng cho các địa chỉ SegWit trên mạng chính của Bitcoin.
+  Tiền tố bc được sử dụng cho các địa chỉ SegWit trên mạng chính của Bitcoin.

@@ -1,4 +1,4 @@
-question: Vero o Falso? "Si può determinare una chiave pubblica conoscendo solo il suo indirizzo SegWitv0."
+question: Vero o Falso? Si può determinare una chiave pubblica conoscendo solo il suo indirizzo SegWitv0.
 answer: Falso.
 wrong_answers:
   - Vero.

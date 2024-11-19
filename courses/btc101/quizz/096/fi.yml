@@ -6,6 +6,6 @@ wrong_answers:
   - 64 sanan listasta.
 explanation: |
   Bitcoin-lompakossa yksityinen avain esitetään usein
-  12 tai 24 sanan listana, jota kutsutaan myös "siemenlauseeksi"
-  tai "mnemoniseksi lauseeksi".
+  12 tai 24 sanan listana, jota kutsutaan myös siemenlauseeksi
+  tai mnemoniseksi lauseeksi.
 reviewed: true

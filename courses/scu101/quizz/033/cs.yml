@@ -1,4 +1,4 @@
-question: Jaké je potenciální nebezpečí vytváření zálohy v "cloudu" pomocí služeb jako ProtonMail Drive, Sync nebo Google Drive?
+question: Jaké je potenciální nebezpečí vytváření zálohy v cloudu pomocí služeb jako ProtonMail Drive, Sync nebo Google Drive?
 answer: Vaše data jsou potenciálně na internetu a drží je důvěryhodná třetí strana.
 wrong_answers:
   - Tyto služby nejsou potenciálně spolehlivé pro zálohování dat.

@@ -5,4 +5,4 @@ wrong_answers:
   - Iga võtmepaar rahakotis määratakse deterministlikult eelmisest võtmepaarist.
   - Kõik võtmepaarid on juhuslikud ja ilma hierarhilise seoseta.
 explanation: |
-  HD rahakottides tuletatakse kõik võtmed unikaalsest informatsioonist, mida nimetatakse "seemneks", mis võimaldab võtmete hierarhilist ja deterministlikku haldamist.
+  HD rahakottides tuletatakse kõik võtmed unikaalsest informatsioonist, mida nimetatakse seemneks, mis võimaldab võtmete hierarhilist ja deterministlikku haldamist.

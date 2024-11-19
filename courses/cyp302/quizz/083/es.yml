@@ -1,4 +1,4 @@
-question: ¿Por qué los "cifrados de flujo pseudorandom" se utilizan más comúnmente en la práctica que las libretas de una sola vez?
+question: ¿Por qué los cifrados de flujo pseudorandom se utilizan más comúnmente en la práctica que las libretas de una sola vez?
 answer: Permiten el uso de una clave más corta mientras generan un flujo de clave más largo
 wrong_answers:
   - No requieren una clave secreta

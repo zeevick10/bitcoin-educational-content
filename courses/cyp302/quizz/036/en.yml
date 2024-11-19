@@ -1,4 +1,4 @@
-question: What does it mean for two numbers to be "coprime"?
+question: What does it mean for two numbers to be coprime?
 answer: Their greatest common divisor is equal to 1
 wrong_answers:
   - Their sum is an even number

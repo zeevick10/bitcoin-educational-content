@@ -1,4 +1,4 @@
-question: Was ist die "Kapazität" eines Zahlungskanals?
+question: Was ist die Kapazität eines Zahlungskanals?
 answer: Der Gesamtbetrag der Mittel, den die beiden Teilnehmer austauschen können
 wrong_answers:
   - Die Zeitgrenze, für die der Kanal offen bleiben kann

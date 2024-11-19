@@ -1,4 +1,4 @@
-question: Kuidas võimaldab "Keysend" tehnoloogia rahaülekannet ilma arveni?
+question: Kuidas võimaldab Keysend tehnoloogia rahaülekannet ilma arveni?
 answer: Saatja genereerib HTLC-des salajase koodi, et vabastada vahendid
 wrong_answers:
   - Saaja genereerib räsi, et valideerida ülekanne

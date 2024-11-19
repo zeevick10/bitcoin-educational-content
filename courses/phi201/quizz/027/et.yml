@@ -1,9 +1,9 @@
-question: Mis vahe on "phusis" ja "nomos" vahel?
+question: Mis vahe on phusis ja nomos vahel?
 answer: Phusis on loodusseadus, nomos on inimseadus.
 wrong_answers:
   - Phusis on jumalate seadus, nomos on inimeste seadus.
   - Phusis on nõrkade seadus, nomos on tugevate seadus.
   - Phusis on muinasaja seadus, nomos on kaasaegse aja seadus.
 explanation: |
-  Kreeka filosoofias viitab "phusis" loodusseadustele või neile, mis on olemuslikult looduses, sõltumata inimtegevusest, samal ajal kui "nomos" viitab inimseadustele, mida ühiskonnad on loonud elu kogukonnas reguleerima.
+  Kreeka filosoofias viitab phusis loodusseadustele või neile, mis on olemuslikult looduses, sõltumata inimtegevusest, samal ajal kui nomos viitab inimseadustele, mida ühiskonnad on loonud elu kogukonnas reguleerima.
 reviewed: false

@@ -5,5 +5,5 @@ wrong_answers:
   - Turvakiht
   - Konsensuskiht
 explanation: |
-  Bitcoin võrgu baaskiht, millele Lightning Network toetub maksekanalite avamisel ja sulgemisel, on sageli nimetatud "arvelduskihiks".
+  Bitcoin võrgu baaskiht, millele Lightning Network toetub maksekanalite avamisel ja sulgemisel, on sageli nimetatud arvelduskihiks.
 reviewed: true

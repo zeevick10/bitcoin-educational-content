@@ -5,5 +5,5 @@ wrong_answers:
   - Julkinen avain, joka luo Bitcoin-osoitteita
   - Bitcoin-määrä jaettuna useisiin osiin
 explanation: |
-  UTXO, eli "Unspent Transaction Output" (käyttämätön transaktiojäännös), on käyttämätön transaktiojäännös, joka edustaa tiettyä määrää bitcoineja, joita haltija voi käyttää.
+  UTXO, eli Unspent Transaction Output (käyttämätön transaktiojäännös), on käyttämätön transaktiojäännös, joka edustaa tiettyä määrää bitcoineja, joita haltija voi käyttää.
 reviewed: false

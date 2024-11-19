@@ -5,4 +5,4 @@ wrong_answers:
   - Jokainen avainpari lompakossa määritetään deterministisesti edellisestä avainparista.
   - Avainparit ovat kaikki satunnaisia eikä niillä ole hierarkkista yhteyttä.
 explanation: |
-  HD-lompakoissa kaikki avaimet johdetaan ainutlaatuisesta tiedosta, jota kutsutaan "siemeneksi", mikä mahdollistaa avainten hierarkkisen ja deterministisen hallinnan.
+  HD-lompakoissa kaikki avaimet johdetaan ainutlaatuisesta tiedosta, jota kutsutaan siemeneksi, mikä mahdollistaa avainten hierarkkisen ja deterministisen hallinnan.

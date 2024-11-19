@@ -1,4 +1,4 @@
-question: ¿Cuál es el concepto de "transmisión de dinero" en el contexto de la Red Lightning?
+question: ¿Cuál es el concepto de transmisión de dinero en el contexto de la Red Lightning?
 answer: Realizar micropagos continuos y en tiempo real.
 wrong_answers:
   - Convertir Bitcoin en efectivo en una ubicación física usando un cajero automático.

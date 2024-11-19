@@ -6,7 +6,7 @@ wrong_answers:
   - Ohjelmistotyökalu, joka seuraa osakekursseja reaaliajassa ilman sijoitusominaisuuksia.
 explanation: |
   DCA-alusta viittaa alustaan, joka helpottaa
-  "Dollar-Cost Averaging" (DCA) -sijoitusstrategian toteuttamista, missä
+  Dollar-Cost Averaging (DCA) -sijoitusstrategian toteuttamista, missä
   yksilö sijoittaa kiinteän summan rahaa tiettyyn omaisuuserään
   säännöllisin väliajoin, riippumatta omaisuuserän hinnasta.
 reviewed: true

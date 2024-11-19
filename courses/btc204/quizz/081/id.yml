@@ -8,4 +8,4 @@ wrong_answers:
   - Alamat P2TR.
 
 explanation: |
-  Dalam coinjoin "Chaumian", penggunaan Tor dan tanda tangan buta David Chaum digabungkan untuk memastikan bahwa koordinator tidak dapat mengetahui output mana yang milik pengguna mana.
+  Dalam coinjoin Chaumian, penggunaan Tor dan tanda tangan buta David Chaum digabungkan untuk memastikan bahwa koordinator tidak dapat mengetahui output mana yang milik pengguna mana.

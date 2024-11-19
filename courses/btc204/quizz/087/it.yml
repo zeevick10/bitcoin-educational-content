@@ -3,7 +3,7 @@ question: Come gestisce il cambio Wabisabi rispetto a Wasabi 1.0?
 answer: Lo suddivide in diversi piccoli importi distribuiti in denominazioni uguali.
 
 wrong_answers:
-  - Lo consolida per prevenirne la trasformazione in "polvere".
+  - Lo consolida per prevenirne la trasformazione in polvere.
   - Lo esclude prima della transazione coinjoin equalizzando gli input.
   - Lo trasferisce automaticamente a un portafoglio di riserva.
 

@@ -1,4 +1,4 @@
-question: Miks öeldakse, et pseudosuvaline jada on "eristamatu" tõeliselt suvalisest jadast?
+question: Miks öeldakse, et pseudosuvaline jada on eristamatu tõeliselt suvalisest jadast?
 answer: Kuna selle päritolu on peaaegu võimatu kindlaks teha ilma lisainformatsioonita
 wrong_answers:
   - Kuna see sisaldab deterministlikke segmente, mis on identne tõeliselt suvalise jadaga

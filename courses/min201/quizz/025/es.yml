@@ -7,5 +7,5 @@ wrong_answers:
 explanation: |
   La capa base de la red Bitcoin, en la cual se apoya la Red
   Lightning para abrir y cerrar canales de pago, se denomina
-  frecuentemente como la "capa de liquidación".
+  frecuentemente como la capa de liquidación.
 reviewed: true

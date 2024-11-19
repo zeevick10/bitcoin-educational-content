@@ -1,4 +1,4 @@
-question: How does the "Keysend" technology enable a fund transfer without an invoice?
+question: How does the Keysend technology enable a fund transfer without an invoice?
 answer: The sender generates a secret in the HTLCs to unlock the funds
 wrong_answers:
   - The recipient generates a hash to validate the transfer

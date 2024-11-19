@@ -5,5 +5,5 @@ wrong_answers:
   - It does not work with messages over 128 bits
   - It does not work with messages over 256 bits
 explanation: |
-  The ECB method ("Electronic Code Book") is deterministic: identical blocks of data are encrypted in the same way, which allows patterns to be detected in the encrypted text.
+  The ECB method (Electronic Code Book) is deterministic: identical blocks of data are encrypted in the same way, which allows patterns to be detected in the encrypted text.
 reviewed: false

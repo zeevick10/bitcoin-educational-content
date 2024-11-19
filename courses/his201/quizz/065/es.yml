@@ -5,5 +5,5 @@ wrong_answers:
   - Nils Schneider (tcatm)
   - Pieter Wuille (sipa)
 explanation: |
-  Este "Explorador de Bloques de Bitcoin" permitía a los usuarios ver información detallada sobre bloques, direcciones y transacciones a través de un navegador web.
+  Este Explorador de Bloques de Bitcoin permitía a los usuarios ver información detallada sobre bloques, direcciones y transacciones a través de un navegador web.
 reviewed: false

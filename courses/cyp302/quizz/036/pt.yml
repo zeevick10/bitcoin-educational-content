@@ -1,4 +1,4 @@
-question: O que significa dois números serem "coprimos"?
+question: O que significa dois números serem coprimos?
 answer: O maior divisor comum entre eles é igual a 1
 wrong_answers:
   - A soma deles é um número par

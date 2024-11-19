@@ -1,4 +1,4 @@
-question: Qual è il ruolo del portafoglio "post-mix" nel protocollo Zerolink?
+question: Qual è il ruolo del portafoglio post-mix nel protocollo Zerolink?
 
 answer: Per conservare gli UTXO dopo il mixing.
 
@@ -8,6 +8,6 @@ wrong_answers:
   - Per conservare gli UTXO di consolidamento.
 
 explanation: |
-  Il portafoglio "post-mix" è riservato alle monete che sono state mescolate.
+  Il portafoglio post-mix è riservato alle monete che sono state mescolate.
 
 reviewed: false

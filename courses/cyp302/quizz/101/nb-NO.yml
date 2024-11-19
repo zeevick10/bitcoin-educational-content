@@ -1,4 +1,4 @@
-question: Hva er en "HMAC"?
+question: Hva er en HMAC?
 answer: En meldingsautentiseringskode basert på en hash-funksjon
 wrong_answers:
   - En asymmetrisk krypteringsalgoritme basert på en hash-funksjon

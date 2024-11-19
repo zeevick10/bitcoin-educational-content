@@ -5,5 +5,5 @@ wrong_answers:
   - KYC medio
   - KYC oscuro
 explanation: |
-  En Suiza, una alternativa al KYC completo es el "KYC ligero", que permite la compra y venta de bitcoins sin proporcionar identificación, siempre y cuando el monto de compra no supere los 1000 euros por día.
+  En Suiza, una alternativa al KYC completo es el KYC ligero, que permite la compra y venta de bitcoins sin proporcionar identificación, siempre y cuando el monto de compra no supere los 1000 euros por día.
 reviewed: false

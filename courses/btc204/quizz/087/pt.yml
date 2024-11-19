@@ -3,7 +3,7 @@ question: Como o Wabisabi gerencia a mudança em comparação com o Wasabi 1.0?
 answer: Ele divide em várias pequenas quantias distribuídas em denominações iguais.
 
 wrong_answers:
-  - Ele consolida para evitar que se tornem "poeira".
+  - Ele consolida para evitar que se tornem poeira.
   - Ele exclui antes da transação coinjoin igualando as entradas.
   - Ele transfere automaticamente para uma carteira reserva.
 

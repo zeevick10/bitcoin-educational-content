@@ -1,4 +1,4 @@
-question: Proč se říká, že pseudonáhodný řetězec je "nerozlišitelný" od opravdu náhodného řetězce?
+question: Proč se říká, že pseudonáhodný řetězec je nerozlišitelný od opravdu náhodného řetězce?
 answer: Protože je téměř nemožné určit jeho původ bez dalších informací
 wrong_answers:
   - Protože obsahuje deterministické segmenty identické s opravdu náhodným řetězcem

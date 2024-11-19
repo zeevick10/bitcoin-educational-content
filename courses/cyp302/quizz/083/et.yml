@@ -1,4 +1,4 @@
-question: Miks on "pseudorandom stream ciphers" praktikas sagedamini kasutusel kui ühekordsed padjad?
+question: Miks on pseudorandom stream ciphers praktikas sagedamini kasutusel kui ühekordsed padjad?
 answer: Need võimaldavad kasutada lühemat võtit pikema võtmehulga genereerimiseks
 wrong_answers:
   - Need ei nõua salajast võtit

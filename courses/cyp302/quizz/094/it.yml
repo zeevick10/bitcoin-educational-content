@@ -1,4 +1,4 @@
-question: Qual è la principale fonte di confusione tra i termini "cifrario a blocchi" e "cifrario a flusso"?
+question: Qual è la principale fonte di confusione tra i termini cifrario a blocchi e cifrario a flusso?
 answer: I cifrari a blocchi sono talvolta intesi esclusivamente come algoritmi che utilizzano modalità a blocchi come ECB o CBC.
 wrong_answers:
   - I cifrari a flusso sono sempre meno sicuri dei cifrari a blocchi.

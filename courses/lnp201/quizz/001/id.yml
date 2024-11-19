@@ -1,4 +1,4 @@
-question: Dalam saluran pembayaran, apa itu "kapasitas" dari saluran tersebut?
+question: Dalam saluran pembayaran, apa itu kapasitas dari saluran tersebut?
 answer: Jumlah total dana yang dapat ditukar oleh dua peserta
 wrong_answers:
   - Batas waktu untuk saluran tersebut dapat tetap terbuka

@@ -1,4 +1,4 @@
-question: Hva er hovedkilden til forvirring mellom begrepene "blokkchiffer" og "strømchiffer"?
+question: Hva er hovedkilden til forvirring mellom begrepene blokkchiffer og strømchiffer?
 answer: Blokkchiffere blir noen ganger forstått utelukkende som algoritmer som bruker blokkmoduser som ECB eller CBC.
 wrong_answers:
   - Strømchiffere er alltid mindre sikre enn blokkchiffere.

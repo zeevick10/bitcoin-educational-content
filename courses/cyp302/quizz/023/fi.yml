@@ -3,7 +3,7 @@ answer: Se varmistaa, että kirjaimet palaavat aakkosten alkuun ylittäessään 
 wrong_answers:
   - Se kertoo kirjainarvot avaimella
   - Se kääntää aakkosten kirjaimet ympäri
-  - Se poistaa kirjaimet kirjaimen "Z" jälkeen
+  - Se poistaa kirjaimet kirjaimen Z jälkeen
 explanation: |
-  Modulo 26 -operaatio mahdollistaa kirjainten palaamisen takaisin "Z"; n jälkeen, jotta jokainen salattu kirjain pysyy aakkosten 26 kirjaimen sisällä.
+  Modulo 26 -operaatio mahdollistaa kirjainten palaamisen takaisin Z; n jälkeen, jotta jokainen salattu kirjain pysyy aakkosten 26 kirjaimen sisällä.
 reviewed: false

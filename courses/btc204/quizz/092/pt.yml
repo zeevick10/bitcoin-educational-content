@@ -8,6 +8,6 @@ wrong_answers:
   - Conta de depósito.
 
 explanation: |
-  O troco que não pôde entrar no pool é isolado na conta de "troco doxxic", para garantir uma separação estrita dos outros UTXOs na carteira.
+  O troco que não pôde entrar no pool é isolado na conta de troco doxxic, para garantir uma separação estrita dos outros UTXOs na carteira.
 
 reviewed: false

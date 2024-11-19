@@ -1,4 +1,4 @@
-question: Apa itu "block cipher" dalam kriptografi?
+question: Apa itu block cipher dalam kriptografi?
 answer: Sebuah algoritma yang mengubah string berukuran tetap menjadi string lain dengan ukuran yang sama
 wrong_answers:
   - Enkripsi asimetris yang berbasis pada kunci rahasia publik dan privat

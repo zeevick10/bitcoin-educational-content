@@ -1,4 +1,4 @@
-question: Mikä on "HMAC"?
+question: Mikä on HMAC?
 answer: Viestin autentikointikoodi, joka perustuu hajautusfunktioon
 wrong_answers:
   - Epäsymmetrinen salausalgoritmi, joka perustuu hajautusfunktioon

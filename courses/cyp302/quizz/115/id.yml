@@ -1,4 +1,4 @@
-question: Apa yang dimaksud dengan istilah "difusi" dalam konteks enkripsi AES?
+question: Apa yang dimaksud dengan istilah difusi dalam konteks enkripsi AES?
 answer: Perubahan dalam teks asli menghasilkan perubahan yang signifikan dalam teks terenkripsi
 wrong_answers:
   - Teks terenkripsi selalu memiliki panjang yang sama

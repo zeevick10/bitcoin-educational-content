@@ -1,4 +1,4 @@
-question: En una factura Lightning, ¿qué significa el prefijo "lnbc" en la parte legible por humanos?
+question: En una factura Lightning, ¿qué significa el prefijo lnbc en la parte legible por humanos?
 answer: Indica una transacción Lightning en la blockchain de Bitcoin
 wrong_answers:
   - Que la factura es válida solo en el testnet de Bitcoin

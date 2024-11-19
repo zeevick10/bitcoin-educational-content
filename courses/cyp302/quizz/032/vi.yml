@@ -1,4 +1,4 @@
-question: Tại sao một chuỗi giả ngẫu nhiên lại được nói là "không thể phân biệt" với một chuỗi ngẫu nhiên thực sự?
+question: Tại sao một chuỗi giả ngẫu nhiên lại được nói là không thể phân biệt với một chuỗi ngẫu nhiên thực sự?
 answer: Bởi vì gần như không thể xác định nguồn gốc của nó mà không có thông tin bổ sung
 wrong_answers:
   - Bởi vì nó chứa các phân đoạn xác định giống hệt với một chuỗi ngẫu nhiên thực sự

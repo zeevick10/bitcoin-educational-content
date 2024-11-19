@@ -5,5 +5,5 @@ wrong_answers:
   - Sebuah kunci publik yang menghasilkan alamat Bitcoin
   - Sejumlah bitcoin yang dibagi menjadi beberapa bagian
 explanation: |
-  UTXO, atau "Unspent Transaction Output," adalah output transaksi yang belum terpakai, mewakili sejumlah bitcoin tertentu yang dapat digunakan oleh pemegangnya.
+  UTXO, atau Unspent Transaction Output, adalah output transaksi yang belum terpakai, mewakili sejumlah bitcoin tertentu yang dapat digunakan oleh pemegangnya.
 reviewed: false

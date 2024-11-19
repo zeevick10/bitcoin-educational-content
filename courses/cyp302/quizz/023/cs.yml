@@ -3,7 +3,7 @@ answer: Zajišťuje, že písmena se vrátí na začátek abecedy, pokud přesá
 wrong_answers:
   - Násobí hodnoty písmen klíčem
   - Obrací písmena abecedy
-  - Maže písmena po písmenu "Z"
+  - Maže písmena po písmenu Z
 explanation: |
-  Operace modulo 26 umožňuje písmenům vrátit se po "Z" zpět, aby se zajistilo, že každé zašifrované písmeno zůstane v rámci 26 písmen abecedy.
+  Operace modulo 26 umožňuje písmenům vrátit se po Z zpět, aby se zajistilo, že každé zašifrované písmeno zůstane v rámci 26 písmen abecedy.
 reviewed: false

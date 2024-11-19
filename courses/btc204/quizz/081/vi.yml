@@ -8,4 +8,4 @@ wrong_answers:
   - Địa chỉ P2TR.
 
 explanation: |
-  Trong những coinjoin kiểu "Chaumian", việc sử dụng Tor và chữ ký mù của David Chaum được kết hợp để đảm bảo rằng người điều phối không thể biết đầu ra nào thuộc về người dùng nào.
+  Trong những coinjoin kiểu Chaumian, việc sử dụng Tor và chữ ký mù của David Chaum được kết hợp để đảm bảo rằng người điều phối không thể biết đầu ra nào thuộc về người dùng nào.

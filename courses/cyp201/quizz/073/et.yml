@@ -1,4 +1,4 @@
-question: Tõene või väär? "Kui keegi soovib oma privaatsust optimeerida, ei tohiks ta sama aadressi mitu korda kasutada."
+question: Tõene või väär? Kui keegi soovib oma privaatsust optimeerida, ei tohiks ta sama aadressi mitu korda kasutada.
 answer: Tõene.
 wrong_answers:
   - Väär.

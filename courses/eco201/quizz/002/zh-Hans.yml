@@ -1,7 +1,7 @@
 question: 这门课程的讲师是谁？
-answer: "Théo Mogenet"
+answer: Théo Mogenet
 wrong_answers:
-  - "Théo Boloré"
+  - Théo Boloré
   - Descoupes Bitcoin
   - 以上都不是
 explanation:

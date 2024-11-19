@@ -1,4 +1,4 @@
-question: Mis on peamine segaduse allikas terminite "blokšiffer" ja "voogšiffer" vahel?
+question: Mis on peamine segaduse allikas terminite blokšiffer ja voogšiffer vahel?
 answer: Blokšiffreid mõistetakse mõnikord ainult algoritmidena, mis kasutavad blokeerimisrežiime nagu ECB või CBC.
 wrong_answers:
   - Voogšiffreid peetakse alati vähem turvaliseks kui blokšiffreid.

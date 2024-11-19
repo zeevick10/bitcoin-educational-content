@@ -7,5 +7,5 @@ wrong_answers:
 explanation: |
   Il livello di base della rete Bitcoin, su cui si basa la Lightning
   Network per l'apertura e la chiusura dei canali di pagamento,
-  è comunemente definito come il "livello di regolamento".
+  è comunemente definito come il livello di regolamento.
 reviewed: true

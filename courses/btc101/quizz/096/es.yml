@@ -6,6 +6,6 @@ wrong_answers:
   - Una lista de 64 palabras.
 explanation: |
   En una cartera de Bitcoin, la clave privada suele estar representada
-  por una lista de 12 o 24 palabras, también conocida como "frase semilla"
-  o "frase mnemotécnica".
+  por una lista de 12 o 24 palabras, también conocida como frase semilla
+  o frase mnemotécnica.
 reviewed: true

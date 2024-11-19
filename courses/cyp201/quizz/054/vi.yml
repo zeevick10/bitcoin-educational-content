@@ -5,4 +5,4 @@ wrong_answers:
   - Cụm từ bí mật.
   - “Seed”.
 explanation: |
-  Chuỗi "Bitcoin seed" được sử dụng như một khóa trong HMAC-SHA512 để suy ra khóa chính và mã chuỗi chính từ hạt giống.
+  Chuỗi Bitcoin seed được sử dụng như một khóa trong HMAC-SHA512 để suy ra khóa chính và mã chuỗi chính từ hạt giống.

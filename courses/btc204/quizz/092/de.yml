@@ -8,6 +8,6 @@ wrong_answers:
   - Einzahlungskonto.
 
 explanation: |
-  Das Wechselgeld, das nicht dem Pool beitreten konnte, wird auf dem "Doxxic-Change"-Konto isoliert, um eine strikte Trennung von den anderen UTXOs im Wallet zu gewährleisten.
+  Das Wechselgeld, das nicht dem Pool beitreten konnte, wird auf dem Doxxic-Change-Konto isoliert, um eine strikte Trennung von den anderen UTXOs im Wallet zu gewährleisten.
 
 reviewed: false

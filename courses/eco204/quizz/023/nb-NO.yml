@@ -1,4 +1,4 @@
-question: Hva er betydningen av begrepet "Burner-preneurs" i sammenheng med hyperinflasjon?
+question: Hva er betydningen av begrepet Burner-preneurs i sammenheng med hyperinflasjon?
 answer: Det refererer til entreprenører som blomstrer ved å låne devaluert valuta for å investere i håndfaste eiendeler, og deretter tilbakebetale gjelden sin med enda mer devaluert valuta.
 wrong_answers:
   - Det refererer til individer som brenner devaluert valuta for oppvarmingsformål.
@@ -6,7 +6,7 @@ wrong_answers:
   - Det refererer til individer som ulovlig handler med utenlandsk valuta.
 explanation: |
   I perioder med hyperinflasjon, forvitrer verdien av valutaen raskt.
-  Dette skaper muligheter for entreprenører, ofte kalt "Burner-preneurs," som
+  Dette skaper muligheter for entreprenører, ofte kalt Burner-preneurs, som
   låner den devaluerte valutaen for å investere i håndfaste eiendeler, og deretter tilbakebetaler
   gjelden sin med enda mer devaluert valuta.
 reviewed: false

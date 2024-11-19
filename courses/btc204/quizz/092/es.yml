@@ -8,6 +8,6 @@ wrong_answers:
   - Cuenta de depósito.
 
 explanation: |
-  El cambio que no pudo unirse al pool se aísla en la cuenta de "cambio doxxic", para asegurar una separación estricta de los otros UTXOs en la billetera.
+  El cambio que no pudo unirse al pool se aísla en la cuenta de cambio doxxic, para asegurar una separación estricta de los otros UTXOs en la billetera.
 
 reviewed: false

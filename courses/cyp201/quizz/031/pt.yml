@@ -5,4 +5,4 @@ wrong_answers:
   - Cada par de chaves na carteira é determinado deterministicamente a partir do par de chaves anterior.
   - Os pares de chaves são todos aleatórios e sem ligação hierárquica.
 explanation: |
-  Em carteiras HD, todas as chaves são derivadas de uma peça única de informação chamada "semente", que permite o gerenciamento hierárquico e determinístico das chaves.
+  Em carteiras HD, todas as chaves são derivadas de uma peça única de informação chamada semente, que permite o gerenciamento hierárquico e determinístico das chaves.

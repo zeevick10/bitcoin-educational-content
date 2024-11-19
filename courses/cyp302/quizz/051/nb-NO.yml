@@ -1,4 +1,4 @@
-question: Hva betyr uttrykket "champ premier" eller "corps premier"?
+question: Hva betyr uttrykket champ premier eller corps premier?
 answer: Et felt med et primtall antall elementer
 wrong_answers:
   - Et felt som inneholder kun primtall

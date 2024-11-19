@@ -5,5 +5,5 @@ wrong_answers:
   - Ne ovat käytettävissä vain tietyissä erityistransaktioissa
   - Ne edustavat pieniä, kiinteitä määriä bitcoineja
 explanation: |
-  Kuten setelin, UTXO on käytettävä kokonaan transaktiossa, ja mahdollinen ylimäärä palautetaan lähettäjälle "vaihtorahana".
+  Kuten setelin, UTXO on käytettävä kokonaan transaktiossa, ja mahdollinen ylimäärä palautetaan lähettäjälle vaihtorahana.
 reviewed: false

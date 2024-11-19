@@ -8,4 +8,4 @@ wrong_answers:
   - Meglingstjeneste som manuelt velger deltakere.
 
 explanation: |
-  JoinMarket opererer på et P2P-utvekslingsmarked der noen brukere, "skaperne", tilbyr sine bitcoins for miksing, mens andre, "brukerne", bruker disse midlene til å utføre coinjoins i bytte mot et gebyr.
+  JoinMarket opererer på et P2P-utvekslingsmarked der noen brukere, skaperne, tilbyr sine bitcoins for miksing, mens andre, brukerne, bruker disse midlene til å utføre coinjoins i bytte mot et gebyr.

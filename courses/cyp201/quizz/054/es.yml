@@ -1,9 +1,9 @@
 question: Para calcular los valores de la clave maestra y el código de cadena maestro, la primera entrada para la función HMAC-SHA512 es la semilla. ¿Cuál es el segundo valor de entrada de esta función, actuando como una clave?
-answer: "Bitcoin seed".
+answer: Bitcoin seed.
 wrong_answers:
   - La frase mnemotécnica.
   - La frase de paso.
-  - "Seed".
+  - Seed.
 explanation: |
-  La cadena "Bitcoin seed" se utiliza como una clave en HMAC-SHA512 para derivar la clave maestra y el código de cadena maestro a partir de la semilla.
+  La cadena Bitcoin seed se utiliza como una clave en HMAC-SHA512 para derivar la clave maestra y el código de cadena maestro a partir de la semilla.
 reviewed: false

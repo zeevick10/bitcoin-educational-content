@@ -7,5 +7,5 @@ wrong_answers:
 explanation: |
   Lapisan dasar dari jaringan Bitcoin, yang menjadi dasar bagi
   Lightning Network untuk membuka dan menutup saluran pembayaran,
-  sering disebut sebagai "lapisan penyelesaian".
+  sering disebut sebagai lapisan penyelesaian.
 reviewed: true

@@ -1,4 +1,4 @@
-question: O que é uma "cifra de bloco" em criptografia?
+question: O que é uma cifra de bloco em criptografia?
 answer: Um algoritmo que transforma uma string de comprimento fixo em outra string do mesmo comprimento
 wrong_answers:
   - Uma criptografia assimétrica baseada em chaves secretas públicas e privadas

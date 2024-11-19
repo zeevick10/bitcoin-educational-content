@@ -1,4 +1,4 @@
-question: True or False? "If one wishes to optimize their privacy, they should not reuse the same address multiple times."
+question: True or False? If one wishes to optimize their privacy, they should not reuse the same address multiple times.
 answer: True.
 wrong_answers:
   - False.

@@ -1,4 +1,4 @@
-question: ¿Cómo permite la tecnología "Keysend" realizar una transferencia de fondos sin una factura?
+question: ¿Cómo permite la tecnología Keysend realizar una transferencia de fondos sin una factura?
 answer: El emisor genera un secreto en los HTLCs para desbloquear los fondos
 wrong_answers:
   - El destinatario genera un hash para validar la transferencia

@@ -1,4 +1,4 @@
-question: Quels sont les "bitcoins vierges" ?
+question: Quels sont les bitcoins vierges ?
 answer: Des bitcoins fraîchement minés qui n'ont jamais été dépensés et qui n'ont aucune historique associée.
 wrong_answers:
   - Des bitcoins qui ont été utilisés dans des activités illégales.

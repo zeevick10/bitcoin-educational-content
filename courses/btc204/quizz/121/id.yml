@@ -1,4 +1,4 @@
-question: Bagaimana cara kerja fase "stem" dalam protokol Dandelion?
+question: Bagaimana cara kerja fase stem dalam protokol Dandelion?
 
 answer: Transaksi dikirim melalui jalur acak dari node-node
 
@@ -8,6 +8,6 @@ wrong_answers:
   - Transaksi dienkripsi secara bertahap di setiap langkah siaran
 
 explanation: |
-  Dandelion pertama-tama menggunakan fase "stem" di mana transaksi dikirim melalui jalur acak dari node-node. Kemudian, transaksi disiarkan ke seluruh jaringan dalam fase "fluff".
+  Dandelion pertama-tama menggunakan fase stem di mana transaksi dikirim melalui jalur acak dari node-node. Kemudian, transaksi disiarkan ke seluruh jaringan dalam fase fluff.
 
 reviewed: false

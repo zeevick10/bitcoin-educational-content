@@ -1,4 +1,4 @@
-question: 什么是"HMAC"？
+question: 什么是HMAC？
 answer: 基于哈希函数的消息认证码
 wrong_answers:
   - 一种基于哈希函数的非对称加密算法

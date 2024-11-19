@@ -1,4 +1,4 @@
-question: Co znamená prefix "lnbc" v čitelné části Lightning faktury?
+question: Co znamená prefix lnbc v čitelné části Lightning faktury?
 answer: Značí transakci Lightning na blockchainu Bitcoinu
 wrong_answers:
   - Že faktura je platná pouze na testnetu Bitcoinu

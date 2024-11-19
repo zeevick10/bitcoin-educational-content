@@ -1,4 +1,4 @@
-question: Hvordan muliggjør "Keysend"-teknologien overføring av midler uten en faktura?
+question: Hvordan muliggjør Keysend-teknologien overføring av midler uten en faktura?
 answer: Avsenderen genererer et hemmelig passord i HTLC-ene for å låse opp midlene
 wrong_answers:
   - Mottakeren genererer en hash for å validere overføringen

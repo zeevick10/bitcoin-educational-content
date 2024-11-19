@@ -5,5 +5,5 @@ wrong_answers:
   - Trung bình.
   - Mạnh.
 explanation: |
-  Nhờ vào công nghệ mã hóa được sử dụng để tạo ví, xác suất để ai đó vô tình đoán được danh sách 12 hoặc 24 từ của bạn là cực kỳ thấp. Điều này giống như việc tìm ra "số đúng" trong khoảng từ 1 đến $2^256$, gần như tương đương với việc tìm một nguyên tử được xác định trong Vũ trụ.
+  Nhờ vào công nghệ mã hóa được sử dụng để tạo ví, xác suất để ai đó vô tình đoán được danh sách 12 hoặc 24 từ của bạn là cực kỳ thấp. Điều này giống như việc tìm ra số đúng trong khoảng từ 1 đến $2^256$, gần như tương đương với việc tìm một nguyên tử được xác định trong Vũ trụ.
 reviewed: true

@@ -8,6 +8,6 @@ wrong_answers:
   - P2TR-Adressen.
 
 explanation: |
-  Bei sogenannten "Chaumian" Coinjoins wird die Nutzung von Tor und David Chaums Blindsignaturen kombiniert, um sicherzustellen, dass der Koordinator nicht wissen kann, welcher Ausgang zu welchem Benutzer gehört.
+  Bei sogenannten Chaumian Coinjoins wird die Nutzung von Tor und David Chaums Blindsignaturen kombiniert, um sicherzustellen, dass der Koordinator nicht wissen kann, welcher Ausgang zu welchem Benutzer gehört.
 
 reviewed: false

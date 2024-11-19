@@ -7,5 +7,5 @@ wrong_answers:
 explanation: |
   La couche de base du réseau Bitcoin, sur laquelle le Lightning
   Network s'appuie pour l'ouverture et la fermeture des canaux de paiement,
-  est souvent désignée comme la "couche de règlement".
+  est souvent désignée comme la couche de règlement.
 reviewed: true

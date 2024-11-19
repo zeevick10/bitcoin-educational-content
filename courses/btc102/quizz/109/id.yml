@@ -5,6 +5,6 @@ wrong_answers:
   - Sebuah tipe baru dari Bitcoin.
   - Sebuah platform perdagangan Bitcoin.
 explanation: |
-  Lightning Network adalah protokol pembayaran "lapisan 2" yang beroperasi di
+  Lightning Network adalah protokol pembayaran lapisan 2 yang beroperasi di
   atas cryptocurrency berbasis blockchain (seperti Bitcoin). Ini dirancang untuk memungkinkan
   transaksi cepat di antara node yang berpartisipasi.

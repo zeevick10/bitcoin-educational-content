@@ -1,4 +1,4 @@
-question: ¿Cuál es la posible desventaja de crear una copia de seguridad en la "nube" utilizando servicios como ProtonMail Drive, Sync o Google Drive?
+question: ¿Cuál es la posible desventaja de crear una copia de seguridad en la nube utilizando servicios como ProtonMail Drive, Sync o Google Drive?
 answer: Tus datos potencialmente están en internet y en manos de un tercero de confianza.
 wrong_answers:
   - Estos servicios potencialmente no son fiables para la copia de seguridad de datos.

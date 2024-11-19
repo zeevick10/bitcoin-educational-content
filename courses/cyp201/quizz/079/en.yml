@@ -1,8 +1,8 @@
 question: What is the final step to create a Bech32 Bitcoin address?
-answer: Add the HRP "bc" and a separator "1".
+answer: Add the HRP bc and a separator 1.
 wrong_answers:
   - Add the SegWit version at the beginning.
   - Add the checksum at the beginning of the address.
-  - Add a "1" prefix.
+  - Add a 1 prefix.
 explanation: |
-  The final step in constructing a Bech32 address is to add the HRP (Human Readable Part), "bc" for Bitcoin, followed by a separator "1".
+  The final step in constructing a Bech32 address is to add the HRP (Human Readable Part), bc for Bitcoin, followed by a separator 1.

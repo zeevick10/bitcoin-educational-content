@@ -5,4 +5,4 @@ wrong_answers:
   - Each key pair in the wallet is determined deterministically from the previous key pair.
   - The key pairs are all random and without hierarchical linkage.
 explanation: |
-  In HD wallets, all keys are derived from a unique piece of information called a "seed," which allows for hierarchical and deterministic management of keys.
+  In HD wallets, all keys are derived from a unique piece of information called a seed, which allows for hierarchical and deterministic management of keys.

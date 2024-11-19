@@ -1,4 +1,4 @@
-question: Kes tutvustas ideed "Bitcoin'i maanteest"?
+question: Kes tutvustas ideed Bitcoin'i maanteest?
 answer: Andreas Antonopoulos
 wrong_answers:
   - Satoshi Nakamoto
@@ -6,5 +6,5 @@ wrong_answers:
   - Vitalik Buterin
 explanation: |
   Andreas Antonopoulos, tuntud Bitcoin'i toetaja ja haridustöötaja, tutvustas
-  ideed "Bitcoin'i maanteest".
+  ideed Bitcoin'i maanteest.
 reviewed: false

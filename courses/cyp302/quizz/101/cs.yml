@@ -1,4 +1,4 @@
-question: Co je "HMAC"?
+question: Co je HMAC?
 answer: Autentizační kód zprávy založený na hašovací funkci
 wrong_answers:
   - Asymetrický šifrovací algoritmus založený na hašovací funkci

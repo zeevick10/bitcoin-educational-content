@@ -3,7 +3,7 @@ answer: Garantisce che le lettere ritornino all'inizio dell'alfabeto superando i
 wrong_answers:
   - Moltiplica i valori delle lettere per la chiave
   - Inverte le lettere dell'alfabeto
-  - Elimina le lettere dopo la lettera "Z"
+  - Elimina le lettere dopo la lettera Z
 explanation: |
-  L'operazione modulo 26 permette alle lettere di ricominciare da capo dopo la "Z" per assicurare che ogni lettera cifrata rimanga entro le 26 lettere dell'alfabeto.
+  L'operazione modulo 26 permette alle lettere di ricominciare da capo dopo la Z per assicurare che ogni lettera cifrata rimanga entro le 26 lettere dell'alfabeto.
   recensito: false

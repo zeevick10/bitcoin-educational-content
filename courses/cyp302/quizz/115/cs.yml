@@ -1,4 +1,4 @@
-question: Co znamená termín "difúze" v kontextu šifrování AES?
+question: Co znamená termín difúze v kontextu šifrování AES?
 answer: Změna v otevřeném textu vede k významné změně v šifrovaném textu
 wrong_answers:
   - Šifrovaný text je vždy stejně dlouhý

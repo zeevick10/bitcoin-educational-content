@@ -1,4 +1,4 @@
-question: Mitä termi "diffuusio" tarkoittaa AES-salauksen yhteydessä?
+question: Mitä termi diffuusio tarkoittaa AES-salauksen yhteydessä?
 answer: Muutos alkuperäistekstissä aiheuttaa merkittävän muutoksen salatun tekstin sisällössä
 wrong_answers:
   - Salattu teksti on aina saman pituinen

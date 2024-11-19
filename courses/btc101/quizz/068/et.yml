@@ -6,5 +6,5 @@ wrong_answers:
   - Iga 2,100,000 ploki järel
 explanation: |
   Kaevandamise tasu on programmeeritud poolituma iga 210,000 ploki järel, mis
-  on ligikaudu iga nelja aasta tagant, sündmust tuntakse kui "halving" (poolitumine).
+  on ligikaudu iga nelja aasta tagant, sündmust tuntakse kui halving (poolitumine).
 reviewed: true

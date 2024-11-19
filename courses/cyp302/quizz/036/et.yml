@@ -1,4 +1,4 @@
-question: Mida tähendab, kui kaks arvu on "teineteisega võõrad"?
+question: Mida tähendab, kui kaks arvu on teineteisega võõrad?
 answer: Nende suurim ühistegur on võrdne 1-ga
 wrong_answers:
   - Nende summa on paarisarv

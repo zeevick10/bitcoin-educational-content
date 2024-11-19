@@ -1,9 +1,9 @@
 question: HMAC-SHA512関数において、マスターキーとマスターチェーンコードの値を計算するための最初の入力はシードです。この関数の第二の入力値（キーとして機能する）は何ですか？
-answer: "Bitcoin seed"。
+answer: Bitcoin seed。
 wrong_answers:
   - ニーモニックフレーズ。
   - パスフレーズ。
-  - "Seed"。
+  - Seed。
 explanation: |
-  文字列"Bitcoin seed"は、シードからマスターキーとマスターチェーンコードを導出するために、HMAC-SHA512でキーとして使用されます。
+  文字列Bitcoin seedは、シードからマスターキーとマスターチェーンコードを導出するために、HMAC-SHA512でキーとして使用されます。
   レビュー済み: false

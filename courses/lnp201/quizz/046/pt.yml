@@ -1,4 +1,4 @@
-question: No contexto de uma fatura Lightning, o que significa o prefixo "lnbc" na parte legível por humanos?
+question: No contexto de uma fatura Lightning, o que significa o prefixo lnbc na parte legível por humanos?
 answer: Indica uma transação Lightning na blockchain do Bitcoin
 wrong_answers:
   - Que a fatura é válida apenas no testnet do Bitcoin

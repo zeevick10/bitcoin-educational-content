@@ -1,4 +1,4 @@
-question: True or False? "One can determine a public key by only knowing its SegWitv0 address."
+question: True or False? One can determine a public key by only knowing its SegWitv0 address.
 answer: False.
 wrong_answers:
   - True.

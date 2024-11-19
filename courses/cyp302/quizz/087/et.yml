@@ -1,7 +1,7 @@
 question: Milline plokkšifri meetod kasutab initsialiseerimisvektorit ja loob tõenäosusliku krüpteeringu?
-answer: CBC ("Cipher Block Chaining")
+answer: CBC (Cipher Block Chaining)
 wrong_answers:
-  - ECB ("Electronic Code Book")
+  - ECB (Electronic Code Book)
   - AES-128
   - SHA-256
 explanation: |

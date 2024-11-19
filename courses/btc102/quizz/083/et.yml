@@ -5,7 +5,7 @@ wrong_answers:
   - See võimaldab anonüümseid tehinguid.
   - See pakub platvormi Bitcoin'iga kauplemiseks.
 explanation: |
-  Lightning Network on "kiht 2" makseprotokoll, mis toimib
+  Lightning Network on kiht 2 makseprotokoll, mis toimib
   plokiahela-põhise krüptoraha, nagu Bitcoin, peal. See on loodud
   kiirete, madala maksumusega tehingute võimaldamiseks.
 reviewed: false

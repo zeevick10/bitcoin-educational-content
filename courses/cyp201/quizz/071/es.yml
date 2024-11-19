@@ -1,4 +1,4 @@
-question: ¿Verdadero o Falso? "Se puede determinar una clave pública solo conociendo su dirección SegWitv0."
+question: ¿Verdadero o Falso? Se puede determinar una clave pública solo conociendo su dirección SegWitv0.
 answer: Falso.
 wrong_answers:
   - Verdadero.

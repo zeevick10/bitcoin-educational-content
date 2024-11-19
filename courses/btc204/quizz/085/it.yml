@@ -8,6 +8,6 @@ wrong_answers:
   - Servizio di mediazione che seleziona manualmente i partecipanti.
 
 explanation: |
-  JoinMarket opera su un mercato di scambio P2P dove alcuni utenti, i "maker", offrono i loro bitcoin per il mixing, mentre altri, i "taker", utilizzano questi fondi per eseguire coinjoin in cambio di una commissione.
+  JoinMarket opera su un mercato di scambio P2P dove alcuni utenti, i maker, offrono i loro bitcoin per il mixing, mentre altri, i taker, utilizzano questi fondi per eseguire coinjoin in cambio di una commissione.
 
   recensito: false

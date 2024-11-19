@@ -1,4 +1,4 @@
-question: Perché si dice che una stringa pseudocasuale è "indistinguibile" da una stringa veramente casuale?
+question: Perché si dice che una stringa pseudocasuale è indistinguibile da una stringa veramente casuale?
 answer: Perché è quasi impossibile determinarne l'origine senza informazioni aggiuntive
 wrong_answers:
   - Perché contiene segmenti deterministici identici a una stringa veramente casuale

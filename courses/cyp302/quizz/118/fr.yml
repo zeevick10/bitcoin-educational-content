@@ -1,4 +1,4 @@
-question: Quel rôle joue l'opération de substitution d'octets ("S-Box") dans le chiffrement AES ?
+question: Quel rôle joue l'opération de substitution d'octets (S-Box) dans le chiffrement AES ?
 answer: Elle introduit de la confusion en substituant chaque octet par un autre
 wrong_answers:
   - Elle assure l'intégrité en vérifiant les octets du message

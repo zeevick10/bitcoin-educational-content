@@ -5,5 +5,5 @@ wrong_answers:
   - Se lisää bitit ja palauttaa summan
   - Se palauttaa aina 0 riippumatta tuloksesta
 explanation: |
-  XOR-operaatio (tai "poissulkeva tai") tuottaa 1, jos kaksi bittiä ovat erilaiset (0 ja 1 tai 1 ja 0) ja 0, jos ne ovat samat.
+  XOR-operaatio (tai poissulkeva tai) tuottaa 1, jos kaksi bittiä ovat erilaiset (0 ja 1 tai 1 ja 0) ja 0, jos ne ovat samat.
 reviewed: false

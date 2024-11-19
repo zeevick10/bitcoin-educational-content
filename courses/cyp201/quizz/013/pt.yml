@@ -1,9 +1,9 @@
-question: O que significa o prefixo "0x"?
+question: O que significa o prefixo 0x?
 answer: O número seguinte a este prefixo é expresso em base 16 (hexadecimal).
 wrong_answers:
   - O número seguinte a este prefixo é expresso em base 2 (binário).
   - O número seguinte a este prefixo é expresso em base 10 (decimal).
   - O número seguinte a este prefixo é expresso em base 8 (octal).
 explanation: |
-  O prefixo "0x" indica que o número seguinte a ele é expresso em base 16 (hexadecimal).
+  O prefixo 0x indica que o número seguinte a ele é expresso em base 16 (hexadecimal).
 reviewed: false

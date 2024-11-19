@@ -1,4 +1,4 @@
-question: Co je "Nonce" v kryptografii?
+question: Co je Nonce v kryptografii?
 answer: Číslo určené k jednorázovému použití.
 wrong_answers:
   - Sudé číslo.

@@ -1,4 +1,4 @@
-question: Was bedeutet das Apostroph oder das "H", das rechts von der Zahl in einem Ableitungspfad notiert ist? Beispiel m/84'/0'.
+question: Was bedeutet das Apostroph oder das H, das rechts von der Zahl in einem Ableitungspfad notiert ist? Beispiel m/84'/0'.
 
 answer: Es zeigt eine gehärtete Ableitung an.
 
@@ -8,4 +8,4 @@ wrong_answers:
   - Es zeigt einen Änderungsschlüssel an.
 
 explanation: |
-  Das Apostroph oder "H" in einem Ableitungspfad zeigt eine gehärtete Ableitung an, die den Eltern-Privatschlüssel und den entsprechenden Indexbereich verwendet.
+  Das Apostroph oder H in einem Ableitungspfad zeigt eine gehärtete Ableitung an, die den Eltern-Privatschlüssel und den entsprechenden Indexbereich verwendet.

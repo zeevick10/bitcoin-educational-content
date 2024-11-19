@@ -1,9 +1,9 @@
-question: Co znamená prefix "0x"?
+question: Co znamená prefix 0x?
 answer: Číslo následující po tomto prefixu je vyjádřeno v soustavě se základem 16 (hexadecimální).
 wrong_answers:
   - Číslo následující po tomto prefixu je vyjádřeno v soustavě se základem 2 (binární).
   - Číslo následující po tomto prefixu je vyjádřeno v soustavě se základem 10 (decimální).
   - Číslo následující po tomto prefixu je vyjádřeno v soustavě se základem 8 (oktální).
 explanation: |
-  Prefix "0x" naznačuje, že číslo následující po něm je vyjádřeno v soustavě se základem 16 (hexadecimální).
+  Prefix 0x naznačuje, že číslo následující po něm je vyjádřeno v soustavě se základem 16 (hexadecimální).
 reviewed: false

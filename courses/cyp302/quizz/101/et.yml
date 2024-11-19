@@ -1,4 +1,4 @@
-question: Mis on "HMAC"?
+question: Mis on HMAC?
 answer: Sõnumi autentimiskood, mis põhineb räsifunktsioonil
 wrong_answers:
   - Asümmeetriline krüpteerimisalgoritm, mis põhineb räsifunktsioonil

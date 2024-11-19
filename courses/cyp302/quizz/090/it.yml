@@ -1,4 +1,4 @@
-question: Perché è difficile costruire una cifratura "a blocchi" da un cifrario a flusso?
+question: Perché è difficile costruire una cifratura a blocchi da un cifrario a flusso?
 answer: Perché i cifrari a flusso elaborano i dati continuamente
 wrong_answers:
   - Perché i cifrari a flusso non utilizzano chiavi private

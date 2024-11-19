@@ -1,4 +1,4 @@
-question: What does the term "diffusion" mean in the context of AES encryption?
+question: What does the term diffusion mean in the context of AES encryption?
 answer: A change in the plaintext results in a significant change in the ciphertext
 wrong_answers:
   - The ciphertext is always the same length

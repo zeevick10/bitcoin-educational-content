@@ -6,5 +6,5 @@ wrong_answers:
   - A través del proceso de Prueba de quema (Proof of burn).
 explanation: >-
   Los mineros validan las transacciones y las incluyen en un bloque a través de un proceso
-  llamado "prueba de trabajo" (proof of work). Esto implica resolver un rompecabezas criptográfico.
+  llamado prueba de trabajo (proof of work). Esto implica resolver un rompecabezas criptográfico.
 reviewed: true

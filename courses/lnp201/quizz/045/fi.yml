@@ -1,4 +1,4 @@
-question: Mitä "LNURL-withdraw" -ominaisuus mahdollistaa käyttäjille?
+question: Mitä LNURL-withdraw -ominaisuus mahdollistaa käyttäjille?
 answer: Varojen nostaminen palvelusta skannaamalla QR-koodi
 wrong_answers:
   - Suoran maksun tekeminen ilman välityspalkkioita

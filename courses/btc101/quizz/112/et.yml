@@ -6,7 +6,7 @@ wrong_answers:
   - Müümaks madala hinnaga
 explanation: >-
   Mitte-KYC bitcoinide ostmine tähendab bitcoinide soetamist ilma standardsete 
-  "Tunne oma klienti" (Know Your Customer) verifitseerimisprotseduurideta, mida paljud vahetused ja platvormid nõuavad. 
+  Tunne oma klienti (Know Your Customer) verifitseerimisprotseduurideta, mida paljud vahetused ja platvormid nõuavad. 
   Üks peamine põhjus, miks inimesed võivad seda teed valida, on oma privaatsuse säilitamine, 
   tagades, et nende isiklikud andmed ja finantstegevused jäävad avalikustamata.
 reviewed: true

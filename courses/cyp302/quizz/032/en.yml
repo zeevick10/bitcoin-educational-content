@@ -1,4 +1,4 @@
-question: Why is a pseudorandom string said to be "indistinguishable" from a truly random string?
+question: Why is a pseudorandom string said to be indistinguishable from a truly random string?
 answer: Because it is almost impossible to determine its origin without additional information
 wrong_answers:
   - Because it contains deterministic segments identical to a truly random string

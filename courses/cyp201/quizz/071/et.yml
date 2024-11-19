@@ -1,4 +1,4 @@
-question: Tõene või väär? "Avalikku võtit on võimalik kindlaks teha, teades ainult selle SegWitv0 aadressi."
+question: Tõene või väär? Avalikku võtit on võimalik kindlaks teha, teades ainult selle SegWitv0 aadressi.
 answer: Väär.
 wrong_answers:
   - Tõene.

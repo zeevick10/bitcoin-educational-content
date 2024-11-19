@@ -1,4 +1,4 @@
-question: ¿Qué permite hacer la función "LNURL-withdraw" a los usuarios?
+question: ¿Qué permite hacer la función LNURL-withdraw a los usuarios?
 answer: Retirar fondos de un servicio escaneando un código QR
 wrong_answers:
   - Realizar un pago directo sin comisiones de enrutamiento

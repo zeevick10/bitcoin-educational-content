@@ -1,7 +1,7 @@
 question: ¿Qué método de cifrado de bloques utiliza un vector de inicialización y crea un cifrado probabilístico?
-answer: CBC ("Cipher Block Chaining")
+answer: CBC (Cipher Block Chaining)
 wrong_answers:
-  - ECB ("Electronic Code Book")
+  - ECB (Electronic Code Book)
   - AES-128
   - SHA-256
 explanation: |

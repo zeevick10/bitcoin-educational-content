@@ -1,4 +1,4 @@
-question: Qual o papel da operação de substituição de bytes ("S-Box") na criptografia AES?
+question: Qual o papel da operação de substituição de bytes (S-Box) na criptografia AES?
 answer: Introduz confusão substituindo cada byte por outro
 wrong_answers:
   - Garante a integridade verificando os bytes da mensagem

@@ -1,4 +1,4 @@
-question: Qual è il concetto di "money streaming" nel contesto della Lightning Network?
+question: Qual è il concetto di money streaming nel contesto della Lightning Network?
 answer: Effettuare micropagamenti continui in tempo reale.
 wrong_answers:
   - Convertire Bitcoin in contanti presso una posizione fisica utilizzando un ATM.

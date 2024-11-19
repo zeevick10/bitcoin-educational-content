@@ -1,7 +1,7 @@
 question: 初期化ベクトルを使用し、確率的な暗号化を生成するブロック暗号方式はどれですか？
-answer: CBC（"Cipher Block Chaining"）
+answer: CBC（Cipher Block Chaining）
 wrong_answers:
-  - ECB（"Electronic Code Book"）
+  - ECB（Electronic Code Book）
   - AES-128
   - SHA-256
 explanation: |

@@ -1,4 +1,4 @@
-question: What is a "block cipher" in cryptography?
+question: What is a block cipher in cryptography?
 answer: An algorithm that transforms a fixed-length string into another string of the same length
 wrong_answers:
   - An asymmetric encryption based on public and private secret keys

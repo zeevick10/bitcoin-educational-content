@@ -1,4 +1,4 @@
-question: Pourquoi une chaîne pseudorandom est-elle dite "indistinguable" d'une chaîne véritablement aléatoire ?
+question: Pourquoi une chaîne pseudorandom est-elle dite indistinguable d'une chaîne véritablement aléatoire ?
 answer: Parce qu'il est quasiment impossible de déterminer son origine sans informations supplémentaires
 wrong_answers:
   - Parce qu'elle contient des segments déterministes identiques à une chaîne véritablement aléatoire

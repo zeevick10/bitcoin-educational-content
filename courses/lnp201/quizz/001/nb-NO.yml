@@ -1,4 +1,4 @@
-question: I en betalingskanal, hva er "kapasiteten" til kanalen?
+question: I en betalingskanal, hva er kapasiteten til kanalen?
 answer: Det totale beløpet av midler som de to deltakerne kan utveksle
 wrong_answers:
   - Tidsbegrensningen for hvor lenge kanalen kan forbli åpen

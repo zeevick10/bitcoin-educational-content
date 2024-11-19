@@ -1,4 +1,4 @@
-question: Mengapa sebuah string pseudorandom dikatakan "tidak dapat dibedakan" dari string acak sejati?
+question: Mengapa sebuah string pseudorandom dikatakan tidak dapat dibedakan dari string acak sejati?
 answer: Karena hampir mustahil untuk menentukan asalnya tanpa informasi tambahan
 wrong_answers:
   - Karena mengandung segmen deterministik yang identik dengan string acak sejati

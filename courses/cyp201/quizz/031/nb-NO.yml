@@ -5,4 +5,4 @@ wrong_answers:
   - Hvert nøkkelpar i lommeboken bestemmes deterministisk fra det forrige nøkkelparet.
   - Nøkkelparene er alle tilfeldige og uten hierarkisk sammenkobling.
 explanation: |
-  I HD-lommebøker er alle nøkler avledet fra et unikt stykke informasjon kalt en "seed", som muliggjør hierarkisk og deterministisk håndtering av nøkler.
+  I HD-lommebøker er alle nøkler avledet fra et unikt stykke informasjon kalt en seed, som muliggjør hierarkisk og deterministisk håndtering av nøkler.

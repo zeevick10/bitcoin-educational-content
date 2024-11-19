@@ -1,4 +1,4 @@
-question: Cosa permette di fare la funzionalità "LNURL-withdraw" agli utenti?
+question: Cosa permette di fare la funzionalità LNURL-withdraw agli utenti?
 answer: Prelevare fondi da un servizio scansionando un codice QR
 wrong_answers:
   - Effettuare un pagamento diretto senza commissioni di routing

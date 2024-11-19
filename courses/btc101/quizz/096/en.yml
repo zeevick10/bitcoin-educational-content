@@ -6,6 +6,6 @@ wrong_answers:
   - A list of 64 words.
 explanation: |
   In a Bitcoin wallet, the private key is often represented
-  by a list of 12 or 24 words, also known as a "seed phrase"
-  or "mnemonic phrase".
+  by a list of 12 or 24 words, also known as a seed phrase
+  or mnemonic phrase.
 reviewed: true

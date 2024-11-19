@@ -1,4 +1,4 @@
-question: ¿Por qué es difícil construir un cifrado en "modo bloque" a partir de un cifrado de flujo?
+question: ¿Por qué es difícil construir un cifrado en modo bloque a partir de un cifrado de flujo?
 answer: Porque los cifrados de flujo procesan los datos de manera continua
 wrong_answers:
   - Porque los cifrados de flujo no utilizan claves privadas

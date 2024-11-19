@@ -1,4 +1,4 @@
-question: Pengembang Amerika mana yang menemukan "blok aneh" selama insiden overflow nilai pada 15 Agustus 2010?
+question: Pengembang Amerika mana yang menemukan blok aneh selama insiden overflow nilai pada 15 Agustus 2010?
 answer: Jeff Garzik
 wrong_answers:
   - Gavin Andresen

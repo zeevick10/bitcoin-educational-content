@@ -7,5 +7,5 @@ wrong_answers:
 explanation: |
   La récompense pour le minage est programmée pour être divisée par deux tous les 210 000
   blocs, ce qui correspond à peu près à tous les quatre ans: un événement
-  connu sous le nom de "halving".
+  connu sous le nom de halving.
 reviewed: true

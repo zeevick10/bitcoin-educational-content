@@ -1,4 +1,4 @@
-question: What does the "modulo" operation represent in mathematics?
+question: What does the modulo operation represent in mathematics?
 answer: The remainder of a division
 wrong_answers:
   - The quotient of a division

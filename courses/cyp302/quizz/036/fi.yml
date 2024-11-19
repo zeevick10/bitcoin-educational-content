@@ -1,4 +1,4 @@
-question: Mitä tarkoittaa, että kaksi lukua ovat "keskenään jaottomia"?
+question: Mitä tarkoittaa, että kaksi lukua ovat keskenään jaottomia?
 answer: Niiden suurin yhteinen tekijä on yhtä suuri kuin 1
 wrong_answers:
   - Niiden summa on parillinen luku

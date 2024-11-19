@@ -5,5 +5,5 @@ wrong_answers:
   - Par le processus de Preuve d'autorité (Proof of authority).
   - Par le processus de Preuve de destruction (Proof of burn).
 explanation: >-
-  Les mineurs valident les transactions et les incluent dans un bloc à travers un processus appelé "preuve de travail" (proof of work). Cela implique de résoudre une énigme cryptographique.
+  Les mineurs valident les transactions et les incluent dans un bloc à travers un processus appelé preuve de travail (proof of work). Cela implique de résoudre une énigme cryptographique.
 reviewed: true

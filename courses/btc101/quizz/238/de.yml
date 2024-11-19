@@ -1,4 +1,4 @@
-question: Was ist das Konzept des "Geld-Streamings" im Kontext des Lightning Network?
+question: Was ist das Konzept des Geld-Streamings im Kontext des Lightning Network?
 answer: Durchführung kontinuierlicher, Echtzeit-Mikrozahlungen.
 wrong_answers:
   - Bitcoin an einem physischen Standort mithilfe eines Geldautomaten in Bargeld umwandeln.

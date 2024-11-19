@@ -1,4 +1,4 @@
-question: ¿Verdadero o Falso? "Si uno desea optimizar su privacidad, no debería reutilizar la misma dirección múltiples veces."
+question: ¿Verdadero o Falso? Si uno desea optimizar su privacidad, no debería reutilizar la misma dirección múltiples veces.
 answer: Verdadero.
 wrong_answers:
   - Falso.

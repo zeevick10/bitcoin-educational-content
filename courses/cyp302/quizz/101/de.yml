@@ -1,4 +1,4 @@
-question: Was ist ein "HMAC"?
+question: Was ist ein HMAC?
 answer: Ein Nachrichtenauthentifizierungscode basierend auf einer Hash-Funktion
 wrong_answers:
   - Ein asymmetrisches Verschlüsselungsalgorithmus basierend auf einer Hash-Funktion

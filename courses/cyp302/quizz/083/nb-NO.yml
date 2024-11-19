@@ -1,4 +1,4 @@
-question: Hvorfor brukes "pseudorandom stream ciphers" oftere i praksis enn engangsnøkler?
+question: Hvorfor brukes pseudorandom stream ciphers oftere i praksis enn engangsnøkler?
 answer: De tillater bruk av en kortere nøkkel mens de genererer en lengre nøkkelstrøm
 wrong_answers:
   - De krever ikke en hemmelig nøkkel

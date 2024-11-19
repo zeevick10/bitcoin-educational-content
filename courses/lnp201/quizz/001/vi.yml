@@ -1,4 +1,4 @@
-question: Trong một kênh thanh toán, "sức chứa" của kênh là gì?
+question: Trong một kênh thanh toán, sức chứa của kênh là gì?
 answer: Tổng số tiền mà hai bên tham gia có thể trao đổi
 wrong_answers:
   - Thời hạn mà kênh có thể giữ mở

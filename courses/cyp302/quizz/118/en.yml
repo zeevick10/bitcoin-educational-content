@@ -1,4 +1,4 @@
-question: What role does the byte substitution operation ("S-Box") play in AES encryption?
+question: What role does the byte substitution operation (S-Box) play in AES encryption?
 answer: It introduces confusion by substituting each byte with another
 wrong_answers:
   - It ensures integrity by checking the message bytes

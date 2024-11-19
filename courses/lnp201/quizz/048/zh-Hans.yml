@@ -1,4 +1,4 @@
-question: "Keysend"技术如何实现无需发票即可转账的功能？
+question: Keysend技术如何实现无需发票即可转账的功能？
 answer: 发送方在HTLCs中生成一个秘密来解锁资金
 wrong_answers:
   - 接收方生成一个哈希来验证转账

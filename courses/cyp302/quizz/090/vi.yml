@@ -1,4 +1,4 @@
-question: Tại sao việc xây dựng một "chế độ khối" mã hóa từ một mật mã luồng lại khó khăn?
+question: Tại sao việc xây dựng một chế độ khối mã hóa từ một mật mã luồng lại khó khăn?
 answer: Bởi vì mật mã luồng xử lý dữ liệu một cách liên tục
 wrong_answers:
   - Bởi vì mật mã luồng không sử dụng khóa riêng tư

@@ -1,4 +1,4 @@
-question: Co umožňuje funkce "LNURL-withdraw" uživatelům?
+question: Co umožňuje funkce LNURL-withdraw uživatelům?
 answer: Vybrat prostředky ze služby skenováním QR kódu
 wrong_answers:
   - Provádět přímé platby bez poplatků za přesměrování

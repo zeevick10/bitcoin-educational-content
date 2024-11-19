@@ -6,5 +6,5 @@ wrong_answers:
   - Através do processo de Prova de Queima (Proof of Burn).
 explanation: >-
   Os mineradores validam transações e as incluem em um bloco através de um processo
-  chamado "prova de trabalho" (proof of work). Isso envolve resolver um quebra-cabeça criptográfico.
+  chamado prova de trabalho (proof of work). Isso envolve resolver um quebra-cabeça criptográfico.
 reviewed: true

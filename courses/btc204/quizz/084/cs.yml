@@ -1,4 +1,4 @@
-question: Jaká je role peněženky "post-mix" v protokolu Zerolink?
+question: Jaká je role peněženky post-mix v protokolu Zerolink?
 
 answer: Uložit UTXO po smíchání.
 
@@ -8,6 +8,6 @@ wrong_answers:
   - Uložit konsolidační UTXO.
 
 explanation: |
-  Peněženka "post-mix" je vyhrazena pro mince, které byly smíchány.
+  Peněženka post-mix je vyhrazena pro mince, které byly smíchány.
 
 reviewed: false

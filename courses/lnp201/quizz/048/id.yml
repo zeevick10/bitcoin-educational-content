@@ -1,4 +1,4 @@
-question: Bagaimana teknologi "Keysend" memungkinkan transfer dana tanpa faktur?
+question: Bagaimana teknologi Keysend memungkinkan transfer dana tanpa faktur?
 answer: Pengirim menghasilkan rahasia dalam HTLCs untuk membuka kunci dana
 wrong_answers:
   - Penerima menghasilkan hash untuk memvalidasi transfer

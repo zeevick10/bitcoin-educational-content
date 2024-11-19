@@ -1,4 +1,4 @@
-question: Hva er en "Nonce" i kryptografi?
+question: Hva er en Nonce i kryptografi?
 answer: Et tall ment for å bli brukt én gang.
 wrong_answers:
   - Et partall.

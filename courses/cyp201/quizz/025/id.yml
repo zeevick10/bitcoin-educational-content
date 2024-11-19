@@ -1,4 +1,4 @@
-question: Apa itu "Nonce" dalam kriptografi?
+question: Apa itu Nonce dalam kriptografi?
 answer: Sebuah angka yang dimaksudkan untuk digunakan sekali.
 wrong_answers:
   - Sebuah angka genap.

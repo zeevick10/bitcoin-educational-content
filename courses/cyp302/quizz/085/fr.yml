@@ -1,4 +1,4 @@
-question: Qu'est-ce qu'un "block cipher" en cryptographie ?
+question: Qu'est-ce qu'un block cipher en cryptographie ?
 answer: Un algorithme qui transforme une chaîne de longueur fixe en une autre chaîne de même longueur
 wrong_answers:
   - Un chiffrement asymétrique basé sur des clés publiques et privées secrètes

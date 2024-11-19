@@ -1,4 +1,4 @@
-question: Was stellt die "Modulo"-Operation in der Mathematik dar?
+question: Was stellt die Modulo-Operation in der Mathematik dar?
 answer: Den Rest einer Division
 wrong_answers:
   - Den Quotienten einer Division

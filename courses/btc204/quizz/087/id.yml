@@ -3,7 +3,7 @@ question: Bagaimana Wabisabi mengelola perubahan dibandingkan dengan Wasabi 1.0?
 answer: Ia membaginya menjadi beberapa jumlah kecil yang didistribusikan dalam denominasi yang sama.
 
 wrong_answers:
-  - Ia mengkonsolidasikannya untuk mencegahnya menjadi "debu".
+  - Ia mengkonsolidasikannya untuk mencegahnya menjadi debu.
   - Ia mengecualikannya sebelum transaksi coinjoin dengan menyamakan input.
   - Ia secara otomatis mentransfernya ke dompet cadangan.
 

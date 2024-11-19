@@ -1,4 +1,4 @@
-question: Quelle est la principale source de confusion entre les termes "block cipher" et "stream cipher" ?
+question: Quelle est la principale source de confusion entre les termes block cipher et stream cipher ?
 answer: Les block ciphers sont parfois compris uniquement comme des algorithmes utilisant des modes de blocs comme ECB ou CBC
 wrong_answers:
   - Les stream ciphers sont toujours moins sécurisés que les block ciphers

@@ -1,4 +1,4 @@
-question: O que a operação "módulo" representa em matemática?
+question: O que a operação módulo representa em matemática?
 answer: O resto de uma divisão
 wrong_answers:
   - O quociente de uma divisão

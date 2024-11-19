@@ -1,9 +1,9 @@
-question: Regarding the notation of a derivation path, what does the apostrophe or the "H" noted to the right of the number mean? Example m/84'/0'.
+question: Regarding the notation of a derivation path, what does the apostrophe or the H noted to the right of the number mean? Example m/84'/0'.
 answer: It indicates a hardened derivation.
 wrong_answers:
   - It indicates a normal derivation.
   - It's there for decoration.
   - It indicates a change key.
 explanation: |
-  The apostrophe or "H" in a derivation path indicates a hardened derivation, which uses the parent private key and the corresponding index range.
+  The apostrophe or H in a derivation path indicates a hardened derivation, which uses the parent private key and the corresponding index range.
 reviewed: false

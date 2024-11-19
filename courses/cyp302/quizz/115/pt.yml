@@ -1,4 +1,4 @@
-question: O que significa o termo "difusão" no contexto da criptografia AES?
+question: O que significa o termo difusão no contexto da criptografia AES?
 answer: Uma mudança no texto original resulta em uma mudança significativa no texto cifrado
 wrong_answers:
   - O texto cifrado tem sempre o mesmo comprimento

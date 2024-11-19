@@ -5,4 +5,4 @@ wrong_answers:
   - Veřejný klíč, který generuje adresy Bitcoinu
   - Částka bitcoinu rozdělená do několika částí
 explanation: |
-  UTXO, neboli "Unspent Transaction Output" (nevyužitý výstup transakce), představuje určitou částku bitcoinů, kterou držitel může použít.
+  UTXO, neboli Unspent Transaction Output (nevyužitý výstup transakce), představuje určitou částku bitcoinů, kterou držitel může použít.

@@ -1,8 +1,8 @@
 question: Awalan atau HRP apa yang sesuai dengan alamat standar SegWit?
-answer: "bc"
+answer: bc
 wrong_answers:
-  - "1"
-  - "0x"
-  - "btc"
+  - 1
+  - 0x
+  - btc
 explanation: |
-  Awalan "bc" digunakan untuk alamat SegWit di mainnet Bitcoin.
+  Awalan bc digunakan untuk alamat SegWit di mainnet Bitcoin.

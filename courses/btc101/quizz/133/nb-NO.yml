@@ -5,5 +5,5 @@ wrong_answers:
   - Proof of authority
   - Proof of burn
 explanation: >-
-  Gruvearbeidere validerer transaksjoner og inkluderer dem i en blokk gjennom en prosess kalt "proof of work". Dette innebærer å løse et kryptografisk puslespill.
+  Gruvearbeidere validerer transaksjoner og inkluderer dem i en blokk gjennom en prosess kalt proof of work. Dette innebærer å løse et kryptografisk puslespill.
 reviewed: false

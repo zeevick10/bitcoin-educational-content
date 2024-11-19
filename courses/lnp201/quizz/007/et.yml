@@ -5,5 +5,5 @@ wrong_answers:
   - Neid saab kasutada ainult teatud kindlates tehingutes
   - Need esindavad väikeseid fikseeritud summasid bitcoinides
 explanation: |
-  Nagu pangatähe puhul, tuleb UTXO kulutada tehingus täielikult ja ülejääk tagastatakse saatjale kui "vahetusraha".
+  Nagu pangatähe puhul, tuleb UTXO kulutada tehingus täielikult ja ülejääk tagastatakse saatjale kui vahetusraha.
 reviewed: false

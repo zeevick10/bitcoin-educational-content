@@ -1,4 +1,4 @@
-question: Mida võimaldab kasutajatel teha "LNURL-withdraw" funktsioon?
+question: Mida võimaldab kasutajatel teha LNURL-withdraw funktsioon?
 answer: Vahendite väljavõtmine teenusest QR-koodi skaneerides
 wrong_answers:
   - Teha otsemakseid ilma suunamistasudeta

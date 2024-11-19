@@ -1,4 +1,4 @@
-question: Was bedeutet es, wenn zwei Zahlen "teilerfremd" sind?
+question: Was bedeutet es, wenn zwei Zahlen teilerfremd sind?
 answer: Ihr größter gemeinsamer Teiler ist gleich 1
 wrong_answers:
   - Ihre Summe ist eine gerade Zahl

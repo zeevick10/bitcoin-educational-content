@@ -1,4 +1,4 @@
-question: Hai số được gọi là "nguyên tố cùng nhau" có nghĩa là gì?
+question: Hai số được gọi là nguyên tố cùng nhau có nghĩa là gì?
 answer: Ước chung lớn nhất của chúng bằng 1
 wrong_answers:
   - Tổng của chúng là một số chẵn

@@ -5,5 +5,5 @@ wrong_answers:
   - La préoccupation future est que le nombre de blocs Bitcoin dépassera la capacité du réseau.
   - La préoccupation future est que la complexité des blocs Bitcoin augmentera, les rendant difficiles à traiter.
 explanation: |
-  Avec la croissance attendue du Lightning Network et l'augmentation conséquente des ouvertures et fermetures de canaux, l'espace dans les blocs Bitcoin deviendra de plus en plus précieux. Cela a conduit à des discussions sur l'utilisation légitime de l'espace des blocs, avec des préoccupations concernant le "spam" sur la blockchain provenant de transactions considérées comme non essentielles.
+  Avec la croissance attendue du Lightning Network et l'augmentation conséquente des ouvertures et fermetures de canaux, l'espace dans les blocs Bitcoin deviendra de plus en plus précieux. Cela a conduit à des discussions sur l'utilisation légitime de l'espace des blocs, avec des préoccupations concernant le spam sur la blockchain provenant de transactions considérées comme non essentielles.
 reviewed: true

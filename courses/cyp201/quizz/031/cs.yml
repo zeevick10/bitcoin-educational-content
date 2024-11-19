@@ -5,4 +5,4 @@ wrong_answers:
   - Každý klíčový pár v peněžence je určen deterministicky z předchozího klíčového páru.
   - Všechny klíčové páry jsou náhodné a bez hierarchického propojení.
 explanation: |
-  V HD peněženkách jsou všechny klíče odvozeny z jedinečného kusu informace nazývaného "seed" (semeno), což umožňuje hierarchické a deterministické řízení klíčů.
+  V HD peněženkách jsou všechny klíče odvozeny z jedinečného kusu informace nazývaného seed (semeno), což umožňuje hierarchické a deterministické řízení klíčů.

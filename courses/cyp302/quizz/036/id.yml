@@ -1,4 +1,4 @@
-question: Apa artinya dua angka tersebut "koprima"?
+question: Apa artinya dua angka tersebut koprima?
 answer: Pembagi terbesar bersama mereka sama dengan 1
 wrong_answers:
   - Jumlah mereka adalah angka genap

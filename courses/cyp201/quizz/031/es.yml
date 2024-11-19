@@ -5,4 +5,4 @@ wrong_answers:
   - Cada par de claves en la cartera se determina de manera determinista a partir del par de claves anterior.
   - Los pares de claves son todos aleatorios y sin vinculación jerárquica.
 explanation: |
-  En las carteras HD, todas las claves se derivan de una pieza única de información llamada "semilla", lo que permite una gestión jerárquica y determinista de las claves.
+  En las carteras HD, todas las claves se derivan de una pieza única de información llamada semilla, lo que permite una gestión jerárquica y determinista de las claves.

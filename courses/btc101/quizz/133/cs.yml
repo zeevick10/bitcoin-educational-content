@@ -5,5 +5,5 @@ wrong_answers:
   - Prostřednictvím procesu Proof of authority (Důkaz autority).
   - Prostřednictvím procesu Proof of burn (Důkaz spálením).
 explanation: >-
-  Těžaři ověřují transakce a zařazují je do bloku prostřednictvím procesu nazývaného "proof of work" (Důkaz práce). To zahrnuje řešení kryptografické hádanky.
+  Těžaři ověřují transakce a zařazují je do bloku prostřednictvím procesu nazývaného proof of work (Důkaz práce). To zahrnuje řešení kryptografické hádanky.
 reviewed: true

@@ -8,6 +8,6 @@ wrong_answers:
   - Deposit účet.
 
 explanation: |
-  Změna, která nemohla vstoupit do poolu, je izolována na účtu "doxxic change", aby bylo zajištěno striktní oddělení od ostatních UTXO v peněžence.
+  Změna, která nemohla vstoupit do poolu, je izolována na účtu doxxic change, aby bylo zajištěno striktní oddělení od ostatních UTXO v peněžence.
 
 reviewed: false

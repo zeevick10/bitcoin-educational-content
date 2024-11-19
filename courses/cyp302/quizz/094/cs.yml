@@ -1,4 +1,4 @@
-question: Jaký je hlavní zdroj zmatku mezi termíny "bloková šifra" a "proudová šifra"?
+question: Jaký je hlavní zdroj zmatku mezi termíny bloková šifra a proudová šifra?
 answer: Blokové šifry jsou někdy chápány výhradně jako algoritmy používající blokové módy jako ECB nebo CBC.
 wrong_answers:
   - Proudové šifry jsou vždy méně bezpečné než blokové šifry.

@@ -6,5 +6,5 @@ wrong_answers:
   - Una lista di 64 parole.
 explanation: |
   In un portafoglio Bitcoin, la chiave privata è spesso rappresentata
-  da una lista di 12 o 24 parole, nota anche come "frase seed"
-  o "frase mnemonica".
+  da una lista di 12 o 24 parole, nota anche come frase seed
+  o frase mnemonica.

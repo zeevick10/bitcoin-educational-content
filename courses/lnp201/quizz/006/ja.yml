@@ -5,4 +5,4 @@ wrong_answers:
   - Bitcoinアドレスを生成する公開鍵
   - 複数の部分に分割されたビットコインの量
 explanation: |
-  UTXO、または"Unspent Transaction Output"は、未使用のトランザクション出力を指し、保持者が使用できる特定の量のビットコインを表します。
+  UTXO、またはUnspent Transaction Outputは、未使用のトランザクション出力を指し、保持者が使用できる特定の量のビットコインを表します。

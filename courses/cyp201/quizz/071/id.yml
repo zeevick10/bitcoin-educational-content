@@ -1,4 +1,4 @@
-question: Benar atau Salah? "Seseorang dapat menentukan kunci publik hanya dengan mengetahui alamat SegWitv0-nya."
+question: Benar atau Salah? Seseorang dapat menentukan kunci publik hanya dengan mengetahui alamat SegWitv0-nya.
 answer: Salah.
 wrong_answers:
   - Benar.

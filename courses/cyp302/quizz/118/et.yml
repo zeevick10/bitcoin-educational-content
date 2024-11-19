@@ -1,4 +1,4 @@
-question: Mis rolli mängib baitide asendamise operatsioon ("S-Box") AES krüpteerimises?
+question: Mis rolli mängib baitide asendamise operatsioon (S-Box) AES krüpteerimises?
 answer: See toob sisse segadust, asendades iga baiti teisega
 wrong_answers:
   - See tagab terviklikkuse, kontrollides sõnumi baite

@@ -1,4 +1,4 @@
-question: Mikä on "Nonce" kryptografiassa?
+question: Mikä on Nonce kryptografiassa?
 answer: Numero, joka on tarkoitettu käytettäväksi vain kerran.
 wrong_answers:
   - Parillinen numero.

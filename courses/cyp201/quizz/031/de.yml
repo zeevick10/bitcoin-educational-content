@@ -5,4 +5,4 @@ wrong_answers:
   - Jedes Schlüsselpaar im Wallet wird deterministisch aus dem vorherigen Schlüsselpaar bestimmt.
   - Die Schlüsselpaare sind alle zufällig und ohne hierarchische Verbindung.
 explanation: |
-  In HD-Wallets werden alle Schlüssel von einem einzigartigen Informationsstück abgeleitet, das als "Seed" bezeichnet wird, was eine hierarchische und deterministische Verwaltung von Schlüsseln ermöglicht.
+  In HD-Wallets werden alle Schlüssel von einem einzigartigen Informationsstück abgeleitet, das als Seed bezeichnet wird, was eine hierarchische und deterministische Verwaltung von Schlüsseln ermöglicht.

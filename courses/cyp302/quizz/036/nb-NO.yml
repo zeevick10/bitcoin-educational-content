@@ -1,4 +1,4 @@
-question: Hva betyr det at to tall er "innbyrdes primiske"?
+question: Hva betyr det at to tall er innbyrdes primiske?
 answer: Deres største felles divisor er lik 1
 wrong_answers:
   - Summen av dem er et partall

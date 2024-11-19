@@ -8,6 +8,6 @@ wrong_answers:
   - Vahendusteenus, mis valib osalejad käsitsi.
 
 explanation: |
-  JoinMarket toimib P2P vahetusturuna, kus mõned kasutajad, "pakkujad", pakuvad oma bitcoine segamiseks, samal ajal kui teised, "võtjad", kasutavad neid vahendeid coinjoinide sooritamiseks tasu eest.
+  JoinMarket toimib P2P vahetusturuna, kus mõned kasutajad, pakkujad, pakuvad oma bitcoine segamiseks, samal ajal kui teised, võtjad, kasutavad neid vahendeid coinjoinide sooritamiseks tasu eest.
 
 reviewed: false

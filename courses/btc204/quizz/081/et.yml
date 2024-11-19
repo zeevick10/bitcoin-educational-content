@@ -8,6 +8,6 @@ wrong_answers:
   - P2TR aadressid.
 
 explanation: |
-  Niinimetatud "Chaumiani" coinjoinides kasutatakse Tori ja David Chaumi pimedaid allkirju selleks, et tagada, et koordinaator ei saa teada, milline väljund kuulub millisele kasutajale.
+  Niinimetatud Chaumiani coinjoinides kasutatakse Tori ja David Chaumi pimedaid allkirju selleks, et tagada, et koordinaator ei saa teada, milline väljund kuulub millisele kasutajale.
 
 reviewed: false

@@ -1,4 +1,4 @@
-question: Co znamená, když jsou dvě čísla "nesoudělná"?
+question: Co znamená, když jsou dvě čísla nesoudělná?
 answer: Jejich největší společný dělitel je roven 1
 wrong_answers:
   - Jejich součet je sudé číslo

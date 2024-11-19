@@ -1,4 +1,4 @@
-question: O que significa o termo "champ premier" ou "corps premier"?
+question: O que significa o termo champ premier ou corps premier?
 answer: Um campo com um número primo de elementos
 wrong_answers:
   - Um campo que contém apenas números primos

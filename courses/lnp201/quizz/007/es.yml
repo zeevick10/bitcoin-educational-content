@@ -5,4 +5,4 @@ wrong_answers:
   - Solo son utilizables en ciertas transacciones específicas
   - Representan pequeñas cantidades fijas de bitcoins
 explanation: |
-  Al igual que un billete de banco, un UTXO debe gastarse completamente en una transacción, y cualquier exceso se devuelve al emisor como "cambio".
+  Al igual que un billete de banco, un UTXO debe gastarse completamente en una transacción, y cualquier exceso se devuelve al emisor como cambio.

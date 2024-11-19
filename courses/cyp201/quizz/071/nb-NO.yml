@@ -1,4 +1,4 @@
-question: Sant eller Usant? "Man kan bestemme en offentlig nøkkel ved kun å kjenne til dens SegWitv0-adresse."
+question: Sant eller Usant? Man kan bestemme en offentlig nøkkel ved kun å kjenne til dens SegWitv0-adresse.
 answer: Usant.
 wrong_answers:
   - Sant.

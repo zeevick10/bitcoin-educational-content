@@ -1,4 +1,4 @@
-question: O que é um "Nonce" em criptografia?
+question: O que é um Nonce em criptografia?
 answer: Um número destinado a ser usado uma vez.
 wrong_answers:
   - Um número par.

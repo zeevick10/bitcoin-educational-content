@@ -1,4 +1,4 @@
-question: Tính năng "LNURL-withdraw" cho phép người dùng làm gì?
+question: Tính năng LNURL-withdraw cho phép người dùng làm gì?
 answer: Rút tiền từ một dịch vụ bằng cách quét mã QR
 wrong_answers:
   - Thực hiện thanh toán trực tiếp mà không cần phí định tuyến

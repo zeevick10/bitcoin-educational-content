@@ -5,5 +5,5 @@ wrong_answers:
   - Qua quá trình Chứng minh quyền lực (Proof of authority).
   - Qua quá trình Chứng minh tiêu hao (Proof of burn).
 explanation: >-
-  Các thợ đào xác thực các giao dịch và bao gồm chúng vào một khối qua một quá trình gọi là "chứng minh công việc" (proof of work). Điều này bao gồm việc giải một câu đố mật mã.
+  Các thợ đào xác thực các giao dịch và bao gồm chúng vào một khối qua một quá trình gọi là chứng minh công việc (proof of work). Điều này bao gồm việc giải một câu đố mật mã.
 reviewed: true

@@ -1,4 +1,4 @@
-question: Que signifie pour deux nombres d'être "copremiers" ?
+question: Que signifie pour deux nombres d'être copremiers ?
 answer: Leur plus grand diviseur commun est égal à 1
 wrong_answers:
   - Leur somme est un nombre pair

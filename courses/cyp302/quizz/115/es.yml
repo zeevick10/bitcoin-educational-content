@@ -1,4 +1,4 @@
-question: ¿Qué significa el término "difusión" en el contexto de la encriptación AES?
+question: ¿Qué significa el término difusión en el contexto de la encriptación AES?
 answer: Un cambio en el texto plano resulta en un cambio significativo en el texto cifrado
 wrong_answers:
   - El texto cifrado siempre tiene la misma longitud

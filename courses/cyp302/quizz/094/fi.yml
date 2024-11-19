@@ -1,4 +1,4 @@
-question: Mikä on pääasiallinen sekaannuksen lähde termejen "lohkosalaus" ja "virtasalaus" välillä?
+question: Mikä on pääasiallinen sekaannuksen lähde termejen lohkosalaus ja virtasalaus välillä?
 answer: Lohkosalausta ymmärretään joskus vain algoritmeina, jotka käyttävät lohkomuotoja kuten ECB tai CBC.
 wrong_answers:
   - Virtasalaukset ovat aina vähemmän turvallisia kuin lohkosalaukset.

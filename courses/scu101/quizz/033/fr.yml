@@ -1,4 +1,4 @@
-question: Quel est l'inconvénient potentiel de créer une sauvegarde "cloud" en utilisant des services comme ProtonMail Drive, Sync ou Google Drive ?
+question: Quel est l'inconvénient potentiel de créer une sauvegarde cloud en utilisant des services comme ProtonMail Drive, Sync ou Google Drive ?
 answer: Vos données sont potentiellement sur internet et détenues par un tiers de confiance.
 wrong_answers:
   - Ces services ne sont potentiellement pas fiables pour la sauvegarde des données.

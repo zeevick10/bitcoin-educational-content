@@ -1,4 +1,4 @@
-question: Mikä on käsite "rahan suoratoisto" Lightning-verkon kontekstissa?
+question: Mikä on käsite rahan suoratoisto Lightning-verkon kontekstissa?
 answer: Jatkuvien, reaaliaikaisten mikromaksujen tekeminen.
 wrong_answers:
   - Bitcoinin muuntaminen käteiseksi fyysisessä sijainnissa käyttäen pankkiautomaattia.

@@ -1,9 +1,9 @@
-question: Was bedeutet das Präfix "0x"?
+question: Was bedeutet das Präfix 0x?
 answer: Die Zahl nach diesem Präfix wird im 16er-System (hexadezimal) ausgedrückt.
 wrong_answers:
   - Die Zahl nach diesem Präfix wird im 2er-System (binär) ausgedrückt.
   - Die Zahl nach diesem Präfix wird im 10er-System (dezimal) ausgedrückt.
   - Die Zahl nach diesem Präfix wird im 8er-System (oktal) ausgedrückt.
 explanation: |
-  Das Präfix "0x" zeigt an, dass die nachfolgende Zahl im 16er-System (hexadezimal) ausgedrückt wird.
+  Das Präfix 0x zeigt an, dass die nachfolgende Zahl im 16er-System (hexadezimal) ausgedrückt wird.
 reviewed: false

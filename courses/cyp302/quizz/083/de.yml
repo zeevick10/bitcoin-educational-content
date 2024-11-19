@@ -1,4 +1,4 @@
-question: Warum werden "Pseudorandom Stream Ciphers" in der Praxis häufiger verwendet als One-Time Pads?
+question: Warum werden Pseudorandom Stream Ciphers in der Praxis häufiger verwendet als One-Time Pads?
 answer: Sie ermöglichen die Verwendung eines kürzeren Schlüssels, während ein längerer Schlüsselstrom generiert wird
 wrong_answers:
   - Sie erfordern keinen geheimen Schlüssel

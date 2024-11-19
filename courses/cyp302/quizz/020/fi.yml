@@ -1,4 +1,4 @@
-question: Mitä "modulo"-operaatio edustaa matematiikassa?
+question: Mitä modulo-operaatio edustaa matematiikassa?
 answer: Jaon jäännös
 wrong_answers:
   - Jaon osamäärä

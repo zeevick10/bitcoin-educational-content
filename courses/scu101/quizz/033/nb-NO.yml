@@ -1,4 +1,4 @@
-question: Hva er den potensielle ulempen med å opprette en "sky" backup ved hjelp av tjenester som ProtonMail Drive, Sync eller Google Drive?
+question: Hva er den potensielle ulempen med å opprette en sky backup ved hjelp av tjenester som ProtonMail Drive, Sync eller Google Drive?
 answer: Dine data er potensielt på internett og holdes av en betrodd tredjepart.
 wrong_answers:
   - Disse tjenestene er ikke pålitelige for databackup.

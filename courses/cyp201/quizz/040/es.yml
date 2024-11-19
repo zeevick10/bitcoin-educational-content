@@ -2,7 +2,7 @@ question: ¿Cuál es la característica única de la lista de 2048 palabras que 
 answer: Ninguna palabra tiene las mismas primeras cuatro letras en el mismo orden.
 wrong_answers:
   - Ninguna palabra tiene las mismas últimas tres letras.
-  - Ninguna palabra comienza con la letra "J".
+  - Ninguna palabra comienza con la letra J.
   - Ninguna palabra tiene más de seis letras de longitud.
 explanation: |
   Esta característica ayuda a evitar cualquier ambigüedad al ingresar las palabras, asegurando así la unicidad de cada palabra en la lista, al mismo tiempo que reduce el espacio de almacenamiento necesario.

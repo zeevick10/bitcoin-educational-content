@@ -1,4 +1,4 @@
-question: 真或假？"仅凭其SegWitv0地址，就可以确定一个公钥。"
+question: 真或假？仅凭其SegWitv0地址，就可以确定一个公钥。
 answer: 假。
 wrong_answers:
   - 真。

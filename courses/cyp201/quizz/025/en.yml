@@ -1,4 +1,4 @@
-question: What is a "Nonce" in cryptography?
+question: What is a Nonce in cryptography?
 answer: A number intended to be used once.
 wrong_answers:
   - An even number.

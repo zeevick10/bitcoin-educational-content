@@ -5,5 +5,5 @@ wrong_answers:
   - Se ei toimi yli 128 bitin viestien kanssa
   - Se ei toimi yli 256 bitin viestien kanssa
 explanation: |
-  ECB-menetelmä ("Electronic Code Book") on deterministinen: identtiset datalohkot salataan samalla tavalla, mikä mahdollistaa kuvioden havaitsemisen salatussa tekstissä.
+  ECB-menetelmä (Electronic Code Book) on deterministinen: identtiset datalohkot salataan samalla tavalla, mikä mahdollistaa kuvioden havaitsemisen salatussa tekstissä.
 reviewed: false

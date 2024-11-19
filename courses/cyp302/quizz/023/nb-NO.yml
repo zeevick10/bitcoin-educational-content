@@ -3,7 +3,7 @@ answer: Den sørger for at bokstavene returnerer til begynnelsen av alfabetet n�
 wrong_answers:
   - Den multipliserer bokstavenes verdier med nøkkelen
   - Den reverserer bokstavene i alfabetet
-  - Den sletter bokstavene etter bokstaven "Z"
+  - Den sletter bokstavene etter bokstaven Z
 explanation: |
-  Modulo 26-operasjonen lar bokstavene loope tilbake etter "Z" for å sikre at hver krypterte bokstav forblir innenfor de 26 bokstavene i alfabetet.
+  Modulo 26-operasjonen lar bokstavene loope tilbake etter Z for å sikre at hver krypterte bokstav forblir innenfor de 26 bokstavene i alfabetet.
 reviewed: false

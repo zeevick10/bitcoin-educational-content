@@ -1,4 +1,4 @@
-question: Cosa significa se due numeri sono "coprimi"?
+question: Cosa significa se due numeri sono coprimi?
 answer: Il loro massimo comune divisore è uguale a 1
 wrong_answers:
   - La loro somma è un numero pari

@@ -1,4 +1,4 @@
-question: "Nonce" trong mật mã học là gì?
+question: Nonce trong mật mã học là gì?
 answer: Một số được dùng với mục đích sử dụng một lần.
 wrong_answers:
   - Một số chẵn.

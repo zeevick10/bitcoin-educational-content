@@ -5,5 +5,5 @@ wrong_answers:
   - See ei tööta sõnumitega, mis on üle 128 biti
   - See ei tööta sõnumitega, mis on üle 256 biti
 explanation: |
-  ECB meetod ("Electronic Code Book") on deterministlik: identsed andmeblokid krüpteeritakse samal viisil, mis võimaldab krüpteeritud tekstis tuvastada mustreid.
+  ECB meetod (Electronic Code Book) on deterministlik: identsed andmeblokid krüpteeritakse samal viisil, mis võimaldab krüpteeritud tekstis tuvastada mustreid.
 reviewed: false

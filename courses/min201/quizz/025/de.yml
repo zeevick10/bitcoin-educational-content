@@ -7,5 +7,5 @@ wrong_answers:
 explanation: |
   Die Basisschicht des Bitcoin-Netzwerks, auf die das Lightning
   Network für das Öffnen und Schließen von Zahlungskanälen
-  angewiesen ist, wird oft als "Abwicklungsschicht" bezeichnet.
+  angewiesen ist, wird oft als Abwicklungsschicht bezeichnet.
 reviewed: true

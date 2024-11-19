@@ -1,4 +1,4 @@
-question: Proč je obtížné konstruovat šifrování "blokového módu" z proudové šifry?
+question: Proč je obtížné konstruovat šifrování blokového módu z proudové šifry?
 answer: Protože proudové šifry zpracovávají data kontinuálně
 wrong_answers:
   - Protože proudové šifry nepoužívají soukromé klíče

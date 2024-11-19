@@ -1,4 +1,4 @@
-question: "HMAC"とは何ですか？
+question: HMACとは何ですか？
 answer: ハッシュ関数に基づくメッセージ認証コード
 wrong_answers:
   - ハッシュ関数に基づく非対称暗号アルゴリズム

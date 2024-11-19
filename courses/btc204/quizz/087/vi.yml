@@ -3,7 +3,7 @@ question: Wabisabi quản lý sự thay đổi so với Wasabi 1.0 như thế n�
 answer: Nó chia nhỏ chúng thành nhiều số lượng nhỏ được phân phối theo các mệnh giá bằng nhau.
 
 wrong_answers:
-  - Nó kết hợp chúng lại để ngăn chúng trở thành "bụi".
+  - Nó kết hợp chúng lại để ngăn chúng trở thành bụi.
   - Nó loại bỏ chúng trước giao dịch coinjoin bằng cách làm cho các đầu vào bằng nhau.
   - Nó tự động chuyển chúng vào một ví dự trữ.
 

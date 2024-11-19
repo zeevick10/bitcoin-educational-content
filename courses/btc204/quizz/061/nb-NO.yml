@@ -1,4 +1,4 @@
-question: Hva er formålet med "coin control"-alternativet i Bitcoin-lommebokprogramvare?
+question: Hva er formålet med coin control-alternativet i Bitcoin-lommebokprogramvare?
 
 answer: Å velge hvilke UTXOer som skal brukes som inndata for transaksjoner.
 

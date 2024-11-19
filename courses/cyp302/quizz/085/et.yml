@@ -1,4 +1,4 @@
-question: Mis on "block cipher" krüptograafias?
+question: Mis on block cipher krüptograafias?
 answer: Algoritm, mis teisendab fikseeritud pikkusega sõne teiseks samasuguse pikkusega sõneks
 wrong_answers:
   - Asümmeetriline krüpteering, mis põhineb avalikel ja privaatsetel salajastel võtmetel

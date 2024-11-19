@@ -1,4 +1,4 @@
-question: Apa itu "HMAC"?
+question: Apa itu HMAC?
 answer: Kode otentikasi pesan berbasis fungsi hash
 wrong_answers:
   - Algoritma enkripsi asimetris berbasis fungsi hash

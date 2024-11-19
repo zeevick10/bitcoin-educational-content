@@ -1,4 +1,4 @@
-question: Miksi "pseudosatunnaisvirtasalaukset" ovat käytännössä yleisempiä kuin kertakäyttösalaukset?
+question: Miksi pseudosatunnaisvirtasalaukset ovat käytännössä yleisempiä kuin kertakäyttösalaukset?
 answer: Ne mahdollistavat lyhyemmän avaimen käytön pidemmän avainvirran luomiseen
 wrong_answers:
   - Ne eivät vaadi salaisen avaimen käyttöä

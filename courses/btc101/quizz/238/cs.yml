@@ -1,4 +1,4 @@
-question: Co je koncept "money streaming" v kontextu Lightning Network?
+question: Co je koncept money streaming v kontextu Lightning Network?
 answer: Provádění nepřetržitých, v reálném čase mikroplateb.
 wrong_answers:
   - Převádění Bitcoinu na hotovost na fyzickém místě pomocí bankomatu.

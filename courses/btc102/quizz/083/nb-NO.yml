@@ -5,7 +5,7 @@ wrong_answers:
   - Det tillater anonyme transaksjoner.
   - Det gir en plattform for handel med Bitcoin.
 explanation: |
-  Lightning Network er et "lag 2" betalingsprotokoll som opererer på
+  Lightning Network er et lag 2 betalingsprotokoll som opererer på
   toppen av en blockchain-basert kryptovaluta som Bitcoin. Det er designet for å muliggjøre
   raske, kostnadseffektive transaksjoner.
 reviewed: false

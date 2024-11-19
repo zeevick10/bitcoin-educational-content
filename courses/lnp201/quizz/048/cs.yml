@@ -1,4 +1,4 @@
-question: Jak technologie "Keysend" umožňuje převod finančních prostředků bez faktury?
+question: Jak technologie Keysend umožňuje převod finančních prostředků bez faktury?
 answer: Odesílatel generuje tajemství v HTLCs pro odemčení prostředků
 wrong_answers:
   - Příjemce generuje hash pro ověření převodu

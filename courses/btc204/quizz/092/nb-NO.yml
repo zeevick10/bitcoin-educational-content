@@ -8,4 +8,4 @@ wrong_answers:
   - Innskuddskonto.
 
 explanation: |
-  Endringen som ikke kunne bli med i poolen, isoleres i "doxxic change"-kontoen, for å sikre en streng separasjon fra de andre UTXO-ene i lommeboken.
+  Endringen som ikke kunne bli med i poolen, isoleres i doxxic change-kontoen, for å sikre en streng separasjon fra de andre UTXO-ene i lommeboken.

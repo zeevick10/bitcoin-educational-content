@@ -5,4 +5,4 @@ wrong_answers:
   - Bằng cách nhân khóa với mỗi chữ cái đã mã hóa
   - Bằng cách chia khóa cho mỗi chữ cái đã mã hóa và áp dụng modulo 27
 explanation: |
-  Trong mật mã dịch chuyển, giải mã được thực hiện bằng cách trừ khóa ra khỏi mỗi chữ cái đã mã hóa, sau đó áp dụng modulo 26 để trở về với văn bản gốc. Modulo 26 cho phép quay trở lại với điểm bắt đầu của bảng chữ cái sau chữ "Z".
+  Trong mật mã dịch chuyển, giải mã được thực hiện bằng cách trừ khóa ra khỏi mỗi chữ cái đã mã hóa, sau đó áp dụng modulo 26 để trở về với văn bản gốc. Modulo 26 cho phép quay trở lại với điểm bắt đầu của bảng chữ cái sau chữ Z.

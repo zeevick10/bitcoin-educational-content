@@ -1,4 +1,4 @@
-question: Totta vai tarua? "Julkisen avaimen voi määrittää tietämällä vain sen SegWitv0-osoitteen."
+question: Totta vai tarua? Julkisen avaimen voi määrittää tietämällä vain sen SegWitv0-osoitteen.
 answer: Tarua.
 wrong_answers:
   - Totta.

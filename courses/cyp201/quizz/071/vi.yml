@@ -1,4 +1,4 @@
-question: Đúng hay Sai? "Người ta có thể xác định khóa công khai chỉ bằng cách biết địa chỉ SegWitv0 của nó."
+question: Đúng hay Sai? Người ta có thể xác định khóa công khai chỉ bằng cách biết địa chỉ SegWitv0 của nó.
 answer: Sai.
 wrong_answers:
   - Đúng.

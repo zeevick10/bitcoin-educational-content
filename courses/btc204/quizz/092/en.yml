@@ -8,6 +8,6 @@ wrong_answers:
   - Deposit account.
 
 explanation: |
-  The change that could not join the pool is isolated in the “doxxic change" account, to ensure a strict separation from the other UTXOs in the wallet.
+  The change that could not join the pool is isolated in the “doxxic change account, to ensure a strict separation from the other UTXOs in the wallet.
 
 reviewed: false

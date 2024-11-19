@@ -5,5 +5,5 @@ wrong_answers:
   - Sie addiert die Bits und gibt die Summe zurück
   - Sie gibt unabhängig vom Ergebnis immer 0 zurück
 explanation: |
-  Die XOR-Operation (oder "exklusives Oder") erzeugt 1, wenn die beiden Bits unterschiedlich sind (0 und 1 oder 1 und 0) und 0, wenn sie gleich sind.
+  Die XOR-Operation (oder exklusives Oder) erzeugt 1, wenn die beiden Bits unterschiedlich sind (0 und 1 oder 1 und 0) und 0, wenn sie gleich sind.
 reviewed: false

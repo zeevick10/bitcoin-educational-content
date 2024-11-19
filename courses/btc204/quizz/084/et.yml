@@ -1,4 +1,4 @@
-question: Mis on "post-mix" rahakoti roll Zerolink protokollis?
+question: Mis on post-mix rahakoti roll Zerolink protokollis?
 
 answer: Hoida UTXO-sid peale segamist.
 
@@ -8,6 +8,6 @@ wrong_answers:
   - Hoida konsolideerimise UTXO-sid.
 
 explanation: |
-  "Post-mix" rahakott on reserveeritud müntidele, mis on segatud.
+  Post-mix rahakott on reserveeritud müntidele, mis on segatud.
 
 reviewed: false

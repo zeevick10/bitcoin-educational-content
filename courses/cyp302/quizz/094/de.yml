@@ -1,4 +1,4 @@
-question: Was ist die Hauptquelle der Verwirrung zwischen den Begriffen "Blockchiffre" und "Stromchiffre"?
+question: Was ist die Hauptquelle der Verwirrung zwischen den Begriffen Blockchiffre und Stromchiffre?
 
 answer: Blockchiffren werden manchmal ausschließlich als Algorithmen verstanden, die Blockmodi wie ECB oder CBC verwenden.
 

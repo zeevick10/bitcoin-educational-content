@@ -6,5 +6,5 @@ wrong_answers:
   - Une liste de 64 mots.
 explanation: |
   Dans un portefeuille Bitcoin, la clé privée est souvent représentée
-  par une liste de 12 ou 24 mots, également connue sous le nom de "phrase de récupération"
-  ou "phrase mnémonique".
+  par une liste de 12 ou 24 mots, également connue sous le nom de phrase de récupération
+  ou phrase mnémonique.
