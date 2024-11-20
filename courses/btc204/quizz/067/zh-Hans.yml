@@ -10,4 +10,4 @@ wrong_answers:
 explanation:
   外部观察者可以应用CIOH来假设一次整合的所有输入属于同一个实体。
 
-reviewed:否
+reviewed: true

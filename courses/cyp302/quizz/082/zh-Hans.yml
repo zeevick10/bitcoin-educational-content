@@ -6,4 +6,4 @@ wrong_answers:
   - 因为它只加密小消息
 explanation:
   一次性密码本之所以安全，是因为密钥的每一位都是随机的，并且从不重用，确保它不留下可供攻击者利用的痕迹。
-reviewed:否
+reviewed: true

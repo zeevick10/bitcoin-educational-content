@@ -6,4 +6,4 @@ wrong_answers:
   - 它们使用多种语言书写
 explanation:
   这三段加密文本由逗号分隔的数字序列组成，需要一个密钥才能解密。
-reviewed:否
+reviewed: true

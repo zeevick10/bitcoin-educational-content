@@ -6,4 +6,4 @@ wrong_answers:
   - 促销内容
 explanation:
   电子邮件附件和图片中可能包含恶意软件。因此，您不应该下载或打开来自未知或可疑发送者的附件。
-reviewed:否
+reviewed: true
