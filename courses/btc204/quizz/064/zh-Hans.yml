@@ -10,4 +10,4 @@ wrong_answers:
 explanation:
   标签由钱包软件在本地存储，且从不通过比特币网络传输。因此，标签是一种个人管理工具。
 
-  审核：false
+reviewed:false

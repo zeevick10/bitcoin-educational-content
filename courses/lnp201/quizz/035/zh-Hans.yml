@@ -6,4 +6,4 @@ wrong_answers:
   - 与所有网络节点建立直接连接并获得它们的信任
 explanation:
   HTLCs（哈希时间锁定合约）确保每个中介节点将支付转账而不保留资金，因为它只有通过完成交易直至最终接收者才能解锁这些资金。
-  审核：false
+reviewed:false

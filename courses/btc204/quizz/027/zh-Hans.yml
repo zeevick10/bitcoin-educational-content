@@ -6,4 +6,4 @@ wrong_answers:
   - 通过工作证明进行验证
 explanation:
   Coinjoin的效果是打破了一个币的历史记录，这有助于你抵消与KYC相关的跟踪风险。
-  审核：false
+reviewed:false

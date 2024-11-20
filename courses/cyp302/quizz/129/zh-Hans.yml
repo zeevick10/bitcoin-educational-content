@@ -6,4 +6,4 @@ wrong_answers:
   - 一种创建电子货币的方法
 explanation:
   英国密码学家，为GCHQ工作，独立发展了类似于Diffie和Hellman的想法，但这些进步直到1997年才被披露，一直保持机密。
-  审核：false
+reviewed:false

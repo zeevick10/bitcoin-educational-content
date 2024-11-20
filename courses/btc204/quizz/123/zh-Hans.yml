@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   通过Tor进行的通信速度较慢。这种延迟在节点初次启动时尤其麻烦，因为IBD（初始区块下载）需要大量的通信。
 
-  已reviewed: false
+reviewed: false

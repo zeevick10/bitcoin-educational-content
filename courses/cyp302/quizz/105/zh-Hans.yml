@@ -6,4 +6,4 @@ wrong_answers:
   - 通过使用不同的算法加密消息
 explanation: |
   序列号确保消息按正确的顺序接收，并防止消息被重新排序。
-  审核：false
+reviewed:false

@@ -6,4 +6,4 @@ wrong_answers:
   - 8 MB
 explanation:
   MAX_BLOCK_SIZE参数在7月份被添加，然后从9月12日开始在所有网络节点上强制执行该限制。
-  审核：false
+reviewed:false
