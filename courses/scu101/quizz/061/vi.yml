@@ -2,7 +2,7 @@ question: Những ngôn ngữ lập trình nào được sử dụng trong lĩnh
 
 answer: Python, C, Java
 
-Các wrong_answers:
+wrong_answers:
   - HTML, CSS, JavaScript
   - Swift, Kotlin, Ruby
   - PHP, Perl, Lua
