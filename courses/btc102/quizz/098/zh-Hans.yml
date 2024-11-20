@@ -6,4 +6,4 @@ wrong_answers:
   - 热钱包使用PayPal，冷钱包使用银行账户
 explanation:
   本章提到，偏执比特币用户可能使用的钱包包括热钱包的Samourai钱包以及冷钱包的Coldcard和/或Seed Signer。
-reviewed:false
+reviewed: true

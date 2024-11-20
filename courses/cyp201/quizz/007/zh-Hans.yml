@@ -6,4 +6,4 @@ wrong_answers:
   - 前8个质数的平方根的小数部分的前64位。
 explanation:
   SHA256的初始化向量基于前8个质数的立方根的小数部分的前64位。
-reviewed:false
+reviewed: true

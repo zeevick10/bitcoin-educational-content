@@ -5,4 +5,4 @@ wrong_answers:
   - 它影响比特币交易的速度。
   - 它决定了一个地区可以挖掘的比特币数量。
 explanation: 比特币节点的地理分布使得实际上不可能销毁区块链的所有副本。这是因为节点分布广泛，要想物理上抓获它们所有几乎不可能。
-reviewed:false
+reviewed: true

@@ -6,4 +6,4 @@ wrong_answers:
   - 42
 explanation:
   通过将42除以2，余数是零，因此42 mod 2等于0。
-reviewed:false
+reviewed: true

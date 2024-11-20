@@ -6,4 +6,4 @@ wrong_answers:
   - 在现代密码学中不存在离散变量，只使用连续变量。
 explanation:
   离散变量有一个有限的结果集，而连续变量可以在一个区间内取任何值，例如0到1之间的实数。
-reviewed:false
+reviewed: true

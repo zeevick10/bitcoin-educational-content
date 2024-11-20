@@ -6,4 +6,4 @@ wrong_answers:
   - 通过使用多签名地址直接发送资金
 explanation:
   闪电网络允许通过几个中介节点路由支付，而无需发送者和接收者之间有直接的通道。
-reviewed:false
+reviewed: true

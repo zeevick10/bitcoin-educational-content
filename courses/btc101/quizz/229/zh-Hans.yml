@@ -6,4 +6,4 @@ wrong_answers:
   - 仅通过同时使用私钥和公钥。
 explanation:
   闪电网络上的交易通过密码学得到保障，并且间接通过比特币矿工消耗的能量得到保障。
-reviewed:false
+reviewed: true
