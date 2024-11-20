@@ -6,4 +6,4 @@ wrong_answers:
   - Aggiungere un ulteriore strato di crittografia
 explanation: |
   In uno schema di crittografia autenticata, un nonce è utilizzato per garantire che ogni messaggio abbia un tag unico, aumentando così la sicurezza prevenendo ripetizioni.
-  recensito: false
+reviewed: false

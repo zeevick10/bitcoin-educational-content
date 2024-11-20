@@ -6,4 +6,4 @@ wrong_answers:
   - Permette il calcolo delle operazioni solo in binario.
 explanation: |
   La teoria dei numeri è fondamentale nella crittografia a chiave pubblica perché aiuta a strutturare algoritmi basati sulle proprietà degli interi, facilitando le operazioni di cifratura e decifratura.
-  recensito: false
+reviewed: false

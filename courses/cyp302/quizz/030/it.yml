@@ -6,4 +6,4 @@ wrong_answers:
   - Una stringa pseudocasuale è definita da un modello strettamente binario, mentre una stringa casuale è definita da un modello strettamente esadecimale.
 explanation: |
   Una stringa casuale proviene da un processo direttamente casuale, mentre una stringa pseudocasuale è prodotta utilizzando un algoritmo di espansione e un seme iniziale.
-  recensito: false
+reviewed: false

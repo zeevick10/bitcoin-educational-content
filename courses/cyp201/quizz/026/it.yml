@@ -6,4 +6,4 @@ wrong_answers:
   - Riutilizzare un nonce aumenta la dimensione della chiave pubblica.
 explanation: |
   Riutilizzare un nonce in ECDSA può permettere a un attaccante di scoprire la chiave privata, compromettendo la sicurezza.
-  recensito: false
+reviewed: false

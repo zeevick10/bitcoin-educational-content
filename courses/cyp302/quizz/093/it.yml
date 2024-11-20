@@ -6,4 +6,4 @@ wrong_answers:
   - 256, 512, 1024 o 2048 bit
 explanation: |
   I cifrari a blocchi elaborano i dati in blocchi di dimensione fissa, tipicamente di 64, 128, 192 o 256 bit, per garantire una sicurezza e integrità ottimali della cifratura.
-  recensito: false
+reviewed: false

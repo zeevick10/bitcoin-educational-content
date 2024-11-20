@@ -6,4 +6,4 @@ wrong_answers:
   - Viene condivisa pubblicamente per generare altre chiavi
 explanation: |
   Nei sistemi di crittografia simmetrica, la stessa chiave privata viene utilizzata sia per crittografare il messaggio durante l'invio sia per decrittografarlo alla ricezione.
-  recensito: false
+reviewed: false

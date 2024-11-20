@@ -5,4 +5,4 @@ wrong_answers:
   - I pool di mining sono utilizzati per diminuire la difficoltà del mining.
   - I pool di mining sono utilizzati per aumentare la ricompensa del mining.
 explanation: I pool di mining sono gruppi di minatori che combinano il loro potere computazionale per aumentare le loro possibilità di minare un blocco. Unendo le loro risorse, possono minare blocchi più frequentemente e ricevere ricompense più piccole ma più regolari.
-  recensito: true
+reviewed: true

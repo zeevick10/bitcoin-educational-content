@@ -6,4 +6,4 @@ wrong_answers:
   - Per limitare l'uso della blockchain di Bitcoin
 explanation: |
   Un router mira a instradare quanti più pagamenti possibile per raccogliere commissioni, il che richiede una buona distribuzione della liquidità su entrambi i lati dei canali per garantire la capacità di instradamento.
-  recensito: false
+reviewed: false

@@ -6,4 +6,4 @@ wrong_answers:
   - Dovrebbero essere in grado di indovinare il contenuto del messaggio
 explanation: |
   In uno schema di cifratura simmetrica ben progettato, un attaccante che intercetta un messaggio cifrato non dovrebbe essere in grado di dedurre informazioni rilevanti sul contenuto del messaggio senza la chiave di decifrazione.
-  recensito: false
+reviewed: false

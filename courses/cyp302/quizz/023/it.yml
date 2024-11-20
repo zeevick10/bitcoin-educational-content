@@ -6,4 +6,4 @@ wrong_answers:
   - Elimina le lettere dopo la lettera Z
 explanation: |
   L'operazione modulo 26 permette alle lettere di ricominciare da capo dopo la Z per assicurare che ogni lettera cifrata rimanga entro le 26 lettere dell'alfabeto.
-  recensito: false
+reviewed: false

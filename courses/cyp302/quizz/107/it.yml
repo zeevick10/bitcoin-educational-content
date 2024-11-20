@@ -6,4 +6,4 @@ wrong_answers:
   - L'attaccante usa un vecchio messaggio per crearne uno nuovo
 explanation: |
   In un attacco di riflessione, l'attaccante intercetta un messaggio da Alice a Bob e invia lo stesso messaggio indietro ad Alice, causando confusione nella sessione.
-  recensito: false
+reviewed: false

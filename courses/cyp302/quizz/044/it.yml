@@ -6,4 +6,4 @@ wrong_answers:
   - Non esiste un elemento neutro per la moltiplicazione
 explanation: |
   L'insieme degli interi non soddisfa la condizione di inversione sotto moltiplicazione perché non esiste un inverso per ogni intero che moltiplicato dia 1. Solo gli elementi 1 e -1 soddisfano questa condizione.
-  recensito: false
+reviewed: false

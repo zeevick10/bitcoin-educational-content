@@ -6,4 +6,4 @@ wrong_answers:
   - La condizione di distributività
 explanation: |
   Un insieme S con un'operazione binaria deve soddisfare diverse condizioni per formare un gruppo, e la prima è la condizione di chiusura: l'operazione tra due elementi di S deve produrre un elemento di S.
-  recensito: false
+reviewed: false

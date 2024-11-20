@@ -6,4 +6,4 @@ wrong_answers:
   - Limitano la gamma di possibilità diminuendo il numero di elementi.
 explanation: |
   I campi di estensione con base 2 sono convenienti perché i loro elementi possono essere considerati come stringhe binarie, rendendo più facile eseguire operazioni sui dati digitali a livello binario nei sistemi.
-  recensito: false
+reviewed: false

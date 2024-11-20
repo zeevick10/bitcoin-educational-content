@@ -6,4 +6,4 @@ wrong_answers:
   - La chiave deve necessariamente essere memorizzata su un Minitel francese
 explanation: |
   La chiave in un cifrario a pad monouso deve essere lunga quanto il messaggio e non deve mai essere riutilizzata, il che complica significativamente il suo uso in contesti pratici. Questo perché, se si è in grado di trasmettere dati lunghi quanto il messaggio in modo sicuro, sarebbe più logico trasmettere direttamente il messaggio piuttosto che la chiave.
-  recensito: false
+reviewed: false

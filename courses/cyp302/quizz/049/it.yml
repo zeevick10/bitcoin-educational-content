@@ -6,4 +6,4 @@ wrong_answers:
   - Gruppi di numeri complessi
 explanation: |
   In crittografia, i gruppi ciclici sono essenziali perché consentono la generazione di tutti gli elementi del gruppo utilizzando l'esponenziazione di un singolo elemento, chiamato generatore.
-  recensito: false
+reviewed: false

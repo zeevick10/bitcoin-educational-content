@@ -6,4 +6,4 @@ wrong_answers:
   - Non è compatibile con i protocolli di comunicazione moderni
 explanation: |
   La crittografia asimmetrica, sebbene potente per l'autenticazione e la crittografia iniziale, richiede più risorse, rendendo il suo uso inefficiente per il trasferimento di dati sostanziali.
-  recensito: false
+reviewed: false

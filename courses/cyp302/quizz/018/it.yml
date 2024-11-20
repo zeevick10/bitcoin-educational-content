@@ -6,4 +6,4 @@ wrong_answers:
   - La loro probabilità combinata è uguale alla probabilità più alta dei due
 explanation: |
   Due eventi sono indipendenti se la probabilità dell'uno non cambia la probabilità dell'altro, come il sorteggio di una lotteria che non ha influenza sul tempo del giorno successivo.
-  recensito: false
+reviewed: false

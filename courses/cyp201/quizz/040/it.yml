@@ -6,4 +6,4 @@ wrong_answers:
   - Nessuna parola è più lunga di sei lettere.
 explanation: |
   Questa caratteristica aiuta a evitare qualsiasi ambiguità durante l'inserimento delle parole, garantendo così l'unicità di ogni parola nella lista, riducendo al contempo lo spazio di archiviazione necessario.
-  recensito: false
+reviewed: false

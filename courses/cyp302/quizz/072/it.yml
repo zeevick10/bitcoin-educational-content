@@ -6,4 +6,4 @@ wrong_answers:
   - Perché la chiave varia con ogni cifratura
 explanation: |
   La cifratura a scorrimento è considerata una cifratura simmetrica perché utilizza la stessa chiave per cifrare e decifrare un messaggio, garantendo così la confidenzialità tra le parti che condividono questa chiave.
-  recensito: false
+reviewed: false

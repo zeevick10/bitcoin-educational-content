@@ -6,4 +6,4 @@ wrong_answers:
   - In bech32m.
 explanation: |
   La chiave estesa è generalmente codificata in Base 58 per essere più leggibile per l'utente e per evitare caratteri ambigui.
-  recensito: false
+reviewed: false

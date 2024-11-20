@@ -6,4 +6,4 @@ wrong_answers:
   - Rende il codice dell'algoritmo più bello per gli umani.
 explanation: |
   Utilizzando un nonce casuale per ogni sessione, i metodi CBC e OFB garantiscono che ogni crittografia sia unica, il che previene attacchi che sfruttano dati identici.
-  recensito: false
+reviewed: false

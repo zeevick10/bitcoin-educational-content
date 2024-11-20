@@ -6,4 +6,4 @@ wrong_answers:
   - Un campo complesso.
 explanation: |
   In Bitcoin, la curva ellittica secp256k1 è definita su un campo finito di numeri interi positivi modulo un numero primo per evitare approssimazioni e garantire la sicurezza.
-  recensito: false
+reviewed: false

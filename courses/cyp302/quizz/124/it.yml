@@ -6,4 +6,4 @@ wrong_answers:
   - Impedisce il riutilizzo delle chiavi per transazioni ripetute
 explanation: |
   Lo scambio di chiavi di persona è costoso e inefficiente, specialmente su larga scala, poiché rallenta le transazioni e impone significativi costi logistici per ogni nuovo cliente.
-  recensito: false
+reviewed: false

@@ -6,4 +6,4 @@ wrong_answers:
   - Viene determinata dall'algoritmo SHA-256.
 explanation: |
   Una chiave privata Bitcoin viene generata in modo casuale o pseudo-casuale, il che ne garantisce l'unicità e la sicurezza.
-  recensito: false
+reviewed: false

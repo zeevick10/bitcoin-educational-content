@@ -7,4 +7,4 @@ wrong_answers:
 explanation: |
   Quando si sceglie un portafoglio Bitcoin, la domanda centrale è:
   sei il proprietario dei fondi o lasci il controllo del tuo denaro a un terzo? Questo perché il detentore della chiave privata è il proprietario dei Bitcoin.
-  recensito: true
+reviewed: true

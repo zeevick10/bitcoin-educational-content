@@ -6,4 +6,4 @@ wrong_answers:
   - Consentono l'accesso a siti web bloccati.
 explanation: |
   DOH (DNS over HTTPS) e DOT (DNS over TLS) crittografano la connessione DNS, garantendo maggiore privacy e sicurezza. Questi protocolli sono ampiamente utilizzati nelle imprese grazie alla loro sicurezza avanzata e sono supportati nativamente da Windows, Android e iPhone. Migliorano la privacy e la sicurezza evitando attacchi man in the middle.
-  recensito: true
+reviewed: true

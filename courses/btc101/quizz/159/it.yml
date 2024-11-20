@@ -6,4 +6,4 @@ wrong_answers:
   - Il costo energetico non è necessario per creare nuovi bitcoin.
 explanation: >-
   Il costo energetico nel mining di Bitcoin è un aspetto cruciale per la sicurezza della rete. L'alto costo energetico del mining rende estremamente costoso per un attore malevolo manipolare la blockchain, mentre il basso costo di verifica delle transazioni assicura che chiunque possa partecipare alla rete.
-  recensito: false
+reviewed: false

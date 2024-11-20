@@ -6,4 +6,4 @@ wrong_answers:
   - Non vengono aggiunti metadati.
 explanation: |
   La chiave estesa include diversi pezzi di metadati. Ci sono la versione, la profondità, l'impronta digitale del genitore, l'indice e il checksum per facilitare la derivazione della chiave.
-  recensito: false
+reviewed: false

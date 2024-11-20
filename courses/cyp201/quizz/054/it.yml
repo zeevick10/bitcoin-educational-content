@@ -6,4 +6,4 @@ wrong_answers:
   - Seed.
 explanation: |
   La stringa Bitcoin seed è utilizzata come chiave in HMAC-SHA512 per derivare la chiave principale e il codice catena principale dal seed.
-  recensito: false
+reviewed: false

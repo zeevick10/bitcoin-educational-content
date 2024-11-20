@@ -6,4 +6,4 @@ wrong_answers:
   - Le variabili discrete non esistono nella crittografia moderna, solo le variabili continue sono utilizzate.
 explanation: |
   Le variabili discrete hanno un insieme finito di risultati, mentre le variabili continue possono assumere qualsiasi valore all'interno di un intervallo, come i numeri reali tra 0 e 1.
-  recensito: false
+reviewed: false

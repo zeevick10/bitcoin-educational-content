@@ -6,4 +6,4 @@ wrong_answers:
   - Considerare che solo le agenzie nazionali possano intercettare i dati
 explanation: |
   È un'illusione pensare che semplicemente proteggere fisicamente il canale sia sufficiente a garantire la confidenzialità, poiché molti punti di intercettazione rimangono accessibili, specialmente per le comunicazioni wireless.
-  recensito: false
+reviewed: false

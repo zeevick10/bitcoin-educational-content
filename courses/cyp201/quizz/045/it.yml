@@ -6,4 +6,4 @@ wrong_answers:
   - Un secondo seed.
 explanation: |
   La passphrase è un sale crittografico opzionale, che aumenta la sicurezza del portafoglio aggiungendo informazioni aggiuntive alla frase mnemonica per determinare il seed.
-  recensito: false
+reviewed: false

@@ -6,4 +6,4 @@ wrong_answers:
   - Garantire che ogni messaggio abbia una chiave unica
 explanation: |
   Secondo il principio di Kerckhoff, la sicurezza di un sistema crittografico dovrebbe basarsi esclusivamente sulla chiave segreta, e non sulla segretezza dell'algoritmo stesso.
-  recensito: false
+reviewed: false

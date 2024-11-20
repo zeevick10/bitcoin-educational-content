@@ -6,4 +6,4 @@ wrong_answers:
   - Con SHA512.
 explanation: |
   Per gli indirizzi SegWit, il checksum viene calcolato utilizzando il codice BCH, che consente di rilevare possibili errori nell'indirizzo.
-  recensito: false
+reviewed: false

@@ -6,4 +6,4 @@ wrong_answers:
   - L'hashing dei messaggi impedisce il recupero della chiave privata.
 explanation: |
   Le operazioni sulle curve ellittiche sono irreversibili, garantendo che la chiave privata non possa essere dedotta dalla firma.
-  recensito: false
+reviewed: false

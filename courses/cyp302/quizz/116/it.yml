@@ -6,4 +6,4 @@ wrong_answers:
   - Introdurre ulteriore confusione sostituendo i byte
 explanation: |
   L'operazione shift rows in AES riorganizza i byte nella tabella di stato per distribuire le informazioni, aumentando così la diffusione.
-  recensito: false
+reviewed: false

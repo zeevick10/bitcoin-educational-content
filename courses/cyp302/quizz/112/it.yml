@@ -6,4 +6,4 @@ wrong_answers:
   - Utilizza un flusso chiave basato esclusivamente sul testo in chiaro
 explanation: |
   RC4 è un cifrario a flusso sincrono perché il suo flusso chiave dipende solo dalla chiave iniziale e non dal testo in chiaro o dal testo cifrato, garantendo l'indipendenza di questo flusso dai messaggi.
-  recensito: false
+reviewed: false

@@ -6,4 +6,4 @@ wrong_answers:
   - Produrre una prova matematica che giustifichi che un utente è effettivamente in possesso di un portafoglio.
 explanation: |
   Le firme digitali in Bitcoin permettono di dimostrare che un utente possiede la chiave privata associata a una chiave pubblica senza rivelare tale chiave privata.
-  recensito: false
+reviewed: false

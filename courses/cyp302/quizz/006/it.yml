@@ -6,4 +6,4 @@ wrong_answers:
   - Crittografia simmetrica
 explanation: |
   Le funzioni hash sono un componente chiave della crittografia moderna, ma non sono specificamente associate né agli schemi simmetrici né a quelli asimmetrici, a differenza delle chiavi pubbliche e private.
-  recensito: false
+reviewed: false

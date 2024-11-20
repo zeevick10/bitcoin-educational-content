@@ -6,4 +6,4 @@ wrong_answers:
   - Posso recuperare i miei bitcoin utilizzando un portafoglio senza passphrase.
 explanation: |
   Se la passphrase viene persa, l'accesso ai bitcoin è permanentemente perso, poiché è necessaria per derivare le chiavi private.
-  recensito: false
+reviewed: false

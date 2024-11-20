@@ -6,4 +6,4 @@ wrong_answers:
   - Richiedono un hashing più lungo per maggiore sicurezza
 explanation: |
   Le password deboli possono essere facilmente recuperate dal loro hash utilizzando attacchi di dizionario, rendendo la loro selezione importante per garantire la sicurezza.
-  recensito: false
+reviewed: false

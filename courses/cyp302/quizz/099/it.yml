@@ -6,4 +6,4 @@ wrong_answers:
   - Generare chiavi private per ogni comunicazione
 explanation: |
   Un MAC è uno schema crittografico che consente di verificare che un messaggio provenga realmente dal mittente legittimo e non sia stato alterato, garantendo così l'autenticità e l'integrità.
-  recensito: false
+reviewed: false

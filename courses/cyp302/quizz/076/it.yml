@@ -6,4 +6,4 @@ wrong_answers:
   - 100 bit
 explanation: |
   Con una chiave di almeno 128 bit, la crittografia moderna è attualmente considerata sicura contro gli attacchi di forza bruta, poiché il numero di tentativi sarebbe irrealistico.
-  recensito: false
+reviewed: false

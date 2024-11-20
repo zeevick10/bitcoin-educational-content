@@ -6,4 +6,4 @@ wrong_answers:
   - Raddoppia il numero di bitcoin nel portafoglio.
 explanation: |
   La passphrase aumenta la sicurezza aggiungendo un ulteriore pezzo di dati alla frase mnemonica, agendo in modo simile a un 2FA.
-  recensito: false
+reviewed: false

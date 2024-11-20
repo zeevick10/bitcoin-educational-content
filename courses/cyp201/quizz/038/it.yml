@@ -6,4 +6,4 @@ wrong_answers:
   - Un PRNG è hardware, mentre un TRNG è software.
 explanation: |
   Un TRNG (True Random Number Generator) genera numeri casuali a partire da un fenomeno fisico casuale, a differenza di un PRNG che è deterministico.
-  recensito: false
+reviewed: false

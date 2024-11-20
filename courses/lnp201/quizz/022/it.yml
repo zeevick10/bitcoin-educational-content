@@ -6,4 +6,4 @@ wrong_answers:
   - Prevenire ulteriori transazioni nel canale
 explanation: |
   La chiave di revoca consente alla parte lesa di recuperare tutti i fondi in caso di tentativo di truffa da parte dell'altra parte.
-  recensito: false
+reviewed: false

@@ -6,4 +6,4 @@ wrong_answers:
   - Viene determinata facendo l'hashing del suo seme.
 explanation: |
   La chiave pubblica è generata dalla chiave privata attraverso operazioni sulla curva ellittica, partendo dal punto generatore.
-  recensito: false
+reviewed: false

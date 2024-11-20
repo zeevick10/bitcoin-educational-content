@@ -6,4 +6,4 @@ wrong_answers:
   - Applica tariffe aggiuntive per ogni nodo intermediario
 explanation: |
   Il timelock impone un lasso di tempo per completare un HTLC, il che permette il recupero dei fondi se la transazione non ha successo, cancellando il pagamento dopo questo periodo.
-  recensito: false
+reviewed: false

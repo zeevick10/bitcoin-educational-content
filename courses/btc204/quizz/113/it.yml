@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Da un punto di vista esterno, il modello di transazione è esattamente lo stesso. Senza informazioni contestuali aggiuntive, è quindi impossibile differenziare una transazione Stonewall da una transazione Stonewall x2, poiché adottano lo stesso modello.
 
-  recensito: false
+reviewed: false

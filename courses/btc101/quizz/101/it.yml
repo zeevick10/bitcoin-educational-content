@@ -8,4 +8,4 @@ explanation: |
   Il metodo standard per fare il backup della chiave privata in un
   portafoglio Bitcoin è inserendo la tua frase mnemonica in qualsiasi
   software di portafoglio. Questo ti permette di ripristinare il tuo portafoglio.
-  recensito: false
+reviewed: false

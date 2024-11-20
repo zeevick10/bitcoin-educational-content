@@ -5,4 +5,4 @@ wrong_answers:
   - Permette agli sviluppatori di giochi di accettare Bitcoin come pagamento per i loro giochi.
   - Permette ai giocatori di acquistare oggetti in gioco con Bitcoin.
 explanation: La Lightning Network permette ai giocatori di scommettere piccolissime quantità di denaro durante il gioco, come ad esempio alcuni satoshi. Questo consente di stabilire una posta che stimola la competizione aumentando significativamente il costo di implementazione dei bot.
-  recensito: true
+reviewed: true

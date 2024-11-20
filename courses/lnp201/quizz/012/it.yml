@@ -6,4 +6,4 @@ wrong_answers:
   - Non appena viene creata l'indirizzo multisignature 2/2
 explanation: |
   Il canale si considera aperto una volta che la transazione di deposito è stata inclusa in un blocco Bitcoin e ha raggiunto un certo numero di conferme.
-  recensito: false
+reviewed: false
