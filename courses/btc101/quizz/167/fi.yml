@@ -1,4 +1,3 @@
-```yaml
 question: Mikä on nykyisen rahoitusjärjestelmän pääongelma suhteessa ympäristöön?
 answer: Se kannustaa ylikulutukseen ja velkaantumiseen.
 wrong_answers:
@@ -11,4 +10,3 @@ explanation: |
   ympäristöongelmia. Tämä johtuu helpon luoton saatavuudesta,
   pankkien rahalaitoksesta ja osittaisvarantopankkitoiminnan käytöstä.
 reviewed: true
-```
