@@ -5,4 +5,4 @@ wrong_answers:
   - 该发票采用 bech32 编码
   - 这是一个链上交易
 explanation: |
-  前缀 'lnbc' 表明该发票是针对比特币网络上的 Lightning 交易，而不是其他网络上的。
+  前缀 lnbc 表明该发票是针对比特币网络上的 Lightning 交易，而不是其他网络上的。

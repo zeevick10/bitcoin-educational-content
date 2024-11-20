@@ -5,5 +5,5 @@ wrong_answers:
   - Che la fattura è codificata in bech32
   - Che si tratta di una transazione on-chain
 explanation: |
-  Il prefisso 'lnbc' significa che la fattura è destinata a una transazione Lightning sulla rete Bitcoin, e non su un'altra rete.
+  Il prefisso lnbc significa che la fattura è destinata a una transazione Lightning sulla rete Bitcoin, e non su un'altra rete.
   recensito: false

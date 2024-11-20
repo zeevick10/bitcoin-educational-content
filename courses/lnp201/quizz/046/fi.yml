@@ -5,5 +5,5 @@ wrong_answers:
   - Että lasku on koodattu bech32-muodossa
   - Että kyseessä on ketjussa tapahtuva siirto
 explanation: |
-  Etuliite 'lnbc' merkitsee, että lasku on Lightning-siirtoa varten Bitcoin-verkossa, eikä missään muussa verkossa.
+  Etuliite lnbc merkitsee, että lasku on Lightning-siirtoa varten Bitcoin-verkossa, eikä missään muussa verkossa.
 reviewed: false

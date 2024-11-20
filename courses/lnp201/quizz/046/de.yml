@@ -8,6 +8,6 @@ wrong_answers:
   - Dass es sich um eine On-Chain-Transaktion handelt
 
 explanation: |
-  Das Präfix 'lnbc' zeigt an, dass die Rechnung für eine Lightning-Transaktion im Bitcoin-Netzwerk bestimmt ist und nicht in einem anderen Netzwerk.
+  Das Präfix lnbc zeigt an, dass die Rechnung für eine Lightning-Transaktion im Bitcoin-Netzwerk bestimmt ist und nicht in einem anderen Netzwerk.
 
 reviewed: false

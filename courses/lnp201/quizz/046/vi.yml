@@ -8,4 +8,4 @@ wrong_answers:
   - Rằng đó là một giao dịch trên chuỗi
 
 explanation:
-  Tiền tố 'lnbc' biểu thị rằng hóa đơn là cho một giao dịch Lightning trên mạng Bitcoin, và không phải trên mạng khác.
+  Tiền tố lnbc biểu thị rằng hóa đơn là cho một giao dịch Lightning trên mạng Bitcoin, và không phải trên mạng khác.

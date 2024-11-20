@@ -5,4 +5,4 @@ wrong_answers:
   - Et arve on kodeeritud bech32-s
   - Et tegemist on on-chain tehinguga
 explanation: |
-  Eesliide 'lnbc' tähistab, et arve on mõeldud Lightning tehinguks Bitcoin'i võrgus, mitte mõnel teisel võrgul.
+  Eesliide lnbc tähistab, et arve on mõeldud Lightning tehinguks Bitcoin'i võrgus, mitte mõnel teisel võrgul.

@@ -5,4 +5,4 @@ wrong_answers:
   - At fakturaen er kodet i bech32
   - At det er en on-chain transaksjon
 explanation: |
-  Prefikset 'lnbc' betegner at fakturaen er for en Lightning-transaksjon på Bitcoin-nettverket, og ikke på et annet nettverk.
+  Prefikset lnbc betegner at fakturaen er for en Lightning-transaksjon på Bitcoin-nettverket, og ikke på et annet nettverk.

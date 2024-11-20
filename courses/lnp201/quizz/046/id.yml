@@ -5,4 +5,4 @@ wrong_answers:
   - Bahwa faktur tersebut dikodekan dalam bech32
   - Bahwa itu adalah transaksi on-chain
 explanation: |
-  Awalan 'lnbc' menandakan bahwa faktur tersebut untuk transaksi Lightning pada jaringan Bitcoin, dan bukan pada jaringan lain.
+  Awalan lnbc menandakan bahwa faktur tersebut untuk transaksi Lightning pada jaringan Bitcoin, dan bukan pada jaringan lain.

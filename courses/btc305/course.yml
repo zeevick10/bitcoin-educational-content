@@ -5,7 +5,7 @@
 topic: bitcoin
 
 # subtopic
-# Depends on the chosen topic. Subtopics for 'Bitcoin' are limited to just 'Bitcoin'
+# Depends on the chosen topic. Subtopics for Bitcoin are limited to just Bitcoin
 # For other topics, refer to https: //github.com/orgs/DecouvreBitcoin/projects/3/views/7
 subtopic: bitcoin
 

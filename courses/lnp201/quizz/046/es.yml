@@ -5,4 +5,4 @@ wrong_answers:
   - Que la factura está codificada en bech32
   - Que es una transacción en la cadena principal
 explanation: |
-  El prefijo 'lnbc' significa que la factura es para una transacción Lightning en la red de Bitcoin, y no en otra red.
+  El prefijo lnbc significa que la factura es para una transacción Lightning en la red de Bitcoin, y no en otra red.
