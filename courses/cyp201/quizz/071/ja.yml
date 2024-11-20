@@ -1,7 +1,0 @@
-question: 真または偽？「SegWitv0アドレスのみを知っていれば、公開鍵を特定できる。」
-answer: 偽。
-wrong_answers:
-  - 真。
-explanation: |
-  SegWit v0アドレスは公開鍵のハッシュであり、対応する秘密鍵を知らない限り、アドレスから直接公開鍵を取得することは不可能です。
-reviewed: false

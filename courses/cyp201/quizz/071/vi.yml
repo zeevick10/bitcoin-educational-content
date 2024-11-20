@@ -1,7 +1,0 @@
-question: Đúng hay Sai? Người ta có thể xác định khóa công khai chỉ bằng cách biết địa chỉ SegWitv0 của nó.
-answer: Sai.
-wrong_answers:
-  - Đúng.
-explanation: |
-  Một địa chỉ SegWit v0 là một bản hash của khóa công khai, làm cho việc trực tiếp lấy lại khóa công khai từ địa chỉ mà không biết khóa riêng tương ứng trở nên không thể.
-reviewed: false

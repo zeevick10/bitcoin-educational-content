@@ -1,7 +1,0 @@
-question: Đúng hay Sai? Nếu ai đó muốn tối ưu hóa quyền riêng tư của mình, họ không nên sử dụng lại cùng một địa chỉ nhiều lần.
-answer: Đúng.
-wrong_answers:
-  - Sai.
-explanation: |
-  Sử dụng lại cùng một địa chỉ làm giảm quyền riêng tư bằng cách tiết lộ các liên kết giữa các giao dịch khác nhau trên blockchain.
-reviewed: false

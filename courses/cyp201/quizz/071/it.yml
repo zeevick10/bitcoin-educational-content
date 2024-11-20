@@ -1,7 +1,0 @@
-question: Vero o Falso? Si può determinare una chiave pubblica conoscendo solo il suo indirizzo SegWitv0.
-answer: Falso.
-wrong_answers:
-  - Vero.
-explanation: |
-  Un indirizzo SegWit v0 è un hash della chiave pubblica, rendendo impossibile recuperare direttamente la chiave pubblica dall'indirizzo senza conoscere la corrispondente chiave privata.
-reviewed: false

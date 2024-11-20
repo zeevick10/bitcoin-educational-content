@@ -1,7 +1,0 @@
-question: Pravda nebo nepravda? Pokud si někdo přeje optimalizovat své soukromí, neměl by vícekrát používat stejnou adresu.
-answer: Pravda.
-wrong_answers:
-  - Nepravda.
-explanation: |
-  Opakované používání stejné adresy oslabuje soukromí tím, že odhaluje vazby mezi různými transakcemi na blockchainu.
-reviewed: false

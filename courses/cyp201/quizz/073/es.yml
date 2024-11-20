@@ -1,6 +1,0 @@
-question: ¿Verdadero o Falso? Si uno desea optimizar su privacidad, no debería reutilizar la misma dirección múltiples veces.
-answer: Verdadero.
-wrong_answers:
-  - Falso.
-explanation: |
-  Reutilizar la misma dirección debilita la privacidad al exponer los vínculos entre diferentes transacciones en la blockchain.

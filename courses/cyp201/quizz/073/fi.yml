@@ -1,7 +1,0 @@
-question: Totta vai tarua? Jos haluaa optimoida yksityisyytensä, ei tulisi käyttää samaa osoitetta useita kertoja.
-answer: Totta.
-wrong_answers:
-  - Tarua.
-explanation: |
-  Saman osoitteen uudelleenkäyttö heikentää yksityisyyttä paljastamalla linkit eri transaktioiden välillä lohkoketjussa.
-reviewed: false

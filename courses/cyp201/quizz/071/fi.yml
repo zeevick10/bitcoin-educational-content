@@ -1,7 +1,0 @@
-question: Totta vai tarua? Julkisen avaimen voi määrittää tietämällä vain sen SegWitv0-osoitteen.
-answer: Tarua.
-wrong_answers:
-  - Totta.
-explanation: |
-  SegWit v0 -osoite on julkisen avaimen tiiviste, mikä tekee mahdottomaksi suoraan hakea julkista avainta osoitteesta tietämättä vastaavaa yksityistä avainta.
-reviewed: false

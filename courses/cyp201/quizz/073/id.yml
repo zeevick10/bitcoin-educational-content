@@ -1,6 +1,0 @@
-question: Benar atau Salah? Jika seseorang ingin mengoptimalkan privasi mereka, mereka tidak seharusnya menggunakan alamat yang sama berulang kali.
-answer: Benar.
-wrong_answers:
-  - Salah.
-explanation: |
-  Menggunakan alamat yang sama berulang kali melemahkan privasi dengan memperlihatkan hubungan antar transaksi yang berbeda di blockchain.

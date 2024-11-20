@@ -1,7 +1,0 @@
-question: Pravda nebo lež? Lze určit veřejný klíč pouze znalostí jeho SegWitv0 adresy.
-answer: Lež.
-wrong_answers:
-  - Pravda.
-explanation: |
-  SegWit v0 adresa je hash veřejného klíče, což znemožňuje přímé získání veřejného klíče z adresy bez znalosti odpovídajícího soukromého klíče.
-reviewed: false
