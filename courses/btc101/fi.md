@@ -128,6 +128,12 @@ Siksi Bitcoin on protokolla, joka ulottuu pitkien aikojen yli ja kannustaa meit�
 
 ![Bitcoinin esihistoria](assets/posters/fr/1_prehistoiredubitcoin.webp)
 
+Jos haluat tutkia Bitcoinin historiaa tarkemmin, suosittelen lämpimästi kurssiamme HIS 201. Löydät sieltä Bitcoinin alkuperän ja sen hitaasti tapahtuneen nousun sekä sen historian ja yhteisön alkuvaiheet. Tämä kurssi on täysin dokumentoitu ja lähteistetty, mukana on tietenkin monia anekdootteja :
+
+https://planb.network/courses/his201
+
+
+
 # Raha
 
 <partId>e913df1a-4cbd-5380-ba67-ca2a0414f671</partId>
@@ -241,6 +247,11 @@ Voimme päätellä tämän luvun lainauksella Nobel-palkinnon voittajalta F.A Ha
 
 ![Alt-teksti](assets/posters/en/4._fiat_currency.webp)
 
+Jos haluat oppia lisää taloudellisista harhaluuloista ja vapaudesta, suosittelen tutustumaan ECO 102 -kurssiimme. Tämä kurssi käsittelee Frédéric Bastiatin, 1800-luvun ranskalaisen ajattelijan, elämää ja ajatuksia, joka epäilemättä olisi arvostanut Bitcoinin syntyä :
+
+https://planb.network/courses/eco102
+
+
 ## Hyperinflaatio
 
 <chapterId>b04c024c-54f3-50cb-997f-58721cfc74be</chapterId>
@@ -320,6 +331,11 @@ Yhteenvetona voidaan todeta, että hyperinflaatio johtaa nopeasti valuutan arvon
 ### Nopea kertaus julisteessa!
 
 ![Alt-teksti](assets/posters/en/5._hyperinflation.webp)
+
+Jos haluat syventyä hyperinflaatioihin, suosittelen David St-Ongen ECO 204 -kurssia. Kurssilla opit, mitä hyperinflaatiokierrot ovat ja miten ne vaikuttavat elämäämme. Löydät myös näiden kierrosten samankaltaisuudet ja ennen kaikkea, kuinka suojautua niiltä:
+
+https://planb.network/courses/eco204
+
 
 ## 21 miljoonaa bitcoinia
 
@@ -475,6 +491,11 @@ Valitse lompakko, joka sopii tarpeisiisi ja käyttötarkoitukseesi. Yksityiskoht
 
 ![Vaihtoehtoinen teksti](assets/posters/en/8._what_is_a_bitcoin_wallet.webp)
 
+Jos haluat matkallasi alas kaninkoloon oppia lisää Bitcoin-lompakon rakentamisesta entropiasta vastaanotto-osoitteisiin asti, suosittelen tähän aiheeseen omistettua kurssia CYP 201:
+
+https://planb.network/courses/cyp201
+
+
 ## Turvallisuus ja Bitcoin-lompakot
 
 <chapterId>00c1afea-e54a-511f-bab3-2efc2fbfa6a1</chapterId>
@@ -502,11 +523,27 @@ Yritetään määrittää useita turvallisuustasoja bitcoineillesi:
 
 - **Taso 1**, käytät Bitcoin-lompakkoa puhelimessasi tai tietokoneellasi, jossa olet bitcoineidesi ainoa haltija. Voit helposti suorittaa transaktiosi. On kuitenkin ratkaisevan tärkeää varmuuskopioida muistilauseesi, jotta voit palauttaa pääsyn varoihisi, jos menetät puhelimesi tai tietokoneesi. Tätä kutsutaan usein "kuumaksi lompakoksi", koska yksityinen avain säilytetään laitteessa, jolla on internetyhteys.
 
+Esimerkiksi voit käyttää Sparrow Walletia kuumana lompakkona:
+
+https://planb.network/tutorials/wallet/sparrow
+
 - **Taso 2**, käytät fyysistä lompakkoa, ja olet turvannut 12 tai 24 sanan listasi. Transaktion suorittamiseksi sinun on aina allekirjoitettava laitteellasi. Tämä tekee varoistasi vähemmän saavutettavia päivittäisessä käytössä. Tätä kutsutaan usein "kylmäksi lompakoksi", koska avaimet säilytetään laitteessa, joka ei ole yhteydessä internetiin.
+
+Esimerkiksi voit käyttää Ledgeriä, Satochipiä tai Tapsigneria:
+
+https://planb.network/tutorials/wallet/ledger-nano-s-plus
+
+https://planb.network/tutorials/wallet/satochip
+
+https://planb.network/tutorials/wallet/tapsigner
 
 ![kuva](assets/en/chapter6/4.webp)
 
 - **Taso 3**, käytät tason 1 tai 2 lompakkoa, mutta lisäsalasanalla. Ole tietoinen siitä, että sinun on nyt varmuuskopioitava sekä 12 tai 24 sanan lista **että** salasanasi. Ihanteellisesti nämä kaksi tietoa säilytetään kahdessa eri paikassa.
+
+Lisätietoja BIP39-salasanan käytöstä ja toiminnasta:
+
+https://planb.network/tutorials/wallet/passphrase
 
 ![kuva](assets/en/chapter6/5.webp)
 
@@ -565,6 +602,11 @@ Kun kopiot on tehty, säilytä sanalistat turvallisessa paikassa, josta muistat 
 ### Nopea kertaus julisteessa!
 
 ![Alt-teksti](assets/posters/en/10._set_up_your_wallet.webp)
+
+Jos haluat sen jälkeen vaihe vaiheelta oppia, kuinka perustaa oma lompakkosi ja hankkia ensimmäiset bitcoinisi, suosittelen myös tätä toista kurssia:
+
+https://planb.network/courses/btc102
+
 
 ## Kestää aikaa
 
@@ -852,6 +894,10 @@ Pelin teoria, sovellettuna Bitcoiniin, eliminoi epärehelliset louhijat. Louhija
 
 ![louhijat](assets/posters/fr/13_explication_des_mineurs_crop.webp)
 
+Jos haluat syventyä tarkemmin Bitcoinin louhintaan, voit tutustua kurssiimme MIN 201. Kurssilla opit Proof-of-Workin toiminnan ja roolin sekä louhintateollisuuden toiminnan. Selitämme myös, kuinka voit muuntaa ASIC:n lämmityslaitteeksi louhiaksesi ensimmäiset satoshisi ja samalla lämmittääksesi kotiasi!
+
+https://planb.network/courses/min201
+
 ## Bitcoin ja ekologia
 
 <chapterId>4b227ae6-443a-5739-b443-60b7931130d9</chapterId>
@@ -989,8 +1035,17 @@ Bitcoinin hyväksymiseksi on tarpeen tutkia eri saatavilla olevia ratkaisuja ja 
 Käsittelemme tätä aihetta yksityiskohtaisemmin toisessa koulutuksessa, mutta yksinkertaistaaksemme voimme harkita useita yritystyyppejä ja siten niihin liittyviä ratkaisuja:
 
 - Yksinkertainen online-ratkaisu: OpenNode
-- Ratkaisu harrastelijakauppiaille: Swiss Bitcoin Pay
-- Ratkaisu suurille rakenteille tai intohimoisille bitcoinereille: BTCpay Server
+
+https://planb.network/tutorials/merchant/open-node
+
+- Ratkaisu harrastajakauppiaille: Swiss Bitcoin Pay
+
+https://planb.network/tutorials/merchant/swiss-bitcoin-pay-2
+
+- Ratkaisu suurille yrityksille tai intohimoisille bitcoinaajille: BTCpay Server
+
+https://planb.network/courses/btc305
+
 
 ### Nopea yhteenveto julisteessa!
 
@@ -1160,6 +1215,10 @@ Yhteenvetona, Lightning Network on lupaava yritys kehittää tehokas maksujärje
 
 ![Alt-teksti](assets/posters/en/20._lightning_network.webp)
 
+Jos haluat syventyä tätä johdantoa pidemmälle ja ymmärtää Lightning Networkin toiminnan kaikki yksityiskohdat, suosittelen Fanis Michalakisin erinomaista kurssia tästä aiheesta:
+
+https://planb.network/courses/lnp201
+
 ## Lightning-verkon käyttötapaukset
 
 <chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>
@@ -1267,12 +1326,28 @@ Rahoitusjärjestelmän muuttaminen edellyttää valuutan muuttamista. Satoshi lo
 
 Onnittelut BTC 101 -kurssin suorittamisesta! Toivon vilpittömästi, että nautit siitä ja se avasi sinulle uusia ovia. Bitcoinin löytäminen on vasta alussa, ja kutsun sinut tutustumaan yliopistossa tarjolla oleviin muihin kursseihin.
 
-- [BTC 102](https://planb.network/courses/btc102) auttaa sinua luomaan bitcoin-suunnitelmasi
-- [LNP 201](https://planb.network/courses/lnp201) antaa sinulle mahdollisuuden tutustua Lightning Networkiin, toisen kerroksen maksuverkkoon
-- [ECO 201](https://planb.network/courses/eco201) kattaa itävaltalaisen taloustieteen
-- [SCU 101](https://planb.network/courses/scu101) auttaa sinua päivittämään digitaalisen turvallisuutesi
-- [MIN 201](https://planb.network/courses/min201) oppiaksesi lisää louhinnasta
-- ja paljon muuta...
+Bitcoin-suunnitelmasi laatimiseen:
+
+https://planb.network/courses/btc102
+
+Lightning Networkin, toisen kerroksen maksujärjestelmän, tutkimiseen:
+
+https://planb.network/courses/lnp201
+
+Itävaltalaisen taloustieteen oppimiseen:
+
+https://planb.network/courses/eco201
+
+Digitaalisen turvallisuutesi päivittämiseen:
+
+https://planb.network/courses/scu101
+
+Lisätietoja louhinnasta:
+
+https://planb.network/courses/min201
+
+ja paljon muuta...
+
 
 ## Arvioi kurssi
 
@@ -1290,3 +1365,4 @@ Onnittelut BTC 101 -kurssin suorittamisesta! Toivon vilpittömästi, että nauti
 **Onnittelut kurssin suorittamisesta!**
 
 Huomaathan, että tämä luku on parhaillaan työn alla, ja parannettu versio julkaistaan pian. Sillä välin, jos olet innokas jatkamaan Bitcoin-matkaasi, kutsumme sinut tutustumaan muihin alustamme kursseihin ja opetusmateriaaleihin. Jatka hyvää työtä ja hauskaa oppimista!
+

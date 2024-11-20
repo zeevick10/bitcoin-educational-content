@@ -128,6 +128,11 @@ Bitcoin je tedy protokol, který překlenuje dlouhá období a vyzývá nás, ab
 
 ![Předhistorie Bitcoinu](assets/posters/fr/1_prehistoiredubitcoin.webp)
 
+Pokud byste chtěli podrobněji prozkoumat historii Bitcoinu, důrazně doporučuji náš kurz HIS 201. Objevíte zde původ a pomalý vznik Bitcoinu, stejně jako začátky jeho historie a komunity. Tento kurz je plně dokumentovaný a podložený zdroji a samozřejmě obsahuje mnoho anekdot:
+
+https://planb.network/courses/his201
+
+
 # Peníze
 
 <partId>e913df1a-4cbd-5380-ba67-ca2a0414f671</partId>
@@ -243,6 +248,11 @@ Tuto kapitolu můžeme uzavřít citátem nositele Nobelovy ceny F.A. Hayeka z r
 
 ![Alt text](assets/posters/en/4._fiat_currency.webp)
 
+Pokud se chcete dozvědět více o ekonomických klamech a svobodě, zvu vás k objevování našeho kurzu ECO 102. Tento kurz mapuje život a myšlenky Frédérica Bastiata, francouzského myslitele 19. století, který by bezpochyby ocenil vznik Bitcoinu :
+
+https://planb.network/courses/eco102
+
+
 ## Hyperinflace
 
 <chapterId>b04c024c-54f3-50cb-997f-58721cfc74be</chapterId>
@@ -322,6 +332,11 @@ Závěrem, hyperinflace má za následek rychlé snižování hodnoty měny, co�
 ### Rychlé shrnutí na plakátu!
 
 ![Alt text](assets/posters/en/5._hyperinflation.webp)
+
+Pro hlubší porozumění tématu hyperinflací doporučuji kurz ECO 204 od Davida St-Onge. Zde se dozvíte, co jsou hyperinflační cykly a jaké jsou jejich skutečné dopady na naše životy. Objevíte také podobnosti mezi těmito cykly a hlavně to, jak se před nimi chránit:
+
+https://planb.network/courses/eco204
+
 
 ## 21 milionů bitcoinů
 
@@ -477,6 +492,11 @@ Vyberte si peněženku, která vyhovuje vašim potřebám a způsobu použití. 
 
 ![Alt text](assets/posters/en/8._what_is_a_bitcoin_wallet.webp)
 
+Pokud během vaší cesty králičí norou budete chtít vědět více o tvorbě Bitcoin peněženky, od entropie až po přijímací adresy, doporučuji kurz CYP 201 věnovaný tomuto tématu:
+
+https://planb.network/courses/cyp201
+
+
 ## Bezpečnost a Bitcoinové peněženky
 
 <chapterId>00c1afea-e54a-511f-bab3-2efc2fbfa6a1</chapterId>
@@ -504,11 +524,29 @@ Pokusme se stanovit několik úrovní zabezpečení pro vaše bitcoiny:
 
 - **Úroveň 1**, používáte Bitcoin peněženku ve vašem telefonu nebo počítači, kde jste jediným držitelem vašich bitcoinů. Můžete snadno provádět vaše transakce. Je však zásadní zálohovat mnemonickou frázi, abyste znovu získali přístup k vašim prostředkům v případě ztráty telefonu nebo počítače. Často se tomu říká "hot wallet", protože soukromý klíč je uložen na zařízení s přístupem k internetu.
 
+Například můžete jako horkou peněženku použít Sparrow Wallet:
+
+https://planb.network/tutorials/wallet/sparrow
+
 - **Úroveň 2**, používáte fyzickou peněženku a máte zabezpečený váš seznam 12 nebo 24 slov. Pro provedení transakce budete vždy potřebovat podepsat vaším zařízením. To činí vaše prostředky méně přístupnými na denní bázi. Často se tomu říká "Cold Wallet", protože vaše klíče jsou uloženy na zařízení, které není připojeno k internetu.
+
+Například byste mohli použít Ledger, Satochip nebo Tapsigner:
+
+https://planb.network/tutorials/wallet/ledger-nano-s-plus
+
+https://planb.network/tutorials/wallet/satochip
+
+https://planb.network/tutorials/wallet/tapsigner
+
 
 ![obrázek](assets/en/chapter6/4.webp)
 
 - **Úroveň 3**, používáte peněženku úrovně 1 nebo 2, ale s dodatečnou heslovou frází. Buďte si vědomi, že nyní potřebujete zálohovat jak seznam 12 nebo 24 slov, **tak** vaši heslovou frázi. Ideálně jsou tyto dvě informace uloženy na dvou různých místech.
+
+Pro více informací o použití a fungování přístupové fráze BIP39:
+
+https://planb.network/tutorials/wallet/passphrase
+
 
 ![obrázek](assets/en/chapter6/5.webp)
 
@@ -567,6 +605,10 @@ Jakmile jsou kopie vyrobeny, uložte seznamy slov na bezpečné místo, kde si b
 ### Rychlé shrnutí na plakátu!
 
 ![Alt text](assets/posters/en/10._set_up_your_wallet.webp)
+
+Pokud byste chtěli následně krok za krokem objevit, jak si založit vlastní peněženku a získat své první bitcoiny, doporučuji vám také absolvovat tento další kurz:
+
+https://planb.network/courses/btc102
 
 ## Odolnost vůči zkoušce času
 
@@ -854,6 +896,10 @@ Teorie her aplikovaná na Bitcoin eliminuje nečestné těžaře. Těžaři pou�
 
 ![miners](assets/posters/fr/13_explication_des_mineurs_crop.webp)
 
+Pokud byste chtěli podrobněji prozkoumat specifické téma těžby Bitcoinu, můžete se podívat na náš kurz MIN 201. Objevíte zde fungování a roli Proof-of-Work, stejně jako zákulisí těžebního průmyslu. Také vám vysvětlíme, jak přeměnit ASIC na topení, abyste mohli těžit své první satoshi a zároveň vytápět svůj domov!
+
+https://planb.network/courses/min201
+
 ## Bitcoin a ekologie
 
 <chapterId>4b227ae6-443a-5739-b443-60b7931130d9</chapterId>
@@ -998,8 +1044,17 @@ Pro přijetí Bitcoinu je nutné prostudovat různá dostupná řešení a vybra
 Toto téma podrobněji probereme v dalším školení, ale abychom to udrželi jednoduché, můžeme zvážit několik kategorií podnikání a tedy související řešení:
 
 - Jednoduché online řešení: OpenNode
+
+https://planb.network/tutorials/merchant/open-node
+
 - Řešení pro amatérské obchodníky: Swiss Bitcoin Pay
-- Řešení pro velké struktury nebo vášnivé bitcoinery: BTCpay Server
+
+https://planb.network/tutorials/merchant/swiss-bitcoin-pay-2
+
+- Řešení pro velké struktury nebo nadšené bitcoinery: BTCpay Server
+
+https://planb.network/courses/btc305
+
 
 ### Rychlé shrnutí na plakátu!
 
@@ -1169,6 +1224,11 @@ Shrnutí, Lightning Network je slibný pokus o nasazení efektivního platebníh
 
 ![Alt text](assets/posters/en/20._lightning_network.webp)
 
+Pokud chcete jít dál než jen tuto úvodní část a pochopit všechny detaily Lightning Network, doporučuji absolvovat tento vynikající kurz od Fanise Michalakise na toto téma:
+
+https://planb.network/courses/lnp201
+
+
 ## Případové studie Lightning Network
 
 <chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>
@@ -1273,14 +1333,30 @@ Změna finančního systému vyžaduje změnu měny. Satoshi vytvořil Bitcoin v
 
 ### Jděte dál
 
-Gratulujeme k dokončení tohoto kurzu BTC 101! Doufám, že se vám líbil a otevřel vám nové dveře. Vaše objevování bitcoinu teprve začíná a zvu vás, abyste prozkoumali všechny ostatní kurzy dostupné na univerzitě.
+Gratulujeme k dokončení tohoto kurzu BTC 101! Doufám, že se vám líbil a otevřel vám nové dveře. Vaše objevování bitcoinu teprve začíná a zvu vás, abyste prozkoumali všechny ostatní kurzy dostupné na PlanB Network.
 
-- [BTC 102](https://planb.network/courses/btc102) vám pomůže nastavit váš bitcoinový plán
-- [LNP 201](https://planb.network/courses/lnp201) vám umožní objevit Lightning Network, druhovrstvou platební síť
-- [ECO 201](https://planb.network/courses/eco201) pokryje rakouskou ekonomii
-- [SCU 101](https://planb.network/courses/scu101) vám umožní aktualizovat vaši digitální bezpečnost
-- [MIN 201](https://planb.network/courses/min201) pro více informací o těžbě
-- a mnoho dalších...
+Pro nastavení vašeho Bitcoin plánu:
+
+https://planb.network/courses/btc102
+
+Pro objevování Lightning Network, platební sítě druhé vrstvy:
+
+https://planb.network/courses/lnp201
+
+Pro seznámení s rakouskou ekonomikou:
+
+https://planb.network/courses/eco201
+
+Pro aktualizaci vaší digitální bezpečnosti:
+
+https://planb.network/courses/scu101
+
+Pro více informací o těžbě:
+
+https://planb.network/courses/min201
+
+a mnoho dalšího...
+
 
 ## Ohodnoťte kurz
 

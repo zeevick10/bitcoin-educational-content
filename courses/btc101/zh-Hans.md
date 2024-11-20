@@ -128,6 +128,11 @@ objectives:
 
 ![比特币的前史](assets/posters/fr/1_prehistoiredubitcoin.webp)
 
+如果您希望更详细地探索比特币的历史，我强烈推荐我们的 HIS 201 课程。在这里，您将了解到比特币的起源和缓慢的崛起，以及它的历史和社区的初期阶段。该课程内容翔实并附有许多轶事：
+
+https://planb.network/courses/his201
+
+
 # 货币
 
 <partId>e913df1a-4cbd-5380-ba67-ca2a0414f671</partId>
@@ -240,6 +245,11 @@ objectives:
 
 ![Alt text](assets/posters/en/4._fiat_currency.webp)
 
+如果您想更深入了解经济谬误和自由，我邀请您探索我们的 ECO 102 课程。本课程追溯了 19 世纪法国思想家弗雷德里克·巴斯夏的生平和思想，他无疑会欣赏比特币的出现：
+
+https://planb.network/courses/eco102
+
+
 ## 恶性通货膨胀
 
 <chapterId>b04c024c-54f3-50cb-997f-58721cfc74be</chapterId>
@@ -317,6 +327,11 @@ objectives:
 ### 快速海报重述！
 
 ![Alt text](assets/posters/en/5._hyperinflation.webp)
+
+如果您想更深入地了解恶性通货膨胀的主题，我推荐 David St-Onge 的 ECO 204 课程。在这里，您将学习什么是恶性通货膨胀周期以及它们对我们生活的实际影响。您还将发现这些周期之间的相似之处，最重要的是，如何保护自己免受其影响：
+
+https://planb.network/courses/eco204
+
 
 ## 2100万个比特币
 
@@ -471,6 +486,11 @@ objectives:
 
 ![Alt text](assets/posters/en/8._what_is_a_bitcoin_wallet.webp)
 
+如果在您探索兔子洞的过程中，想要进一步了解如何构建一个比特币钱包，从熵到接收地址，我推荐专门为此主题设计的 CYP 201 课程：
+
+https://planb.network/courses/cyp201
+
+
 ## 安全性和比特币钱包
 
 <chapterId>00c1afea-e54a-511f-bab3-2efc2fbfa6a1</chapterId>
@@ -498,11 +518,27 @@ objectives:
 
 - **第1级**，您在手机或电脑上使用比特币钱包，您是比特币的唯一持有者。您可以容易地进行交易。然而，备份助记词至关重要，使得您能够在手机或电脑丢失的情况下仍然利用您的资金。这通常被称为“热钱包”，因为私钥被存储于具有互联网接入的设备。
 
+例如，您可以使用 Sparrow Wallet 作为热钱包：
+
+https://planb.network/tutorials/wallet/sparrow
+
 - **第2级**，您使用物理钱包，并且您已保护您的12个或24个单词的列表。如果您想要进行交易，您将始终需要使用您的设备进行签名。这使得您在日常生活中很少使用这个钱包。这通常被称为“冷钱包”，因为您的密钥被存储在未连接到互联网的设备。
+
+例如，您可以使用 Ledger、Satochip 或 Tapsigner：
+
+https://planb.network/tutorials/wallet/ledger-nano-s-plus
+
+https://planb.network/tutorials/wallet/satochip
+
+https://planb.network/tutorials/wallet/tapsigner
 
 ![image](assets/en/chapter6/4.webp)
 
 - **第3级**，您使用第1级或第2级的钱包，但您添加了一个额外的密码短语。请注意，您现在需要备份12个或24个单词的列表**和**您的密码短语。最佳做法是将这两部分的信息存储在两个不同的地方。
+
+要了解更多关于 BIP39 密码短语的使用和功能：
+
+https://planb.network/tutorials/wallet/passphrase
 
 ![image](assets/en/chapter6/5.webp)
 
@@ -562,6 +598,10 @@ objectives:
 ### 快速海报重述！
 
 ![Alt text](assets/posters/en/10._set_up_your_wallet.webp)
+
+如果您接下来希望逐步了解如何设置自己的钱包并获得第一批比特币，我还推荐您参加此课程：
+
+https://planb.network/courses/btc102
 
 ## 经受时间的考验
 
@@ -850,6 +890,10 @@ Bob将他的交易发送到比特币网络中，当矿工发布包含着此交�
 
 ![miners](assets/posters/fr/13_explication_des_mineurs_crop.webp)
 
+如果您希望深入了解比特币挖矿的具体主题，可以参考我们的 MIN 201 课程。在这里，您将了解工作量证明（Proof-of-Work）的运作方式及其作用，以及挖矿行业的运作机制。我们还会向您解释如何将 ASIC 改装成加热设备，让您在加热家居的同时开采您的首批聪！
+
+https://planb.network/courses/min201
+
 ## 比特币与生态
 
 <chapterId>4b227ae6-443a-5739-b443-60b7931130d9</chapterId>
@@ -992,8 +1036,17 @@ Bob将他的交易发送到比特币网络中，当矿工发布包含着此交�
 我们将在另一个课程中详细讲述这个领域。简而言之，我们可将一些商业类别作为参考，其类型和相关的解决方案如下：
 
 - 简单的在线解决方案：OpenNode
-- 业余商家的解决方案：Swiss Bitcoin Pay
-- 大型结构或热情的比特币用户的解决方案：BTCpay Server
+
+https://planb.network/tutorials/merchant/open-node
+
+- 适合业余商家的解决方案：Swiss Bitcoin Pay
+
+https://planb.network/tutorials/merchant/swiss-bitcoin-pay-2
+
+- 适合大型机构或比特币爱好者的解决方案：BTCpay服务器
+
+https://planb.network/courses/btc305
+
 
 ### 快速海报重述！
 
@@ -1163,6 +1216,11 @@ Bob将他的交易发送到比特币网络中，当矿工发布包含着此交�
 
 ![Alt text](assets/posters/en/20._lightning_network.webp)
 
+如果您希望深入了解并理解闪电网络的所有机制，我推荐参加Fanis Michalakis关于该主题的这门优秀课程：
+
+https://planb.network/courses/lnp201
+
+
 ## 闪电网络的用途
 
 <chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>
@@ -1270,12 +1328,28 @@ Bob将他的交易发送到比特币网络中，当矿工发布包含着此交�
 
 恭喜您完成了BTC 101课程！我真诚地希望您对这门课程满意，并且它为您打开了新的大门。您对比特币的发现仅仅是一个开始，我邀请您探索大学提供的所有其他课程。
 
-- [BTC 102](https://planb.network/courses/btc102) 将帮助您制定您的比特币计划
-- [LN 201](https://planb.network/courses/ln201) 和 [LN 202](https://planb.network/courses/ln202) 将让您发现闪电网络，一个第二层支付网络
-- [ECON 201](https://planb.network/courses/econ201) 将涵盖奥地利经济学
-- [SECU 101](https://planb.network/courses/secu101) 将帮助您更新您的数字安全
-- [MINAGE 201](https://planb.network/courses/min201) ，了解更多关于挖矿的内容
-- 还有更多！
+要设置您的比特币计划：
+
+https://planb.network/courses/btc102
+
+要了解 Lightning Network（一种第二层支付网络）：
+
+https://planb.network/courses/lnp201
+
+要学习奥地利经济学：
+
+https://planb.network/courses/eco201
+
+要更新您的数字安全：
+
+https://planb.network/courses/scu101
+
+要了解更多关于挖矿的信息：
+
+https://planb.network/courses/min201
+
+还有更多内容...
+
 
 
 ## 评估课程
@@ -1294,3 +1368,4 @@ Bob将他的交易发送到比特币网络中，当矿工发布包含着此交�
 **恭喜您完成本课程！**
 
 请注意，本章节目前正在建设中，改进版本将很快推出。在此期间，如果您渴望继续您的比特币之旅，我们邀请您探索我们平台上提供的其他课程和教程。继续保持努力，祝学习愉快！
+

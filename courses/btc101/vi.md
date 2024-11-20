@@ -121,6 +121,11 @@ Do đó, Bitcoin là một giao thức kéo dài qua nhiều thời kỳ và khu
 
 ![Lịch sử Tiền của Bitcoin](assets/posters/fr/1_prehistoiredubitcoin.webp)
 
+Nếu bạn muốn tìm hiểu chi tiết hơn về lịch sử của Bitcoin, tôi rất khuyến nghị khóa học HIS 201 của chúng tôi. Tại đây, bạn sẽ khám phá nguồn gốc và sự nổi lên chậm chạp của Bitcoin, cũng như những khởi đầu của lịch sử và cộng đồng của nó. Khóa học này được tài liệu hóa và có nguồn, tất nhiên cũng có rất nhiều giai thoại :
+
+https://planb.network/courses/his201
+
+
 # Tiền Bạc
 <partId>e913df1a-4cbd-5380-ba67-ca2a0414f671</partId>
 
@@ -235,6 +240,11 @@ Chúng ta có thể kết thúc chương này với lời trích dẫn từ ngư
 
 ![Văn bản thay thế](assets/posters/en/4._fiat_currency.webp)
 
+Nếu bạn muốn tìm hiểu thêm về các ngụy biện kinh tế và tự do, tôi mời bạn khám phá khóa học ECO 102 của chúng tôi. Khóa học này theo dõi cuộc đời và ý tưởng của Frédéric Bastiat, một nhà tư tưởng người Pháp thế kỷ 19, người chắc chắn sẽ trân trọng sự ra đời của Bitcoin:
+
+https://planb.network/courses/eco102
+
+
 ## Lạm phát cực đoan
 <chapterId>b04c024c-54f3-50cb-997f-58721cfc74be</chapterId>
 
@@ -315,6 +325,10 @@ Kết luận, lạm phát cao có tác động làm giảm giá trị của ti�
 ### Tóm tắt nhanh trên một poster!
 
 ![Alt text](assets/posters/en/5._hyperinflation.webp)
+
+Để tìm hiểu sâu hơn về chủ đề siêu lạm phát, tôi khuyên bạn nên tham gia khóa học ECO 204 của David St-Onge. Bạn sẽ học được chu kỳ siêu lạm phát là gì và tác động thực sự của nó đối với cuộc sống của chúng ta. Bạn cũng sẽ khám phá sự tương đồng giữa các chu kỳ này và, quan trọng nhất, cách bảo vệ bản thân:
+
+https://planb.network/courses/eco204
 
 ## 21 triệu bitcoin
 <chapterId>f4a06d76-1963-56fd-93ff-dfa41489bcde</chapterId>
@@ -466,6 +480,11 @@ Chọn một ví phù hợp với nhu cầu và cách sử dụng của bạn. C
 
 ![Alt text](assets/posters/en/8._what_is_a_bitcoin_wallet.webp)
 
+Nếu trong hành trình xuống hang thỏ, bạn muốn tìm hiểu thêm về việc xây dựng một ví Bitcoin, từ entropy đến địa chỉ nhận, tôi khuyên bạn nên tham gia khóa học CYP 201 dành riêng cho chủ đề này:
+
+https://planb.network/courses/cyp201
+
+
 ## Bảo Mật và Ví Bitcoin
 <chapterId>00c1afea-e54a-511f-bab3-2efc2fbfa6a1</chapterId>
 
@@ -490,11 +509,27 @@ Hãy cố gắng thiết lập một số cấp độ bảo mật cho Bitcoin c�
 
 - **Cấp độ 1**, bạn sử dụng ví Bitcoin trên điện thoại hoặc máy tính của mình, nơi bạn là người duy nhất sở hữu bitcoin của mình. Bạn có thể dễ dàng thực hiện các giao dịch của mình. Tuy nhiên, việc sao lưu cụm từ ghi nhớ để lấy lại quyền truy cập vào quỹ của bạn trong trường hợp mất điện thoại hoặc máy tính là rất quan trọng. Nó thường được gọi là "ví nóng" vì khóa riêng tư được lưu trữ trên thiết bị có kết nối internet.
 
+Ví dụ, bạn có thể sử dụng Sparrow Wallet làm ví nóng:
+
+https://planb.network/tutorials/wallet/sparrow
+
 - **Cấp độ 2**, bạn sử dụng một ví vật lý và bạn đã bảo mật danh sách 12 hoặc 24 từ của mình. Để thực hiện một giao dịch, bạn luôn cần phải ký bằng thiết bị của mình. Điều này làm cho quỹ của bạn ít dễ truy cập hàng ngày. Nó thường được gọi là "Ví Lạnh" vì khóa của bạn được lưu trữ trên thiết bị không kết nối với internet.
+
+Ví dụ, bạn có thể sử dụng Ledger, Satochip hoặc Tapsigner:
+
+https://planb.network/tutorials/wallet/ledger-nano-s-plus
+
+https://planb.network/tutorials/wallet/satochip
+
+https://planb.network/tutorials/wallet/tapsigner
 
 ![image](assets/en/chapter6/4.webp)
 
 - **Cấp độ 3**, bạn sử dụng ví cấp độ 1 hoặc 2 nhưng với một cụm từ bổ sung. Hãy nhớ rằng bạn giờ đây cần phải sao lưu cả danh sách 12 hoặc 24 từ **và** cụm từ bổ sung của bạn. Lý tưởng nhất, hai thông tin này được lưu trữ ở hai nơi khác nhau.
+
+Để tìm hiểu thêm về cách sử dụng và chức năng của cụm mật khẩu BIP39:
+
+https://planb.network/tutorials/wallet/passphrase
 
 ![image](assets/en/chapter6/5.webp)
 
@@ -553,6 +588,10 @@ Ví "lạnh" thường có những danh sách từ này, giống như ví "nóng
 ### Tóm tắt nhanh trên một poster!
 
 ![Alt text](assets/posters/en/10._set_up_your_wallet.webp)
+
+Nếu bạn muốn tìm hiểu từng bước cách thiết lập ví của riêng mình và có được những bitcoin đầu tiên, tôi cũng khuyên bạn nên tham gia khóa học này:
+
+https://planb.network/courses/btc102
 
 ## Đứng vững trước thử thách của thời gian
 <chapterId>f58cd446-c202-5eff-aab7-e61cc40e5c06</chapterId>
@@ -833,6 +872,10 @@ Lý thuyết trò chơi áp dụng cho Bitcoin loại bỏ các thợ mỏ khôn
 
 ![miners](assets/posters/fr/13_explication_des_mineurs_crop.webp)
 
+Nếu bạn muốn tìm hiểu sâu hơn về chủ đề khai thác Bitcoin, bạn có thể tham khảo khóa học MIN 201 của chúng tôi. Bạn sẽ tìm hiểu về cách hoạt động và vai trò của Proof-of-Work, cũng như các cơ chế của ngành khai thác. Chúng tôi cũng giải thích cách biến ASIC thành lò sưởi, để bạn có thể khai thác satoshi đầu tiên trong khi sưởi ấm ngôi nhà của mình!
+
+https://planb.network/courses/min201
+
 ## Bitcoin và Môi trường
 <chapterId>4b227ae6-443a-5739-b443-60b7931130d9</chapterId>
 
@@ -967,8 +1010,17 @@ Hơn nữa, việc chấp nhận Bitcoin như một người bán có một số
 Chúng tôi sẽ đề cập đến chủ đề này chi tiết trong một khóa học khác, nhưng để giữ mọi thứ đơn giản, chúng ta có thể xem xét một số loại hình doanh nghiệp và do đó là các giải pháp liên quan:
 
 - Giải pháp trực tuyến đơn giản: OpenNode
-- Giải pháp cho các nhà bán lẻ không chuyên: Swiss Bitcoin Pay
-- Giải pháp cho các cơ cấu lớn hoặc những người đam mê bitcoin: BTCpay Server
+
+https://planb.network/tutorials/merchant/open-node
+
+- Giải pháp cho thương gia nghiệp dư: Swiss Bitcoin Pay
+
+https://planb.network/tutorials/merchant/swiss-bitcoin-pay-2
+
+- Giải pháp cho các cấu trúc lớn hoặc những người đam mê bitcoin: BTCpay Server
+
+https://planb.network/courses/btc305
+
 
 ### Tóm tắt nhanh trong một poster!
 
@@ -1134,6 +1186,10 @@ Tóm lại, Mạng lưới Lightning là một nỗ lực hứa hẹn để tri�
 
 ![Alt text](assets/posters/en/20._lightning_network.webp)
 
+Nếu bạn muốn tìm hiểu sâu hơn ngoài phần giới thiệu này và hiểu tất cả các cơ chế của Lightning Network, tôi khuyên bạn nên tham gia khóa học xuất sắc này của Fanis Michalakis về chủ đề này:
+
+https://planb.network/courses/lnp201
+
 ## Các Trường Hợp Sử Dụng của Mạng lưới Lightning
 <chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>
 
@@ -1238,12 +1294,28 @@ Thay đổi hệ thống tài chính đòi hỏi phải thay đổi tiền tệ.
 
 Xin chúc mừng bạn đã hoàn thành khóa học BTC 101 này! Tôi thực sự hy vọng bạn đã thích nó và nó đã mở cửa cho bạn. Khám phá về bitcoin của bạn chỉ mới bắt đầu, và tôi mời bạn khám phá tất cả các khóa học khác có sẵn tại trường đại học.
 
-- [BTC 102](https://planb.network/courses/btc102) sẽ giúp bạn thiết lập kế hoạch bitcoin của mình
-- [LNP 201](https://planb.network/courses/lnp201) sẽ giúp bạn khám phá Lightning Network, một mạng lưới thanh toán tầng thứ hai
-- [ECO 201](https://planb.network/courses/eco01) sẽ bao gồm kinh tế học Áo
-- [SCU 101](https://planb.network/courses/scu101) sẽ giúp bạn cập nhật về an ninh số
-- [MIN 201](https://planb.network/courses/min201) để tìm hiểu thêm về việc đào
-- và nhiều hơn nữa...
+Để thiết lập kế hoạch Bitcoin của bạn:
+
+https://planb.network/courses/btc102
+
+Để khám phá Lightning Network, một mạng thanh toán lớp thứ hai:
+
+https://planb.network/courses/lnp201
+
+Để tìm hiểu về kinh tế học Áo:
+
+https://planb.network/courses/eco201
+
+Để cập nhật bảo mật kỹ thuật số của bạn:
+
+https://planb.network/courses/scu101
+
+Để biết thêm về khai thác:
+
+https://planb.network/courses/min201
+
+và còn nhiều nữa...
+
 
 
 ## Đánh giá khóa học
@@ -1261,3 +1333,4 @@ Xin chúc mừng bạn đã hoàn thành khóa học BTC 101 này! Tôi thực s
 **Chúc mừng bạn đã hoàn thành khóa học này!**
 
 Xin lưu ý rằng chương này hiện đang được xây dựng và phiên bản cải tiến sẽ sớm ra mắt. Trong thời gian chờ đợi, nếu bạn háo hức tiếp tục hành trình Bitcoin của mình, chúng tôi mời bạn khám phá các khóa học và hướng dẫn khác có sẵn trên nền tảng của chúng tôi. Hãy tiếp tục công việc tốt đẹp và học tập vui vẻ!
+

@@ -128,6 +128,11 @@ Therefore, Bitcoin is a protocol that spans long periods of time and encourages 
 
 ![The Prehistory of Bitcoin](./assets/posters/en/1._bitcoin_prehistory.webp)
 
+If you want to explore Bitcoin's history in more detail, I highly recommend our HIS 201 course. You will discover the origins and the slow emergence of Bitcoin, as well as the beginnings of its history and community. This course is fully documented and sourced, with, of course, many anecdotes:
+
+https://planb.network/courses/his201
+
+
 # Money
 
 <partId>e913df1a-4cbd-5380-ba67-ca2a0414f671</partId>
@@ -248,6 +253,11 @@ We can conclude this chapter with the quote from Nobel Prize winner F.A Hayek in
 
 ![Alt text](assets/posters/en/4._fiat_currency.webp)
 
+To learn more about economic fallacies and freedom, I invite you to discover our ECO 102 course. This course traces the life and ideas of Frédéric Bastiat, a 19th-century French thinker who would surely have appreciated the emergence of Bitcoin:
+
+https://planb.network/courses/eco102
+
+
 ## Hyperinflation
 
 <chapterId>b04c024c-54f3-50cb-997f-58721cfc74be</chapterId>
@@ -330,6 +340,11 @@ In conclusion, hyperinflation has the effect of rapidly degrading the value of t
 ### Quick recap in a poster!
 
 ![Alt text](assets/posters/en/5._hyperinflation.webp)
+
+To delve deeper into the subject of hyperinflations, I recommend David St-Onge's ECO 204 course. You will learn what hyperinflationary cycles are and their real impacts on our lives. You will also discover the similarities between these cycles and, most importantly, how to protect yourself from them:
+
+https://planb.network/courses/eco204
+
 
 ## 21 million bitcoins
 
@@ -487,6 +502,11 @@ Choose a wallet that suits your needs and usage. Detailed tutorials on the use a
 
 ![Alt text](assets/posters/en/8._what_is_a_bitcoin_wallet.webp)
 
+If, during your journey down the rabbit hole, you want to learn more about building a Bitcoin wallet, from entropy to receiving addresses, I recommend the CYP 201 course dedicated to this topic:
+
+https://planb.network/courses/cyp201
+
+
 ## Security and Bitcoin Wallets
 
 <chapterId>00c1afea-e54a-511f-bab3-2efc2fbfa6a1</chapterId>
@@ -514,11 +534,27 @@ Let's try to establish several levels of security for your bitcoins:
 
 - **Level 1**, you use a Bitcoin wallet on your phone or computer where you are the sole holder of your bitcoins. You can easily carry out your transactions. However, it is crucial to backup the mnemonic phrase to regain access to your funds in case of loss of your phone or computer. It is often referred to as a "hot wallet" because the private key is stored on a device with internet access.
 
+For example, you can use Sparrow Wallet as a hot wallet:
+
+https://planb.network/tutorials/wallet/sparrow
+
 - **Level 2**, you use a physical wallet, and you have secured your list of 12 or 24 words. To perform a transaction, you will always need to sign with your device. This makes your funds less accessible on a daily basis. It is often referred to as a "Cold Wallet" because your keys are stored on a device that is not connected to the internet.
+
+For example, you could use a Ledger, a Satochip, or a Tapsigner:
+
+https://planb.network/tutorials/wallet/ledger-nano-s-plus
+
+https://planb.network/tutorials/wallet/satochip
+
+https://planb.network/tutorials/wallet/tapsigner
 
 ![image](assets/en/chapter6/4.webp)
 
 - **Level 3**, you use a level 1 or 2 wallet but with an additional passphrase. Be aware that you now need to backup both the list of 12 or 24 words **and** your passphrase. Ideally, these two pieces of information are stored in two different places.
+
+To learn more about the use and functioning of the BIP39 passphrase:
+
+https://planb.network/tutorials/wallet/passphrase
 
 ![image](assets/en/chapter6/5.webp)
 
@@ -580,6 +616,10 @@ Once the copies are made, store the word lists in a safe place where you will re
 ### Quick recap in a poster!
 
 ![Alt text](assets/posters/en/10._set_up_your_wallet.webp)
+
+If you then wish to discover, step by step, how to set up your own wallet and get your first bitcoins, I also recommend taking this other course:
+
+https://planb.network/courses/btc102
 
 ## Standing the test of time
 
@@ -880,6 +920,10 @@ The theory of game applied to Bitcoin eliminates dishonest miners. Miners use AS
 
 ![miners](./assets/posters/en/13._miners.webp)
 
+If you want to delve deeper into the specific topic of Bitcoin mining, you can consult our MIN 201 course. You will discover the workings and role of Proof-of-Work, as well as the mechanics of the mining industry. We also explain how to convert an ASIC into a heater, allowing you to mine your first satoshis while heating your home!
+
+https://planb.network/courses/min201
+
 ## Bitcoin and Ecology
 
 <chapterId>4b227ae6-443a-5739-b443-60b7931130d9</chapterId>
@@ -1031,8 +1075,17 @@ To accept Bitcoin, it is necessary to study the different available solutions an
 We will cover this topic in detail in another training, but to keep it simple, we can consider several categories of businesses and therefore related solutions:
 
 - Simple online solution: OpenNode
+
+https://planb.network/tutorials/merchant/open-node
+
 - Solution for amateur merchants: Swiss Bitcoin Pay
+
+https://planb.network/tutorials/merchant/swiss-bitcoin-pay-2
+
 - Solution for large structures or passionate bitcoiners: BTCpay Server
+
+https://planb.network/courses/btc305
+
 
 ### Quick recap in a poster!
 
@@ -1206,6 +1259,11 @@ In summary, the Lightning Network is a promising attempt to deploy an efficient 
 
 ![Alt text](assets/posters/en/20._lightning_network.webp)
 
+If you want to go beyond this introduction and understand all the workings of the Lightning Network, I recommend taking this excellent course by Fanis Michalakis on the subject:
+
+https://planb.network/courses/lnp201
+
+
 ## Use Cases of the Lightning Network
 
 <chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>
@@ -1317,12 +1375,28 @@ Changing the financial system requires changing the currency. Satoshi created Bi
 
 Congratulations on completing this BTC 101 course! I sincerely hope you enjoyed it and it opened doors for you. Your discovery of bitcoin is just beginning, and I invite you to explore all the other courses available at the university.
 
-- [BTC 102](https://planb.network/courses/btc101) will help you set up your bitcoin plan
-- [LNP 201](https://planb.network/courses/lnp201) will allow you to discover the Lightning Network, a second-layer payment network
-- [ECO 201](https://planb.network/courses/eco201) will cover Austrian economics
-- [SCU 101](https://planb.network/courses/scu101) will allow you to update your digital security
-- [MIN 201](https://planb.network/courses/min201) to learn more about mining
-- and many more...
+To set up your Bitcoin plan:
+
+https://planb.network/courses/btc102
+
+To discover the Lightning Network, a second-layer payment network:
+
+https://planb.network/courses/lnp201
+
+To explore Austrian economics:
+
+https://planb.network/courses/eco201
+
+To update your digital security:
+
+https://planb.network/courses/scu101
+
+To learn more about mining:
+
+https://planb.network/courses/min201
+
+and much more...
+
 
 ## Evaluate the course
 
@@ -1340,3 +1414,4 @@ Congratulations on completing this BTC 101 course! I sincerely hope you enjoyed 
 **Congratulations on completing this course!**
 
 Please note that this chapter is currently under construction, and an improved version will be arriving soon. In the meantime, if you're eager to continue your Bitcoin journey, we invite you to explore the other courses and tutorials available on our platform. Keep up the great work, and happy learning!
+

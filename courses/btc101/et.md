@@ -128,6 +128,11 @@ Seega on Bitcoin protokoll, mis hõlmab pikki ajaperioode ja julgustab meid küs
 
 ![Bitcoini eellugu](assets/posters/fr/1_prehistoiredubitcoin.webp)
 
+Kui soovite Bitcoini ajalugu põhjalikumalt uurida, soovitan väga meie kursust HIS 201. Siit leiate Bitcoini päritolu ja selle aeglase esilekerkimise, samuti selle ajaloo ja kogukonna algusjärgu. See kursus on täielikult dokumenteeritud ja allikatega toetatud ning sisaldab loomulikult palju anekdoote :
+
+https://planb.network/courses/his201
+
+
 # Raha
 
 <partId>e913df1a-4cbd-5380-ba67-ca2a0414f671</partId>
@@ -241,6 +246,11 @@ Selle peatüki võime kokku võtta Nobeli preemia laureaadi F.A Hayeki tsitaadig
 
 ![Alt text](assets/posters/en/4._fiat_currency.webp)
 
+Kui soovite rohkem teada saada majanduslikest eksitustest ja vabadusest, kutsun teid avastama meie kursust ECO 102. See kursus jälgib Frédéric Bastiati, 19. sajandi prantsuse mõtleja elu ja ideid, kes kindlasti oleks Bitcoini esilekerkimist hinnanud :
+
+https://planb.network/courses/eco102
+
+
 ## Hüperinflatsioon
 
 <chapterId>b04c024c-54f3-50cb-997f-58721cfc74be</chapterId>
@@ -322,6 +332,11 @@ Kokkuvõttes on hüperinflatsioonil mõju valuuta väärtuse kiirele degradeerum
 ### Kiire kokkuvõte plakatil!
 
 ![Alt text](assets/posters/en/5._hyperinflation.webp)
+
+Teema süvendamiseks soovitan David St-Onge'i kursust ECO 204 hüperinflatsiooni kohta. Siit saate teada, mis on hüperinflatsioonilised tsüklid ja milline on nende reaalne mõju meie eludele. Samuti avastate nende tsüklite sarnasusi ja mis kõige tähtsam, kuidas end nende eest kaitsta:
+
+https://planb.network/courses/eco204
+
 
 ## 21 miljonit bitcoini
 
@@ -477,6 +492,11 @@ Valige rahakott, mis vastab teie vajadustele ja kasutusele. Erinevate rahakottid
 
 ![Alt text](assets/posters/en/8._what_is_a_bitcoin_wallet.webp)
 
+Kui soovite oma teekonnal jäneseurus rohkem teada saada Bitcoini rahakoti loomise kohta, alates entroopiast kuni vastuvõtuaadressideni, soovitan selle teema jaoks pühendatud kursust CYP 201:
+
+https://planb.network/courses/cyp201
+
+
 ## Turvalisus ja Bitcoini rahakotid
 
 <chapterId>00c1afea-e54a-511f-bab3-2efc2fbfa6a1</chapterId>
@@ -504,11 +524,27 @@ Proovime määratleda mitu turvataset teie bitcoinidele:
 
 - **Tase 1**, kasutate Bitcoini rahakotti oma telefonis või arvutis, kus te olete oma bitcoinide ainuomanik. Saate hõlpsalt teostada oma tehinguid. Siiski on oluline varundada mnemooniline fraas, et taastada juurdepääs oma vahenditele telefoni või arvuti kaotuse korral. Seda nimetatakse sageli "kuumaks rahakotiks", kuna privaatvõti on salvestatud seadmesse, millel on internetiühendus.
 
+Näiteks saate kasutada Sparrow Walleti kuumana rahakotina:
+
+https://planb.network/tutorials/wallet/sparrow
+
 - **Tase 2**, kasutate füüsilist rahakotti ja olete turvanud oma 12 või 24 sõna nimekirja. Tehingu sooritamiseks peate alati allkirjastama oma seadmega. See muudab teie vahendid igapäevaselt vähem kättesaadavaks. Seda nimetatakse sageli "külmaks rahakotiks", kuna teie võtmed on salvestatud seadmesse, mis ei ole ühendatud internetiga.
+
+Näiteks võiksite kasutada Ledgerit, Satochipi või Tapsignerit:
+
+https://planb.network/tutorials/wallet/ledger-nano-s-plus
+
+https://planb.network/tutorials/wallet/satochip
+
+https://planb.network/tutorials/wallet/tapsigner
 
 ![image](assets/en/chapter6/4.webp)
 
 - **Tase 3**, kasutate tase 1 või 2 rahakotti, kuid lisaks veel paroolilauset. Olge teadlikud, et nüüd on vaja varundada nii 12 või 24 sõna nimekiri **kui ka** teie paroolilause. Ideaalis hoitakse neid kahte teavet erinevates kohtades.
+
+Lisateabe saamiseks BIP39 paroolifraasi kasutamise ja toimimise kohta:
+
+https://planb.network/tutorials/wallet/passphrase
 
 ![image](assets/en/chapter6/5.webp)
 
@@ -568,6 +604,10 @@ Kui koopiad on tehtud, hoidke sõnaloendeid turvalises kohas, kus te mäletate n
 ### Kiire kokkuvõte plakatil!
 
 ![Alt tekst](assets/posters/en/10._set_up_your_wallet.webp)
+
+Kui soovite seejärel samm-sammult avastada, kuidas oma rahakott seadistada ja oma esimesed bitcoinid saada, soovitan teil läbida ka see teine kursus:
+
+https://planb.network/courses/btc102
 
 ## Ajaproovile vastu pidamine
 
@@ -851,6 +891,10 @@ Mänguteooria, rakendatuna Bitcoinile, kõrvaldab ebaausad kaevurid. Kaevurid ka
 
 ![kaevurid](assets/posters/fr/13_explication_des_mineurs_crop.webp)
 
+Kui soovite Bitcoini kaevandamise konkreetset teemat põhjalikumalt uurida, võite vaadata meie kursust MIN 201. Siit saate teada Proof-of-Worki toimimise ja rolli ning kaevandustööstuse keerukuse. Samuti selgitame, kuidas muuta ASIC küttekehadeks, et saaksite oma esimesed satoshid kaevandada ja samal ajal oma kodu soojendada!
+
+https://planb.network/courses/min201
+
 ## Bitcoin ja ökoloogia
 
 <chapterId>4b227ae6-443a-5739-b443-60b7931130d9</chapterId>
@@ -995,9 +1039,18 @@ Bitcoini aktsepteerimiseks on vajalik uurida erinevaid saadaolevaid lahendusi ja
 
 Me käsitleme seda teemat üksikasjalikumalt teises koolitusel, kuid lihtsuse huvides võime kaaluda mitmeid ärikategooriaid ja seega seotud lahendusi:
 
-- Lihtne online lahendus: OpenNode
+- Lihtne veebilahendus: OpenNode
+
+https://planb.network/tutorials/merchant/open-node
+
 - Lahendus amatöörkaupmeestele: Swiss Bitcoin Pay
-- Lahendus suurtele struktuuridele või kirglikele bitcoineritele: BTCPay Server
+
+https://planb.network/tutorials/merchant/swiss-bitcoin-pay-2
+
+- Lahendus suurtele struktuuridele või kirglikele bitcoinisõpradele: BTCpay Server
+
+https://planb.network/courses/btc305
+
 
 ### Kiire kokkuvõte plakatil!
 
@@ -1168,6 +1221,10 @@ Kokkuvõttes on Lightning Network paljutõotav katse käivitada tõhus maksesüs
 
 ![Alt text](assets/posters/en/20._lightning_network.webp)
 
+Kui soovite minna kaugemale sellest sissejuhatusest ja mõista kõiki Lightning Networki mehhanisme, soovitan teil läbida Fanis Michalakise suurepärase kursuse sellel teemal:
+
+https://planb.network/courses/lnp201
+
 ## Lightning Networki kasutusjuhud
 
 <chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>
@@ -1275,12 +1332,28 @@ Finantssüsteemi muutmine nõuab valuuta muutmist. Satoshi lõi Bitcoini 2008. a
 
 Palju õnne BTC 101 kursuse lõpetamise puhul! Loodan siiralt, et see meeldis teile ja avas teile uksi. Teie avastusreis bitcoiniga on alles algus, ja ma kutsun teid uurima kõiki teisi ülikoolis saadaolevaid kursuseid.
 
-- [BTC 102](https://planb.network/courses/btc101) aitab sul seadistada oma bitcoini plaani
-- [LNP 201](https://planb.network/courses/lnp201) võimaldab sul avastada Lightning Networki, teise kihi maksevõrgu
-- [ECO 201](https://planb.network/courses/eco201) käsitleb Austria majandust
-- [SCU 101](https://planb.network/courses/scu101) võimaldab sul uuendada oma digitaalset turvalisust
-- [MIN 201](https://planb.network/courses/min201) õpetab rohkem kaevandamise kohta
-- ja palju muud...
+Bitcoini plaani seadistamiseks:
+
+https://planb.network/courses/btc102
+
+Lightning Networki avastamiseks, teise kihi maksevõrgu kohta:
+
+https://planb.network/courses/lnp201
+
+Austria majanduse käsitlemiseks:
+
+https://planb.network/courses/eco201
+
+Teie digitaalset turvalisust värskendamiseks:
+
+https://planb.network/courses/scu101
+
+Et rohkem teada saada kaevandamise kohta:
+
+https://planb.network/courses/min201
+
+ja palju muud...
+
 
 ## Hinnake kursust
 
@@ -1298,3 +1371,4 @@ Palju õnne BTC 101 kursuse lõpetamise puhul! Loodan siiralt, et see meeldis te
 **Palju õnne kursuse lõpetamise puhul!**
 
 Pange tähele, et see peatükk on praegu koostamisel ja peagi ilmub täiustatud versioon. Vahepeal, kui soovite oma Bitcoini teekonda jätkata, kutsume teid tutvuma meie platvormil saadaolevate teiste kursuste ja õpetustega. Jätkake head tööd ja head õppimist!
+

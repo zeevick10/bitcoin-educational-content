@@ -128,6 +128,11 @@ Derfor er Bitcoin et protokoll som spenner over lange perioder og oppmuntrer oss
 
 ![Bitcoin's forhistorie](assets/posters/fr/1_prehistoiredubitcoin.webp)
 
+Hvis du ønsker å utforske Bitcoins historie mer detaljert, anbefaler jeg sterkt kurset vårt HIS 201. Der vil du oppdage opprinnelsen og den langsomme fremveksten av Bitcoin, samt starten på dens historie og fellesskap. Dette kurset er fullstendig dokumentert og kildebasert, med selvfølgelig mange anekdoter :
+
+https://planb.network/courses/his201
+
+
 # Penger
 
 <partId>e913df1a-4cbd-5380-ba67-ca2a0414f671</partId>
@@ -240,6 +245,11 @@ Vi kan avslutte dette kapittelet med et sitat fra Nobelprisvinner F.A Hayek i 19
 
 ![Alt tekst](assets/posters/en/4._fiat_currency.webp)
 
+Hvis du ønsker å lære mer om økonomiske feilslutninger og frihet, anbefaler jeg kurset ECO 102. Kurset tar for seg livet og ideene til Frédéric Bastiat, en fransk tenker fra 1800-tallet som utvilsomt ville satt pris på fremveksten av Bitcoin:
+
+https://planb.network/courses/eco102
+
+
 ## Hyperinflasjon
 
 <chapterId>b04c024c-54f3-50cb-997f-58721cfc74be</chapterId>
@@ -319,6 +329,11 @@ Som konklusjon har hyperinflasjon effekten av raskt å degradere valutaens verdi
 ### Rask oppsummering i en plakat!
 
 ![Alt-tekst](assets/posters/en/5._hyperinflation.webp)
+
+For å fordype deg i temaet hyperinflasjon, anbefaler jeg David St-Onges kurs ECO 204. Her lærer du hva hyperinflasjonssykluser er og hvilke reelle konsekvenser de har for våre liv. Du vil også oppdage likhetene mellom disse syklusene og, viktigst av alt, hvordan du kan beskytte deg mot dem:
+
+https://planb.network/courses/eco204
+
 
 ## 21 millioner bitcoins
 
@@ -474,6 +489,11 @@ Velg en lommebok som passer dine behov og bruk. Detaljerte veiledninger om bruk 
 
 ![Alt tekst](assets/posters/en/8._what_is_a_bitcoin_wallet.webp)
 
+Hvis du under din reise ned i kaninhullet ønsker å lære mer om hvordan en Bitcoin-lommebok bygges, fra entropi til mottaksadresser, anbefaler jeg kurset CYP 201 som er viet til dette emnet:
+
+https://planb.network/courses/cyp201
+
+
 ## Sikkerhet og Bitcoin-lommebøker
 
 <chapterId>00c1afea-e54a-511f-bab3-2efc2fbfa6a1</chapterId>
@@ -501,11 +521,27 @@ La oss prøve å etablere flere nivåer av sikkerhet for dine bitcoins:
 
 - **Nivå 1**, du bruker en Bitcoin-lommebok på telefonen eller datamaskinen din hvor du er den eneste innehaveren av dine bitcoins. Du kan enkelt utføre transaksjonene dine. Det er imidlertid avgjørende å sikkerhetskopiere den mnemoniske frasen for å gjenopprette tilgangen til dine midler i tilfelle tap av telefonen eller datamaskinen. Det refereres ofte til som en "hot wallet" fordi den private nøkkelen lagres på en enhet med internett-tilgang.
 
+For eksempel kan du bruke Sparrow Wallet som en varm lommebok:
+
+https://planb.network/tutorials/wallet/sparrow
+
 - **Nivå 2**, du bruker en fysisk lommebok, og du har sikret din liste med 12 eller 24 ord. For å utføre en transaksjon, vil du alltid trenge å signere med enheten din. Dette gjør dine midler mindre tilgjengelige på daglig basis. Det refereres ofte til som en "Cold Wallet" fordi nøklene dine lagres på en enhet som ikke er koblet til internett.
+
+For eksempel kan du bruke en Ledger, en Satochip eller en Tapsigner:
+
+https://planb.network/tutorials/wallet/ledger-nano-s-plus
+
+https://planb.network/tutorials/wallet/satochip
+
+https://planb.network/tutorials/wallet/tapsigner
 
 ![bilde](assets/en/chapter6/4.webp)
 
 - **Nivå 3**, du bruker en lommebok på nivå 1 eller 2, men med en ekstra passfrase. Vær oppmerksom på at du nå trenger å sikkerhetskopiere både listen med 12 eller 24 ord **og** din passfrase. Ideelt sett er disse to informasjonsbitene lagret på to forskjellige steder.
+
+For å lære mer om bruk og funksjon av BIP39-passfrasen:
+
+https://planb.network/tutorials/wallet/passphrase
 
 ![bilde](assets/en/chapter6/5.webp)
 
@@ -564,6 +600,10 @@ Når kopiene er laget, oppbevar ordlistene på et trygt sted hvor du vil huske �
 ### Rask oppsummering i en plakat!
 
 ![Alt-tekst](assets/posters/en/10._set_up_your_wallet.webp)
+
+Hvis du deretter ønsker å lære steg for steg hvordan du setter opp din egen lommebok og får dine første bitcoins, anbefaler jeg også dette andre kurset:
+
+https://planb.network/courses/btc102
 
 ## Består tidens prøve
 
@@ -848,6 +888,10 @@ Teorien om spill anvendt på Bitcoin eliminerer uærlige minere. Minerene bruker
 
 ![miners](assets/posters/fr/13_explication_des_mineurs_crop.webp)
 
+Hvis du ønsker å fordype deg i det spesifikke emnet Bitcoin-mining, kan du ta vår MIN 201-kurs. Du vil lære om hvordan Proof-of-Work fungerer og hvilken rolle den spiller, samt innsikt i gruvedriftens mekanismer. Vi forklarer også hvordan du kan gjøre en ASIC om til en ovn, slik at du kan mine dine første satoshis samtidig som du varmer opp hjemmet ditt!
+
+https://planb.network/courses/min201
+
 ## Bitcoin og Økologi
 
 <chapterId>4b227ae6-443a-5739-b443-60b7931130d9</chapterId>
@@ -991,9 +1035,18 @@ For å akseptere Bitcoin, er det nødvendig å studere de forskjellige tilgjenge
 
 Vi vil dekke dette emnet i detalj i en annen opplæring, men for å holde det enkelt, kan vi vurdere flere kategorier av virksomheter og derfor relaterte løsninger:
 
-- Enkel online løsning: OpenNode
-- Løsning for amatørhandlere: Swiss Bitcoin Pay
-- Løsning for store strukturer eller lidenskapelige bitcoinere: BTCpay Server
+- Enkel nettbasert løsning: OpenNode
+
+https://planb.network/tutorials/merchant/open-node
+
+- Løsning for hobbyhandlere: Swiss Bitcoin Pay
+
+https://planb.network/tutorials/merchant/swiss-bitcoin-pay-2
+
+- Løsning for store strukturer eller lidenskapelige bitcoiner: BTCpay Server
+
+https://planb.network/courses/btc305
+
 
 ### Rask oppsummering i en plakat!
 
@@ -1163,6 +1216,10 @@ Oppsummert er Lightning Network et lovende forsøk på å distribuere et effekti
 
 ![Alt tekst](assets/posters/en/20._lightning_network.webp)
 
+このイントロダクションを超えて、Lightning Networkのすべての仕組みを理解したい場合は、Fanis Michalakisによるこの優れたコースをお勧めします：
+
+https://planb.network/courses/lnp201
+
 ## Bruksområder for Lightning Network
 
 <chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>
@@ -1269,12 +1326,28 @@ Bitcoin kan ikke lenger stoppes og kan ikke lenger sensureres. Det er en fredeli
 
 Gratulerer med å ha fullført dette BTC 101-kurset! Jeg håper inderlig at du likte det og at det åpnet dører for deg. Din oppdagelse av bitcoin er bare begynnelsen, og jeg inviterer deg til å utforske alle de andre kursene som er tilgjengelige ved universitetet.
 
-- [BTC 102](https://planb.network/courses/btc101) vil hjelpe deg med å sette opp din bitcoin-plan
-- [LNP 201](https://planb.network/courses/lnp201) vil la deg oppdage Lightning Network, et andre-lags betalingsnettverk
-- [ECO 201](https://planb.network/courses/eco201) vil dekke østerriksk økonomi
-- [SCU 101](https://planb.network/courses/scu101) vil la deg oppdatere din digitale sikkerhet
-- [MIN 201](https://planb.network/courses/min201) for å lære mer om mining
-- og mange flere...
+For å sette opp din Bitcoin-plan:
+
+https://planb.network/courses/btc102
+
+For å oppdage Lightning Network, et betalingsnettverk i andre lag:
+
+https://planb.network/courses/lnp201
+
+For å utforske østerriksk økonomi:
+
+https://planb.network/courses/eco201
+
+For å oppdatere din digitale sikkerhet:
+
+https://planb.network/courses/scu101
+
+For å lære mer om mining:
+
+https://planb.network/courses/min201
+
+og mye mer...
+
 
 ## Støtt oss
 
@@ -1291,3 +1364,4 @@ Et vurderingssystem for opplæringen vil snart bli integrert i denne nye E-læri
 En stor takk til våre Patreon-støttespillere, medlemmer og donorer for deres økonomiske støtte, takk til folk som deler, og takk til de som gjorde denne opplæringen mulig: Rachel, Muriel, StackinSat-teamet, JohnOnChain, Fanis, Guillaume, Lounes, korrekturleserne og anmelderne.
 
 Vi sees snart!
+

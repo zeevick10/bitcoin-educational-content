@@ -131,6 +131,11 @@ Il Bitcoin è quindi un protocollo che si inserisce in tempi lunghi e ci spinge 
 
 ![La preistoria di Bitcoin](assets/posters/fr/1_prehistoiredubitcoin.webp)
 
+Se desiderate esplorare più nel dettaglio la storia di Bitcoin, vi consiglio vivamente il nostro corso HIS 201. Scoprirete le origini e la lenta ascesa di Bitcoin, nonché i primi passi della sua storia e della sua comunità. Questo corso è completamente documentato e corredato di fonti, con ovviamente numerose aneddoti :
+
+https://planb.network/courses/his201
+
+
 # La moneta
 
 <partId>e913df1a-4cbd-5380-ba67-ca2a0414f671</partId>
@@ -244,6 +249,11 @@ Possiamo concludere questo capitolo con la citazione del premio Nobel per l'econ
 
 ![image](assets/it/chapter2/0.webp)
 
+Se desiderate saperne di più sui sofismi economici e la libertà, vi invito a scoprire il nostro corso ECO 102. Questo corso ripercorre la vita e le idee di Frédéric Bastiat, un pensatore francese del XIX secolo che, senza dubbio, avrebbe apprezzato l’emergere di Bitcoin:
+
+https://planb.network/courses/eco102
+
+
 ## Le iperinflazioni
 
 <chapterId>b04c024c-54f3-50cb-997f-58721cfc74be</chapterId>
@@ -323,6 +333,11 @@ La risoluzione di una crisi di iperinflazione richiede spesso cambiamenti radica
 In conclusione, l'iperinflazione ha l'effetto di degradare rapidamente il valore della moneta, portando all'erosione dei risparmi e alla perdita di fiducia nel sistema monetario. Come suggerito da Voltaire, una moneta fiduciaria alla fine perderà sempre il suo valore intrinseco e si avvicinerà allo zero.
 
 Una valuta che si basa su un terzo di fiducia come un istituto finanziario si rivela essere una valuta difettosa nel tempo, in quanto incapace di garantire il potere d'acquisto o preservare i risparmi.
+
+Per approfondire il tema delle iperinflazioni, vi consiglio il corso ECO 204 di David St-Onge. Imparerete cosa sono i cicli iperinflazionistici e quali sono i loro impatti reali sulle nostre vite. Scoprirete anche le somiglianze tra questi cicli e, soprattutto, come proteggervi da essi:
+
+https://planb.network/courses/eco204
+
 
 ## 21 milioni di bitcoin
 
@@ -480,6 +495,10 @@ Quindi la probabilità di un hack del tuo portafoglio Bitcoin è astronomicament
 
 Scegli un portafoglio che corrisponda alle tue esigenze e al tuo utilizzo. Tutorial dettagliati sull'uso e sulla sicurezza di diversi portafogli sono disponibili nella sezione [tutorial della nostra università](https://planb.network/tutorials/wallet).
 
+Se durante il tuo percorso nella tana del coniglio desideri saperne di più sulla costruzione di un portafoglio Bitcoin, dall’entropia fino agli indirizzi di ricezione, ti consiglio il corso CYP 201 dedicato a questo argomento:
+
+https://planb.network/courses/cyp201
+
 ## Sicurezza e Portafogli Bitcoin
 
 <chapterId>00c1afea-e54a-511f-bab3-2efc2fbfa6a1</chapterId>
@@ -506,11 +525,27 @@ Proviamo qui a stabilire diversi livelli di sicurezza per i tuoi bitcoin:
 
 - **Livello 1**, stai utilizzando un portafoglio Bitcoin sul tuo telefono o sul tuo computer con il quale sei l'unico detentore dei tuoi bitcoin. Puoi effettuare le tue transazioni con facilità. Attenzione, è fondamentale fare un backup della frase mnemonica per poter accedere nuovamente ai tuoi fondi in caso di perdita del tuo telefono o computer. Spesso si parla di "hot wallet" perché la chiave privata è memorizzata in un dispositivo con accesso a Internet.
 
+Ad esempio, puoi utilizzare Sparrow Wallet come portafoglio caldo:
+
+https://planb.network/tutorials/wallet/sparrow
+
 - **Livello 2**, stai utilizzando un portafoglio fisico e hai protetto la tua lista di 12 o 24 parole. Per poter effettuare una transazione, dovrai sempre firmare con il tuo dispositivo. Ciò rende i tuoi fondi meno accessibili nella vita quotidiana. Spesso si parla di "Cold Wallet" perché le tue chiavi sono memorizzate su un dispositivo non connesso a Internet.
+
+Ad esempio, potresti usare un Ledger, un Satochip o un Tapsigner:
+
+https://planb.network/tutorials/wallet/ledger-nano-s-plus
+
+https://planb.network/tutorials/wallet/satochip
+
+https://planb.network/tutorials/wallet/tapsigner
 
 ![image](assets/it/chapter6/4.webp)
 
 - **Livello 3**, stai utilizzando un portafoglio di livello 1 o 2 ma con una passphrase aggiuntiva. Attenzione, ora devi fare un backup della lista di 12 o 24 parole **e** della tua passphrase. Idealmente queste 2 informazioni vanno memorizzate in due luoghi diversi.
+
+Per saperne di più sull'uso e il funzionamento della passphrase BIP39:
+
+https://planb.network/tutorials/wallet/passphrase
 
 ![image](assets/it/chapter6/5.webp)
 
@@ -562,6 +597,10 @@ Una volta realizzate le copie, conserva le liste di parole in un luogo sicuro do
 I portafogli "cold" di solito hanno queste liste di parole, così come i portafogli "hot" su dispositivi mobili o PC. Questo metodo di backup della chiave privata è oggi lo standard. Ciò significa che puoi inserire la tua frase mnemonica in qualsiasi software di portafoglio per ripristinare il tuo. Solo i peggiori portafogli che sconsigliamo fortemente non ti daranno una lista di 24 parole, ma potrebbero chiederti un account, un indirizzo email o, peggio ancora, un ID.
 
 **ATTENZIONE: L'assenza di una lista di 24 parole dovrebbe metterti in allarme.**
+
+Se poi desideri scoprire, passo dopo passo, come impostare il tuo portafoglio e ottenere i tuoi primi bitcoin, ti consiglio anche di seguire quest'altro corso:
+
+https://planb.network/courses/btc102
 
 ## Superare la prova del tempo
 
@@ -848,6 +887,10 @@ La teoria dei giochi applicata a Bitcoin esclude i minatori disonesti. I minator
 
 ![les mineurs](assets/posters/fr/13_explication_des_mineurs_crop.webp)
 
+Se desideri approfondire l'argomento specifico del mining su Bitcoin, puoi consultare il nostro corso MIN 201. Scoprirai il funzionamento e il ruolo del Proof-of-Work, nonché i meccanismi dell'industria del mining. Ti spieghiamo anche come trasformare un ASIC in un sistema di riscaldamento, per minare i tuoi primi satoshi riscaldando la tua casa!
+
+https://planb.network/courses/min201
+
 ## Bitcoin e l'ecologia
 
 <chapterId>4b227ae6-443a-5739-b443-60b7931130d9</chapterId>
@@ -995,9 +1038,18 @@ Per accettare bitcoin, è necessario studiare le diverse soluzioni disponibili e
 Affronteremo questo argomento in dettaglio in un altro corso, ma per semplificare, possiamo considerare diverse categorie di attività commerciali e quindi soluzioni correlate:
 
 - Soluzione online semplice: OpenNode
+
+https://planb.network/tutorials/merchant/open-node
+
 - Soluzione per commercianti amatoriali: Swiss Bitcoin Pay
-- Soluzione per grandi strutture o appassionati di bitcoin: BTCpay Server
-  Altre soluzioni intermedie o concorrenti a queste scelte esistono ovviamente, le scoprirete man mano che vi immergerete nel mondo di Bitcoin. Se necessario, la sezione tutorial per i commercianti può guidarvi!
+
+https://planb.network/tutorials/merchant/swiss-bitcoin-pay-2
+
+- Soluzione per grandi strutture o appassionati di Bitcoin: BTCpay Server
+
+https://planb.network/courses/btc305
+
+Altre soluzioni intermedie o concorrenti a queste scelte esistono ovviamente, le scoprirete man mano che vi immergerete nel mondo di Bitcoin. Se necessario, la sezione tutorial per i commercianti può guidarvi!
 
 ## Risparmiare con Bitcoin
 
@@ -1154,6 +1206,10 @@ Le transazioni sono protette dalla crittografia e indirettamente dall'energia co
 
 In sintesi, Lightning Network è un tentativo promettente di implementare un sistema di pagamento efficiente per le transazioni in Bitcoin. Esistono già numerosi portafogli Lightning che puoi scoprire nella nostra sezione tutorial o tramite i nostri corsi su Lightning Network.
 
+Se desiderate andare oltre questa introduzione e comprendere tutti i meccanismi del Lightning Network, vi consiglio di seguire questo eccellente corso di Fanis Michalakis sull'argomento:
+
+https://planb.network/courses/lnp201
+
 ## Caso d'uso di Lightning Network
 
 <chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>
@@ -1261,12 +1317,28 @@ Cambiare il sistema finanziario richiede di cambiare la valuta. Satoshi ha creat
 
 Congratulazioni per aver completato questa formazione BTC 101! Spero sinceramente che ti sia piaciuta e abbia aperto delle porte. La tua scoperta di Bitcoin è solo all'inizio e ti invito a scoprire tutte le altre formazioni disponibili nell'università.
 
-- [BTC 102](https://planb.network/courses/btc102) ti aiuterà a creare il tuo piano Bitcoin
-- [LNP 201](https://planb.network/courses/lnp201) ti permetterà di scoprire Lightning Network, una rete di pagamenti di secondo livello
-- [ECO 201](https://planb.network/courses/econ201) affronterà l'economia austriaca
-- [SCU 101](https://planb.network/courses/secu101) ti permetterà di aggiornare la tua sicurezza digitale
-- [MIN 201](https://planb.network/courses/min201) per saperne di più sul mining
-- e molti altri...
+Per impostare il tuo piano Bitcoin:
+
+https://planb.network/courses/btc102
+
+Per scoprire il Lightning Network, una rete di pagamenti di secondo livello:
+
+https://planb.network/courses/lnp201
+
+Per approfondire l'economia austriaca:
+
+https://planb.network/courses/eco201
+
+Per aggiornare la tua sicurezza digitale:
+
+https://planb.network/courses/scu101
+
+Per saperne di più sul mining:
+
+https://planb.network/courses/min201
+
+e molto altro ancora...
+
 
 
 ## Valuta il corso
@@ -1285,3 +1357,4 @@ Congratulazioni per aver completato questa formazione BTC 101! Spero sincerament
 **Congratulazioni per aver completato questo corso!**
 
 Ti preghiamo di notare che questo capitolo è attualmente in costruzione e una versione migliorata arriverà presto. Nel frattempo, se sei desideroso di continuare il tuo viaggio nel Bitcoin, ti invitiamo a esplorare gli altri corsi e tutorial disponibili sulla nostra piattaforma. Continua così e buon apprendimento!
+

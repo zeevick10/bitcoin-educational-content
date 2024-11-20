@@ -131,6 +131,11 @@ Por lo tanto, Bitcoin es un protocolo que abarca largos períodos de tiempo y no
 
 ![La prehistoria de Bitcoin](./assets/posters/es/1_bitcoin_prehistoria.webp)
 
+Si desea explorar la historia de Bitcoin en mayor detalle, le recomiendo encarecidamente nuestro curso HIS 201. Allí descubrirá los orígenes y la lenta aparición de Bitcoin, así como los inicios de su historia y su comunidad. Este curso está completamente documentado y referenciado, con, por supuesto, muchas anécdotas:
+
+https://planb.network/courses/his201
+
+
 # La moneda
 
 <partId>e913df1a-4cbd-5380-ba67-ca2a0414f671</partId>
@@ -253,6 +258,11 @@ Podemos conlcuir este capítulo con la cita del premio Nobel de Economía F.A Ha
 
 ![Alt text](assets/posters/es/4_las_monedas_fiduciarias.webp)
 
+Para conocer más sobre falacias económicas y libertad, lo invito a descubrir nuestro curso ECO 102. Este curso recorre la vida y las ideas de Frédéric Bastiat, un pensador francés del siglo XIX que, sin duda, habría apreciado el surgimiento de Bitcoin:
+
+https://planb.network/courses/eco102
+
+
 ## Las hiperinflaciones
 
 <chapterId>b04c024c-54f3-50cb-997f-58721cfc74be</chapterId>
@@ -335,6 +345,11 @@ Una moneda que depende de un tercero de confianza, como una entidad financiera, 
 ### ¡Un pequeño resumen en un póster!
 
 ![Alt text](assets/posters/es/5_las_hiperinflaciones.webp)
+
+Para profundizar en el tema de las hiperinflaciones, le recomiendo el curso ECO 204 de David St-Onge. Allí aprenderá qué son los ciclos hiperinflacionarios y cuáles son sus impactos reales en nuestras vidas. También descubrirá las similitudes entre estos ciclos y, sobre todo, cómo protegerse de ellos:
+
+https://planb.network/courses/eco204
+
 
 ## 21 millones de Bitcoins
 
@@ -500,6 +515,11 @@ Elije una billetera que se adapte a tus necesidades y uso. Hay tutoriales detall
 
 ![Alt text](assets/posters/es/8_que_es_un_wallet.webp)
 
+Si durante su viaje por la madriguera del conejo desea aprender más sobre la construcción de una billetera de Bitcoin, desde la entropía hasta las direcciones de recepción, le recomiendo el curso CYP 201 dedicado a este tema:
+
+https://planb.network/courses/cyp201
+
+
 ## Seguridad y Billeteras de Bitcoin
 
 <chapterId>00c1afea-e54a-511f-bab3-2efc2fbfa6a1</chapterId>
@@ -526,11 +546,27 @@ Intentemos establecer varios niveles de seguridad para tus bitcoins:
 
 - **Nivel 1**, estás utilizando una billetera de Bitcoin en tu teléfono o computadora en la que eres el único propietario de tus bitcoins. Puedes realizar tus transacciones con facilidad. Ten en cuenta que es crucial hacer una copia de seguridad de la frase mnemotécnica para poder acceder a tus fondos nuevamente en caso de pérdida de tu teléfono o computadora. A menudo se habla de "hot wallet (billetera caliente)" porque la clave privada se almacena en un dispositivo con acceso a internet.
 
+Por ejemplo, puede usar Sparrow Wallet como billetera caliente:
+
+https://planb.network/tutorials/wallet/sparrow
+
 - **Nivel 2**, estás utilizando una billetera física y has asegurado tu lista de 12 o 24 palabras. Para poder realizar una transacción, siempre deberás firmar con tu dispositivo. Esto hace que tus fondos sean menos accesibles en el día a día. A menudo se habla de "cold wallet (billetera fría)" porque tus claves se almacenan en un dispositivo que no está conectado a internet.
+
+Por ejemplo, podría usar un Ledger, un Satochip o un Tapsigner:
+
+https://planb.network/tutorials/wallet/ledger-nano-s-plus
+
+https://planb.network/tutorials/wallet/satochip
+
+https://planb.network/tutorials/wallet/tapsigner
 
 ![image](assets/es/chapter6/4.webp)
 
 - **Nivel 3**, estás utilizando una billetera de nivel 1 o 2 pero con una frase de contraseña adicional. Ten en cuenta que ahora debes hacer una copia de seguridad de la lista de 12 o 24 palabras **y** de tu frase de contraseña. Idealmente, esta información se almacena en dos lugares diferentes.
+
+Para saber más sobre el uso y funcionamiento de la frase de contraseña BIP39:
+
+https://planb.network/tutorials/wallet/passphrase
 
 ![image](assets/es/chapter6/5.webp)
 
@@ -590,6 +626,10 @@ Las billeteras "frías" generalmente tienen estas listas de palabras, al igual q
 ### ¡Un pequeño resumen en un póster!
 
 ![Alt text](assets/posters/es/10_configurar_tu_monedero.webp)
+
+Si desea luego descubrir, paso a paso, cómo configurar su propia billetera y obtener sus primeros bitcoins, le recomiendo también seguir este otro curso:
+
+https://planb.network/courses/btc102
 
 ## Pasar la prueba del tiempo
 
@@ -885,6 +925,10 @@ La teoría del juego aplicada a Bitcoin descarta a los mineros deshonestos. Los 
 
 ![les mineurs](./assets/posters/es/13_los_minero.webp)
 
+Si desea profundizar en el tema específico de la minería en Bitcoin, puede consultar nuestro curso MIN 201. Descubrirá el funcionamiento y el papel de la Prueba de Trabajo, así como los entresijos de la industria minera. También le explicamos cómo convertir un ASIC en calefacción, para que pueda minar sus primeros satoshis mientras calienta su hogar!
+
+https://planb.network/courses/min201
+
 ## Bitcoin y la ecología
 
 <chapterId>4b227ae6-443a-5739-b443-60b7931130d9</chapterId>
@@ -1036,8 +1080,17 @@ Para aceptar Bitcoin, es necesario estudiar las diferentes soluciones disponible
 Trataremos este tema en detalle en otra formación, pero para simplificar, se pueden considerar varias categorías de negocios y, por lo tanto, soluciones relacionadas:
 
 - Solución en línea simple: OpenNode
-- Solución para comerciantes principiantes: Swiss Bitcoin Pay
-- Solución para grandes estructuras o entusiastas de Bitcoin: BTCpay Server
+
+https://planb.network/tutorials/merchant/open-node
+
+- Solución para comerciantes aficionados: Swiss Bitcoin Pay
+
+https://planb.network/tutorials/merchant/swiss-bitcoin-pay-2
+
+- Solución para grandes estructuras o bitcoiners apasionados: BTCpay Server
+
+https://planb.network/courses/btc305
+
 
 ### ¡Un pequeño resumen en un póster!
 
@@ -1211,6 +1264,11 @@ En resumen, la Lightning Network es un intento prometedor de implementar un sist
 
 ![Alt text](assets/posters/es/20_lightning_network.webp)
 
+Si desea ir más allá de esta introducción y comprender todos los detalles de la Lightning Network, le recomiendo seguir este excelente curso de Fanis Michalakis sobre el tema:
+
+https://planb.network/courses/lnp201
+
+
 ## Casos de uso de la Lightning Network
 
 <chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>
@@ -1320,12 +1378,28 @@ Cambiar el sistema financiero requiere cambiar la moneda. Satoshi Nakamoto creó
 
 ¡Felicitaciones por completar este curso BTC 101! Esperamos de todo corazón que te haya gustado y te haya abierto puertas. Tu descubrimiento de Bitcoin apenas está comenzando y te invitamos a explorar todos los demás cursos disponibles en la universidad.
 
-- [BTC 102](https://planb.network/courses/btc102) te ayudará a establecer tu plan de Bitcoin
-- [LNP 201](https://planb.network/courses/lnp201) te permitirá descubrir la Lightning Network, una red de pagos de segunda capa.
-- [ECO 201](https://planb.network/courses/eco201) abordará la economía austriaca
-- [SCU 101 ](https://planb.network/courses/scu101) te permitirá actualizar tu seguridad digital
-- [MIN 201](https://planb.network/courses/min201) para aprender más sobre la minería
-- y muchos más...
+Para configurar su plan de Bitcoin:
+
+https://planb.network/courses/btc102
+
+Para descubrir la Lightning Network, una red de pagos de segunda capa:
+
+https://planb.network/courses/lnp201
+
+Para explorar la economía austríaca:
+
+https://planb.network/courses/eco201
+
+Para actualizar su seguridad digital:
+
+https://planb.network/courses/scu101
+
+Para saber más sobre la minería:
+
+https://planb.network/courses/min201
+
+y mucho más...
+
 
 ## Danos tu opinión sobre este curso
 
@@ -1343,3 +1417,4 @@ Cambiar el sistema financiero requiere cambiar la moneda. Satoshi Nakamoto creó
 **¡Felicitaciones por completar este curso!**
 
 Tenga en cuenta que este capítulo está actualmente en construcción y pronto llegará una versión mejorada. Mientras tanto, si está ansioso por continuar su viaje con Bitcoin, lo invitamos a explorar los otros cursos y tutoriales disponibles en nuestra plataforma. ¡Sigue con el buen trabajo y feliz aprendizaje!
+

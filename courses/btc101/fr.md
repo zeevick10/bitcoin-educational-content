@@ -134,6 +134,10 @@ Bitcoin est donc un protocole qui s'inscrit sur des temps longs, et qui nous inc
 
 ![La préhistoire du Bitcoin](assets/posters/fr/1_prehistoiredubitcoin.webp)
 
+Si vous souhaitez explorer plus en détail l'histoire de Bitcoin, je vous recommande vivement notre formation HIS 201. Vous y découvrirez les origines et la lente émergence de Bitcoin, ainsi que les débuts de son histoire et de sa communauté. Cette formation est entièrement documentée et sourcée, avec bien sûr de nombreuses anecdotes :
+
+https://planb.network/courses/his201
+
 # La monnaie
 <partId>e913df1a-4cbd-5380-ba67-ca2a0414f671</partId>
 
@@ -258,6 +262,11 @@ Néanmoins, nous ne pouvons pas leurs arracher violemment, tout ce que l’on pe
 
 ![Alt text](assets/posters/fr/4_lamonnaiefiatcrop.webp)
 
+Pour en savoir plus sur les sophismes économiques et la liberté, je vous invite à découvrir notre formation ECO 102. Celle-ci retrace la vie et les idées de Frédéric Bastiat, un penseur français du XIXe siècle qui, sans doute, aurait apprécié voir l'émergence de Bitcoin :
+
+https://planb.network/courses/eco102
+
+
 ## Les hyperinflations
 <chapterId>b04c024c-54f3-50cb-997f-58721cfc74be</chapterId>
 
@@ -343,6 +352,11 @@ Une monnaie qui repose sur un tiers de confiance comme une institution financiè
 ### Petit récap en poster !
 
 ![Alt text](assets/posters/fr/5_hyperinflation_crop.webp)
+
+Pour approfondir le sujet des hyperinflations, je vous recommande la formation ECO 204 de David St-Onge. Vous y apprendrez ce que sont les cycles hyperinflationnistes et quels sont leurs impacts réels sur nos vies. Vous découvrirez également les similitudes entre ces cycles et, surtout, comment vous en protéger :
+
+https://planb.network/courses/eco204
+
 
 ## 21 millions de bitcoins
 <chapterId>f4a06d76-1963-56fd-93ff-dfa41489bcde</chapterId>
@@ -500,7 +514,7 @@ Heureusement pour nous, depuis 2017, cette clé privée peut être encodée dans
 
 ### Qu'en est-il des hackers ?
 
-On pourrait se poser la question : et si quelqu'un devinait par hasard notre liste de 12 ou 24 mots ? La réponse courte est que grâce à la cryptographie utilisée pour créer le portefeuille c'est hautement improbable. Pour mettre en perspective, trouver par hasard l'accès à votre portefeuille revient à trouver le "bon" nombre entre 1 et $2^256$, ce qui est quasiement équivalent à trouver le "bon" atome dans l'Univers. Toutefois, si vous n'êtes pas satisfait par cette sécurité par défaut, vous pouvez toujours la renforcer en ajoutant une passe-phrase à votre portfeuille bitcoin.
+On pourrait se poser la question : et si quelqu'un devinait par hasard notre liste de 12 ou 24 mots ? La réponse courte est que grâce à la cryptographie utilisée pour créer le portefeuille c'est hautement improbable. Pour mettre en perspective, trouver par hasard l'accès à votre portefeuille revient à trouver le "bon" nombre entre 1 et $2^256$, ce qui est quasiement équivalent à trouver le "bon" atome dans l'Univers. Toutefois, si vous n'êtes pas satisfait par cette sécurité par défaut, vous pouvez toujours la renforcer en ajoutant une passphrase à votre portfeuille bitcoin.
 
 ![image](assets/fr/chapter5/5.webp)
 
@@ -511,6 +525,11 @@ Choisissez un portefeuille qui correspond à vos besoins et à votre utilisation
 ### Petit récap en poster !
 
 ![Alt text](assets/posters/fr/8_explication_des_portefeuilles_bitcoin_crop.webp)
+
+Si durant votre parcours dans le terrier du lapin, vous souhaitez en savoir plus sur la construction d'un portefeuille Bitcoin, de l'entropie jusqu'aux adresses de réception, je vous recommande la formation CYP 201 consacrée à ce sujet :
+
+https://planb.network/courses/cyp201
+
 
 ## Sécurité et Portefeuilles Bitcoin
 <chapterId>00c1afea-e54a-511f-bab3-2efc2fbfa6a1</chapterId>
@@ -540,11 +559,27 @@ Essayons ici d'établir plusieurs niveaux de sécurité pour vos bitcoins :
 
 - **Niveau 1**, vous utilisez un portefeuille Bitcoin sur votre téléphone ou sur votre ordinateur avec lequel vous êtes l'unique détenteur de vos bitcoins. Vous pouvez effectuer avec facilité vos transactions. Attention, il est crucial de faire un backup de la phrase mnémonique pour avoir de nouveau accès à vos fonds en cas de perte de votre téléphone ou ordinateur. On parle souvent de "hot wallet" car la clé privée est stocké dans un appareil avec accès à internet.
 
-- **Niveau 2**, vous utilisez un portfeuille physique, et vous avez sécurisé votre liste de 12 ou 24 mots. Pour pouvoir effectuer une transaction, il vous faudra toujours signer avec votre appareil. Cela rend donc vos fonds moins accessible au quotidien. On parle souvent de "Cold Wallet" car vos clés sont stockées sur un appareil qui n'est pas connecté à intetnet.
+Par exemple, vous pouvez utiliser Sparrow Wallet comme portefeuille chaud :
+
+https://planb.network/tutorials/wallet/sparrow
+
+- **Niveau 2**, vous utilisez un portefeuille physique, et vous avez sécurisé votre liste de 12 ou 24 mots. Pour pouvoir effectuer une transaction, il vous faudra toujours signer avec votre appareil. Cela rend donc vos fonds moins accessible au quotidien. On parle souvent de "Cold Wallet" car vos clés sont stockées sur un appareil qui n'est pas connecté à internet.
+
+Par exemple, vous pourriez utiliser une Ledger, un Satochip ou encore un Tapsigner :
+
+https://planb.network/tutorials/wallet/ledger-nano-s-plus
+
+https://planb.network/tutorials/wallet/satochip
+
+https://planb.network/tutorials/wallet/tapsigner
 
 ![image](assets/fr/chapter6/4.webp)
 
-- **Niveau 3**, vous utilisez un portefeuille de niveau 1 ou 2 mais avec une passe-phrase supplémentaire. Attention, maintenant il vous faut faire une sauvegarde de la liste de 12 ou 24 mots **et** de votre passe-phrase. Idéalement ces 2 informations sont stocké deux endroit différents.
+- **Niveau 3**, vous utilisez un portefeuille de niveau 1 ou 2 mais avec une passphrase supplémentaire. Attention, maintenant il vous faut faire une sauvegarde de la liste de 12 ou 24 mots **et** de votre passphrase. Idéalement ces 2 informations sont stocké deux endroit différents.
+
+Pour en savoir plus l'utilisation et le fonctionnement de la passphrase BIP39 :
+
+https://planb.network/tutorials/wallet/passphrase
 
 ![image](assets/fr/chapter6/5.webp)
 
@@ -607,6 +642,11 @@ Les portefeuilles "froids" ont tous généralement ces listes de mots, tout comm
 ### Petit récap en poster !
 
 ![Alt text](assets/posters/fr/10_mise_en_place_du_portefeuille_crop.webp)
+
+Si vous souhaitez ensuite découvrir, étape par étape, comment mettre en place votre propre portefeuille et obtenir vos premiers bitcoins, je vous recommande de suivre également cette autre formation :
+
+https://planb.network/courses/btc102
+
 
 ## Passer l’épreuve du temps
 <chapterId>f58cd446-c202-5eff-aab7-e61cc40e5c06</chapterId>
@@ -917,6 +957,11 @@ La théorie du jeu appliquée à Bitcoin écarte les mineurs malhonnêtes. Les m
 
 ![les mineurs](assets/posters/fr/13_explication_des_mineurs_crop.webp)
 
+Si vous souhaitez approfondir le sujet spécifique du minage sur Bitcoin, vous pouvez consulter notre formation MIN 201. Vous y découvrirez le fonctionnement et le rôle de la Proof-of-Work, ainsi que les rouages de l'industrie du minage. Nous vous y expliquons également comment transformer un ASIC en chauffage, afin de miner vos premiers satoshis tout en chauffant votre habitat !
+
+https://planb.network/fr/courses/min201
+
+
 ## Bitcoin et l’écologie
 <chapterId>4b227ae6-443a-5739-b443-60b7931130d9</chapterId>
 
@@ -1075,8 +1120,16 @@ Pour accepter le Bitcoin, il est nécessaire d'étudier les différentes solutio
 Nous allons traiter ce sujet en détail dans une autre formation, mais pour faire simple, on peut considérer plusieurs catégories de business et donc ainsi des solutions liées :
 
 - Solution en ligne simple : OpenNode
+
+https://planb.network/tutorials/merchant/open-node
+
 - Solution pour les commerçants amateurs : Swiss Bitcoin Pay
+
+https://planb.network/tutorials/merchant/swiss-bitcoin-pay-2
+
 - Solution pour les grosses structures ou bitcoiners passionnés : BTCpay Serveur
+
+https://planb.network/courses/btc305
 
 D'autres solutions intermédiaires ou concurrentes de ces choix existent bien évidemment, vous les découvrirez au fur et à mesure de votre voyage dans Bitcoin. Si besoin, la section tutoriel commerçant pourra vous guider!
 
@@ -1260,6 +1313,12 @@ En somme, le Lightning Network est une tentative prometteuse pour déployer un s
 
 ![Alt text](assets/posters/fr/20_explication_lightning_network_crop.webp)
 
+
+Si vous souhaitez aller plus loin que cette introduction et comprendre tous les rouages du Lightning Network, je vous recommande de suivre cette excellente formation de Fanis Michalakis sur le sujet :
+
+https://planb.network/courses/lnp201
+
+
 ## Cas d’usage du Lightning Network
 <chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>
 
@@ -1378,14 +1437,29 @@ Changer le système financier nécessite de changer la monnaie. Satoshi a créé
 
 ![remerciements et continuez à creuser le terrier du lapin](https://youtu.be/A2P5GdkgB-M)
 
-Félicitations pour avoir terminé cette formation BTC 101 ! J'espère de tout cœur qu'elle vous a plu et ouvert des portes. Votre découverte du bitcoin n'en est qu'à ses débuts et je vous invite à découvrir toutes les autres formations disponibles sur l'université.
+Félicitations pour avoir terminé cette formation BTC 101 ! J'espère de tout cœur qu'elle vous a plu et ouvert des portes. Votre découverte du bitcoin n'en est qu'à ses débuts et je vous invite à découvrir toutes les autres formations disponibles sur PlanB Network :
 
-- [BTC 102](https://planb.network/courses/btc102) vous aidera à mettre en place votre plan bitcoin
-- [LNP 201](https://planb.network/courses/lnp201) vous permettra de découvrir le Lightning Network, un réseau de paiements en second couche
-- [ECO 201](https://planb.network/courses/eco201) abordera l'économie autrichienne
-- [SCU 101 ](https://planb.network/courses/scu101) vous permettra de mettre à jour votre sécurité numérique
-- [MIN 201](https://planb.network/courses/min201) pour en savoir plus sur le minage
-- et bien d'autres...
+Pour mettre en place votre plan Bitcoin :
+
+https://planb.network/courses/btc102
+
+Pour découvrir le Lightning Network, un réseau de paiements en second couche :
+
+https://planb.network/courses/lnp201
+
+Pour aborder l'économie autrichienne :
+
+https://planb.network/courses/eco201
+
+Pour mettre à jour votre sécurité numérique :
+
+https://planb.network/courses/scu101
+
+Pour en savoir plus sur le minage :
+
+https://planb.network/courses/min201
+
+et bien d'autres...
 
 
 ## Évaluez ce cours
