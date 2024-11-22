@@ -1,6 +1,6 @@
 question: Apa yang ditunjukkan oleh indeks /84'/ pada kedalaman 1 dari jalur derivasi?
 answer: Standar P2WPKH (SegWit v0)
-jawaban_salah:
+wrong_answer:
   - Standar P2TR (SegWit v1)
   - Mata uang Bitcoin testnet
   - Mata uang Bitcoin mainnet

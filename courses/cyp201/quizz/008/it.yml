@@ -1,9 +1,9 @@
-domanda: Perché SHA256 applica un preprocessamento al messaggio di input?
-risposta: Per garantire una lunghezza multipla di 512 bit
-risposte_errate:
+question: Perché SHA256 applica un preprocessamento al messaggio di input?
+answer: Per garantire una lunghezza multipla di 512 bit
+wrong_answer:
   - Per verificare l'integrità del messaggio
   - Per criptare i dati prima dell'hashing
   - Per aumentare la dimensione degli hash generati
-spiegazione: |
+explanation: |
   Il preprocessamento regola la lunghezza del messaggio aggiungendo bit di riempimento e una rappresentazione binaria della sua lunghezza.
-revisionato: false
+reviewed: false

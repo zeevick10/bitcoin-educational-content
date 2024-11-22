@@ -1,6 +1,6 @@
 question: Která hloubka v cestě derivace určuje typ měny?
 answer: Hloubka 2
-špatné_odpovědi:
+wrong_answer:
   - Hloubka 1
   - Hloubka 3
   - Hloubka 4

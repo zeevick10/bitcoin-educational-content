@@ -1,8 +1,8 @@
-câu hỏi: Cấu trúc nào được SHA256 sử dụng để xử lý các thông điệp có độ dài tùy ý?
-câu trả lời: Cấu trúc Merkle-Damgård
-câu trả lời sai:
+question: Cấu trúc nào được SHA256 sử dụng để xử lý các thông điệp có độ dài tùy ý?
+answer: Cấu trúc Merkle-Damgård
+wrong_answers:
   - Cấu trúc Euclidean
   - Cấu trúc Rivest-Shamir-Adleman
   - Cấu trúc Knuth-Morris-Pratt
-giải thích: |
+explanation: |
   Cấu trúc Merkle-Damgård cho phép biến đổi một hàm nén thành một hàm băm cho các thông điệp có độ dài biến đổi.

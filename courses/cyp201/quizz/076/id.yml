@@ -1,6 +1,6 @@
 question: Apa yang dimaksud dengan notasi "/<0;1>/*" dalam sebuah deskriptor?
 answer: Untuk rantai eksternal dan internal dengan derivasi sekuensial
-jawaban_salah:
+wrong_answer:
   - Untuk alamat multisignature yang diurutkan
   - Untuk checksum jalur derivasi
   - Untuk jalur derivasi yang diperkuat

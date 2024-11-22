@@ -1,9 +1,9 @@
-domanda: Quale proprietà garantisce che sia computazionalmente impossibile recuperare l'input di un hash?
-risposta: Resistenza alla pre-immagine
-risposte_errate:
+question: Quale proprietà garantisce che sia computazionalmente impossibile recuperare l'input di un hash?
+answer: Resistenza alla pre-immagine
+wrong_answer:
   - Resistenza alle collisioni
   - Effetto valanga
   - Resistenza alla seconda pre-immagine
-spiegazione: |
+explanation: |
   La resistenza alla pre-immagine garantisce che sia praticamente impossibile trovare il messaggio originale a partire dal suo hash.
-revisionato: false
+reviewed: false

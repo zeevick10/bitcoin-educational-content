@@ -1,9 +1,9 @@
-domanda: Perché è rischioso generare manualmente l'entropia per un portafoglio HD?
-risposta: Può introdurre debolezze umane o pregiudizi prevedibili
-risposte_errate:
+question: Perché è rischioso generare manualmente l'entropia per un portafoglio HD?
+answer: Può introdurre debolezze umane o pregiudizi prevedibili
+wrong_answer:
   - Risulta in chiavi pubbliche non valide
   - Blocca la derivazione delle chiavi private
   - Limita la dimensione delle frasi mnemoniche generate
-spiegazione: |
+explanation: |
   Generare manualmente l'entropia può introdurre pregiudizi o errori, rendendo le chiavi più vulnerabili agli attacchi.
 recensito: false

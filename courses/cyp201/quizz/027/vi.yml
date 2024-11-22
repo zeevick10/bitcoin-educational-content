@@ -1,8 +1,8 @@
-câu hỏi: Lỗ hổng chữ ký ECDSA nào đã được SegWit khắc phục?
-câu trả lời: Tính dễ biến đổi
-câu trả lời sai:
+question: Lỗ hổng chữ ký ECDSA nào đã được SegWit khắc phục?
+answer: Tính dễ biến đổi
+wrong_answers:
   - Xác minh hàng loạt
   - Thiếu tính tổng hợp
   - Kích thước chữ ký quá lớn
-giải thích: |
+explanation: |
   SegWit đã khắc phục tính dễ biến đổi của chữ ký ECDSA, cho phép các ứng dụng như Lightning Network.

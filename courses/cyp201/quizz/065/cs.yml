@@ -1,6 +1,6 @@
 question: Jaký je rozdíl mezi normálním dětským klíčem a zpevněným dětským klíčem?
 answer: Zpevněný dětský klíč vyžaduje pro svou derivaci rodičovský soukromý klíč.
-špatné_odpovědi:
+wrong_answer:
   - Normální dětský klíč nemůže být odvozen z veřejných klíčů.
   - Zpevněný dětský klíč používá lichý index.
   - Normální dětský klíč je bezpečnější než zpevněný dětský klíč.

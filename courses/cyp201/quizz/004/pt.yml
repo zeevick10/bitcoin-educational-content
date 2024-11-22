@@ -1,9 +1,9 @@
-pergunta: Qual combinação de funções de hash é usada para gerar impressões digitais mais curtas no Bitcoin?
-resposta: HASH160
-respostas_erradas:
+question: Qual combinação de funções de hash é usada para gerar impressões digitais mais curtas no Bitcoin?
+answer: HASH160
+wrong_answers:
   - SHA512-SHA256
   - HASH256
   - SHA160
-explicação: |
+explanation: |
   HASH160 combina SHA256 e RIPEMD160 para gerar impressões digitais de 160 bits, notavelmente para endereços Bitcoin.
 reviewed: false

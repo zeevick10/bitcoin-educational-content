@@ -1,9 +1,9 @@
-câu hỏi: Loại khóa nào được sử dụng để khóa UTXOs trên Bitcoin?
-câu trả lời: Khóa công khai
-câu trả lời sai:
+question: Loại khóa nào được sử dụng để khóa UTXOs trên Bitcoin?
+answer: Khóa công khai
+wrong_answers:
   - Khóa riêng tư
   - Băm hạt giống
   - Cụm từ ghi nhớ
-giải thích: |
+explanation: |
   UTXOs được khóa bằng một khóa công khai hoặc băm của nó, và được mở khóa bằng khóa riêng tư tương ứng.
-đã xem xét: false
+reviewed: false

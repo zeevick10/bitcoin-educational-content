@@ -1,6 +1,6 @@
 question: Berapa ukuran total dari kunci ekstensi dengan checksum?
 answer: 82 byte
-jawaban_salah:
+wrong_answer:
   - 78 byte
   - 64 byte
   - 128 byte

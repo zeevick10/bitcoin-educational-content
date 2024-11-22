@@ -1,6 +1,6 @@
 question: Berapa ukuran kunci privat mentah yang digunakan pada Bitcoin?
 answer: 256 bit
-jawaban_salah:
+wrong_answer:
   - 128 bit
   - 512 bit
   - 1024 bit

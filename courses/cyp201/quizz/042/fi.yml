@@ -1,6 +1,6 @@
 question: Mikä on pääasiallinen ero PRNG:n ja TRNG:n välillä?
 answer: PRNG on deterministinen, kun taas TRNG tuottaa todellisia satunnaislukuja.
-väärät_vastaukset:
+wrong_answer:
   - PRNG on nopeampi kuin TRNG suurilla luvuilla.
   - PRNG:tä käytetään vain salaukseen, ei TRNG:tä.
   - PRNG käyttää yksityisiä avaimia, TRNG käyttää julkisia avaimia.

@@ -1,9 +1,9 @@
-câu hỏi: Tiền tố `wpkh` có ý nghĩa gì trong một mô tả?
-câu trả lời: Thanh toán cho Witness-PubKey-Hash
-câu trả lời sai:
+question: Tiền tố `wpkh` có ý nghĩa gì trong một mô tả?
+answer: Thanh toán cho Witness-PubKey-Hash
+wrong_answers:
   - Thanh toán cho PubKey
   - Thanh toán cho Script-Hash
   - Hash của Witness Script
-giải thích: |
+explanation: |
   Tiền tố `wpkh` chỉ ra một script SegWit v0 sử dụng địa chỉ Pay-to-Witness-Public-Key-Hash.
-đã xem xét: false
+reviewed: false

@@ -1,9 +1,9 @@
-domanda: Cosa significa un apostrofo (') o la "h" in un percorso di derivazione?
-risposta: Una derivazione rinforzata
-risposte_errate:
+question: Cosa significa un apostrofo (') o la "h" in un percorso di derivazione?
+answer: Una derivazione rinforzata
+wrong_answer:
   - Una derivazione normale
   - Una derivazione esterna
   - Una derivazione non standard
-spiegazione: |
+explanation: |
   Un apostrofo indica che la derivazione è rinforzata, richiedendo una chiave privata genitore per generare la chiave figlio.
-revisionato: false
+reviewed: false

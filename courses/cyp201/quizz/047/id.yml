@@ -1,6 +1,6 @@
 question: Berapa ukuran dalam bit dari segmen biner yang digunakan untuk membuat setiap kata mnemonik?
 answer: 11 bit
-jawaban_salah:
+wrong_answer:
   - 8 bit
   - 16 bit
   - 10 bit

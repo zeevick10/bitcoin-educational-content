@@ -1,6 +1,6 @@
 question: Miksi SHA256 varmistaa peruuttamattomuuden?
 answer: Käytetyt operaatiot poistavat tietoa ja ovat yksisuuntaisia
-väärät_vastaukset:
+wrong_answer:
   - Viestit salataan ennen hajautusta
   - Bitit järjestellään satunnaisesti
   - Jokainen hajautus tallennetaan tietokantaan

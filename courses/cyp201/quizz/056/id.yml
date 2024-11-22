@@ -1,6 +1,6 @@
 question: Konstanta apa yang digunakan untuk menurunkan kunci privat utama dari seed?
 answer: "Bitcoin Seed"
-jawaban_salah:
+wrong_answer:
   - "Master Key"
   - "HD Wallet Seed"
   - "Blockchain Root"

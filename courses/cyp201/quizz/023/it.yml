@@ -1,9 +1,9 @@
-domanda: Qual è il punto comune utilizzato da tutti i partecipanti per calcolare una chiave pubblica in Bitcoin?
-risposta: Il punto generatore G
-risposte_errate:
+question: Qual è il punto comune utilizzato da tutti i partecipanti per calcolare una chiave pubblica in Bitcoin?
+answer: Il punto generatore G
+wrong_answer:
   - L'hash SHA256
   - Una frase mnemonica
   - La chiave pubblica compressa
-spiegazione: |
+explanation: |
   Il punto generatore G della curva ellittica secp256k1 è utilizzato per calcolare le chiavi pubbliche a partire dalle chiavi private.
-revisionato: false
+reviewed: false

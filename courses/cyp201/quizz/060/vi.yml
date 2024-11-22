@@ -1,9 +1,9 @@
-câu hỏi: Loại khóa nào được liên kết với tiền tố "zpub"?
-câu trả lời: Một khóa công khai mở rộng cho SegWit V0 trên Mainnet
-câu trả lời sai:
+question: Loại khóa nào được liên kết với tiền tố "zpub"?
+answer: Một khóa công khai mở rộng cho SegWit V0 trên Mainnet
+wrong_answers:
   - Một khóa riêng mở rộng cho SegWit V1 trên Mainnet
   - Một khóa công khai mở rộng cho Legacy trên Testnet
   - Một khóa công khai mở rộng cho SegWit V2 trên Testnet
-giải thích: |
+explanation: |
   Tiền tố "zpub" chỉ một khóa công khai mở rộng cho các script SegWit V0 trên Mainnet.
-đã xem xét: false
+reviewed: false

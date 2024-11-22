@@ -1,6 +1,6 @@
 question: Indeks mana yang mewakili rantai eksternal dari sebuah akun dalam jalur derivasi?
 answer: /0/
-jawaban_salah:
+wrong_answer:
   - /1/
   - /0'/
   - /2/

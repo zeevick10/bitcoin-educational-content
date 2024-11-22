@@ -1,9 +1,9 @@
-domanda: Qual è il punto di partenza per calcolare una firma ECDSA?
-risposta: L'hash del messaggio
-risposte_errate:
+question: Qual è il punto di partenza per calcolare una firma ECDSA?
+answer: L'hash del messaggio
+wrong_answer:
   - La chiave pubblica
   - Un nonce fisso
   - Una curva ellittica personalizzata
-spiegazione: |
+explanation: |
   Una firma ECDSA inizia con il calcolo dell'hash del messaggio da firmare, spesso utilizzando SHA256.
-revisionato: false
+reviewed: false

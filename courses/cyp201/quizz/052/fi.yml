@@ -1,6 +1,6 @@
 question: Mikä on syynä käyttää harhautuslompakkoa salasanan kanssa?
 answer: Simuloida lompakkoa, jossa on pieni määrä varoja fyysisen pakottamisen varalta
-väärät_vastaukset:
+wrong_answer:
   - Lisätä automaattinen varmuuskopio transaktioista
   - Luoda lisäinen muistisääntö
   - Suojata UTXO:t kaksoiskulutukselta

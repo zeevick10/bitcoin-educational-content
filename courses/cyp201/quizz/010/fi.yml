@@ -1,6 +1,6 @@
 question: Mikä johdannaisalgoritmi käytetään laskemaan todennuskoodi salaisen avaimen perusteella?
 answer: HMAC-SHA512
-väärät_vastaukset:
+wrong_answer:
   - SHA512
   - SHA256
   - RIPEMD160

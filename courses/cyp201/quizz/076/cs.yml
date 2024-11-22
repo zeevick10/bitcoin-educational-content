@@ -1,6 +1,6 @@
 question: Co znamená notace "/<0;1>/*" v deskriptoru?
 answer: Externí a interní řetězec se sekvenční derivací
-špatné_odpovědi:
+wrong_answer:
   - Na seřazenou multisignaturní adresu
   - Na kontrolní součet pro cesty derivace
   - Na zpevněnou cestu derivace

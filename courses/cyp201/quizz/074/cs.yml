@@ -1,6 +1,6 @@
 question: Co značí index /84'/ na hloubce 1 cesty derivace?
 answer: Standard P2WPKH (SegWit v0)
-špatné_odpovědi:
+wrong_answer:
   - Standard P2TR (SegWit v1)
   - Měna Bitcoin testnetu
   - Měna Bitcoin mainnetu

@@ -1,9 +1,9 @@
-pergunta: Qual é o número de iterações usado pelo PBKDF2 no Bitcoin?
-resposta: 2048
-respostas_erradas:
+question: Qual é o número de iterações usado pelo PBKDF2 no Bitcoin?
+answer: 2048
+wrong_answers:
   - 1024
   - 4096
   - 512
-explicação: |
+explanation: |
   O PBKDF2 repete o processo HMAC-SHA512 2048 vezes para aumentar a segurança.
 reviewed: false

@@ -1,6 +1,6 @@
 question: Která vlastnost zajišťuje, že je výpočetně nemožné získat vstup hash funkce?
 answer: Preimage resistance
-špatné_odpovědi:
+wrong_answer:
   - Collision resistance
   - Avalanche effect
   - Second preimage resistance

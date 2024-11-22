@@ -1,6 +1,6 @@
 question: Apa peran utama dari alamat Bitcoin dalam sebuah transaksi?
 answer: Mengunci UTXO di scriptPubKey
-jawaban_salah:
+wrong_answer:
   - Membuka kunci UTXO di scriptSig
   - Menandakan akhir dari transaksi
   - Mengidentifikasi blok konfirmasi

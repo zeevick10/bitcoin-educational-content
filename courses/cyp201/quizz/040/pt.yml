@@ -1,9 +1,9 @@
-pergunta: Por que é arriscado gerar entropia manualmente para uma carteira HD?
-resposta: Pode introduzir fraquezas humanas ou vieses previsíveis
-respostas_erradas:
+question: Por que é arriscado gerar entropia manualmente para uma carteira HD?
+answer: Pode introduzir fraquezas humanas ou vieses previsíveis
+wrong_answers:
   - Resulta em chaves públicas inválidas
   - Bloqueia a derivação de chaves privadas
   - Limita o tamanho das frases mnemônicas geradas
-explicação: |
+explanation: |
   Gerar entropia manualmente pode introduzir vieses ou erros, tornando as chaves mais vulneráveis a ataques.
 reviewed: false

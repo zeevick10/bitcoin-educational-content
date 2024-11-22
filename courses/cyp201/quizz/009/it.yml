@@ -1,9 +1,9 @@
-domanda: Qual è la costruzione utilizzata da SHA256 per elaborare messaggi di lunghezza arbitraria?
-risposta: La costruzione di Merkle-Damgård
-risposte_errate:
+question: Qual è la costruzione utilizzata da SHA256 per elaborare messaggi di lunghezza arbitraria?
+answer: La costruzione di Merkle-Damgård
+wrong_answer:
   - La costruzione Euclidea
   - La costruzione di Rivest-Shamir-Adleman
   - La costruzione di Knuth-Morris-Pratt
-spiegazione: |
+explanation: |
   La costruzione di Merkle-Damgård permette di trasformare una funzione di compressione in una funzione hash per messaggi di lunghezza variabile.
 recensito: false

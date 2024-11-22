@@ -1,9 +1,9 @@
-domanda: Qual è il principale rischio nell'utilizzare un PRNG mal progettato per generare entropia?
-risposta: Le chiavi private potrebbero essere indovinate da un attaccante
-risposte_errate:
+question: Qual è il principale rischio nell'utilizzare un PRNG mal progettato per generare entropia?
+answer: Le chiavi private potrebbero essere indovinate da un attaccante
+wrong_answer:
   - La frase mnemonica potrebbe contenere parole non corrette
   - Le firme digitali diventerebbero invalide
   - Gli indirizzi Bitcoin sarebbero incompatibili con la rete
-spiegazione: |
+explanation: |
   Un PRNG mal progettato può produrre sequenze prevedibili, rendendo le chiavi più vulnerabili agli attacchi.
-revisionato: false
+reviewed: false

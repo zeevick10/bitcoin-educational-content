@@ -1,6 +1,6 @@
 question: Na kolik částí je rozdělen výstup funkce HMAC-SHA512 aplikované na seed?
 answer: Na dvě části po 256 bitech
-špatné_odpovědi:
+wrong_answer:
   - Jedna jediná část o 512 bitech
   - Tři části po 170 bitech
   - Čtyři části po 128 bitech

@@ -1,9 +1,9 @@
 question: Welche Kodierung wird verwendet, um SegWit v0-Adressen darzustellen?
 answer: bech32
-falsche_Antworten:
+wrong_answer:
   - base58check
   - bech32m
   - base64
 explanation: |
   SegWit v0-Adressen, wie sie für P2WPKH und P2WSH verwendet werden, nutzen die mit SegWit eingeführte bech32-Kodierung.
-überprüft: false
+reviewed: false

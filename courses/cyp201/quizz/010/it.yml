@@ -1,9 +1,9 @@
-domanda: Quale algoritmo di derivazione viene utilizzato per calcolare un codice di autenticazione basato su una chiave segreta?
-risposta: HMAC-SHA512
-risposte_errate:
+question: Quale algoritmo di derivazione viene utilizzato per calcolare un codice di autenticazione basato su una chiave segreta?
+answer: HMAC-SHA512
+wrong_answer:
   - SHA512
   - SHA256
   - RIPEMD160
-spiegazione: |
+explanation: |
   HMAC-SHA512 è un algoritmo che combina una funzione hash e una chiave segreta per calcolare un codice di autenticazione.
-revisionato: false
+reviewed: false

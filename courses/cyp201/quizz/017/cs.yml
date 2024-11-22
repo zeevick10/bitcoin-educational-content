@@ -1,6 +1,6 @@
 question: Která eliptická křivka je používána v protokolu Bitcoin?
 answer: secp256k1
-špatné_odpovědi:
+wrong_answer:
   - secp256r1
   - ed25519
   - P-384

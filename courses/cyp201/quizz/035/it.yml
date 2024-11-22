@@ -1,9 +1,9 @@
-domanda: Quale standard Bitcoin introduce i portafogli deterministici gerarchici?
-risposta: BIP32
-risposte_errate:
+question: Quale standard Bitcoin introduce i portafogli deterministici gerarchici?
+answer: BIP32
+wrong_answer:
   - BIP39
   - BIP44
   - BIP141
-spiegazione: |
+explanation: |
   BIP32 definisce il funzionamento dei portafogli HD, consentendo la derivazione gerarchica delle chiavi private da un seme.
 recensito: false

@@ -1,6 +1,6 @@
 question: Apa tujuan dari indeks dalam menurunkan kunci anak?
 answer: Membedakan pasangan kunci saudara
-jawaban_salah:
+wrong_answer:
   - Mengidentifikasi sifat kunci (publik atau privat)
   - Menentukan tingkat keamanan kunci
   - Menambahkan lapisan keamanan tambahan

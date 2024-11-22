@@ -1,8 +1,8 @@
-Câu hỏi: Đặc điểm chính của phép nhân vô hướng trên đường cong elliptic là gì?
-Câu trả lời: Hàm một chiều
-Câu trả lời sai:
+question: Đặc điểm chính của phép nhân vô hướng trên đường cong elliptic là gì?
+answer: Hàm một chiều
+wrong_answers:
   - Dễ dàng đảo ngược
   - Dựa trên việc phân tích các số nguyên tố
   - Mất rất nhiều thời gian để tính toán
-Giải thích:
+explanation:
   Phép nhân vô hướng trên đường cong elliptic là một hàm một chiều, làm cho việc lấy lại khóa riêng từ khóa công khai trở nên không thể.

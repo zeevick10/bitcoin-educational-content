@@ -1,8 +1,8 @@
-domanda: Cosa significa il prefisso `wpkh` in un descrittore?
-risposta: Pay-to-Witness-PubKey-Hash
-risposte_errate:
+question: Cosa significa il prefisso `wpkh` in un descrittore?
+answer: Pay-to-Witness-PubKey-Hash
+wrong_answer:
   - Pay-to-PubKey
   - Pay-to-Script-Hash
   - Witness Script Hash
-spiegazione: |
+explanation: |
   Il prefisso `wpkh` indica uno script SegWit v0 che utilizza indirizzi Pay-to-Witness-Public-Key-Hash.

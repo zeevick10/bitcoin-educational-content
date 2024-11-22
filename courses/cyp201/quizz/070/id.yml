@@ -1,6 +1,6 @@
 question: Apa yang diwakili oleh kedalaman 0 dalam hierarki dompet HD?
 answer: Kunci induk dan kode rantai induk
-jawaban_salah:
+wrong_answer:
   - Rantai alamat eksternal
   - Akun default
   - Jenis mata uang

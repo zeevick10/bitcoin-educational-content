@@ -1,6 +1,6 @@
 question: Langkah apa yang mendahului penerapan HASH160 dalam pembuatan alamat SegWit v0?
 answer: Kompresi kunci publik
-jawaban_salah:
+wrong_answer:
   - Menambahkan checksum
   - Konversi ke format bech32
   - Pengkodean dalam base58check

@@ -1,8 +1,8 @@
-Câu hỏi: Bước nào diễn ra trước khi áp dụng HASH160 trong quá trình tạo địa chỉ SegWit v0?
-Câu trả lời: Nén khóa công khai
-Câu trả lời sai:
+question: Bước nào diễn ra trước khi áp dụng HASH160 trong quá trình tạo địa chỉ SegWit v0?
+answer: Nén khóa công khai
+wrong_answers:
   - Thêm checksum
   - Chuyển đổi sang định dạng bech32
   - Mã hóa theo base58check
-Giải thích: |
+explanation: |
   Khóa công khai phải được nén để giảm kích thước trước khi đi qua hàm băm HASH160.

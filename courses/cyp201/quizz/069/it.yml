@@ -1,9 +1,9 @@
-domanda: Qual è il ruolo principale del codice catena nella derivazione delle chiavi figlio?
-risposta: Introdurre una fonte aggiuntiva di entropia
-risposte_errate:
+question: Qual è il ruolo principale del codice catena nella derivazione delle chiavi figlio?
+answer: Introdurre una fonte aggiuntiva di entropia
+wrong_answer:
   - Identificare la profondità gerarchica
   - Memorizzare gli indici delle chiavi figlio
   - Garantire la compatibilità con il protocollo Bitcoin
-spiegazione: |
+explanation: |
   Il codice catena è utilizzato per introdurre una fonte di entropia aggiuntiva e unica per ogni chiave derivata.
 recensito: false

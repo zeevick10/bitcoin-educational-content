@@ -1,6 +1,6 @@
 question: Který příznak sighash umožňuje crowdfunding pokrývající jediný vstup a všechny výstupy?
 answer: SIGHASH_ALL | SIGHASH_ANYONECANPAY
-špatné_odpovědi:
+wrong_answer:
   - SIGHASH_NONE | SIGHASH_ANYONECANPAY
   - SIGHASH_SINGLE | SIGHASH_ANYONECANPAY
   - SIGHASH_ALL

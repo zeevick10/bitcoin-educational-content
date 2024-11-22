@@ -1,6 +1,6 @@
 question: Jaká je hlavní role Bitcoinové adresy v transakci?
 answer: Zamknout UTXO ve scriptPubKey
-špatné_odpovědi:
+wrong_answer:
   - Odemknout UTXO ve scriptSig
   - Signalizovat konec transakce
   - Identifikovat blok potvrzení

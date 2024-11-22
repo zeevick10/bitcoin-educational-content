@@ -1,6 +1,6 @@
 question: Jaký krok předchází aplikaci HASH160 při generování adresy SegWit v0?
 answer: Kompresi veřejného klíče
-špatné_odpovědi:
+wrong_answer:
   - Přidání kontrolního součtu
   - Konverze do formátu bech32
   - Kódování ve formátu base58check

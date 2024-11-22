@@ -1,9 +1,9 @@
-domanda: Quali informazioni non sono incluse in una chiave estesa?
-risposta: La cronologia delle transazioni della chiave
-risposte_errate:
+question: Quali informazioni non sono incluse in una chiave estesa?
+answer: La cronologia delle transazioni della chiave
+wrong_answer:
   - Il numero di indice della chiave
   - La chiave (privata o pubblica)
   - Il codice catena
-spiegazione: |
+explanation: |
   Una chiave estesa contiene solo le informazioni necessarie per derivare chiavi figlie, non informazioni relative alle transazioni.
-revisionato: false
+reviewed: false

@@ -1,6 +1,6 @@
 question: Proč je u SHA256 zajištěna nevratnost?
 answer: Použité operace odstraňují informace a jsou jednosměrné
-špatné_odpovědi:
+wrong_answer:
   - Zprávy jsou před hašováním šifrovány
   - Bity jsou náhodně přeuspořádány
   - Každý hash je uložen v databázi

@@ -1,6 +1,6 @@
 question: Jaký modifikátor lze kombinovat se základními příznaky sighash?
 answer: SIGHASH_ANYONECANPAY
-špatné_odpovědi:
+wrong_answer:
   - SIGHASH_NOOUTPUT
   - SIGHASH_ALLPARTICIPANTS
   - SIGHASH_NONSTANDARD

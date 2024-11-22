@@ -1,6 +1,6 @@
 question: Apa tujuan dari frasa mnemonik dalam dompet HD Bitcoin?
 answer: Untuk menurunkan semua kunci secara deterministik
-jawaban_salah:
+wrong_answer:
   - Untuk langsung menandatangani transaksi
   - Untuk mengenkripsi alamat Bitcoin
   - Untuk menghasilkan hash untuk UTXO

@@ -1,6 +1,6 @@
 question: Jenis alamat apa yang dimulai dengan `1` dan termasuk dalam standar Legacy?
 answer: P2PKH
-jawaban_salah:
+wrong_answer:
   - P2WPKH
   - P2SH
   - P2TR

@@ -1,6 +1,6 @@
 question: Mikä on suurin riski käyttää huonosti suunniteltua PRNG:tä entropian tuottamiseen?
 answer: Hyökkääjä voisi arvata yksityiset avaimet
-väärät_vastaukset:
+wrong_answer:
   - Mnemoninen lause voisi sisältää vääriä sanoja
   - Digitaaliset allekirjoitukset muuttuisivat mitättömiksi
   - Bitcoin-osoitteet eivät olisi yhteensopivia verkon kanssa

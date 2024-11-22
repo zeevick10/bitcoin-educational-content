@@ -1,6 +1,6 @@
 question: Awalan apa yang digunakan untuk menunjukkan kunci publik terkompresi dengan koordinat y ganjil?
 answer: 0x03
-jawaban_salah:
+wrong_answer:
   - 0x02
   - 0x04
   - 0x00

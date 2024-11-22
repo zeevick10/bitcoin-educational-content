@@ -1,6 +1,6 @@
 question: Apa arti dari sebuah apostrof (') atau huruf "h" dalam sebuah jalur derivasi?
 answer: Sebuah derivasi yang diperkuat
-jawaban_salah:
+wrong_answer:
   - Sebuah derivasi normal
   - Sebuah derivasi eksternal
   - Sebuah derivasi non-standar

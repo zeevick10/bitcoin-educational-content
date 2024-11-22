@@ -1,6 +1,6 @@
 question: Jaká je hlavní funkce popisovačů výstupního skriptu?
 answer: Plně popsat výstupní skript a poskytnout informace potřebné k obnovení peněženky
-špatné_odpovědi:
+wrong_answer:
   - Automaticky generovat multisignaturní adresy
   - Nahradit mnemonickou frázi v zálohách peněženky
   - Zjednodušit výpočty digitálních podpisů

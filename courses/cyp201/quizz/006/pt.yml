@@ -1,9 +1,9 @@
-pergunta: O que acontece durante cada rodada de compressão no SHA256?
-resposta: As variáveis de estado são atualizadas a partir das palavras da mensagem e constantes
-respostas_erradas:
+question: O que acontece durante cada rodada de compressão no SHA256?
+answer: As variáveis de estado são atualizadas a partir das palavras da mensagem e constantes
+wrong_answers:
   - O hash final é progressivamente gerado após cada rodada
   - Os bits da mensagem são rearranjados
   - Os valores iniciais das variáveis permanecem inalterados
-explicação: |
+explanation: |
   Cada rodada modifica as variáveis de estado usando palavras, constantes e operações lógicas para espalhar a informação.
 reviewed: false

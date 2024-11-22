@@ -1,6 +1,6 @@
 question: Co znamená apostrof (') nebo "h" v cestě derivace?
 answer: Zpevněná derivace
-špatné_odpovědi:
+wrong_answer:
   - Normální derivace
   - Externí derivace
   - Nestandardní derivace

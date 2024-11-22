@@ -1,6 +1,6 @@
 question: Apa perbedaan antara kunci anak biasa dan kunci anak yang diperkuat?
 answer: Kunci anak yang diperkuat memerlukan kunci privat orang tua untuk derivasinya.
-jawaban_salah:
+wrong_answer:
   - Kunci anak biasa tidak dapat diturunkan dari kunci publik.
   - Kunci anak yang diperkuat menggunakan indeks ganjil.
   - Kunci anak biasa lebih aman daripada kunci anak yang diperkuat.

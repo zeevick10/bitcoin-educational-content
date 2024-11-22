@@ -1,6 +1,6 @@
 question: Apa peran dari seed dalam dompet Bitcoin HD?
 answer: Berfungsi sebagai titik awal untuk derivasi semua kunci
-jawaban_salah:
+wrong_answer:
   - Menyimpan transaksi dompet
   - Langsung menghasilkan kunci publik master
   - Menjamin kerahasiaan transaksi

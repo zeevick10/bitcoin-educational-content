@@ -1,6 +1,6 @@
 question: Která vlastnost hašovacích funkcí je demonstrována úplnou změnou haše, když se zpráva mírně změní?
 answer: Lavinový efekt
-špatné_odpovědi:
+wrong_answer:
   - Odolnost proti kolizím
   - Odolnost proti druhému obrazu
   - Délka

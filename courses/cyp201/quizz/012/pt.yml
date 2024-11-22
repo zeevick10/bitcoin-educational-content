@@ -1,9 +1,9 @@
-pergunta: Qual é o tamanho do bloco usado pelo SHA512 no HMAC?
-resposta: 128 bytes
-respostas_erradas:
+question: Qual é o tamanho do bloco usado pelo SHA512 no HMAC?
+answer: 128 bytes
+wrong_answers:
   - 64 bytes
   - 256 bytes
   - 1024 bytes
-explicação: |
+explanation: |
   O SHA512 utiliza blocos de 128 bytes, o que é equivalente a 1024 bits, para seus cálculos.
 reviewed: false

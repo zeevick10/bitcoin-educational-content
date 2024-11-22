@@ -1,6 +1,6 @@
 question: Mikä johdannaispolku käytetään SegWit v0 -tilille standardissa kuvauksessa?
 answer: 84h/0h/0h
-väärät_vastaukset:
+wrong_answer:
   - 44h/0h/0h
   - 86h/0h/0h
   - 84/0/0

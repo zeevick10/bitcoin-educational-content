@@ -1,9 +1,9 @@
 question: Welcher digitale Signaturalgorithmus wurde beim Start von Bitcoin verwendet?
 answer: ECDSA
-falsche_Antworten:
+wrong_answer:
   - Schnorr
   - RSA
   - HMAC
 explanation: |
   Bitcoin verwendete ursprünglich ECDSA, ein Signaturprotokoll basierend auf elliptischen Kurven, bevor die Einführung von Schnorr-Signaturen im Jahr 2021 erfolgte.
-überprüft: false
+reviewed: false

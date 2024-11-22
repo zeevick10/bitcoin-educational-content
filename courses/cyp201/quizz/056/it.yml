@@ -1,8 +1,8 @@
-domanda: Quale costante viene utilizzata per derivare la chiave privata principale dal seed?
-risposta: "Bitcoin Seed"
-risposte_errate:
+question: Quale costante viene utilizzata per derivare la chiave privata principale dal seed?
+answer: "Bitcoin Seed"
+wrong_answer:
   - "Master Key"
   - "HD Wallet Seed"
   - "Blockchain Root"
-spiegazione: |
+explanation: |
   La costante "Bitcoin Seed" viene utilizzata come chiave nella funzione HMAC-SHA512 per derivare la chiave privata principale e il codice catena principale.

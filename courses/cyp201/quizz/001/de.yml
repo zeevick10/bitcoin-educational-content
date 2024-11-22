@@ -1,9 +1,9 @@
 question: Welche Eigenschaft stellt sicher, dass es rechnerisch unmöglich ist, die Eingabe eines Hashs zu ermitteln?
 answer: Preimage-Resistenz
-falsche_Antworten:
+wrong_answer:
   - Kollisionsresistenz
   - Lawineneffekt
   - Second-Preimage-Resistenz
 explanation: |
   Die Preimage-Resistenz stellt sicher, dass es praktisch unmöglich ist, die ursprüngliche Nachricht aus ihrem Hash zu finden.
-überprüft: false
+reviewed: false

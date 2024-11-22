@@ -1,6 +1,6 @@
 question: Mengapa kurva eliptik secp256r1 tidak digunakan dalam Bitcoin?
 answer: Berpotensi untuk menghindari pintu belakang
-jawaban_salah:
+wrong_answer:
   - Karena terlalu lambat
   - Karena tidak distandarisasi
   - Karena memerlukan perangkat keras khusus

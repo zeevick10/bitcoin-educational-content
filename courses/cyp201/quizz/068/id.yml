@@ -1,6 +1,6 @@
 question: Apa batasan untuk menurunkan kunci publik anak dari kunci publik induk?
 answer: Kunci anak harus normal
-jawaban_salah:
+wrong_answer:
   - Kunci anak harus diperkuat
   - Kode rantai harus identik dengan kunci induk
   - Proses tersebut harus mencakup kunci privat induk

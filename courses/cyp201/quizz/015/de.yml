@@ -1,9 +1,9 @@
 question: Welche Art von Schlüssel wird verwendet, um UTXOs bei Bitcoin zu sperren?
 answer: Öffentlicher Schlüssel
-falsche_Antworten:
+wrong_answer:
   - Privater Schlüssel
   - Seed-Hash
   - Mnemonische Phrase
 explanation: |
   UTXOs werden mit einem öffentlichen Schlüssel oder dessen Hash gesperrt und mit dem entsprechenden privaten Schlüssel entsperrt.
-überprüft: false
+reviewed: false

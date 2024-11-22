@@ -1,8 +1,8 @@
-câu hỏi: Điểm chung nào được tất cả các bên tham gia sử dụng để tính toán khóa công khai trong Bitcoin?
-câu trả lời: Điểm sinh G
-câu trả lời sai:
+question: Điểm chung nào được tất cả các bên tham gia sử dụng để tính toán khóa công khai trong Bitcoin?
+answer: Điểm sinh G
+wrong_answers:
   - Băm SHA256
   - Cụm từ ghi nhớ
   - Khóa công khai nén
-giải thích: |
+explanation: |
   Điểm sinh G của đường cong elliptic secp256k1 được sử dụng để tính toán khóa công khai từ khóa riêng.

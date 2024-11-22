@@ -1,6 +1,6 @@
 question: Mikä on ketjukoodin päärooli lapsiavainten johdannaisessa?
 answer: Lisätä ylimääräinen entropian lähde
-väärät_vastaukset:
+wrong_answer:
   - Tunnistaa hierarkkinen syvyys
   - Tallentaa lapsiavainten indeksit
   - Varmistaa yhteensopivuuden Bitcoin-protokollan kanssa

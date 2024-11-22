@@ -1,8 +1,8 @@
-câu hỏi: Tiền tố nào được sử dụng để chỉ một khóa công khai nén có tọa độ y lẻ?
-câu trả lời: 0x03
-câu trả lời sai:
+question: Tiền tố nào được sử dụng để chỉ một khóa công khai nén có tọa độ y lẻ?
+answer: 0x03
+wrong_answers:
   - 0x02
   - 0x04
   - 0x00
-giải thích: |
+explanation: |
   Tiền tố 0x03 chỉ một khóa công khai nén có tọa độ y lẻ.

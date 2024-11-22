@@ -1,6 +1,6 @@
 question: Co umožňuje odvodit rozšířený veřejný klíč?
 answer: Pouze obyčejné dětské veřejné klíče
-špatné_odpovědi:
+wrong_answer:
   - Pouze obyčejné dětské soukromé klíče
   - Oba, zpevněné a obyčejné dětské veřejné klíče
   - Oba, zpevněné a obyčejné dětské soukromé klíče

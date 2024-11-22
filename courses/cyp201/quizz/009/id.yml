@@ -1,6 +1,6 @@
 question: Apa konstruksi yang digunakan oleh SHA256 untuk memproses pesan dengan panjang yang berubah-ubah?
 answer: Konstruksi Merkle-Damgård
-jawaban_salah:
+wrong_answer:
   - Konstruksi Euclidean
   - Konstruksi Rivest-Shamir-Adleman
   - Konstruksi Knuth-Morris-Pratt

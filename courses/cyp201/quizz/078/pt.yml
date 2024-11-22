@@ -1,8 +1,8 @@
-pergunta: O que significa o prefixo `wpkh` em um descritor?
-resposta: Pagamento para Witness-PubKey-Hash
-respostas_erradas:
+question: O que significa o prefixo `wpkh` em um descritor?
+answer: Pagamento para Witness-PubKey-Hash
+wrong_answers:
   - Pagamento para PubKey
   - Pagamento para Script-Hash
   - Hash de Script de Testemunha
-explicação: |
+explanation: |
   O prefixo `wpkh` indica um script SegWit v0 usando endereços de Pagamento para Witness-Public-Key-Hash.

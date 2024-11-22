@@ -1,6 +1,6 @@
 question: Jaká je dobrá praxe pro zabezpečení heslové fráze?
 answer: Uložte ji na samostatném fyzickém médiu než je mnemonická fráze
-špatné_odpovědi:
+wrong_answer:
   - Zapamatovat si ji pouze nazpaměť bez zaznamenání
   - Uložit ji na stejném fyzickém médiu jako mnemonická fráze
   - Zaznamenat ji na digitálním médiu jako je Google Drive

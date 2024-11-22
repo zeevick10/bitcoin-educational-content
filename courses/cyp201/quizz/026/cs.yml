@@ -1,6 +1,6 @@
 question: Jaký je výchozí bod pro výpočet podpisu ECDSA?
 answer: Hash zprávy
-špatné_odpovědi:
+wrong_answer:
   - Veřejný klíč
   - Pevný nonce
   - Vlastní eliptická křivka

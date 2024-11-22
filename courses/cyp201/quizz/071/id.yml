@@ -1,6 +1,6 @@
 question: Kedalaman apa dalam jalur derivasi yang menentukan tipe mata uang?
 answer: Kedalaman 2
-jawaban_salah:
+wrong_answer:
   - Kedalaman 1
   - Kedalaman 3
   - Kedalaman 4

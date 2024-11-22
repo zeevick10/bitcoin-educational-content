@@ -1,9 +1,9 @@
-pergunta: O que um apóstrofo (') ou o "h" em um caminho de derivação significa?
-resposta: Uma derivação endurecida
-respostas_erradas:
+question: O que um apóstrofo (') ou o "h" em um caminho de derivação significa?
+answer: Uma derivação endurecida
+wrong_answers:
   - Uma derivação normal
   - Uma derivação externa
   - Uma derivação não-padrão
-explicação: |
+explanation: |
   Um apóstrofo indica que a derivação é endurecida, requerendo uma chave privada pai para gerar a chave filha.
 reviewed: false

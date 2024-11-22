@@ -1,9 +1,9 @@
-domanda: In quante parti viene diviso l'output della funzione HMAC-SHA512 applicata al seed?
-risposta: Due parti di 256 bit
-risposte_errate:
+question: In quante parti viene diviso l'output della funzione HMAC-SHA512 applicata al seed?
+answer: Due parti di 256 bit
+wrong_answer:
   - Una singola parte di 512 bit
   - Tre parti di 170 bit
   - Quattro parti di 128 bit
-spiegazione: |
+explanation: |
   L'output di HMAC-SHA512 è diviso in due parti: la chiave privata principale (256 bit) e il codice catena principale (256 bit).
-revisionato: false
+reviewed: false

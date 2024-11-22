@@ -1,6 +1,6 @@
 question: Který algoritmus digitálního podpisu byl použit při spuštění Bitcoinu?
 answer: ECDSA
-špatné_odpovědi:
+wrong_answer:
   - Schnorr
   - RSA
   - HMAC

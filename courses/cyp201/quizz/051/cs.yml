@@ -1,6 +1,6 @@
 question: Jaký je hlavní rozdíl mezi heslovou frází a PIN kódem pro Bitcoinovou peněženku?
 answer: Heslová fráze upravuje odvození klíče, nikoli PIN kód
-špatné_odpovědi:
+wrong_answer:
   - PIN kód je spojen s mnemonickou frází
   - PIN kód se používá k šifrování transakcí, ale heslová fráze ne
   - PIN kód generuje Bitcoinové adresy

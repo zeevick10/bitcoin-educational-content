@@ -1,8 +1,8 @@
-câu hỏi: Ràng buộc để suy ra khóa công khai con từ khóa công khai cha là gì?
-câu trả lời: Khóa con phải là bình thường
-câu trả lời sai:
+question: Ràng buộc để suy ra khóa công khai con từ khóa công khai cha là gì?
+answer: Khóa con phải là bình thường
+wrong_answers:
   - Khóa con phải được cứng hóa
   - Mã chuỗi phải giống hệt với khóa cha
   - Quá trình phải bao gồm khóa riêng tư của cha
-giải thích: |
+explanation: |
   Một khóa công khai con chỉ có thể được suy ra từ một khóa công khai cha nếu nó là bình thường, không phải cứng hóa.

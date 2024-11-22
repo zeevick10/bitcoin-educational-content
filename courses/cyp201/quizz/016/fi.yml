@@ -1,6 +1,6 @@
 question: Mikä allekirjoitusmenetelmä otettiin käyttöön Bitcoinissa Taproot-päivityksen myötä?
 answer: Schnorrin allekirjoitusmenetelmä
-väärät_vastaukset:
+wrong_answer:
   - ECDSA
   - SHA256
   - PBKDF2

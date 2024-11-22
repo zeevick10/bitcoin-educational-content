@@ -1,9 +1,9 @@
 question: Wie viele Bits Entropie werden für eine 24-Wort-Mnemonik-Phrase verwendet?
 answer: 256 Bits
-falsche_Antworten:
+wrong_answer:
   - 128 Bits
   - 512 Bits
   - 64 Bits
 explanation: |
   Eine 24-Wort-Mnemonik-Phrase basiert auf 256 Bits Entropie, was eine sehr hohe Sicherheit gewährleistet.
-überprüft: false
+reviewed: false

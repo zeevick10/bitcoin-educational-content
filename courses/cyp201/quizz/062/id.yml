@@ -1,6 +1,6 @@
 question: Apa yang dapat diturunkan dari kunci publik yang diperluas?
 answer: Hanya kunci publik anak normal
-jawaban_salah:
+wrong_answer:
   - Hanya kunci privat anak normal
   - Kedua kunci publik anak yang diperkeras dan normal
   - Kedua kunci privat anak yang diperkeras dan normal

@@ -1,9 +1,9 @@
-domanda: Quale flag sighash consente il crowdfunding coprendo un singolo input e tutti gli output?
-risposta: SIGHASH_ALL | SIGHASH_ANYONECANPAY
-risposte_errate:
+question: Quale flag sighash consente il crowdfunding coprendo un singolo input e tutti gli output?
+answer: SIGHASH_ALL | SIGHASH_ANYONECANPAY
+wrong_answer:
   - SIGHASH_NONE | SIGHASH_ANYONECANPAY
   - SIGHASH_SINGLE | SIGHASH_ANYONECANPAY
   - SIGHASH_ALL
-spiegazione: |
+explanation: |
   SIGHASH_ALL combinato con SIGHASH_ANYONECANPAY consente di aggiungere input senza modificare gli output.
-revisionato: false
+reviewed: false

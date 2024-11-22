@@ -1,6 +1,6 @@
 question: Apa tujuan dari SIGHASH_SINGLE?
 answer: Untuk menutupi satu input dan output yang bersesuaian
-jawaban_salah:
+wrong_answer:
   - Untuk menutupi semua input dan output
   - Hanya untuk menutupi input
   - Untuk menutupi semua output kecuali satu

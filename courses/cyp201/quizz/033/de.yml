@@ -1,6 +1,6 @@
 question: Wofür ermöglicht die Sighash-Flagge SIGHASH_NONE?
 answer: Die Modifikation der Ausgaben nach der Signierung
-falsche_Antworten:
+wrong_answer:
   - Die Modifikation der Eingaben nach der Signierung
   - Alle Eingaben und Ausgaben abdecken
   - Einschränkung der Modifikationen auf nur eine Ausgabe

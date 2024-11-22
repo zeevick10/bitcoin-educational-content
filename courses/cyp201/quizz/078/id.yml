@@ -1,6 +1,6 @@
 question: Apa arti dari awalan `wpkh` dalam sebuah deskriptor?
 answer: Pay-to-Witness-PubKey-Hash
-jawaban_salah:
+wrong_answer:
   - Pay-to-PubKey
   - Pay-to-Script-Hash
   - Witness Script Hash

@@ -1,9 +1,9 @@
-domanda: Qual è lo scopo dell'utilizzo di un portafoglio esca con una passphrase?
-risposta: Simulare un portafoglio con una piccola quantità in caso di coercizione fisica
-risposte_errate:
+question: Qual è lo scopo dell'utilizzo di un portafoglio esca con una passphrase?
+answer: Simulare un portafoglio con una piccola quantità in caso di coercizione fisica
+wrong_answer:
   - Aggiungere un backup automatico delle transazioni
   - Generare una frase mnemonica aggiuntiva
   - Proteggere gli UTXO da una doppia spesa
-spiegazione: |
+explanation: |
   Un portafoglio esca viene utilizzato per deviare l'attenzione di un attaccante fornendo l'accesso a un portafoglio che contiene una piccola quantità di bitcoin.
-revisionato: false
+reviewed: false

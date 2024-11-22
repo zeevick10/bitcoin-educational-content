@@ -1,8 +1,8 @@
-pergunta: Qual flag de sighash permite financiamento coletivo ao cobrir uma única entrada e todas as saídas?
-resposta: SIGHASH_ALL | SIGHASH_ANYONECANPAY
-respostas_erradas:
+question: Qual flag de sighash permite financiamento coletivo ao cobrir uma única entrada e todas as saídas?
+answer: SIGHASH_ALL | SIGHASH_ANYONECANPAY
+wrong_answers:
   - SIGHASH_NONE | SIGHASH_ANYONECANPAY
   - SIGHASH_SINGLE | SIGHASH_ANYONECANPAY
   - SIGHASH_ALL
-explicação: |
+explanation: |
   SIGHASH_ALL combinado com SIGHASH_ANYONECANPAY permite adicionar entradas sem modificar as saídas.

@@ -1,6 +1,6 @@
 question: Kombinasi fungsi hash apa yang digunakan untuk menghasilkan sidik jari yang lebih pendek di Bitcoin?
 answer: HASH160
-jawaban_salah:
+wrong_answer:
   - SHA512-SHA256
   - HASH256
   - SHA160

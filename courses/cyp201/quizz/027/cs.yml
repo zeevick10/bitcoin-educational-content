@@ -1,6 +1,6 @@
 question: Jaká zranitelnost podpisu ECDSA byla opravena pomocí SegWit?
 answer: Změnitelnost
-špatné_odpovědi:
+wrong_answer:
   - Dávková verifikace
   - Nedostatek agregace
   - Nadměrná velikost podpisů

@@ -1,6 +1,6 @@
 question: Proč je 24-slovní mnemonická fráze často považována za nadbytečnou pro Bitcoin peněženku?
 answer: Odvozené klíče nabízejí pouze 128 bitů zabezpečení
-špatné_odpovědi:
+wrong_answer:
   - Software nepodporuje 24-slovní fráze
   - Neumožňuje odvození veřejných klíčů
   - Kratší fráze nejsou standardizovány

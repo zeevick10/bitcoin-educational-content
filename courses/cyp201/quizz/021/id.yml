@@ -1,6 +1,6 @@
 question: Apa karakteristik utama dari perkalian skalar pada kurva eliptik?
 answer: Fungsi satu arah
-jawaban_salah:
+wrong_answer:
   - Mudah dibalik
   - Berdasarkan faktorisasi bilangan prima
   - Sangat lama untuk dihitung

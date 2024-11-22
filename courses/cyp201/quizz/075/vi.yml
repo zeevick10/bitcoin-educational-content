@@ -1,8 +1,8 @@
-câu hỏi: Đường dẫn phái sinh nào được sử dụng cho một tài khoản SegWit v0 trong một bộ mô tả chuẩn?
-câu trả lời: 84h/0h/0h
-câu trả lời sai:
+question: Đường dẫn phái sinh nào được sử dụng cho một tài khoản SegWit v0 trong một bộ mô tả chuẩn?
+answer: 84h/0h/0h
+wrong_answers:
   - 44h/0h/0h
   - 86h/0h/0h
   - 84/0/0
-giải thích: |
+explanation: |
   Đường dẫn 84h/0h/0h được định nghĩa trong BIP84 cho một tài khoản phái sinh địa chỉ SegWit v0 với P2WPKH.

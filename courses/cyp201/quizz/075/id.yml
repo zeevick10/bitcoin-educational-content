@@ -1,6 +1,6 @@
 question: Jalur derivasi apa yang digunakan untuk akun SegWit v0 dalam deskriptor standar?
 answer: 84h/0h/0h
-jawaban_salah:
+wrong_answer:
   - 44h/0h/0h
   - 86h/0h/0h
   - 84/0/0

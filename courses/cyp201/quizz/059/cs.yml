@@ -1,6 +1,6 @@
 question: Jaká je role seedu v Bitcoin HD peněžence?
 answer: Sloužit jako výchozí bod pro odvození všech klíčů
-špatné_odpovědi:
+wrong_answer:
   - Uchovávat transakce peněženky
   - Přímo generovat hlavní veřejný klíč
   - Zajišťovat důvěrnost transakcí

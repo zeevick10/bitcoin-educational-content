@@ -1,9 +1,9 @@
-domanda: Qual è il ruolo principale di un portafoglio Bitcoin?
-risposta: Gestire e proteggere le chiavi private
-risposte_errate:
+question: Qual è il ruolo principale di un portafoglio Bitcoin?
+answer: Gestire e proteggere le chiavi private
+wrong_answer:
   - Conservare i bitcoin dell'utente
   - Garantire automaticamente la riservatezza delle transazioni
   - Generare bitcoin per ogni utente
-spiegazione: |
+explanation: |
   Un portafoglio Bitcoin non conserva direttamente i bitcoin ma gestisce le chiavi private necessarie per sbloccare gli UTXO che rappresentano i bitcoin.
-revisionato: false
+reviewed: false

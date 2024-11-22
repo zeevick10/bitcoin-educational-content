@@ -1,6 +1,6 @@
 question: Mitä etuliite `wpkh` tarkoittaa deskriptorissa?
 answer: Maksa-todistaja-julkisen-avaimen-tarkisteelle
-väärät_vastaukset:
+wrong_answer:
   - Maksa-julkiselle-avaimelle
   - Maksa-skriptin-tarkisteelle
   - Todistajan skriptin tarkiste

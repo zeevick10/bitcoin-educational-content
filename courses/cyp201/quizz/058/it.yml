@@ -1,9 +1,9 @@
-domanda: Quale funzione viene utilizzata per derivare il seed dalla frase mnemonica?
-risposta: PBKDF2 con HMAC-SHA512
-risposte_errate:
+question: Quale funzione viene utilizzata per derivare il seed dalla frase mnemonica?
+answer: PBKDF2 con HMAC-SHA512
+wrong_answer:
   - Solo SHA256
   - Doppio SHA256
   - AES-256
-spiegazione: |
+explanation: |
   Il seed viene generato utilizzando la funzione PBKDF2 con HMAC-SHA512 e 2048 iterazioni, a partire dalla frase mnemonica e dalla passphrase.
-revisionato: false
+reviewed: false

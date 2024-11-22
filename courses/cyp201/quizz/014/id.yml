@@ -1,6 +1,6 @@
 question: Berapa jumlah iterasi yang digunakan oleh PBKDF2 dalam Bitcoin?
 answer: 2048
-jawaban_salah:
+wrong_answer:
   - 1024
   - 4096
   - 512

@@ -1,6 +1,6 @@
 question: Jaké kódování se používá pro reprezentaci adres SegWit v0?
 answer: bech32
-špatné_odpovědi:
+wrong_answer:
   - base58check
   - bech32m
   - base64

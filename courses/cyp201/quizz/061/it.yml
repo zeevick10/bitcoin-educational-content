@@ -1,9 +1,9 @@
-domanda: Qual è la dimensione totale di una chiave estesa con il checksum?
-risposta: 82 byte
-risposte_errate:
+question: Qual è la dimensione totale di una chiave estesa con il checksum?
+answer: 82 byte
+wrong_answer:
   - 78 byte
   - 64 byte
   - 128 byte
-spiegazione: |
+explanation: |
   Una chiave estesa è di 78 byte senza il checksum e di 82 byte con il checksum incluso.
-revisionato: false
+reviewed: false

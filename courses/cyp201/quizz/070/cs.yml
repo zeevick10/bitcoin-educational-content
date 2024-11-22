@@ -1,6 +1,6 @@
 question: Co v hierarchii HD peněženek reprezentuje hloubka 0?
 answer: Hlavní klíč a hlavní řetězový kód
-špatné_odpovědi:
+wrong_answer:
   - Externí řetězec adres
   - Výchozí účet
   - Typ měny

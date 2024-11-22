@@ -1,6 +1,6 @@
 question: Bendera sighash mana yang memungkinkan untuk crowdfunding dengan menutupi satu input dan semua output?
 answer: SIGHASH_ALL | SIGHASH_ANYONECANPAY
-jawaban_salah:
+wrong_answer:
   - SIGHASH_NONE | SIGHASH_ANYONECANPAY
   - SIGHASH_SINGLE | SIGHASH_ANYONECANPAY
   - SIGHASH_ALL

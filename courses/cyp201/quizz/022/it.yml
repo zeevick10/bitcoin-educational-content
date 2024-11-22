@@ -1,9 +1,9 @@
-domanda: Come si calcola una chiave pubblica da una chiave privata?
-risposta: Utilizzando la moltiplicazione scalare sulla curva ellittica
-risposte_errate:
+question: Come si calcola una chiave pubblica da una chiave privata?
+answer: Utilizzando la moltiplicazione scalare sulla curva ellittica
+wrong_answer:
   - Applicando un hash sulla chiave privata
   - Attraverso la crittografia asimmetrica
   - Con l'aggiunta ripetuta di valori numerici
-spiegazione: |
+explanation: |
   La chiave pubblica si ottiene dalla moltiplicazione scalare della chiave privata con il punto generatore G sulla curva ellittica.
-revisionato: false
+reviewed: false

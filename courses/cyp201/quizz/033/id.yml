@@ -1,6 +1,6 @@
 question: Apa yang diizinkan oleh bendera sighash SIGHASH_NONE?
 answer: Memodifikasi keluaran setelah penandatanganan
-jawaban_salah:
+wrong_answer:
   - Memodifikasi masukan setelah penandatanganan
   - Menutupi semua masukan dan keluaran
   - Membatasi modifikasi hanya pada satu keluaran

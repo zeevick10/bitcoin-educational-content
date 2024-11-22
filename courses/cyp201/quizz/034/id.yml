@@ -1,6 +1,6 @@
 question: Tanda sighash apa yang paling sering digunakan dalam transaksi Bitcoin?
 answer: SIGHASH_ALL
-jawaban_salah:
+wrong_answer:
   - SIGHASH_NONE
   - SIGHASH_SINGLE
   - SIGHASH_ANYONECANPAY

@@ -1,6 +1,6 @@
 question: Jaká je velikost surového soukromého klíče používaného u Bitcoinu?
 answer: 256 bitů
-špatné_odpovědi:
+wrong_answer:
   - 128 bitů
   - 512 bitů
   - 1024 bitů

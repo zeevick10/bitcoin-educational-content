@@ -1,9 +1,9 @@
-câu hỏi: Mã hóa nào được sử dụng để biểu diễn địa chỉ SegWit v0?
-câu trả lời: bech32
-câu trả lời sai:
+question: Mã hóa nào được sử dụng để biểu diễn địa chỉ SegWit v0?
+answer: bech32
+wrong_answers:
   - base58check
   - bech32m
   - base64
-giải thích: |
+explanation: |
   Địa chỉ SegWit v0, như địa chỉ cho P2WPKH và P2WSH, sử dụng mã hóa bech32 được giới thiệu cùng với SegWit.
-đã xem xét: false
+reviewed: false

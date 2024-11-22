@@ -1,6 +1,6 @@
 question: Apa itu entropi dalam konteks kriptografi?
 answer: Sebuah ukuran ketidakpastian yang terkait dengan proses acak
-jawaban_salah:
+wrong_answer:
   - Sebuah metode untuk mengenkripsi data sensitif
   - Sebuah algoritma untuk menghitung kunci publik
   - Sebuah teknik kompresi data

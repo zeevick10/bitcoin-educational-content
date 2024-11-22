@@ -1,6 +1,6 @@
 question: Berapa banyak bit checksum untuk entropi sebesar 128 bit?
 answer: 4 bit
-jawaban_salah:
+wrong_answer:
   - 8 bit
   - 16 bit
   - 6 bit

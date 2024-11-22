@@ -1,6 +1,6 @@
 question: Standar Bitcoin mana yang memperkenalkan dompet deterministik hierarkis?
 answer: BIP32
-jawaban_salah:
+wrong_answer:
   - BIP39
   - BIP44
   - BIP141

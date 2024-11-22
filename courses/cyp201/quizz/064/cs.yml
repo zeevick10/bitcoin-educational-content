@@ -1,6 +1,6 @@
 question: Jaká je hlavní funkce rozšířeného klíče v HD peněžence?
 answer: Umožnit odvození dceřiných klíčů
-špatné_odpovědi:
+wrong_answer:
   - Uchovávat transakce peněženky
   - Přímo generovat UTXO
   - Šifrovat veřejné klíče

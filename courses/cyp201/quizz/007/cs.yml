@@ -1,6 +1,6 @@
 question: Jaký je hlavní rozdíl mezi operacemi ShR a RotR?
 answer: ShR posouvá bity přidáním nul, RotR vrací posunuté bity zpět
-špatné_odpovědi:
+wrong_answer:
   - ShR odstraňuje posunuté bity, RotR násobí jejich hodnotu
   - ShR posouvá doleva, RotR posouvá doprava
   - ShR je logická operace, RotR je aritmetická

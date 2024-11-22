@@ -1,6 +1,6 @@
 question: Bagian mana dari keluaran HMAC-SHA512 yang digunakan sebagai kode rantai anak?
 answer: 32 byte terakhir
-jawaban_salah:
+wrong_answer:
   - 32 byte pertama
   - Seluruh 64 byte
   - Hash SHA256 dari 32 byte tengah

@@ -1,6 +1,6 @@
 question: Algoritma tanda tangan digital apa yang digunakan pada saat peluncuran Bitcoin?
 answer: ECDSA
-jawaban_salah:
+wrong_answer:
   - Schnorr
   - RSA
   - HMAC
