@@ -1,9 +1,9 @@
-otázka: Jaká je velikost seedu generovaného PBKDF2?
-odpověď: 512 bitů
+question: Jaká je velikost seedu generovaného PBKDF2?
+answer: 512 bitů
 špatné_odpovědi:
   - 128 bitů
   - 256 bitů
   - Proměnlivá v závislosti na délce mnemonické fráze
-vysvětlení: |
+explanation: |
   Bez ohledu na délku mnemonické fráze PBKDF2 vždy generuje seed o velikosti 512 bitů.
-recenzováno: false
+reviewed: false

@@ -1,9 +1,9 @@
-otázka: Co v hierarchii HD peněženek reprezentuje hloubka 0?
-odpověď: Hlavní klíč a hlavní řetězový kód
+question: Co v hierarchii HD peněženek reprezentuje hloubka 0?
+answer: Hlavní klíč a hlavní řetězový kód
 špatné_odpovědi:
   - Externí řetězec adres
   - Výchozí účet
   - Typ měny
-vysvětlení: |
+explanation: |
   Hloubka 0 odpovídá hlavnímu klíči a hlavnímu řetězovému kódu, které jsou výchozími body pro všechny derivace v HD peněžence.
-recenzováno: false
+reviewed: false

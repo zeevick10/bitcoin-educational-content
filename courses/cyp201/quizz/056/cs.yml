@@ -1,8 +1,8 @@
-otázka: Jaká konstanta se používá k odvození hlavního soukromého klíče ze seedu?
-odpověď: "Bitcoin Seed"
+question: Jaká konstanta se používá k odvození hlavního soukromého klíče ze seedu?
+answer: "Bitcoin Seed"
 špatné_odpovědi:
   - "Master Key"
   - "HD Wallet Seed"
   - "Blockchain Root"
-vysvětlení: |
+explanation: |
   Konstanta "Bitcoin Seed" se používá jako klíč ve funkci HMAC-SHA512 k odvození hlavního soukromého klíče a hlavního řetězového kódu.

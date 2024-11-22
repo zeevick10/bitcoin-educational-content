@@ -1,9 +1,9 @@
-otázka: Jaký je účel SIGHASH_SINGLE?
-odpověď: Pokrýt jeden vstup a jeho odpovídající výstup
-špatné odpovědi:
+question: Jaký je účel SIGHASH_SINGLE?
+answer: Pokrýt jeden vstup a jeho odpovídající výstup
+wrong_answer:
   - Pokrýt všechny vstupy a výstupy
   - Pokrýt pouze vstupy
   - Pokrýt všechny výstupy kromě jednoho
-vysvětlení: |
+explanation: |
   SIGHASH_SINGLE pokrývá jeden vstup a jeden odpovídající výstup vzhledem k indexu podepsaného vstupu, zbytek zůstává modifikovatelný.
-recenzováno: false
+reviewed: false

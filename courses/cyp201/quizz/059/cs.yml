@@ -1,9 +1,9 @@
-otázka: Jaká je role seedu v Bitcoin HD peněžence?
-odpověď: Sloužit jako výchozí bod pro odvození všech klíčů
+question: Jaká je role seedu v Bitcoin HD peněžence?
+answer: Sloužit jako výchozí bod pro odvození všech klíčů
 špatné_odpovědi:
   - Uchovávat transakce peněženky
   - Přímo generovat hlavní veřejný klíč
   - Zajišťovat důvěrnost transakcí
-vysvětlení: |
+explanation: |
   Seed je 512bitová sekvence odvozená z mnemonické fráze a hesla. Tvoří základ všech klíčů v peněžence.
-recenzováno: false
+reviewed: false

@@ -1,9 +1,9 @@
-otázka: Jak se vypočítá veřejný klíč z privátního klíče?
-odpověď: Pomocí skalárního násobení na eliptické křivce
+question: Jak se vypočítá veřejný klíč z privátního klíče?
+answer: Pomocí skalárního násobení na eliptické křivce
 nesprávné_odpovědi:
   - Aplikací hash funkce na privátní klíč
   - Prostřednictvím asymetrického šifrování
   - Opakovaným sčítáním číselných hodnot
-vysvětlení: |
+explanation: |
   Veřejný klíč je získán skalárním násobením privátního klíče s generátorovým bodem G na eliptické křivce.
-recenzováno: false
+reviewed: false

@@ -1,9 +1,9 @@
-otázka: Proč nebyla v Bitcoinu použita eliptická křivka secp256r1?
-odpověď: Pravděpodobně aby se vyhnuli zadním vrátkům
+question: Proč nebyla v Bitcoinu použita eliptická křivka secp256r1?
+answer: Pravděpodobně aby se vyhnuli zadním vrátkům
 špatné_odpovědi:
   - Protože je příliš pomalá
   - Protože není standardizovaná
   - Protože vyžaduje specializovaný hardware
-vysvětlení: |
+explanation: |
   Satoshi Nakamoto pravděpodobně upřednostnil křivku secp256k1, protože parametry secp256r1 mohou obsahovat skrytou zranitelnost.
-recenzováno: false
+reviewed: false

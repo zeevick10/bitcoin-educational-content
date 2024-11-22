@@ -1,9 +1,9 @@
-otázka: Která část výstupu HMAC-SHA512 je použita jako kód dětského řetězce?
-odpověď: Posledních 32 bajtů
+question: Která část výstupu HMAC-SHA512 je použita jako kód dětského řetězce?
+answer: Posledních 32 bajtů
 špatné_odpovědi:
   - Prvních 32 bajtů
   - Celých 64 bajtů
   - SHA256 hash prostředních 32 bajtů
-vysvětlení: |
+explanation: |
   Posledních 32 bajtů výstupu HMAC-SHA512 slouží jako kód řetězce pro dětský klíč.
-recenzováno: false
+reviewed: false

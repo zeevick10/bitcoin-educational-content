@@ -1,9 +1,9 @@
-otázka: Kolik bitů entropie se používá pro 24-slovní mnemonickou frázi?
-odpověď: 256 bitů
+question: Kolik bitů entropie se používá pro 24-slovní mnemonickou frázi?
+answer: 256 bitů
 špatné_odpovědi:
   - 128 bitů
   - 512 bitů
   - 64 bitů
-vysvětlení: |
+explanation: |
   24-slovní mnemonická fráze je založena na 256 bitech entropie, což zajišťuje velmi vysokou bezpečnost.
-recenzováno: false
+reviewed: false

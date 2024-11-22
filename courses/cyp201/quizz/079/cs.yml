@@ -1,8 +1,8 @@
-otázka: Jaká je hlavní funkce popisovačů výstupního skriptu?
-odpověď: Plně popsat výstupní skript a poskytnout informace potřebné k obnovení peněženky
+question: Jaká je hlavní funkce popisovačů výstupního skriptu?
+answer: Plně popsat výstupní skript a poskytnout informace potřebné k obnovení peněženky
 špatné_odpovědi:
   - Automaticky generovat multisignaturní adresy
   - Nahradit mnemonickou frázi v zálohách peněženky
   - Zjednodušit výpočty digitálních podpisů
-vysvětlení: |
+explanation: |
   Popisovače zahrnují všechny nezbytné informace pro sledování konkrétního skriptu, včetně cesty derivace a použitých klíčů, ale nikoli obnovovací fráze.

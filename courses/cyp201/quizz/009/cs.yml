@@ -1,9 +1,9 @@
-otázka: Jaká konstrukce je používána SHA256 pro zpracování zpráv libovolné délky?
-odpověď: Konstrukce Merkle-Damgård
+question: Jaká konstrukce je používána SHA256 pro zpracování zpráv libovolné délky?
+answer: Konstrukce Merkle-Damgård
 špatné_odpovědi:
   - Euklidovská konstrukce
   - Konstrukce Rivest-Shamir-Adleman
   - Konstrukce Knuth-Morris-Pratt
-vysvětlení: |
+explanation: |
   Konstrukce Merkle-Damgård umožňuje transformovat kompresní funkci na hašovací funkci pro zprávy proměnné délky.
-recenzováno: false
+reviewed: false

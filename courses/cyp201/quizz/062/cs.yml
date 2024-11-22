@@ -1,9 +1,9 @@
-otázka: Co umožňuje odvodit rozšířený veřejný klíč?
-odpověď: Pouze obyčejné dětské veřejné klíče
+question: Co umožňuje odvodit rozšířený veřejný klíč?
+answer: Pouze obyčejné dětské veřejné klíče
 špatné_odpovědi:
   - Pouze obyčejné dětské soukromé klíče
   - Oba, zpevněné a obyčejné dětské veřejné klíče
   - Oba, zpevněné a obyčejné dětské soukromé klíče
-vysvětlení: |
+explanation: |
   Rozšířený veřejný klíč umožňuje odvození pouze obyčejných dětských veřejných klíčů, nikoli soukromých klíčů nebo zpevněných klíčů.
-recenzováno: false
+reviewed: false

@@ -1,9 +1,9 @@
-otázka: Jaká vlastnost Schnorr umožňuje kombinovat více veřejných klíčů do jednoho?
-odpověď: Agregace klíčů
+question: Jaká vlastnost Schnorr umožňuje kombinovat více veřejných klíčů do jednoho?
+answer: Agregace klíčů
 špatné_odpovědi:
   - Dávkové ověřování
   - Změnitelnost
   - Kompaktace podpisu
-vysvětlení: |
+explanation: |
   Schnorr umožňuje agregaci více veřejných klíčů do jediného klíče.
-recenzováno: false
+reviewed: false

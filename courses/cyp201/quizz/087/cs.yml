@@ -1,9 +1,9 @@
-otázka: Jaká je unikátní vlastnost adres SegWit v1 (P2TR) ve srovnání s adresami SegWit v0?
-odpověď: Přímo používají surový veřejný klíč v adrese.
+question: Jaká je unikátní vlastnost adres SegWit v1 (P2TR) ve srovnání s adresami SegWit v0?
+answer: Přímo používají surový veřejný klíč v adrese.
 špatné_odpovědi:
   - Jsou zakódovány v base58check.
   - Pro platnost vyžadují dvě podpisy.
   - Používají hash veřejného klíče v adrese.
-vysvětlení: |
+explanation: |
   Adresy SegWit v1 (P2TR) nepoužívají hash veřejného klíče, ale přímo veřejný klíč Taproot.
-recenzováno: false
+reviewed: false

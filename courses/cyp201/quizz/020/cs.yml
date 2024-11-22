@@ -1,9 +1,9 @@
-otázka: Jaký je rozdíl mezi komprimovaným a nekomprimovaným veřejným klíčem?
-odpověď: Komprimovaný veřejný klíč používá pouze x-ovou souřadnici a paritu y
+question: Jaký je rozdíl mezi komprimovaným a nekomprimovaným veřejným klíčem?
+answer: Komprimovaný veřejný klíč používá pouze x-ovou souřadnici a paritu y
 špatné_odpovědi:
   - Komprimovaný veřejný klíč je bezpečnější
   - Komprimovaný veřejný klíč používá pouze y-ovou souřadnici a paritu x
   - Komprimovaný veřejný klíč vyžaduje větší soukromý klíč
-vysvětlení: |
+explanation: |
   Komprimovaný veřejný klíč si ponechává pouze x-ovou souřadnici a bit pro paritu y, čímž se jeho velikost redukuje na 33 bajtů.
-recenzováno: false
+reviewed: false

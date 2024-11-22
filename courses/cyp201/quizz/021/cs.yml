@@ -1,9 +1,9 @@
-otázka: Jaká je hlavní charakteristika skalárního násobení na eliptických křivkách?
-odpověď: Jednosměrná funkce
+question: Jaká je hlavní charakteristika skalárního násobení na eliptických křivkách?
+answer: Jednosměrná funkce
 nesprávné_odpovědi:
   - Snadno reverzibilní
   - Založeno na faktorizaci prvočísel
   - Velmi dlouho se počítá
-vysvětlení: |
+explanation: |
   Skalární násobení na eliptických křivkách je jednosměrná funkce, což znemožňuje získání soukromého klíče z veřejného klíče.
-recenzováno: false
+reviewed: false

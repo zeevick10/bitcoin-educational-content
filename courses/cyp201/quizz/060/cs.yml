@@ -1,9 +1,9 @@
-otázka: Jaký typ klíče je spojen s prefixem "zpub"?
-odpověď: Rozšířený veřejný klíč pro SegWit V0 na Mainnetu
+question: Jaký typ klíče je spojen s prefixem "zpub"?
+answer: Rozšířený veřejný klíč pro SegWit V0 na Mainnetu
 špatné_odpovědi:
   - Rozšířený soukromý klíč pro SegWit V1 na Mainnetu
   - Rozšířený veřejný klíč pro Legacy na Testnetu
   - Rozšířený veřejný klíč pro SegWit V2 na Testnetu
-vysvětlení: |
+explanation: |
   Prefix "zpub" označuje rozšířený veřejný klíč pro skripty SegWit V0 na Mainnetu.
-recenzováno: false
+reviewed: false

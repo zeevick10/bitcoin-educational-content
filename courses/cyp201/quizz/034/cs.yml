@@ -1,8 +1,8 @@
-otázka: Který sighash příznak je nejčastěji používán v Bitcoin transakcích?
-odpověď: SIGHASH_ALL
+question: Který sighash příznak je nejčastěji používán v Bitcoin transakcích?
+answer: SIGHASH_ALL
 špatné_odpovědi:
   - SIGHASH_NONE
   - SIGHASH_SINGLE
   - SIGHASH_ANYONECANPAY
-vysvětlení: |
+explanation: |
   SIGHASH_ALL je výchozí sighash příznak, který pokrývá všechny vstupy a výstupy transakce, čímž zabraňuje jakýmkoliv úpravám.

@@ -1,9 +1,9 @@
-otázka: Který index reprezentuje vnější řetězec účtu v cestě derivace?
-odpověď: /0/
+question: Který index reprezentuje vnější řetězec účtu v cestě derivace?
+answer: /0/
 nesprávné_odpovědi:
   - /1/
   - /0'/
   - /2/
-vysvětlení: |
+explanation: |
   Vnější řetězec je identifikován indexem /0/ na čtvrté úrovni cesty derivace.
-recenzováno: false
+reviewed: false

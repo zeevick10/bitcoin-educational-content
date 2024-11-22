@@ -1,9 +1,9 @@
-otázka: Proč se nedoporučuje opětovné použití Bitcoinové adresy?
-odpověď: Umožňuje sledování transakcí třetími stranami
+question: Proč se nedoporučuje opětovné použití Bitcoinové adresy?
+answer: Umožňuje sledování transakcí třetími stranami
 špatné_odpovědi:
   - Odhaluje soukromý klíč kvůli nonce
   - Zdražuje transakce
   - Zneplatňuje digitální podpisy
-vysvětlení: |
+explanation: |
   Opětovné použití adresy umožňuje pozorovatelům snadno spojit různé transakce se stejným uživatelem, čímž kompromituje jejich soukromí.
-recenzováno: false
+reviewed: false

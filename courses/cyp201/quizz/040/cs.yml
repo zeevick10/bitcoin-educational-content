@@ -1,8 +1,8 @@
-otázka: Proč je ruční generování entropie pro HD peněženku riskantní?
-odpověď: Může do ní vnést lidské slabosti nebo předvídatelné zkreslení
+question: Proč je ruční generování entropie pro HD peněženku riskantní?
+answer: Může do ní vnést lidské slabosti nebo předvídatelné zkreslení
 nesprávné_odpovědi:
   - Vede k neplatným veřejným klíčům
   - Blokuje odvození soukromých klíčů
   - Omezuje velikost generovaných mnemonických frází
-vysvětlení: |
+explanation: |
   Ruční generování entropie může zavést zkreslení nebo chyby, čímž klíče stávají více zranitelnými vůči útokům.

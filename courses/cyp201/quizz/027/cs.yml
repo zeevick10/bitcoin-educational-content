@@ -1,9 +1,9 @@
-otázka: Jaká zranitelnost podpisu ECDSA byla opravena pomocí SegWit?
-odpověď: Změnitelnost
+question: Jaká zranitelnost podpisu ECDSA byla opravena pomocí SegWit?
+answer: Změnitelnost
 špatné_odpovědi:
   - Dávková verifikace
   - Nedostatek agregace
   - Nadměrná velikost podpisů
-vysvětlení: |
+explanation: |
   SegWit opravil změnitelnost podpisů ECDSA, což umožnilo využití, jako je Lightning Network.
-recenzováno: false
+reviewed: false

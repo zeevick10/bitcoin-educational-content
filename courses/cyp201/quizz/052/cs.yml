@@ -1,9 +1,9 @@
-otázka: Jaký je účel použití návnadové peněženky s heslovou frází?
-odpověď: Simulovat peněženku s malým množstvím v případě fyzického nátlaku
+question: Jaký je účel použití návnadové peněženky s heslovou frází?
+answer: Simulovat peněženku s malým množstvím v případě fyzického nátlaku
 špatné_odpovědi:
   - Přidat automatickou zálohu transakcí
   - Generovat dodatečnou mnemonickou frázi
   - Chránit UTXO před dvojitým výdajem
-vysvětlení: |
+explanation: |
   Návnadová peněženka se používá k odvedení pozornosti útočníka tím, že poskytne přístup k peněžence obsahující malé množství bitcoinů.
-recenzováno: false
+reviewed: false

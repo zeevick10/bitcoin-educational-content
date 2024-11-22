@@ -1,9 +1,9 @@
-otázka: Jaká je hlavní role hesla v Bitcoin HD peněžence?
-odpověď: Modifikovat odvození klíče pro zvýšení bezpečnosti
+question: Jaká je hlavní role hesla v Bitcoin HD peněžence?
+answer: Modifikovat odvození klíče pro zvýšení bezpečnosti
 nesprávné_odpovědi:
   - Dešifrovat čekající transakce
   - Generovat UTXO peněženky
   - Chránit přístup k peněžence pomocí rozpoznávání obličeje
-vysvětlení: |
+explanation: |
   Heslo působí jako druhý faktor zabezpečení, který mění semínko pro odvození klíče, aby zabránil přístupu k peněžence v případě, že je mnemonická fráze ohrožena.
-recenzováno: false
+reviewed: false

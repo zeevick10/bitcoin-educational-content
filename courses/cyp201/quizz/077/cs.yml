@@ -1,9 +1,9 @@
-otázka: Proč jsou deskriptory obzvláště užitečné pro multisignature peněženky?
-odpověď: Zahrnují xpub každého faktoru a popisují strukturu multisignatury
+question: Proč jsou deskriptory obzvláště užitečné pro multisignature peněženky?
+answer: Zahrnují xpub každého faktoru a popisují strukturu multisignatury
 špatné_odpovědi:
   - Eliminují potřebu mnemonické fráze
   - Zjednodušují generování hardened klíčů
   - Dělají multisignatury kompatibilními se všemi skripty
-vysvětlení: |
+explanation: |
   Deskriptory zahrnují rozšířené veřejné klíče všech účastníků, což usnadňuje obnovu a správu konfigurací multisignatury.
-recenzováno: false
+reviewed: false
