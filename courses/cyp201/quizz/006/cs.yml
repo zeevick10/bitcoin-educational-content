@@ -1,9 +1,9 @@
-question: Kolik bitů je vyhrazeno pro doplnění podle velikosti ve funkci SHA256?
-answer: 64 bitů.
-wrong_answers:
-  - 128 bitů.
-  - 256 bitů.
-  - 512 bitů.
-explanation: |
-  SHA256 vyhradí 64 bitů pro doplnění, což představuje počáteční velikost zprávy před doplněním.
-reviewed: false
+otázka: Co se děje během každého kompresního kola v SHA256?
+odpověď: Stavové proměnné jsou aktualizovány z datových slov zprávy a konstant
+špatné_odpovědi:
+  - Konečný hash je postupně generován po každém kole
+  - Bity zprávy jsou přeuspořádány
+  - Počáteční hodnoty proměnných zůstávají nezměněny
+vysvětlení: |
+  Každé kolo upravuje stavové proměnné pomocí slov, konstant a logických operací pro rozšíření informací.
+recenzováno: false

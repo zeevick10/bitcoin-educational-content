@@ -1,0 +1,9 @@
+câu hỏi: Vai trò chính của một địa chỉ Bitcoin trong một giao dịch là gì?
+câu trả lời: Khóa UTXOs trong scriptPubKey
+câu trả lời sai:
+  - Mở khóa các UTXOs trong scriptSig
+  - Báo hiệu kết thúc của giao dịch
+  - Xác định khối xác nhận
+giải thích: |
+  Một địa chỉ Bitcoin được nhúng trong scriptPubKey để khóa các UTXOs. Nó xác định các điều kiện cần thiết để mở khóa quỹ.
+đã xem xét: false

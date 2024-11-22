@@ -1,8 +1,9 @@
-question: Mis on muutuja, mis võimaldab eristada üksteisest samast vanempaarist tuletatud võtmepaare?
-answer: Indeks.
-wrong_answers:
-  - Krüptograafiline sool.
-  - Eesnimi.
-  - Vanemahela kood.
-explanation: |
-  Indeksit kasutatakse HD rahakotis samast vanempaarist tuletatud võtmepaaride eristamiseks.
+küsimus: Mis on laiendatud võtme kogusuurus koos kontrollsummaga?
+vastus: 82 baiti
+valed_vastused:
+  - 78 baiti
+  - 64 baiti
+  - 128 baiti
+selgitus: |
+  Laiendatud võti on ilma kontrollsummat arvestamata 78 baiti ja koos kontrollsummaga 82 baiti.
+üle_vaadatud: false

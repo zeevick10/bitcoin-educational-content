@@ -1,9 +1,9 @@
-question: Di quale dimensione deve essere l'input della funzione SHA256 una volta effettuato il padding?
-answer: Un multiplo di 512 bit.
-wrong_answers:
-  - Di 256 bit.
-  - Di 256 byte.
-  - Un multiplo di 256 bit.
-explanation: |
-  La funzione SHA256 richiede che l'input sia un multiplo di 512 bit dopo il padding per funzionare correttamente.
-reviewed: false
+domanda: Perché l'irreversibilità è garantita in SHA256?
+risposta: Le operazioni utilizzate rimuovono informazioni e sono unidirezionali
+risposte_errate:
+  - I messaggi vengono criptati prima dell'hashing
+  - I bit vengono riorganizzati casualmente
+  - Ogni hash viene memorizzato in un database
+spiegazione: |
+  Operazioni come ShR e XOR rendono impossibile tornare allo stato iniziale, garantendo l'irreversibilità.
+revisionato: false

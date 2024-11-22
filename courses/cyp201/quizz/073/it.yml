@@ -1,0 +1,9 @@
+domanda: Quale indice rappresenta la catena esterna di un account in un percorso di derivazione?
+risposta: /0/
+risposte_errate:
+  - /1/
+  - /0'/
+  - /2/
+spiegazione: |
+  La catena esterna è identificata dall'indice /0/ al livello 4 del percorso di derivazione.
+revisionato: false

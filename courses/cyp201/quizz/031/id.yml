@@ -1,8 +1,8 @@
-question: Bagaimana pasangan kunci ditentukan dalam dompet Hierarchical Deterministic (HD)?
-answer: Semua pasangan kunci dalam dompet ditentukan secara deterministik dan hierarkis dari sebuah informasi unik di dasar dompet.
-wrong_answers:
-  - Semua pasangan kunci dalam dompet ditentukan secara independen dari yang lain, secara acak, oleh generator angka acak.
-  - Setiap pasangan kunci dalam dompet ditentukan secara deterministik dari pasangan kunci sebelumnya.
-  - Pasangan kunci semuanya acak dan tanpa keterkaitan hierarkis.
-explanation: |
-  Dalam dompet HD, semua kunci berasal dari sebuah informasi unik yang disebut seed, yang memungkinkan pengelolaan kunci secara hierarkis dan deterministik.
+pertanyaan: Apa modifikator yang dapat digabungkan dengan bendera sighash dasar?
+jawaban: SIGHASH_ANYONECANPAY
+jawaban_salah:
+  - SIGHASH_NOOUTPUT
+  - SIGHASH_ALLPARTICIPANTS
+  - SIGHASH_NONSTANDARD
+penjelasan: |
+  SIGHASH_ANYONECANPAY memodifikasi bendera sighash untuk hanya menutupi satu input sambil membiarkan sisanya dapat dimodifikasi.

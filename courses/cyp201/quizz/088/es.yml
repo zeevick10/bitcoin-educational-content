@@ -1,0 +1,9 @@
+pregunta: ¿Qué prefijo se utiliza para indicar una clave pública comprimida con una coordenada y impar?
+respuesta: 0x03
+respuestas_incorrectas:
+  - 0x02
+  - 0x04
+  - 0x00
+explicación: |
+  El prefijo 0x03 indica una clave pública comprimida con una coordenada y impar.
+revisado: false

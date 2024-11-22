@@ -1,8 +1,9 @@
-question: Miten SegWit-osoitteen tarkistussumma lasketaan?
-answer: BCH-koodilla.
-wrong_answers:
-  - HASH160: lla.
-  - HASH256: lla.
-  - SHA512: lla.
-explanation: |
-  SegWit-osoitteiden tarkistussumma lasketaan käyttämällä BCH-koodia, mikä mahdollistaa mahdollisten virheiden havaitsemisen osoitteessa.
+kysymys: Mihin merkintä "/<0;1>/*" deskriptorissa viittaa?
+vastaus: Ulkoiseen ja sisäiseen ketjuun sekventiaalisella johdannolla
+väärät_vastaukset:
+  - Järjestettyyn multisignatuuri-osoitteeseen
+  - Johdannaispolkujen tarkistussummaan
+  - Kovetettuun johdannaispolkuun
+selitys: |
+  Merkintä "/<0;1>/*" osoittaa, että deskriptori voi generoida osoitteita ulkoiselle (0) ja sisäiselle (1) ketjulle, sekventiaalisella johdannolla villikortin (*) ansiosta.
+arvioitu: false

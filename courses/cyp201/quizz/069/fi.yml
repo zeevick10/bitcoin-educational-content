@@ -1,9 +1,8 @@
-question: Mitä seuraava johdannaispolku tarkoittaa? m/44'/0'/0'/0/0
-answer: Ulkoinen Legacy-osoite pääverkossa.
-wrong_answers:
-  - Ulkoinen SegwitV1-osoite pääverkossa.
-  - Sisäinen Legacy-osoite testiverkossa.
-  - Ulkoinen SegwitV0-osoite pääverkossa.
-explanation: |
-  Johdannaispolku m/44'/0'/0'/0/0 viittaa ulkoiseen Legacy-osoitteeseen pääverkossa (mainnet). 44' = Legacy, 0' = pääverkko, 0 = ulkoinen
-reviewed: false
+kysymys: Mikä on ketjukoodin päärooli lapsiavainten johdannaisessa?
+vastaus: Lisätä ylimääräinen entropian lähde
+väärät_vastaukset:
+  - Tunnistaa hierarkkinen syvyys
+  - Tallentaa lapsiavainten indeksit
+  - Varmistaa yhteensopivuuden Bitcoin-protokollan kanssa
+selitys: |
+  Ketjukoodia käytetään tuomaan lisätty ja ainutlaatuinen entropian lähde jokaiselle johdetulle avaimelle.

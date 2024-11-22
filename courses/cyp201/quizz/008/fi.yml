@@ -1,8 +1,9 @@
-question: Kuinka monta kierrosta SHA256-tiivistysfunktio suorittaa?
-answer: 64 kierrosta.
-wrong_answers:
-  - 10 kierrosta.
-  - 128 kierrosta.
-  - 150 kierrosta.
-explanation: |
-  SHA256-tiivistysfunktio suorittaa 64 kierrosta käsittelyssä olevaa datalohkoa kohden.
+kysymys: Miksi SHA256 suorittaa esikäsittelyn syötteenä olevalle viestille?
+vastaus: Varmistaakseen, että pituus on 512 bitin monikerta
+vaarat_vastaukset:
+  - Varmistaakseen viestin eheyden
+  - Salaamaan tiedot ennen hajautusta
+  - Kasvattamaan tuotettujen hajautusten kokoa
+selitys: |
+  Esikäsittely säätää viestin pituutta lisäämällä täytebittejä ja binääriesityksen sen pituudesta.
+arvioitu: false

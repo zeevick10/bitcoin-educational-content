@@ -1,9 +1,9 @@
-question: Zde je posloupnost desítkových čísel (10 25 13 18 02 31). Jaký je správný převod na Bech32?
-answer: 2edjzl
-wrong_answers:
-  - 2udjpr
-  - 2uaz2c
-  - 3bdjsr
-explanation: |
-  Převod desítkových čísel na Bech32 se provádí pomocí specifické korespondenční tabulky, a posloupnost 10 25 13 18 02 31 odpovídá 2edjzl.
-reviewed: false
+otázka: Co znamená prefix `wpkh` v popisu?
+odpověď: Platba na Witness-PubKey-Hash
+špatné odpovědi:
+  - Platba na PubKey
+  - Platba na Script-Hash
+  - Witness Script Hash
+vysvětlení: |
+  Prefix `wpkh` označuje SegWit v0 skript používající adresy typu Platba na Witness-Public-Key-Hash.
+recenzováno: false

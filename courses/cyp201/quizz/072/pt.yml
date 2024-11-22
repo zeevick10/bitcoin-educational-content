@@ -1,8 +1,9 @@
-question: Qual é a função usada para gerar um endereço?
-answer: HASH160.
-wrong_answers:
-  - HASH256.
-  - HASH512.
-  - SHA256.
-explanation: |
-  A função HASH160, que combina SHA256 e RIPEMD-160, é usada para gerar endereços Bitcoin a partir de chaves públicas.
+pergunta: O que um apóstrofo (') ou o "h" em um caminho de derivação significa?
+resposta: Uma derivação endurecida
+respostas_erradas:
+  - Uma derivação normal
+  - Uma derivação externa
+  - Uma derivação não-padrão
+explicação: |
+  Um apóstrofo indica que a derivação é endurecida, requerendo uma chave privada pai para gerar a chave filha.
+revisado: false

@@ -1,9 +1,8 @@
-question: Apa nama kurva elips yang digunakan untuk algoritma tanda tangan digital dalam Bitcoin?
-answer: secp256k1.
-wrong_answers:
-  - secp256r1.
-  - secp160k1.
-  - secp521r1.
-explanation: |
-  Kurva secp256k1 digunakan dalam protokol Bitcoin untuk tanda tangan digital.
-reviewed: false
+pertanyaan: Jenis kunci apa yang digunakan untuk mengunci UTXO pada Bitcoin?
+jawaban: Kunci publik
+jawaban_salah:
+  - Kunci pribadi
+  - Hash benih
+  - Frasa mnemonik
+penjelasan: |
+  UTXO dikunci dengan kunci publik atau hash dari kunci publik tersebut, dan dibuka dengan kunci pribadi yang sesuai.

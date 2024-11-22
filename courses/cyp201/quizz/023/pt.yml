@@ -1,8 +1,8 @@
-question: Qual é o tamanho de uma chave pública Bitcoin não comprimida, incluindo seu prefixo?
-answer: 520 bits.
-wrong_answers:
-  - 512 bytes.
-  - 256 bits.
-  - 512 bits.
-explanation: |
-  Uma chave pública Bitcoin não comprimida com seu prefixo é de 520 bits, compreendendo as coordenadas x e y do ponto na curva elíptica.
+pergunta: Qual é o ponto comum utilizado por todos os participantes para calcular uma chave pública no Bitcoin?
+resposta: O ponto gerador G
+respostas_erradas:
+  - O hash SHA256
+  - Uma frase mnemônica
+  - A chave pública comprimida
+explicação: |
+  O ponto gerador G da curva elíptica secp256k1 é usado para calcular chaves públicas a partir de chaves privadas.

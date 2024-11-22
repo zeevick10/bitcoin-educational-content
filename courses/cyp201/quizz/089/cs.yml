@@ -1,0 +1,9 @@
+otázka: Jaký krok předchází aplikaci HASH160 při generování adresy SegWit v0?
+odpověď: Kompresi veřejného klíče
+špatné_odpovědi:
+  - Přidání kontrolního součtu
+  - Konverze do formátu bech32
+  - Kódování ve formátu base58check
+vysvětlení: |
+  Veřejný klíč musí být komprimován, aby se snížila jeho velikost, než projde hashovací funkcí HASH160.
+recenzováno: false

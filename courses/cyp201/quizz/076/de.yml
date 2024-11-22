@@ -1,9 +1,9 @@
-question: Wie wird die Prüfsumme einer SegWit-Adresse berechnet?
-answer: Mit einem BCH-Code.
-wrong_answers:
-  - Mit HASH160.
-  - Mit HASH256.
-  - Mit SHA512.
-explanation: |
-  Für SegWit-Adressen wird die Prüfsumme mit dem BCH-Code berechnet, was die Erkennung möglicher Fehler in der Adresse ermöglicht.
-reviewed: false
+Frage: Wofür steht die Notation "/<0;1>/*" in einem Deskriptor?
+Antwort: Für die externe und interne Kette mit sequenzieller Ableitung
+Falsche Antworten:
+  - Für eine sortierte Multisignatur-Adresse
+  - Für eine Prüfsumme für Ableitungspfade
+  - Für einen gehärteten Ableitungspfad
+Erklärung: |
+  Die Notation "/<0;1>/*" zeigt an, dass der Deskriptor Adressen für die externe (0) und interne (1) Kette generieren kann, mit sequenzieller Ableitung dank des Platzhalters (*).
+Überprüft: false

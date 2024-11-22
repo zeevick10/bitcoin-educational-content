@@ -1,8 +1,8 @@
-question: O que uma assinatura digital prova no sistema Bitcoin por meio do scriptSig?
-answer: A posse da chave privada associada a uma chave pública específica.
-wrong_answers:
-  - A posse de um endereço Bitcoin.
-  - A capacidade de minerar um bloco Bitcoin.
-  - A validade de uma transação Bitcoin.
-explanation: |
-  Uma assinatura digital prova que o usuário possui a chave privada sem ter que revelá-la, garantindo a autenticidade da transação.
+pergunta: Qual algoritmo de assinatura digital foi utilizado no lançamento do Bitcoin?
+resposta: ECDSA
+respostas_erradas:
+  - Schnorr
+  - RSA
+  - HMAC
+explicação: |
+  O Bitcoin inicialmente utilizou o ECDSA, um protocolo de assinatura baseado em curvas elípticas, antes da introdução das assinaturas Schnorr em 2021.

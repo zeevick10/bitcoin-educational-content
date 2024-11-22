@@ -1,9 +1,9 @@
-question: Jakou velikost musí mít vstup funkce SHA256 po doplnění?
-answer: Násobek 512 bitů.
-wrong_answers:
-  - 256 bitů.
-  - 256 bajtů.
-  - Násobek 256 bitů.
-explanation: |
-  Funkce SHA256 vyžaduje, aby vstup byl po doplnění násobkem 512 bitů, aby správně fungovala.
-reviewed: false
+otázka: Proč je u SHA256 zajištěna nevratnost?
+odpověď: Použité operace odstraňují informace a jsou jednosměrné
+špatné_odpovědi:
+  - Zprávy jsou před hašováním šifrovány
+  - Bity jsou náhodně přeuspořádány
+  - Každý hash je uložen v databázi
+vysvětlení: |
+  Operace jako ShR a XOR znemožňují návrat do počátečního stavu, čímž je zajištěna nevratnost.
+recenzováno: false

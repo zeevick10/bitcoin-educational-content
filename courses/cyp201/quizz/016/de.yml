@@ -1,9 +1,9 @@
-question: Um diese elliptische Kurve für kryptografische Anwendungen zu nutzen, auf welchem Feld muss sie definiert werden?
-answer: Ein endliches Feld positiver Ganzzahlen.
-wrong_answers:
-  - Das Feld der reellen Zahlen.
-  - Ein endliches Feld reeller Zahlen.
-  - Ein komplexes Feld.
-explanation: |
-  Bei Bitcoin wird die elliptische Kurve secp256k1 über einem endlichen Feld positiver Ganzzahlen modulo einer Primzahl definiert, um Näherungen zu vermeiden und die Sicherheit zu gewährleisten.
-reviewed: false
+Frage: Welcher Signaturalgorithmus wurde mit Taproot in Bitcoin eingeführt?
+Antwort: Schnorr-Signaturverfahren
+falsche_Antworten:
+  - ECDSA
+  - SHA256
+  - PBKDF2
+Erklärung: |
+  Das Schnorr-Signaturverfahren wurde im November 2021 mit dem Taproot-Update eingeführt.
+überprüft: false

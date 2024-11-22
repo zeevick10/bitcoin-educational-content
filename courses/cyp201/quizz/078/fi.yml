@@ -1,9 +1,8 @@
-question: Tässä on jono desimaalinumeroita (10 25 13 18 02 31). Mikä on oikea muunnos Bech32-muotoon?
-answer: 2edjzl
-wrong_answers:
-  - 2udjpr
-  - 2uaz2c
-  - 3bdjsr
-explanation: |
-  Desimaalinumeroiden muunnos Bech32-muotoon tehdään tietyn vastaavuustaulukon kautta, ja jono 10 25 13 18 02 31 vastaa 2edjzl.
-reviewed: false
+kysymys: Mitä etuliite `wpkh` tarkoittaa deskriptorissa?
+vastaus: Maksa-todistaja-julkisen-avaimen-tarkisteelle
+väärät_vastaukset:
+  - Maksa-julkiselle-avaimelle
+  - Maksa-skriptin-tarkisteelle
+  - Todistajan skriptin tarkiste
+selitys: |
+  Etuliite `wpkh` viittaa SegWit v0 skriptiin, joka käyttää Maksa-todistaja-julkisen-avaimen-tarkisteelle osoitteita.

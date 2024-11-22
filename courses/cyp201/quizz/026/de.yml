@@ -1,9 +1,9 @@
-question: Warum ist es wichtig, niemals einen Nonce im ECDSA-Algorithmus wiederzuverwenden?
-answer: Die Wiederverwendung eines Nonce gefährdet die Sicherheit und kann den privaten Schlüssel preisgeben.
-wrong_answers:
-  - Die Wiederverwendung eines Nonce verlangsamt die Leistung.
-  - Die Wiederverwendung eines Nonce macht die Signaturen länger.
-  - Die Wiederverwendung eines Nonce erhöht die Größe des öffentlichen Schlüssels.
-explanation: |
-  Die Wiederverwendung eines Nonce in ECDSA kann es einem Angreifer ermöglichen, den privaten Schlüssel zu entdecken, was die Sicherheit gefährdet.
-reviewed: false
+Frage: Was ist der Ausgangspunkt für die Berechnung einer ECDSA-Signatur?
+Antwort: Der Nachrichten-Hash
+Falsche Antworten:
+  - Der öffentliche Schlüssel
+  - Ein fester Nonce
+  - Eine benutzerdefinierte elliptische Kurve
+Erklärung: |
+  Eine ECDSA-Signatur beginnt mit der Berechnung des Hashs der zu signierenden Nachricht, oft mit SHA256.
+Überprüft: false

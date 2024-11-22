@@ -1,9 +1,9 @@
-question: Kuinka monta bittiä on varattu täytteelle koon mukaan SHA256-funktiossa?
-answer: 64 bittiä.
-wrong_answers:
-  - 128 bittiä.
-  - 256 bittiä.
-  - 512 bittiä.
-explanation: |
-  SHA256 varaa 64 bittiä täytteelle, mikä edustaa viestin alkuperäistä kokoa ennen täyttämistä.
-reviewed: false
+kysymys: Mitä tapahtuu jokaisen tiivistyskierroksen aikana SHA256:ssa?
+vastaus: Tilamuuttujat päivittyvät viestisanoista ja vakioista
+vaarat_vastaukset:
+  - Lopullinen tiiviste tuotetaan asteittain jokaisen kierroksen jälkeen
+  - Viestin bitit järjestellään uudelleen
+  - Muuttujien alkuperäiset arvot pysyvät muuttumattomina
+selitys: |
+  Jokainen kierros muokkaa tilamuuttujia käyttäen sanoja, vakioita ja loogisia operaatioita levittääkseen tiedon.
+arvioitu: false

@@ -1,9 +1,9 @@
-question: Was ist die Funktion, die verwendet wird, um ein Kind-Schlüsselpaar von einem Eltern-Schlüsselpaar innerhalb eines HD-Wallets abzuleiten?
-answer: HMAC-SHA512.
-wrong_answers:
-  - SHA256.
-  - Argon2d.
-  - PBKDF2.
-explanation: |
-  HMAC-SHA512 wird verwendet, um ein Kind-Schlüsselpaar von einem Eltern-Schlüsselpaar in einem HD-Wallet abzuleiten.
-reviewed: false
+Frage: Welcher Schlüsseltyp ist mit dem Präfix "zpub" verbunden?
+Antwort: Ein erweiterter öffentlicher Schlüssel für SegWit V0 im Mainnet
+falsche_Antworten:
+  - Ein erweiterter privater Schlüssel für SegWit V1 im Mainnet
+  - Ein erweiterter öffentlicher Schlüssel für Legacy im Testnet
+  - Ein erweiterter öffentlicher Schlüssel für SegWit V2 im Testnet
+Erklärung: |
+  Das Präfix "zpub" kennzeichnet einen erweiterten öffentlichen Schlüssel für SegWit V0-Skripte im Mainnet.
+überprüft: false

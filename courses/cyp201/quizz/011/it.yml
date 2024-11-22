@@ -1,9 +1,9 @@
-question: In cosa consiste l'operazione di concatenazione?
-answer: Mettere due operandi uno di seguito all'altro.
-wrong_answers:
-  - Sommare due operandi.
-  - Dividere due operandi.
-  - Sottrarre due operandi.
-explanation: |
-  La concatenazione prevede di posizionare due operandi uno dopo l'altro senza modificarli, ampiamente utilizzata in crittografia.
-reviewed: false
+domanda: Qual è la funzione hash utilizzata da HMAC nel contesto di Bitcoin?
+risposta: SHA512
+risposte_errate:
+  - SHA256
+  - RIPEMD160
+  - HASH160
+spiegazione: |
+  HMAC utilizza SHA512 per produrre un hash sicuro di 512 bit.
+revisionato: false

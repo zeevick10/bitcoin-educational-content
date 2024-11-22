@@ -1,8 +1,9 @@
-question: Laajennetun julkisen avaimen avulla voin johtaa...
-answer: ...tavallisia lapsen julkisia avaimia.
-wrong_answers:
-  - ...vahvistettuja lapsen julkisia avaimia.
-  - ...tavallisia lapsen yksityisiä avaimia.
-  - ...vahvistettuja lapsen yksityisiä avaimia.
-explanation: |
-  Laajennettu julkinen avain mahdollistaa vain tavallisten lapsen julkisten avainten johdannan, mutta ei yksityisiä avaimia.
+kysymys: Mikä on PBKDF2:n generoiman siemenen koko?
+vastaus: 512 bittiä
+vaarat_vastaukset:
+  - 128 bittiä
+  - 256 bittiä
+  - Vaihtelee mnemonisen lauseen pituuden mukaan
+selitys: |
+  Riippumatta mnemonisen lauseen pituudesta, PBKDF2 generoi aina 512-bittisen siemenen.
+arvioitu: false

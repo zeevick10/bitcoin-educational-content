@@ -1,9 +1,9 @@
-question: Wofür steht die Tiefe 0 in Ableitungspfaden von HD-Wallets?
-answer: Der Master-Schlüssel.
-wrong_answers:
-  - Der erweiterte Schlüssel.
-  - Die Empfangsadressen.
-  - Die Art der Währung.
-explanation: |
-  Die Tiefe 0 in Ableitungspfaden entspricht dem Master-Schlüssel, der der Ausgangspunkt für alle Ableitungen in einem HD-Wallet ist.
-reviewed: false
+Frage: Was ist der Unterschied zwischen einem normalen Kinderschlüssel und einem gehärteten Kinderschlüssel?
+Antwort: Ein gehärteter Kinderschlüssel benötigt den privaten Schlüssel des Elternteils für seine Ableitung.
+falsche_Antworten:
+  - Ein normaler Kinderschlüssel kann nicht von öffentlichen Schlüsseln abgeleitet werden.
+  - Ein gehärteter Kinderschlüssel verwendet einen ungeraden Index.
+  - Ein normaler Kinderschlüssel ist sicherer als ein gehärteter Kinderschlüssel.
+Erklärung: |
+  Ein normaler Kinderschlüssel kann vom öffentlichen Schlüssel des Elternteils abgeleitet werden, im Gegensatz zu einem gehärteten Kinderschlüssel, der den privaten Schlüssel des Elternteils benötigt.
+überprüft: false

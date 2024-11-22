@@ -1,9 +1,9 @@
-question: Co v systému Bitcoin dokazuje digitální podpis prostřednictvím scriptSig?
-answer: Vlastnictví soukromého klíče spojeného s konkrétním veřejným klíčem.
-wrong_answers:
-  - Vlastnictví Bitcoinové adresy.
-  - Schopnost těžit Bitcoinový blok.
-  - Platnost Bitcoinové transakce.
-explanation: |
-  Digitální podpis dokazuje, že uživatel má soukromý klíč, aniž by ho musel odhalit, čímž zajišťuje autentičnost transakce.
-reviewed: false
+otázka: Který algoritmus digitálního podpisu byl použit při spuštění Bitcoinu?
+odpověď: ECDSA
+špatné_odpovědi:
+  - Schnorr
+  - RSA
+  - HMAC
+vysvětlení: |
+  Bitcoin původně používal ECDSA, protokol podpisu založený na eliptických křivkách, před zavedením Schnorr podpisů v roce 2021.
+recenzováno: false

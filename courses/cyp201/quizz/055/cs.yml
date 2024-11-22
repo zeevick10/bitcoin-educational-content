@@ -1,9 +1,9 @@
-question: Z čeho se skládá payload rozšířeného klíče?
-answer: Veřejný nebo soukromý klíč a přidružený řetězový kód.
-wrong_answers:
-  - Soukromý klíč a přidružený veřejný klíč.
-  - Řetězový kód, veřejný klíč a soukromý klíč.
-  - Soukromý klíč a index derivace.
-explanation: |
-  Payload rozšířeného klíče zahrnuje buď veřejný nebo soukromý klíč spolu s řetězovým kódem používaným pro derivaci dceřiných klíčů.
-reviewed: false
+otázka: Na kolik částí je rozdělen výstup funkce HMAC-SHA512 aplikované na seed?
+odpověď: Na dvě části po 256 bitech
+špatné_odpovědi:
+  - Jedna jediná část o 512 bitech
+  - Tři části po 170 bitech
+  - Čtyři části po 128 bitech
+vysvětlení: |
+  Výstup HMAC-SHA512 je rozdělen na dvě části: hlavní soukromý klíč (256 bitů) a hlavní řetězový kód (256 bitů).
+recenzováno: false

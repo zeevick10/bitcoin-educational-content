@@ -1,9 +1,9 @@
-question: Đường dẫn phái sinh sau đây chỉ ra điều gì? m/84'/0'/1'/0/7
-answer: Một địa chỉ SegwitV0 bên ngoài trên mạng chính.
-wrong_answers:
-  - Một địa chỉ SegwitV1 bên ngoài trên mạng chính.
-  - Một địa chỉ Legacy bên trong trên mạng thử nghiệm.
-  - Một địa chỉ Legacy bên ngoài trên mạng chính.
-explanation: |
-  Đường dẫn phái sinh m/84'/0'/1'/0/7 chỉ ra một địa chỉ SegwitV0 bên ngoài trên mạng chính (mainnet). 84' = SegWit v0, 0' = mạng chính, 1 = bên ngoài
-reviewed: false
+câu hỏi: Mục đích của chỉ số trong việc tạo ra các khóa con là gì?
+câu trả lời: Phân biệt các cặp khóa anh em
+câu trả lời sai:
+  - Xác định bản chất của khóa (công khai hoặc riêng tư)
+  - Chỉ định mức độ bảo mật của khóa
+  - Thêm một lớp bảo mật nữa
+giải thích: |
+  Chỉ số cho phép phân biệt các khóa con được tạo ra từ cùng một cặp khóa cha mẹ.
+đã xem xét: false

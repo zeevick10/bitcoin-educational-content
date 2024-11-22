@@ -1,9 +1,8 @@
-question: Jaká je velikost výstupu hašovací funkce SHA256?
-answer: 256 bitů.
-wrong_answers:
-  - 256 bajtů.
-  - 512 bitů.
-  - 512 bajtů.
-explanation: |
-  SHA-256 produkuje pevný výstup 256 bitů, bez ohledu na velikost vstupních dat.
-reviewed: false
+otázka: Která vlastnost zajišťuje, že je výpočetně nemožné získat vstup hash funkce?
+odpověď: Preimage resistance
+špatné_odpovědi:
+  - Collision resistance
+  - Avalanche effect
+  - Second preimage resistance
+vysvětlení: |
+  Preimage resistance zajišťuje, že je prakticky nemožné najít původní zprávu z jejího hash.

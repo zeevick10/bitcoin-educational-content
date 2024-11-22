@@ -1,9 +1,9 @@
-question: Pokud vygeneruji 256bitové náhodné číslo, jaká bude velikost mé obnovovací fráze ve slovech?
-answer: 24 slov.
-wrong_answers:
-  - 6 slov.
-  - 8 slov.
-  - 12 slov.
-explanation: |
-  256bitové náhodné číslo odpovídá 24slovní mnemonické frázi podle standardu BIP39.
-reviewed: false
+otázka: Jaký je hlavní rozdíl mezi PRNG a TRNG?
+odpověď: PRNG je deterministický, zatímco TRNG generuje skutečně náhodná čísla.
+špatné_odpovědi:
+  - PRNG je rychlejší než TRNG pro velká čísla.
+  - PRNG se používá pouze pro šifrování, na rozdíl od TRNG.
+  - PRNG využívá soukromé klíče, TRNG využívá veřejné klíče.
+vysvětlení: |
+  PRNG jsou deterministické, což znamená, že mohou reprodukovat sekvence z počátečního stavu, na rozdíl od TRNG.
+recenzováno: false

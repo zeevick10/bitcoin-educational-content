@@ -1,8 +1,8 @@
-question: Miten Legacy-osoitteen tarkistussumma lasketaan?
-answer: HASH256; n avulla.
-wrong_answers:
-  - HASH160: n avulla.
-  - BCH-koodin avulla.
-  - RIPEMD160: n avulla.
-explanation: |
-  Legacy-osoitteiden kohdalla tarkistussumma saadaan suorittamalla kaksinkertainen hajautus SHA256-funktiolla (HASH256).
+kysymys: Miksi kuvaajat ovat erityisen hyödyllisiä multisignatuuri-lompakoille?
+vastaus: Ne sisältävät jokaisen tekijän xpubin ja kuvaavat multisignatuurirakennetta
+vaarat_vastaukset:
+  - Ne poistavat tarpeen mnemoniselle lauseelle
+  - Ne yksinkertaistavat kovetettujen avainten luomista
+  - Ne tekevät multisignatuureista yhteensopivia kaikkien skriptien kanssa
+selitys: |
+  Kuvaajat sisältävät kaikkien osallistujien laajennetut julkiset avaimet, mikä helpottaa multisignatuurikonfiguraatioiden palauttamista ja hallintaa.

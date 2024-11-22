@@ -1,0 +1,9 @@
+küsimus: Millist eesliidet kasutatakse tihendatud avaliku võtme tähistamiseks, mille y-koordinaat on paaritu?
+vastus: 0x03
+valed_vastused:
+  - 0x02
+  - 0x04
+  - 0x00
+selgitus: |
+  Eesliide 0x03 tähistab tihendatud avalikku võtit, mille y-koordinaat on paaritu.
+üle vaadatud: false

@@ -1,0 +1,8 @@
+spørsmål: Hvilken dybde i avledningsstien spesifiserer valutatypen?
+svar: Dybde 2
+feil_svar:
+  - Dybde 1
+  - Dybde 3
+  - Dybde 4
+forklaring: |
+  Dybde 2 brukes for å identifisere valutaen i flervaluta-lommebøker, slik som Bitcoin (indeks 0') eller Litecoin (indeks 2').

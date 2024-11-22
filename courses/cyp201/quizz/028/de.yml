@@ -1,9 +1,9 @@
-question: Warum ist es unmöglich, den privaten Schlüssel aus einer gültigen digitalen Signatur abzurufen?
-answer: Die Signatur basiert auf irreversiblen mathematischen Operationen auf einer elliptischen Kurve.
-wrong_answers:
-  - Der private Schlüssel wird vor der Verwendung verschlüsselt.
-  - Der Seed schützt den privaten Schlüssel.
-  - Das Hashen von Nachrichten verhindert, dass der private Schlüssel abgerufen werden kann.
-explanation: |
-  Operationen auf elliptischen Kurven sind irreversibel, was sicherstellt, dass der private Schlüssel nicht aus der Signatur abgeleitet werden kann.
-reviewed: false
+Frage: Wie groß ist ein komprimierter öffentlicher Schlüssel, der das Schnorr-Protokoll verwendet?
+Antwort: 32 Bytes
+Falsche Antworten:
+  - 33 Bytes
+  - 64 Bytes
+  - 256 Bits
+Erklärung: |
+  Ein Schnorr-öffentlicher Schlüssel wird nur durch die x-Koordinate des Punktes auf der elliptischen Kurve dargestellt, was seine Größe auf 32 Bytes reduziert.
+Überprüft: false

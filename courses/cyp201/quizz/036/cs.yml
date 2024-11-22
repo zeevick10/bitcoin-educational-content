@@ -1,9 +1,9 @@
-question: Co je PRNG?
-answer: Algoritmus, který generuje náhodná čísla z počáteční hodnoty a transformační funkce.
-wrong_answers:
-  - Hardwarové zařízení, které generuje skutečně náhodná čísla.
-  - Generátor, který produkuje náhodná čísla bez jakékoli počáteční hodnoty.
-  - Algoritmus, který generuje předvídatelná čísla.
-explanation: |
-  PRNG generuje pseudo-náhodná čísla z počáteční hodnoty, ale na rozdíl od TRNG, nejsou skutečně náhodná.
-reviewed: false
+otázka: Co umožňuje HD peněženka ve srovnání s JBOK peněženkou?
+odpověď: Generovat všechny soukromé klíče z jediného seedu
+špatné_odpovědi:
+  - Zvýšit bezpečnost digitálních podpisů
+  - Používat stejnou adresu pro více transakcí
+  - Zcela se vyhnout používání veřejných klíčů
+vysvětlení: |
+  HD peněženky odvozují všechny soukromé klíče z unikátního seedu, což zjednodušuje zálohování a nepřímo zlepšuje soukromí.
+recenzováno: false

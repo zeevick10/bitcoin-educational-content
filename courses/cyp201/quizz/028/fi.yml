@@ -1,9 +1,9 @@
-question: Miksi yksityistä avainta ei voi palauttaa kelvollisesta digitaalisesta allekirjoituksesta?
-answer: Allekirjoitus perustuu kääntämättömiin matemaattisiin toimenpiteisiin elliptisellä käyrällä.
-wrong_answers:
-  - Yksityinen avain salataan ennen käyttöä.
-  - Siemen suojaa yksityistä avainta.
-  - Viestien hajauttaminen estää yksityisen avaimen palauttamisen.
-explanation: |
-  Toimenpiteet elliptisillä käyrillä ovat kääntämättömiä, varmistaen, että yksityistä avainta ei voida päätellä allekirjoituksesta.
-reviewed: false
+kysymys: Mikä on pakatun julkisen avaimen koko käytettäessä Schnorr-protokollaa?
+vastaus: 32 tavua
+väärät_vastaukset:
+  - 33 tavua
+  - 64 tavua
+  - 256 bittiä
+selitys: |
+  Schnorrin julkinen avain esitetään ainoastaan elliptisen käyrän pisteen x-koordinaatilla, mikä pienentää sen koon 32 tavuun.
+arvioitu: false

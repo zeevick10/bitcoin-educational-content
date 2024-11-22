@@ -1,9 +1,8 @@
-question: Jika saya menghasilkan angka acak 256-bit, berapa ukuran frasa pemulihan saya dalam kata-kata?
-answer: 24 kata.
-wrong_answers:
-  - 6 kata.
-  - 8 kata.
-  - 12 kata.
-explanation: |
-  Angka acak 256-bit sesuai dengan frasa mnemonik 24 kata menurut standar BIP39.
-reviewed: false
+pertanyaan: Apa perbedaan utama antara PRNG dan TRNG?
+jawaban: PRNG bersifat deterministik, sementara TRNG menghasilkan angka acak sejati.
+jawaban_salah:
+  - PRNG lebih cepat daripada TRNG untuk angka-angka besar.
+  - PRNG hanya digunakan untuk enkripsi, tidak dengan TRNG.
+  - PRNG menggunakan kunci privat, TRNG menggunakan kunci publik.
+penjelasan: |
+  PRNG bersifat deterministik, artinya mereka dapat mengulang urutan dari sebuah keadaan awal, tidak seperti TRNG.

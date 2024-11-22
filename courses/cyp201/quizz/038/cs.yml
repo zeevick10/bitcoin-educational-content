@@ -1,9 +1,9 @@
-question: Jaký je hlavní rozdíl mezi PRNG a TRNG?
-answer: PRNG je deterministický, zatímco TRNG produkuje skutečně náhodná čísla.
-wrong_answers:
-  - TRNG je rychlejší než PRNG.
-  - TRNG používá seed, zatímco PRNG nepoužívá žádný seed.
-  - PRNG je hardware, zatímco TRNG je software.
-explanation: |
-  TRNG (True Random Number Generator) generuje náhodná čísla z fyzikálního náhodného jevu, na rozdíl od PRNG, který je deterministický.
-reviewed: false
+otázka: Proč se nedoporučuje opětovné použití Bitcoinové adresy?
+odpověď: Umožňuje sledování transakcí třetími stranami
+špatné_odpovědi:
+  - Odhaluje soukromý klíč kvůli nonce
+  - Zdražuje transakce
+  - Zneplatňuje digitální podpisy
+vysvětlení: |
+  Opětovné použití adresy umožňuje pozorovatelům snadno spojit různé transakce se stejným uživatelem, čímž kompromituje jejich soukromí.
+recenzováno: false

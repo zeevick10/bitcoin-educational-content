@@ -1,9 +1,9 @@
-question: HD-lompakon johdannaispoluissa, mihin syvyys 0 vastaa?
-answer: Pääavain.
-wrong_answers:
-  - Laajennettu avain.
-  - Vastaanotto-osoitteet.
-  - Valuutan tyyppi.
-explanation: |
-  Syvyys 0 johdannaispoluissa vastaa pääavainta, joka on lähtökohta kaikille johdannaisille HD-lompakossa.
-reviewed: false
+kysymys: Mikä on ero tavallisen lapsiavaimen ja kovennetun lapsiavaimen välillä?
+vastaus: Kovennettu lapsiavain vaatii johdannaisensa muodostamiseen vanhemman yksityisavaimen.
+vaarat_vastaukset:
+  - Tavallinen lapsiavain ei voi johtua julkisista avaimista.
+  - Kovennettu lapsiavain käyttää paritonta indeksiä.
+  - Tavallinen lapsiavain on turvallisempi kuin kovennettu lapsiavain.
+selitys: |
+  Tavallisen lapsiavaimen voi johtaa vanhemman julkisesta avaimesta, toisin kuin kovennetun lapsiavaimen, joka vaatii vanhemman yksityisavaimen.
+arvioitu: false

@@ -1,9 +1,9 @@
-question: ¿Qué indica el siguiente camino de derivación? m/44'/0'/0'/0/0
-answer: Una dirección Legacy externa en la red principal.
-wrong_answers:
-  - Una dirección SegwitV1 externa en la red principal.
-  - Una dirección Legacy interna en la red de pruebas.
-  - Una dirección SegwitV0 externa en la red principal.
-explanation: |
-  El camino de derivación m/44'/0'/0'/0/0 indica una dirección Legacy externa en la red principal (mainnet). 44' = Legacy, 0' = mainnet, 0 = externo
-reviewed: false
+pregunta: ¿Cuál es el principal papel del código de cadena en la derivación de claves secundarias?
+respuesta: Introducir una fuente adicional de entropía
+respuestas_incorrectas:
+  - Identificar la profundidad jerárquica
+  - Almacenar los índices de las claves secundarias
+  - Asegurar la compatibilidad con el protocolo de Bitcoin
+explicación: |
+  El código de cadena se utiliza para introducir una fuente adicional y única de entropía para cada clave derivada.
+revisado: false

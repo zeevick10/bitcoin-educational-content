@@ -1,9 +1,9 @@
-question: ¿Dónde se almacenan las claves privadas?
-answer: En las carteras de Bitcoin
-wrong_answers:
-  - En la blockchain
-  - En los servidores de la comunidad de Bitcoin.
-  - En la red peer-to-peer.
-explanation: |
-  La cartera contiene las claves privadas necesarias para acceder a los bitcoins.
-reviewed: false
+pregunta: ¿Por qué no se utilizó la curva elíptica secp256r1 en Bitcoin?
+respuesta: Potencialmente para evitar una puerta trasera
+respuestas_incorrectas:
+  - Porque es demasiado lenta
+  - Porque no está estandarizada
+  - Porque requiere hardware especializado
+explicación: |
+  Es probable que Satoshi Nakamoto prefiriera la curva secp256k1, ya que los parámetros de secp256r1 podrían contener una vulnerabilidad oculta.
+revisado: false

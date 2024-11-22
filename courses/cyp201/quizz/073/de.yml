@@ -1,0 +1,9 @@
+Frage: Welcher Index repräsentiert die externe Kette eines Kontos in einem Ableitungspfad?
+Antwort: /0/
+falsche_Antworten:
+  - /1/
+  - /0'/
+  - /2/
+Erklärung: |
+  Die externe Kette wird durch den Index /0/ in der Tiefe 4 des Ableitungspfades identifiziert.
+überprüft: false

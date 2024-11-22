@@ -1,0 +1,8 @@
+Frage: Welche Tiefe im Ableitungspfad gibt den Währungstyp an?
+Antwort: Tiefe 2
+Falsche Antworten:
+  - Tiefe 1
+  - Tiefe 3
+  - Tiefe 4
+Erklärung: |
+  Tiefe 2 wird verwendet, um die Währung in Multi-Währungs-Wallets zu identifizieren, wie zum Beispiel Bitcoin (Index 0') oder Litecoin (Index 2').

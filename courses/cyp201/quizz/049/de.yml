@@ -1,9 +1,9 @@
-question: Wie sollte ein effektives Passwort gewählt werden?
-answer: Es sollte lang, vielfältig und zufällig sein, ohne Bezug zum Benutzer.
-wrong_answers:
-  - Es sollte leicht zu merken sein und mit der Umgebung des Benutzers in Verbindung stehen.
-  - Es sollte kurz sein, aber Zahlen enthalten.
-  - Es sollte mindestens 10 Ziffern enthalten.
-explanation: |
-  Ein effektives Passwort sollte lang (20 bis 40 Zeichen), vielfältig und zufällig sein, um maximale Sicherheit zu bieten, ähnlich wie ein gutes Passwort.
-reviewed: false
+Frage: Was ist der Zweck der mnemonischen Phrase in einem Bitcoin HD-Wallet?
+Antwort: Um alle Schlüssel deterministisch abzuleiten
+falsche_Antworten:
+  - Um Transaktionen direkt zu signieren
+  - Um Bitcoin-Adressen zu verschlüsseln
+  - Um einen Hash für die UTXOs zu generieren
+Erklärung: |
+  Die mnemonische Phrase ermöglicht die Ableitung aller privaten und öffentlichen Schlüssel in einem Wallet, was die Sicherung und Wiederherstellung erleichtert.
+überprüft: false

@@ -1,9 +1,9 @@
-question: Berapa ukuran kunci privat Bitcoin?
-answer: 256 bit.
-wrong_answers:
-  - 512 byte.
-  - 520 bit.
-  - 512 bit.
-explanation: |
-  Kunci privat Bitcoin memiliki ukuran standar sebesar 256 bit, sesuai dengan algoritma kurva eliptik yang digunakan dalam Bitcoin.
-reviewed: false
+pertanyaan: Apa karakteristik utama dari perkalian skalar pada kurva eliptik?
+jawaban: Fungsi satu arah
+jawaban_salah:
+  - Mudah dibalik
+  - Berdasarkan faktorisasi bilangan prima
+  - Sangat lama untuk dihitung
+penjelasan: |
+  Perkalian skalar pada kurva eliptik adalah fungsi satu arah, membuatnya tidak mungkin untuk mengambil kembali kunci privat dari kunci publik.
+ditinjau: false

@@ -1,0 +1,8 @@
+kysymys: Mikä on Bitcoin-osoitteen ensisijainen rooli transaktiossa?
+vastaus: Lukitsee UTXO:t scriptPubKey:ssä
+väärät_vastaukset:
+  - Avaa UTXO:t scriptSig:ssä
+  - Ilmoittaa transaktion päättymisestä
+  - Tunnistaa vahvistuslohkon
+selitys: |
+  Bitcoin-osoite sisällytetään scriptPubKey:hin lukitsemaan UTXO:t. Se määrittää tarvittavat ehdot varojen vapauttamiseksi.

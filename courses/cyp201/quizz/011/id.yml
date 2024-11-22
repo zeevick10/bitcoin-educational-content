@@ -1,9 +1,9 @@
-question: Apa yang dimaksud dengan operasi konkatenasi?
-answer: Menyambungkan dua operan secara berurutan.
-wrong_answers:
-  - Menambahkan dua operan.
-  - Membagi dua operan.
-  - Mengurangi dua operan.
-explanation: |
-  Konkatenasi melibatkan penempatan dua operan satu setelah yang lain tanpa mengubahnya, sering digunakan dalam kriptografi.
-reviewed: false
+pertanyaan: Apa fungsi hash yang digunakan oleh HMAC dalam konteks Bitcoin?
+jawaban: SHA512
+jawaban_salah:
+  - SHA256
+  - RIPEMD160
+  - HASH160
+penjelasan: |
+  HMAC menggunakan SHA512 untuk menghasilkan hash 512-bit yang aman.
+ditinjau: false

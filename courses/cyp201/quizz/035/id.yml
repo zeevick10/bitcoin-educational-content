@@ -1,8 +1,8 @@
-question: Apa informasi primitif yang memungkinkan penentuan frasa mnemonik yang baik untuk dompet HD?
-answer: Entropi eksternal yang memungkinkan penentuan angka acak atau pseudo-acak.
-wrong_answers:
-  - Nama depan pemilik dompet.
-  - Tidak ada informasi, kita langsung memilih kata-kata yang kita suka.
-  - Tanggal pembuatan dompet.
-explanation: |
-  Frasa mnemonik berasal dari sumber entropi, yang berarti informasi acak atau pseudo-acak, untuk memastikan keamanan kunci privat.
+pertanyaan: Standar Bitcoin mana yang memperkenalkan dompet deterministik hierarkis?
+jawaban: BIP32
+jawaban_salah:
+  - BIP39
+  - BIP44
+  - BIP141
+penjelasan: |
+  BIP32 mendefinisikan operasi dari dompet HD, memungkinkan untuk derivasi hierarkis kunci privat dari sebuah seed.

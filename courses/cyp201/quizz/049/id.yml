@@ -1,8 +1,8 @@
-question: Bagaimana cara memilih passphrase yang efektif?
-answer: Harus panjang, beragam, dan acak, tanpa koneksi ke pengguna.
-wrong_answers:
-  - Harus mudah diingat dan terkait dengan lingkungan pengguna.
-  - Harus pendek tapi termasuk angka.
-  - Harus mengandung setidaknya 10 digit.
-explanation: |
-  Sebuah passphrase yang efektif harus panjang (20 hingga 40 karakter), beragam, dan acak untuk memberikan keamanan maksimal, mirip dengan kata sandi yang baik.
+pertanyaan: Apa tujuan dari frasa mnemonik dalam dompet HD Bitcoin?
+jawaban: Untuk menurunkan semua kunci secara deterministik
+jawaban_salah:
+  - Untuk langsung menandatangani transaksi
+  - Untuk mengenkripsi alamat Bitcoin
+  - Untuk menghasilkan hash untuk UTXO
+penjelasan: |
+  Frasa mnemonik memungkinkan penurunan semua kunci privat dan publik dalam sebuah dompet, sehingga memudahkan pencadangan dan pemulihan.

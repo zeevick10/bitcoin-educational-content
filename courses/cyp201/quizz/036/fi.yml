@@ -1,9 +1,9 @@
-question: Mikä on PRNG?
-answer: Algoritmi, joka luo satunnaisia numeroita siemenestä ja muunnosfunktiosta.
-wrong_answers:
-  - Laitteisto, joka luo todella satunnaisia numeroita.
-  - Generaattori, joka tuottaa satunnaisia numeroita ilman siementä.
-  - Algoritmi, joka luo ennustettavia numeroita.
-explanation: |
-  PRNG luo pseudo-satunnaisia numeroita siemenestä, mutta toisin kuin TRNG, se ei ole todella satunnainen.
-reviewed: false
+kysymys: Mitä HD-lompakko mahdollistaa verrattuna JBOK-lompakkoon?
+vastaus: Luo kaikki yksityiset avaimet yhdestä siemenestä
+vaarat_vastaukset:
+  - Digitaalisten allekirjoitusten turvallisuuden lisääminen
+  - Saman osoitteen uudelleenkäyttö useissa siirroissa
+  - Julkisten avainten käytön täydellinen välttäminen
+selitys: |
+  HD-lompakot johdattavat kaikki yksityiset avaimet uniikista siemenestä, mikä yksinkertaistaa varmuuskopiointia ja parantaa epäsuorasti yksityisyyttä.
+arvioitu: false

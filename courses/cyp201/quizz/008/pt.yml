@@ -1,9 +1,9 @@
-question: Quantas rodadas a função de compressão SHA256 consiste?
-answer: 64 rodadas.
-wrong_answers:
-  - 10 rodadas.
-  - 128 rodadas.
-  - 150 rodadas.
-explanation: |
-  A função de compressão SHA256 realiza 64 rodadas para cada bloco de dados processado.
-reviewed: false
+pergunta: Por que o SHA256 aplica um pré-processamento à mensagem de entrada?
+resposta: Para garantir um comprimento múltiplo de 512 bits
+respostas_erradas:
+  - Para verificar a integridade da mensagem
+  - Para criptografar os dados antes da hashagem
+  - Para aumentar o tamanho das hashes geradas
+explicação: |
+  O pré-processamento ajusta o comprimento da mensagem adicionando bits de preenchimento e uma representação binária de seu comprimento.
+revisado: false

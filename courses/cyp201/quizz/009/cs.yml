@@ -1,9 +1,9 @@
-question: Jak se nazývá konstrukce hašovací funkce SHA256?
-answer: Merkle-Damgardova konstrukce.
-wrong_answers:
-  - Sponge konstrukce.
-  - Iterativní konstrukce hašovacích funkcí (HAIFA).
-  - Feistelova konstrukce.
-explanation: |
-  SHA256 využívá Merkle-Damgardovu konstrukci, strukturu běžně používanou pro vytváření bezpečných hašovacích funkcí.
-reviewed: false
+otázka: Jaká konstrukce je používána SHA256 pro zpracování zpráv libovolné délky?
+odpověď: Konstrukce Merkle-Damgård
+špatné_odpovědi:
+  - Euklidovská konstrukce
+  - Konstrukce Rivest-Shamir-Adleman
+  - Konstrukce Knuth-Morris-Pratt
+vysvětlení: |
+  Konstrukce Merkle-Damgård umožňuje transformovat kompresní funkci na hašovací funkci pro zprávy proměnné délky.
+recenzováno: false

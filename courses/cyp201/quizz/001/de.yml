@@ -1,9 +1,9 @@
-question: Wie groß ist die Ausgabegröße der SHA256-Hashfunktion?
-answer: 256 Bits.
-wrong_answers:
-  - 256 Bytes.
-  - 512 Bits.
-  - 512 Bytes.
-explanation: |
-  SHA-256 erzeugt eine feste Ausgabegröße von 256 Bits, unabhängig von der Größe der Eingabedaten.
-reviewed: false
+Frage: Welche Eigenschaft stellt sicher, dass es rechnerisch unmöglich ist, die Eingabe eines Hashs zu ermitteln?
+Antwort: Preimage-Resistenz
+falsche_Antworten:
+  - Kollisionsresistenz
+  - Lawineneffekt
+  - Second-Preimage-Resistenz
+Erklärung: |
+  Die Preimage-Resistenz stellt sicher, dass es praktisch unmöglich ist, die ursprüngliche Nachricht aus ihrem Hash zu finden.
+überprüft: false

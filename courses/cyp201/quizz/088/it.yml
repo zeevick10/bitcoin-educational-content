@@ -1,0 +1,9 @@
+domanda: Quale prefisso viene utilizzato per indicare una chiave pubblica compressa con una coordinata y dispari?
+risposta: 0x03
+risposte_errate:
+  - 0x02
+  - 0x04
+  - 0x00
+spiegazione: |
+  Il prefisso 0x03 indica una chiave pubblica compressa con una coordinata y dispari.
+revisionato: false

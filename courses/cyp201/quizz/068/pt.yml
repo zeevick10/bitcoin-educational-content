@@ -1,9 +1,8 @@
-question: Qual é o propósito de uma cadeia externa no processo de derivação?
-answer: Isolar endereços destinados a serem públicos.
-wrong_answers:
-  - Isolar endereços de troco.
-  - Gerenciar transações de entrada.
-  - Separar chaves privadas de chaves públicas.
-explanation: |
-  A cadeia externa é usada para derivar endereços destinados a serem públicos, como aqueles para receber pagamentos.
-reviewed: false
+pergunta: Qual é a restrição para derivar uma chave pública filha de uma chave pública pai?
+resposta: A chave filha deve ser normal
+respostas_erradas:
+  - A chave filha deve ser endurecida
+  - O código da cadeia deve ser idêntico ao da chave pai
+  - O processo deve incluir a chave privada pai
+explicação: |
+  Uma chave pública filha só pode ser derivada de uma chave pública pai se ela for normal, não endurecida.

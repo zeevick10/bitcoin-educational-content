@@ -1,8 +1,8 @@
-question: Apa yang diwakili oleh passphrase dalam dompet HD?
-answer: Sebuah garam kriptografi opsional berukuran sembarang.
-wrong_answers:
-  - Sebuah kata ke-25 pada frasa mnemonik.
-  - Sebuah garam kriptografi wajib berukuran tetap.
-  - Sebuah benih kedua.
-explanation: |
-  Passphrase merupakan garam kriptografi opsional, yang meningkatkan keamanan dompet dengan menambahkan informasi tambahan pada frasa mnemonik untuk menentukan benih.
+pertanyaan: Apa fungsi hash yang digunakan untuk menghitung checksum dari frasa mnemonik?
+jawaban: SHA256
+jawaban_salah:
+  - RIPEMD160
+  - SHA512
+  - HASH256
+penjelasan: |
+  Checksum dari frasa mnemonik dihitung dengan menerapkan hash SHA256 sederhana pada entropi.

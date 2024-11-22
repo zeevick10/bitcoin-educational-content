@@ -1,9 +1,9 @@
-question: Qual è la dimensione di una chiave privata Bitcoin?
-answer: 256 bit.
-wrong_answers:
-  - 512 byte.
-  - 520 bit.
-  - 512 bit.
-explanation: |
-  La chiave privata Bitcoin ha una dimensione standard di 256 bit, corrispondente all'algoritmo della curva ellittica utilizzato in Bitcoin.
-reviewed: false
+domanda: Qual è la caratteristica principale della moltiplicazione scalare sulle curve ellittiche?
+risposta: Funzione unidirezionale
+risposte_errate:
+  - Facilmente reversibile
+  - Basata sulla fattorizzazione di numeri primi
+  - Molto lunga da calcolare
+spiegazione: |
+  La moltiplicazione scalare sulle curve ellittiche è una funzione unidirezionale, rendendo impossibile recuperare la chiave privata a partire dalla chiave pubblica.
+revisionato: false

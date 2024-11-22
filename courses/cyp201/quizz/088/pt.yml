@@ -1,0 +1,8 @@
+pergunta: Qual prefixo é usado para indicar uma chave pública comprimida com uma coordenada y ímpar?
+resposta: 0x03
+respostas_erradas:
+  - 0x02
+  - 0x04
+  - 0x00
+explicação: |
+  O prefixo 0x03 indica uma chave pública comprimida com uma coordenada y ímpar.

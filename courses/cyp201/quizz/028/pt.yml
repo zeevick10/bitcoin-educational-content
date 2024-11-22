@@ -1,9 +1,9 @@
-question: Por que é impossível recuperar a chave privada a partir de uma assinatura digital válida?
-answer: A assinatura é baseada em operações matemáticas irreversíveis em uma curva elíptica.
-wrong_answers:
-  - A chave privada é criptografada antes de ser usada.
-  - A semente protege a chave privada.
-  - A hashagem de mensagens impede que a chave privada seja recuperada.
-explanation: |
-  Operações em curvas elípticas são irreversíveis, garantindo que a chave privada não possa ser deduzida a partir da assinatura.
-reviewed: false
+pergunta: Qual é o tamanho de uma chave pública comprimida usando o protocolo Schnorr?
+resposta: 32 bytes
+respostas_erradas:
+  - 33 bytes
+  - 64 bytes
+  - 256 bits
+explicação: |
+  Uma chave pública Schnorr é representada apenas pela coordenada x do ponto na curva elíptica, o que reduz seu tamanho para 32 bytes.
+revisado: false

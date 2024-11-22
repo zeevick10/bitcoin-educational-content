@@ -1,9 +1,9 @@
-question: Jaký je cíl kryptografického hašovacího procesu?
-answer: Přiřadit bitový řetězec libovolné délky k bitovému řetězci pevné délky.
-wrong_answers:
-  - Zašifrovat zprávu.
-  - Zajistit, že odesílatel zprávy nemůže v budoucnu popřít, že zprávu odeslal.
-  - Zaručit důvěrnost dat.
-explanation: |
-  Hašování transformuje data jakékoli velikosti na výstup pevné velikosti, což je užitečné pro ověření integrity bez nutnosti šifrování nebo autentizace dat.
-reviewed: false
+otázka: Jaká je hlavní funkce hašovací funkce?
+odpověď: Převádí informace libovolné délky na otisk pevné velikosti
+špatné odpovědi:
+  - Šifruje zprávy, aby byly nečitelné
+  - Používá se pouze pro ověření integrity softwaru Bitcoinu
+  - Generuje soukromé klíče pro Bitcoinové peněženky
+vysvětlení: |
+  Hašovací funkce transformuje data jakékoli velikosti na haš pevné velikosti, což je klíčové pro mnoho aplikací v Bitcoinu.
+recenzováno: false

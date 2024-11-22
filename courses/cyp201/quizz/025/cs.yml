@@ -1,9 +1,9 @@
-question: Co je Nonce v kryptografii?
-answer: Číslo určené k jednorázovému použití.
-wrong_answers:
-  - Sudé číslo.
-  - Digitální podpis.
-  - Číslo, které lze znovu použít.
-explanation: |
-  Nonce je číslo použité jednou pro kryptografické operace, zajišťující jedinečnost určitých hodnot v algoritmech.
-reviewed: false
+otázka: Jaká vlastnost Schnorr umožňuje kombinovat více veřejných klíčů do jednoho?
+odpověď: Agregace klíčů
+špatné_odpovědi:
+  - Dávkové ověřování
+  - Změnitelnost
+  - Kompaktace podpisu
+vysvětlení: |
+  Schnorr umožňuje agregaci více veřejných klíčů do jediného klíče.
+recenzováno: false

@@ -1,0 +1,9 @@
+otázka: Jaká předpona se používá k označení komprimovaného veřejného klíče s lichou y-souřadnicí?
+odpověď: 0x03
+nesprávné_odpovědi:
+  - 0x02
+  - 0x04
+  - 0x00
+vysvětlení: |
+  Předpona 0x03 označuje komprimovaný veřejný klíč s lichou y-souřadnicí.
+recenzováno: false

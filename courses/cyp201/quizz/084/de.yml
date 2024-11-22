@@ -1,0 +1,8 @@
+Frage: Was ist die Hauptrolle einer Bitcoin-Adresse in einer Transaktion?
+Antwort: UTXOs im scriptPubKey sperren
+falsche_Antworten:
+  - Die UTXOs im scriptSig entsperren
+  - Das Ende der Transaktion signalisieren
+  - Den Bestätigungsblock identifizieren
+Erklärung: |
+  Eine Bitcoin-Adresse wird im scriptPubKey eingebettet, um die UTXOs zu sperren. Sie bestimmt die notwendigen Bedingungen, um die Mittel freizugeben.

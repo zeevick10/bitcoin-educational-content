@@ -1,0 +1,9 @@
+domanda: Qual è la caratteristica unica degli indirizzi SegWit v1 (P2TR) rispetto agli indirizzi SegWit v0?
+risposta: Utilizzano direttamente la chiave pubblica grezza nell'indirizzo.
+risposte_errate:
+  - Sono codificati in base58check.
+  - Richiedono due firme per essere validi.
+  - Utilizzano l'hash della chiave pubblica nell'indirizzo.
+spiegazione: |
+  Gli indirizzi SegWit v1 (P2TR) non utilizzano un hash della chiave pubblica, ma direttamente la chiave pubblica Taproot.
+recensito: false

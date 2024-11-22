@@ -1,9 +1,9 @@
-question: Quali sono le caratteristiche di un PRNG crittograficamente sicuro?
-answer: Deve essere imprevedibile, statisticamente casuale e resistente agli attacchi.
-wrong_answers:
-  - Deve essere veloce, utilizzabile nel cloud e open source.
-  - Deve essere non deterministico, basato su un fenomeno fisico e scalabile.
-  - Deve essere basato su hardware, generato da un processore e reversibile.
-explanation: |
-  Un PRNG crittograficamente sicuro deve essere imprevedibile, resistente anche se alcuni risultati vengono rivelati, e avere un periodo sufficientemente lungo per evitare la ripetizione di sequenze.
-reviewed: false
+domanda: Qual è il ruolo principale di un portafoglio Bitcoin?
+risposta: Gestire e proteggere le chiavi private
+risposte_errate:
+  - Conservare i bitcoin dell'utente
+  - Garantire automaticamente la riservatezza delle transazioni
+  - Generare bitcoin per ogni utente
+spiegazione: |
+  Un portafoglio Bitcoin non conserva direttamente i bitcoin ma gestisce le chiavi private necessarie per sbloccare gli UTXO che rappresentano i bitcoin.
+revisionato: false

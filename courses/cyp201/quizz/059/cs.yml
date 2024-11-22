@@ -1,9 +1,9 @@
-question: V jaké číselné soustavě je obvykle zakódován rozšířený klíč, aby byl prezentován uživateli?
-answer: V Base 58.
-wrong_answers:
-  - V bech32.
-  - V Base 16.
-  - V bech32m.
-explanation: |
-  Rozšířený klíč je obecně zakódován v Base 58, aby byl pro uživatele čitelnější a aby se vyhnul nejednoznačným znakům.
-reviewed: false
+otázka: Jaká je role seedu v Bitcoin HD peněžence?
+odpověď: Sloužit jako výchozí bod pro odvození všech klíčů
+špatné_odpovědi:
+  - Uchovávat transakce peněženky
+  - Přímo generovat hlavní veřejný klíč
+  - Zajišťovat důvěrnost transakcí
+vysvětlení: |
+  Seed je 512bitová sekvence odvozená z mnemonické fráze a hesla. Tvoří základ všech klíčů v peněžence.
+recenzováno: false

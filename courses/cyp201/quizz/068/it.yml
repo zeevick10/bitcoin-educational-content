@@ -1,9 +1,9 @@
-question: Qual è lo scopo di una catena esterna nel processo di derivazione?
-answer: Isolare gli indirizzi destinati ad essere pubblici.
-wrong_answers:
-  - Isolare gli indirizzi di resto.
-  - Gestire le transazioni in entrata.
-  - Separare le chiavi private dalle chiavi pubbliche.
-explanation: |
-  La catena esterna viene utilizzata per derivare indirizzi destinati ad essere pubblici, come quelli per ricevere pagamenti.
-reviewed: false
+domanda: Qual è il vincolo per derivare una chiave pubblica figlio da una chiave pubblica genitore?
+risposta: La chiave figlio deve essere normale
+risposte_errate:
+  - La chiave figlio deve essere rinforzata
+  - Il codice catena deve essere identico a quello della chiave genitore
+  - Il processo deve includere la chiave privata genitore
+spiegazione: |
+  Una chiave pubblica figlio può essere derivata da una chiave pubblica genitore solo se è normale, non rinforzata.
+recensito: false

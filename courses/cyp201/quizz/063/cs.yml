@@ -1,9 +1,9 @@
-question: Jaké jsou dva typy odvození dětských klíčů v HD peněžence?
-answer: Normální odvození a zpevněné odvození.
-wrong_answers:
-  - Jednoduché odvození a složité odvození.
-  - Eliptické odvození a křivkové odvození.
-  - Statické odvození a dynamické odvození.
-explanation: |
-  Dva typy odvození jsou normální odvození, které používá veřejný klíč rodiče, a zpevněné odvození, které používá soukromý klíč rodiče.
-reviewed: false
+otázka: Jaká informace není zahrnuta v rozšířeném klíči?
+odpověď: Historie transakcí klíče
+špatné_odpovědi:
+  - Číslo indexu klíče
+  - Klíč (soukromý nebo veřejný)
+  - Kód řetězce
+vysvětlení: |
+  Rozšířený klíč obsahuje pouze informace nezbytné pro odvození dceřiných klíčů, nikoli informace související s transakcemi.
+recenzováno: false

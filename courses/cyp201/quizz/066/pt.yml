@@ -1,8 +1,9 @@
-question: Em relação à notação de um caminho de derivação, o que significa o apóstrofo ou o H anotado à direita do número? Exemplo m/84'/0'.
-answer: Indica uma derivação endurecida.
-wrong_answers:
-  - Indica uma derivação normal.
-  - Está lá apenas como decoração.
-  - Indica uma chave de mudança.
-explanation: |
-  O apóstrofo ou H em um caminho de derivação indica uma derivação endurecida, que utiliza a chave privada pai e o intervalo de índice correspondente.
+pergunta: Qual parte da saída HMAC-SHA512 é usada como o código da cadeia filial?
+resposta: Os últimos 32 bytes
+respostas_erradas:
+  - Os primeiros 32 bytes
+  - Os 64 bytes inteiros
+  - O hash SHA256 dos 32 bytes do meio
+explicação: |
+  Os últimos 32 bytes da saída HMAC-SHA512 servem como o código da cadeia para a chave filial.
+revisado: false

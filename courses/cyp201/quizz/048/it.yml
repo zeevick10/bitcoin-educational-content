@@ -1,8 +1,9 @@
-question: Qual è la funzione utilizzata per generare il seed dalla frase mnemonica e dalla passphrase?
-answer: PBKDF2.
-wrong_answers:
-  - SHA256.
-  - HMAC.
-  - Argon2.
-explanation: |
-  PBKDF2 (Password-Based Key Derivation Function 2) è utilizzata per derivare il seed dalla frase mnemonica e dalla passphrase nei portafogli HD.
+domanda: Perché una frase mnemonica di 24 parole è spesso considerata superflua per un portafoglio Bitcoin?
+risposta: Le chiavi derivate offrono solo 128 bit di sicurezza
+risposte_errate:
+  - Il software non supporta frasi di 24 parole
+  - Non permette la derivazione di chiavi pubbliche
+  - Le frasi più corte non sono standardizzate
+spiegazione: |
+  Sebbene una frase di 24 parole offra 256 bit di sicurezza, le chiavi private Bitcoin derivate garantiscono solo 128 bit di sicurezza, rendendo l'eccesso non necessario.
+recensito: false

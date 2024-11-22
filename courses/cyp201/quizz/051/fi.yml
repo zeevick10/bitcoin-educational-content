@@ -1,9 +1,9 @@
-question: Mikä avainjohdannaisfunktio käytetään johdattamaan siemen mnemonisesta fraasista ja valinnaisesta salasanasta?
-answer: PBKDF2.
-wrong_answers:
-  - Lyra2.
-  - Argon2d.
-  - Scrypt.
-explanation: |
-  PBKDF2-funktiota käytetään johdattamaan HD-lompakon siemen mnemonisesta fraasista ja valinnaisesta salasanasta.
-reviewed: false
+kysymys: Mikä on pääasiallinen ero salalauseen ja PIN-koodin välillä Bitcoin-lompakossa?
+vastaus: Salalause muuttaa avainjohdannan, ei PIN-koodi
+vaarat_vastaukset:
+  - PIN-koodi on linkitetty muistilauseeseen
+  - PIN-koodia käytetään transaktioiden salaamiseen, mutta salalausetta ei
+  - PIN-koodi luo Bitcoin-osoitteita
+selitys: |
+  Toisin kuin PIN-koodi, salalause on suoraan osallisena avainjohdannan prosessissa ja muuttaa lompakon avaimia.
+arvioitu: false

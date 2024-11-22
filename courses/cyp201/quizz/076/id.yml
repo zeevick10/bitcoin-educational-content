@@ -1,9 +1,8 @@
-question: Bagaimana checksum dari alamat SegWit dihitung?
-answer: Dengan kode BCH.
-wrong_answers:
-  - Dengan HASH160.
-  - Dengan HASH256.
-  - Dengan SHA512.
-explanation: |
-  Untuk alamat SegWit, checksum dihitung menggunakan kode BCH, yang memungkinkan untuk mendeteksi kemungkinan kesalahan dalam alamat tersebut.
-reviewed: false
+pertanyaan: Apa yang dimaksud dengan notasi "/<0;1>/*" dalam sebuah deskriptor?
+jawaban: Untuk rantai eksternal dan internal dengan derivasi sekuensial
+jawaban_salah:
+  - Untuk alamat multisignature yang diurutkan
+  - Untuk checksum jalur derivasi
+  - Untuk jalur derivasi yang diperkuat
+penjelasan: |
+  Notasi "/<0;1>/*" menunjukkan bahwa deskriptor dapat menghasilkan alamat untuk rantai eksternal (0) dan internal (1), dengan derivasi sekuensial berkat wildcard (*).

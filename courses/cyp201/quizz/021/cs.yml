@@ -1,9 +1,9 @@
-question: Jaká je velikost soukromého klíče Bitcoinu?
-answer: 256 bitů.
-wrong_answers:
-  - 512 bajtů.
-  - 520 bitů.
-  - 512 bitů.
-explanation: |
-  Soukromý klíč Bitcoinu má standardní velikost 256 bitů, což odpovídá algoritmu eliptické křivky používanému v Bitcoinu.
-reviewed: false
+otázka: Jaká je hlavní charakteristika skalárního násobení na eliptických křivkách?
+odpověď: Jednosměrná funkce
+nesprávné_odpovědi:
+  - Snadno reverzibilní
+  - Založeno na faktorizaci prvočísel
+  - Velmi dlouho se počítá
+vysvětlení: |
+  Skalární násobení na eliptických křivkách je jednosměrná funkce, což znemožňuje získání soukromého klíče z veřejného klíče.
+recenzováno: false

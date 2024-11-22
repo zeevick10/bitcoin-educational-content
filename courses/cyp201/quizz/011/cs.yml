@@ -1,9 +1,8 @@
-question: Z čeho se skládá operace konkatenace?
-answer: Z umístění dvou operandů za sebou.
-wrong_answers:
-  - Sčítání dvou operandů.
-  - Dělení dvou operandů.
-  - Odečítání dvou operandů.
-explanation: |
-  Konkatenace zahrnuje umístění dvou operandů jeden za druhým bez jejich modifikace, široce používané v kryptografii.
-reviewed: false
+otázka: Jaká hashovací funkce je používána HMAC v kontextu Bitcoinu?
+odpověď: SHA512
+nesprávné_odpovědi:
+  - SHA256
+  - RIPEMD160
+  - HASH160
+vysvětlení: |
+  HMAC používá SHA512 pro vytvoření bezpečného 512-bitového hash.

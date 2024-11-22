@@ -1,0 +1,9 @@
+pergunta: Qual índice representa a cadeia externa de uma conta em um caminho de derivação?
+resposta: /0/
+respostas_erradas:
+  - /1/
+  - /0'/
+  - /2/
+explicação: |
+  A cadeia externa é identificada pelo índice /0/ no nível 4 do caminho de derivação.
+revisado: false

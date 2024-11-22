@@ -1,9 +1,9 @@
-question: Mikä funktio käytetään johdettavan lapsiavainparin muodostamiseen vanhemmasta avainparista HD-lompakossa?
-answer: HMAC-SHA512.
-wrong_answers:
-  - SHA256.
-  - Argon2d.
-  - PBKDF2.
-explanation: |
-  HMAC-SHA512: tä käytetään lapsiavainparin johdattamiseen vanhemmasta avainparista HD-lompakossa.
-reviewed: false
+kysymys: Minkä tyyppinen avain liittyy "zpub"-etuliitteeseen?
+vastaus: Laajennettu julkinen avain SegWit V0:lle Mainnetissä
+vaarat_vastaukset:
+  - Laajennettu yksityinen avain SegWit V1:lle Mainnetissä
+  - Laajennettu julkinen avain Legacylle Testnetissä
+  - Laajennettu julkinen avain SegWit V2:lle Testnetissä
+selitys: |
+  "zpub"-etuliite merkitsee laajennettua julkista avainta SegWit V0 -skripteille Mainnetissä.
+arvioitu: false

@@ -1,9 +1,9 @@
-question: Dentro do protocolo Bitcoin, o que é um HASH256?
-answer: Um hash SHA256 duplo.
-wrong_answers:
-  - Um hash Keccak-256 duplo.
-  - Um hash SHA256 seguido por um hash RIPEMD160.
-  - Um único hash SHA256.
-explanation: |
-  Um HASH256 é um hash SHA256 duplo, o que significa que a função SHA256 é aplicada uma vez a um pedaço de dados, e então uma segunda vez ao resultado da primeira.
-reviewed: false
+pergunta: Qual combinação de funções de hash é usada para gerar impressões digitais mais curtas no Bitcoin?
+resposta: HASH160
+respostas_erradas:
+  - SHA512-SHA256
+  - HASH256
+  - SHA160
+explicação: |
+  HASH160 combina SHA256 e RIPEMD160 para gerar impressões digitais de 160 bits, notavelmente para endereços Bitcoin.
+revisado: false

@@ -1,9 +1,9 @@
-question: Jaká funkce se používá pro generování adresy?
-answer: HASH160.
-wrong_answers:
-  - HASH256.
-  - HASH512.
-  - SHA256.
-explanation: |
-  Funkce HASH160, která kombinuje SHA256 a RIPEMD-160, se používá pro generování Bitcoin adres z veřejných klíčů.
-reviewed: false
+otázka: Co znamená apostrof (') nebo "h" v cestě derivace?
+odpověď: Zpevněná derivace
+špatné_odpovědi:
+  - Normální derivace
+  - Externí derivace
+  - Nestandardní derivace
+vysvětlení: |
+  Apostrof naznačuje, že derivace je zpevněná, což vyžaduje rodičovský soukromý klíč pro generování dceřiného klíče.
+recenzováno: false

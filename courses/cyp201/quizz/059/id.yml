@@ -1,8 +1,9 @@
-question: Dalam sistem numeral apa kunci ekstensi biasanya dikodekan untuk disajikan kepada pengguna?
-answer: Dalam Base 58.
-wrong_answers:
-  - Dalam bech32.
-  - Dalam Base 16.
-  - Dalam bech32m.
-explanation: |
-  Kunci ekstensi umumnya dikodekan dalam Base 58 agar lebih mudah dibaca oleh pengguna dan untuk menghindari karakter yang ambigu.
+pertanyaan: Apa peran dari seed dalam dompet Bitcoin HD?
+jawaban: Berfungsi sebagai titik awal untuk derivasi semua kunci
+jawaban_salah:
+  - Menyimpan transaksi dompet
+  - Langsung menghasilkan kunci publik master
+  - Menjamin kerahasiaan transaksi
+penjelasan: |
+  Seed adalah urutan 512-bit yang berasal dari frasa mnemonik dan passphrase. Ini membentuk dasar dari semua kunci dalam dompet.
+direview: false

@@ -1,9 +1,8 @@
-question: Địa chỉ nhận (nói chung) là gì?
-answer: Một băm của khóa công khai kèm theo metadata được đặt vào một định dạng cụ thể.
-wrong_answers:
-  - Một băm của khóa riêng kèm theo metadata được đặt vào một định dạng cụ thể.
-  - Một băm của khóa mở rộng kèm theo metadata được đặt vào một định dạng cụ thể.
-  - Một băm của mã chuỗi kèm theo metadata.
-explanation: |
-  Một địa chỉ nhận nói chung là một băm của khóa công khai kèm theo metadata, được sử dụng trong scriptPubKey để thiết lập các điều kiện.
-reviewed: false
+câu hỏi: Depth 0 đại diện cho gì trong hệ thống phân cấp của ví HD?
+câu trả lời: Khóa chính và mã chuỗi chính
+câu trả lời sai:
+  - Chuỗi địa chỉ bên ngoài
+  - Tài khoản mặc định
+  - Loại tiền tệ
+giải thích: |
+  Depth 0 tương ứng với khóa chính và mã chuỗi chính, đây là điểm xuất phát cho tất cả các quá trình phái sinh trong một ví HD.

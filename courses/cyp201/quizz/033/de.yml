@@ -1,8 +1,8 @@
-question: In welchem BIP wird die Idee der Wiederherstellungsphrase oder Mnemonik-Phrase (12/24 Wörter) vorgeschlagen?
-answer: BIP39.
-wrong_answers:
-  - BIP16.
-  - BIP32.
-  - BIP44.
-explanation: |
-  BIP39 führte die 24-Wörter-Mnemonik-Wiederherstellungsphrase ein, um das Backup von Schlüsseln für Benutzer von HD-Wallets zu erleichtern.
+Frage: Wofür ermöglicht die Sighash-Flagge SIGHASH_NONE?
+Antwort: Die Modifikation der Ausgaben nach der Signierung
+falsche_Antworten:
+  - Die Modifikation der Eingaben nach der Signierung
+  - Alle Eingaben und Ausgaben abdecken
+  - Einschränkung der Modifikationen auf nur eine Ausgabe
+Erklärung: |
+  SIGHASH_NONE deckt nur die Eingaben ab und lässt die Ausgaben nach der Signierung modifizierbar.

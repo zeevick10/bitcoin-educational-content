@@ -1,8 +1,9 @@
-question: Nếu tôi tạo ra một số ngẫu nhiên 256-bit, cụm từ khôi phục của tôi sẽ có kích thước bao nhiêu từ?
-answer: 24 từ.
-wrong_answers:
-  - 6 từ.
-  - 8 từ.
-  - 12 từ.
-explanation: |
-  Một số ngẫu nhiên 256-bit tương ứng với một cụm từ ghi nhớ 24 từ theo tiêu chuẩn BIP39.
+câu hỏi: Điểm khác biệt chính giữa PRNG và TRNG là gì?
+câu trả lời: PRNG là xác định, trong khi TRNG tạo ra các số ngẫu nhiên thực sự.
+câu trả lời sai:
+  - PRNG nhanh hơn TRNG đối với các số lớn.
+  - PRNG chỉ được sử dụng cho mã hóa, không phải TRNG.
+  - PRNG sử dụng khóa riêng, TRNG sử dụng khóa công khai.
+giải thích: |
+  PRNGs là xác định, nghĩa là chúng có thể tái tạo các chuỗi từ một trạng thái ban đầu, không giống như TRNGs.
+đã xem xét: false

@@ -1,9 +1,9 @@
-question: Jaká je základní informace, která umožňuje určit dobrou mnemonickou frázi pro HD peněženku?
-answer: Externí entropie umožňující určení náhodného nebo pseudonáhodného čísla.
-wrong_answers:
-  - Křestní jméno majitele peněženky.
-  - Žádné informace, přímo si vybereme slova, která se nám líbí.
-  - Datum vytvoření peněženky.
-explanation: |
-  Mnemonická fráze je odvozena ze zdroje entropie, což znamená náhodné nebo pseudonáhodné informace, aby byla zajištěna bezpečnost soukromých klíčů.
-reviewed: false
+otázka: Který Bitcoinový standard zavádí hierarchické deterministické peněženky?
+odpověď: BIP32
+špatné_odpovědi:
+  - BIP39
+  - BIP44
+  - BIP141
+vysvětlení: |
+  BIP32 definuje fungování HD peněženek, což umožňuje hierarchickou derivaci soukromých klíčů ze seedu.
+recenzováno: false

@@ -1,0 +1,9 @@
+otázka: Která hloubka v cestě derivace určuje typ měny?
+odpověď: Hloubka 2
+špatné_odpovědi:
+  - Hloubka 1
+  - Hloubka 3
+  - Hloubka 4
+vysvětlení: |
+  Hloubka 2 se používá k identifikaci měny v peněženkách s více měnami, jako je Bitcoin (index 0') nebo Litecoin (index 2').
+recenzováno: false

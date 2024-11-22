@@ -1,9 +1,9 @@
-question: Welche Hash-Funktionen werden im Bitcoin-Protokoll verwendet?
-answer: SHA-256, RIPEMD-160
-wrong_answers:
-  - MD5, SHA3-256
-  - Keccak-256, SHA-512
-  - SHA-1, Whirlpool
-explanation: |
-  In Bitcoin werden SHA-256 und RIPEMD-160 verwendet.
-reviewed: false
+Frage: Welche Eigenschaft von Hash-Funktionen wird durch eine vollständige Änderung des Hashs bei einer geringfügigen Änderung der Nachricht demonstriert?
+Antwort: Der Lawineneffekt
+falsche_Antworten:
+  - Kollisionsresistenz
+  - Widerstand gegen zweite Urbilder
+  - Länge
+Erklärung: |
+  Eine kleine Änderung im Eingabewert führt zu einer radikalen Änderung im Hash, dies wird als Lawineneffekt bezeichnet.
+überprüft: false

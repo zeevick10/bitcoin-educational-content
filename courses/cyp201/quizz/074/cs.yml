@@ -1,8 +1,9 @@
-question: Jaká předpona nebo HRP odpovídá standardní adrese SegWit?
-answer: bc
-wrong_answers:
-  - 1
-  - 0x
-  - btc
-explanation: |
-  Předpona bc se používá pro adresy SegWit na hlavní síti Bitcoinu.
+otázka: Co značí index /84'/ na hloubce 1 cesty derivace?
+odpověď: Standard P2WPKH (SegWit v0)
+špatné_odpovědi:
+  - Standard P2TR (SegWit v1)
+  - Měna Bitcoin testnetu
+  - Měna Bitcoin mainnetu
+vysvětlení: |
+  Index /84'/ je definován v BIP84 jako označení použití standardu SegWit v0 s adresami P2WPKH na hloubce 1 (tj. cíle derivace).
+recenzováno: false

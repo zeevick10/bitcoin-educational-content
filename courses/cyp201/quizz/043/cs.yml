@@ -1,9 +1,9 @@
-question: Jak určit velikost bitu kontrolního součtu pro obnovovací frázi?
-answer: Velikost náhodného čísla (entropie) vydělte 32.
-wrong_answers:
-  - Velikost náhodného čísla (entropie) vydělte 8.
-  - Velikost náhodného čísla (entropie) vydělte 16.
-  - Velikost náhodného čísla (entropie) vynásobte 2.
-explanation: |
-  Velikost kontrolního součtu se získá vydělením velikosti entropie 32, v souladu s BIP39.
-reviewed: false
+otázka: Kolik bitů entropie se používá pro 24-slovní mnemonickou frázi?
+odpověď: 256 bitů
+špatné_odpovědi:
+  - 128 bitů
+  - 512 bitů
+  - 64 bitů
+vysvětlení: |
+  24-slovní mnemonická fráze je založena na 256 bitech entropie, což zajišťuje velmi vysokou bezpečnost.
+recenzováno: false

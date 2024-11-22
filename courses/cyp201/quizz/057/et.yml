@@ -1,8 +1,9 @@
-question: Pikendatud avaliku võtmega saan tuletada...
-answer: ...tavalisi laste avalikke võtmeid.
-wrong_answers:
-  - ...tugevdatud laste avalikke võtmeid.
-  - ...tavalisi laste privaatvõtmeid.
-  - ...tugevdatud laste privaatvõtmeid.
-explanation: |
-  Pikendatud avalik võti võimaldab tuletada ainult tavalisi laste avalikke võtmeid, kuid mitte privaatvõtmeid.
+küsimus: Kui suur on PBKDF2 poolt genereeritud seemne suurus?
+vastus: 512 bitti
+valed_vastused:
+  - 128 bitti
+  - 256 bitti
+  - Muutuv sõltuvalt mnemoonilise fraasi pikkusest
+selgitus: |
+  Sõltumata mnemoonilise fraasi pikkusest genereerib PBKDF2 alati 512-bitise seemne.
+üle vaadatud: false

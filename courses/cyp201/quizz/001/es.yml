@@ -1,9 +1,9 @@
-question: ¿Cuál es el tamaño de salida de la función hash SHA256?
-answer: 256 bits.
-wrong_answers:
-  - 256 bytes.
-  - 512 bits.
-  - 512 bytes.
-explanation: |
-  SHA-256 produce una salida fija de 256 bits, independientemente del tamaño de los datos de entrada.
-reviewed: false
+pregunta: ¿Qué propiedad asegura que es computacionalmente imposible recuperar la entrada de un hash?
+respuesta: Resistencia a la preimagen
+respuestas_incorrectas:
+  - Resistencia a colisiones
+  - Efecto avalancha
+  - Resistencia a la segunda preimagen
+explicación: |
+  La resistencia a la preimagen asegura que es prácticamente imposible encontrar el mensaje original a partir de su hash.
+revisado: false

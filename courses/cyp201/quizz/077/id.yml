@@ -1,8 +1,8 @@
-question: Bagaimana checksum dari alamat Legacy dihitung?
-answer: Dengan HASH256.
-wrong_answers:
-  - Dengan HASH160.
-  - Dengan kode BCH.
-  - Dengan RIPEMD160.
-explanation: |
-  Untuk alamat Legacy, checksum diperoleh dengan melakukan hash ganda dengan fungsi SHA256 (HASH256).
+pertanyaan: Mengapa deskriptor sangat berguna untuk dompet multisignature?
+jawaban: Mereka mencakup xpub dari setiap faktor dan mendeskripsikan struktur multisignature
+jawaban_salah:
+  - Mereka menghilangkan kebutuhan akan frasa mnemonik
+  - Mereka menyederhanakan generasi kunci yang diperkuat
+  - Mereka membuat multisignature kompatibel dengan semua skrip
+penjelasan: |
+  Deskriptor mencakup kunci publik terluas dari semua peserta, yang memfasilitasi pemulihan dan pengelolaan konfigurasi multisignature.

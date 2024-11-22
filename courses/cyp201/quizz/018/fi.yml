@@ -1,9 +1,9 @@
-question: Missä yksityiset avaimet säilytetään?
-answer: Bitcoin-lompakoissa
-wrong_answers:
-  - Lohkoketjussa
-  - Bitcoin-yhteisön palvelimilla
-  - Vertaisverkossa
-explanation: |
-  Lompakko sisältää yksityiset avaimet, jotka ovat välttämättömiä bitcoinien käyttämiseen.
-reviewed: false
+kysymys: Miksi elliptistä käyrää secp256r1 ei käytetty Bitcoinissa?
+vastaus: Mahdollisesti takaportin välttämiseksi
+vaarat_vastaukset:
+  - Koska se on liian hidas
+  - Koska sitä ei ole standardoitu
+  - Koska se vaatii erikoistunutta laitteistoa
+selitys: |
+  Satoshi Nakamoto todennäköisesti suosi secp256k1-käyrää, koska secp256r1:n parametreissa saattaa olla piilotettu haavoittuvuus.
+arvioitu: false

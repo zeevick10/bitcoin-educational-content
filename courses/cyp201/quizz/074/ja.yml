@@ -1,8 +1,9 @@
-question: SegWit標準アドレスに対応するプレフィックスまたはHRPは何ですか？
-answer: bc
-wrong_answers:
-  - 1
-  - 0x
-  - btc
-explanation: |
-  プレフィックスbcは、Bitcoinメインネット上のSegWitアドレスに使用されます。
+質問: 導出パスの深さ1でのインデックス /84'/ は何を示していますか？
+回答: P2WPKH標準 (SegWit v0)
+誤った回答:
+  - P2TR標準 (SegWit v1)
+  - ビットコインのテストネット通貨
+  - ビットコインのメインネット通貨
+説明: |
+  インデックス /84'/ はBIP84で定義されており、深さ1（導出対象の深さ）でのSegWit v0標準とP2WPKHアドレスの使用を示しています。
+レビュー済み: false

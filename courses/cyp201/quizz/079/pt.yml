@@ -1,8 +1,8 @@
-question: Qual é o passo final para criar um endereço Bitcoin Bech32?
-answer: Adicionar o HRP bc e um separador 1.
-wrong_answers:
-  - Adicionar a versão SegWit no início.
-  - Adicionar o checksum no início do endereço.
-  - Adicionar um prefixo 1.
-explanation: |
-  O passo final na construção de um endereço Bech32 é adicionar o HRP (Parte Legível por Humanos), bc para Bitcoin, seguido por um separador 1.
+pergunta: Qual é a principal função dos descritores de script de saída?
+resposta: Descrever completamente um script de saída e fornecer as informações necessárias para restaurar uma carteira
+respostas_erradas:
+  - Gerar automaticamente endereços de multisignatura
+  - Substituir a frase mnemônica em backups de carteira
+  - Simplificar os cálculos de assinaturas digitais
+explicação: |
+  Os descritores encapsulam todas as informações necessárias para rastrear um script específico, incluindo o caminho de derivação e as chaves usadas, mas não a frase de recuperação.

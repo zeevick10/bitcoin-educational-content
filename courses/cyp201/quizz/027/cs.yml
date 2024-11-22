@@ -1,9 +1,9 @@
-question: Co v procesu digitálního podepisování s příkladem ECDSA v této kapitole představuje bod V?
-answer: Bod vypočítaný z nonce v a generátorového bodu G (V = v.G).
-wrong_answers:
-  - Bod odvozený přímo z veřejného klíče.
-  - Hash podepsané zprávy.
-  - Výsledek sčítání dvou bodů na eliptické křivce.
-explanation: |
-  V je výsledek výpočtu nonce vynásobeného generátorovým bodem na eliptické křivce.
-reviewed: false
+otázka: Jaká zranitelnost podpisu ECDSA byla opravena pomocí SegWit?
+odpověď: Změnitelnost
+špatné_odpovědi:
+  - Dávková verifikace
+  - Nedostatek agregace
+  - Nadměrná velikost podpisů
+vysvětlení: |
+  SegWit opravil změnitelnost podpisů ECDSA, což umožnilo využití, jako je Lightning Network.
+recenzováno: false

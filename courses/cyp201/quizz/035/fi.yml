@@ -1,9 +1,8 @@
-question: Mikä on primitiivinen tieto, joka mahdollistaa hyvän muistisäännön määrittämisen HD-lompakolle?
-answer: Ulkoinen entropia, joka mahdollistaa satunnaisen tai pseudosatunnaisen numeron määrittämisen.
-wrong_answers:
-  - Lompakon omistajan etunimi.
-  - Ei mitään tietoa, valitsemme suoraan haluamamme sanat.
-  - Lompakon luontipäivämäärä.
-explanation: |
-  Muistisääntö johdetaan entropian lähteestä, tarkoittaen satunnaista tai pseudosatunnaista tietoa, jotta yksityisten avainten turvallisuus voidaan varmistaa.
-reviewed: false
+kysymys: Mikä Bitcoin-standardi esittelee hierarkkiset deterministiset lompakot?
+vastaus: BIP32
+vaarat_vastaukset:
+  - BIP39
+  - BIP44
+  - BIP141
+selitys: |
+  BIP32 määrittelee HD-lompakoiden toiminnan, mahdollistaen yksityisten avainten hierarkkisen johdannon siemenestä.

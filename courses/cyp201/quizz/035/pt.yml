@@ -1,8 +1,9 @@
-question: Qual é a informação primitiva que permite determinar uma boa frase mnemônica para uma carteira HD?
-answer: Uma entropia externa que permite determinar um número aleatório ou pseudoaleatório.
-wrong_answers:
-  - O primeiro nome do proprietário da carteira.
-  - Nenhuma informação, escolhemos diretamente as palavras de que gostamos.
-  - A data de criação da carteira.
-explanation: |
-  A frase mnemônica é derivada de uma fonte de entropia, significando informação aleatória ou pseudoaleatória, para garantir a segurança das chaves privadas.
+pergunta: Qual padrão Bitcoin introduz carteiras determinísticas hierárquicas?
+resposta: BIP32
+respostas_erradas:
+  - BIP39
+  - BIP44
+  - BIP141
+explicação: |
+  BIP32 define a operação de carteiras HD, permitindo a derivação hierárquica de chaves privadas a partir de uma semente.
+revisado: false

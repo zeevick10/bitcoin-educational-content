@@ -1,0 +1,8 @@
+pertanyaan: Jenis alamat apa yang dimulai dengan `1` dan termasuk dalam standar Legacy?
+jawaban: P2PKH
+jawaban_salah:
+  - P2WPKH
+  - P2SH
+  - P2TR
+penjelasan: |
+  Alamat P2PKH, yang dikodekan dalam base58check, berasal dari standar Legacy dan dimulai dengan angka `1`.

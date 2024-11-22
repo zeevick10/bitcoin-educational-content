@@ -1,9 +1,8 @@
-question: Jak by měla být vybrána efektivní heslová fráze?
-answer: Měla by být dlouhá, rozmanitá a náhodná, bez spojení s uživatelem.
-wrong_answers:
-  - Měla by být snadno zapamatovatelná a souviset s prostředím uživatele.
-  - Měla by být krátká, ale obsahovat čísla.
-  - Měla by obsahovat alespoň 10 číslic.
-explanation: |
-  Efektivní heslová fráze by měla být dlouhá (20 až 40 znaků), rozmanitá a náhodná, aby poskytovala maximální bezpečnost, podobně jako dobré heslo.
-reviewed: false
+otázka: Jaký je účel mnemonické fráze v Bitcoin HD peněžence?
+odpověď: Deterministicky odvodit všechny klíče
+špatné_odpovědi:
+  - K přímému podepisování transakcí
+  - K šifrování Bitcoinových adres
+  - K generování hash pro UTXO
+vysvětlení: |
+  Mnemonická fráze umožňuje odvození všech soukromých a veřejných klíčů v peněžence, což usnadňuje zálohování a obnovu.

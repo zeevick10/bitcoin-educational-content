@@ -1,9 +1,9 @@
-question: Was stellt die Passphrase innerhalb eines HD-Wallets dar?
-answer: Ein optionales kryptografisches Salt beliebiger Größe.
-wrong_answers:
-  - Ein 25. Wort der mnemonischen Phrase.
-  - Ein obligatorisches kryptografisches Salt fester Größe.
-  - Ein zweiter Seed.
-explanation: |
-  Die Passphrase ist ein optionales kryptografisches Salt, das die Sicherheit des Wallets erhöht, indem es zusätzliche Informationen zur mnemonischen Phrase hinzufügt, um den Seed zu bestimmen.
-reviewed: false
+Frage: Welche Hash-Funktion wird verwendet, um die Prüfsumme einer mnemonischen Phrase zu berechnen?
+Antwort: SHA256
+falsche_Antworten:
+  - RIPEMD160
+  - SHA512
+  - HASH256
+Erklärung: |
+  Die Prüfsumme einer mnemonischen Phrase wird berechnet, indem ein einfacher SHA256-Hash auf die Entropie angewendet wird.
+überprüft: false

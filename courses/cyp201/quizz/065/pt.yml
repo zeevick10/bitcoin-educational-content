@@ -1,8 +1,9 @@
-question: Nos caminhos de derivação de carteiras HD, a que corresponde a profundidade 0?
-answer: A chave mestra.
-wrong_answers:
-  - A chave estendida.
-  - Os endereços de recebimento.
-  - O tipo de moeda.
-explanation: |
-  A profundidade 0 nos caminhos de derivação corresponde à chave mestra, que é o ponto de partida para todas as derivações em uma carteira HD.
+pergunta: Qual é a diferença entre uma chave filha normal e uma chave filha endurecida?
+resposta: Uma chave filha endurecida requer a chave privada do pai para sua derivação.
+respostas_erradas:
+  - Uma chave filha normal não pode derivar de chaves públicas.
+  - Uma chave filha endurecida usa um índice ímpar.
+  - Uma chave filha normal é mais segura do que uma chave filha endurecida.
+explicação: |
+  Uma chave filha normal pode ser derivada da chave pública do pai, ao contrário de uma chave filha endurecida que requer a chave privada do pai.
+revisado: false
