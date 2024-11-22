@@ -1,8 +1,8 @@
-pertanyaan: Apa yang dapat diturunkan dari kunci publik yang diperluas?
-jawaban: Hanya kunci publik anak normal
+question: Apa yang dapat diturunkan dari kunci publik yang diperluas?
+answer: Hanya kunci publik anak normal
 jawaban_salah:
   - Hanya kunci privat anak normal
   - Kedua kunci publik anak yang diperkeras dan normal
   - Kedua kunci privat anak yang diperkeras dan normal
-penjelasan: |
+explanation: |
   Kunci publik yang diperluas hanya memungkinkan penurunan dari kunci publik anak normal, bukan kunci privat atau kunci yang diperkeras.

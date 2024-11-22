@@ -1,8 +1,8 @@
-pertanyaan: Apa fungsi utama dari fungsi hash?
-jawaban: Ia mengubah informasi dengan panjang sembarang menjadi sidik jari berukuran tetap
+question: Apa fungsi utama dari fungsi hash?
+answer: Ia mengubah informasi dengan panjang sembarang menjadi sidik jari berukuran tetap
 jawaban_salah:
   - Ia mengenkripsi pesan untuk membuatnya tidak dapat dibaca
   - Ia hanya digunakan untuk memverifikasi integritas perangkat lunak Bitcoin
   - Ia menghasilkan kunci privat untuk dompet Bitcoin
-penjelasan: |
+explanation: |
   Fungsi hash mengubah data dengan ukuran berapapun menjadi hash berukuran tetap, sangat penting untuk banyak aplikasi di Bitcoin.

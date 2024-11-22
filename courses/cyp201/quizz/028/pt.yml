@@ -6,4 +6,4 @@ respostas_erradas:
   - 256 bits
 explicação: |
   Uma chave pública Schnorr é representada apenas pela coordenada x do ponto na curva elíptica, o que reduz seu tamanho para 32 bytes.
-revisado: false
+reviewed: false

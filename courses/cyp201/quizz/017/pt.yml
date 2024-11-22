@@ -6,4 +6,4 @@ respostas_erradas:
   - P-384
 explicação: |
   O Bitcoin utiliza a curva secp256k1, definida pela equação y² = x³ + 7, para suas operações criptográficas.
-revisado: false
+reviewed: false

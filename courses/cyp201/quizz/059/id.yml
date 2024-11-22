@@ -1,9 +1,9 @@
-pertanyaan: Apa peran dari seed dalam dompet Bitcoin HD?
-jawaban: Berfungsi sebagai titik awal untuk derivasi semua kunci
+question: Apa peran dari seed dalam dompet Bitcoin HD?
+answer: Berfungsi sebagai titik awal untuk derivasi semua kunci
 jawaban_salah:
   - Menyimpan transaksi dompet
   - Langsung menghasilkan kunci publik master
   - Menjamin kerahasiaan transaksi
-penjelasan: |
+explanation: |
   Seed adalah urutan 512-bit yang berasal dari frasa mnemonik dan passphrase. Ini membentuk dasar dari semua kunci dalam dompet.
 direview: false

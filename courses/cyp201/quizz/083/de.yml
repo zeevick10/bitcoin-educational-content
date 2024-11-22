@@ -1,8 +1,8 @@
-Frage: Welche Art von Adresse beginnt mit `1` und gehört zum Legacy-Standard?
-Antwort: P2PKH
+question: Welche Art von Adresse beginnt mit `1` und gehört zum Legacy-Standard?
+answer: P2PKH
 falsche_Antworten:
   - P2WPKH
   - P2SH
   - P2TR
-Erklärung: |
+explanation: |
   P2PKH-Adressen, kodiert in Base58Check, stammen aus dem Legacy-Standard und beginnen mit der Ziffer `1`.

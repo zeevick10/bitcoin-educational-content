@@ -1,9 +1,9 @@
-kysymys: Minkä tyyppistä avainta käytetään lukitsemaan UTXO:t Bitcoinissa?
-vastaus: Julkinen avain
-vaarat_vastaukset:
+question: Minkä tyyppistä avainta käytetään lukitsemaan UTXO:t Bitcoinissa?
+answer: Julkinen avain
+wrong_answer:
   - Yksityinen avain
   - Siemenen hajautusarvo
   - Mnemoninen lause
-selitys: |
+explanation: |
   UTXO:t lukitaan julkisella avaimella tai sen hajautusarvolla, ja avataan vastaavalla yksityisellä avaimella.
-arvioitu: false
+reviewed: false

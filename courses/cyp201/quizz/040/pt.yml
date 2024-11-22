@@ -6,4 +6,4 @@ respostas_erradas:
   - Limita o tamanho das frases mnemônicas geradas
 explicação: |
   Gerar entropia manualmente pode introduzir vieses ou erros, tornando as chaves mais vulneráveis a ataques.
-revisado: false
+reviewed: false

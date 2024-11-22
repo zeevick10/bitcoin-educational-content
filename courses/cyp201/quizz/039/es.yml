@@ -1,9 +1,9 @@
-pregunta: ¿Cuál es la función principal de un monedero de Bitcoin?
-respuesta: Gestionar y asegurar las claves privadas
+question: ¿Cuál es la función principal de un monedero de Bitcoin?
+answer: Gestionar y asegurar las claves privadas
 respuestas_erróneas:
   - Almacenar los bitcoins del usuario
   - Garantizar automáticamente la confidencialidad de las transacciones
   - Generar bitcoins para cada usuario
-explicación: |
+explanation: |
   Un monedero de Bitcoin no almacena directamente los bitcoins, sino que gestiona las claves privadas necesarias para desbloquear los UTXOs que representan los bitcoins.
-revisado: false
+reviewed: false

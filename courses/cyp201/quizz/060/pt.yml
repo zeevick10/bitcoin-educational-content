@@ -6,4 +6,4 @@ respostas_erradas:
   - Uma chave pública estendida para SegWit V2 no Testnet
 explicação: |
   O prefixo "zpub" denota uma chave pública estendida para scripts SegWit V0 na Mainnet.
-revisado: false
+reviewed: false

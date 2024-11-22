@@ -1,8 +1,8 @@
-pertanyaan: Standar Bitcoin mana yang memperkenalkan dompet deterministik hierarkis?
-jawaban: BIP32
+question: Standar Bitcoin mana yang memperkenalkan dompet deterministik hierarkis?
+answer: BIP32
 jawaban_salah:
   - BIP39
   - BIP44
   - BIP141
-penjelasan: |
+explanation: |
   BIP32 mendefinisikan operasi dari dompet HD, memungkinkan untuk derivasi hierarkis kunci privat dari sebuah seed.

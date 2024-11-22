@@ -1,9 +1,9 @@
-kysymys: Miksi elliptistä käyrää secp256r1 ei käytetty Bitcoinissa?
-vastaus: Mahdollisesti takaportin välttämiseksi
-vaarat_vastaukset:
+question: Miksi elliptistä käyrää secp256r1 ei käytetty Bitcoinissa?
+answer: Mahdollisesti takaportin välttämiseksi
+wrong_answer:
   - Koska se on liian hidas
   - Koska sitä ei ole standardoitu
   - Koska se vaatii erikoistunutta laitteistoa
-selitys: |
+explanation: |
   Satoshi Nakamoto todennäköisesti suosi secp256k1-käyrää, koska secp256r1:n parametreissa saattaa olla piilotettu haavoittuvuus.
-arvioitu: false
+reviewed: false

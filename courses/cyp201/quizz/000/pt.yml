@@ -6,4 +6,4 @@ respostas_erradas:
   - Ela gera chaves privadas para carteiras Bitcoin
 explicação: |
   Uma função hash transforma dados de qualquer tamanho em um hash de tamanho fixo, crucial para muitas aplicações no Bitcoin.
-revisado: false
+reviewed: false

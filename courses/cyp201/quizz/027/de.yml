@@ -1,9 +1,9 @@
-Frage: Welche Schwachstelle in ECDSA-Signaturen wurde durch SegWit behoben?
-Antwort: Veränderbarkeit
+question: Welche Schwachstelle in ECDSA-Signaturen wurde durch SegWit behoben?
+answer: Veränderbarkeit
 falsche_Antworten:
   - Stapelverifizierung
   - Fehlende Aggregation
   - Übermäßige Größe von Signaturen
-Erklärung: |
+explanation: |
   SegWit korrigierte die Veränderbarkeit von ECDSA-Signaturen, was Anwendungen wie das Lightning Network ermöglichte.
 überprüft: false

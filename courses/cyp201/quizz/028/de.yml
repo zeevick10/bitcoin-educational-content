@@ -1,9 +1,9 @@
-Frage: Wie groß ist ein komprimierter öffentlicher Schlüssel, der das Schnorr-Protokoll verwendet?
-Antwort: 32 Bytes
-Falsche Antworten:
+question: Wie groß ist ein komprimierter öffentlicher Schlüssel, der das Schnorr-Protokoll verwendet?
+answer: 32 Bytes
+wrong_answer:
   - 33 Bytes
   - 64 Bytes
   - 256 Bits
-Erklärung: |
+explanation: |
   Ein Schnorr-öffentlicher Schlüssel wird nur durch die x-Koordinate des Punktes auf der elliptischen Kurve dargestellt, was seine Größe auf 32 Bytes reduziert.
-Überprüft: false
+reviewed: false

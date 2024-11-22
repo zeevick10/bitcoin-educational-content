@@ -1,8 +1,8 @@
-pertanyaan: Apa arti dari awalan `wpkh` dalam sebuah deskriptor?
-jawaban: Pay-to-Witness-PubKey-Hash
+question: Apa arti dari awalan `wpkh` dalam sebuah deskriptor?
+answer: Pay-to-Witness-PubKey-Hash
 jawaban_salah:
   - Pay-to-PubKey
   - Pay-to-Script-Hash
   - Witness Script Hash
-penjelasan: |
+explanation: |
   Awalan `wpkh` menunjukkan skrip SegWit v0 yang menggunakan alamat Pay-to-Witness-Public-Key-Hash.

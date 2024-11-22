@@ -6,4 +6,4 @@ respostas_erradas:
   - Uma chave filha normal é mais segura do que uma chave filha endurecida.
 explicação: |
   Uma chave filha normal pode ser derivada da chave pública do pai, ao contrário de uma chave filha endurecida que requer a chave privada do pai.
-revisado: false
+reviewed: false

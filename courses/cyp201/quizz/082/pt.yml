@@ -6,4 +6,4 @@ respostas_erradas:
   - P2PK é destinado para multisigs, enquanto P2PKH é para scripts simples.
 explicação: |
   P2PK bloqueia os fundos com uma chave pública bruta, enquanto P2PKH usa um hash da chave pública.
-revisado: false
+reviewed: false

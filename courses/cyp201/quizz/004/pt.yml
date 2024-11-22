@@ -6,4 +6,4 @@ respostas_erradas:
   - SHA160
 explicação: |
   HASH160 combina SHA256 e RIPEMD160 para gerar impressões digitais de 160 bits, notavelmente para endereços Bitcoin.
-revisado: false
+reviewed: false

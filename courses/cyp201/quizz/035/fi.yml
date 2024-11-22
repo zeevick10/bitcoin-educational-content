@@ -1,8 +1,8 @@
-kysymys: Mikä Bitcoin-standardi esittelee hierarkkiset deterministiset lompakot?
-vastaus: BIP32
-vaarat_vastaukset:
+question: Mikä Bitcoin-standardi esittelee hierarkkiset deterministiset lompakot?
+answer: BIP32
+wrong_answer:
   - BIP39
   - BIP44
   - BIP141
-selitys: |
+explanation: |
   BIP32 määrittelee HD-lompakoiden toiminnan, mahdollistaen yksityisten avainten hierarkkisen johdannon siemenestä.

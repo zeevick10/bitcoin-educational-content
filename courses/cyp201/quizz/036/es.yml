@@ -1,9 +1,9 @@
-pregunta: ¿Qué te permite hacer una cartera HD en comparación con una cartera JBOK?
-respuesta: Generar todas las claves privadas a partir de una única semilla
-respuestas_incorrectas:
+question: ¿Qué te permite hacer una cartera HD en comparación con una cartera JBOK?
+answer: Generar todas las claves privadas a partir de una única semilla
+wrong_answer:
   - Aumentar la seguridad de las firmas digitales
   - Reutilizar la misma dirección para múltiples transacciones
   - Evitar completamente el uso de claves públicas
-explicación: |
+explanation: |
   Las carteras HD derivan todas las claves privadas de una semilla única, lo que simplifica la copia de seguridad e indirectamente mejora la privacidad.
-revisado: false
+reviewed: false

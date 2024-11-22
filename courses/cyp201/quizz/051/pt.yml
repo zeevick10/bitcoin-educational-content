@@ -6,4 +6,4 @@ respostas_erradas:
   - O código PIN gera endereços Bitcoin
 explicação: |
   Ao contrário do código PIN, a frase-senha está diretamente envolvida no processo de derivação da chave e altera as chaves da carteira.
-revisado: false
+reviewed: false

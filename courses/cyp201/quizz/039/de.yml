@@ -1,8 +1,8 @@
-Frage: Was ist die Hauptaufgabe eines Bitcoin-Wallets?
-Antwort: Verwalten und Sichern von privaten Schlüsseln
+question: Was ist die Hauptaufgabe eines Bitcoin-Wallets?
+answer: Verwalten und Sichern von privaten Schlüsseln
 falsche_Antworten:
   - Die Bitcoins des Benutzers speichern
   - Die Vertraulichkeit von Transaktionen automatisch gewährleisten
   - Für jeden Benutzer Bitcoins generieren
-Erklärung: |
+explanation: |
   Ein Bitcoin-Wallet speichert nicht direkt Bitcoins, sondern verwaltet die privaten Schlüssel, die notwendig sind, um die UTXOs zu entsperren, die die Bitcoins repräsentieren.

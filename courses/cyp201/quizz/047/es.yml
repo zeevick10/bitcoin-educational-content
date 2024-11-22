@@ -1,9 +1,9 @@
-pregunta: ¿Cuál es el tamaño en bits de un segmento binario utilizado para crear cada palabra mnemotécnica?
-respuesta: 11 bits
-respuestas_incorrectas:
+question: ¿Cuál es el tamaño en bits de un segmento binario utilizado para crear cada palabra mnemotécnica?
+answer: 11 bits
+wrong_answer:
   - 8 bits
   - 16 bits
   - 10 bits
-explicación: |
+explanation: |
   Cada segmento de 11 bits corresponde a una palabra de la lista estandarizada de 2048 palabras en BIP39.
-revisado: false
+reviewed: false

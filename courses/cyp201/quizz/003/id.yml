@@ -1,9 +1,9 @@
-pertanyaan: Apa perbedaan utama antara SHA256 dan RIPEMD160?
-jawaban: RIPEMD160 menghasilkan hash yang lebih pendek dibandingkan SHA256
+question: Apa perbedaan utama antara SHA256 dan RIPEMD160?
+answer: RIPEMD160 menghasilkan hash yang lebih pendek dibandingkan SHA256
 jawaban_salah:
   - SHA256 sudah usang tidak seperti RIPEMD160
   - RIPEMD160 hanya digunakan dalam mekanisme Proof-of-Work
   - SHA256 tidak pernah digabungkan dengan fungsi hashing lainnya
-penjelasan: |
+explanation: |
   RIPEMD160 menghasilkan hash 160-bit, sementara SHA256 menghasilkan hash 256-bit.
 ditinjau: false

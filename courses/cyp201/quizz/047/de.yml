@@ -1,9 +1,9 @@
-Frage: Wie groß ist die Größe in Bits eines binären Segments, das verwendet wird, um jedes mnemonische Wort zu erstellen?
-Antwort: 11 Bits
+question: Wie groß ist die Größe in Bits eines binären Segments, das verwendet wird, um jedes mnemonische Wort zu erstellen?
+answer: 11 Bits
 falsche_Antworten:
   - 8 Bits
   - 16 Bits
   - 10 Bits
-Erklärung: |
+explanation: |
   Jedes 11-Bit-Segment entspricht einem Wort aus der standardisierten Liste von 2048 Wörtern in BIP39.
 überprüft: false

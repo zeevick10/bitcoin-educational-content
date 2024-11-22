@@ -6,4 +6,4 @@ respostas_erradas:
   - Você só perde as transações não confirmadas
 explicação: |
   A frase-senha é um componente essencial na derivação de chaves. Sem ela, é impossível recriar as chaves e, portanto, acessar os bitcoins.
-revisado: false
+reviewed: false

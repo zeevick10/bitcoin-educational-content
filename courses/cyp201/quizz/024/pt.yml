@@ -6,4 +6,4 @@ respostas_erradas:
   - 1024 bits
 explicação: |
   Uma chave privada no Bitcoin é um inteiro aleatório de 256 bits, garantindo um espaço de chave grande o suficiente para garantir segurança.
-revisado: false
+reviewed: false

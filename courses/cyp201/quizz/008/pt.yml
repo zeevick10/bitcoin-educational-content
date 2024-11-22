@@ -6,4 +6,4 @@ respostas_erradas:
   - Para aumentar o tamanho das hashes geradas
 explicação: |
   O pré-processamento ajusta o comprimento da mensagem adicionando bits de preenchimento e uma representação binária de seu comprimento.
-revisado: false
+reviewed: false

@@ -1,9 +1,9 @@
-kysymys: Mikä on entropia kryptografian kontekstissa?
-vastaus: Satunnaisprosessiin liittyvän arvaamattomuuden mittari
-vaarat_vastaukset:
+question: Mikä on entropia kryptografian kontekstissa?
+answer: Satunnaisprosessiin liittyvän arvaamattomuuden mittari
+wrong_answer:
   - Menetelmä arkaluontoisen datan salaamiseen
   - Algoritmi julkisten avainten laskemiseen
   - Datan pakkaustekniikka
-selitys: |
+explanation: |
   Kryptografiassa entropia kvantifioi epävarmuuden tai kaaoksen tason satunnaislähteessä, mikä on olennaista turvallisten avainten generoimisessa.
-arvioitu: false
+reviewed: false

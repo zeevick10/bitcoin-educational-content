@@ -1,9 +1,9 @@
-kysymys: Mitä indeksi /84'/ syvyydessä 1 johdannaispolussa tarkoittaa?
-vastaus: P2WPKH-standardi (SegWit v0)
-vaarat_vastaukset:
+question: Mitä indeksi /84'/ syvyydessä 1 johdannaispolussa tarkoittaa?
+answer: P2WPKH-standardi (SegWit v0)
+wrong_answer:
   - P2TR-standardi (SegWit v1)
   - Bitcoin-testnet-valuutta
   - Bitcoin-mainnet-valuutta
-selitys: |
+explanation: |
   Indeksi /84'/ on määritelty BIP84:ssä osoittamaan SegWit v0 -standardin käyttöä P2WPKH-osoitteiden kanssa syvyydessä 1 (johdannaiskohteen syvyys).
-arvioitu: false
+reviewed: false

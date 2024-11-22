@@ -1,9 +1,9 @@
-pertanyaan: Apa peran utama dari kode rantai dalam derivasi kunci anak?
-jawaban: Memperkenalkan sumber entropi tambahan
+question: Apa peran utama dari kode rantai dalam derivasi kunci anak?
+answer: Memperkenalkan sumber entropi tambahan
 jawaban_salah:
   - Mengidentifikasi kedalaman hierarki
   - Menyimpan indeks dari kunci anak
   - Memastikan kompatibilitas dengan protokol Bitcoin
-penjelasan: |
+explanation: |
   Kode rantai digunakan untuk memperkenalkan sumber entropi tambahan dan unik untuk setiap kunci yang diturunkan.
 ditinjau: false

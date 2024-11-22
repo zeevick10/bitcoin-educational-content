@@ -1,9 +1,9 @@
-Frage: Was ist die Rolle des Seeds in einem Bitcoin HD Wallet?
-Antwort: Dient als Ausgangspunkt für die Ableitung aller Schlüssel
+question: Was ist die Rolle des Seeds in einem Bitcoin HD Wallet?
+answer: Dient als Ausgangspunkt für die Ableitung aller Schlüssel
 falsche_Antworten:
   - Speichert die Transaktionen des Wallets
   - Generiert direkt den Master-Public-Key
   - Gewährleistet die Vertraulichkeit der Transaktion
-Erklärung: |
+explanation: |
   Der Seed ist eine 512-Bit-Sequenz, die aus der mnemonischen Phrase und dem Passwort abgeleitet wird. Er bildet die Grundlage aller Schlüssel im Wallet.
 überprüft: false

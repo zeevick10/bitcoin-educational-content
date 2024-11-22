@@ -1,8 +1,8 @@
-kysymys: Mikä ominaisuus varmistaa, että syötteen palauttaminen hajautuksesta on laskennallisesti mahdotonta?
-vastaus: Esikuvan vastustuskyky
+question: Mikä ominaisuus varmistaa, että syötteen palauttaminen hajautuksesta on laskennallisesti mahdotonta?
+answer: Esikuvan vastustuskyky
 väärät_vastaukset:
   - Yhteentörmäyksen vastustuskyky
   - Lumivyöryefekti
   - Toisen esikuvan vastustuskyky
-selitys: |
+explanation: |
   Esikuvan vastustuskyky varmistaa, että alkuperäisen viestin löytäminen sen hajautuksesta on käytännössä mahdotonta.

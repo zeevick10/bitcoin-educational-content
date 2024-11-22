@@ -6,4 +6,4 @@ respostas_erradas:
   - 512
 explicação: |
   O PBKDF2 repete o processo HMAC-SHA512 2048 vezes para aumentar a segurança.
-revisado: false
+reviewed: false

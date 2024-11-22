@@ -1,9 +1,9 @@
-Frage: Was ist der Unterschied zwischen einem normalen Kinderschlüssel und einem gehärteten Kinderschlüssel?
-Antwort: Ein gehärteter Kinderschlüssel benötigt den privaten Schlüssel des Elternteils für seine Ableitung.
+question: Was ist der Unterschied zwischen einem normalen Kinderschlüssel und einem gehärteten Kinderschlüssel?
+answer: Ein gehärteter Kinderschlüssel benötigt den privaten Schlüssel des Elternteils für seine Ableitung.
 falsche_Antworten:
   - Ein normaler Kinderschlüssel kann nicht von öffentlichen Schlüsseln abgeleitet werden.
   - Ein gehärteter Kinderschlüssel verwendet einen ungeraden Index.
   - Ein normaler Kinderschlüssel ist sicherer als ein gehärteter Kinderschlüssel.
-Erklärung: |
+explanation: |
   Ein normaler Kinderschlüssel kann vom öffentlichen Schlüssel des Elternteils abgeleitet werden, im Gegensatz zu einem gehärteten Kinderschlüssel, der den privaten Schlüssel des Elternteils benötigt.
 überprüft: false

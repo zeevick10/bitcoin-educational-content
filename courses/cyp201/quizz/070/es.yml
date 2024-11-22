@@ -1,8 +1,8 @@
-pregunta: ¿Qué representa la profundidad 0 en la jerarquía de las carteras HD?
-respuesta: La clave maestra y el código de cadena maestro
-respuestas_incorrectas:
+question: ¿Qué representa la profundidad 0 en la jerarquía de las carteras HD?
+answer: La clave maestra y el código de cadena maestro
+wrong_answer:
   - La cadena externa de direcciones
   - La cuenta predeterminada
   - El tipo de moneda
-explicación: |
+explanation: |
   La profundidad 0 corresponde a la clave maestra y el código de cadena maestro, que son los puntos de partida para todas las derivaciones en una cartera HD.

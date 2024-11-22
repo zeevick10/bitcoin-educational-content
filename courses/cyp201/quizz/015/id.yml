@@ -1,8 +1,8 @@
-pertanyaan: Jenis kunci apa yang digunakan untuk mengunci UTXO pada Bitcoin?
-jawaban: Kunci publik
+question: Jenis kunci apa yang digunakan untuk mengunci UTXO pada Bitcoin?
+answer: Kunci publik
 jawaban_salah:
   - Kunci pribadi
   - Hash benih
   - Frasa mnemonik
-penjelasan: |
+explanation: |
   UTXO dikunci dengan kunci publik atau hash dari kunci publik tersebut, dan dibuka dengan kunci pribadi yang sesuai.

@@ -1,9 +1,9 @@
-kysymys: Mikä johdannaisalgoritmi käytetään laskemaan todennuskoodi salaisen avaimen perusteella?
-vastaus: HMAC-SHA512
+question: Mikä johdannaisalgoritmi käytetään laskemaan todennuskoodi salaisen avaimen perusteella?
+answer: HMAC-SHA512
 väärät_vastaukset:
   - SHA512
   - SHA256
   - RIPEMD160
-selitys: |
+explanation: |
   HMAC-SHA512 on algoritmi, joka yhdistää hajautusfunktion ja salaisen avaimen todennuskoodin laskemiseksi.
-arvioitu: false
+reviewed: false

@@ -1,8 +1,8 @@
-kysymys: Mikä on syynä käyttää harhautuslompakkoa salasanan kanssa?
-vastaus: Simuloida lompakkoa, jossa on pieni määrä varoja fyysisen pakottamisen varalta
+question: Mikä on syynä käyttää harhautuslompakkoa salasanan kanssa?
+answer: Simuloida lompakkoa, jossa on pieni määrä varoja fyysisen pakottamisen varalta
 väärät_vastaukset:
   - Lisätä automaattinen varmuuskopio transaktioista
   - Luoda lisäinen muistisääntö
   - Suojata UTXO:t kaksoiskulutukselta
-selitys: |
+explanation: |
   Harhautuslompakkoa käytetään ohjaamaan hyökkääjän huomio pois antamalla pääsyn lompakkoon, jossa on pieni määrä bitcoineja.

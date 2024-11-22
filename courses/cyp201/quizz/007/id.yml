@@ -1,8 +1,8 @@
-pertanyaan: Apa perbedaan utama antara operasi ShR dan RotR?
-jawaban: ShR menggeser bit dengan menambahkan nol, RotR memasukkan kembali bit yang digeser
+question: Apa perbedaan utama antara operasi ShR dan RotR?
+answer: ShR menggeser bit dengan menambahkan nol, RotR memasukkan kembali bit yang digeser
 jawaban_salah:
   - ShR menghilangkan bit yang digeser, RotR mengalikan nilai mereka
   - ShR menggeser ke kiri, RotR menggeser ke kanan
   - ShR adalah operasi logika, RotR adalah aritmetika
-penjelasan: |
+explanation: |
   ShR menggeser bit ke kanan dengan menambahkan nol, sementara RotR melakukan rotasi sirkular dari bit.

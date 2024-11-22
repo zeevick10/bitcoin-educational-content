@@ -1,8 +1,8 @@
-pregunta: ¿Cuál es el modificador que se puede combinar con las banderas básicas de sighash?
-respuesta: SIGHASH_ANYONECANPAY
-respuestas_incorrectas:
+question: ¿Cuál es el modificador que se puede combinar con las banderas básicas de sighash?
+answer: SIGHASH_ANYONECANPAY
+wrong_answer:
   - SIGHASH_NOOUTPUT
   - SIGHASH_ALLPARTICIPANTS
   - SIGHASH_NONSTANDARD
-explicación: |
+explanation: |
   SIGHASH_ANYONECANPAY modifica las banderas de sighash para cubrir solo una entrada única, dejando el resto modificable.

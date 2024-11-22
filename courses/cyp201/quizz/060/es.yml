@@ -1,9 +1,9 @@
-pregunta: ¿Qué tipo de clave se asocia con el prefijo "zpub"?
-respuesta: Una clave pública extendida para SegWit V0 en la red principal
-respuestas_incorrectas:
+question: ¿Qué tipo de clave se asocia con el prefijo "zpub"?
+answer: Una clave pública extendida para SegWit V0 en la red principal
+wrong_answer:
   - Una clave privada extendida para SegWit V1 en la red principal
   - Una clave pública extendida para Legacy en la red de pruebas
   - Una clave pública extendida para SegWit V2 en la red de pruebas
-explicación: |
+explanation: |
   El prefijo "zpub" denota una clave pública extendida para scripts SegWit V0 en la red principal.
-revisado: false
+reviewed: false

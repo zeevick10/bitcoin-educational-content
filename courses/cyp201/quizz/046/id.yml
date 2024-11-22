@@ -1,9 +1,9 @@
-pertanyaan: Berapa banyak bit checksum untuk entropi sebesar 128 bit?
-jawaban: 4 bit
+question: Berapa banyak bit checksum untuk entropi sebesar 128 bit?
+answer: 4 bit
 jawaban_salah:
   - 8 bit
   - 16 bit
   - 6 bit
-penjelasan: |
+explanation: |
   Panjang checksum dihitung menggunakan rumus CS = ENT / 32, yang sama dengan 4 bit untuk entropi sebesar 128 bit.
 ditinjau: false

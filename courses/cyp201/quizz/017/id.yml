@@ -1,9 +1,9 @@
-pertanyaan: Kurva elips mana yang digunakan dalam protokol Bitcoin?
-jawaban: secp256k1
+question: Kurva elips mana yang digunakan dalam protokol Bitcoin?
+answer: secp256k1
 jawaban_salah:
   - secp256r1
   - ed25519
   - P-384
-penjelasan: |
+explanation: |
   Bitcoin menggunakan kurva secp256k1, yang didefinisikan oleh persamaan y² = x³ + 7, untuk operasi kriptografinya.
 ditinjau: false

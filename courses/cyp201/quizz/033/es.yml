@@ -1,9 +1,9 @@
-pregunta: ¿Qué permite la bandera sighash SIGHASH_NONE?
-respuesta: Modificar las salidas después de firmar
-respuestas_incorrectas:
+question: ¿Qué permite la bandera sighash SIGHASH_NONE?
+answer: Modificar las salidas después de firmar
+wrong_answer:
   - Modificar las entradas después de firmar
   - Cubrir todas las entradas y salidas
   - Restringir las modificaciones a solo una salida
-explicación: |
+explanation: |
   SIGHASH_NONE solo cubre las entradas, dejando las salidas modificables después de firmar.
-revisado: false
+reviewed: false

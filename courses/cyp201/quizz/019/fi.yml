@@ -1,8 +1,8 @@
-kysymys: Mikä matemaattinen operaatio on elliptisen käyrän kryptografian turvallisuuden perustana?
-vastaus: Diskreetin logaritmin ongelma
-vaarat_vastaukset:
+question: Mikä matemaattinen operaatio on elliptisen käyrän kryptografian turvallisuuden perustana?
+answer: Diskreetin logaritmin ongelma
+wrong_answer:
   - Alkulukujen tekijöihin jakaminen
   - Kvadraattisten jäännösten laskeminen
   - Diskreetti kuutio-ongelma
-selitys: |
+explanation: |
   Elliptisen käyrän kryptografian turvallisuus perustuu näillä käyrillä diskreetin logaritmin ongelman ratkaisemisen vaikeuteen.

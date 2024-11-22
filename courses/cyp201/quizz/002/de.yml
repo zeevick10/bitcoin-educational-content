@@ -1,9 +1,9 @@
-Frage: Welche Eigenschaft von Hash-Funktionen wird durch eine vollständige Änderung des Hashs bei einer geringfügigen Änderung der Nachricht demonstriert?
-Antwort: Der Lawineneffekt
+question: Welche Eigenschaft von Hash-Funktionen wird durch eine vollständige Änderung des Hashs bei einer geringfügigen Änderung der Nachricht demonstriert?
+answer: Der Lawineneffekt
 falsche_Antworten:
   - Kollisionsresistenz
   - Widerstand gegen zweite Urbilder
   - Länge
-Erklärung: |
+explanation: |
   Eine kleine Änderung im Eingabewert führt zu einer radikalen Änderung im Hash, dies wird als Lawineneffekt bezeichnet.
 überprüft: false

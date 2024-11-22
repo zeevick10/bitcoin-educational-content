@@ -6,4 +6,4 @@ respostas_erradas:
   - Uma moeda principal Bitcoin
 explicação: |
   O índice /84'/ é definido no BIP84 para indicar o uso do padrão SegWit v0 com endereços P2WPKH no nível 1 (aquele do alvo da derivação).
-revisado: false
+reviewed: false

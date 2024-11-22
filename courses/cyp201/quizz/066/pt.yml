@@ -6,4 +6,4 @@ respostas_erradas:
   - O hash SHA256 dos 32 bytes do meio
 explicação: |
   Os últimos 32 bytes da saída HMAC-SHA512 servem como o código da cadeia para a chave filial.
-revisado: false
+reviewed: false

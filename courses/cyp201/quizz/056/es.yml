@@ -1,8 +1,8 @@
-pregunta: ¿Qué constante se utiliza para derivar la clave privada maestra a partir de la semilla?
-respuesta: "Bitcoin Seed"
-respuestas_incorrectas:
+question: ¿Qué constante se utiliza para derivar la clave privada maestra a partir de la semilla?
+answer: "Bitcoin Seed"
+wrong_answer:
   - "Master Key"
   - "HD Wallet Seed"
   - "Blockchain Root"
-explicación: |
+explanation: |
   La constante "Bitcoin Seed" se utiliza como clave en la función HMAC-SHA512 para derivar la clave privada maestra y el código de cadena maestro.

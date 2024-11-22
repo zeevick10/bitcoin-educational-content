@@ -6,4 +6,4 @@ respostas_erradas:
   - Invalida assinaturas digitais
 explicação: |
   Reutilizar um endereço permite que observadores vinculem facilmente diferentes transações ao mesmo usuário, comprometendo sua privacidade.
-revisado: false
+reviewed: false

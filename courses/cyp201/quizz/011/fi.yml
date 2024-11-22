@@ -1,9 +1,9 @@
-kysymys: Mikä hajautusfunktio HMAC käyttää Bitcoinin kontekstissa?
-vastaus: SHA512
-vaarat_vastaukset:
+question: Mikä hajautusfunktio HMAC käyttää Bitcoinin kontekstissa?
+answer: SHA512
+wrong_answer:
   - SHA256
   - RIPEMD160
   - HASH160
-selitys: |
+explanation: |
   HMAC käyttää SHA512:ta tuottaakseen turvallisen 512-bittisen hajautuksen.
-arvioitu: false
+reviewed: false

@@ -1,8 +1,8 @@
-pregunta: ¿Qué significa el prefijo `wpkh` en un descriptor?
-respuesta: Pago-a-Testigo-Hash-de-Clave-Pública
-respuestas_incorrectas:
+question: ¿Qué significa el prefijo `wpkh` en un descriptor?
+answer: Pago-a-Testigo-Hash-de-Clave-Pública
+wrong_answer:
   - Pago-a-Clave-Pública
   - Pago-a-Hash-de-Script
   - Hash de Script de Testigo
-explicación: |
+explanation: |
   El prefijo `wpkh` indica un script SegWit v0 usando direcciones de Pago-a-Testigo-Hash-de-Clave-Pública.

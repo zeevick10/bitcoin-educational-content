@@ -6,4 +6,4 @@ respostas_erradas:
   - Variável dependendo do comprimento da frase mnemônica
 explicação: |
   Independentemente do comprimento da frase mnemônica, o PBKDF2 sempre gera uma semente de 512 bits.
-revisado: false
+reviewed: false

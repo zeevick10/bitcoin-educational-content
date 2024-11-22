@@ -1,8 +1,8 @@
-pertanyaan: Sifat apa dari fungsi hash yang ditunjukkan oleh perubahan total dalam hash ketika pesan berubah sedikit?
-jawaban: Efek salju
+question: Sifat apa dari fungsi hash yang ditunjukkan oleh perubahan total dalam hash ketika pesan berubah sedikit?
+answer: Efek salju
 jawaban_salah:
   - Ketahanan terhadap tabrakan
   - Ketahanan terhadap gambar kedua
   - Panjang
-penjelasan: |
+explanation: |
   Perubahan kecil pada masukan menghasilkan perubahan radikal pada hash, inilah yang disebut efek salju.

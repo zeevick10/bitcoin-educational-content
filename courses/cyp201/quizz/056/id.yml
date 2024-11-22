@@ -1,8 +1,8 @@
-pertanyaan: Konstanta apa yang digunakan untuk menurunkan kunci privat utama dari seed?
-jawaban: "Bitcoin Seed"
+question: Konstanta apa yang digunakan untuk menurunkan kunci privat utama dari seed?
+answer: "Bitcoin Seed"
 jawaban_salah:
   - "Master Key"
   - "HD Wallet Seed"
   - "Blockchain Root"
-penjelasan: |
+explanation: |
   Konstanta "Bitcoin Seed" digunakan sebagai kunci dalam fungsi HMAC-SHA512 untuk menurunkan kunci privat utama dan kode rantai utama.

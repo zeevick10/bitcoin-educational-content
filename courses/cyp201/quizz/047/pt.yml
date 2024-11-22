@@ -6,4 +6,4 @@ respostas_erradas:
   - 10 bits
 explicação: |
   Cada segmento de 11 bits corresponde a uma palavra da lista padronizada de 2048 palavras no BIP39.
-revisado: false
+reviewed: false

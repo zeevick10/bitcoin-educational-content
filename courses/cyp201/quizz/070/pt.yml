@@ -6,4 +6,4 @@ respostas_erradas:
   - O tipo de moeda
 explicação: |
   A profundidade 0 corresponde à chave mestre e ao código de cadeia mestre, que são os pontos de partida para todas as derivações em uma carteira HD.
-revisado: false
+reviewed: false

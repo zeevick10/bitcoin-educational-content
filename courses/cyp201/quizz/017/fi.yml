@@ -1,9 +1,9 @@
-kysymys: Mikä elliptinen käyrä on käytössä Bitcoin-protokollassa?
-vastaus: secp256k1
-vaarat_vastaukset:
+question: Mikä elliptinen käyrä on käytössä Bitcoin-protokollassa?
+answer: secp256k1
+wrong_answer:
   - secp256r1
   - ed25519
   - P-384
-selitys: |
+explanation: |
   Bitcoin käyttää kryptografisissa toiminnoissaan secp256k1-käyrää, joka määritellään yhtälöllä y² = x³ + 7.
-arvioitu: false
+reviewed: false

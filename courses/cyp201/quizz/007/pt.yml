@@ -6,4 +6,4 @@ respostas_erradas:
   - ShR é uma operação lógica, RotR é aritmética
 explicação: |
   ShR desloca bits para a direita adicionando zeros, enquanto RotR realiza uma rotação circular dos bits.
-revisado: false
+reviewed: false

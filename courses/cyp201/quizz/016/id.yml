@@ -1,9 +1,9 @@
-pertanyaan: Algoritma tanda tangan apa yang diperkenalkan dalam Bitcoin dengan Taproot?
-jawaban: Skema tanda tangan Schnorr
+question: Algoritma tanda tangan apa yang diperkenalkan dalam Bitcoin dengan Taproot?
+answer: Skema tanda tangan Schnorr
 jawaban_salah:
   - ECDSA
   - SHA256
   - PBKDF2
-penjelasan: |
+explanation: |
   Skema tanda tangan Schnorr diperkenalkan pada November 2021 dengan pembaruan Taproot.
 ditinjau: false

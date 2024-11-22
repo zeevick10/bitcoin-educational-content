@@ -1,9 +1,9 @@
-pregunta: ¿Cuál es una buena práctica para asegurar una frase de paso?
-respuesta: Guardarla en un medio físico separado de la frase mnemotécnica
-respuestas_incorrectas:
+question: ¿Cuál es una buena práctica para asegurar una frase de paso?
+answer: Guardarla en un medio físico separado de la frase mnemotécnica
+wrong_answer:
   - Memorizarla solo de memoria sin anotarla
   - Guardarla en el mismo medio físico que la frase mnemotécnica
   - Registrarla en un medio digital como Google Drive
-explicación: |
+explanation: |
   La frase de paso debe guardarse físicamente y separada de la frase mnemotécnica para prevenir el robo simultáneo de ambas.
-revisado: false
+reviewed: false

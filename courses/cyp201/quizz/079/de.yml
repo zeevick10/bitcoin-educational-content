@@ -1,8 +1,8 @@
-Frage: Was ist die Hauptfunktion von Output-Skript-Deskriptoren?
-Antwort: Ein Output-Skript vollständig zu beschreiben und die zur Wiederherstellung einer Wallet benötigten Informationen bereitzustellen
+question: Was ist die Hauptfunktion von Output-Skript-Deskriptoren?
+answer: Ein Output-Skript vollständig zu beschreiben und die zur Wiederherstellung einer Wallet benötigten Informationen bereitzustellen
 falsche_Antworten:
   - Automatisches Generieren von Multisignatur-Adressen
   - Ersetzen der mnemonischen Phrase in Wallet-Backups
   - Vereinfachung der Berechnungen von digitalen Signaturen
-Erklärung: |
+explanation: |
   Deskriptoren umfassen alle notwendigen Informationen, um ein bestimmtes Skript zu verfolgen, einschließlich des Ableitungspfads und der verwendeten Schlüssel, jedoch nicht der Wiederherstellungsphrase.

@@ -1,8 +1,8 @@
-pertanyaan: Apa fungsi hash yang digunakan untuk menghitung checksum dari frasa mnemonik?
-jawaban: SHA256
+question: Apa fungsi hash yang digunakan untuk menghitung checksum dari frasa mnemonik?
+answer: SHA256
 jawaban_salah:
   - RIPEMD160
   - SHA512
   - HASH256
-penjelasan: |
+explanation: |
   Checksum dari frasa mnemonik dihitung dengan menerapkan hash SHA256 sederhana pada entropi.

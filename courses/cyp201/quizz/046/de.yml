@@ -1,9 +1,9 @@
-Frage: Wie viele Bits hat die Prüfsumme für eine Entropie von 128 Bits?
-Antwort: 4 Bits
+question: Wie viele Bits hat die Prüfsumme für eine Entropie von 128 Bits?
+answer: 4 Bits
 falsche_Antworten:
   - 8 Bits
   - 16 Bits
   - 6 Bits
-Erklärung: |
+explanation: |
   Die Länge der Prüfsumme wird mit der Formel CS = ENT / 32 berechnet, was bei einer Entropie von 128 Bits 4 Bits ergibt.
 überprüft: false

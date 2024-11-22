@@ -1,9 +1,9 @@
-Frage: Wozu ermöglicht ein erweiterter öffentlicher Schlüssel die Ableitung?
-Antwort: Nur normale Kind-öffentliche Schlüssel
+question: Wozu ermöglicht ein erweiterter öffentlicher Schlüssel die Ableitung?
+answer: Nur normale Kind-öffentliche Schlüssel
 falsche_Antworten:
   - Nur normale Kind-private Schlüssel
   - Sowohl gehärtete als auch normale Kind-öffentliche Schlüssel
   - Sowohl gehärtete als auch normale Kind-private Schlüssel
-Erklärung: |
+explanation: |
   Ein erweiterter öffentlicher Schlüssel ermöglicht nur die Ableitung von normalen Kind-öffentlichen Schlüsseln, nicht von privaten Schlüsseln oder gehärteten Schlüsseln.
 überprüft: false

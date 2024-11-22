@@ -1,8 +1,8 @@
-kysymys: Mikä toimenpide on tarpeen Taproot-julkisen avaimen Q laskemiseksi?
-vastaus: Lisää muunnos tG julkiseen avaimen P
+question: Mikä toimenpide on tarpeen Taproot-julkisen avaimen Q laskemiseksi?
+answer: Lisää muunnos tG julkiseen avaimen P
 väärät_vastaukset:
   - Kerro yksityinen avain p muunnoksella
   - Tiivistä julkinen avain P SHA256:lla
   - Yhdistä muunnos t ja julkinen avain P
-selitys: |
+explanation: |
   Taproot-julkinen avain Q saadaan lisäämällä muunnoksen t skalaaritulo generaattorin G kanssa julkiseen avaimen P.

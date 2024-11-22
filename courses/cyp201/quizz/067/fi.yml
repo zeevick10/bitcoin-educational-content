@@ -1,9 +1,9 @@
-kysymys: Mikä on indeksin tarkoitus lapsiavainten johdannaisessa?
-vastaus: Erottaa sisarusavainparit
-vaarat_vastaukset:
+question: Mikä on indeksin tarkoitus lapsiavainten johdannaisessa?
+answer: Erottaa sisarusavainparit
+wrong_answer:
   - Tunnistaa avaimen luonteen (julkinen tai yksityinen)
   - Määritellä avaimen turvallisuustaso
   - Lisätä ylimääräinen turvallisuuskerros
-selitys: |
+explanation: |
   Indeksi mahdollistaa eri lasten avainten erottamisen samasta vanhempien parista.
-arvioitu: false
+reviewed: false

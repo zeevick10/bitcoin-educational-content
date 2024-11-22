@@ -1,9 +1,9 @@
-kysymys: Mitä HD-lompakko mahdollistaa verrattuna JBOK-lompakkoon?
-vastaus: Luo kaikki yksityiset avaimet yhdestä siemenestä
-vaarat_vastaukset:
+question: Mitä HD-lompakko mahdollistaa verrattuna JBOK-lompakkoon?
+answer: Luo kaikki yksityiset avaimet yhdestä siemenestä
+wrong_answer:
   - Digitaalisten allekirjoitusten turvallisuuden lisääminen
   - Saman osoitteen uudelleenkäyttö useissa siirroissa
   - Julkisten avainten käytön täydellinen välttäminen
-selitys: |
+explanation: |
   HD-lompakot johdattavat kaikki yksityiset avaimet uniikista siemenestä, mikä yksinkertaistaa varmuuskopiointia ja parantaa epäsuorasti yksityisyyttä.
-arvioitu: false
+reviewed: false

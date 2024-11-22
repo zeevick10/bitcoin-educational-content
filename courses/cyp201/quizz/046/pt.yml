@@ -6,4 +6,4 @@ respostas_erradas:
   - 6 bits
 explicação: |
   O comprimento do checksum é calculado usando a fórmula CS = ENT / 32, que resulta em 4 bits para uma entropia de 128 bits.
-revisado: false
+reviewed: false

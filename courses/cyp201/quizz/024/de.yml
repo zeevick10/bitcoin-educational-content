@@ -1,9 +1,9 @@
-Frage: Wie groß ist ein roher privater Schlüssel, der bei Bitcoin verwendet wird?
-Antwort: 256 Bits
+question: Wie groß ist ein roher privater Schlüssel, der bei Bitcoin verwendet wird?
+answer: 256 Bits
 falsche_Antworten:
   - 128 Bits
   - 512 Bits
   - 1024 Bits
-Erklärung: |
+explanation: |
   Ein privater Schlüssel bei Bitcoin ist eine 256-Bit zufällige Ganzzahl, die einen Schlüsselraum groß genug gewährleistet, um Sicherheit zu garantieren.
 überprüft: false

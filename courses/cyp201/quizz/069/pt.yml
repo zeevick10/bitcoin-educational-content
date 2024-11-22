@@ -6,4 +6,4 @@ respostas_erradas:
   - Garantir compatibilidade com o protocolo Bitcoin
 explicação: |
   O código de cadeia é usado para introduzir uma fonte adicional e única de entropia para cada chave derivada.
-revisado: false
+reviewed: false

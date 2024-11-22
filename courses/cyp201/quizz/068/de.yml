@@ -1,9 +1,9 @@
-Frage: Was ist die Einschränkung für die Ableitung eines Kind-Öffentlichen-Schlüssels von einem Eltern-Öffentlichen-Schlüssel?
-Antwort: Der Kind-Schlüssel muss normal sein
+question: Was ist die Einschränkung für die Ableitung eines Kind-Öffentlichen-Schlüssels von einem Eltern-Öffentlichen-Schlüssel?
+answer: Der Kind-Schlüssel muss normal sein
 falsche_Antworten:
   - Der Kind-Schlüssel muss gehärtet sein
   - Der Ketten-Code muss identisch mit dem des Eltern-Schlüssels sein
   - Der Prozess muss den Eltern-Privatschlüssel beinhalten
-Erklärung: |
+explanation: |
   Ein Kind-Öffentlicher-Schlüssel kann nur von einem Eltern-Öffentlichen-Schlüssel abgeleitet werden, wenn er normal und nicht gehärtet ist.
 überprüft: false

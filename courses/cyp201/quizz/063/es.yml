@@ -1,9 +1,9 @@
-pregunta: ¿Qué información no se incluye en una clave extendida?
-respuesta: El historial de transacciones de la clave
-respuestas_incorrectas:
+question: ¿Qué información no se incluye en una clave extendida?
+answer: El historial de transacciones de la clave
+wrong_answer:
   - El número de índice de la clave
   - La clave (privada o pública)
   - El código de cadena
-explicación: |
+explanation: |
   Una clave extendida contiene solo la información necesaria para derivar claves secundarias, no información relacionada con transacciones.
-revisado: false
+reviewed: false

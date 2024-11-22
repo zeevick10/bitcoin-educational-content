@@ -1,9 +1,9 @@
-Frage: Welcher Bitcoin-Standard führt hierarchisch deterministische Wallets ein?
-Antwort: BIP32
-Falsche Antworten:
+question: Welcher Bitcoin-Standard führt hierarchisch deterministische Wallets ein?
+answer: BIP32
+wrong_answer:
   - BIP39
   - BIP44
   - BIP141
-Erklärung: |
+explanation: |
   BIP32 definiert den Betrieb von HD-Wallets, die eine hierarchische Ableitung von privaten Schlüsseln aus einem Seed ermöglichen.
-Überprüft: false
+reviewed: false

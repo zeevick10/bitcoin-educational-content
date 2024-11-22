@@ -6,4 +6,4 @@ respostas_erradas:
   - A chave pública comprimida requer uma chave privada maior
 explicação: |
   Uma chave pública comprimida retém apenas a coordenada x e um bit para a paridade de y, reduzindo assim seu tamanho para 33 bytes.
-revisado: false
+reviewed: false

@@ -1,8 +1,8 @@
-pertanyaan: Fungsi apa yang digunakan untuk mendapatkan seed dari frasa mnemonik?
-jawaban: PBKDF2 dengan HMAC-SHA512
+question: Fungsi apa yang digunakan untuk mendapatkan seed dari frasa mnemonik?
+answer: PBKDF2 dengan HMAC-SHA512
 jawaban_salah:
   - SHA256 saja
   - Double SHA256
   - AES-256
-penjelasan: |
+explanation: |
   Seed dihasilkan menggunakan fungsi PBKDF2 dengan HMAC-SHA512 dan 2048 iterasi, dari frasa mnemonik dan passphrase.

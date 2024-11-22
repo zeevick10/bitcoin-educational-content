@@ -6,4 +6,4 @@ respostas_erradas:
   - Uma derivação não-padrão
 explicação: |
   Um apóstrofo indica que a derivação é endurecida, requerendo uma chave privada pai para gerar a chave filha.
-revisado: false
+reviewed: false

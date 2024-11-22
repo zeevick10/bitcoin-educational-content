@@ -6,4 +6,4 @@ respostas_erradas:
   - HASH256
 explicação: |
   O checksum de uma frase mnemônica é calculado aplicando-se um simples hash SHA256 na entropia.
-revisado: false
+reviewed: false

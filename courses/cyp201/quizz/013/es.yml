@@ -1,9 +1,9 @@
-pregunta: ¿Cuál es el papel principal de PBKDF2 en Bitcoin?
-respuesta: Generar la semilla de un monedero HD
-respuestas_incorrectas:
+question: ¿Cuál es el papel principal de PBKDF2 en Bitcoin?
+answer: Generar la semilla de un monedero HD
+wrong_answer:
   - Autenticar transacciones
   - Encriptar claves privadas
   - Crear direcciones de Bitcoin
-explicación: |
+explanation: |
   PBKDF2 se utiliza para derivar una semilla a partir de una frase mnemotécnica y una contraseña opcional.
-revisado: false
+reviewed: false

@@ -6,4 +6,4 @@ respostas_erradas:
   - Codificando diretamente em base64
 explicação: |
   Endereços Bech32 usam códigos BCH para calcular o checksum.
-revisado: false
+reviewed: false

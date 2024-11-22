@@ -1,9 +1,9 @@
-pertanyaan: Operasi matematika apa yang menjadi dasar keamanan kriptografi kurva eliptik?
-jawaban: Masalah logaritma diskrit
+question: Operasi matematika apa yang menjadi dasar keamanan kriptografi kurva eliptik?
+answer: Masalah logaritma diskrit
 jawaban_salah:
   - Faktorisasi bilangan prima
   - Perhitungan residu kuadrat
   - Masalah kubus diskrit
-penjelasan: |
+explanation: |
   Keamanan kriptografi kurva eliptik didasarkan pada kesulitan dalam menyelesaikan masalah logaritma diskrit pada kurva tersebut.
 ditinjau: false

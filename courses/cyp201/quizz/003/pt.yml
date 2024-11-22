@@ -6,4 +6,4 @@ respostas_erradas:
   - SHA256 nunca é combinado com outras funções de hash
 explicação: |
   RIPEMD160 gera hashes de 160 bits, enquanto SHA256 produz hashes de 256 bits.
-revisado: false
+reviewed: false

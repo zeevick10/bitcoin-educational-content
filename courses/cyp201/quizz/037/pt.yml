@@ -6,4 +6,4 @@ respostas_erradas:
   - Elas usam chaves públicas não comprimidas
 explicação: |
   As carteiras JBOK obrigam o usuário a fazer backup de cada chave privada individualmente, complicando seu gerenciamento.
-revisado: false
+reviewed: false

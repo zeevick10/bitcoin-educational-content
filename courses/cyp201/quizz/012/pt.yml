@@ -6,4 +6,4 @@ respostas_erradas:
   - 1024 bytes
 explicação: |
   O SHA512 utiliza blocos de 128 bytes, o que é equivalente a 1024 bits, para seus cálculos.
-revisado: false
+reviewed: false

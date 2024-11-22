@@ -1,8 +1,8 @@
-kysymys: Mikä on hyvä käytäntö salasanan turvaamiseksi?
-vastaus: Tallenna se erilliselle fyysiselle medialle kuin mnemoninen lause
-vaarat_vastaukset:
+question: Mikä on hyvä käytäntö salasanan turvaamiseksi?
+answer: Tallenna se erilliselle fyysiselle medialle kuin mnemoninen lause
+wrong_answer:
   - Opettele se ulkoa kirjaamatta sitä ylös
   - Tallenna se samalle fyysiselle medialle kuin mnemoninen lause
   - Tallenna se digitaaliselle medialle kuten Google Driveen
-selitys: |
+explanation: |
   Salasanan on oltava tallennettuna fyysisesti ja erillään mnemonisesta lauseesta, jotta molempien samanaikaista varkautta voidaan estää.

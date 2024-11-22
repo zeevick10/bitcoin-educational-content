@@ -1,9 +1,9 @@
-Frage: Welcher Ableitungsalgorithmus wird verwendet, um einen Authentifizierungscode basierend auf einem geheimen Schlüssel zu berechnen?
-Antwort: HMAC-SHA512
+question: Welcher Ableitungsalgorithmus wird verwendet, um einen Authentifizierungscode basierend auf einem geheimen Schlüssel zu berechnen?
+answer: HMAC-SHA512
 falsche_Antworten:
   - SHA512
   - SHA256
   - RIPEMD160
-Erklärung: |
+explanation: |
   HMAC-SHA512 ist ein Algorithmus, der eine Hash-Funktion und einen geheimen Schlüssel kombiniert, um einen Authentifizierungscode zu berechnen.
 überprüft: false

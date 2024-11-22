@@ -1,9 +1,9 @@
-Frage: Was passiert in jeder Kompressionsrunde bei SHA256?
-Antwort: Die Zustandsvariablen werden mit den Nachrichtenwörtern und Konstanten aktualisiert.
-Falsche Antworten:
+question: Was passiert in jeder Kompressionsrunde bei SHA256?
+answer: Die Zustandsvariablen werden mit den Nachrichtenwörtern und Konstanten aktualisiert.
+wrong_answer:
   - Der endgültige Hash wird nach jeder Runde schrittweise erzeugt.
   - Die Nachrichtenbits werden neu angeordnet.
   - Die Anfangswerte der Variablen bleiben unverändert.
-Erklärung: |
+explanation: |
   Jede Runde modifiziert die Zustandsvariablen unter Verwendung von Wörtern, Konstanten und logischen Operationen, um die Informationen zu verteilen.
-Überprüft: false
+reviewed: false

@@ -1,9 +1,9 @@
-pertanyaan: Apa titik awal untuk menghitung tanda tangan ECDSA?
-jawaban: Hash pesan
+question: Apa titik awal untuk menghitung tanda tangan ECDSA?
+answer: Hash pesan
 jawaban_salah:
   - Kunci publik
   - Nonce tetap
   - Kurva elips kustom
-penjelasan: |
+explanation: |
   Tanda tangan ECDSA dimulai dengan menghitung hash dari pesan yang akan ditandatangani, seringkali dengan SHA256.
 ditinjau: false

@@ -1,8 +1,8 @@
-kysymys: Mikä on ulostulon skriptikuvausten päätoiminto?
-vastaus: Kuvailla täysin ulostulon skripti ja tarjota tarvittavat tiedot lompakon palauttamiseen
-vaarat_vastaukset:
+question: Mikä on ulostulon skriptikuvausten päätoiminto?
+answer: Kuvailla täysin ulostulon skripti ja tarjota tarvittavat tiedot lompakon palauttamiseen
+wrong_answer:
   - Automaattisesti generoida multisignatuuri-osoitteita
   - Korvata mnemoninen lause lompakon varmuuskopioissa
   - Yksinkertaistaa digitaalisten allekirjoitusten laskelmia
-selitys: |
+explanation: |
   Kuvaajat kapseloivat kaikki tarvittavat tiedot tietyn skriptin seuraamiseksi, mukaan lukien johdannaispolku ja käytetyt avaimet, mutta eivät palautusfraasia.

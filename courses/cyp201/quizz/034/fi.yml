@@ -1,9 +1,9 @@
-kysymys: Mikä sighash-lippu on yleisimmin käytössä Bitcoin-siirroissa?
-vastaus: SIGHASH_ALL
-vaarat_vastaukset:
+question: Mikä sighash-lippu on yleisimmin käytössä Bitcoin-siirroissa?
+answer: SIGHASH_ALL
+wrong_answer:
   - SIGHASH_NONE
   - SIGHASH_SINGLE
   - SIGHASH_ANYONECANPAY
-selitys: |
+explanation: |
   SIGHASH_ALL on oletusarvoinen sighash-lippu, joka kattaa kaikki siirron sisääntulot ja ulostulot, estäen kaikki muutokset.
-arvioitu: false
+reviewed: false

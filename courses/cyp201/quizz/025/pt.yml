@@ -6,4 +6,4 @@ respostas_erradas:
   - Compactação de Assinatura
 explicação: |
   Schnorr permite a agregação de múltiplas chaves públicas em uma única chave.
-revisado: false
+reviewed: false

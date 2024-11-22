@@ -1,9 +1,9 @@
-Frage: Was ist die Hauptbeschränkung von JBOK-Wallets?
-Antwort: Sie erfordern ein unabhängiges Backup für jeden privaten Schlüssel
+question: Was ist die Hauptbeschränkung von JBOK-Wallets?
+answer: Sie erfordern ein unabhängiges Backup für jeden privaten Schlüssel
 falsche_Antworten:
   - Sie erlauben nicht die Erzeugung neuer Adressen
   - Sie sind nicht kompatibel mit digitalen Signaturen
   - Sie verwenden unkomprimierte öffentliche Schlüssel
-Erklärung: |
+explanation: |
   JBOK-Wallets zwingen den Benutzer dazu, jeden privaten Schlüssel einzeln zu sichern, was deren Verwaltung kompliziert.
 überprüft: false

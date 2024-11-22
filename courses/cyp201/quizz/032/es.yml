@@ -1,8 +1,8 @@
-pregunta: ¿Qué bandera de sighash permite el crowdfunding cubriendo una sola entrada y todas las salidas?
-respuesta: SIGHASH_ALL | SIGHASH_ANYONECANPAY
-respuestas_incorrectas:
+question: ¿Qué bandera de sighash permite el crowdfunding cubriendo una sola entrada y todas las salidas?
+answer: SIGHASH_ALL | SIGHASH_ANYONECANPAY
+wrong_answer:
   - SIGHASH_NONE | SIGHASH_ANYONECANPAY
   - SIGHASH_SINGLE | SIGHASH_ANYONECANPAY
   - SIGHASH_ALL
-explicación: |
+explanation: |
   SIGHASH_ALL combinado con SIGHASH_ANYONECANPAY permite agregar entradas sin modificar las salidas.

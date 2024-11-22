@@ -1,8 +1,8 @@
-kysymys: Mikä on SIGHASH_SINGLE:n tarkoitus?
-vastaus: Kattaa yhden syötteen ja sen vastaavan tulosteen
-vaarat_vastaukset:
+question: Mikä on SIGHASH_SINGLE:n tarkoitus?
+answer: Kattaa yhden syötteen ja sen vastaavan tulosteen
+wrong_answer:
   - Kattaa kaikki syötteet ja tulosteet
   - Kattaa vain syötteet
   - Kattaa kaikki tulosteet paitsi yhden
-selitys: |
+explanation: |
   SIGHASH_SINGLE kattaa yhden syötteen ja yhden siihen indeksillä vastaavan tulosteen, jättäen loput muokattaviksi.

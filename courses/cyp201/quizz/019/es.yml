@@ -1,9 +1,9 @@
-pregunta: ¿Qué operación matemática es la base de la seguridad de la criptografía de curva elíptica?
-respuesta: Problema del logaritmo discreto
-respuestas_incorrectas:
+question: ¿Qué operación matemática es la base de la seguridad de la criptografía de curva elíptica?
+answer: Problema del logaritmo discreto
+wrong_answer:
   - Factorización de números primos
   - Cálculo de residuos cuadráticos
   - Problema del cubo discreto
-explicación: |
+explanation: |
   La seguridad de la criptografía de curva elíptica se basa en la dificultad de resolver el problema del logaritmo discreto en estas curvas.
-revisado: false
+reviewed: false

@@ -1,9 +1,9 @@
-kysymys: Mikä on lähtökohta ECDSA-allekirjoituksen laskemiselle?
-vastaus: Viestin tiiviste
-vaarat_vastaukset:
+question: Mikä on lähtökohta ECDSA-allekirjoituksen laskemiselle?
+answer: Viestin tiiviste
+wrong_answer:
   - Julkinen avain
   - Kiinteä nonce
   - Mukautettu elliptinen käyrä
-selitys: |
+explanation: |
   ECDSA-allekirjoitus alkaa laskemalla allekirjoitettavan viestin tiivisteen, usein SHA256:n avulla.
-arvioitu: false
+reviewed: false

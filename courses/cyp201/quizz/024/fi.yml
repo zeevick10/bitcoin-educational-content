@@ -1,9 +1,9 @@
-kysymys: Mikä on Bitcoinissa käytetyn raakayksityisavaimen koko?
-vastaus: 256 bittiä
-vaarat_vastaukset:
+question: Mikä on Bitcoinissa käytetyn raakayksityisavaimen koko?
+answer: 256 bittiä
+wrong_answer:
   - 128 bittiä
   - 512 bittiä
   - 1024 bittiä
-selitys: |
+explanation: |
   Bitcoinin yksityisavain on 256-bittinen satunnaisluku, mikä takaa riittävän suuren avainavaruuden turvallisuuden takaamiseksi.
-arvioitu: false
+reviewed: false

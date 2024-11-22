@@ -1,9 +1,9 @@
-Frage: Was zeigt der Index /84'/ in der Tiefe 1 eines Ableitungspfades an?
-Antwort: Der P2WPKH-Standard (SegWit v0)
+question: Was zeigt der Index /84'/ in der Tiefe 1 eines Ableitungspfades an?
+answer: Der P2WPKH-Standard (SegWit v0)
 falsche_Antworten:
   - Der P2TR-Standard (SegWit v1)
   - Eine Bitcoin-Testnet-Währung
   - Eine Bitcoin-Mainnet-Währung
-Erklärung: |
+explanation: |
   Der Index /84'/ wird in BIP84 definiert, um die Verwendung des SegWit v0-Standards mit P2WPKH-Adressen in Tiefe 1 (der des Ableitungsziels) anzuzeigen.
 überprüft: false

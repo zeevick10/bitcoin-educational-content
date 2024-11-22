@@ -6,4 +6,4 @@ respostas_erradas:
   - Gerar bitcoins para cada usuário
 explicação: |
   Uma carteira Bitcoin não armazena diretamente os bitcoins, mas gerencia as chaves privadas necessárias para desbloquear os UTXOs que representam os bitcoins.
-revisado: false
+reviewed: false

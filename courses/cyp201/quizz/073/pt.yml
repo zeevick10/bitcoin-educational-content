@@ -6,4 +6,4 @@ respostas_erradas:
   - /2/
 explicação: |
   A cadeia externa é identificada pelo índice /0/ no nível 4 do caminho de derivação.
-revisado: false
+reviewed: false

@@ -6,4 +6,4 @@ respostas_erradas:
   - O código da cadeia
 explicação: |
   Uma chave estendida contém apenas as informações necessárias para derivar chaves filhas, não informações relacionadas a transações.
-revisado: false
+reviewed: false

@@ -1,9 +1,9 @@
-pregunta: ¿A qué corresponde la notación "/<0;1>/*" en un descriptor?
-respuesta: A la cadena externa e interna con derivación secuencial
-respuestas_incorrectas:
+question: ¿A qué corresponde la notación "/<0;1>/*" en un descriptor?
+answer: A la cadena externa e interna con derivación secuencial
+wrong_answer:
   - A una dirección de multisignatura ordenada
   - A un checksum para rutas de derivación
   - A una ruta de derivación endurecida
-explicación: |
+explanation: |
   La notación "/<0;1>/*" indica que el descriptor puede generar direcciones para la cadena externa (0) y interna (1), con derivación secuencial gracias al comodín (*).
-revisado: false
+reviewed: false

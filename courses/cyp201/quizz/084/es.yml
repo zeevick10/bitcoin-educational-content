@@ -1,9 +1,9 @@
-pregunta: ¿Cuál es el papel principal de una dirección de Bitcoin en una transacción?
-respuesta: Bloquear los UTXOs en el scriptPubKey
-respuestas_incorrectas:
+question: ¿Cuál es el papel principal de una dirección de Bitcoin en una transacción?
+answer: Bloquear los UTXOs en el scriptPubKey
+wrong_answer:
   - Desbloquear los UTXOs en el scriptSig
   - Señalar el fin de la transacción
   - Identificar el bloque de confirmación
-explicación: |
+explanation: |
   Una dirección de Bitcoin se incrusta en el scriptPubKey para bloquear los UTXOs. Determina las condiciones necesarias para desbloquear los fondos.
-revisado: false
+reviewed: false

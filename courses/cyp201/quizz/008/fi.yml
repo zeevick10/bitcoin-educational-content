@@ -1,9 +1,9 @@
-kysymys: Miksi SHA256 suorittaa esikäsittelyn syötteenä olevalle viestille?
-vastaus: Varmistaakseen, että pituus on 512 bitin monikerta
-vaarat_vastaukset:
+question: Miksi SHA256 suorittaa esikäsittelyn syötteenä olevalle viestille?
+answer: Varmistaakseen, että pituus on 512 bitin monikerta
+wrong_answer:
   - Varmistaakseen viestin eheyden
   - Salaamaan tiedot ennen hajautusta
   - Kasvattamaan tuotettujen hajautusten kokoa
-selitys: |
+explanation: |
   Esikäsittely säätää viestin pituutta lisäämällä täytebittejä ja binääriesityksen sen pituudesta.
-arvioitu: false
+reviewed: false

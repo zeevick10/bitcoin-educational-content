@@ -6,4 +6,4 @@ respostas_erradas:
   - Uma curva elíptica personalizada
 explicação: |
   Uma assinatura ECDSA começa com o cálculo do hash da mensagem a ser assinada, frequentemente com SHA256.
-revisado: false
+reviewed: false

@@ -6,4 +6,4 @@ respostas_erradas:
   - Restringir modificações a apenas uma saída
 explicação: |
   SIGHASH_NONE cobre apenas as entradas, deixando as saídas modificáveis após a assinatura.
-revisado: false
+reviewed: false

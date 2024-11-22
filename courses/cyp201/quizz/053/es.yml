@@ -1,9 +1,9 @@
-pregunta: ¿Qué sucede si pierdes la frase de paso asociada con tu monedero HD?
-respuesta: Pierdes el acceso a los bitcoins vinculados a ese monedero
-respuestas_incorrectas:
+question: ¿Qué sucede si pierdes la frase de paso asociada con tu monedero HD?
+answer: Pierdes el acceso a los bitcoins vinculados a ese monedero
+wrong_answer:
   - Todavía puedes acceder al monedero solo con la frase mnemotécnica
   - Puedes restablecer la frase de paso contactando al soporte de Bitcoin
   - Solo pierdes las transacciones no confirmadas
-explicación: |
+explanation: |
   La frase de paso es un componente esencial en la derivación de claves. Sin ella, es imposible recrear las claves y por lo tanto acceder a los bitcoins.
-revisado: false
+reviewed: false

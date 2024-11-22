@@ -1,8 +1,8 @@
-pertanyaan: Kedalaman apa dalam jalur derivasi yang menentukan tipe mata uang?
-jawaban: Kedalaman 2
+question: Kedalaman apa dalam jalur derivasi yang menentukan tipe mata uang?
+answer: Kedalaman 2
 jawaban_salah:
   - Kedalaman 1
   - Kedalaman 3
   - Kedalaman 4
-penjelasan: |
+explanation: |
   Kedalaman 2 digunakan untuk mengidentifikasi mata uang dalam dompet multi-mata uang, seperti Bitcoin (indeks 0') atau Litecoin (indeks 2').

@@ -6,4 +6,4 @@ respostas_erradas:
   - Os valores iniciais das variáveis permanecem inalterados
 explicação: |
   Cada rodada modifica as variáveis de estado usando palavras, constantes e operações lógicas para espalhar a informação.
-revisado: false
+reviewed: false

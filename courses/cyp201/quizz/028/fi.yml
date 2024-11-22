@@ -1,9 +1,9 @@
-kysymys: Mikä on pakatun julkisen avaimen koko käytettäessä Schnorr-protokollaa?
-vastaus: 32 tavua
+question: Mikä on pakatun julkisen avaimen koko käytettäessä Schnorr-protokollaa?
+answer: 32 tavua
 väärät_vastaukset:
   - 33 tavua
   - 64 tavua
   - 256 bittiä
-selitys: |
+explanation: |
   Schnorrin julkinen avain esitetään ainoastaan elliptisen käyrän pisteen x-koordinaatilla, mikä pienentää sen koon 32 tavuun.
-arvioitu: false
+reviewed: false

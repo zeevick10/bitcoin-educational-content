@@ -6,4 +6,4 @@ respostas_erradas:
   - Garantir a confidencialidade da transação
 explicação: |
   A semente é uma sequência de 512 bits derivada da frase mnemônica e da senha. Ela forma a base de todas as chaves na carteira.
-revisado: false
+reviewed: false

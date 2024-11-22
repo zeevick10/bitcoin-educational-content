@@ -6,4 +6,4 @@ respostas_erradas:
   - Identificar o bloco de confirmação
 explicação: |
   Um endereço Bitcoin é incorporado no scriptPubKey para bloquear os UTXOs. Ele determina as condições necessárias para desbloquear os fundos.
-revisado: false
+reviewed: false
