@@ -3,7 +3,7 @@ answer: Johtaa deterministisesti kaikki avaimet
 wrong_answer:
   - Allekirjoittaa suoraan siirtoja
   - Salata Bitcoin-osoitteet
-  - Luoda tiiviste UTXO:ille
+  - Luoda tiiviste UTXO: ille
 explanation: |
   Mnemoninen lause mahdollistaa kaikkien yksityisten ja julkisten avainten johtamisen lompakossa, mikä helpottaa varmuuskopiointia ja palautusta.
 reviewed: false

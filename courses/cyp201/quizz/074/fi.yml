@@ -5,5 +5,5 @@ wrong_answer:
   - Bitcoin-testnet-valuutta
   - Bitcoin-mainnet-valuutta
 explanation: |
-  Indeksi /84'/ on määritelty BIP84:ssä osoittamaan SegWit v0 -standardin käyttöä P2WPKH-osoitteiden kanssa syvyydessä 1 (johdannaiskohteen syvyys).
+  Indeksi /84'/ on määritelty BIP84: ssä osoittamaan SegWit v0 -standardin käyttöä P2WPKH-osoitteiden kanssa syvyydessä 1 (johdannaiskohteen syvyys).
 reviewed: false

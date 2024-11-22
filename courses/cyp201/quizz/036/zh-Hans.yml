@@ -1,5 +1,5 @@
-question:与JBOK钱包相比，HD钱包允许您做什么？
-answer:从单一种子生成所有私钥
+question: 与JBOK钱包相比，HD钱包允许您做什么？
+answer: 从单一种子生成所有私钥
 wrong_answers:
   - 增加数字签名的安全性
   - 对多个交易重用同一个地址

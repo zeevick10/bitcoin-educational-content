@@ -5,5 +5,5 @@ wrong_answer:
   - 16 bittiä
   - 10 bittiä
 explanation: |
-  Jokainen 11-bittinen segmentti vastaa sanaa standardoidusta 2048 sanan listasta BIP39:ssä.
+  Jokainen 11-bittinen segmentti vastaa sanaa standardoidusta 2048 sanan listasta BIP39: ssä.
 reviewed: false

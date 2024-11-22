@@ -1,5 +1,5 @@
-question:计算ECDSA签名的起点是什么？
-answer:消息哈希
+question: 计算ECDSA签名的起点是什么？
+answer: 消息哈希
 wrong_answers:
   - 公钥
   - 一个固定的随机数

@@ -1,5 +1,5 @@
-question:哪个属性确保从哈希值中计算回原始输入是不可能的？
-answer:原像抗性
+question: 哪个属性确保从哈希值中计算回原始输入是不可能的？
+answer: 原像抗性
 wrong_answers:
   - 冲突抗性
   - 雪崩效应

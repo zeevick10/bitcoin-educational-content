@@ -1,5 +1,5 @@
-question:128位熵的校验和是多少位？
-answer:4位
+question: 128位熵的校验和是多少位？
+answer: 4位
 wrong_answers:
   - 8位
   - 16位

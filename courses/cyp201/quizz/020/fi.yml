@@ -1,9 +1,9 @@
 question: Mikä on ero pakatun ja pakkaamattoman julkisen avaimen välillä?
-answer: Pakattu julkinen avain käyttää vain x-koordinaattia ja y:n pariteettia
+answer: Pakattu julkinen avain käyttää vain x-koordinaattia ja y: n pariteettia
 wrong_answer:
   - Pakattu julkinen avain on turvallisempi
-  - Pakattu julkinen avain käyttää vain y-koordinaattia ja x:n pariteettia
+  - Pakattu julkinen avain käyttää vain y-koordinaattia ja x: n pariteettia
   - Pakattu julkinen avain vaatii suuremman yksityisen avaimen
 explanation: |
-  Pakattu julkinen avain säilyttää vain x-koordinaatin ja bitin y:n pariteetille, vähentäen sen kokoa 33 tavuun.
+  Pakattu julkinen avain säilyttää vain x-koordinaatin ja bitin y: n pariteetille, vähentäen sen kokoa 33 tavuun.
 reviewed: false

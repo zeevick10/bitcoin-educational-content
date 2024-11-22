@@ -1,4 +1,4 @@
-question: Mikä vaihe edeltää HASH160:n soveltamista SegWit v0 -osoitteen luomisessa?
+question: Mikä vaihe edeltää HASH160: n soveltamista SegWit v0 -osoitteen luomisessa?
 answer: Julkisen avaimen tiivistäminen
 wrong_answer:
   - Tarkistussumman lisääminen

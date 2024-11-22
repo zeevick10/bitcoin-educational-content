@@ -1,5 +1,5 @@
-question:在比特币的背景下，HMAC使用的哈希函数是什么？
-answer:SHA512
+question: 在比特币的背景下，HMAC使用的哈希函数是什么？
+answer: SHA512
 wrong_answers:
   - SHA256
   - RIPEMD160

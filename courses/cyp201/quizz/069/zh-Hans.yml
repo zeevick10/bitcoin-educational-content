@@ -1,5 +1,5 @@
-question:链码在派生子密钥中的主要作用是什么？
-answer:引入一个额外的熵源
+question: 链码在派生子密钥中的主要作用是什么？
+answer: 引入一个额外的熵源
 wrong_answers:
   - 标识层次深度
   - 存储子密钥的索引

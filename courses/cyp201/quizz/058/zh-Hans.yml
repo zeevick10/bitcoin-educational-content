@@ -1,5 +1,5 @@
-question:用于从助记词短语中派生种子的函数是什么？
-answer:PBKDF2 与 HMAC-SHA512
+question: 用于从助记词短语中派生种子的函数是什么？
+answer: PBKDF2 与 HMAC-SHA512
 wrong_answers:
   - 仅SHA256
   - 双重SHA256

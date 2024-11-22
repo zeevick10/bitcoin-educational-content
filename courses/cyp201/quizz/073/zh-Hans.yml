@@ -1,5 +1,5 @@
-question:在派生路径中，哪个索引代表账户的外部链？
-answer:/0/
+question: 在派生路径中，哪个索引代表账户的外部链？
+answer: /0/
 wrong_answers:
   - /1/
   - /0'/

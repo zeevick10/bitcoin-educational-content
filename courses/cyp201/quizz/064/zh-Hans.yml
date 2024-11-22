@@ -1,5 +1,5 @@
-question:HD钱包中扩展密钥的主要功能是什么？
-answer:允许派生子密钥
+question: HD钱包中扩展密钥的主要功能是什么？
+answer: 允许派生子密钥
 wrong_answers:
   - 存储钱包的交易记录
   - 直接生成UTXOs

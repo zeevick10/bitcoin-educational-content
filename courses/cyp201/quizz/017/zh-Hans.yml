@@ -1,5 +1,5 @@
-question:比特币协议中使用了哪种椭圆曲线？
-answer:secp256k1
+question: 比特币协议中使用了哪种椭圆曲线？
+answer: secp256k1
 wrong_answers:
   - secp256r1
   - ed25519

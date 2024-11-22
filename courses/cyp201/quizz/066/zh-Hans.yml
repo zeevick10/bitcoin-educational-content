@@ -1,5 +1,5 @@
-question:HMAC-SHA512输出的哪一部分被用作子链码？
-answer:最后32字节
+question: HMAC-SHA512输出的哪一部分被用作子链码？
+answer: 最后32字节
 wrong_answers:
   - 前32字节
   - 整个64字节

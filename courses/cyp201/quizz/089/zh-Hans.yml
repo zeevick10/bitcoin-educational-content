@@ -1,5 +1,5 @@
-question:在生成SegWit v0地址的过程中，应用HASH160之前的步骤是什么？
-answer:压缩公钥
+question: 在生成SegWit v0地址的过程中，应用HASH160之前的步骤是什么？
+answer: 压缩公钥
 wrong_answers:
   - 添加校验和
   - 转换为bech32格式

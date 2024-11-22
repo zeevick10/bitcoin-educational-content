@@ -1,5 +1,5 @@
-question:在比特币交易中最常用的签名哈希标志是什么？
-answer:SIGHASH_ALL
+question: 在比特币交易中最常用的签名哈希标志是什么？
+answer: SIGHASH_ALL
 wrong_answers:
   - SIGHASH_NONE
   - SIGHASH_SINGLE

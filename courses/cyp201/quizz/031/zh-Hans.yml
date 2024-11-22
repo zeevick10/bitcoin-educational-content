@@ -1,5 +1,5 @@
-question:哪个修饰符可以与基本的sighash标志组合使用？
-answer:SIGHASH_ANYONECANPAY
+question: 哪个修饰符可以与基本的sighash标志组合使用？
+answer: SIGHASH_ANYONECANPAY
 wrong_answers:
   - SIGHASH_NOOUTPUT
   - SIGHASH_ALLPARTICIPANTS

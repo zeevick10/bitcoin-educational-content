@@ -1,5 +1,5 @@
-question:在标准描述符中，用于SegWit v0账户的派生路径是什么？
-answer:84h/0h/0h
+question: 在标准描述符中，用于SegWit v0账户的派生路径是什么？
+answer: 84h/0h/0h
 wrong_answers:
   - 44h/0h/0h
   - 86h/0h/0h

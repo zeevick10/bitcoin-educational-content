@@ -5,5 +5,5 @@ wrong_answer:
   - Kiinteä nonce
   - Mukautettu elliptinen käyrä
 explanation: |
-  ECDSA-allekirjoitus alkaa laskemalla allekirjoitettavan viestin tiivisteen, usein SHA256:n avulla.
+  ECDSA-allekirjoitus alkaa laskemalla allekirjoitettavan viestin tiivisteen, usein SHA256: n avulla.
 reviewed: false

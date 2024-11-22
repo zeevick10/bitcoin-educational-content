@@ -1,5 +1,5 @@
-question:椭圆曲线上的标量乘法的主要特征是什么？
-answer:单向函数
+question: 椭圆曲线上的标量乘法的主要特征是什么？
+answer: 单向函数
 wrong_answers:
   - 容易逆转
   - 基于质数分解

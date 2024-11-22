@@ -3,6 +3,6 @@ answer: Simuloida lompakkoa, jossa on pieni määrä varoja fyysisen pakottamise
 wrong_answer:
   - Lisätä automaattinen varmuuskopio transaktioista
   - Luoda lisäinen muistisääntö
-  - Suojata UTXO:t kaksoiskulutukselta
+  - Suojata UTXO: t kaksoiskulutukselta
 explanation: |
   Harhautuslompakkoa käytetään ohjaamaan hyökkääjän huomio pois antamalla pääsyn lompakkoon, jossa on pieni määrä bitcoineja.

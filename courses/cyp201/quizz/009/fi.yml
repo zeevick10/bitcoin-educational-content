@@ -1,4 +1,4 @@
-question: Mikä rakenne on käytössä SHA256:ssa käsittelemään mielivaltaisen pituisia viestejä?
+question: Mikä rakenne on käytössä SHA256: ssa käsittelemään mielivaltaisen pituisia viestejä?
 answer: Merkle-Damgårdin rakenne
 wrong_answer:
   - Euklidinen rakenne

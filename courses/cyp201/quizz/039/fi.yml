@@ -5,5 +5,5 @@ wrong_answer:
   - Varmistaa automaattisesti tapahtumien luottamuksellisuuden
   - Generoida bitcoineja jokaiselle käyttäjälle
 explanation: |
-  Bitcoin-lompakko ei suoraan säilytä bitcoineja, vaan hallinnoi yksityisiä avaimia, jotka ovat tarpeen UTXO:iden avaamiseksi, jotka edustavat bitcoineja.
+  Bitcoin-lompakko ei suoraan säilytä bitcoineja, vaan hallinnoi yksityisiä avaimia, jotka ovat tarpeen UTXO: iden avaamiseksi, jotka edustavat bitcoineja.
 reviewed: false

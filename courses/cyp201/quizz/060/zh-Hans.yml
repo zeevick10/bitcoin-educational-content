@@ -1,5 +1,5 @@
-question:与“zpub”前缀关联的密钥类型是什么？
-answer:主网上SegWit V0的扩展公钥
+question: 与“zpub”前缀关联的密钥类型是什么？
+answer: 主网上SegWit V0的扩展公钥
 wrong_answers:
   - 主网上SegWit V1的扩展私钥
   - 测试网上旧版的扩展公钥

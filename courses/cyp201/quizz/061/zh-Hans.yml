@@ -1,5 +1,5 @@
-question:带校验和的扩展密钥的总大小是多少？
-answer:82字节
+question: 带校验和的扩展密钥的总大小是多少？
+answer: 82字节
 wrong_answers:
   - 78字节
   - 64字节

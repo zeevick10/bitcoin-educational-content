@@ -1,5 +1,5 @@
-question:JBOK钱包的主要限制是什么？
-answer:它们需要为每个私钥进行独立备份
+question: JBOK钱包的主要限制是什么？
+answer: 它们需要为每个私钥进行独立备份
 wrong_answers:
   - 它们不允许生成新地址
   - 它们与数字签名不兼容

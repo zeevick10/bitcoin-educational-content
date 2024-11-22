@@ -1,5 +1,5 @@
-question:比特币地址在交易中的主要作用是什么？
-answer:在scriptPubKey中锁定UTXOs
+question: 比特币地址在交易中的主要作用是什么？
+answer: 在scriptPubKey中锁定UTXOs
 wrong_answers:
   - 在scriptSig中解锁UTXOs
   - 标志交易的结束

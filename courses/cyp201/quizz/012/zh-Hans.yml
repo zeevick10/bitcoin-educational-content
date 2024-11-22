@@ -1,5 +1,5 @@
-question:SHA512在HMAC中使用的块大小是多少？
-answer:128字节
+question: SHA512在HMAC中使用的块大小是多少？
+answer: 128字节
 wrong_answers:
   - 64字节
   - 256字节

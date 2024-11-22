@@ -1,5 +1,5 @@
-question:导出路径深度1处的索引 /84'/ 表示什么？
-answer:P2WPKH标准（SegWit v0）
+question: 导出路径深度1处的索引 /84'/ 表示什么？
+answer: P2WPKH标准（SegWit v0）
 wrong_answers:
   - P2TR标准（SegWit v1）
   - 一个比特币测试网货币

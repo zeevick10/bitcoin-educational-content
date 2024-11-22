@@ -1,5 +1,5 @@
-question:椭圆曲线密码学的安全性基础是什么数学运算？
-answer:离散对数问题
+question: 椭圆曲线密码学的安全性基础是什么数学运算？
+answer: 离散对数问题
 wrong_answers:
   - 质数分解
   - 计算二次剩余

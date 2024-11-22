@@ -1,5 +1,5 @@
-question:比特币HD钱包中的助记词的目的是什么？
-answer:确定性地派生所有密钥
+question: 比特币HD钱包中的助记词的目的是什么？
+answer: 确定性地派生所有密钥
 wrong_answers:
   - 直接签署交易
   - 加密比特币地址

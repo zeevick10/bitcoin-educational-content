@@ -5,5 +5,5 @@ wrong_answer:
   - Mnemoninen lauseke
   - Pakattu julkinen avain
 explanation: |
-  Elliptisen käyrän secp256k1 generaattoripiste G:tä käytetään julkisten avainten laskemiseen yksityisistä avaimista.
+  Elliptisen käyrän secp256k1 generaattoripiste G: tä käytetään julkisten avainten laskemiseen yksityisistä avaimista.
 reviewed: false

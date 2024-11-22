@@ -1,5 +1,5 @@
-question:在比特币中，所有参与者用来计算公钥的共同点是什么？
-answer:生成器点 G
+question: 在比特币中，所有参与者用来计算公钥的共同点是什么？
+answer: 生成器点 G
 wrong_answers:
   - SHA256 散列
   - 助记词

@@ -1,5 +1,5 @@
-question:ShR和RotR操作之间的主要区别是什么？
-answer:ShR通过添加零来移位，而RotR重新插入被移位的比特
+question: ShR和RotR操作之间的主要区别是什么？
+answer: ShR通过添加零来移位，而RotR重新插入被移位的比特
 wrong_answers:
   - ShR移除了被移位的比特，RotR乘以它们的值
   - ShR向左移位，RotR向右移位

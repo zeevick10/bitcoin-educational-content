@@ -1,5 +1,5 @@
-question:比特币启动时使用了哪种数字签名算法？
-answer:ECDSA
+question: 比特币启动时使用了哪种数字签名算法？
+answer: ECDSA
 wrong_answers:
   - Schnorr
   - RSA

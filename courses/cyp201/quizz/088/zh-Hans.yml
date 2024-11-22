@@ -1,5 +1,5 @@
-question:用于表示具有奇数y坐标的压缩公钥的前缀是什么？
-answer:0x03
+question: 用于表示具有奇数y坐标的压缩公钥的前缀是什么？
+answer: 0x03
 wrong_answers:
   - 0x02
   - 0x04

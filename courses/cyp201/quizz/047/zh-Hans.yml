@@ -1,5 +1,5 @@
-question:用于创建每个助记词的二进制段的大小是多少位？
-answer:11位
+question: 用于创建每个助记词的二进制段的大小是多少位？
+answer: 11位
 wrong_answers:
   - 8位
   - 16位

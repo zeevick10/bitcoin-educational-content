@@ -1,5 +1,5 @@
-question:PBKDF2生成的种子大小是多少？
-answer:512位
+question: PBKDF2生成的种子大小是多少？
+answer: 512位
 wrong_answers:
   - 128位
   - 256位

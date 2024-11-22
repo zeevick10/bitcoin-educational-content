@@ -1,5 +1,5 @@
-question:用于计算助记词校验和的哈希函数是什么？
-answer:SHA256
+question: 用于计算助记词校验和的哈希函数是什么？
+answer: SHA256
 wrong_answers:
   - RIPEMD160
   - SHA512

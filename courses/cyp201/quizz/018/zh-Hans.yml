@@ -1,5 +1,5 @@
-question:为什么比特币没有使用椭圆曲线secp256r1？
-answer:可能是为了避免后门
+question: 为什么比特币没有使用椭圆曲线secp256r1？
+answer: 可能是为了避免后门
 wrong_answers:
   - 因为它太慢了
   - 因为它没有被标准化

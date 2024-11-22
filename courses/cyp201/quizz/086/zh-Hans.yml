@@ -1,5 +1,5 @@
-question:如何计算以bech32编码的SegWit v0地址的校验和？
-answer:使用BCH码
+question: 如何计算以bech32编码的SegWit v0地址的校验和？
+answer: 使用BCH码
 wrong_answers:
   - 通过两次应用HASH256
   - 通过添加一个RIPEMD160哈希
