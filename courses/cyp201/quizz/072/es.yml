@@ -1,6 +1,6 @@
 question: ¿Qué significa un apóstrofo (') o la "h" en una ruta de derivación?
 answer: Una derivación endurecida
-wrong_answer:
+wrong_answers:
   - Una derivación normal
   - Una derivación externa
   - Una derivación no estándar

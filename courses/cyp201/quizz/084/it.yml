@@ -1,6 +1,6 @@
 question: Qual è il ruolo principale di un indirizzo Bitcoin in una transazione?
 answer: Bloccare gli UTXO nello scriptPubKey
-wrong_answer:
+wrong_answers:
   - Sbloccare gli UTXO nello scriptSig
   - Segnalare la fine della transazione
   - Identificare il blocco di conferma

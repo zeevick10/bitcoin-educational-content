@@ -1,6 +1,6 @@
 question: Was ist der gemeinsame Punkt, der von allen Teilnehmern verwendet wird, um einen öffentlichen Schlüssel in Bitcoin zu berechnen?
 answer: Der Generatorpunkt G
-wrong_answer:
+wrong_answers:
   - Der SHA256-Hash
   - Eine mnemonische Phrase
   - Der komprimierte öffentliche Schlüssel

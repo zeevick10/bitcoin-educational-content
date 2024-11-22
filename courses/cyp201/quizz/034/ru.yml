@@ -1,8 +1,8 @@
-Вопрос: Какой флаг sighash наиболее часто используется в транзакциях Bitcoin?
-Ответ: SIGHASH_ALL
-Неверные ответы:
+question: Какой флаг sighash наиболее часто используется в транзакциях Bitcoin?
+answer: SIGHASH_ALL
+wrong_answers:
   - SIGHASH_NONE
   - SIGHASH_SINGLE
   - SIGHASH_ANYONECANPAY
-Объяснение: |
+explanation: |
   SIGHASH_ALL является флагом sighash по умолчанию, охватывающим все входы и выходы транзакции, что предотвращает любые модификации.

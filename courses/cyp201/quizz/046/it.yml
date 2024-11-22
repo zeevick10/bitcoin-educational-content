@@ -1,6 +1,6 @@
 question: Quanti bit ha il checksum per un'entropia di 128 bit?
 answer: 4 bit
-wrong_answer:
+wrong_answers:
   - 8 bit
   - 16 bit
   - 6 bit

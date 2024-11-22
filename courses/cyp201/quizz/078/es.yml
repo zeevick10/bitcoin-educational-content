@@ -1,6 +1,6 @@
 question: ¿Qué significa el prefijo `wpkh` en un descriptor?
 answer: Pago-a-Testigo-Hash-de-Clave-Pública
-wrong_answer:
+wrong_answers:
   - Pago-a-Clave-Pública
   - Pago-a-Hash-de-Script
   - Hash de Script de Testigo

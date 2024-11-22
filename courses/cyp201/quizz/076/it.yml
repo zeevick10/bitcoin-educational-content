@@ -1,6 +1,6 @@
 question: A cosa corrisponde la notazione "/<0;1>/*" in un descrittore?
 answer: Alla catena esterna e interna con derivazione sequenziale
-wrong_answer:
+wrong_answers:
   - A un indirizzo multisignature ordinato
   - A un checksum per i percorsi di derivazione
   - A un percorso di derivazione rinforzato

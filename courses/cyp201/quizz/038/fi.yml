@@ -1,6 +1,6 @@
 question: Miksi Bitcoin-osoitteen uudelleenkäyttöä ei suositella?
 answer: Se helpottaa kolmansien osapuolien tekemää transaktioiden seurantaa
-wrong_answer:
+wrong_answers:
   - Se paljastaa yksityisen avaimen noncen takia
   - Se tekee transaktioista kalliimpia
   - Se mitätöi digitaaliset allekirjoitukset

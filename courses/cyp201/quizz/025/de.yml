@@ -1,6 +1,6 @@
 question: Welche Eigenschaft von Schnorr ermöglicht es, mehrere öffentliche Schlüssel zu einem zu kombinieren?
 answer: Schlüsselaggregation
-wrong_answer:
+wrong_answers:
   - Stapelverifizierung
   - Verformbarkeit
   - Signaturkompaktierung

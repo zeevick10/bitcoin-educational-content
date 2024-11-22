@@ -1,6 +1,6 @@
 question: Qual è la differenza tra una chiave pubblica compressa e una non compressa?
 answer: La chiave pubblica compressa utilizza solo la coordinata x e la parità di y
-wrong_answer:
+wrong_answers:
   - La chiave pubblica compressa è più sicura
   - La chiave pubblica compressa utilizza solo la coordinata y e la parità di x
   - La chiave pubblica compressa richiede una chiave privata più grande

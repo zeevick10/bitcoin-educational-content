@@ -1,6 +1,6 @@
 question: Kuinka moniin osiin HMAC-SHA512-funktion siemenen tuotos jaetaan?
 answer: Kahteen 256 bitin osaan
-wrong_answer:
+wrong_answers:
   - Yhteen yksittäiseen 512 bitin osaan
   - Kolmeen 170 bitin osaan
   - Neljään 128 bitin osaan

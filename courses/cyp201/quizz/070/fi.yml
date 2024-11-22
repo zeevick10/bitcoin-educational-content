@@ -1,6 +1,6 @@
 question: Mitä syvyys 0 edustaa HD-lompakoiden hierarkiassa?
 answer: Pääavain ja pääketjukoodi
-wrong_answer:
+wrong_answers:
   - Ulkoinen osoiteketju
   - Oletustili
   - Valuutan tyyppi

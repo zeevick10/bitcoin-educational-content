@@ -1,6 +1,6 @@
 question: Mikä digitaalisen allekirjoituksen algoritmi otettiin käyttöön Bitcoinin lanseerauksessa?
 answer: ECDSA
-wrong_answer:
+wrong_answers:
   - Schnorr
   - RSA
   - HMAC

@@ -1,6 +1,6 @@
 question: Mikä sighash-lippu mahdollistaa joukkorahoituksen kattamalla yhden syötteen ja kaikki tulosteet?
 answer: SIGHASH_ALL | SIGHASH_ANYONECANPAY
-wrong_answer:
+wrong_answers:
   - SIGHASH_NONE | SIGHASH_ANYONECANPAY
   - SIGHASH_SINGLE | SIGHASH_ANYONECANPAY
   - SIGHASH_ALL

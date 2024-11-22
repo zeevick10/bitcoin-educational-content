@@ -1,6 +1,6 @@
 question: In wie viele Teile wird die Ausgabe der HMAC-SHA512-Funktion, die auf den Seed angewendet wird, unterteilt?
 answer: Zwei Teile zu je 256 Bits
-wrong_answer:
+wrong_answers:
   - Ein einzelner Teil von 512 Bits
   - Drei Teile zu je 170 Bits
   - Vier Teile zu je 128 Bits

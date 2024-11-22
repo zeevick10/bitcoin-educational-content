@@ -1,6 +1,6 @@
 question: Která funkce se používá k odvození seedu z mnemonické fráze?
 answer: PBKDF2 s HMAC-SHA512
-wrong_answer:
+wrong_answers:
   - Pouze SHA256
   - Dvojitý SHA256
   - AES-256

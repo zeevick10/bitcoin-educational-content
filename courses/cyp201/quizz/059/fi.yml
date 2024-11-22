@@ -1,6 +1,6 @@
 question: Mikä on siemenen rooli Bitcoin HD-lompakossa?
 answer: Toimia kaikkien avainten johdannan lähtökohtana
-wrong_answer:
+wrong_answers:
   - Tallentaa lompakon tapahtumat
   - Luoda suoraan pääjulkinen avain
   - Varmistaa tapahtumien luottamuksellisuuden

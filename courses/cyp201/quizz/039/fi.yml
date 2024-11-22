@@ -1,6 +1,6 @@
 question: Mikä on Bitcoin-lompakon pääasiallinen tehtävä?
 answer: Hallita ja turvata yksityisiä avaimia
-wrong_answer:
+wrong_answers:
   - Säilyttää käyttäjän bitcoinit
   - Varmistaa automaattisesti tapahtumien luottamuksellisuuden
   - Generoida bitcoineja jokaiselle käyttäjälle

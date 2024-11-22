@@ -1,6 +1,6 @@
 question: Welche Kodierung wird verwendet, um SegWit v0-Adressen darzustellen?
 answer: bech32
-wrong_answer:
+wrong_answers:
   - base58check
   - bech32m
   - base64

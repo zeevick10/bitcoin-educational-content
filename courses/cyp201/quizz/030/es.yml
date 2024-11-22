@@ -1,6 +1,6 @@
 question: ¿Cuál es el propósito de SIGHASH_SINGLE?
 answer: Cubrir una entrada y su salida correspondiente
-wrong_answer:
+wrong_answers:
   - Cubrir todas las entradas y salidas
   - Cubrir solo las entradas
   - Cubrir todas las salidas excepto una

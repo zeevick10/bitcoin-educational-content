@@ -1,6 +1,6 @@
 question: Mikä on bittikoko binäärisegmentissä, jota käytetään kunkin muistisanan luomiseen?
 answer: 11 bittiä
-wrong_answer:
+wrong_answers:
   - 8 bittiä
   - 16 bittiä
   - 10 bittiä

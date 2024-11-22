@@ -1,6 +1,6 @@
 question: Was ist der Zweck der Verwendung eines Täuschungs-Wallets mit einer Passphrase?
 answer: Ein Wallet mit einem kleinen Betrag zu simulieren, im Falle physischer Nötigung
-wrong_answer:
+wrong_answers:
   - Eine automatische Sicherung von Transaktionen hinzufügen
   - Eine zusätzliche mnemonische Phrase generieren
   - UTXOs vor einem Double-Spend schützen

@@ -1,6 +1,6 @@
 question: Mengapa kebalikan tidak mungkin di SHA256?
 answer: Operasi yang digunakan menghilangkan informasi dan bersifat satu arah
-wrong_answer:
+wrong_answers:
   - Pesan dienkripsi sebelum di-hash
   - Bit disusun ulang secara acak
   - Setiap hash disimpan dalam sebuah database

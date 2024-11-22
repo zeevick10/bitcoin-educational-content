@@ -1,6 +1,6 @@
 question: ¿Qué constante se utiliza para derivar la clave privada maestra a partir de la semilla?
 answer: "Bitcoin Seed"
-wrong_answer:
+wrong_answers:
   - "Master Key"
   - "HD Wallet Seed"
   - "Blockchain Root"

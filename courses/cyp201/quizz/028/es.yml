@@ -1,6 +1,6 @@
 question: ¿Cuál es el tamaño de una clave pública comprimida utilizando el protocolo Schnorr?
 answer: 32 bytes
-wrong_answer:
+wrong_answers:
   - 33 bytes
   - 64 bytes
   - 256 bits

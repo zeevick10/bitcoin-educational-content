@@ -1,6 +1,6 @@
 question: Was ist der Hauptunterschied zwischen SHA256 und RIPEMD160?
 answer: RIPEMD160 erzeugt kürzere Hashes als SHA256
-wrong_answer:
+wrong_answers:
   - SHA256 ist veraltet, im Gegensatz zu RIPEMD160
   - RIPEMD160 wird nur im Proof-of-Work-Mechanismus verwendet
   - SHA256 wird nie mit anderen Hashfunktionen kombiniert

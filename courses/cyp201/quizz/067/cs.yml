@@ -1,6 +1,6 @@
 question: Jaký je účel indexu při odvozování dětských klíčů?
 answer: Odlišit páry sourozeneckých klíčů
-wrong_answer:
+wrong_answers:
   - Určit povahu klíče (veřejný nebo soukromý)
   - Specifikovat bezpečnostní úroveň klíče
   - Přidat další vrstvu zabezpečení

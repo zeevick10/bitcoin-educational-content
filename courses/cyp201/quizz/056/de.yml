@@ -1,6 +1,6 @@
 question: Welche Konstante wird verwendet, um den Master-Privatschlüssel aus dem Seed abzuleiten?
 answer: "Bitcoin Seed"
-wrong_answer:
+wrong_answers:
   - "Master Key"
   - "HD Wallet Seed"
   - "Blockchain Root"

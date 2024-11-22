@@ -1,6 +1,6 @@
 question: Wie groß ist die Gesamtgröße eines erweiterten Schlüssels mit Prüfsumme?
 answer: 82 Bytes
-wrong_answer:
+wrong_answers:
   - 78 Bytes
   - 64 Bytes
   - 128 Bytes

@@ -1,6 +1,6 @@
 question: Welche Tiefe im Ableitungspfad gibt den Währungstyp an?
 answer: Tiefe 2
-wrong_answer:
+wrong_answers:
   - Tiefe 1
   - Tiefe 3
   - Tiefe 4

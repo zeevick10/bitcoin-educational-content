@@ -1,6 +1,6 @@
 question: Mikä matemaattinen operaatio on elliptisen käyrän kryptografian turvallisuuden perustana?
 answer: Diskreetin logaritmin ongelma
-wrong_answer:
+wrong_answers:
   - Alkulukujen tekijöihin jakaminen
   - Kvadraattisten jäännösten laskeminen
   - Diskreetti kuutio-ongelma

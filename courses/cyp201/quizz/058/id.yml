@@ -1,6 +1,6 @@
 question: Fungsi apa yang digunakan untuk mendapatkan seed dari frasa mnemonik?
 answer: PBKDF2 dengan HMAC-SHA512
-wrong_answer:
+wrong_answers:
   - SHA256 saja
   - Double SHA256
   - AES-256

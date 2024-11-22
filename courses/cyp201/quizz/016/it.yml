@@ -1,6 +1,6 @@
 question: Quale algoritmo di firma è stato introdotto in Bitcoin con Taproot?
 answer: Schema di firma Schnorr
-wrong_answer:
+wrong_answers:
   - ECDSA
   - SHA256
   - PBKDF2

@@ -1,6 +1,6 @@
 question: Jaký je účel SIGHASH_SINGLE?
 answer: Pokrýt jeden vstup a jeho odpovídající výstup
-wrong_answer:
+wrong_answers:
   - Pokrýt všechny vstupy a výstupy
   - Pokrýt pouze vstupy
   - Pokrýt všechny výstupy kromě jednoho

@@ -1,6 +1,6 @@
 question: A quale profondità nel percorso di derivazione si specifica il tipo di valuta?
 answer: Profondità 2
-wrong_answer:
+wrong_answers:
   - Profondità 1
   - Profondità 3
   - Profondità 4

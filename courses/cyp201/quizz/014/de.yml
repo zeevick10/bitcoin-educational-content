@@ -1,6 +1,6 @@
 question: Wie viele Iterationen verwendet PBKDF2 in Bitcoin?
 answer: 2048
-wrong_answer:
+wrong_answers:
   - 1024
   - 4096
   - 512

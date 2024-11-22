@@ -1,6 +1,6 @@
 question: ¿Cuál es el punto de partida para calcular una firma ECDSA?
 answer: El hash del mensaje
-wrong_answer:
+wrong_answers:
   - La clave pública
   - Un nonce fijo
   - Una curva elíptica personalizada

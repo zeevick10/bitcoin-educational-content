@@ -1,6 +1,6 @@
 question: Apa perbedaan utama antara passphrase dan kode PIN untuk dompet Bitcoin?
 answer: Passphrase mengubah derivasi kunci, bukan kode PIN
-wrong_answer:
+wrong_answers:
   - Kode PIN terkait dengan frasa mnemonik
   - Kode PIN digunakan untuk mengenkripsi transaksi tetapi tidak untuk passphrase
   - Kode PIN menghasilkan alamat Bitcoin

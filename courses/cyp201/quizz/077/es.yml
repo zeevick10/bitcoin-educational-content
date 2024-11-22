@@ -1,6 +1,6 @@
 question: ¿Por qué son los descriptores particularmente útiles para las carteras multisignatura?
 answer: Incluyen el xpub de cada factor y describen la estructura multisignatura
-respuestas_erróneas:
+wrong_answers:
   - Eliminan la necesidad de una frase mnemotécnica
   - Simplifican la generación de claves endurecidas
   - Hacen que las multisignaturas sean compatibles con todos los scripts

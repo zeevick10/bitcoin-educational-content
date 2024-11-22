@@ -1,6 +1,6 @@
 question: Qual è il ruolo del seed in un portafoglio Bitcoin HD?
 answer: Fungere da punto di partenza per la derivazione di tutte le chiavi
-wrong_answer:
+wrong_answers:
   - Memorizzare le transazioni del portafoglio
   - Generare direttamente la chiave pubblica master
   - Garantire la riservatezza della transazione

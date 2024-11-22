@@ -1,6 +1,6 @@
 question: Qual è lo scopo della frase mnemonica in un portafoglio Bitcoin HD?
 answer: Derivare deterministicamente tutte le chiavi
-wrong_answer:
+wrong_answers:
   - Firmare direttamente le transazioni
   - Criptare gli indirizzi Bitcoin
   - Generare un hash per gli UTXO

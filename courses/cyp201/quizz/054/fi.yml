@@ -1,6 +1,6 @@
 question: Mikä on pääasiallinen rooli salasanalla Bitcoin HD-lompakossa?
 answer: Muuttaa avaimen johdannan parantaakseen turvallisuutta
-wrong_answer:
+wrong_answers:
   - Purkaa odottavat transaktiot
   - Generoida lompakon UTXO: t
   - Suojata lompakon pääsy kasvojentunnistuksella

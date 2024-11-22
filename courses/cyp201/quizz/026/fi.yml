@@ -1,6 +1,6 @@
 question: Mikä on lähtökohta ECDSA-allekirjoituksen laskemiselle?
 answer: Viestin tiiviste
-wrong_answer:
+wrong_answers:
   - Julkinen avain
   - Kiinteä nonce
   - Mukautettu elliptinen käyrä

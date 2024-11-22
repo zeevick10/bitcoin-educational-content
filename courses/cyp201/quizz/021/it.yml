@@ -1,6 +1,6 @@
 question: Qual è la caratteristica principale della moltiplicazione scalare sulle curve ellittiche?
 answer: Funzione unidirezionale
-wrong_answer:
+wrong_answers:
   - Facilmente reversibile
   - Basata sulla fattorizzazione di numeri primi
   - Molto lunga da calcolare

@@ -1,6 +1,6 @@
 question: ¿Qué información no se incluye en una clave extendida?
 answer: El historial de transacciones de la clave
-wrong_answer:
+wrong_answers:
   - El número de índice de la clave
   - La clave (privada o pública)
   - El código de cadena

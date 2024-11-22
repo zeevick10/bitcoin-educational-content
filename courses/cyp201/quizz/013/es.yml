@@ -1,6 +1,6 @@
 question: ¿Cuál es el papel principal de PBKDF2 en Bitcoin?
 answer: Generar la semilla de un monedero HD
-wrong_answer:
+wrong_answers:
   - Autenticar transacciones
   - Encriptar claves privadas
   - Crear direcciones de Bitcoin

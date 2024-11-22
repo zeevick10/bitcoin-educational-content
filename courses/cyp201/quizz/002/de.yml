@@ -1,6 +1,6 @@
 question: Welche Eigenschaft von Hash-Funktionen wird durch eine vollständige Änderung des Hashs bei einer geringfügigen Änderung der Nachricht demonstriert?
 answer: Der Lawineneffekt
-wrong_answer:
+wrong_answers:
   - Kollisionsresistenz
   - Widerstand gegen zweite Urbilder
   - Länge

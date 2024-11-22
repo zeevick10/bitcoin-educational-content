@@ -1,6 +1,6 @@
 question: ¿Qué índice representa la cadena externa de una cuenta en una ruta de derivación?
 answer: /0/
-wrong_answer:
+wrong_answers:
   - /1/
   - /0'/
   - /2/

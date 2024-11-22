@@ -1,6 +1,6 @@
 question: ¿Cuál es el punto común utilizado por todos los participantes para calcular una clave pública en Bitcoin?
 answer: El punto generador G
-wrong_answer:
+wrong_answers:
   - El hash SHA256
   - Una frase mnemotécnica
   - La clave pública comprimida

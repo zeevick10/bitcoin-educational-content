@@ -1,6 +1,6 @@
 question: Kolik bitů entropie se používá pro 24-slovní mnemonickou frázi?
 answer: 256 bitů
-wrong_answer:
+wrong_answers:
   - 128 bitů
   - 512 bitů
   - 64 bitů

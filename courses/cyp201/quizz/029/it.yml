@@ -1,6 +1,6 @@
 question: Quale algoritmo di firma digitale è stato utilizzato al lancio di Bitcoin?
 answer: ECDSA
-wrong_answer:
+wrong_answers:
   - Schnorr
   - RSA
   - HMAC

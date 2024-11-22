@@ -1,6 +1,6 @@
 question: ¿Por qué es riesgoso generar entropía manualmente para un monedero HD?
 answer: Puede introducir debilidades humanas o sesgos predecibles
-wrong_answer:
+wrong_answers:
   - Resulta en claves públicas inválidas
   - Bloquea la derivación de claves privadas
   - Limita el tamaño de las frases mnemotécnicas generadas

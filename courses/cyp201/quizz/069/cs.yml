@@ -1,6 +1,6 @@
 question: Jaká je hlavní role řetězcového kódu při odvozování dětských klíčů?
 answer: Přidat další zdroj entropie
-wrong_answer:
+wrong_answers:
   - Určit hierarchickou hloubku
   - Uchovávat indexy dětských klíčů
   - Zajistit kompatibilitu s protokolem Bitcoin

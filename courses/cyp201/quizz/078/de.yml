@@ -1,6 +1,6 @@
 question: Was bedeutet das Präfix `wpkh` in einem Deskriptor?
 answer: Pay-to-Witness-PubKey-Hash
-wrong_answer:
+wrong_answers:
   - Pay-to-PubKey
   - Pay-to-Script-Hash
   - Witness Script Hash

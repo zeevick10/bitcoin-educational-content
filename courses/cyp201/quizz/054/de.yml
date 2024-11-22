@@ -1,6 +1,6 @@
 question: Was ist die Hauptfunktion der Passphrase in einem Bitcoin-HD-Wallet?
 answer: Die Ableitung des Schlüssels zu modifizieren, um die Sicherheit zu erhöhen
-wrong_answer:
+wrong_answers:
   - Ausstehende Transaktionen entschlüsseln
   - Die UTXOs des Wallets generieren
   - Zugriff auf das Wallet mit Gesichtserkennung schützen

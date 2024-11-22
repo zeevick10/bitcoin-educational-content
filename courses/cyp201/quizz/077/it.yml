@@ -1,6 +1,6 @@
 question: Perché i descrittori sono particolarmente utili per i portafogli multisignatura?
 answer: Includono l'xpub di ogni fattore e descrivono la struttura multisignatura
-wrong_answer:
+wrong_answers:
   - Eliminano la necessità di una frase mnemonica
   - Semplificano la generazione di chiavi rinforzate
   - Rendono le multisignature compatibili con tutti gli script

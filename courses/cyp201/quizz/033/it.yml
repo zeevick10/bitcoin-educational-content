@@ -1,6 +1,6 @@
 question: Cosa permette il flag sighash SIGHASH_NONE?
 answer: Modificare gli output dopo la firma
-wrong_answer:
+wrong_answers:
   - Modificare gli input dopo la firma
   - Coprire tutti gli input e gli output
   - Limitare le modifiche a un solo output

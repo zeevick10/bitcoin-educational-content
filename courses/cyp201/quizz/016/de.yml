@@ -1,6 +1,6 @@
 question: Welcher Signaturalgorithmus wurde mit Taproot in Bitcoin eingeführt?
 answer: Schnorr-Signaturverfahren
-wrong_answer:
+wrong_answers:
   - ECDSA
   - SHA256
   - PBKDF2

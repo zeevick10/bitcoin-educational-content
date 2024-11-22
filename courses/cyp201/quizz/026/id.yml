@@ -1,6 +1,6 @@
 question: Apa titik awal untuk menghitung tanda tangan ECDSA?
 answer: Hash pesan
-wrong_answer:
+wrong_answers:
   - Kunci publik
   - Nonce tetap
   - Kurva elips kustom

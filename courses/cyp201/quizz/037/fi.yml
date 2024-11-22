@@ -1,6 +1,6 @@
 question: Mikä on JBOK-lompakoiden pääasiallinen rajoitus?
 answer: Ne vaativat itsenäisen varmuuskopion jokaiselle yksityiselle avaimelle
-wrong_answer:
+wrong_answers:
   - Ne eivät salli uusien osoitteiden luomista
   - Ne eivät ole yhteensopivia digitaalisten allekirjoitusten kanssa
   - Ne käyttävät pakkaamattomia julkisia avaimia

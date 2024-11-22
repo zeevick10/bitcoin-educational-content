@@ -1,6 +1,6 @@
 question: Apa fungsi hash yang digunakan untuk menghitung checksum dari frasa mnemonik?
 answer: SHA256
-wrong_answer:
+wrong_answers:
   - RIPEMD160
   - SHA512
   - HASH256

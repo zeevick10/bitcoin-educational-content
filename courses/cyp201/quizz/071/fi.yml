@@ -1,6 +1,6 @@
 question: Mikä syvyys johdannaispolussa määrittää valuutan tyypin?
 answer: Syvyys 2
-wrong_answer:
+wrong_answers:
   - Syvyys 1
   - Syvyys 3
   - Syvyys 4

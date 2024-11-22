@@ -1,6 +1,6 @@
 question: Quale vulnerabilità della firma ECDSA è stata corretta da SegWit?
 answer: Malleabilità
-wrong_answer:
+wrong_answers:
   - Verifica batch
   - Mancanza di aggregazione
   - Dimensione eccessiva delle firme

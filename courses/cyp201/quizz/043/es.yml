@@ -1,6 +1,6 @@
 question: ¿Cuántos bits de entropía se utilizan para una frase mnemotécnica de 24 palabras?
 answer: 256 bits
-wrong_answer:
+wrong_answers:
   - 128 bits
   - 512 bits
   - 64 bits

@@ -1,6 +1,6 @@
 question: Proč nebyla v Bitcoinu použita eliptická křivka secp256r1?
 answer: Pravděpodobně aby se vyhnuli zadním vrátkům
-wrong_answer:
+wrong_answers:
   - Protože je příliš pomalá
   - Protože není standardizovaná
   - Protože vyžaduje specializovaný hardware

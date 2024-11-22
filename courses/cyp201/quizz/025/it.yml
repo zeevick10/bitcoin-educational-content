@@ -1,6 +1,6 @@
 question: Quale proprietà di Schnorr consente di combinare più chiavi pubbliche in una sola?
 answer: Aggregazione delle Chiavi
-wrong_answer:
+wrong_answers:
   - Verifica in Batch
   - Malleabilità
   - Compattazione della Firma

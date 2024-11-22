@@ -1,6 +1,6 @@
 question: Was ist die Hauptrolle des Chain Codes bei der Ableitung von Kind-Schlüsseln?
 answer: Einführung einer zusätzlichen Entropiequelle
-wrong_answer:
+wrong_answers:
   - Bestimmung der hierarchischen Tiefe
   - Speicherung der Indizes der Kind-Schlüssel
   - Gewährleistung der Kompatibilität mit dem Bitcoin-Protokoll

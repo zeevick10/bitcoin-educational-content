@@ -1,6 +1,6 @@
 question: ¿Qué propiedad de Schnorr permite combinar múltiples claves públicas en una sola?
 answer: Agregación de Claves
-wrong_answer:
+wrong_answers:
   - Verificación por Lotes
   - Maleabilidad
   - Compresión de Firma

@@ -1,6 +1,6 @@
 question: Qual è il modificatore che può essere combinato con i flag di base di sighash?
 answer: SIGHASH_ANYONECANPAY
-wrong_answer:
+wrong_answers:
   - SIGHASH_NOOUTPUT
   - SIGHASH_ALLPARTICIPANTS
   - SIGHASH_NONSTANDARD

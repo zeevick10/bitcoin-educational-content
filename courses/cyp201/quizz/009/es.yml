@@ -1,6 +1,6 @@
 question: ¿Cuál es la construcción utilizada por SHA256 para procesar mensajes de longitud arbitraria?
 answer: La construcción de Merkle-Damgård
-wrong_answer:
+wrong_answers:
   - La construcción Euclidiana
   - La construcción de Rivest-Shamir-Adleman
   - La construcción de Knuth-Morris-Pratt

@@ -1,6 +1,6 @@
 question: Minkä tyyppinen osoite alkaa numerolla `1` ja kuuluu Legacy-standardiin?
 answer: P2PKH
-wrong_answer:
+wrong_answers:
   - P2WPKH
   - P2SH
   - P2TR

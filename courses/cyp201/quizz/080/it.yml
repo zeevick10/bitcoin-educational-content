@@ -1,6 +1,6 @@
 question: Quale codifica viene utilizzata per rappresentare gli indirizzi SegWit v0?
 answer: bech32
-wrong_answer:
+wrong_answers:
   - base58check
   - bech32m
   - base64

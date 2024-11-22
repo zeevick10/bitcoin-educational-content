@@ -1,6 +1,6 @@
 question: Was zeigt der Index /84'/ in der Tiefe 1 eines Ableitungspfades an?
 answer: Der P2WPKH-Standard (SegWit v0)
-wrong_answer:
+wrong_answers:
   - Der P2TR-Standard (SegWit v1)
   - Eine Bitcoin-Testnet-Währung
   - Eine Bitcoin-Mainnet-Währung

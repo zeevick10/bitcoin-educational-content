@@ -1,6 +1,6 @@
 question: ¿Qué camino de derivación se utiliza para una cuenta SegWit v0 en un descriptor estándar?
 answer: 84h/0h/0h
-wrong_answer:
+wrong_answers:
   - 44h/0h/0h
   - 86h/0h/0h
   - 84/0/0

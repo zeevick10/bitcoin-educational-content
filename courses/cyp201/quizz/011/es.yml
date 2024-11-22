@@ -1,6 +1,6 @@
 question: ¿Cuál es la función hash utilizada por HMAC en el contexto de Bitcoin?
 answer: SHA512
-wrong_answer:
+wrong_answers:
   - SHA256
   - RIPEMD160
   - HASH160

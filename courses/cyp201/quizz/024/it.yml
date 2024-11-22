@@ -1,6 +1,6 @@
 question: Qual è la dimensione di una chiave privata grezza utilizzata su Bitcoin?
 answer: 256 bit
-wrong_answer:
+wrong_answers:
   - 128 bit
   - 512 bit
   - 1024 bit

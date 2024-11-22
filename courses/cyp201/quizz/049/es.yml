@@ -1,6 +1,6 @@
 question: ¿Cuál es el propósito de la frase mnemotécnica en una cartera HD de Bitcoin?
 answer: Derivar determinísticamente todas las claves
-wrong_answer:
+wrong_answers:
   - Para firmar transacciones directamente
   - Para cifrar direcciones de Bitcoin
   - Para generar un hash para los UTXOs

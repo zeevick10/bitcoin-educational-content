@@ -1,6 +1,6 @@
 question: Minkä tyyppistä avainta käytetään lukitsemaan UTXO: t Bitcoinissa?
 answer: Julkinen avain
-wrong_answer:
+wrong_answers:
   - Yksityinen avain
   - Siemenen hajautusarvo
   - Mnemoninen lause

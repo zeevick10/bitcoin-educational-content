@@ -1,6 +1,6 @@
 question: Miksi elliptistä käyrää secp256r1 ei käytetty Bitcoinissa?
 answer: Mahdollisesti takaportin välttämiseksi
-wrong_answer:
+wrong_answers:
   - Koska se on liian hidas
   - Koska sitä ei ole standardoitu
   - Koska se vaatii erikoistunutta laitteistoa

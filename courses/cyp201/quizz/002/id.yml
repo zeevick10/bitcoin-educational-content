@@ -1,6 +1,6 @@
 question: Sifat apa dari fungsi hash yang ditunjukkan oleh perubahan total dalam hash ketika pesan berubah sedikit?
 answer: Efek salju
-wrong_answer:
+wrong_answers:
   - Ketahanan terhadap tabrakan
   - Ketahanan terhadap gambar kedua
   - Panjang

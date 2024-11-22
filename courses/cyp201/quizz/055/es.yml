@@ -1,6 +1,6 @@
 question: ¿En cuántas partes se divide la salida de la función HMAC-SHA512 aplicada a la semilla?
 answer: Dos partes de 256 bits
-wrong_answer:
+wrong_answers:
   - Una sola parte de 512 bits
   - Tres partes de 170 bits
   - Cuatro partes de 128 bits

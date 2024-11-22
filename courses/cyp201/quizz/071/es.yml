@@ -1,6 +1,6 @@
 question: ¿Qué profundidad en la ruta de derivación especifica el tipo de moneda?
 answer: Profundidad 2
-wrong_answer:
+wrong_answers:
   - Profundidad 1
   - Profundidad 3
   - Profundidad 4

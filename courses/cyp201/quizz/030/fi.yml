@@ -1,6 +1,6 @@
 question: Mikä on SIGHASH_SINGLE: n tarkoitus?
 answer: Kattaa yhden syötteen ja sen vastaavan tulosteen
-wrong_answer:
+wrong_answers:
   - Kattaa kaikki syötteet ja tulosteet
   - Kattaa vain syötteet
   - Kattaa kaikki tulosteet paitsi yhden

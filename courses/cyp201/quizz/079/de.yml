@@ -1,6 +1,6 @@
 question: Was ist die Hauptfunktion von Output-Skript-Deskriptoren?
 answer: Ein Output-Skript vollständig zu beschreiben und die zur Wiederherstellung einer Wallet benötigten Informationen bereitzustellen
-wrong_answer:
+wrong_answers:
   - Automatisches Generieren von Multisignatur-Adressen
   - Ersetzen der mnemonischen Phrase in Wallet-Backups
   - Vereinfachung der Berechnungen von digitalen Signaturen

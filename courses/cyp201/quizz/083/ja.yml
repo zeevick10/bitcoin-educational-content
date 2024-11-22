@@ -1,8 +1,8 @@
-質問: `1`で始まり、Legacy標準に属するアドレスのタイプは何ですか？
-回答: P2PKH
-誤った回答:
+question: `1`で始まり、Legacy標準に属するアドレスのタイプは何ですか？
+answer: P2PKH
+wrong_answers:
   - P2WPKH
   - P2SH
   - P2TR
-説明: |
+explanation: |
   P2PKHアドレスはbase58checkでエンコードされ、Legacy標準から来ており、数字の`1`で始まります。

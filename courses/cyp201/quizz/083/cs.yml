@@ -1,6 +1,6 @@
 question: Jaký typ adresy začíná na `1` a patří do standardu Legacy?
 answer: P2PKH
-wrong_answer:
+wrong_answers:
   - P2WPKH
   - P2SH
   - P2TR

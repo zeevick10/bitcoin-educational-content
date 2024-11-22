@@ -1,6 +1,6 @@
 question: Quale costante viene utilizzata per derivare la chiave privata principale dal seed?
 answer: "Bitcoin Seed"
-wrong_answer:
+wrong_answers:
   - "Master Key"
   - "HD Wallet Seed"
   - "Blockchain Root"

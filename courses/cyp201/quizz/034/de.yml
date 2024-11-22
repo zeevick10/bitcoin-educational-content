@@ -1,6 +1,6 @@
 question: Welches Sighash-Flag wird am häufigsten bei Bitcoin-Transaktionen verwendet?
 answer: SIGHASH_ALL
-wrong_answer:
+wrong_answers:
   - SIGHASH_NONE
   - SIGHASH_SINGLE
   - SIGHASH_ANYONECANPAY

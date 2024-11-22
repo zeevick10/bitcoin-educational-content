@@ -1,6 +1,6 @@
 question: Mikä on PBKDF2: n generoiman siemenen koko?
 answer: 512 bittiä
-wrong_answer:
+wrong_answers:
   - 128 bittiä
   - 256 bittiä
   - Vaihtelee mnemonisen lauseen pituuden mukaan

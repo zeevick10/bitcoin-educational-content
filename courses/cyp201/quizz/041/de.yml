@@ -1,6 +1,6 @@
 question: Was ist das Hauptrisiko bei der Verwendung eines schlecht konzipierten PRNG zur Erzeugung von Entropie?
 answer: Private Schlüssel könnten von einem Angreifer erraten werden
-wrong_answer:
+wrong_answers:
   - Die mnemonische Phrase könnte falsche Wörter enthalten
   - Digitale Signaturen würden ungültig werden
   - Bitcoin-Adressen wären nicht kompatibel mit dem Netzwerk

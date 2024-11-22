@@ -1,6 +1,6 @@
 question: Mikä Bitcoin-standardi esittelee hierarkkiset deterministiset lompakot?
 answer: BIP32
-wrong_answer:
+wrong_answers:
   - BIP39
   - BIP44
   - BIP141

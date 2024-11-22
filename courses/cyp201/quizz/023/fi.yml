@@ -1,6 +1,6 @@
 question: Mikä on yhteinen piste, jota kaikki osallistujat käyttävät julkisen avaimen laskemiseen Bitcoinissa?
 answer: Generaattoripiste G
-wrong_answer:
+wrong_answers:
   - SHA256-tiiviste
   - Mnemoninen lauseke
   - Pakattu julkinen avain

@@ -1,6 +1,6 @@
 question: ¿Qué tipo de dirección comienza con `1` y pertenece al estándar Legacy?
 answer: P2PKH
-wrong_answer:
+wrong_answers:
   - P2WPKH
   - P2SH
   - P2TR

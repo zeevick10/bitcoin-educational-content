@@ -1,6 +1,6 @@
 question: Mikä rakenne on käytössä SHA256: ssa käsittelemään mielivaltaisen pituisia viestejä?
 answer: Merkle-Damgårdin rakenne
-wrong_answer:
+wrong_answers:
   - Euklidinen rakenne
   - Rivest-Shamir-Adlemanin rakenne
   - Knuth-Morris-Prattin rakenne

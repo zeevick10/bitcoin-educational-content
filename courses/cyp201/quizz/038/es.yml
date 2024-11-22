@@ -1,6 +1,6 @@
 question: ¿Por qué no se recomienda reutilizar una dirección de Bitcoin?
 answer: Facilita el seguimiento de transacciones por parte de terceros
-respuestas_erróneas:
+wrong_answers:
   - Revela la clave privada debido al nonce
   - Hace que las transacciones sean más caras
   - Invalida las firmas digitales

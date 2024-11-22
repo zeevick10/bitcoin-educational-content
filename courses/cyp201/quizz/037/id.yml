@@ -1,6 +1,6 @@
 question: Apa batasan utama dari dompet JBOK?
 answer: Mereka memerlukan cadangan independen untuk setiap kunci privat
-wrong_answer:
+wrong_answers:
   - Mereka tidak memungkinkan untuk generasi alamat baru
   - Mereka tidak kompatibel dengan tanda tangan digital
   - Mereka menggunakan kunci publik yang tidak dikompresi

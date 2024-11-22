@@ -1,6 +1,6 @@
 question: Qual è la funzione principale dei descrittori degli script di output?
 answer: Descrivere completamente uno script di output e fornire le informazioni necessarie per ripristinare un portafoglio
-wrong_answer:
+wrong_answers:
   - Generare automaticamente indirizzi multisignature
   - Sostituire la frase mnemonica nei backup dei portafogli
   - Semplificare i calcoli delle firme digitali

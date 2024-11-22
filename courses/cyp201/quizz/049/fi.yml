@@ -1,6 +1,6 @@
 question: Mikä on mnemonisen lauseen tarkoitus Bitcoin HD-lompakossa?
 answer: Johtaa deterministisesti kaikki avaimet
-wrong_answer:
+wrong_answers:
   - Allekirjoittaa suoraan siirtoja
   - Salata Bitcoin-osoitteet
   - Luoda tiiviste UTXO: ille

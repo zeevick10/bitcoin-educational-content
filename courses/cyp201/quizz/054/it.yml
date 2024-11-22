@@ -1,6 +1,6 @@
 question: Qual è il ruolo principale della passphrase in un portafoglio HD Bitcoin?
 answer: Modificare la derivazione della chiave per migliorare la sicurezza
-wrong_answer:
+wrong_answers:
   - Decifrare le transazioni in sospeso
   - Generare gli UTXO del portafoglio
   - Proteggere l'accesso al portafoglio con il riconoscimento facciale

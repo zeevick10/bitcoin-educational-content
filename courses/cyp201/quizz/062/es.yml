@@ -1,6 +1,6 @@
 question: ¿Qué permite derivar una clave pública extendida?
 answer: Solo claves públicas de hijos normales
-wrong_answer:
+wrong_answers:
   - Solo claves privadas de hijos normales
   - Tanto claves públicas de hijos endurecidos como normales
   - Tanto claves privadas de hijos endurecidos como normales

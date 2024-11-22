@@ -1,6 +1,6 @@
 question: Kuinka SegWit v0 -osoitteiden tarkistussumma lasketaan bech32-koodauksessa?
 answer: Käyttämällä BCH-koodeja
-wrong_answer:
+wrong_answers:
   - Soveltamalla HASH256: tta kahdesti
   - Lisäämällä RIPEMD160-hashi
   - Suoraan koodaamalla base64: ään

@@ -1,6 +1,6 @@
 question: ¿Cuántos bits tiene el checksum para una entropía de 128 bits?
 answer: 4 bits
-wrong_answer:
+wrong_answers:
   - 8 bits
   - 16 bits
   - 6 bits

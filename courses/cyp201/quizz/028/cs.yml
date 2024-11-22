@@ -1,6 +1,6 @@
 question: Jaká je velikost komprimovaného veřejného klíče používajícího protokol Schnorr?
 answer: 32 bajtů
-wrong_answer:
+wrong_answers:
   - 33 bajtů
   - 64 bajtů
   - 256 bitů

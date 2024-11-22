@@ -1,6 +1,6 @@
 question: ¿Cuál es la restricción para derivar una clave pública hija de una clave pública padre?
 answer: La clave hija debe ser normal
-wrong_answer:
+wrong_answers:
   - La clave hija debe ser endurecida
   - El código de cadena debe ser idéntico al de la clave padre
   - El proceso debe incluir la clave privada padre

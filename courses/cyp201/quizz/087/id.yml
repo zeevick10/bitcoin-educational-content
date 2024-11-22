@@ -1,6 +1,6 @@
 question: Apa fitur unik dari alamat SegWit v1 (P2TR) dibandingkan dengan alamat SegWit v0?
 answer: Mereka secara langsung menggunakan kunci publik mentah dalam alamat.
-wrong_answer:
+wrong_answers:
   - Mereka dikodekan dalam base58check.
   - Mereka memerlukan dua tanda tangan untuk dianggap valid.
   - Mereka menggunakan hash kunci publik dalam alamat.

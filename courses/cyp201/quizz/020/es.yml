@@ -1,6 +1,6 @@
 question: ¿Cuál es la diferencia entre una clave pública comprimida y una no comprimida?
 answer: La clave pública comprimida utiliza solo la coordenada x y la paridad de y
-wrong_answer:
+wrong_answers:
   - La clave pública comprimida es más segura
   - La clave pública comprimida utiliza solo la coordenada y y la paridad de x
   - La clave pública comprimida requiere una clave privada más grande

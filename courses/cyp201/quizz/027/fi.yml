@@ -1,6 +1,6 @@
 question: Mikä ECDSA-allekirjoituksen haavoittuvuus korjattiin SegWitillä?
 answer: Muunneltavuus
-wrong_answer:
+wrong_answers:
   - Erän varmennus
   - Aggregoinnin puute
   - Allekirjoitusten liiallinen koko

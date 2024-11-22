@@ -1,6 +1,6 @@
 question: Wofür steht die Notation "/<0;1>/*" in einem Deskriptor?
 answer: Für die externe und interne Kette mit sequenzieller Ableitung
-wrong_answer:
+wrong_answers:
   - Für eine sortierte Multisignatur-Adresse
   - Für eine Prüfsumme für Ableitungspfade
   - Für einen gehärteten Ableitungspfad

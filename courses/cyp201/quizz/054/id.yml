@@ -1,6 +1,6 @@
 question: Apa peran utama dari passphrase dalam dompet HD Bitcoin?
 answer: Untuk memodifikasi derivasi kunci guna meningkatkan keamanan
-wrong_answer:
+wrong_answers:
   - Mendekripsi transaksi yang tertunda
   - Menghasilkan UTXO dompet
   - Melindungi akses dompet dengan identifikasi wajah

@@ -1,6 +1,6 @@
 question: Mikä vakio käytetään johdattamaan pääyksityisavain siemenestä?
 answer: "Bitcoin Seed"
-wrong_answer:
+wrong_answers:
   - "Pääavain"
   - "HD Lompakon Siemen"
   - "Lohkoketjun Juuri"

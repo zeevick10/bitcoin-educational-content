@@ -1,6 +1,6 @@
 question: ¿Cuál es el tamaño en bits de un segmento binario utilizado para crear cada palabra mnemotécnica?
 answer: 11 bits
-wrong_answer:
+wrong_answers:
   - 8 bits
   - 16 bits
   - 10 bits

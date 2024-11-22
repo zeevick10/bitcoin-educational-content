@@ -1,6 +1,6 @@
 question: ¿Cuál es el papel de la semilla en una cartera HD de Bitcoin?
 answer: Servir como el punto de partida para la derivación de todas las claves
-wrong_answer:
+wrong_answers:
   - Almacenar las transacciones de la cartera
   - Generar directamente la clave pública maestra
   - Asegurar la confidencialidad de las transacciones

@@ -1,6 +1,6 @@
 question: Mitä koodausta käytetään edustamaan SegWit v0 -osoitteita?
 answer: bech32
-wrong_answer:
+wrong_answers:
   - base58check
   - bech32m
   - base64

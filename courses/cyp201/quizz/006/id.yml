@@ -1,6 +1,6 @@
 question: Apa yang terjadi selama setiap putaran kompresi di SHA256?
 answer: Variabel-variabel keadaan diperbarui dari kata-kata pesan dan konstanta
-wrong_answer:
+wrong_answers:
   - Hash akhir dihasilkan secara bertahap setelah setiap putaran
   - Bit-bit pesan diatur ulang
   - Nilai awal dari variabel-variabel tetap tidak berubah

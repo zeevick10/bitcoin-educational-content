@@ -1,6 +1,6 @@
 question: Mikä on skalaarikertolaskun pääominaisuus elliptisillä käyrillä?
 answer: Yksisuuntainen funktio
-wrong_answer:
+wrong_answers:
   - Helposti peruutettavissa
   - Perustuu alkulukujen tekijöihin jakamiseen
   - Erittäin pitkä laskettava

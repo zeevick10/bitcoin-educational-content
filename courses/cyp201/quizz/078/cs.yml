@@ -1,6 +1,6 @@
 question: Co znamená prefix `wpkh` v popisu?
 answer: Platba na Witness-PubKey-Hash
-wrong_answer:
+wrong_answers:
   - Platba na PubKey
   - Platba na Script-Hash
   - Witness Script Hash

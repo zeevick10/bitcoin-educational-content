@@ -1,6 +1,6 @@
 question: Mikä on laajennetun avaimen kokonaiskoko tarkistussumman kanssa?
 answer: 82 tavua
-wrong_answer:
+wrong_answers:
   - 78 tavua
   - 64 tavua
   - 128 tavua

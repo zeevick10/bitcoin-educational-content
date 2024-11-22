@@ -1,9 +1,9 @@
-質問: SHA256とRIPEMD160の主な違いは何ですか？
-回答: RIPEMD160はSHA256よりも短いハッシュを生成します
-誤った回答:
+question: SHA256とRIPEMD160の主な違いは何ですか？
+answer: RIPEMD160はSHA256よりも短いハッシュを生成します
+wrong_answers:
   - SHA256はRIPEMD160と異なり、時代遅れです
   - RIPEMD160はProof-of-Workメカニズムでのみ使用されます
   - SHA256は他のハッシュ関数と組み合わせて使用されることはありません
-説明: |
+explanation: |
   RIPEMD160は160ビットのハッシュを生成し、SHA256は256ビットのハッシュを生成します。
-レビュー済み: false
+reviewed: false

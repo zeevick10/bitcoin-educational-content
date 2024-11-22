@@ -1,6 +1,6 @@
 question: Cosa significa un apostrofo (') o la "h" in un percorso di derivazione?
 answer: Una derivazione rinforzata
-wrong_answer:
+wrong_answers:
   - Una derivazione normale
   - Una derivazione esterna
   - Una derivazione non standard

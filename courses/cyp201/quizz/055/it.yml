@@ -1,6 +1,6 @@
 question: In quante parti viene diviso l'output della funzione HMAC-SHA512 applicata al seed?
 answer: Due parti di 256 bit
-wrong_answer:
+wrong_answers:
   - Una singola parte di 512 bit
   - Tre parti di 170 bit
   - Quattro parti di 128 bit

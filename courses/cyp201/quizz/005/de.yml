@@ -1,6 +1,6 @@
 question: Warum ist die Irreversibilität bei SHA256 gewährleistet?
 answer: Die verwendeten Operationen entfernen Informationen und sind einseitig
-wrong_answer:
+wrong_answers:
   - Nachrichten werden vor dem Hashen verschlüsselt
   - Bits werden zufällig neu angeordnet
   - Jeder Hash wird in einer Datenbank gespeichert

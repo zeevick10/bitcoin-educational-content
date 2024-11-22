@@ -1,6 +1,6 @@
 question: ¿Qué indica el índice /84'/ en la profundidad 1 de una ruta de derivación?
 answer: El estándar P2WPKH (SegWit v0)
-wrong_answer:
+wrong_answers:
   - El estándar P2TR (SegWit v1)
   - Una moneda de testnet de Bitcoin
   - Una moneda de mainnet de Bitcoin

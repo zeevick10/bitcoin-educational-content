@@ -1,6 +1,6 @@
 question: Mikä on rajoite lapsen julkisen avaimen johdattamiselle vanhemman julkisesta avaimesta?
 answer: Lapsen avaimen tulee olla normaali
-wrong_answer:
+wrong_answers:
   - Lapsen avaimen tulee olla vahvistettu
   - Ketjukoodin tulee olla identtinen vanhemman avaimen kanssa
   - Prosessin tulee sisältää vanhemman yksityinen avain

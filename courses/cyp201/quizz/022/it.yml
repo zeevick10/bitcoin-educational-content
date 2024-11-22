@@ -1,6 +1,6 @@
 question: Come si calcola una chiave pubblica da una chiave privata?
 answer: Utilizzando la moltiplicazione scalare sulla curva ellittica
-wrong_answer:
+wrong_answers:
   - Applicando un hash sulla chiave privata
   - Attraverso la crittografia asimmetrica
   - Con l'aggiunta ripetuta di valori numerici

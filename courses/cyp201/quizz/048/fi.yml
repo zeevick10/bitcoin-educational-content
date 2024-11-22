@@ -1,6 +1,6 @@
 question: Miksi 24 sanan muistisanaa pidetään usein tarpeettomana Bitcoin-lompakossa?
 answer: Johdetut avaimet tarjoavat vain 128 bitin turvallisuuden
-wrong_answer:
+wrong_answers:
   - Ohjelmisto ei tue 24 sanan lauseita
   - Se ei salli julkisten avainten johdantoa
   - Lyhyempiä lauseita ei ole standardoitu

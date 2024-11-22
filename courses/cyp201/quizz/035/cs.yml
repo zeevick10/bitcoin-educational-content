@@ -1,6 +1,6 @@
 question: Který Bitcoinový standard zavádí hierarchické deterministické peněženky?
 answer: BIP32
-wrong_answer:
+wrong_answers:
   - BIP39
   - BIP44
   - BIP141

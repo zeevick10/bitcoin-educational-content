@@ -1,6 +1,6 @@
 question: Cosa rappresenta la profondità 0 nella gerarchia dei portafogli HD?
 answer: La chiave principale e il codice catena principale
-wrong_answer:
+wrong_answers:
   - La catena esterna di indirizzi
   - L'account predefinito
   - Il tipo di valuta

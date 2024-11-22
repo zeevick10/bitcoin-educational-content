@@ -1,6 +1,6 @@
 question: Mikä on hyvä käytäntö salasanan turvaamiseksi?
 answer: Tallenna se erilliselle fyysiselle medialle kuin mnemoninen lause
-wrong_answer:
+wrong_answers:
   - Opettele se ulkoa kirjaamatta sitä ylös
   - Tallenna se samalle fyysiselle medialle kuin mnemoninen lause
   - Tallenna se digitaaliselle medialle kuten Google Driveen

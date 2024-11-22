@@ -1,6 +1,6 @@
 question: Was bedeutet ein Apostroph (') oder das "h" in einem Ableitungspfad?
 answer: Eine gehärtete Ableitung
-wrong_answer:
+wrong_answers:
   - Eine normale Ableitung
   - Eine externe Ableitung
   - Eine nicht-standardmäßige Ableitung

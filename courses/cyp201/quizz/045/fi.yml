@@ -1,6 +1,6 @@
 question: Mikä hajautusfunktio käytetään laskemaan mnemonisen lauseen tarkistussumma?
 answer: SHA256
-wrong_answer:
+wrong_answers:
   - RIPEMD160
   - SHA512
   - HASH256

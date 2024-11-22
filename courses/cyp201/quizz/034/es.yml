@@ -1,6 +1,6 @@
 question: ¿Cuál es la bandera sighash más comúnmente utilizada en las transacciones de Bitcoin?
 answer: SIGHASH_ALL
-wrong_answer:
+wrong_answers:
   - SIGHASH_NONE
   - SIGHASH_SINGLE
   - SIGHASH_ANYONECANPAY

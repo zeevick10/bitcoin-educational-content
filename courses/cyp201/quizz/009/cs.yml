@@ -1,6 +1,6 @@
 question: Jaká konstrukce je používána SHA256 pro zpracování zpráv libovolné délky?
 answer: Konstrukce Merkle-Damgård
-wrong_answer:
+wrong_answers:
   - Euklidovská konstrukce
   - Konstrukce Rivest-Shamir-Adleman
   - Konstrukce Knuth-Morris-Pratt

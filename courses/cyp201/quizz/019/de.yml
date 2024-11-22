@@ -1,6 +1,6 @@
 question: Welche mathematische Operation liegt der Sicherheit der elliptischen Kurvenkryptografie zugrunde?
 answer: Diskretes Logarithmusproblem
-wrong_answer:
+wrong_answers:
   - Primzahlenfaktorisierung
   - Berechnung quadratischer Reste
   - Diskretes Würfelproblem

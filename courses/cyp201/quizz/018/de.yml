@@ -1,6 +1,6 @@
 question: Warum wurde die elliptische Kurve secp256r1 nicht in Bitcoin verwendet?
 answer: Möglicherweise, um eine Hintertür zu vermeiden
-wrong_answer:
+wrong_answers:
   - Weil sie zu langsam ist
   - Weil sie nicht standardisiert ist
   - Weil sie spezialisierte Hardware benötigt

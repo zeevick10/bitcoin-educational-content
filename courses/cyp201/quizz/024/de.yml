@@ -1,6 +1,6 @@
 question: Wie groß ist ein roher privater Schlüssel, der bei Bitcoin verwendet wird?
 answer: 256 Bits
-wrong_answer:
+wrong_answers:
   - 128 Bits
   - 512 Bits
   - 1024 Bits

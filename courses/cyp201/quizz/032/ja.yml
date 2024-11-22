@@ -1,9 +1,9 @@
-質問: どのsighashフラグが、単一の入力と全ての出力をカバーすることでクラウドファンディングを可能にしますか？
-回答: SIGHASH_ALL | SIGHASH_ANYONECANPAY
-誤った回答:
+question: どのsighashフラグが、単一の入力と全ての出力をカバーすることでクラウドファンディングを可能にしますか？
+answer: SIGHASH_ALL | SIGHASH_ANYONECANPAY
+wrong_answers:
   - SIGHASH_NONE | SIGHASH_ANYONECANPAY
   - SIGHASH_SINGLE | SIGHASH_ANYONECANPAY
   - SIGHASH_ALL
-説明: |
+explanation: |
   SIGHASH_ALLとSIGHASH_ANYONECANPAYを組み合わせることで、出力を変更することなく入力を追加することができます。
-レビュー済み: false
+reviewed: false

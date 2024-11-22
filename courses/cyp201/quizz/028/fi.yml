@@ -1,6 +1,6 @@
 question: Mikä on pakatun julkisen avaimen koko käytettäessä Schnorr-protokollaa?
 answer: 32 tavua
-wrong_answer:
+wrong_answers:
   - 33 tavua
   - 64 tavua
   - 256 bittiä

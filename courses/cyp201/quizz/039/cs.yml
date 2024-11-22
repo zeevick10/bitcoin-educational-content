@@ -1,6 +1,6 @@
 question: Jaká je hlavní role Bitcoinové peněženky?
 answer: Spravovat a zabezpečit soukromé klíče
-wrong_answer:
+wrong_answers:
   - Ukládat bitcoiny uživatele
   - Automaticky zajistit důvěrnost transakcí
   - Generovat bitcoiny pro každého uživatele

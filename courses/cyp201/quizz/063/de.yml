@@ -1,6 +1,6 @@
 question: Welche Information ist in einem erweiterten Schlüssel nicht enthalten?
 answer: Die Transaktionshistorie des Schlüssels
-wrong_answer:
+wrong_answers:
   - Die Indexnummer des Schlüssels
   - Der Schlüssel (privat oder öffentlich)
   - Der Ketten-Code

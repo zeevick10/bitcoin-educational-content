@@ -1,6 +1,6 @@
 question: Was ist Entropie im Kontext der Kryptographie?
 answer: Ein Maß für die Unvorhersehbarkeit, die mit einem zufälligen Prozess verbunden ist
-wrong_answer:
+wrong_answers:
   - Eine Methode zur Verschlüsselung sensibler Daten
   - Ein Algorithmus zur Berechnung öffentlicher Schlüssel
   - Eine Technik zur Datenkompression

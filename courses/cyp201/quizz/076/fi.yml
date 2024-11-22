@@ -1,6 +1,6 @@
 question: Mihin merkintä "/<0;1>/*" deskriptorissa viittaa?
 answer: Ulkoiseen ja sisäiseen ketjuun sekventiaalisella johdannolla
-wrong_answer:
+wrong_answers:
   - Järjestettyyn multisignatuuri-osoitteeseen
   - Johdannaispolkujen tarkistussummaan
   - Kovetettuun johdannaispolkuun

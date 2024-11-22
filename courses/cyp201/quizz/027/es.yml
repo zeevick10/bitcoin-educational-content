@@ -1,6 +1,6 @@
 question: ¿Qué vulnerabilidad de la firma ECDSA fue corregida por SegWit?
 answer: Maleabilidad
-wrong_answer:
+wrong_answers:
   - Verificación por lotes
   - Falta de agregación
   - Tamaño excesivo de las firmas

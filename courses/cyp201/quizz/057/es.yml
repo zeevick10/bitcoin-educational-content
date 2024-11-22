@@ -1,6 +1,6 @@
 question: ¿Cuál es el tamaño de la semilla generada por PBKDF2?
 answer: 512 bits
-wrong_answer:
+wrong_answers:
   - 128 bits
   - 256 bits
   - Variable dependiendo de la longitud de la frase mnemotécnica

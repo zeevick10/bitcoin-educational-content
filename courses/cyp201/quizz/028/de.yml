@@ -1,6 +1,6 @@
 question: Wie groß ist ein komprimierter öffentlicher Schlüssel, der das Schnorr-Protokoll verwendet?
 answer: 32 Bytes
-wrong_answer:
+wrong_answers:
   - 33 Bytes
   - 64 Bytes
   - 256 Bits

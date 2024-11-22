@@ -1,6 +1,6 @@
 question: Mikä on entropia kryptografian kontekstissa?
 answer: Satunnaisprosessiin liittyvän arvaamattomuuden mittari
-wrong_answer:
+wrong_answers:
   - Menetelmä arkaluontoisen datan salaamiseen
   - Algoritmi julkisten avainten laskemiseen
   - Datan pakkaustekniikka

@@ -1,6 +1,6 @@
 question: Qual è la dimensione in bit di un segmento binario utilizzato per creare ogni parola mnemonica?
 answer: 11 bit
-wrong_answer:
+wrong_answers:
   - 8 bit
   - 16 bit
   - 10 bit

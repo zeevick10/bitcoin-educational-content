@@ -1,6 +1,6 @@
 question: Wie wird ein öffentlicher Schlüssel aus einem privaten Schlüssel berechnet?
 answer: Durch skalare Multiplikation auf der elliptischen Kurve
-wrong_answer:
+wrong_answers:
   - Durch Anwenden eines Hashs auf den privaten Schlüssel
   - Durch asymmetrische Verschlüsselung
   - Mit wiederholter Addition numerischer Werte

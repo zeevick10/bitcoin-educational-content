@@ -1,6 +1,6 @@
 question: Apa yang memungkinkan Anda lakukan dengan dompet HD dibandingkan dengan dompet JBOK?
 answer: Menghasilkan semua kunci privat dari satu benih
-wrong_answer:
+wrong_answers:
   - Meningkatkan keamanan tanda tangan digital
   - Menggunakan alamat yang sama untuk berbagai transaksi
   - Menghindari penggunaan kunci publik sepenuhnya

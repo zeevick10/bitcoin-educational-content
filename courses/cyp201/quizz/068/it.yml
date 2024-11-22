@@ -1,6 +1,6 @@
 question: Qual è il vincolo per derivare una chiave pubblica figlio da una chiave pubblica genitore?
 answer: La chiave figlio deve essere normale
-wrong_answer:
+wrong_answers:
   - La chiave figlio deve essere rinforzata
   - Il codice catena deve essere identico a quello della chiave genitore
   - Il processo deve includere la chiave privata genitore

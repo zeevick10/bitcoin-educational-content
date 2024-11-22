@@ -1,6 +1,6 @@
 question: Perché non è consigliato riutilizzare un indirizzo Bitcoin?
 answer: Facilita il tracciamento delle transazioni da parte di terzi
-wrong_answer:
+wrong_answers:
   - Rivela la chiave privata a causa del nonce
   - Rende le transazioni più costose
   - Invalida le firme digitali

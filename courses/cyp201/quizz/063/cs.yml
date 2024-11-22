@@ -1,6 +1,6 @@
 question: Jaká informace není zahrnuta v rozšířeném klíči?
 answer: Historie transakcí klíče
-wrong_answer:
+wrong_answers:
   - Číslo indexu klíče
   - Klíč (soukromý nebo veřejný)
   - Kód řetězce

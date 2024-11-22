@@ -1,6 +1,6 @@
 question: Was repräsentiert die Tiefe 0 in der Hierarchie von HD-Wallets?
 answer: Der Master-Schlüssel und der Master-Chain-Code
-wrong_answer:
+wrong_answers:
   - Die externe Kette von Adressen
   - Das Standardkonto
   - Die Art der Währung

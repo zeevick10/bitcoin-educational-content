@@ -1,6 +1,6 @@
 question: Mitä indeksi /84'/ syvyydessä 1 johdannaispolussa tarkoittaa?
 answer: P2WPKH-standardi (SegWit v0)
-wrong_answer:
+wrong_answers:
   - P2TR-standardi (SegWit v1)
   - Bitcoin-testnet-valuutta
   - Bitcoin-mainnet-valuutta

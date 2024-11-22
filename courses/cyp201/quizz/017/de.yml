@@ -1,6 +1,6 @@
 question: Welche elliptische Kurve wird im Bitcoin-Protokoll verwendet?
 answer: secp256k1
-wrong_answer:
+wrong_answers:
   - secp256r1
   - ed25519
   - P-384

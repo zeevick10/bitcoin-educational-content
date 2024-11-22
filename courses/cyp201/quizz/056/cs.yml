@@ -1,6 +1,6 @@
 question: Jaká konstanta se používá k odvození hlavního soukromého klíče ze seedu?
 answer: "Bitcoin Seed"
-wrong_answer:
+wrong_answers:
   - "Master Key"
   - "HD Wallet Seed"
   - "Blockchain Root"

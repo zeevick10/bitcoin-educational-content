@@ -1,6 +1,6 @@
 question: Apa titik umum yang digunakan oleh semua peserta untuk menghitung kunci publik dalam Bitcoin?
 answer: Titik generator G
-wrong_answer:
+wrong_answers:
   - Hash SHA256
   - Frase mnemonik
   - Kunci publik terkompresi

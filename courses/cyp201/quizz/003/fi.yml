@@ -1,6 +1,6 @@
 question: Mikä on pääasiallinen ero SHA256: n ja RIPEMD160: n välillä?
 answer: RIPEMD160 tuottaa lyhyempiä tiivisteitä kuin SHA256
-wrong_answer:
+wrong_answers:
   - SHA256 on vanhentunut toisin kuin RIPEMD160
   - RIPEMD160: a käytetään vain Proof-of-Work -mekanismissa
   - SHA256: a ei koskaan yhdistetä muiden hajautusfunktioiden kanssa

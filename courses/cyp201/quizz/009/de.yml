@@ -1,6 +1,6 @@
 question: Welche Konstruktion wird von SHA256 verwendet, um Nachrichten beliebiger Länge zu verarbeiten?
 answer: Die Merkle-Damgård-Konstruktion
-wrong_answer:
+wrong_answers:
   - Die Euklidische Konstruktion
   - Die Rivest-Shamir-Adleman-Konstruktion
   - Die Knuth-Morris-Pratt-Konstruktion

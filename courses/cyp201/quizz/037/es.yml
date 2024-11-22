@@ -1,6 +1,6 @@
 question: ¿Cuál es la principal limitación de las carteras JBOK?
 answer: Requieren una copia de seguridad independiente para cada clave privada
-respuestas_erróneas:
+wrong_answers:
   - No permiten la generación de nuevas direcciones
   - Son incompatibles con firmas digitales
   - Usan claves públicas sin comprimir

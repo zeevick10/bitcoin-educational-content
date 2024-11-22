@@ -1,6 +1,6 @@
 question: Welcher digitale Signaturalgorithmus wurde beim Start von Bitcoin verwendet?
 answer: ECDSA
-wrong_answer:
+wrong_answers:
   - Schnorr
   - RSA
   - HMAC

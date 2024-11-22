@@ -1,6 +1,6 @@
 question: Quale indice rappresenta la catena esterna di un account in un percorso di derivazione?
 answer: /0/
-wrong_answer:
+wrong_answers:
   - /1/
   - /0'/
   - /2/

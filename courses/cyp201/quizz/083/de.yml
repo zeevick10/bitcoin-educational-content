@@ -1,6 +1,6 @@
 question: Welche Art von Adresse beginnt mit `1` und gehört zum Legacy-Standard?
 answer: P2PKH
-wrong_answer:
+wrong_answers:
   - P2WPKH
   - P2SH
   - P2TR
