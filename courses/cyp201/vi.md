@@ -21,9 +21,11 @@ Với phương pháp giảng dạy rõ ràng, hơn 60 sơ đồ giải thích, v
 +++
 
 # Giới Thiệu
+
 <partId>32960669-d13a-592f-a053-37f70b997cbf</partId>
 
 ## Giới Thiệu Khóa Học
+
 <chapterId>fb4e8857-ea35-5a8a-ae8a-5300234e0104</chapterId>
 
 Chào mừng bạn đến với khóa học CYP201, nơi chúng ta sẽ khám phá sâu về cách thức hoạt động của ví Bitcoin HD. Khóa học này được thiết kế cho bất kỳ ai muốn hiểu cơ bản kỹ thuật của việc sử dụng Bitcoin, dù họ là người dùng thông thường, người hâm mộ có hiểu biết, hay chuyên gia tương lai.
@@ -52,20 +54,23 @@ Cuối cùng, từ khóa chủ, chúng ta sẽ khám phá cách các cặp khóa
 Khóa học này sẽ giúp bạn sử dụng phần mềm ví của mình một cách tự tin, đồng thời nâng cao kỹ năng của bạn trong việc nhận diện và giảm thiểu rủi ro. Chuẩn bị trở thành một chuyên gia thực thụ về ví Bitcoin!
 
 # Hàm Băm
+
 <partId>3713fee1-2ec2-512e-9e97-b6da9e4d2f17</partId>
 
 ## Giới thiệu về Hàm Băm
+
 <chapterId>dba011f5-1805-5a48-ac2b-4bd637c93703</chapterId>
 
 Loại thuật toán mật mã đầu tiên được sử dụng trên Bitcoin bao gồm các hàm băm. Chúng đóng một vai trò thiết yếu ở các cấp độ khác nhau của giao thức, nhưng cũng trong ví Bitcoin. Hãy cùng khám phá xem hàm băm là gì và nó được sử dụng như thế nào trong Bitcoin.
 
 ### Định nghĩa và Nguyên tắc của Băm
+
 Băm là quá trình biến đổi thông tin có độ dài tùy ý thành một mảnh thông tin có độ dài cố định thông qua một hàm băm mật mã. Nói cách khác, một hàm băm nhận đầu vào bất kỳ và chuyển đổi nó thành một dấu vân tay cố định, gọi là "băm".
 Băm cũng đôi khi được gọi là "digest", "condensate", "condensed", hoặc "hashed".
 
-Ví dụ, hàm băm SHA256 tạo ra một băm có độ dài cố định 256 bit. Vì vậy, nếu chúng ta sử dụng đầu vào "*PlanB*", một thông điệp có độ dài tùy ý, băm được tạo ra sẽ là dấu vân tay 256-bit sau đây:
+Ví dụ, hàm băm SHA256 tạo ra một băm có độ dài cố định 256 bit. Vì vậy, nếu chúng ta sử dụng đầu vào "_PlanB_", một thông điệp có độ dài tùy ý, băm được tạo ra sẽ là dấu vân tay 256-bit sau đây:
 
-```txt
+```text
 24f1b93b68026bfc24f5c8265f287b4c940fb1664b0d75053589d7a4f821b688
 ```
 
@@ -74,6 +79,7 @@ Ví dụ, hàm băm SHA256 tạo ra một băm có độ dài cố định 256 b
 ### Đặc điểm của Hàm Băm
 
 Những hàm băm mật mã này có một số đặc điểm thiết yếu làm cho chúng đặc biệt hữu ích trong bối cảnh của Bitcoin và các hệ thống máy tính khác:
+
 1. Khả năng không thể đảo ngược (hoặc kháng ảnh trước)
 2. Kháng thay đổi (hiệu ứng tuyết lở)
 3. Kháng va chạm
@@ -81,22 +87,26 @@ Những hàm băm mật mã này có một số đặc điểm thiết yếu là
 
 #### 1. Khả năng không thể đảo ngược (kháng ảnh trước):
 
-Khả năng không thể đảo ngược có nghĩa là việc tính toán băm từ thông tin đầu vào là dễ dàng, nhưng phép tính ngược lại, tức là tìm thông tin đầu vào từ băm, là gần như không thể. Tính chất này làm cho hàm băm hoàn hảo cho việc tạo ra các dấu vân tay số duy nhất mà không làm lộ thông tin gốc. Đặc điểm này thường được gọi là một hàm một chiều hoặc "*hàm cửa bẫy*".
+Khả năng không thể đảo ngược có nghĩa là việc tính toán băm từ thông tin đầu vào là dễ dàng, nhưng phép tính ngược lại, tức là tìm thông tin đầu vào từ băm, là gần như không thể. Tính chất này làm cho hàm băm hoàn hảo cho việc tạo ra các dấu vân tay số duy nhất mà không làm lộ thông tin gốc. Đặc điểm này thường được gọi là một hàm một chiều hoặc "_hàm cửa bẫy_".
 
-Trong ví dụ đã cho, việc thu được băm `24f1b9…` bằng cách biết đầu vào "*PlanB*" là đơn giản và nhanh chóng. Tuy nhiên, việc tìm ra thông điệp "*PlanB*" chỉ bằng cách biết `24f1b9…` là không thể.
+Trong ví dụ đã cho, việc thu được băm `24f1b9…` bằng cách biết đầu vào "_PlanB_" là đơn giản và nhanh chóng. Tuy nhiên, việc tìm ra thông điệp "_PlanB_" chỉ bằng cách biết `24f1b9…` là không thể.
 
 ![CYP201](assets/fr/002.webp)
 
 Do đó, không thể tìm ra một ảnh trước $m$ cho một băm $h$ sao cho $h = \text{HASH}(m)$, nơi $\text{HASH}$ là một hàm băm mật mã.
 
 #### 2. Kháng thay đổi (hiệu ứng tuyết lở)
+
 Đặc điểm thứ hai là khả năng chống thay đổi, còn được biết đến với cái tên **hiệu ứng tuyết lở**. Đặc điểm này được quan sát thấy trong một hàm băm nếu một thay đổi nhỏ trong thông điệp đầu vào dẫn đến một sự thay đổi lớn trong kết quả băm đầu ra.
-Nếu quay lại ví dụ của chúng ta với đầu vào "*PlanB*" và hàm SHA256, chúng ta đã thấy rằng băm được tạo ra như sau:
+Nếu quay lại ví dụ của chúng ta với đầu vào "_PlanB_" và hàm SHA256, chúng ta đã thấy rằng băm được tạo ra như sau:
 
-```txt
-Nếu chúng ta thực hiện một thay đổi rất nhỏ đối với đầu vào bằng cách sử dụng "*Planb*" lần này, thì việc đơn giản thay đổi từ chữ "B" viết hoa thành chữ "b" viết thường đã hoàn toàn thay đổi băm đầu ra SHA256:
+```text
+24f1b93b68026bfc24f5c8265f287b4c940fb1664b0d75053589d7a4f821b688
+```
 
-```txt
+Nếu chúng ta thực hiện một thay đổi rất nhỏ đối với đầu vào bằng cách sử dụng "_Planb_" lần này, thì việc đơn giản thay đổi từ chữ "B" viết hoa thành chữ "b" viết thường đã hoàn toàn thay đổi băm đầu ra SHA256:
+
+```text
 bb038b4503ac5d90e1205788b00f8f314583c5e22f72bec84b8735ba5a36df3f
 ```
 
@@ -118,6 +128,7 @@ Trên thực tế, việc tồn tại va chạm cho các hàm băm là điều k
 
 Do đó, đặc điểm này không có nghĩa là không có va chạm cho các hàm băm, mà là một hàm băm tốt làm cho khả năng tìm thấy một va chạm trở nên không đáng kể. Ví dụ, đặc điểm này không còn được xác minh trên các thuật toán SHA-0 và SHA-1, tiền nhiệm của SHA-2, vì đã tìm thấy va chạm. Các hàm này do đó hiện nay thường được khuyến cáo chống lại và thường được coi là lỗi thời.
 Đối với một hàm băm $n$ bit, khả năng chống va chạm là theo cấp độ của $2^{\frac{n}{2}}$, phù hợp với cuộc tấn công sinh nhật. Ví dụ, đối với SHA256 ($n = 256$), độ phức tạp của việc tìm kiếm một va chạm là theo cấp độ của $2^{128}$ lần thử. Trên thực tế, điều này có nghĩa là nếu ai đó truyền $2^{128}$ thông điệp khác nhau qua hàm, người đó có khả năng tìm thấy một va chạm.
+
 #### 4. Khả năng Chống Preimage Thứ Hai
 
 Khả năng chống preimage thứ hai là một đặc điểm quan trọng khác của các hàm băm. Nó khẳng định rằng, cho một thông điệp $m_1$ và băm của nó $h$, việc tìm ra một thông điệp khác $m_2 \neq m_1$ sao cho:
@@ -127,13 +138,14 @@ $$
 $$
 
 Do đó, khả năng chống preimage thứ hai tương tự như khả năng chống va chạm, ngoại trừ ở đây, cuộc tấn công khó hơn bởi vì kẻ tấn công không thể tự do chọn $m_1$.
+
 ### Ứng Dụng của Hàm Băm trong Bitcoin
 
-Hàm băm được sử dụng nhiều nhất trong Bitcoin là **SHA256** ("*Secure Hash Algorithm 256 bits"*). Được thiết kế vào đầu những năm 2000 bởi NSA và được chuẩn hóa bởi NIST, nó tạo ra một đầu ra băm 256-bit.
+Hàm băm được sử dụng nhiều nhất trong Bitcoin là **SHA256** ("_Secure Hash Algorithm 256 bits"_). Được thiết kế vào đầu những năm 2000 bởi NSA và được chuẩn hóa bởi NIST, nó tạo ra một đầu ra băm 256-bit.
 
 Hàm này được sử dụng trong nhiều khía cạnh của Bitcoin. Ở cấp độ giao thức, nó được sử dụng trong cơ chế Chứng minh Công việc, nơi nó được áp dụng băm kép để tìm kiếm một va chạm một phần giữa tiêu đề của một khối ứng viên, được tạo bởi một thợ mỏ, và mục tiêu khó khăn. Nếu va chạm một phần này được tìm thấy, khối ứng viên trở nên hợp lệ và có thể được thêm vào blockchain.
 
-SHA256 cũng được sử dụng trong việc xây dựng một cây Merkle, đây là bộ tích lũy được sử dụng để ghi lại các giao dịch trong các khối. Cấu trúc này cũng được tìm thấy trong giao thức Utreexo, cho phép giảm kích thước của Bộ UTXO. Ngoài ra, với sự giới thiệu của Taproot vào năm 2021, SHA256 được khai thác trong MAST (*Merkelised Alternative Script Tree*), cho phép chỉ tiết lộ các điều kiện chi tiêu thực sự được sử dụng trong một script, mà không tiết lộ các lựa chọn khác có thể. Nó cũng được sử dụng trong việc tính toán các định danh giao dịch, trong truyền dẫn các gói tin qua mạng P2P, trong chữ ký điện tử... Cuối cùng, và đây là điều đặc biệt quan tâm trong khóa học này, SHA256 được sử dụng ở cấp độ ứng dụng để xây dựng ví Bitcoin và phát sinh địa chỉ.
+SHA256 cũng được sử dụng trong việc xây dựng một cây Merkle, đây là bộ tích lũy được sử dụng để ghi lại các giao dịch trong các khối. Cấu trúc này cũng được tìm thấy trong giao thức Utreexo, cho phép giảm kích thước của Bộ UTXO. Ngoài ra, với sự giới thiệu của Taproot vào năm 2021, SHA256 được khai thác trong MAST (_Merkelised Alternative Script Tree_), cho phép chỉ tiết lộ các điều kiện chi tiêu thực sự được sử dụng trong một script, mà không tiết lộ các lựa chọn khác có thể. Nó cũng được sử dụng trong việc tính toán các định danh giao dịch, trong truyền dẫn các gói tin qua mạng P2P, trong chữ ký điện tử... Cuối cùng, và đây là điều đặc biệt quan tâm trong khóa học này, SHA256 được sử dụng ở cấp độ ứng dụng để xây dựng ví Bitcoin và phát sinh địa chỉ.
 
 Hầu hết thời gian, khi bạn gặp việc sử dụng SHA256 trên Bitcoin, thực tế nó sẽ là một băm kép SHA256, được ghi chú là "**HASH256**", chỉ đơn giản là áp dụng SHA256 hai lần liên tiếp:
 HASH256(m) = SHA256(SHA256(m))
@@ -151,6 +163,10 @@ Sự kết hợp này được sử dụng để tạo ra các băm ngắn hơn,
 Cuối cùng, chỉ ở cấp độ ứng dụng, hàm SHA512 đôi khi cũng được sử dụng, đóng vai trò gián tiếp trong việc phát sinh khóa cho ví. Hàm này rất giống với SHA256 trong cách hoạt động; cả hai đều thuộc về cùng một gia đình SHA2, nhưng SHA512 tạo ra, như tên gọi của nó, một băm 512-bit, so với 256 bit của SHA256. Chúng tôi sẽ chi tiết về việc sử dụng nó trong các chương sau.
 
 Bây giờ bạn đã biết những kiến thức cơ bản thiết yếu về hàm băm cho những gì tiếp theo. Trong chương tiếp theo, tôi đề xuất khám phá chi tiết hơn về cơ chế hoạt động của hàm nằm ở trung tâm của Bitcoin: SHA256. Chúng ta sẽ phân tích nó để hiểu cách nó đạt được các đặc tính mà chúng ta đã mô tả ở đây. Chương tiếp theo khá dài và kỹ thuật, nhưng không cần thiết để theo dõi phần còn lại của khóa học. Vì vậy, nếu bạn gặp khó khăn trong việc hiểu nó, đừng lo lắng và chuyển thẳng sang chương tiếp theo, sẽ dễ tiếp cận hơn nhiều.
+
+## Cơ Chế Hoạt Động Bên Trong của SHA256
+
+<chapterId>905eb320-f15b-5fb6-8d2d-5bb447337deb</chapterId>
 Chúng ta đã biết rằng các hàm băm có những đặc tính quan trọng giúp chúng được sử dụng trong Bitcoin. Bây giờ, chúng ta sẽ xem xét cơ chế bên trong của các hàm băm này, làm cho chúng có những đặc tính đó, và để làm điều này, tôi đề xuất phân tích hoạt động của SHA256.
 
 Các hàm SHA256 và SHA512 thuộc về cùng một gia đình SHA2. Cơ chế của chúng dựa trên một cấu trúc đặc biệt được gọi là **Merkle-Damgård construction**. RIPEMD160 cũng sử dụng loại cấu trúc tương tự.
@@ -158,6 +174,7 @@ Các hàm SHA256 và SHA512 thuộc về cùng một gia đình SHA2. Cơ chế 
 Nhắc lại, chúng ta có một thông điệp với kích thước tùy ý làm đầu vào cho SHA256, và chúng ta sẽ đưa nó qua hàm để nhận được một băm 256-bit làm đầu ra.
 
 ### Tiền xử lý đầu vào
+
 Để bắt đầu, chúng ta cần chuẩn bị thông điệp đầu vào $m$ sao cho nó có một chiều dài tiêu chuẩn là bội số của 512 bits. Bước này rất quan trọng cho sự hoạt động đúng đắn của thuật toán sau này.
 Để làm điều này, chúng ta bắt đầu với bước thêm bit đệm. Chúng ta trước tiên thêm một bit phân cách `1` vào thông điệp, tiếp theo là một số lượng bit `0` nhất định. Số lượng bit `0` được thêm vào được tính toán sao cho tổng chiều dài của thông điệp sau khi thêm vào này là tương đương với 448 modulo 512. Như vậy, chiều dài $L$ của thông điệp với các bit đệm là bằng:
 
@@ -196,15 +213,19 @@ $$
 
 Như vậy, chúng ta sẽ có thêm 9 bit `0` ngoài bit phân cách `1`. Các bit đệm của chúng ta được thêm vào ngay sau thông điệp $M$ của chúng ta sẽ như sau:
 
-```txt
+```text
 1000 0000 00
 ```
 
 Sau khi thêm các bit đệm vào thông điệp $M$ của chúng ta, chúng ta cũng thêm một biểu diễn 64-bit của chiều dài gốc của thông điệp $M$, được biểu diễn bằng nhị phân. Điều này cho phép hàm băm nhạy cảm với thứ tự của các bit và chiều dài của thông điệp.
 Nếu quay lại ví dụ của chúng ta với thông điệp ban đầu là 950 bit, chúng ta chuyển đổi số thập phân `950` thành nhị phân, thu được `1110 1101 10`. Chúng ta hoàn thiện số này bằng cách thêm các số `0` vào phía dưới để tạo thành tổng cộng 64 bit. Trong ví dụ của chúng ta, điều này cho ra:
 
-```txt
+```text
+0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0011 1011 0110
+```
+
 Kích thước đệm này được thêm vào theo sau phần đệm bit. Do đó, thông điệp sau quá trình tiền xử lý của chúng ta bao gồm ba phần:
+
 1. Thông điệp gốc $M$;
 2. Một bit `1` theo sau bởi nhiều bit `0` để tạo thành phần đệm bit;
 3. Một biểu diễn 64-bit của độ dài của $M$ để tạo thành phần đệm với kích thước.
@@ -239,6 +260,7 @@ K[0 \ldots 63] = \begin{pmatrix}
 0x27b70a85, & 0x2e1b2138, & 0x4d2c6dfc, & 0x53380d13, \\
 \end{pmatrix}
 $$
+
 ### Phân Chia Đầu Vào
 
 Bây giờ, sau khi đã cân bằng đầu vào, chúng ta sẽ tiếp tục với giai đoạn xử lý chính của thuật toán SHA256: hàm nén. Bước này rất quan trọng, vì nó chủ yếu mang lại cho hàm băm những tính chất mật mã mà chúng ta đã nghiên cứu trong chương trước.
@@ -248,6 +270,7 @@ Bây giờ, sau khi đã cân bằng đầu vào, chúng ta sẽ tiếp tục v�
 ### Các Phép Toán Logic
 
 Trước khi khám phá hàm nén chi tiết, điều quan trọng là phải hiểu các phép toán logic cơ bản được sử dụng trong đó. Các phép toán này, dựa trên đại số Boolean, hoạt động ở cấp độ bit. Các phép toán logic cơ bản được sử dụng là:
+
 - **Phép giao (AND)**: ký hiệu $\land$, tương ứng với "VÀ" logic.
 - **Phép hợp (OR)**: ký hiệu $\lor$, tương ứng với "HOẶC" logic.
 - **Phép phủ định (NOT)**: ký hiệu $\lnot$, tương ứng với "PHỦ ĐỊNH" logic.
@@ -268,6 +291,7 @@ Mỗi phép toán logic có thể được biểu diễn bằng một bảng ch�
 | $p$ | $q$ | $p \land q$ |
 | --- | --- | ----------- |
 | 0   | 0   | 0           |
+
 Để hiểu về hoạt động của XOR ở cấp độ bit, hãy lấy một ví dụ. Nếu chúng ta có hai số nhị phân 6 bit:
 
 - $a = 101100$
@@ -321,10 +345,11 @@ Một cách hình ảnh, phép xoay phải vòng tròn có thể được thấy
 Giờ đây, khi chúng ta đã hiểu về các phép toán cơ bản, hãy xem xét chi tiết hàm nén SHA256.
 
 Trong bước trước, chúng ta đã chia đầu vào thành nhiều phần 512-bit $P$. Đối với mỗi khối 512-bit $P$, chúng ta có:
+
 - **Các từ thông điệp $W_i$**: cho $i$ từ 0 đến 63.
 - **Các hằng số $K_i$**: cho $i$ từ 0 đến 63, được định nghĩa trong bước trước.
 - **Các biến trạng thái $A, B, C, D, E, F, G, H$**: được khởi tạo với các giá trị từ bước trước.
-16 từ đầu tiên, $W_0$ đến $W_{15}$, được trích xuất trực tiếp từ khối 512-bit đã được xử lý $P$. Mỗi từ $W_i$ bao gồm 32 bit liên tiếp từ khối. Ví dụ, chúng ta lấy mảnh dữ liệu đầu vào đầu tiên của mình $P_1$, và chúng ta tiếp tục chia nó thành các mảnh nhỏ hơn 32-bit mà chúng ta gọi là từ.
+  16 từ đầu tiên, $W_0$ đến $W_{15}$, được trích xuất trực tiếp từ khối 512-bit đã được xử lý $P$. Mỗi từ $W_i$ bao gồm 32 bit liên tiếp từ khối. Ví dụ, chúng ta lấy mảnh dữ liệu đầu vào đầu tiên của mình $P_1$, và chúng ta tiếp tục chia nó thành các mảnh nhỏ hơn 32-bit mà chúng ta gọi là từ.
 
 48 từ tiếp theo ($W_{16}$ đến $W_{63}$) được tạo ra sử dụng công thức sau:
 
@@ -333,6 +358,7 @@ W_i = W_{i-16} + \sigma_0(W_{i-15}) + W_{i-7} + \sigma_1(W_{i-2}) \mod 2^{32}
 $$
 
 Với:
+
 - $\sigma_0(x) = RotR_7(x) \oplus RotR_{18}(x) \oplus ShR_3(x)$
 - $\sigma_1(x) = RotR_{17}(x) \oplus RotR_{19}(x) \oplus ShR_{10}(x)$
 
@@ -356,13 +382,13 @@ $$
 \Sigma_1(E) = RotR_6(E) \oplus RotR_{11}(E) \oplus RotR_{25}(E)
 $$
 
-- **Hàm $Ch$ ("*Chọn*"):**
+- **Hàm $Ch$ ("_Chọn_"):**
 
 $$
 Ch(E, F, G) = (E \land F) \oplus (\lnot E \land G)
 $$
 
-- **Hàm $Maj$ ("*Đa số*"):**
+- **Hàm $Maj$ ("_Đa số_"):**
 
 $$
 Maj(A, B, C) = (A \land B) \oplus (A \land C) \oplus (B \land C)
@@ -391,7 +417,9 @@ G = F \\
 F = E \\
 Dưới đây là bản dịch của đoạn văn bản đã cho:
 
+
 $$
+
 \begin{cases}
 E = D + temp1 \mod 2^{32} \\
 D = C \\
@@ -399,6 +427,7 @@ C = B \\
 B = A \\
 A = temp1 + temp2 \mod 2^{32}
 \end{cases}
+
 $$
 
 Sơ đồ sau đây đại diện cho một vòng của hàm nén SHA256 như chúng tôi vừa mô tả:
@@ -412,24 +441,29 @@ Sơ đồ sau đây đại diện cho một vòng của hàm nén SHA256 như ch
 Chúng ta có thể quan sát thấy rằng, sau vòng này, các biến trạng thái mới $A$, $B$, $C$, $D$, $E$, $F$, $G$, và $H$ được tạo ra. Những biến mới này sẽ được sử dụng làm đầu vào cho vòng tiếp theo, từ đó tạo ra các biến mới $A$, $B$, $C$, $D$, $E$, $F$, $G$, và $H$ để sử dụng cho vòng tiếp theo. Quá trình này tiếp tục cho đến vòng thứ 64.
 Sau 64 vòng, chúng ta cập nhật các giá trị ban đầu của các biến trạng thái bằng cách cộng chúng với các giá trị cuối cùng ở cuối vòng 64:
 $$
+
 \begin{cases}
-A = A_{\text{ban đầu}} + A \mod 2^{32} \\
-B = B_{\text{ban đầu}} + B \mod 2^{32} \\
-C = C_{\text{ban đầu}} + C \mod 2^{32} \\
-D = D_{\text{ban đầu}} + D \mod 2^{32} \\
-E = E_{\text{ban đầu}} + E \mod 2^{32} \\
-F = F_{\text{ban đầu}} + F \mod 2^{32} \\
-G = G_{\text{ban đầu}} + G \mod 2^{32} \\
-H = H_{\text{ban đầu}} + H \mod 2^{32}
+A = A*{\text{ban đầu}} + A \mod 2^{32} \\
+B = B*{\text{ban đầu}} + B \mod 2^{32} \\
+C = C*{\text{ban đầu}} + C \mod 2^{32} \\
+D = D*{\text{ban đầu}} + D \mod 2^{32} \\
+E = E*{\text{ban đầu}} + E \mod 2^{32} \\
+F = F*{\text{ban đầu}} + F \mod 2^{32} \\
+G = G*{\text{ban đầu}} + G \mod 2^{32} \\
+H = H*{\text{ban đầu}} + H \mod 2^{32}
 \end{cases}
+
 $$
 
 Những giá trị mới này của $A$, $B$, $C$, $D$, $E$, $F$, $G$, và $H$ sẽ được sử dụng làm giá trị ban đầu cho khối tiếp theo, $P_2$. Đối với khối này $P_2$, chúng ta lặp lại quá trình nén tương tự với 64 vòng, sau đó chúng ta cập nhật các biến cho khối $P_3$, và cứ thế cho đến khối cuối cùng của đầu vào đã được cân bằng.
 
 Sau khi xử lý tất cả các khối thông điệp, chúng ta nối các giá trị cuối cùng của các biến $A$, $B$, $C$, $D$, $E$, $F$, $G$, và $H$ để tạo thành băm 256-bit cuối cùng của hàm băm của chúng ta:
 
+
 $$
+
 \text{Băm} = A \Vert B \Vert C \Vert D \Vert E \Vert F \Vert G \Vert H
+
 $$
 
 Mỗi biến là một số nguyên 32-bit, vì vậy việc nối chúng luôn tạo ra một kết quả 256-bit, bất kể kích thước của đầu vào thông điệp cho hàm băm.
@@ -441,9 +475,11 @@ Vậy, làm thế nào mà hàm này không thể đảo ngược, chống va ch
 Đối với tính chống can thiệp, điều này khá dễ hiểu. Có rất nhiều phép tính được thực hiện liên tiếp, phụ thuộc cả vào đầu vào và các hằng số, nên sự thay đổi nhỏ nhất của thông điệp ban đầu hoàn toàn thay đổi lộ trình được thực hiện, và do đó hoàn toàn thay đổi băm đầu ra. Đây là hiệu ứng được gọi là hiệu ứng tuyết lở. Tính chất này một phần được đảm bảo bởi việc trộn lẫn các trạng thái trung gian với các trạng thái ban đầu cho mỗi phần.
 Tiếp theo, khi thảo luận về hàm băm mật mã, thuật ngữ "khả năng không đảo ngược" không thường được sử dụng. Thay vào đó, chúng ta nói về "kháng ảnh nguyên," chỉ rõ rằng đối với bất kỳ $y$ nào, việc tìm một $x$ sao cho $h(x) = y$ là khó khăn. Khả năng kháng ảnh nguyên này được đảm bảo bởi độ phức tạp đại số và tính phi tuyến mạnh mẽ của các phép toán thực hiện trong hàm nén, cũng như do mất mát một số thông tin trong quá trình đó. Ví dụ, đối với một kết quả của phép cộng modulo, có nhiều toán hạng có thể:
 $$
+
 3+2 \mod 10 = 5 \\
 7+8 \mod 10 = 5 \\
 5+10 \mod 10 = 5
+
 $$
 
 Trong ví dụ này, chỉ biết modulo được sử dụng (10) và kết quả (5), người ta không thể xác định chắc chắn những toán hạng nào được sử dụng trong phép cộng. Người ta nói rằng có nhiều công thức đồng dư modulo 10.
@@ -466,8 +502,11 @@ Cấu trúc của SHA256 dựa trên cấu trúc Merkle-Damgård, cho phép bi�
 Tuy nhiên, một số hàm băm cũ như SHA1 hoặc MD5, sử dụng cấu trúc đặc biệt này, lại dễ bị tấn công mở rộng độ dài. Đây là một kỹ thuật cho phép kẻ tấn công biết được băm của một thông điệp $M$ và độ dài của $M$ (mà không cần biết nội dung thông điệp) để tính toán băm của một thông điệp $M'$ được tạo ra bằng cách nối $M$ với nội dung bổ sung.
 SHA256, mặc dù sử dụng cùng một loại cấu trúc, lại có khả năng lý thuyết chống lại loại tấn công này, không giống như SHA1 và MD5. Điều này có thể giải thích bí ẩn của việc băm kép được thực hiện xuyên suốt Bitcoin bởi Satoshi Nakamoto. Để tránh loại tấn công này, Satoshi có thể đã ưu tiên sử dụng SHA256 kép:
 
+
 $$
+
 \text{HASH256}(m) = \text{SHA256}(\text{SHA256}(m))
+
 $$
 
 Điều này tăng cường an ninh chống lại các cuộc tấn công tiềm năng liên quan đến cấu trúc Merkle-Damgård, nhưng nó không tăng cường an ninh của quá trình băm về khả năng chống va chạm. Hơn nữa, ngay cả khi SHA256 đã dễ bị loại tấn công này, nó cũng không gây ra ảnh hưởng nghiêm trọng, vì tất cả các trường hợp sử dụng hàm băm trong Bitcoin đều liên quan đến dữ liệu công khai. Tuy nhiên, cuộc tấn công mở rộng độ dài chỉ có thể hữu ích cho kẻ tấn công nếu dữ liệu băm là riêng tư và người dùng đã sử dụng hàm băm như một cơ chế xác thực cho dữ liệu này, tương tự như một MAC. Do đó, việc thực hiện băm kép vẫn là một bí ẩn trong thiết kế của Bitcoin.
@@ -504,14 +543,20 @@ Hãy nghiên cứu chi tiết hơn về những gì xảy ra trong hộp đen HM
 Trước khi tính toán HMAC, cần phải làm cho khóa và các hằng số cân đối theo kích thước khối $B$. Ví dụ, nếu khóa $K$ ngắn hơn 128 byte, nó sẽ được thêm vào các số không để đạt được kích thước $B$. Nếu $K$ dài hơn 128 byte, nó sẽ được nén sử dụng SHA512, sau đó thêm vào các số không cho đến khi đạt được 128 byte. Như vậy, một khóa cân đối được gọi là $K'$ được thu được.
 Giá trị của $\text{opad}$ và $\text{ipad}$ được thu được bằng cách lặp lại byte cơ bản của chúng ($0x5c$ cho $\text{opad}$, $0x36$ cho $\text{ipad}$) cho đến khi đạt được kích thước $B$. Như vậy, với $B = 128$ byte, chúng ta có:
 
+
 $$
-\text{opad} = \underbrace{0x5c5c\ldots5c}_{128 \, \text{byte}}
+
+\text{opad} = \underbrace{0x5c5c\ldots5c}\_{128 \, \text{byte}}
+
 $$
 
 Sau khi tiền xử lý hoàn tất, thuật toán HMAC-SHA512 được định nghĩa bởi phương trình sau:
 
+
 $$
-\text {HMAC-SHA512}_K(m) = \text{SHA512} \left( (K' \oplus \text{opad}) \parallel \text{SHA512} \left( (K' \oplus \text{ipad}) \parallel m \right) \right)
+
+\text {HMAC-SHA512}\_K(m) = \text{SHA512} \left( (K' \oplus \text{opad}) \parallel \text{SHA512} \left( (K' \oplus \text{ipad}) \parallel m \right) \right)
+
 $$
 
 Phương trình này được chia thành các bước sau:
@@ -540,7 +585,9 @@ Quy trình PBKDF2 như sau, với:
 - $n$: số lần lặp của hàm, trong trường hợp của chúng ta, là 2048.
 Hàm PBKDF2 được định nghĩa theo cách lặp đi lặp lại. Mỗi lần lặp lấy kết quả của lần trước, đưa qua HMAC-SHA512, và kết hợp các kết quả liên tiếp để tạo ra khóa cuối cùng:
 $$
+
 \text{PBKDF2}(m, s) = \text{HMAC-SHA512}^{2048}(m, s)
+
 $$
 
 Một cách biểu đồ, PBKDF2 có thể được mô tả như sau:
@@ -582,8 +629,11 @@ Dưới đây là biểu diễn của một đường cong elliptic trên trư�
 
 Mỗi đường cong elliptic được xác định bởi một phương trình dạng:
 
+
 $$
+
 y^2 = x^3 + ax + b
+
 $$
 
 ### secp256k1
@@ -592,8 +642,11 @@ $$
 
 Tuy nhiên, Satoshi Nakamoto, người sáng lập Bitcoin, đã chọn không sử dụng đường cong này. Lý do cho sự lựa chọn này không rõ ràng, nhưng một số người tin rằng ông ấy đã muốn tìm một lựa chọn thay thế vì các tham số của đường cong này có thể chứa một cửa hậu. Thay vào đó, giao thức Bitcoin sử dụng tiêu chuẩn đường cong ***secp256k1***. Đường cong này được xác định bởi các tham số $a = 0$ và $b = 7$. Phương trình của nó do đó là:
 
+
 $$
+
 y^2 = x^3 + 7
+
 $$
 
 Biểu diễn đồ họa của nó trên trường số thực trông như thế này:
@@ -604,20 +657,26 @@ Trong Bitcoin, số nguyên tố $p$ được sử dụng để định nghĩa t
 
 Số nguyên tố $p$ được sử dụng là:
 
-```txt
+```text
 p = 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEFFFFFC2F
 ```
 
 Trong ký hiệu thập phân, điều này tương ứng với:
 
+
 $$
+
 p = 2^{256} - 2^{32} - 977
+
 $$
 
 Do đó, phương trình của đường cong elliptic của chúng ta thực sự là:
 
+
 $$
+
 y^2 \equiv x^3 + 7 \mod p
+
 $$
 
 Xét đường cong này được định nghĩa trên trường hữu hạn $\mathbb{F}_p$, nó không còn giống một đường cong liên tục nữa mà giống như một tập hợp rời rạc các điểm. Ví dụ, đây là hình dạng của đường cong được sử dụng trong Bitcoin với $p = 17$ rất nhỏ:
@@ -658,8 +717,11 @@ Tuy nhiên, cũng có thể biểu diễn khóa công khai dưới dạng nén c
 
 Để tính toán điểm $K$ tương ứng với khóa công khai của chúng ta, chúng ta sử dụng phép nhân vô hướng trên đường cong elliptic, được định nghĩa là phép cộng lặp lại ($k$ lần) của điểm sinh $G$:
 
+
 $$
+
 K = k \cdot G
+
 $$
 
 nơi:
@@ -675,8 +737,11 @@ Việc điểm $G$ này chung cho tất cả các khóa công khai trên Bitcoin
 
 Khái niệm về phép cộng trên đường cong elliptic được định nghĩa một cách hình học. Nếu chúng ta có hai điểm $P$ và $Q$ trên đường cong, phép toán $P + Q$ được tính bằng cách vẽ một đường thẳng đi qua $P$ và $Q$. Đường thẳng này sẽ nhất thiết cắt đường cong tại một điểm thứ ba $R'$. Sau đó, chúng ta lấy ảnh phản chiếu của điểm này qua trục x để thu được điểm $R$, là kết quả của phép cộng:
 
+
 $$
+
 P + Q = R
+
 $$
 
 Một cách hình ảnh, điều này có thể được biểu diễn như sau:
@@ -685,8 +750,11 @@ Một cách hình ảnh, điều này có thể được biểu diễn như sau:
 
 Đối với phép nhân đôi một điểm, tức là phép toán $P + P$, chúng ta vẽ tiếp tuyến của đường cong tại điểm $P$. Tiếp tuyến này cắt đường cong tại một điểm khác $S'$. Sau đó, chúng ta lấy ảnh phản chiếu của điểm này qua trục x để thu được điểm $S$, là kết quả của phép nhân đôi:
 
+
 $$
+
 2P = S
+
 $$
 
 Một cách hình ảnh, điều này được thể hiện như sau:
@@ -697,8 +765,11 @@ Bằng cách sử dụng các phép toán cộng và nhân đôi này, chúng ta
 
 Ví dụ, giả sử chúng ta đã chọn một khóa riêng $k = 4$. Để tính toán khóa công khai tương ứng, chúng ta thực hiện:
 
+
 $$
+
 K = k \cdot G = 4G
+
 $$
 
 Một cách hình ảnh, điều này tương ứng với việc thực hiện một loạt các phép cộng và nhân đôi:
@@ -711,12 +782,18 @@ Nếu chúng ta muốn, ví dụ, tính toán điểm $3G$, trước tiên chún
 
 Chúng ta sẽ có:
 
-$$
-G + G = 2G
-$$
 
 $$
+
+G + G = 2G
+
+$$
+
+
+$$
+
 2G + G = 3G
+
 $$
 
 Một cách hình ảnh, điều này sẽ được biểu diễn như sau:
@@ -726,7 +803,8 @@ Một cách hình ảnh, điều này sẽ được biểu diễn như sau:
 Nhờ những phép toán này, chúng ta có thể hiểu tại sao việc suy ra khóa công khai từ khóa riêng là dễ dàng, nhưng ngược lại thì gần như không thể.
 
 Hãy quay lại với ví dụ đơn giản của chúng ta. Với khóa riêng $k = 4$. Để tính toán khóa công khai liên quan, chúng ta thực hiện:
-K = k \cdot G = 4G$$
+K = k \cdot G = 4G
+$$
 
 Chúng ta đã có thể dễ dàng tính toán được khóa công khai $K$ bằng cách biết $k$ và $G$.
 
@@ -735,9 +813,10 @@ Bây giờ, nếu ai đó chỉ biết khóa công khai $K$, họ sẽ đối m�
 Tất nhiên, trong ví dụ đơn giản này với $k = 4$, sẽ có thể tìm ra $k$ thông qua thử và sai, vì số lượng khả năng là thấp. Tuy nhiên, trên thực tế đối với Bitcoin, $k$ là một số nguyên 256-bit, làm cho số lượng khả năng lớn đến mức không thể tưởng tượng được (khoảng $1.158 \times 10^{77}$). Do đó, việc tìm $k$ bằng cách sử dụng lực lượng brút-fô là không khả thi.
 
 ## Ký bằng Khóa Riêng
+
 <chapterId>bb07826f-826e-5905-b307-3d82001fb778</chapterId>
 
-Bây giờ bạn đã biết cách suy ra khóa công khai từ khóa riêng, bạn đã có thể nhận bitcoin bằng cách sử dụng cặp khóa này như một điều kiện chi tiêu. Nhưng làm thế nào để chi tiêu chúng? Để chi tiêu bitcoin, bạn sẽ cần phải mở khóa *scriptPubKey* gắn với UTXO của mình để chứng minh rằng bạn thực sự là chủ sở hữu hợp pháp của nó. Để làm điều này, bạn phải tạo ra một chữ ký $s$ phù hợp với khóa công khai $K$ hiện diện trong *scriptPubKey* sử dụng khóa riêng $k$ đã được sử dụng ban đầu để tính toán $K$. Chữ ký số do đó là bằng chứng không thể chối cãi rằng bạn đang sở hữu khóa riêng liên kết với khóa công khai bạn tuyên bố.
+Bây giờ bạn đã biết cách suy ra khóa công khai từ khóa riêng, bạn đã có thể nhận bitcoin bằng cách sử dụng cặp khóa này như một điều kiện chi tiêu. Nhưng làm thế nào để chi tiêu chúng? Để chi tiêu bitcoin, bạn sẽ cần phải mở khóa _scriptPubKey_ gắn với UTXO của mình để chứng minh rằng bạn thực sự là chủ sở hữu hợp pháp của nó. Để làm điều này, bạn phải tạo ra một chữ ký $s$ phù hợp với khóa công khai $K$ hiện diện trong _scriptPubKey_ sử dụng khóa riêng $k$ đã được sử dụng ban đầu để tính toán $K$. Chữ ký số do đó là bằng chứng không thể chối cãi rằng bạn đang sở hữu khóa riêng liên kết với khóa công khai bạn tuyên bố.
 
 ### Các Tham Số Đường Cong Elliptic
 
@@ -749,7 +828,7 @@ $$
 p = 2^{256} - 2^{32} - 977
 $$
 
-```txt
+```text
 p = 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEFFFFFC2F
 ```
 
@@ -763,13 +842,17 @@ $$
 
 Điểm sinh hoặc điểm gốc $G$:
 
-```txt
+```text
 G = 0x0279BE667EF9DCBBAC55A06295CE870B07029BFCDB2DCE28D959F2815B16F81798
 ```
+
 Con số này là dạng nén chỉ đưa ra hoành độ của điểm $G$. Tiền tố `02` ở đầu xác định giá trị nào trong hai giá trị có hoành độ $x$ này được sử dụng làm điểm sinh.
 Số thứ tự $n$ của $G$ (số điểm tồn tại) và hệ số nhỏ $h$:
 
-```txt
+```text
+n = 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEBAAEDCE6AF48A03BBFD25E8CD0364141
+```
+
 $n$ là một số rất lớn, nhỏ hơn $p$ một chút.
 
 $$
@@ -782,7 +865,7 @@ Tất cả thông tin này đều công khai và được tất cả các bên t
 
 ### Chữ ký với ECDSA
 
-Thuật toán ECDSA cho phép người dùng ký một thông điệp bằng khóa riêng của họ, theo cách mà bất kỳ ai biết khóa công khai tương ứng có thể xác minh tính hợp lệ của chữ ký, mà không bao giờ tiết lộ khóa riêng. Trong bối cảnh của Bitcoin, thông điệp được ký phụ thuộc vào *sighash* được người dùng chọn. Chính *sighash* này sẽ quyết định những phần nào của giao dịch được bao phủ bởi chữ ký. Tôi sẽ nói thêm về điều này trong chương tiếp theo.
+Thuật toán ECDSA cho phép người dùng ký một thông điệp bằng khóa riêng của họ, theo cách mà bất kỳ ai biết khóa công khai tương ứng có thể xác minh tính hợp lệ của chữ ký, mà không bao giờ tiết lộ khóa riêng. Trong bối cảnh của Bitcoin, thông điệp được ký phụ thuộc vào _sighash_ được người dùng chọn. Chính _sighash_ này sẽ quyết định những phần nào của giao dịch được bao phủ bởi chữ ký. Tôi sẽ nói thêm về điều này trong chương tiếp theo.
 
 Dưới đây là các bước để tạo một chữ ký ECDSA:
 
@@ -807,6 +890,7 @@ s = r^{-1} \left( e + k \cdot x_R \right) \mod n
 $$
 
 trong đó:
+
 - $r^{-1}$ là nghịch đảo mô-đun của $r$ modulo $n$, tức là, một số nguyên sao cho $r \cdot r^{-1} \equiv 1 \mod n$;
 - $k$ là khóa riêng của người dùng;
 - $e$ là băm của thông điệp;
@@ -870,7 +954,8 @@ Ngoài thông điệp, tọa độ $x$ của khóa công khai $K_x$, cũng như 
 Kết quả của việc băm này được ghi chú là $e$ và được gọi là "thách thức":
 
 $$
-e = \text{HASH}(\text{``BIP0340/challenge''}, R_x \Vert K_x \Vert m) \mod n$$
+e = \text{HASH}(\text{``BIP0340/challenge''}, R_x \Vert K_x \Vert m) \mod n
+$$
 
 Ở đây, $\text{HASH}$ là hàm băm SHA256, và $\text{``BIP0340/challenge''}$ là thẻ đặc biệt dành cho việc băm.
 
@@ -944,11 +1029,13 @@ Như chúng ta đã thấy, ban đầu Satoshi đã chọn triển khai ECDSA ch
 Thực sự, chúng ta không biết tại sao Satoshi không chọn nó, nhưng một giả thuyết có khả năng là giao thức này đã được cấp bằng sáng chế cho đến năm 2008. Mặc dù Bitcoin được tạo ra một năm sau, vào tháng 1 năm 2009, không có tiêu chuẩn hóa mã nguồn mở nào cho chữ ký Schnorr vào thời điểm đó. Có lẽ Satoshi coi việc sử dụng ECDSA, đã được sử dụng rộng rãi và kiểm tra trong phần mềm mã nguồn mở và có một số triển khai được công nhận (đặc biệt là thư viện OpenSSL được sử dụng cho đến năm 2015 trên Bitcoin Core, sau đó được thay thế bằng libsecp256k1 trong phiên bản 0.10.0) là an toàn hơn. Hoặc có thể anh ấy đơn giản không biết rằng bằng sáng chế này sẽ hết hạn vào năm 2008. Dù sao, giả thuyết có khả năng nhất dường như liên quan đến bằng sáng chế này và thực tế là ECDSA đã có lịch sử chứng minh và dễ triển khai hơn.
 
 ## Các cờ sighash
+
 <chapterId>231c41a2-aff2-4655-9048-47b6d2d83d64</chapterId>
 
 Như chúng ta đã thấy trong các chương trước, chữ ký số thường được sử dụng để mở khóa script của một đầu vào. Trong quá trình ký, cần phải bao gồm dữ liệu đã ký vào tính toán, được chỉ định trong các ví dụ của chúng tôi bằng thông điệp $m$. Dữ liệu này, một khi đã được ký, không thể được chỉnh sửa mà không làm cho chữ ký trở nên không hợp lệ. Thực sự, cho dù là ECDSA hay Schnorr, người xác minh chữ ký phải bao gồm trong tính toán của họ cùng một thông điệp $m$. Nếu nó khác với thông điệp $m$ ban đầu được sử dụng bởi người ký, kết quả sẽ không chính xác và chữ ký sẽ được coi là không hợp lệ. Khi đó, người ta nói rằng một chữ ký bao phủ một số dữ liệu nhất định và bảo vệ nó, theo một cách nào đó, khỏi sự chỉnh sửa không được phép.
 
 ### Cờ sighash là gì?
+
 Trong trường hợp cụ thể của Bitcoin, chúng ta đã thấy rằng thông điệp $m$ tương ứng với giao dịch. Tuy nhiên, trên thực tế, nó phức tạp hơn một chút. Thực sự, nhờ có cờ sighash, có thể chọn dữ liệu cụ thể trong giao dịch sẽ được bao phủ hoặc không bởi chữ ký.
 "Cờ sighash" do đó là một tham số được thêm vào mỗi đầu vào, cho phép xác định các thành phần của giao dịch được bao phủ bởi chữ ký liên quan. Những thành phần này là các đầu vào và các đầu ra. Sự lựa chọn của cờ sighash do đó xác định đầu vào và đầu ra nào của giao dịch được cố định bởi chữ ký và cái nào vẫn có thể được chỉnh sửa mà không làm mất hiệu lực của nó. Cơ chế này cho phép chữ ký cam kết dữ liệu giao dịch theo ý định của người ký.
 Rõ ràng, một khi giao dịch được xác nhận trên blockchain, nó trở nên không thể thay đổi, bất kể các cờ sighash được sử dụng. Khả năng chỉnh sửa thông qua các cờ sighash chỉ giới hạn trong khoảng thời gian từ khi ký đến khi xác nhận.
@@ -968,8 +1055,9 @@ Trong tất cả các sơ đồ của chương này, màu cam đại diện cho 
 - `SIGHASH_NONE` (`0x02`): Chữ ký bao gồm tất cả các đầu vào nhưng không bao gồm bất kỳ đầu ra nào, do đó cho phép chỉnh sửa các đầu ra sau khi ký. Cụ thể, điều này giống như một chiếc séc trắng. Người ký mở khóa các UTXOs trong đầu vào nhưng để trường đầu ra hoàn toàn có thể chỉnh sửa. Bất kỳ ai biết giao dịch này có thể thêm đầu ra của họ chọn, ví dụ bằng cách chỉ định một địa chỉ nhận để thu thập các quỹ tiêu thụ bởi các đầu vào, và sau đó phát sóng giao dịch để thu hồi bitcoin. Chữ ký của chủ sở hữu các đầu vào sẽ không bị vô hiệu, vì nó chỉ bao gồm các đầu vào.
 
 ![CYP201](assets/fr/027.webp)
-- `SIGHASH_SINGLE` (`0x03`): Chữ ký bao gồm tất cả các đầu vào cũng như một đầu ra duy nhất, tương ứng với chỉ số của đầu vào đã ký. Ví dụ, nếu chữ ký mở khóa *scriptPubKey* của đầu vào #0, thì nó cũng bao gồm đầu ra #0. Chữ ký cũng bảo vệ tất cả các đầu vào khác, không thể được chỉnh sửa. Tuy nhiên, bất kỳ ai cũng có thể thêm một đầu ra bổ sung mà không làm mất hiệu lực chữ ký, miễn là đầu ra #0, là đầu ra duy nhất được bảo vệ bởi nó, không được chỉnh sửa.
-![CYP201](assets/fr/028.webp)
+
+- `SIGHASH_SINGLE` (`0x03`): Chữ ký bao gồm tất cả các đầu vào cũng như một đầu ra duy nhất, tương ứng với chỉ số của đầu vào đã ký. Ví dụ, nếu chữ ký mở khóa _scriptPubKey_ của đầu vào #0, thì nó cũng bao gồm đầu ra #0. Chữ ký cũng bảo vệ tất cả các đầu vào khác, không thể được chỉnh sửa. Tuy nhiên, bất kỳ ai cũng có thể thêm một đầu ra bổ sung mà không làm mất hiệu lực chữ ký, miễn là đầu ra #0, là đầu ra duy nhất được bảo vệ bởi nó, không được chỉnh sửa.
+  ![CYP201](assets/fr/028.webp)
 
 Ngoài ba cờ sighash này, còn có bổ sung `SIGHASH_ANYONECANPAY` (`0x80`). Bổ sung này có thể kết hợp với một cờ sighash cơ bản để tạo ra ba cờ sighash mới:
 
@@ -980,12 +1068,13 @@ Ngoài ba cờ sighash này, còn có bổ sung `SIGHASH_ANYONECANPAY` (`0x80`).
 - `SIGHASH_NONE | SIGHASH_ANYONECANPAY` (`0x82`): Chữ ký bao gồm một đầu vào, không cam kết với bất kỳ đầu ra nào;
 
 ![CYP201](assets/fr/030.webp)
-- `SIGHASH_SINGLE | SIGHASH_ANYONECANPAY` (`0x83`): Chữ ký này chỉ bao gồm một đầu vào cũng như đầu ra có cùng chỉ số với đầu vào này. Ví dụ, nếu chữ ký mở khóa *scriptPubKey* của đầu vào số 3, nó cũng sẽ bao gồm đầu ra số 3. Phần còn lại của giao dịch vẫn có thể được thay đổi, cả về các đầu vào khác và các đầu ra khác.
-![CYP201](assets/fr/031.webp)
+
+- `SIGHASH_SINGLE | SIGHASH_ANYONECANPAY` (`0x83`): Chữ ký này chỉ bao gồm một đầu vào cũng như đầu ra có cùng chỉ số với đầu vào này. Ví dụ, nếu chữ ký mở khóa _scriptPubKey_ của đầu vào số 3, nó cũng sẽ bao gồm đầu ra số 3. Phần còn lại của giao dịch vẫn có thể được thay đổi, cả về các đầu vào khác và các đầu ra khác.
+  ![CYP201](assets/fr/031.webp)
 
 ### Dự án Thêm Cờ Sighash Mới
 
-Hiện tại (2024), chỉ có các cờ sighash được trình bày trong phần trước mới có thể sử dụng trên Bitcoin. Tuy nhiên, một số dự án đang xem xét việc thêm mới cờ sighash. Ví dụ, BIP118, được đề xuất bởi Christian Decker và Anthony Towns, giới thiệu hai cờ sighash mới: `SIGHASH_ANYPREVOUT` và `SIGHASH_ANYPREVOUTANYSCRIPT` (*AnyPrevOut = "Bất Kỳ Đầu Ra Trước Đó"*).
+Hiện tại (2024), chỉ có các cờ sighash được trình bày trong phần trước mới có thể sử dụng trên Bitcoin. Tuy nhiên, một số dự án đang xem xét việc thêm mới cờ sighash. Ví dụ, BIP118, được đề xuất bởi Christian Decker và Anthony Towns, giới thiệu hai cờ sighash mới: `SIGHASH_ANYPREVOUT` và `SIGHASH_ANYPREVOUTANYSCRIPT` (_AnyPrevOut = "Bất Kỳ Đầu Ra Trước Đó"_).
 
 Hai cờ sighash này sẽ cung cấp một khả năng bổ sung trên Bitcoin: tạo chữ ký không bao gồm bất kỳ đầu vào cụ thể nào của giao dịch.
 
@@ -1001,9 +1090,11 @@ https://planb.network/courses/lnp201
 Trong phần tiếp theo, tôi đề xuất khám phá cách hoạt động của cụm từ ghi nhớ tạo nên ví Bitcoin của bạn.
 
 # Cụm từ ghi nhớ
+
 <partId>4070af16-c8a2-58b5-9871-a22c86c07458</partId>
 
 ## Sự phát triển của ví Bitcoin
+
 <chapterId>9d9acd5d-a0e5-5dfd-b544-f043fae8840f</chapterId>
 
 Sau khi đã khám phá cách hoạt động của hàm băm và chữ ký số, chúng ta có thể nghiên cứu cách ví Bitcoin hoạt động. Mục tiêu sẽ là tưởng tượng cách một ví trên Bitcoin được xây dựng, cách nó được phân rã, và những thông tin khác nhau tạo nên nó được sử dụng như thế nào. Hiểu biết về cơ chế ví sẽ giúp bạn cải thiện việc sử dụng Bitcoin về mặt an ninh và riêng tư.
@@ -1012,12 +1103,12 @@ Trước khi đi sâu vào chi tiết kỹ thuật, điều cần thiết là l�
 
 ### Ví Bitcoin là gì?
 
-Khác với ví truyền thống, cho phép bạn lưu trữ tiền giấy và đồng xu vật lý, ví Bitcoin không "chứa" bitcoin theo nghĩa đen. Thực tế, bitcoin không tồn tại dưới dạng vật lý hay số hóa có thể được lưu trữ, nhưng được biểu diễn bởi các đơn vị tài khoản được mô tả trong hệ thống dưới dạng **UTXOs** (*Unspent Transaction Output*).
-UTXOs vì thế đại diện cho các phân đoạn của bitcoin, với kích thước khác nhau, có thể được chi tiêu miễn là *scriptPubKey* của chúng được thỏa mãn. Để chi tiêu bitcoin của mình, người dùng phải cung cấp một *scriptSig* mở khóa *scriptPubKey* liên kết với UTXO của họ. Bằng chứng này thường được thực hiện thông qua một chữ ký số, được tạo từ khóa riêng tương ứng với khóa công khai có trong *scriptPubKey*. Do đó, yếu tố quan trọng mà người dùng phải bảo mật là khóa riêng. Vai trò của một ví Bitcoin chính xác là quản lý các khóa riêng này một cách an toàn. Trên thực tế, vai trò của nó giống như một móc khóa hơn là một ví trong nghĩa truyền thống.
+Khác với ví truyền thống, cho phép bạn lưu trữ tiền giấy và đồng xu vật lý, ví Bitcoin không "chứa" bitcoin theo nghĩa đen. Thực tế, bitcoin không tồn tại dưới dạng vật lý hay số hóa có thể được lưu trữ, nhưng được biểu diễn bởi các đơn vị tài khoản được mô tả trong hệ thống dưới dạng **UTXOs** (_Unspent Transaction Output_).
+UTXOs vì thế đại diện cho các phân đoạn của bitcoin, với kích thước khác nhau, có thể được chi tiêu miễn là _scriptPubKey_ của chúng được thỏa mãn. Để chi tiêu bitcoin của mình, người dùng phải cung cấp một _scriptSig_ mở khóa _scriptPubKey_ liên kết với UTXO của họ. Bằng chứng này thường được thực hiện thông qua một chữ ký số, được tạo từ khóa riêng tương ứng với khóa công khai có trong _scriptPubKey_. Do đó, yếu tố quan trọng mà người dùng phải bảo mật là khóa riêng. Vai trò của một ví Bitcoin chính xác là quản lý các khóa riêng này một cách an toàn. Trên thực tế, vai trò của nó giống như một móc khóa hơn là một ví trong nghĩa truyền thống.
 
-### Ví JBOK (*Just a Bunch Of Keys*)
+### Ví JBOK (_Just a Bunch Of Keys_)
 
-Các ví đầu tiên được sử dụng trên Bitcoin là ví JBOK (*Just a Bunch Of Keys*), tổng hợp các khóa riêng được tạo ra một cách độc lập và không có liên kết nào giữa chúng. Các ví này hoạt động trên một mô hình đơn giản nơi mỗi khóa riêng có thể mở khóa một địa chỉ nhận Bitcoin duy nhất.
+Các ví đầu tiên được sử dụng trên Bitcoin là ví JBOK (_Just a Bunch Of Keys_), tổng hợp các khóa riêng được tạo ra một cách độc lập và không có liên kết nào giữa chúng. Các ví này hoạt động trên một mô hình đơn giản nơi mỗi khóa riêng có thể mở khóa một địa chỉ nhận Bitcoin duy nhất.
 
 ![CYP201](assets/fr/033.webp)
 
@@ -1029,13 +1120,15 @@ Ràng buộc này xuất phát từ mô hình bảo mật của Bitcoin. Bằng 
 
 https://planb.network/courses/btc204
 
-### Ví HD (*Hierarchical Deterministic*)
+### Ví HD (_Hierarchical Deterministic_)
+
 Để giải quyết hạn chế của ví JBOK, một cấu trúc ví mới sau đó được sử dụng. Vào năm 2012, Pieter Wuille đã giới thiệu một cải tiến với BIP32, giới thiệu ví phân cấp xác định (HD wallets). Nguyên tắc của một ví HD là phái sinh tất cả các khóa riêng từ một nguồn thông tin duy nhất, được gọi là hạt giống, theo một cách xác định và phân cấp. Hạt giống này được tạo ngẫu nhiên khi ví được tạo và tạo thành một bản sao lưu duy nhất cho phép tái tạo tất cả các khóa riêng của ví. Do đó, người dùng có thể tạo ra một số lượng rất lớn các khóa riêng để tránh tái sử dụng địa chỉ và bảo vệ sự riêng tư của họ, trong khi chỉ cần thực hiện một bản sao lưu duy nhất của ví thông qua hạt giống.
 ![CYP201](assets/fr/034.webp)
 
 Trong ví HD, việc phái sinh khóa được thực hiện theo một cấu trúc phân cấp cho phép các khóa được tổ chức vào các không gian phái sinh con, mỗi không gian con có thể được chia nhỏ hơn nữa, để tạo thuận lợi cho việc quản lý quỹ và tương thích giữa các phần mềm ví khác nhau. Ngày nay, tiêu chuẩn này được đa số người dùng Bitcoin chấp nhận. Vì lý do này, chúng ta sẽ xem xét nó chi tiết trong các chương tiếp theo.
 
 ### Tiêu Chuẩn BIP39: Cụm từ Ghi Nhớ
+
 Ngoài BIP32, BIP39 chuẩn hóa định dạng hạt giống dưới dạng cụm từ ghi nhớ, nhằm mục đích hỗ trợ việc sao lưu và đọc hiểu dễ dàng cho người dùng. Cụm từ ghi nhớ, còn được gọi là cụm từ khôi phục hoặc cụm từ 24 từ, là một chuỗi các từ được rút ra từ một danh sách đã định trước, mã hóa an toàn hạt giống của ví.
 
 Cụm từ ghi nhớ giúp việc sao lưu trở nên đơn giản hơn nhiều cho người dùng. Trong trường hợp mất, hỏng, hoặc bị đánh cắp thiết bị chứa ví, chỉ cần biết cụm từ ghi nhớ này là có thể tái tạo ví và khôi phục quyền truy cập vào tất cả các quỹ được bảo vệ bởi nó.
@@ -1043,8 +1136,10 @@ Cụm từ ghi nhớ giúp việc sao lưu trở nên đơn giản hơn nhiều 
 Trong các chương tiếp theo, chúng ta sẽ khám phá cơ chế hoạt động bên trong của ví HD, bao gồm cơ chế phát sinh khóa và các cấu trúc phân cấp khác nhau có thể có. Điều này sẽ giúp bạn hiểu rõ hơn về nền tảng mật mã mà an toàn tài sản trên Bitcoin dựa trên. Và để bắt đầu, trong chương tiếp theo, tôi đề xuất chúng ta khám phá vai trò của entropy tại cơ sở của ví của bạn.
 
 ## Entropy và Số Ngẫu Nhiên
+
 <chapterId>b43c715d-affb-56d8-a697-ad5bc2fffd63</chapterId>
 Ví HD hiện đại (xác định và phân cấp) dựa vào một mảnh thông tin ban đầu gọi là "entropy" để tạo ra toàn bộ bộ khóa ví một cách xác định. Entropy này là một số ngẫu nhiên giả có mức độ hỗn loạn phần nào xác định mức độ an toàn của ví.
+
 ### Định Nghĩa của Entropy
 
 Trong bối cảnh của mật mã học và thông tin, entropy là một thước đo định lượng về sự không chắc chắn hoặc không dự đoán được liên quan đến một nguồn dữ liệu hoặc một quá trình ngẫu nhiên. Nó đóng một vai trò quan trọng trong an toàn của các hệ thống mật mã, đặc biệt là trong việc tạo ra khóa và số ngẫu nhiên. Entropy cao đảm bảo rằng các khóa được tạo ra đủ không dự đoán được và kháng lại các cuộc tấn công bằng cách thử mọi tổ hợp có thể để đoán khóa.
@@ -1054,10 +1149,11 @@ Trong bối cảnh của Bitcoin, entropy được sử dụng để tạo ra h�
 ### Phương Pháp Tạo Ra Entropy
 
 Entropy ban đầu được sử dụng cho một ví HD thường là 128 bit hoặc 256 bit, nơi:
+
 - **128 bit entropy** tương ứng với một cụm từ ghi nhớ của **12 từ**;
 - **256 bit entropy** tương ứng với một cụm từ ghi nhớ của **24 từ**.
 
-Trong hầu hết các trường hợp, số ngẫu nhiên này được tạo ra tự động bởi phần mềm ví sử dụng một PRNG (*Pseudo-Random Number Generator* - Máy Phát Số Ngẫu Nhiên Giả). PRNGs là một loại thuật toán được sử dụng để tạo ra các chuỗi số từ một trạng thái ban đầu, có các đặc tính tiếp cận với số ngẫu nhiên, mặc dù không thực sự là số ngẫu nhiên. Một PRNG tốt phải có các đặc tính như đồng nhất đầu ra, không dự đoán được, và kháng lại các cuộc tấn công dự đoán. Khác với máy phát số ngẫu nhiên thực sự (TRNG), PRNGs là xác định và có thể tái tạo.
+Trong hầu hết các trường hợp, số ngẫu nhiên này được tạo ra tự động bởi phần mềm ví sử dụng một PRNG (_Pseudo-Random Number Generator_ - Máy Phát Số Ngẫu Nhiên Giả). PRNGs là một loại thuật toán được sử dụng để tạo ra các chuỗi số từ một trạng thái ban đầu, có các đặc tính tiếp cận với số ngẫu nhiên, mặc dù không thực sự là số ngẫu nhiên. Một PRNG tốt phải có các đặc tính như đồng nhất đầu ra, không dự đoán được, và kháng lại các cuộc tấn công dự đoán. Khác với máy phát số ngẫu nhiên thực sự (TRNG), PRNGs là xác định và có thể tái tạo.
 
 ![CYP201](assets/fr/035.webp)
 
@@ -1066,6 +1162,7 @@ Một phương án khác là tự tạo entropy, điều này mang lại quyền
 Trong chương tiếp theo, chúng ta sẽ xem làm thế nào chúng ta đi từ một số ngẫu nhiên đến một cụm từ ghi nhớ của 12 hoặc 24 từ.
 
 ## Cụm Từ Ghi Nhớ
+
 <chapterId>8f9340c1-e6dc-5557-a2f2-26c9669987d5</chapterId>
 Cụm từ ghi nhớ, còn được gọi là "cụm từ khôi phục", "cụm từ bí mật", hoặc "cụm từ 24 từ", là một chuỗi thường gồm 12 hoặc 24 từ, được tạo ra từ entropy. Nó được sử dụng để suy ra một cách xác định tất cả các khóa của một ví HD. Điều này có nghĩa là từ cụm từ này, có thể tạo ra và tái tạo tất cả các khóa riêng tư và khóa công khai của ví Bitcoin một cách xác định, và do đó truy cập vào các quỹ được bảo vệ bằng nó. Mục đích của cụm từ ghi nhớ là cung cấp một phương tiện sao lưu và khôi phục bitcoin một cách an toàn và dễ sử dụng. Nó được giới thiệu vào các tiêu chuẩn vào năm 2013 với BIP39.
 Hãy cùng khám phá cách chuyển từ entropy sang cụm từ ghi nhớ.
@@ -1095,6 +1192,7 @@ Một khi checksum được tính toán, nó được nối với entropy để 
 ### Sự Tương Ứng giữa Entropy và Cụm Từ Ghi Nhớ
 
 Số lượng từ trong cụm từ ghi nhớ phụ thuộc vào kích thước entropy ban đầu, như được minh họa trong bảng sau với:
+
 - $\text{ENT}$: kích thước tính bằng bit của entropy;
 - $\text{CS}$: kích thước tính bằng bit của checksum;
 - $w$: số lượng từ trong cụm từ ghi nhớ cuối cùng.
@@ -1134,8 +1232,11 @@ Tuy nhiên, sự khác biệt này về mức độ bảo mật của cụm từ
 
 Đối với các khóa 256-bit, như những khóa được sử dụng trên Bitcoin, thuật toán rho của Pollard do đó giảm độ phức tạp xuống còn $2^{128}$ phép toán:
 
+
 $$
+
 O(\sqrt{2^{256}}) = O(2^{128})
+
 $$
 
 Do đó, người ta coi rằng một khóa riêng tư được sử dụng trên Bitcoin cung cấp 128 bit bảo mật.
@@ -1161,13 +1262,13 @@ Cụm từ bí mật hoạt động cùng với cụm từ ghi nhớ, thay đổ
 
 ![CYP201](assets/fr/041.webp)
 
-## Tại sao bạn nên sử dụng cụm từ bí mật?
+### Tại sao bạn nên sử dụng cụm từ bí mật?
 
 Cụm từ bí mật là tùy ý và có thể là bất kỳ sự kết hợp ký tự nào do người dùng chọn. Sử dụng cụm từ bí mật do đó mang lại một số lợi ích. Đầu tiên, nó giảm mọi rủi ro liên quan đến việc cụm từ ghi nhớ bị xâm phạm bằng cách yêu cầu một yếu tố thứ hai để truy cập vào quỹ (trộm cắp, truy cập vào nhà bạn, v.v.).
 
 Tiếp theo, nó có thể được sử dụng một cách chiến lược để tạo ra một ví dụ như để đối mặt với các ràng buộc vật lý để ăn cắp quỹ của bạn như cuộc tấn công nổi tiếng "_cuộc tấn công bằng cờ lê 5 đô la_". Trong kịch bản này, ý tưởng là có một ví không có cụm từ bí mật chỉ chứa một lượng nhỏ bitcoin, đủ để thỏa mãn một kẻ tấn công tiềm năng, trong khi có một ví ẩn. Ví sau sử dụng cùng một cụm từ ghi nhớ nhưng được bảo vệ bằng một cụm từ bí mật bổ sung.
 Cuối cùng, việc sử dụng cụm từ bí mật là thú vị khi người ta muốn kiểm soát sự ngẫu nhiên của việc tạo ra hạt giống của ví HD.
-## Làm thế nào để chọn một cụm từ bí mật tốt?
+### Làm thế nào để chọn một cụm từ bí mật tốt?
 
 Để cụm từ bí mật có hiệu quả, nó phải đủ dài và ngẫu nhiên. Giống như một mật khẩu mạnh, tôi khuyên bạn nên chọn một cụm từ bí mật càng dài và ngẫu nhiên càng tốt, với sự đa dạng của chữ cái, số và biểu tượng để làm cho bất kỳ cuộc tấn công bằng lực brút không thể xảy ra.
 Cũng rất quan trọng khi lưu cụm từ bí mật này một cách đúng đắn, giống như cách bạn lưu cụm từ ghi nhớ. **Mất nó có nghĩa là mất quyền truy cập vào bitcoin của bạn**. Tôi khuyên bạn không nên chỉ nhớ nó bằng trái tim, vì điều này làm tăng một cách không hợp lý nguy cơ mất mát. Lý tưởng nhất là ghi nó ra một phương tiện vật lý (giấy hoặc kim loại) tách biệt khỏi cụm từ ghi nhớ. Bản sao lưu này rõ ràng phải được lưu trữ ở một nơi khác với nơi bạn lưu cụm từ ghi nhớ để ngăn chặn việc cả hai bị xâm phạm cùng một lúc.
@@ -1199,8 +1300,11 @@ Bất kể độ dài cụm từ ghi nhớ được chọn (132 bit hoặc 264 b
 
 Phương trình sau minh họa việc suy ra hạt giống từ cụm từ ghi nhớ và cụm từ bí mật:
 
+
 $$
-s = \text{PBKDF2}_{\text{HMAC-SHA512}}(m, p, 2048)
+
+s = \text{PBKDF2}\_{\text{HMAC-SHA512}}(m, p, 2048)
+
 $$
 
 ![CYP201](assets/fr/044.webp)
@@ -1218,8 +1322,11 @@ Sau khi thu được hạt giống, bước tiếp theo trong việc tạo ví H
 - $s$: hạt giống ví 512-bit;
 - $\text{"Bitcoin Seed"}$: hằng số phái sinh chung cho tất cả ví Bitcoin.
 
+
 $$
+
 \text{output} = \text{HMAC-SHA512}(\text{"Bitcoin Seed"}, s)
+
 $$
 
 Kết quả của hàm này do đó là 512 bit. Nó sau đó được chia thành 2 phần:
@@ -1227,11 +1334,16 @@ Kết quả của hàm này do đó là 512 bit. Nó sau đó được chia thà
 - 256 bit bên phải tạo thành **mã chuỗi chính**.
 Toán học, hai giá trị này có thể được ghi như sau với $k_M$ là chìa khóa riêng tư chính và $C_M$ là mã chuỗi chính:
 $$
-k_M = \text{HMAC-SHA512}(\text{"Bitcoin Seed"}, s)_{[:256]}
-$$
+
+k*M = \text{HMAC-SHA512}(\text{"Bitcoin Seed"}, s)*{[:256]}
 
 $$
-C_M = \text{HMAC-SHA512}(\text{"Bitcoin Seed"}, s)_{[256:]}
+
+
+$$
+
+C*M = \text{HMAC-SHA512}(\text{"Bitcoin Seed"}, s)*{[256:]}
+
 $$
 
 ![CYP201](assets/fr/045.webp)
@@ -1326,23 +1438,23 @@ Bảng này cung cấp một cái nhìn tổng quan về các tiền tố đư�
 
 - **Trong Base58**:
 
-```txt
+```text
 xpub6CTNzMUkzpurBWaT4HQoYzLP4uBbGJuWY358Rj7rauiw4rMHCyq3Rfy9w4kyJXJzeFfyrKLUar2rUCukSiDQFa7roTwzjiAhyQAdPLEjqHT
 ```
 
 - **Trong hệ thập lục phân**:
 
-```txt
+```text
 0488B21E036D5601AD80000000C605DF9FBD77FD6965BD02B77831EC5C78646AD3ACA14DC3984186F72633A89303772CCB99F4EF346078D167065404EED8A58787DED31BFA479244824DF50658051F067C3A
 ```
 
 Khóa mở rộng này được phân tích thành nhiều yếu tố riêng biệt:
 
-1. **Phiên bản**: `0488B21E`  
+1. **Phiên bản**: `0488B21E`
 
 4 byte đầu tiên là phiên bản. Ở đây, nó tương ứng với một khóa công khai mở rộng trên Mainnet với mục đích phát sinh là *Legacy* hoặc *SegWit v1*.
 
-2. **Độ sâu**: `03`  
+2. **Độ sâu**: `03`
 
 Trường này chỉ ra mức độ phân cấp của khóa trong ví HD. Trong trường hợp này, một độ sâu của `03` có nghĩa là khóa này là ba cấp độ phát sinh dưới khóa chính.
 
@@ -1393,32 +1505,47 @@ Trong tất cả các phép tính của chúng tôi, tôi sẽ ký hiệu $\text
 
 Đối với **khóa con thông thường** ($i < 2^{31}$), việc tính toán $\text{hash}$ như sau:
 
+
 $$
-\text{hash} = \text{HMAC-SHA512}(C_{\text{PAR}}, G \cdot k_{\text{PAR}} \Vert i)
+
+\text{hash} = \text{HMAC-SHA512}(C*{\text{PAR}}, G \cdot k*{\text{PAR}} \Vert i)
+
 $$
 Trong phép tính này, chúng ta thấy rằng hàm HMAC của chúng ta nhận hai đầu vào: trước tiên, mã chuỗi cha, và sau đó là sự kết hợp của chỉ số với khóa công khai liên kết với khóa riêng tư cha. Khóa công khai cha được sử dụng ở đây vì chúng ta đang tìm cách suy rộng một khóa con thông thường, không phải một khóa cứng.
 Bây giờ chúng ta có một $\text{hash}$ 64-byte mà chúng ta sẽ chia thành 2 phần 32 byte mỗi phần: $h_1$ và $h_2$:
 
-$$
-\text{hash} = h_1 \Vert h_2
-$$
 
 $$
-h_1 = \text{hash}_{[:32]} \quad, \quad h_2 = \text{hash}_{[32:]}
+
+\text{hash} = h_1 \Vert h_2
+
+$$
+
+
+$$
+
+h*1 = \text{hash}*{[:32]} \quad, \quad h*2 = \text{hash}*{[32:]}
+
 $$
 
 Khóa riêng tư con $k_{\text{CHD}}^n$ sau đó được tính toán như sau:
 
+
 $$
-k_{\text{CHD}}^n = \text{parse256}(h_1) + k_{\text{PAR}} \mod n
+
+k*{\text{CHD}}^n = \text{parse256}(h_1) + k*{\text{PAR}} \mod n
+
 $$
 Trong phép tính này, thao tác $\text{parse256}(h_1)$ bao gồm việc giải thích 32 byte đầu tiên của $\text{hash}$ như một số nguyên 256-bit. Số này sau đó được cộng với khóa riêng của cha, tất cả được lấy modulo $n$ để giữ cho phép tính nằm trong phạm vi của đường cong elliptic, như chúng ta đã thấy trong phần 3 về chữ ký số. Do đó, để suy ra một khóa riêng con bình thường, mặc dù khóa công khai của cha được sử dụng làm cơ sở cho phép tính trong các đầu vào của hàm HMAC-SHA512, việc có khóa riêng của cha vẫn luôn cần thiết để hoàn thành phép tính.
 Từ khóa riêng con này, có thể suy ra khóa công khai tương ứng bằng cách áp dụng ECDSA hoặc Schnorr. Như vậy, chúng ta thu được một cặp khóa hoàn chỉnh.
 
 Sau đó, phần thứ hai của $\text{hash}$ đơn giản được giải thích là mã chuỗi cho cặp khóa con mà chúng ta vừa suy ra:
 
+
 $$
-C_{\text{CHD}} = h_2
+
+C\_{\text{CHD}} = h_2
+
 $$
 
 Dưới đây là biểu đồ mô tả tổng quan quá trình suy ra:
@@ -1427,30 +1554,44 @@ Dưới đây là biểu đồ mô tả tổng quan quá trình suy ra:
 
 Đối với **khóa con cứng** ($i \geq 2^{31}$), phép tính của $\text{hash}$ như sau:
 
+
 $$
-hash = \text{HMAC-SHA512}(C_{\text{PAR}}, 0x00 \Vert k_{\text{PAR}} \Vert i)
+
+hash = \text{HMAC-SHA512}(C*{\text{PAR}}, 0x00 \Vert k*{\text{PAR}} \Vert i)
+
 $$
 
 Trong phép tính này, chúng ta thấy rằng hàm HMAC của chúng ta nhận hai đầu vào: trước tiên, mã chuỗi của cha, và sau đó là sự nối của chỉ số với khóa riêng của cha. Khóa riêng của cha được sử dụng ở đây vì chúng ta đang tìm cách suy ra một khóa con cứng. Hơn nữa, một byte bằng `0x00` được thêm vào ở đầu khóa. Thao tác này làm cho độ dài của nó khớp với độ dài của một khóa công khai nén.
 Vì vậy, bây giờ chúng ta có một $\text{hash}$ 64 byte mà chúng ta sẽ chia thành 2 phần 32 byte mỗi phần: $h_1$ và $h_2$:
 $$
+
 \text{hash} = h_1 \Vert h_2
-$$
 
 $$
+
+
+$$
+
 h_1 = \text{hash}[:32] \quad, \quad h_2 = \text{hash}[32:]
+
 $$
 
 Khóa riêng con $k_{\text{CHD}}^h$ sau đó được tính như sau:
 
+
 $$
-k_{\text{CHD}}^h = \text{parse256}(h_1) + k_{\text{PAR}} \mod n
+
+k*{\text{CHD}}^h = \text{parse256}(h_1) + k*{\text{PAR}} \mod n
+
 $$
 
 Tiếp theo, chúng ta đơn giản giải thích phần thứ hai của $\text{hash}$ là mã chuỗi cho cặp khóa con mà chúng ta vừa suy ra:
 
+
 $$
-C_{\text{CHD}} = h_2
+
+C\_{\text{CHD}} = h_2
+
 $$
 
 Dưới đây là biểu đồ mô tả tổng quan quá trình suy ra:
@@ -1464,34 +1605,49 @@ Nếu chúng ta chỉ biết khóa công khai của cha mẹ $K_{\text{PAR}}$ v�
 
 Để thực hiện tính toán này, chúng ta sẽ tính $\text{hash}$ với chỉ số $i < 2^{31}$ (suy ra bình thường):
 
+
 $$
-\text{hash} = \text{HMAC-SHA512}(C_{\text{PAR}}, K_{\text{PAR}} \Vert i)
+
+\text{hash} = \text{HMAC-SHA512}(C*{\text{PAR}}, K*{\text{PAR}} \Vert i)
+
 $$
 
 Trong tính toán này, chúng ta thấy rằng hàm HMAC của chúng ta nhận hai đầu vào: trước tiên là mã chuỗi liên kết của cha mẹ, sau đó là sự nối của chỉ số với khóa công khai của cha mẹ.
 
 Vậy, bây giờ chúng ta có một $hash$ 64 byte mà chúng ta sẽ chia thành 2 phần mỗi phần 32 byte: $h_1$ và $h_2$:
 
-$$
-\text{hash} = h_1 \Vert h_2
-$$
 
 $$
+
+\text{hash} = h_1 \Vert h_2
+
+$$
+
+
+$$
+
 h_1 = \text{hash}[:32] \quad, \quad h_2 = \text{hash}[32:]
+
 $$
 
 Khóa công khai con $K_{\text{CHD}}^n$ sau đó được tính như sau:
 
+
 $$
-K_{\text{CHD}}^n = G \cdot \text{parse256}(h_1) + K_{\text{PAR}}
+
+K*{\text{CHD}}^n = G \cdot \text{parse256}(h_1) + K*{\text{PAR}}
+
 $$
 Nếu $\text{parse256}(h_1) \geq n$ (thứ tự của đường cong elliptic) hoặc nếu $K_{\text{CHD}}^n$ là điểm tại vô cực, suy ra là không hợp lệ, và một chỉ số khác phải được chọn.
 Trong tính toán này, hoạt động $\text{parse256}(h_1)$ bao gồm việc giải thích 32 byte đầu tiên của $\text{hash}$ như một số nguyên 256-bit. Số này được sử dụng để tính toán một điểm trên đường cong elliptic thông qua phép cộng và nhân đôi từ điểm sinh $G$. Điểm này sau đó được cộng với khóa công khai của cha mẹ để thu được khóa công khai con bình thường. Do đó, để suy ra một khóa công khai con bình thường, chỉ cần khóa công khai của cha mẹ và mã chuỗi liên kết của cha mẹ; khóa riêng của cha mẹ không bao giờ tham gia vào quá trình này, không giống như việc tính toán khóa riêng của con mà chúng ta đã thấy trước đó.
 
 Tiếp theo, mã chuỗi liên kết của con đơn giản là:
 
+
 $$
-C_{\text{CHD}} = h_2
+
+C\_{\text{CHD}} = h_2
+
 $$
 
 Dưới đây là biểu đồ mô tả tổng quan về quá trình suy ra:
@@ -1509,20 +1665,25 @@ Cảm ơn việc thêm vào và nhân đôi các phép toán trên đường con
 
 Để tóm tắt, dưới đây là các loại phái sinh khả dĩ:
 
+
 $$
+
 \begin{array}{|c|c|c|c|}
 \hline
 \rightarrow & \text{PAR} & \text{CHD} & \text{n/h} \\
 \hline
-k_{\text{PAR}} \rightarrow k_{\text{CHD}} & k_{\text{PAR}} & \{ k_{\text{CHD}}^n, k_{\text{CHD}}^h \} & \{ n, h \} \\
+k*{\text{PAR}} \rightarrow k*{\text{CHD}} & k*{\text{PAR}} & \{ k*{\text{CHD}}^n, k\_{\text{CHD}}^h \} & \{ n, h \} \\
 \end{array}
+
 $$
 $$
-k_{\text{PAR}} \rightarrow K_{\text{CHD}} & k_{\text{PAR}} & \{ K_{\text{CHD}}^n, K_{\text{CHD}}^h \} & \{ n, h \} \\
-K_{\text{PAR}} \rightarrow k_{\text{CHD}} & K_{\text{PAR}} & \times & \times \\
-K_{\text{PAR}} \rightarrow K_{\text{CHD}} & K_{\text{PAR}} & K_{\text{CHD}}^n & n \\
+
+k*{\text{PAR}} \rightarrow K*{\text{CHD}} & k*{\text{PAR}} & \{ K*{\text{CHD}}^n, K*{\text{CHD}}^h \} & \{ n, h \} \\
+K*{\text{PAR}} \rightarrow k*{\text{CHD}} & K*{\text{PAR}} & \times & \times \\
+K*{\text{PAR}} \rightarrow K*{\text{CHD}} & K*{\text{PAR}} & K*{\text{CHD}}^n & n \\
 \hline
 \end{array}
+
 $$
 
 Để tóm tắt, cho đến nay bạn đã học cách tạo ra các yếu tố cơ bản của ví HD: cụm từ ghi nhớ, hạt giống và sau đó là khóa chính và mã chuỗi chính. Bạn cũng đã khám phá cách phái sinh các cặp khóa con trong chương này. Trong chương tiếp theo, chúng ta sẽ khám phá cách các phái sinh này được tổ chức trong ví Bitcoin và cấu trúc nào cần theo dõi để cụ thể nhận được các địa chỉ nhận cũng như các cặp khóa được sử dụng trong *scriptPubKey* và *scriptSig*.
@@ -1565,7 +1726,7 @@ Mỗi loại tiền tệ có một chỉ mục duy nhất để đảm bảo tí
 Mỗi ví có thể được chia thành nhiều tài khoản, được đánh số từ $2^{31}$, và được biểu diễn ở độ sâu 3 bởi $/0'/$ cho tài khoản đầu tiên, $/1'/$ cho tài khoản thứ hai, và tiếp tục như vậy. Nói chung, khi đề cập đến một khóa mở rộng `xpub`, nó đề cập đến các khóa ở độ sâu suy ra này.
 
 Sự phân chia thành các tài khoản khác nhau là tùy chọn. Mục tiêu là để đơn giản hóa việc tổ chức ví cho người dùng. Trên thực tế, thường chỉ một tài khoản được sử dụng, thường là tài khoản đầu tiên theo mặc định. Tuy nhiên, trong một số trường hợp, nếu người ta muốn phân biệt rõ ràng các cặp khóa cho các mục đích khác nhau, điều này có thể hữu ích. Ví dụ, có thể tạo một tài khoản cá nhân và một tài khoản chuyên nghiệp từ cùng một hạt giống, với các nhóm khóa hoàn toàn riêng biệt từ độ sâu suy ra này.
-**Độ Sâu 4: Chuỗi (BIP32)**  
+**Độ Sâu 4: Chuỗi (BIP32)**
 Mỗi tài khoản được xác định tại độ sâu 3 sau đó được cấu trúc thành hai chuỗi:
 - **Chuỗi bên ngoài**: Trong chuỗi này, những gì được biết đến là "địa chỉ công khai" được suy ra. Những địa chỉ nhận này được dùng để khóa UTXOs đến từ các giao dịch bên ngoài (nghĩa là, bắt nguồn từ việc tiêu thụ UTXOs không thuộc về bạn). Nói một cách đơn giản, chuỗi bên ngoài này được sử dụng bất cứ khi nào người ta muốn nhận bitcoin. Khi bạn nhấp vào "*nhận*" trong phần mềm ví của mình, luôn luôn là một địa chỉ từ chuỗi bên ngoài được cung cấp cho bạn. Chuỗi này được biểu diễn bởi một cặp khóa suy ra với chỉ mục $/0/$.
 - **Chuỗi bên trong (tiền thối)**: Chuỗi này được dành riêng cho các địa chỉ nhận khóa bitcoin đến từ việc tiêu thụ UTXOs thuộc về bạn, nói cách khác, là các địa chỉ tiền thối. Nó được xác định bởi chỉ mục $/1/$.
@@ -1579,15 +1740,20 @@ Cuối cùng, độ sâu 5 đại diện cho bước cuối cùng của quá tr�
 Đường dẫn phát sinh được viết bằng cách phân tách mỗi cấp độ bằng một dấu gạch chéo ($/$). Mỗi dấu gạch chéo như vậy chỉ ra một sự phát sinh từ một cặp khóa cha mẹ ($k_{\text{PAR}}$, $K_{\text{PAR}}$, $C_{\text{PAR}}$) sang một cặp khóa con ($k_{\text{CHD}}$, $K_{\text{CHD}}$, $C_{\text{CHD}}$). Số được ghi ở mỗi độ sâu tương ứng với chỉ số được sử dụng để phát sinh khóa này từ cha mẹ của nó. Dấu nháy đơn ($'$) đôi khi được đặt bên phải của chỉ số chỉ ra một sự phát sinh cứng ($k_{\text{CHD}}^h$, $K_{\text{CHD}}^h$). Đôi khi, dấu nháy này được thay thế bằng một $h$. Trong trường hợp không có dấu nháy đơn hoặc $h$, đó là một sự phát sinh bình thường ($k_{\text{CHD}}^n$, $K_{\text{CHD}}^n$).
 Như chúng ta đã thấy trong các chương trước, chỉ số khóa cứng bắt đầu từ $2^{31}$, hoặc `0x80000000` trong hệ thập lục phân. Do đó, khi một chỉ số được theo sau bởi một dấu nháy đơn trong một đường dẫn phát sinh, $2^{31}$ phải được cộng vào số được chỉ ra để thu được giá trị thực sự sử dụng trong hàm HMAC-SHA512. Ví dụ, nếu đường dẫn phát sinh chỉ ra $/44'/$, chỉ số thực tế sẽ là:
 $$
+
 i = 44 + 2^{31} = 2\,147\,483\,692
+
 $$
 
 Trong hệ thập lục phân, đây là `0x8000002C`.
 
 Bây giờ chúng ta đã hiểu các nguyên tắc chính của đường dẫn phát sinh, hãy lấy một ví dụ! Dưới đây là đường dẫn phát sinh cho một địa chỉ nhận Bitcoin:
 
+
 $$
+
 m / 84' / 0' / 1' / 0 / 7
+
 $$
 
 Trong ví dụ này:
@@ -1677,13 +1843,13 @@ Chính xác thì trong *scriptPubKey* là nơi tìm thấy các địa chỉ nh�
 
 Các opcode được sử dụng trong một script được thiết kế để thao tác thông tin, và nếu cần, để so sánh hoặc kiểm tra nó. Hãy lấy ví dụ về một script P2PKH, được viết như sau:
 
-```txt
+```text
 OP_DUP OP_HASH160 OP_PUSHBYTES_20 <pubKeyHash> OP_EQUALVERIFY OP_CHECKSIG
 ```
 
 Như chúng ta sẽ thấy trong chương này, `<pubKeyHash>` thực sự đại diện cho payload của địa chỉ nhận được sử dụng để khóa UTXO. Để mở khóa *scriptPubKey* này, cần phải cung cấp một *scriptSig* chứa:
 
-```txt
+```text
 <signature> <public key>
 ```
 Trong ngôn ngữ kịch bản, "stack" là một cấu trúc dữ liệu "*LIFO*" ("*Last In, First Out*" - "Vào sau, ra trước") được sử dụng để tạm thời lưu trữ các phần tử trong quá trình thực thi kịch bản. Mỗi thao tác kịch bản đều thao tác với stack này, nơi các phần tử có thể được thêm vào (*push*) hoặc loại bỏ (*pop*). Kịch bản sử dụng các stack này để đánh giá biểu thức, lưu trữ biến tạm thời và quản lý điều kiện.
@@ -1777,7 +1943,7 @@ Tuy nhiên, đường cong elliptic có tính chất đối xứng đối với 
 Để nén một khóa công khai, chỉ cần mã hóa $x$, chiếm 256 bit, và thêm một tiền tố để chỉ định tính chẵn lẻ của $y$. Phương pháp này giảm kích thước của khóa công khai xuống còn 264 bit thay vì 520 bit ban đầu. Tiền tố `0x02` chỉ ra rằng $y$ là số chẵn, và tiền tố `0x03` chỉ ra rằng $y$ là số lẻ.
 Hãy lấy một ví dụ để hiểu rõ hơn, với một khóa công khai chưa nén:
 
-```txt
+```text
 K = 04678afdb0fe5548271967f1a67130b7105cd6a828e03909a67962e0ea1f61deb649f6bc3f4cef38c4f35504e51ec112de5c384df7ba0b8d578a4c702b6bf11d5f
 ```
 
@@ -1790,7 +1956,7 @@ Ký tự thập lục phân cuối cùng của $y$ là `f`. Trong hệ đếm c�
 
 Khóa công khai nén trở thành:
 
-```txt
+```text
 K = 03678afdb0fe5548271967f1a67130b7105cd6a828e03909a67962e0ea1f61deb6
 ```
 Thao tác này áp dụng cho tất cả các mô hình script dựa trên ECDSA, tức là tất cả ngoại trừ P2TR sử dụng Schnorr. Trong trường hợp của Schnorr, như đã giải thích trong phần 3, chúng ta chỉ giữ lại giá trị của $x$, không thêm tiền tố để chỉ định tính chẵn lẻ của $y$, không giống như ECDSA. Điều này được thực hiện nhờ việc chọn một tính chẵn lẻ duy nhất một cách tùy ý cho tất cả các khóa. Điều này cho phép giảm nhẹ không gian lưu trữ cần thiết cho các khóa công khai.
@@ -1800,26 +1966,31 @@ Bây giờ, sau khi chúng ta đã có được khóa công khai nén, chúng ta
 
 Bước đầu tiên là áp dụng hàm băm HASH160 lên khóa công khai nén. HASH160 là sự kết hợp của hai hàm băm liên tiếp: SHA256, theo sau là RIPEMD160:
 
+
 $$
+
 \text{HASH160}(K) = \text{RIPEMD160}(\text{SHA256}(K))
+
 $$
 
 Đầu tiên, chúng ta băm khóa qua SHA256:
 
-```txt
+```text
 SHA256(K) = C489EBD66E4103B3C4B5EAFF462B92F5847CA2DCE0825F4997C7CF57DF35BF3A
 ```
 
 Sau đó, chúng ta băm kết quả qua RIPEMD160:
 
-```txt
+```text
 RIPEMD160(SHA256(K)) = 9F81322CC88622CA4CCB2A52A21E2888727AA535
 ```
 Chúng tôi đã thu được một băm 160-bit của khóa công khai, đây chính là phần được gọi là payload của địa chỉ. Payload này đại diện cho phần trung tâm và quan trọng nhất của địa chỉ. Nó cũng được sử dụng trong *scriptPubKey* để khóa các UTXO.
 
 Tuy nhiên, để làm cho payload này dễ sử dụng hơn với con người, metadata được thêm vào. Bước tiếp theo bao gồm việc mã hóa băm này thành các nhóm 5 bit dưới dạng thập phân. Sự chuyển đổi thập phân này sẽ hữu ích cho việc chuyển đổi thành *bech32*, được sử dụng bởi địa chỉ sau-SegWit. Băm nhị phân 160-bit do đó được chia thành 32 nhóm 5 bit:
 
+
 $$
+
 \begin{array}{|c|c|}
 \hline
 \text{Nhóm 5-bit} & \text{Giá Trị Thập Phân} \\
@@ -1848,10 +2019,11 @@ $$
 00111 & 7 \\
 10001 & 17 \\
 \end{array}
+
 $$
 Vậy, chúng ta có:
 
-```txt
+```text
 HASH = 19 30 00 19 04 11 06 08 16 24 17 12 20 19 06 11 05 09 09 10 04 07 17 08 17 01 25 07 21 09 09 21
 ```
 
@@ -1875,7 +2047,7 @@ HRP phải được mở rộng bằng cách tách mỗi ký tự thành hai ph�
 
 Với dấu phân cách `0` giữa hai ký tự, sự mở rộng của HRP do đó là:
 
-```txt
+```text
 03 03 00 02 03
 ```
 
@@ -1887,7 +2059,7 @@ Với dấu phân cách `0` giữa hai ký tự, sự mở rộng của HRP do �
 
 Tất cả dữ liệu kết hợp để nhập vào chương trình để tính toán checksum như sau:
 
-```txt
+```text
 HRP = 03 03 00 02 03
 SEGWIT v0 = 00
 HASH = 19 30 00 19 04 11 06 08 16 24 17 12 20 19 06 11 05 09 09 10 04 07 17 08 17 01 25 07 21 09 09 21
@@ -1898,7 +2070,7 @@ INPUT = 03 03 00 02 03 00 19 30 00 19 04 11 06 08 16 24 17 12 20 19 06 11 05 09 
 
 Việc tính toán checksum khá phức tạp. Nó liên quan đến số học trường hữu hạn đa thức. Chúng tôi sẽ không chi tiết việc tính toán này ở đây và sẽ chuyển thẳng đến kết quả. Trong ví dụ của chúng tôi, checksum thu được trong hệ thập phân là:
 
-```txt
+```text
 10 16 11 04 13 18
 ```
 
@@ -1909,7 +2081,7 @@ Bây giờ chúng ta có thể xây dựng địa chỉ nhận bằng cách nố
 
 Điều này cho chúng ta trong hệ thập phân:
 
-```txt
+```text
 00 19 30 00 19 04 11 06 08 16 24 17 12 20 19 06 11 05 09 09 10 04 07 17 08 17 01 25 07 21 09 09 21 10 16 11 04 13 18
 ```
 
@@ -1946,14 +2118,19 @@ Như chúng ta đã thấy trong chương trước, một kịch bản P2TR khó
 
 Trên thực tế, hai khóa này không thực sự được "tổng hợp." Khóa $P$ thay vì vậy được điều chỉnh bởi khóa $M$. Trong mật mã học, "điều chỉnh" một khóa công khai có nghĩa là sửa đổi khóa này bằng cách áp dụng một giá trị cộng gọi là "tweak." Thao tác này cho phép khóa đã sửa đổi vẫn tương thích với khóa riêng tư gốc và tweak. Về mặt kỹ thuật, một tweak là một giá trị vô hướng $t$ được cộng vào khóa công khai ban đầu. Nếu $P$ là khóa công khai gốc, khóa đã điều chỉnh trở thành:
 
+
 $$
+
 P' = P + tG
+
 $$
 
 Nơi $G$ là sinh của đường cong elliptic được sử dụng. Thao tác này tạo ra một khóa công khai mới được suy ra từ khóa gốc, trong khi vẫn giữ các tính chất mật mã học cho phép sử dụng nó.
 Nếu bạn không cần thêm các kịch bản thay thế (chi tiêu độc quyền qua *key path*), bạn có thể tạo một địa chỉ Taproot dựa hoàn toàn vào khóa công khai hiện có ở độ sâu 5 trong ví của bạn. Trong trường hợp này, cần tạo một kịch bản không thể chi tiêu cho *script path*, nhằm đáp ứng yêu cầu của cấu trúc. Sau đó, tweak $t$ được tính toán bằng cách áp dụng một hàm băm có gắn thẻ, **`TapTweak`**, trên khóa công khai nội bộ $P$:
 $$
-t = \text{H}_{\text{TapTweak}}(P)
+
+t = \text{H}\_{\text{TapTweak}}(P)
+
 $$
 
 trong đó:
@@ -1962,8 +2139,11 @@ trong đó:
 
 Khóa công khai Taproot $Q$ sau đó được tính toán bằng cách cộng tweak $t$, nhân với bộ sinh đường cong elliptic $G$, vào khóa công khai nội bộ $P$:
 
+
 $$
+
 Q = P + t \cdot G
+
 $$
 Một khi khóa công khai Taproot $Q$ được thu được, chúng ta có thể tạo địa chỉ nhận tương ứng. Khác với các định dạng khác, địa chỉ Taproot không được thiết lập dựa trên băm của khóa công khai. Do đó, khóa $Q$ được chèn trực tiếp vào địa chỉ, một cách nguyên thủy.
 
@@ -1984,8 +2164,11 @@ Mặt khác, nếu bạn muốn thêm các kịch bản thay thế ngoài việc
 
 Một khi các kịch bản thay thế khác nhau được viết, bạn phải đưa chúng qua một hàm băm có gắn thẻ `TapLeaf`, kèm theo một số metadata:
 
+
 $$
+
 \text{h}_{\text{leaf}} = \text{H}_{\text{TapLeaf}} (v \Vert sz \Vert S)
+
 $$
 
 Với:
@@ -2035,3 +2218,4 @@ Nếu bạn chưa thực hiện, tôi mời bạn đánh giá và bình luận v
 Để tiếp tục hành trình của bạn xuống "lỗ thỏ", tôi rất khuyên bạn nên tham gia khóa học **BTC204**, mà tôi cũng đã sản xuất trên Mạng Plan B. Khóa học này được dành riêng cho vấn đề bảo mật trên Bitcoin và khám phá các chủ đề chính: Mô hình bảo mật là gì? Phân tích chuỗi hoạt động như thế nào? Làm thế nào để sử dụng Bitcoin một cách tối ưu để tối đa hóa quyền riêng tư của bạn? Một bước tiếp theo hợp lý để nâng cao kỹ năng của bạn!
 
 https://planb.network/courses/btc204
+$$

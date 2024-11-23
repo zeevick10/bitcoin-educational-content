@@ -21,9 +21,11 @@ Selkeän pedagogiikan, yli 60 selittävän diagrammin ja konkreettisten esimerkk
 +++
 
 # Johdanto
+
 <partId>32960669-d13a-592f-a053-37f70b997cbf</partId>
 
 ## Kurssin esittely
+
 <chapterId>fb4e8857-ea35-5a8a-ae8a-5300234e0104</chapterId>
 
 Tervetuloa CYP201-kurssille, jossa tutkimme syvällisesti HD Bitcoin-lompakoiden toimintaa. Tämä kurssi on suunniteltu kaikille, jotka haluavat ymmärtää Bitcoinin tekniset perusteet, olivatpa he sitten satunnaisia käyttäjiä, valistuneita harrastajia tai tulevaisuuden asiantuntijoita.
@@ -51,20 +53,23 @@ Lopuksi, pääavaimesta, tutustumme siihen, kuinka kryptografiset avainparit joh
 Tämä koulutus mahdollistaa sinulle lompakko-ohjelmiston käytön luottavaisin mielin, samalla parantaen taitojasi tunnistaa ja lieventää riskejä. Valmistaudu tulemaan todelliseksi asiantuntijaksi Bitcoin-lompakoissa!
 
 # Häsäfunktiot
+
 <partId>3713fee1-2ec2-512e-9e97-b6da9e4d2f17</partId>
 
 ## Johdanto Häsäfunktioihin
+
 <chapterId>dba011f5-1805-5a48-ac2b-4bd637c93703</chapterId>
 
 Ensimmäinen Bitcoinissa käytetty kryptografisten algoritmien tyyppi kattaa häsäfunktiot. Ne ovat olennaisessa roolissa eri tasoilla protokollassa, mutta myös Bitcoin-lompakoissa. Tutustutaan yhdessä siihen, mikä häsäfunktio on ja mihin sitä käytetään Bitcoinissa.
 
 ### Määritelmä ja Häsäyksen Periaate
+
 Häsäys on prosessi, joka muuntaa mielivaltaisen pituisen tiedon toiseksi, kiinteän pituiseksi tiedoksi kryptografisen häsäfunktion avulla. Toisin sanoen, häsäfunktio ottaa syötteenä minkä tahansa kokoisen tiedon ja muuntaa sen kiinteän kokoiseksi sormenjäljeksi, jota kutsutaan "häsäykseksi".
 Häsäystä voidaan joskus kutsua myös "digestiksi", "tiivisteeksi", "tiivistetyksi" tai "häsätyksi".
 
-Esimerkiksi SHA256-häsäfunktio tuottaa kiinteän pituisen, 256-bittisen häsäyksen. Jos käytämme syötteenä "*PlanB*", mielivaltaisen pituisen viestin, tuotettu häsäys on seuraava 256-bittinen sormenjälki:
+Esimerkiksi SHA256-häsäfunktio tuottaa kiinteän pituisen, 256-bittisen häsäyksen. Jos käytämme syötteenä "_PlanB_", mielivaltaisen pituisen viestin, tuotettu häsäys on seuraava 256-bittinen sormenjälki:
 
-```txt
+```text
 24f1b93b68026bfc24f5c8265f287b4c940fb1664b0d75053589d7a4f821b688
 ```
 
@@ -73,6 +78,7 @@ Esimerkiksi SHA256-häsäfunktio tuottaa kiinteän pituisen, 256-bittisen häsä
 ### Häsäfunktioiden Ominaisuudet
 
 Näillä kryptografisilla häsäfunktioilla on useita olennaisia ominaisuuksia, jotka tekevät niistä erityisen hyödyllisiä Bitcoinin ja muiden tietojärjestelmien kontekstissa:
+
 1. Palautumattomuus (tai esikuvan vastustuskyky)
 2. Muutoksenkestävyys (lumivyöryvaikutus)
 3. Kolarinkestävyys
@@ -80,22 +86,26 @@ Näillä kryptografisilla häsäfunktioilla on useita olennaisia ominaisuuksia, 
 
 #### 1. Palautumattomuus (esikuvan vastustuskyky):
 
-Palautumattomuus tarkoittaa, että häsäyksen laskeminen syötteestä on helppoa, mutta käänteinen laskenta, eli syötteen löytäminen häsäyksestä, on käytännössä mahdotonta. Tämä ominaisuus tekee häsäfunktioista täydellisiä ainutlaatuisten digitaalisten sormenjälkien luomiseen ilman alkuperäisen tiedon vaarantamista. Tätä ominaisuutta kutsutaan usein yksisuuntaiseksi funktioksi tai "*ansaovifunktioksi*".
+Palautumattomuus tarkoittaa, että häsäyksen laskeminen syötteestä on helppoa, mutta käänteinen laskenta, eli syötteen löytäminen häsäyksestä, on käytännössä mahdotonta. Tämä ominaisuus tekee häsäfunktioista täydellisiä ainutlaatuisten digitaalisten sormenjälkien luomiseen ilman alkuperäisen tiedon vaarantamista. Tätä ominaisuutta kutsutaan usein yksisuuntaiseksi funktioksi tai "_ansaovifunktioksi_".
 
-Annetussa esimerkissä häsäyksen `24f1b9…` saaminen tietäen syötteen "*PlanB*" on yksinkertaista ja nopeaa. Kuitenkin viestin "*PlanB*" löytäminen tietäen vain `24f1b9…` on mahdotonta.
+Annetussa esimerkissä häsäyksen `24f1b9…` saaminen tietäen syötteen "_PlanB_" on yksinkertaista ja nopeaa. Kuitenkin viestin "_PlanB_" löytäminen tietäen vain `24f1b9…` on mahdotonta.
 
 ![CYP201](assets/fr/002.webp)
 
 Siksi on mahdotonta löytää esikuvaa $m$ häsäykselle $h$ siten, että $h = \text{HASH}(m)$, missä $\text{HASH}$ on kryptografinen häsäfunktio.
 
 #### 2. Muutoksenkestävyys (lumivyöryvaikutus)
+
 Toisen ominaisuuden nimi on manipuloinnin kestävyys, joka tunnetaan myös **lumivyöryefektinä**. Tämä ominaisuus havaitaan hajautusfunktiossa, jos pieni muutos syötteen viestissä johtaa radikaaliin muutokseen tulosteessa olevassa hajautusarvossa.
-Jos palaamme esimerkkiimme syötteellä "*PlanB*" ja SHA256-funktiolla, olemme nähneet, että tuotettu hajautusarvo on seuraava:
+Jos palaamme esimerkkiimme syötteellä "_PlanB_" ja SHA256-funktiolla, olemme nähneet, että tuotettu hajautusarvo on seuraava:
 
-```txt
-Jos teemme hyvin pienen muutoksen syötteeseen käyttämällä tällä kertaa "*Planb*", niin pelkästään muuttamalla iso "B" pieneksi "b":ksi muuttaa täysin SHA256:n tulosteena olevan hajautusarvon:
+```text
+24f1b93b68026bfc24f5c8265f287b4c940fb1664b0d75053589d7a4f821b688
+```
 
-```txt
+Jos teemme hyvin pienen muutoksen syötteeseen käyttämällä tällä kertaa "_Planb_", niin pelkästään muuttamalla iso "B" pieneksi "b":ksi muuttaa täysin SHA256:n tulosteena olevan hajautusarvon:
+
+```text
 bb038b4503ac5d90e1205788b00f8f314583c5e22f72bec84b8735ba5a36df3f
 ```
 
@@ -117,6 +127,7 @@ Todellisuudessa on matemaattisesti väistämätöntä, että hajautusfunktioille
 
 Näin ollen tämä ominaisuus ei tarkoita, että hajautusfunktioilla ei olisi yhteentörmäyksiä, vaan pikemminkin, että hyvä hajautusfunktio tekee yhteentörmäyksen löytämisen todennäköisyyden merkityksettömäksi. Esimerkiksi SHA-0 ja SHA-1 algoritmit, SHA-2:n edeltäjät, joille on löydetty yhteentörmäyksiä, eivät enää täytä tätä ominaisuutta. Näitä funktioita suositellaan siis välttämään ja ne katsotaan usein vanhentuneiksi.
 Hajautusfunktion $n$ bittiä varten, yhteentörmäyksen kestävyys on järjestyksessä $2^{\frac{n}{2}}$, syntymäpäivähyökkäyksen mukaisesti. Esimerkiksi SHA256:n ($n = 256$) tapauksessa yhteentörmäyksen löytämisen monimutkaisuus on järjestyksessä $2^{128}$ yritystä. Käytännön termein tämä tarkoittaa, että jos funktioon syötetään $2^{128}$ erilaista viestiä, on todennäköistä löytää yhteentörmäys.
+
 #### 4. Toisen Esikuvan Kestävyys
 
 Toisen esikuvan kestävyys on toinen tärkeä hajautusfunktioiden ominaisuus. Se toteaa, että annetun viestin $m_1$ ja sen hajautusarvon $h$ perusteella, on laskennallisesti mahdotonta löytää toista viestiä $m_2 \neq m_1$ siten, että:
@@ -127,13 +138,14 @@ $$
 
 Näin ollen toisen esikuvan kestävyys on jossain määrin samankaltainen kuin yhteentörmäyksen kestävyys, paitsi että tässä hyökkäys on vaikeampi, koska hyökkääjä ei voi vapaasti valita $m_1$.
 ![CYP201](assets/fr/005.webp)
+
 ### Hash-funktioiden sovellukset Bitcoinissa
 
-Bitcoinissa eniten käytetty hash-funktio on **SHA256** ("*Secure Hash Algorithm 256 bits"*). NSA suunnitteli sen 2000-luvun alussa ja NIST standardisoi sen. Se tuottaa 256-bittisen hash-tuloksen.
+Bitcoinissa eniten käytetty hash-funktio on **SHA256** ("_Secure Hash Algorithm 256 bits"_). NSA suunnitteli sen 2000-luvun alussa ja NIST standardisoi sen. Se tuottaa 256-bittisen hash-tuloksen.
 
 Tätä funktiota käytetään monissa Bitcoinin osa-alueissa. Protokollatasolla se on mukana Proof-of-Work -mekanismissa, jossa sitä sovelletaan kaksinkertaisessa hashauksessa etsittäessä osittaista törmäystä ehdokaslohkon otsikon ja vaikeustavoitteen välillä. Jos tämä osittainen törmäys löytyy, ehdokaslohko muuttuu kelvolliseksi ja sen voi lisätä lohkoketjuun.
 
-SHA256:ta käytetään myös Merkle-puun rakentamisessa, joka on erityisesti transaktioiden tallentamiseen käytetty akkumulaattori lohkoissa. Tätä rakennetta käytetään myös Utreexo-protokollassa, joka mahdollistaa UTXO Setin koon pienentämisen. Lisäksi Taprootin käyttöönoton myötä vuonna 2021, SHA256:ta hyödynnetään MAST:ssa (*Merkelised Alternative Script Tree*), joka mahdollistaa vain käytetyissä skripteissä käytettyjen kulutusehtojen paljastamisen ilman muiden mahdollisten vaihtoehtojen paljastamista. Sitä käytetään myös transaktioidentiteettien laskennassa, pakettien siirrossa P2P-verkossa, sähköisissä allekirjoituksissa... Lopuksi, ja tämä on erityisen kiinnostavaa tässä koulutuksessa, SHA256:ta käytetään sovellustasolla Bitcoin-lompakoiden rakentamisessa ja osoitteiden johdannaisessa.
+SHA256:ta käytetään myös Merkle-puun rakentamisessa, joka on erityisesti transaktioiden tallentamiseen käytetty akkumulaattori lohkoissa. Tätä rakennetta käytetään myös Utreexo-protokollassa, joka mahdollistaa UTXO Setin koon pienentämisen. Lisäksi Taprootin käyttöönoton myötä vuonna 2021, SHA256:ta hyödynnetään MAST:ssa (_Merkelised Alternative Script Tree_), joka mahdollistaa vain käytetyissä skripteissä käytettyjen kulutusehtojen paljastamisen ilman muiden mahdollisten vaihtoehtojen paljastamista. Sitä käytetään myös transaktioidentiteettien laskennassa, pakettien siirrossa P2P-verkossa, sähköisissä allekirjoituksissa... Lopuksi, ja tämä on erityisen kiinnostavaa tässä koulutuksessa, SHA256:ta käytetään sovellustasolla Bitcoin-lompakoiden rakentamisessa ja osoitteiden johdannaisessa.
 
 Useimmiten, kun törmäät SHA256:n käyttöön Bitcoinissa, on kyseessä itse asiassa kaksinkertainen hash SHA256, merkitty "**HASH256**", joka yksinkertaisesti koostuu SHA256:n soveltamisesta kahdesti peräkkäin:
 HASH256(m) = SHA256(SHA256(m))
@@ -153,6 +165,7 @@ Lopuksi, vain sovellustasolla, joskus käytetään myös SHA512-funktiota, joka 
 Nyt tiedät olennaiset perustiedot hash-funktioista seuraavaa varten. Seuraavassa luvussa ehdotan, että tutustumme yksityiskohtaisemmin funktioon, joka on Bitcoinin ytimessä: SHA256. Pureudumme siihen ymmärtääksemme, miten se saavuttaa tässä kuvatut ominaisuudet. Seuraava luku on melko pitkä ja tekninen, mutta sen ymmärtäminen ei ole olennaista koulutuksen jatkamisen kannalta. Joten, jos et ymmärrä sitä, älä huolestu ja siirry suoraan seuraavaan lukuun, joka on paljon helpommin saavutettavissa.
 
 ## SHA256:n sisäinen toiminta
+
 <chapterId>905eb320-f15b-5fb6-8d2d-5bb447337deb</chapterId>
 Olemme aiemmin nähneet, että hajautusfunktiot omaavat tärkeitä ominaisuuksia, jotka oikeuttavat niiden käytön Bitcoinissa. Tutkitaan nyt näiden hajautusfunktioiden sisäisiä mekanismeja, jotka antavat niille nämä ominaisuudet, ja tätä varten ehdotan, että pureudumme SHA256-toiminnon toimintaan.
 SHA256- ja SHA512-funktiot kuuluvat samaan SHA2-perheeseen. Niiden mekanismi perustuu tiettyyn rakenteeseen, jota kutsutaan **Merkle-Damgård -rakenteeksi**. Myös RIPEMD160 käyttää tätä samaa rakennetyyppiä.
@@ -160,6 +173,7 @@ SHA256- ja SHA512-funktiot kuuluvat samaan SHA2-perheeseen. Niiden mekanismi per
 Muistutuksena, meillä on SHA256:lle syötteenä mielivaltaisen kokoinen viesti, ja lähetämme sen funktion läpi saadaksemme 256-bittisen hajautusarvon tulosteena.
 
 ### Syötteen esikäsittely
+
 Aloitetaan valmistamalla syöteviestimme $m$ niin, että sillä on standardi pituus, joka on 512 bitin monikerta. Tämä vaihe on ratkaisevan tärkeä algoritmin myöhemmän toiminnan kannalta.
 Tätä varten aloitamme täytesegmenttien lisäysvaiheella. Lisäämme ensin viestiin erotinbitin `1`, jonka jälkeen lisäämme tietyn määrän `0` bittejä. Lisättävien `0` bittien määrä lasketaan niin, että viestin kokonaispituus tämän lisäyksen jälkeen on kongruentti 448 modulo 512 kanssa. Näin ollen viestin $L$ pituus täytesegmenttien kanssa on yhtä suuri kuin:
 
@@ -198,14 +212,19 @@ $$
 
 Näin ollen meillä olisi 9 `0` lisäksi erotin `1`. Täytesegmenttimme, joka lisätään suoraan viestimme $M$ jälkeen, olisi siis:
 
-```txt
+```text
 1000 0000 00
 ```
 
 Täytesegmenttien lisäämisen jälkeen viestiimme $M$, lisäämme myös 64-bittisen esityksen alkuperäisestä viestin $M$ pituudesta, ilmaistuna binäärilukuna. Tämä mahdollistaa hajautusfunktion herkkyyden bittien järjestykselle ja viestin pituudelle.
 Jos palaamme esimerkkiimme, jossa alkuperäinen viesti oli 950 bittiä, muutamme desimaaliluvun `950` binääriluvuksi, mikä antaa meille `1110 1101 10`. Täydennämme tämän luvun nollilla perään, jotta saamme yhteensä 64 bittiä. Esimerkissämme tämä antaa:
-```txt
+
+```text
+0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0011 1011 0110
+```
+
 Tämä täytteen koko lisätään seuraamalla bittitäytettä. Näin ollen viesti käsittelyn jälkeen koostuu kolmesta osasta:
+
 1. Alkuperäinen viesti $M$;
 2. Bitti `1` seurattuna usealla bitillä `0` muodostaakseen bittitäytteen;
 3. 64-bittinen esitys $M$:n pituudesta muodostaakseen koon täytteen.
@@ -239,8 +258,11 @@ K[0 \ldots 63] = \begin{pmatrix}
 0xc6e00bf3, & 0xd5a79147, & 0x06ca6351, & 0x14292967, \\
 0x27b70a85, & 0x2e1b2138, & 0x4d2c6dfc, & 0x53380d13, \\
 
+
 $$
+
 \begin{pmatrix}
+
 $$
 \begin{pmatrix}
 0x650a7354, & 0x766a0abb, & 0x81c2c92e, & 0x92722c85, \\
@@ -262,6 +284,7 @@ Aloitamme jakamalla tasapainotetun viestimme (esikäsittelyvaiheiden tulos) usei
 ### Loogiset Operaatiot
 
 Ennen kuin tutkimme tiivistysfunktiota yksityiskohtaisesti, on tärkeää ymmärtää siinä käytetyt perusloogiset operaatiot. Nämä operaatiot, jotka perustuvat Booleen algebraan, toimivat bittitasolla. Käytetyt perusloogiset operaatiot ovat:
+
 - **Konjunktio (AND)**: merkitään $\land$, vastaa loogista "JA".
 - **Disjunktio (OR)**: merkitään $\lor$, vastaa loogista "TAI".
 - **Negaatio (NOT)**: merkitään $\lnot$, vastaa loogista "EI".
@@ -280,9 +303,9 @@ XOR:lle ($\oplus$):
 AND:lle ($\land$):
 
 | $p$ | $q$ | $p \land q$ |
-| --- | --- | ----------- |
+| --- | --- | ----------- | --- | --- | --- | --- |
 | 0   | 0   | 0           |
-| 0   | 1   | 0           || 1   | 0   | 0           |
+| 0   | 1   | 0           |     | 1   | 0   | 0   |
 | 1   | 1   | 1           |
 
 Ei ole ($\lnot p$):
@@ -306,13 +329,13 @@ $$
 Soveltamalla XOR bitti bittiltä:
 
 | Bittipaikka | $a$ | $b$ | $a \oplus b$ |
-| ------------ | --- | --- | ------------ |
-| 1            | 1   | 0   | 1            |
-| 2            | 0   | 0   | 0            |
-| 3            | 1   | 1   | 0            |
-| 4            | 1   | 0   | 1            |
-| 5            | 0   | 0   | 0            |
-| 6            | 0   | 0   | 0            |
+| ----------- | --- | --- | ------------ |
+| 1           | 1   | 0   | 1            |
+| 2           | 0   | 0   | 0            |
+| 3           | 1   | 1   | 0            |
+| 4           | 1   | 0   | 1            |
+| 5           | 0   | 0   | 0            |
+| 6           | 0   | 0   | 0            |
 
 Tulos on siis $100100$.
 
@@ -345,17 +368,19 @@ Kaaviollisesti oikea kiertävä siirto -operaatio voidaan nähdä näin:
 Nyt kun olemme ymmärtäneet perusoperaatiot, tarkastellaan SHA256:n tiivistysfunktiota yksityiskohtaisesti.
 
 Edellisessä vaiheessa jaettiin syöte useisiin 512-bittisiin palasiin $P$. Jokaiselle 512-bittiselle lohkolle $P$, meillä on:
+
 - **Viestisanat $W_i$**: $i$:lle 0:sta 63:een.
 - **Vakiot $K_i$**: $i$:lle 0:sta 63:een, määritelty edellisessä vaiheessa.
 - **Tilamuuttujat $A, B, C, D, E, F, G, H$**: alustettu arvoilla edellisestä vaiheesta.
-Ensimmäiset 16 sanaa, $W_0$ - $W_{15}$, on suoraan poimittu käsitellystä 512-bittisestä lohkosta $P$. Jokainen sana $W_i$ koostuu 32 peräkkäisestä bitistä lohkosta. Esimerkiksi otamme ensimmäisen syötteen palan $P_1$, ja jaamme sen edelleen pienempiin 32-bittisiin palasiin, joita kutsumme sanoiksi.
-Seuraavat 48 sanaa ($W_{16}$ - $W_{63}$) luodaan käyttäen seuraavaa kaavaa:
+  Ensimmäiset 16 sanaa, $W_0$ - $W_{15}$, on suoraan poimittu käsitellystä 512-bittisestä lohkosta $P$. Jokainen sana $W_i$ koostuu 32 peräkkäisestä bitistä lohkosta. Esimerkiksi otamme ensimmäisen syötteen palan $P_1$, ja jaamme sen edelleen pienempiin 32-bittisiin palasiin, joita kutsumme sanoiksi.
+  Seuraavat 48 sanaa ($W_{16}$ - $W_{63}$) luodaan käyttäen seuraavaa kaavaa:
 
 $$
 W_i = W_{i-16} + \sigma_0(W_{i-15}) + W_{i-7} + \sigma_1(W_{i-2}) \mod 2^{32}
 $$
 
 Missä:
+
 - $\sigma_0(x) = RotR_7(x) \oplus RotR_{18}(x) \oplus ShR_3(x)$
 - $\sigma_1(x) = RotR_{17}(x) \oplus RotR_{19}(x) \oplus ShR_{10}(x)$
 
@@ -379,13 +404,13 @@ $$
 \Sigma_1(E) = RotR_6(E) \oplus RotR_{11}(E) \oplus RotR_{25}(E)
 $$
 
-- **Funktio $Ch$ ("*Valitse*"):**
+- **Funktio $Ch$ ("_Valitse_"):**
 
 $$
 Ch(E, F, G) = (E \land F) \oplus (\lnot E \land G)
 $$
 
-- **Funktio $Maj$ ("*Enemmistö*"):**
+- **Funktio $Maj$ ("_Enemmistö_"):**
 
 $$
 Maj(A, B, C) = (A \land B) \oplus (A \land C) \oplus (B \land C)
@@ -423,24 +448,29 @@ Seuraava kaava esittää yhden kierroksen SHA256-tiivistysfunktion toimintaa, ku
 Voimme jo havaita, että tämä kierros tuottaa uudet tilamuuttujat $A$, $B$, $C$, $D$, $E$, $F$, $G$ ja $H$. Nämä uudet muuttujat toimivat syötteenä seuraavalle kierrokselle, joka puolestaan tuottaa uudet muuttujat $A$, $B$, $C$, $D$, $E$, $F$, $G$ ja $H$, joita käytetään seuraavalla kierroksella. Tämä prosessi jatkuu aina 64. kierrokseen asti.
 64 kierroksen jälkeen päivitämme tilamuuttujien alkuperäiset arvot lisäämällä ne lopullisiin arvoihin 64. kierroksen lopussa:
 $$
+
 \begin{cases}
-A = A_{\text{alkuperäinen}} + A \mod 2^{32} \\
-B = B_{\text{alkuperäinen}} + B \mod 2^{32} \\
-C = C_{\text{alkuperäinen}} + C \mod 2^{32} \\
-D = D_{\text{alkuperäinen}} + D \mod 2^{32} \\
-E = E_{\text{alkuperäinen}} + E \mod 2^{32} \\
-F = F_{\text{alkuperäinen}} + F \mod 2^{32} \\
-G = G_{\text{alkuperäinen}} + G \mod 2^{32} \\
-H = H_{\text{alkuperäinen}} + H \mod 2^{32}
+A = A*{\text{alkuperäinen}} + A \mod 2^{32} \\
+B = B*{\text{alkuperäinen}} + B \mod 2^{32} \\
+C = C*{\text{alkuperäinen}} + C \mod 2^{32} \\
+D = D*{\text{alkuperäinen}} + D \mod 2^{32} \\
+E = E*{\text{alkuperäinen}} + E \mod 2^{32} \\
+F = F*{\text{alkuperäinen}} + F \mod 2^{32} \\
+G = G*{\text{alkuperäinen}} + G \mod 2^{32} \\
+H = H*{\text{alkuperäinen}} + H \mod 2^{32}
 \end{cases}
+
 $$
 
 Nämä uudet arvot $A$, $B$, $C$, $D$, $E$, $F$, $G$ ja $H$ toimivat alkuperäisinä arvoina seuraavalle lohkolle, $P_2$. Tässä lohkossa $P_2$ toistamme saman tiivistysprosessin 64 kierroksen ajan, sitten päivitämme muuttujat lohkolle $P_3$, ja niin edelleen, kunnes viimeinen lohko tasattua syötettä on käsitelty.
 
 Kaikkien viestilohkojen käsittelyn jälkeen yhdistämme muuttujien lopulliset arvot $A$, $B$, $C$, $D$, $E$, $F$, $G$ ja $H$ muodostaaksemme tiivistysfunktiomme lopullisen 256-bittisen tiivisteen:
 
+
 $$
+
 \text{Tiiviste} = A \Vert B \Vert C \Vert D \Vert E \Vert F \Vert G \Vert H
+
 $$
 
 Jokainen muuttuja on 32-bittinen kokonaisluku, joten niiden yhdistäminen tuottaa aina 256-bittisen tuloksen, riippumatta viestin syötteen koosta tiivistysfunktioon.
@@ -464,6 +494,7 @@ Puristusfunktio käyttää myös $\text{ShR}$ operaatiota. Tämä operaatio pois
 
 Lopuksi, törmäyskestävyyden ominaisuuden osalta, useat parametrit tulevat peliin. Alkuperäisen viestin esikäsittelyllä on olennainen rooli. Ilman tätä esikäsittelyä, törmäysten löytäminen funktiosta saattaisi olla helpompaa. Vaikka teoreettisesti törmäykset ovat olemassa (lintuhäkkiprinsiipin vuoksi), hajautusfunktion rakenne, yhdessä edellä mainittujen ominaisuuksien kanssa, tekee törmäyksen löytämisen todennäköisyyden äärimmäisen matalaksi.
 Jotta hajautusfunktio olisi törmäyskestävä, on olennaista, että:
+
 - Tuloksen ennustamattomuus: Mikä tahansa ennustettavuus voidaan hyödyntää törmäysten löytämiseksi nopeammin kuin brute force -hyökkäyksellä. Funktio varmistaa, että jokainen tuloksen bitti riippuu ei-triviaalilla tavalla syötteestä. Toisin sanoen, funktio on suunniteltu niin, että jokaisen lopputuloksen bitillä on itsenäinen todennäköisyys olla 0 tai 1, vaikka tämä itsenäisyys ei käytännössä olekaan absoluuttinen.
 - Hajautusten jakautuminen on pseudosatunnainen: Tämä varmistaa, että hajautukset ovat tasaisesti jakautuneet.
 - Hajautuksen koko on merkittävä: mitä suurempi mahdollisten tulosten tila on, sitä vaikeampi on löytää törmäys.
@@ -484,13 +515,15 @@ Tämä parantaa turvallisuutta potentiaalisia hyökkäyksiä vastaan, jotka liit
 Nyt kun olemme tarkastelleet yksityiskohtaisesti hajautusfunktioiden toimintaa, erityisesti SHA256, jota käytetään laajalti Bitcoinissa, keskitymme erityisesti sovellustason kryptografisiin johdannaisalgoritmeihin, erityisesti avainten johdattamiseen lompakkoosi.
 
 ## Johdannaisalgoritmien käyttö
+
 <chapterId>cc668121-7789-5e99-bf5e-1ba085f4f5f2</chapterId>
 
 Bitcoinissa sovellustasolla, hajautusfunktioiden lisäksi, käytetään kryptografisia johdannaisalgoritmeja turvallisten tietojen tuottamiseen alkuperäisistä syötteistä. Vaikka nämä algoritmit nojaavat hajautusfunktioihin, ne palvelevat eri tarkoituksia, erityisesti autentikoinnin ja avainten tuottamisen suhteen. Nämä algoritmit säilyttävät joitakin hajautusfunktioiden ominaisuuksia, kuten peruuttamattomuuden, manipuloinnin vastustuskyvyn ja törmäyskestävyyden.
 
 Bitcoin-lompakoissa käytetään pääasiassa kahta johdannaisalgoritmia:
-1. **HMAC (*Hash-based Message Authentication Code*)**
-2. **PBKDF2 (*Password-Based Key Derivation Function 2*)**
+
+1. **HMAC (_Hash-based Message Authentication Code_)**
+2. **PBKDF2 (_Password-Based Key Derivation Function 2_)**
 
 Tutkimme yhdessä kunkin niiden toimintaa ja roolia.
 
@@ -503,6 +536,7 @@ Tässä on sen yleinen toimintakaava, jossa $m$ on syötteenä oleva viesti ja $
 ![CYP201](assets/fr/011.webp)
 
 Tutkitaan tarkemmin, mitä tapahtuu tässä HMAC-SHA512 mustassa laatikossa. HMAC-SHA512 toiminto:
+
 - $m$: käyttäjän valitsema mielivaltainen kokoinen viesti (ensimmäinen syöte);
 - $K$: käyttäjän valitsema mielivaltainen salainen avain (toinen syöte);
 - $K'$: avain $K$ sopeutettuna hajautusfunktion lohkojen kokoon $B$ (1024 bittiä SHA512:lle, eli 128 tavua);
@@ -511,8 +545,8 @@ Tutkitaan tarkemmin, mitä tapahtuu tässä HMAC-SHA512 mustassa laatikossa. HMA
 - $\Vert$: yhdistämisoperaattori, joka liittää bittijonot peräkkäin;
 - $\text{opad}$: vakio, joka koostuu toistuvasta tavusta $0x5c$ 128 kertaa
 - $\text{ipad}$: vakio, joka koostuu toistuvasta tavusta $0x36$ 128 kertaa
-Ennen HMAC:n laskemista on tarpeen tasapainottaa avain ja vakiot lohkokoon $B$ mukaisesti. Esimerkiksi, jos avain $K$ on lyhyempi kuin 128 tavua, sitä täydennetään nollilla, kunnes saavutetaan koko $B$. Jos $K$ on pidempi kuin 128 tavua, se tiivistetään käyttäen SHA512:ta, ja sitten siihen lisätään nollia, kunnes saavutetaan 128 tavua. Näin saadaan tasapainotettu avain nimeltä $K'$.
-Arvot $\text{opad}$ ja $\text{ipad}$ saadaan toistamalla niiden perustavu ($0x5c$ $\text{opad}$:lle, $0x36$ $\text{ipad}$:lle) kunnes saavutetaan koko $B$. Näin ollen, kun $B = 128$ tavua, meillä on:
+  Ennen HMAC:n laskemista on tarpeen tasapainottaa avain ja vakiot lohkokoon $B$ mukaisesti. Esimerkiksi, jos avain $K$ on lyhyempi kuin 128 tavua, sitä täydennetään nollilla, kunnes saavutetaan koko $B$. Jos $K$ on pidempi kuin 128 tavua, se tiivistetään käyttäen SHA512:ta, ja sitten siihen lisätään nollia, kunnes saavutetaan 128 tavua. Näin saadaan tasapainotettu avain nimeltä $K'$.
+  Arvot $\text{opad}$ ja $\text{ipad}$ saadaan toistamalla niiden perustavu ($0x5c$ $\text{opad}$:lle, $0x36$ $\text{ipad}$:lle) kunnes saavutetaan koko $B$. Näin ollen, kun $B = 128$ tavua, meillä on:
 
 $$
 \text{opad} = \underbrace{0x5c5c\ldots5c}_{128 \, \text{tavua}}
@@ -525,6 +559,7 @@ $$
 $$
 
 Tämä yhtälö jaetaan seuraaviin vaiheisiin:
+
 1. XORaa tasapainotettu avain $K'$ $\text{ipad}$:n kanssa saadaksesi $\text{iKpad}$;
 2. XORaa tasapainotettu avain $K'$ $\text{opad}$:n kanssa saadaksesi $\text{oKpad}$;
 3. Yhdistä $\text{iKpad}$ viestin $m$ kanssa.
@@ -540,18 +575,19 @@ HMAC:ia käytetään erityisesti Bitcoinissa avainjohdannassa HD (Hierarkkisesti
 
 ### PBKDF2
 
-PBKDF2 (*Password-Based Key Derivation Function 2*) on avainjohdantoalgoritmi, joka on suunniteltu parantamaan salasanojen turvallisuutta. Algoritmi soveltaa pseudo-satunnaistoimintoa (tässä HMAC-SHA512) salasanaan ja kryptografiseen suolaan, ja toistaa tämän operaation tietyn määrän kertoja tuottaakseen tulosteavaimen.
+PBKDF2 (_Password-Based Key Derivation Function 2_) on avainjohdantoalgoritmi, joka on suunniteltu parantamaan salasanojen turvallisuutta. Algoritmi soveltaa pseudo-satunnaistoimintoa (tässä HMAC-SHA512) salasanaan ja kryptografiseen suolaan, ja toistaa tämän operaation tietyn määrän kertoja tuottaakseen tulosteavaimen.
 
 Bitcoinissa PBKDF2:ta käytetään HD-lompakon siemenen generoimiseen mnemonisesta fraasista ja salasanasta (mutta puhumme tästä tarkemmin tulevissa luvuissa).
 
 PBKDF2-prosessi on seuraava, jossa:
+
 - $m$: käyttäjän mnemoninen fraasi;
 - $s$: valinnainen salasana turvallisuuden lisäämiseksi (tyhjä kenttä, jos salasanaa ei ole);
 - $n$: funktion toistojen määrä, meidän tapauksessamme se on 2048.
-PBKDF2-funktio määritellään iteratiivisesti. Jokainen iteraatio ottaa edellisen tuloksen, syöttää sen HMAC-SHA512:n läpi ja yhdistää peräkkäiset tulokset tuottaakseen lopullisen avaimen:
-$$
-\text{PBKDF2}(m, s) = \text{HMAC-SHA512}^{2048}(m, s)
-$$
+  PBKDF2-funktio määritellään iteratiivisesti. Jokainen iteraatio ottaa edellisen tuloksen, syöttää sen HMAC-SHA512:n läpi ja yhdistää peräkkäiset tulokset tuottaakseen lopullisen avaimen:
+  $$
+  \text{PBKDF2}(m, s) = \text{HMAC-SHA512}^{2048}(m, s)
+  $$
 
 Kaavamaisesti PBKDF2 voidaan esittää seuraavasti:
 
@@ -560,25 +596,28 @@ Kaavamaisesti PBKDF2 voidaan esittää seuraavasti:
 Tässä luvussa olemme tutkineet HMAC-SHA512- ja PBKDF2-funktioita, jotka käyttävät hajautusfunktioita varmistaakseen avainten johdannaisten eheyden ja turvallisuuden Bitcoin-protokollassa. Seuraavassa osassa tarkastelemme digitaalisia allekirjoituksia, toista Bitcoinissa laajalti käytettyä kryptografista menetelmää.
 
 # Digitaaliset Allekirjoitukset
+
 <partId>76b58a00-0c18-54b9-870d-6b7e34029db8</partId>
 
 ## Digitaaliset Allekirjoitukset ja Elliptiset Käyrät
+
 <chapterId>c9dd9672-6da1-57f8-9871-8b28994d4c1a</chapterId>
 
 Toinen Bitcoinissa käytetty kryptografinen menetelmä liittyy digitaalisiin allekirjoitusalgorytmeihin. Tutkitaan, mitä tämä tarkoittaa ja miten se toimii.
 
 ### Bitcoinit, UTXO:t ja Käyttöehdot
 
-Termi "*lompakko*" Bitcoinissa voi olla melko hämmentävä aloittelijoille. Todellisuudessa sitä, mitä kutsutaan Bitcoin-lompakoksi, on ohjelmisto, joka ei suoraan pidä hallussaan bitcoinejasi, toisin kuin fyysinen lompakko, joka voi pitää sisällään kolikoita tai seteleitä. Bitcoinit ovat yksinkertaisesti tilikirjan yksiköitä. Tämä tilikirjan yksikkö edustetaan **UTXO**:lla (*Unspent Transaction Outputs*, käyttämättömät transaktiotulosteet), jotka ovat käyttämättömiä transaktiotulosteita. Jos nämä tulosteet ovat käyttämättömiä, tarkoittaa se, että ne kuuluvat käyttäjälle. UTXO:t ovat tavallaan bitcoinien palasia, vaihtelevan kokoisia, jotka kuuluvat käyttäjälle.
+Termi "_lompakko_" Bitcoinissa voi olla melko hämmentävä aloittelijoille. Todellisuudessa sitä, mitä kutsutaan Bitcoin-lompakoksi, on ohjelmisto, joka ei suoraan pidä hallussaan bitcoinejasi, toisin kuin fyysinen lompakko, joka voi pitää sisällään kolikoita tai seteleitä. Bitcoinit ovat yksinkertaisesti tilikirjan yksiköitä. Tämä tilikirjan yksikkö edustetaan **UTXO**:lla (_Unspent Transaction Outputs_, käyttämättömät transaktiotulosteet), jotka ovat käyttämättömiä transaktiotulosteita. Jos nämä tulosteet ovat käyttämättömiä, tarkoittaa se, että ne kuuluvat käyttäjälle. UTXO:t ovat tavallaan bitcoinien palasia, vaihtelevan kokoisia, jotka kuuluvat käyttäjälle.
 
-Bitcoin-protokolla on hajautettu ja toimii ilman keskusvaltaa. Siksi se ei ole kuin perinteiset pankkikirjaukset, joissa sinulle kuuluvat eurot yksinkertaisesti yhdistetään henkilöllisyyteesi. Bitcoinissa UTXO:si kuuluvat sinulle, koska ne on suojattu Script-kielen määrittelemillä käyttöehdoilla. Yksinkertaistaaksemme, on olemassa kaksi tyyppistä skriptiä: lukitseva skripti (*scriptPubKey*), joka suojaa UTXO:a, ja avaava skripti (*scriptSig*), joka mahdollistaa UTXO:n avaamisen ja siten bitcoin-yksiköiden käyttämisen.
-Bitcoinin alkuperäinen toimintatapa P2PK-skriptien kanssa sisältää julkisen avaimen käyttämisen varojen lukitsemiseen, määrittelemällä *scriptPubKey*:ssä, että henkilön, joka haluaa käyttää tätä UTXO:a, on toimitettava kelvollinen allekirjoitus yksityisavaimella, joka vastaa tätä julkista avainta. Tämän UTXO:n avaamiseksi on siis tarpeen toimittaa kelvollinen allekirjoitus *scriptSig*:ssä. Kuten nimet vihjaavat, julkinen avain on kaikkien tiedossa, koska se lähetetään lohkoketjussa, kun taas yksityinen avain on vain varojen laillisen omistajan tiedossa.
-Tämä on Bitcoinin perustoiminta, mutta ajan myötä tämä toiminta on muuttunut monimutkaisemmaksi. Aluksi Satoshi esitteli myös P2PKH-skriptejä, jotka käyttävät vastaanotto-osoitetta *scriptPubKey*:ssä, joka edustaa julkisen avaimen hajautusta. Sitten järjestelmästä tuli vielä monimutkaisempi SegWitin ja myöhemmin Taprootin myötä. Kuitenkin yleinen periaate pysyy perustavanlaatuisesti samana: julkista avainta tai sen edustusta käytetään UTXO:jen lukitsemiseen, ja vastaavaa yksityistä avainta vaaditaan niiden avaamiseen ja siten käyttämiseen.
+Bitcoin-protokolla on hajautettu ja toimii ilman keskusvaltaa. Siksi se ei ole kuin perinteiset pankkikirjaukset, joissa sinulle kuuluvat eurot yksinkertaisesti yhdistetään henkilöllisyyteesi. Bitcoinissa UTXO:si kuuluvat sinulle, koska ne on suojattu Script-kielen määrittelemillä käyttöehdoilla. Yksinkertaistaaksemme, on olemassa kaksi tyyppistä skriptiä: lukitseva skripti (_scriptPubKey_), joka suojaa UTXO:a, ja avaava skripti (_scriptSig_), joka mahdollistaa UTXO:n avaamisen ja siten bitcoin-yksiköiden käyttämisen.
+Bitcoinin alkuperäinen toimintatapa P2PK-skriptien kanssa sisältää julkisen avaimen käyttämisen varojen lukitsemiseen, määrittelemällä _scriptPubKey_:ssä, että henkilön, joka haluaa käyttää tätä UTXO:a, on toimitettava kelvollinen allekirjoitus yksityisavaimella, joka vastaa tätä julkista avainta. Tämän UTXO:n avaamiseksi on siis tarpeen toimittaa kelvollinen allekirjoitus _scriptSig_:ssä. Kuten nimet vihjaavat, julkinen avain on kaikkien tiedossa, koska se lähetetään lohkoketjussa, kun taas yksityinen avain on vain varojen laillisen omistajan tiedossa.
+Tämä on Bitcoinin perustoiminta, mutta ajan myötä tämä toiminta on muuttunut monimutkaisemmaksi. Aluksi Satoshi esitteli myös P2PKH-skriptejä, jotka käyttävät vastaanotto-osoitetta _scriptPubKey_:ssä, joka edustaa julkisen avaimen hajautusta. Sitten järjestelmästä tuli vielä monimutkaisempi SegWitin ja myöhemmin Taprootin myötä. Kuitenkin yleinen periaate pysyy perustavanlaatuisesti samana: julkista avainta tai sen edustusta käytetään UTXO:jen lukitsemiseen, ja vastaavaa yksityistä avainta vaaditaan niiden avaamiseen ja siten käyttämiseen.
 Käyttäjän, joka haluaa tehdä Bitcoin-siirron, on siis luotava digitaalinen allekirjoitus käyttäen omaa yksityistä avaintaan kyseisessä siirrossa. Muut verkon osallistujat voivat tarkistaa allekirjoituksen. Jos se on pätevä, tämä tarkoittaa, että siirtoa aloittava käyttäjä on todellakin yksityisen avaimen omistaja, ja siten myös bitcoinejaan kuluttavan varojen omistaja. Muut käyttäjät voivat sitten hyväksyä ja levittää siirtoa.
 Tuloksena käyttäjän, joka omistaa julkisella avaimella lukittuja bitcoineja, on löydettävä tapa turvallisesti säilyttää se, mikä mahdollistaa varojen lukituksen avaamisen: yksityinen avain. Bitcoin-lompakko on juuri sellainen laite, joka mahdollistaa kaikkien avaimiesi helpon säilyttämisen ilman, että muilla on niihin pääsyä. Se on siis enemmän avainnippu kuin lompakko.
 
-Julkisen avaimen ja yksityisen avaimen välisen matemaattisen yhteyden, sekä kyvyn suorittaa allekirjoitus yksityisen avaimen hallussapidon todistamiseksi paljastamatta sitä, tekee mahdolliseksi digitaalisen allekirjoitus algoritmi. Bitcoin-protokollassa käytetään 2 allekirjoitus algoritmia: **ECDSA** (*Elliptic Curve Digital Signature Algorithm*) ja **Schnorrin allekirjoitusjärjestelmä**. ECDSA on digitaalisen allekirjoituksen protokolla, jota on käytetty Bitcoinissa sen alusta lähtien. Schnorr on Bitcoinissa uudempi, sillä se otettiin käyttöön marraskuussa 2021 Taproot-päivityksen myötä.
+Julkisen avaimen ja yksityisen avaimen välisen matemaattisen yhteyden, sekä kyvyn suorittaa allekirjoitus yksityisen avaimen hallussapidon todistamiseksi paljastamatta sitä, tekee mahdolliseksi digitaalisen allekirjoitus algoritmi. Bitcoin-protokollassa käytetään 2 allekirjoitus algoritmia: **ECDSA** (_Elliptic Curve Digital Signature Algorithm_) ja **Schnorrin allekirjoitusjärjestelmä**. ECDSA on digitaalisen allekirjoituksen protokolla, jota on käytetty Bitcoinissa sen alusta lähtien. Schnorr on Bitcoinissa uudempi, sillä se otettiin käyttöön marraskuussa 2021 Taproot-päivityksen myötä.
 Nämä kaksi algoritmia ovat mekanismeiltaan melko samankaltaisia. Molemmat perustuvat elliptiseen käyräkryptografiaan. Näiden kahden protokollan merkittävin ero on allekirjoituksen rakenteessa ja joissakin erityisissä matemaattisissa ominaisuuksissa. Tutkimme siis näiden algoritmien toimintaa aloittaen vanhimmasta: ECDSA.
+
 ### Elliptinen käyräkryptografia
 
 Elliptinen käyräkryptografia (ECC) on algoritmien joukko, joka käyttää elliptistä käyrää sen erilaisten matemaattisten ja geometristen ominaisuuksien hyödyntämiseen kryptografisissa tarkoituksissa. Näiden algoritmien turvallisuus perustuu elliptisten käyrien diskreetin logaritmi ongelman vaikeuteen. Elliptisiä käyriä käytetään erityisesti avaintenvaihdossa, asymmetrisessä salauksessa tai digitaalisten allekirjoitusten luomisessa.
@@ -597,9 +636,9 @@ $$
 
 ### secp256k1
 
-ECDSA:n tai Schnorrin käyttämiseksi on valittava elliptisen käyrän parametrit, eli arvot $a$ ja $b$ käyräyhtälössä. On olemassa erilaisia elliptisten käyrien standardeja, jotka ovat maineikkaita kryptografisesti turvallisina. Tunnetuin on *secp256r1*-käyrä, jonka on määritellyt ja suositellut NIST (*National Institute of Standards and Technology*).
+ECDSA:n tai Schnorrin käyttämiseksi on valittava elliptisen käyrän parametrit, eli arvot $a$ ja $b$ käyräyhtälössä. On olemassa erilaisia elliptisten käyrien standardeja, jotka ovat maineikkaita kryptografisesti turvallisina. Tunnetuin on _secp256r1_-käyrä, jonka on määritellyt ja suositellut NIST (_National Institute of Standards and Technology_).
 
-Huolimatta tästä, Bitcoinin keksijä Satoshi Nakamoto päätti olla käyttämättä tätä käyrää. Tämän valinnan syy on tuntematon, mutta jotkut uskovat hänen halunneen löytää vaihtoehdon, koska tämän käyrän parametrit saattaisivat sisältää takaportin. Sen sijaan Bitcoin-protokolla käyttää standardia ***secp256k1***-käyrää. Tämä käyrä on määritelty parametreilla $a = 0$ ja $b = 7$. Sen yhtälö on siis:
+Huolimatta tästä, Bitcoinin keksijä Satoshi Nakamoto päätti olla käyttämättä tätä käyrää. Tämän valinnan syy on tuntematon, mutta jotkut uskovat hänen halunneen löytää vaihtoehdon, koska tämän käyrän parametrit saattaisivat sisältää takaportin. Sen sijaan Bitcoin-protokolla käyttää standardia **_secp256k1_**-käyrää. Tämä käyrä on määritelty parametreilla $a = 0$ ja $b = 7$. Sen yhtälö on siis:
 
 $$
 y^2 = x^3 + 7
@@ -613,7 +652,7 @@ Bitcoinissa käytetty alkuluku $p$ määrittelemään äärellinen kenttä on er
 
 Käytetty alkuluku $p$ on:
 
-```txt
+```text
 p = 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEFFFFFC2F
 ```
 
@@ -644,6 +683,7 @@ Jos haluat oppia lisää modernin kryptografian matemaattisista perusteista, suo
 https://planb.network/courses/cyp302
 
 ## Julkisen avaimen laskeminen yksityisavaimesta
+
 <chapterId>fcb2bd58-5dda-5ecf-bb8f-ad1a0561ab4a</chapterId>
 Kuten aiemmin nähtiin, Bitcoinin digitaalisen allekirjoituksen algoritmit perustuvat matemaattisesti yhteydessä olevaan yksityisen ja julkisen avaimen pariin. Tutkitaan yhdessä, mikä tämä matemaattinen yhteys on ja miten ne luodaan.
 
@@ -660,6 +700,7 @@ Kuten tulevissa luvuissa näemme, nykyään suurin osa Bitcoinissa käytetyistä
 Jatkossa yksityisavain merkitään pienellä kirjaimella $k$.
 
 ### Julkinen avain
+
 Julkinen avain on piste elliptisellä käyrällä, joka on merkitty isolla kirjaimella $K$, ja se lasketaan yksityisavaimesta $k$. Tämä piste $K$ esitetään koordinaattiparina $(x, y)$ elliptisellä käyrällä, kumpikin koordinaatti on kokonaisluku modulo $p$, alkuluku, joka määrittelee äärellisen kentän $\mathbb{F}_p$.
 Käytännössä pakkaamaton julkinen avain esitetään 512 bitillä (tai 64 tavulla), mikä vastaa kahta 256-bittistä lukua ($x$ ja $y$) peräkkäin. Nämä luvut ovat pisteen $K$ koordinaatit secp256k1-käyrällä. Lisäämällä etuliite, julkisen avaimen kokonaispituus on 520 bittiä.
 
@@ -672,6 +713,7 @@ K = k \cdot G
 $$
 
 missä:
+
 - $k$ on yksityisavain (satunnainen kokonaisluku välillä $1$ ja $n-1$);
 - $G$ on elliptisen käyrän generaattoripiste, jota kaikki Bitcoin-verkon osallistujat käyttävät; - $\cdot$ edustaa skalaarikertolaskua elliptisellä käyrällä, mikä vastaa pisteen $G$ lisäämistä itseensä $k$ kertaa.
 
@@ -680,6 +722,7 @@ Se, että tämä piste $G$ on yhteinen kaikille Bitcoinin julkisille avaimille, 
 ![CYP201](assets/fr/017.webp)
 
 Tämän toiminnon pääominaisuus on, että se on yksisuuntainen funktio. Julkisen avaimen $K$ laskeminen on helppoa tietäen yksityisen avaimen $k$ ja generaattoripisteen $G$, mutta yksityisen avaimen $k$ laskeminen tietäen vain julkisen avaimen $K$ ja generaattoripisteen $G$ on käytännössä mahdotonta. $k$:n löytäminen $K$:sta ja $G$:stä tarkoittaa elliptisten käyrien diskreetin logaritmin ongelman ratkaisemista, matemaattisesti vaikeaa ongelmaa, jolle ei tunneta tehokasta algoritmia. Edes tehokkaimmat nykyiset laskimet eivät pysty ratkaisemaan tätä ongelmaa kohtuullisessa ajassa.
+
 ### Pisteiden yhteenlasku ja kaksinkertaistaminen elliptisillä käyrillä
 
 Elliptisten käyrien yhteenlaskun käsite määritellään geometrisesti. Jos meillä on kaksi pistettä $P$ ja $Q$ käyrällä, operaatio $P + Q$ lasketaan piirtämällä viiva, joka kulkee $P$:n ja $Q$:n kautta. Tämä viiva leikkaa käyrän kolmannessa pisteessä $R'$. Otamme sitten tämän pisteen peilikuvan x-akselin suhteen saadaksemme pisteen $R$, joka on yhteenlaskun tulos:
@@ -711,6 +754,7 @@ K = k \cdot G = 4G
 $$
 
 Graafisesti tämä vastaa sarjan yhteenlaskuja ja kaksinkertaistamisia suorittamista:
+
 - Laske $2G$ kaksinkertaistamalla $G$.
 - Laske $4G$ kaksinkertaistamalla $2G$.
 
@@ -730,6 +774,7 @@ $$
 
 Graafisesti tämä esitettäisiin seuraavasti:
 ![CYP201](assets/fr/022.webp)
+
 ### Yksisuuntainen Funktio
 
 Näiden toimintojen ansiosta voimme ymmärtää, miksi julkisen avaimen johtaminen yksityisestä avaimesta on helppoa, mutta päinvastainen on käytännössä mahdotonta.
@@ -744,9 +789,10 @@ Nyt, jos joku tietää vain julkisen avaimen $K$, hän kohtaa diskreetin logarit
 Tietenkin tässä yksinkertaistetussa esimerkissä, jossa $k = 4$, olisi mahdollista löytää $k$ kokeilemalla, koska mahdollisuuksien määrä on pieni. Käytännössä Bitcoinissa $k$ on kuitenkin 256-bittinen kokonaisluku, mikä tekee mahdollisuuksien määrästä astronomisen suuren (noin $1.158 \times 10^{77}$). Siksi $k$:n löytäminen brute force -menetelmällä on käytännössä mahdotonta.
 
 ## Allekirjoittaminen yksityisellä avaimella
+
 <chapterId>bb07826f-826e-5905-b307-3d82001fb778</chapterId>
 
-Nyt kun tiedät, miten johdetaan julkinen avain yksityisestä avaimesta, voit jo vastaanottaa bitcoineja käyttämällä tätä avainparia kulutusehtona. Mutta miten ne kulutetaan? Bitcoinien kuluttamiseksi sinun on avattava *scriptPubKey*, joka on liitetty UTXO:hosi todistaaksesi, että olet sen laillinen omistaja. Tämän tekemiseksi sinun on tuotettava allekirjoitus $s$, joka vastaa *scriptPubKey*:ssä olevaa julkista avainta $K$ käyttäen yksityistä avainta $k$, jota alun perin käytettiin $K$:n laskemiseen. Digitaalinen allekirjoitus on näin ollen kiistaton todiste siitä, että hallussasi on yksityinen avain, joka liittyy väittämääsi julkiseen avimeen.
+Nyt kun tiedät, miten johdetaan julkinen avain yksityisestä avaimesta, voit jo vastaanottaa bitcoineja käyttämällä tätä avainparia kulutusehtona. Mutta miten ne kulutetaan? Bitcoinien kuluttamiseksi sinun on avattava _scriptPubKey_, joka on liitetty UTXO:hosi todistaaksesi, että olet sen laillinen omistaja. Tämän tekemiseksi sinun on tuotettava allekirjoitus $s$, joka vastaa _scriptPubKey_:ssä olevaa julkista avainta $K$ käyttäen yksityistä avainta $k$, jota alun perin käytettiin $K$:n laskemiseen. Digitaalinen allekirjoitus on näin ollen kiistaton todiste siitä, että hallussasi on yksityinen avain, joka liittyy väittämääsi julkiseen avimeen.
 
 ### Elliptisen Käyrän Parametrit
 
@@ -758,7 +804,7 @@ $$
 p = 2^{256} - 2^{32} - 977
 $$
 
-```txt
+```text
 p = 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEFFFFFC2F
 ```
 
@@ -772,13 +818,17 @@ $$
 
 Generaattoripiste tai alkuperäispiste $G$:
 
-```txt
+```text
 G = 0x0279BE667EF9DCBBAC55A06295CE870B07029BFCDB2DCE28D959F2815B16F81798
 ```
+
 Tämä numero on tiivistetty muoto, joka antaa vain pisteen $G$ abskissan. Alkupääte `02` alussa määrittää, kumpaa kahdesta arvosta, joilla on tämä abskissa $x$, käytetään generaattoripisteenä.
 $G$:n järjestys $n$ (olemassa olevien pisteiden määrä) ja kofaktori $h$:
 
-```txt
+```text
+n = 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEBAAEDCE6AF48A03BBFD25E8CD0364141
+```
+
 $n$ on erittäin suuri luku, joka on hieman pienempi kuin $p$.
 
 $$
@@ -791,7 +841,7 @@ Kaikki tämä tieto on julkista ja kaikkien osallistujien tiedossa. Kiitos heid�
 
 ### Allekirjoitus ECDSA:n avulla
 
-ECDSA-algoritmi mahdollistaa käyttäjän viestin allekirjoittamisen heidän yksityisellä avaimellaan siten, että kuka tahansa, joka tietää vastaavan julkisen avaimen, voi varmistaa allekirjoituksen pätevyyden ilman, että yksityinen avain paljastuu. Bitcoinin kontekstissa allekirjoitettava viesti riippuu käyttäjän valitsemasta *sighashista*. Juuri tämä *sighash* määrittää, mitkä transaktion osat kattaa allekirjoitus. Käsittelen tätä tarkemmin seuraavassa luvussa.
+ECDSA-algoritmi mahdollistaa käyttäjän viestin allekirjoittamisen heidän yksityisellä avaimellaan siten, että kuka tahansa, joka tietää vastaavan julkisen avaimen, voi varmistaa allekirjoituksen pätevyyden ilman, että yksityinen avain paljastuu. Bitcoinin kontekstissa allekirjoitettava viesti riippuu käyttäjän valitsemasta _sighashista_. Juuri tämä _sighash_ määrittää, mitkä transaktion osat kattaa allekirjoitus. Käsittelen tätä tarkemmin seuraavassa luvussa.
 
 Tässä ovat askeleet ECDSA-allekirjoituksen luomiseen:
 
@@ -816,6 +866,7 @@ s = r^{-1} \left( e + k \cdot x_R \right) \mod n
 $$
 
 missä:
+
 - $r^{-1}$ on $r$:n modulaarinen käänteisluku modulo $n$, eli kokonaisluku siten, että $r \cdot r^{-1} \equiv 1 \mod n$;
 - $k$ on käyttäjän yksityinen avain;
 - $e$ on viestin hash;
@@ -879,7 +930,8 @@ Viestin lisäksi hajautusfunktioon syötetään myös julkisen avaimen $K_x$ $x$
 Tämän hajautuksen tulos, jota kutsutaan "haasteeksi":
 
 $$
-e = \text{HASH}(\text{``BIP0340/haaste''}, R_x \Vert K_x \Vert m) \mod n$$
+e = \text{HASH}(\text{``BIP0340/haaste''}, R_x \Vert K_x \Vert m) \mod n
+$$
 
 Tässä $\text{HASH}$ on SHA256-tiivistefunktio, ja $\text{``BIP0340/haaste''}$ on tiivistämisen erityinen tagi.
 
@@ -953,11 +1005,13 @@ Kuten olemme nähneet, Satoshi alun perin valitsi ECDSA:n digitaalisten allekirj
 No, emme todella tiedä, miksi Satoshi ei valinnut sitä, mutta todennäköinen hypoteesi on, että tämä protokolla oli patentin alainen vuoteen 2008 asti. Vaikka Bitcoin luotiin vuotta myöhemmin, tammikuussa 2009, Schnorrin allekirjoituksille ei ollut tuolloin saatavilla avoimen lähdekoodin standardointia. Ehkä Satoshi piti turvallisempana käyttää ECDSA:ta, joka oli jo laajalti käytössä ja testattu avoimen lähdekoodin ohjelmistossa ja sillä oli useita tunnustettuja toteutuksia (erityisesti OpenSSL-kirjasto, jota käytettiin Bitcoin Core:ssa vuoteen 2015 asti, jonka jälkeen se korvattiin libsecp256k1:llä version 0.10.0:ssa). Tai ehkä hän ei yksinkertaisesti ollut tietoinen siitä, että tämä patentti oli vanhenemassa vuonna 2008. Joka tapauksessa todennäköisin hypoteesi vaikuttaa liittyvän tähän patenttiin ja siihen tosiasiaan, että ECDSA:lla oli todistettu historia ja se oli helpompi toteuttaa.
 
 ## Sighash-liput
+
 <chapterId>231c41a2-aff2-4655-9048-47b6d2d83d64</chapterId>
 
 Kuten aiemmissa luvuissa olemme nähneet, digitaalisia allekirjoituksia käytetään usein syötteen skriptin avaamiseen. Allekirjoitusprosessissa on tarpeen sisällyttää allekirjoitettu data laskentaan, joka esimerkeissämme on merkitty viestillä $m$. Tämä data, kerran allekirjoitettuna, ei voida muuttaa tekemättä allekirjoituksesta kelvotonta. Todellakin, olipa kyseessä ECDSA tai Schnorr, allekirjoituksen varmentajan on sisällytettävä laskentaansa sama viesti $m$. Jos se eroaa alun perin allekirjoittajan käyttämästä viestistä $m$, tulos on virheellinen ja allekirjoitus katsotaan kelvottomaksi. Sanotaan, että allekirjoitus kattaa tiettyjä tietoja ja suojaa sitä tavallaan luvattomilta muutoksilta.
 
 ### Mikä on sighash-lippu?
+
 Bitcoinin tapauksessa olemme nähneet, että viesti $m$ vastaa transaktiota. Todellisuudessa se on kuitenkin hieman monimutkaisempaa. Todellakin, sighash-lippujen ansiosta on mahdollista valita tiettyjä tietoja transaktiossa, jotka kattaa tai ei kata allekirjoitus.
 "Sighash-lippu" on siis parametri, joka lisätään jokaiseen syötteeseen, mahdollistaen transaktion komponenttien määrittämisen, jotka ovat yhdistettyjen allekirjoitusten kattamia. Nämä komponentit ovat syötteet ja tulosteet. Sighash-lipun valinta määrittää siis, mitkä transaktion syötteet ja tulosteet ovat allekirjoituksen vahvistamia ja mitkä voidaan vielä muuttaa tekemättä siitä kelvotonta. Tämä mekanismi mahdollistaa allekirjoitusten sitoutumisen transaktiodataan allekirjoittajan aikeiden mukaisesti.
 Ilmeisesti, kun transaktio on vahvistettu lohkoketjussa, se muuttuu muuttumattomaksi, riippumatta käytetyistä sighash-lipuista. Mahdollisuus muokata transaktiota sighash-lippujen avulla rajoittuu allekirjoituksen ja vahvistuksen väliseen aikaan.
@@ -976,8 +1030,9 @@ Kaikissa tämän luvun kaavioissa oranssi väri edustaa allekirjoituksen peittä
 - `SIGHASH_NONE` (`0x02`): Allekirjoitus kattaa kaikki syötteet, mutta ei yhtään lähtöä, mahdollistaen lähtöjen muokkauksen allekirjoituksen jälkeen. Käytännössä tämä on kuin tyhjä shekki. Allekirjoittaja avaa UTXO:t syötteissä, mutta jättää lähtökentän täysin muokattavaksi. Kuka tahansa, joka tietää tästä transaktiosta, voi siis lisätä haluamansa lähdön, esimerkiksi määrittelemällä vastaanotto-osoitteen kerätäkseen syötteiden kuluttamat varat, ja sitten lähettää transaktion palauttaakseen bitcoinit. Syötteiden omistajan allekirjoitus ei tule mitätöidyksi, koska se kattaa vain syötteet.
 
 ![CYP201](assets/fr/027.webp)
-- `SIGHASH_SINGLE` (`0x03`): Allekirjoitus kattaa kaikki syötteet sekä yhden lähdön, joka vastaa allekirjoitetun syötteen indeksiä. Esimerkiksi, jos allekirjoitus avaa *scriptPubKeyn* syötteessä #0, se kattaa myös lähdön #0. Allekirjoitus suojaa myös kaikki muut syötteet, joita ei voi enää muokata. Kuitenkin kuka tahansa voi lisätä ylimääräisen lähdön allekirjoitusta mitätöimättä, edellyttäen, että lähtö #0, joka on ainoa sen peittämä, ei muutu.
-![CYP201](assets/fr/028.webp)
+
+- `SIGHASH_SINGLE` (`0x03`): Allekirjoitus kattaa kaikki syötteet sekä yhden lähdön, joka vastaa allekirjoitetun syötteen indeksiä. Esimerkiksi, jos allekirjoitus avaa _scriptPubKeyn_ syötteessä #0, se kattaa myös lähdön #0. Allekirjoitus suojaa myös kaikki muut syötteet, joita ei voi enää muokata. Kuitenkin kuka tahansa voi lisätä ylimääräisen lähdön allekirjoitusta mitätöimättä, edellyttäen, että lähtö #0, joka on ainoa sen peittämä, ei muutu.
+  ![CYP201](assets/fr/028.webp)
 
 Näiden kolmen sighash-lipun lisäksi on myös muokkaaja `SIGHASH_ANYONECANPAY` (`0x80`). Tätä muokkaajaa voidaan yhdistää perus sighash-lippuun luomaan kolme uutta sighash-lippua:
 
@@ -988,12 +1043,13 @@ Näiden kolmen sighash-lipun lisäksi on myös muokkaaja `SIGHASH_ANYONECANPAY` 
 - `SIGHASH_NONE | SIGHASH_ANYONECANPAY` (`0x82`): Allekirjoitus kattaa yhden syötteen, sitoutumatta mihinkään lähtöön;
 
 ![CYP201](assets/fr/030.webp)
+
 - `SIGHASH_SINGLE | SIGHASH_ANYONECANPAY` (`0x83`): Allekirjoitus kattaa yksittäisen syötteen sekä saman indeksin omaavan tulosteen. Esimerkiksi, jos allekirjoitus avaa syötteen #3 *scriptPubKey*n, se kattaa myös tulosteen #3. Loput transaktiosta pysyvät muokattavissa, sekä muiden syötteiden että muiden tulosteiden osalta.
-![CYP201](assets/fr/031.webp)
+  ![CYP201](assets/fr/031.webp)
 
 ### Projektit uusien Sighash-lippujen lisäämiseksi
 
-Tällä hetkellä (2024), Bitcoinissa käytettävissä ovat vain edellisessä osiossa esitellyt sighash-liput. Kuitenkin jotkin projektit harkitsevat uusien sighash-lippujen lisäämistä. Esimerkiksi BIP118, jonka esittivät Christian Decker ja Anthony Towns, tuo esille kaksi uutta sighash-lippua: `SIGHASH_ANYPREVOUT` ja `SIGHASH_ANYPREVOUTANYSCRIPT` (*AnyPrevOut = "Mikä tahansa edellinen tuloste"*).
+Tällä hetkellä (2024), Bitcoinissa käytettävissä ovat vain edellisessä osiossa esitellyt sighash-liput. Kuitenkin jotkin projektit harkitsevat uusien sighash-lippujen lisäämistä. Esimerkiksi BIP118, jonka esittivät Christian Decker ja Anthony Towns, tuo esille kaksi uutta sighash-lippua: `SIGHASH_ANYPREVOUT` ja `SIGHASH_ANYPREVOUTANYSCRIPT` (_AnyPrevOut = "Mikä tahansa edellinen tuloste"_).
 
 Nämä kaksi sighash-lippua tarjoaisivat lisämahdollisuuden Bitcoinissa: luoda allekirjoituksia, jotka eivät kata mitään tiettyä transaktion syötettä.
 
@@ -1009,9 +1065,11 @@ https://planb.network/courses/lnp201
 Seuraavassa osassa ehdotan, että tutustumme siihen, miten Bitcoin-lompakkosi perustana oleva mnemonic-lause toimii.
 
 # Mnemonic-lause
+
 <partId>4070af16-c8a2-58b5-9871-a22c86c07458</partId>
 
 ## Bitcoin-lompakoiden kehitys
+
 <chapterId>9d9acd5d-a0e5-5dfd-b544-f043fae8840f</chapterId>
 
 Nyt kun olemme tutkineet hajautusfunktioiden ja digitaalisten allekirjoitusten toimintaa, voimme tutkia, miten Bitcoin-lompakot toimivat. Tavoitteena on kuvitella, miten Bitcoin-lompakko rakennetaan, miten se puretaan, ja mitä eri tietoja, jotka muodostavat sen, käytetään. Tämän ymmärryksen lompakkomekanismeista avulla voit parantaa Bitcoinin käyttöäsi turvallisuuden ja yksityisyyden näkökulmasta.
@@ -1020,12 +1078,12 @@ Ennen teknisiin yksityiskohtiin syventymistä on olennaista selventää, mitä "
 
 ### Mikä on Bitcoin-lompakko?
 
-Toisin kuin perinteiset lompakot, jotka mahdollistavat fyysisten seteleiden ja kolikoiden säilyttämisen, Bitcoin-lompakko ei "sisällä" bitcoineja sinänsä. Itse asiassa bitcoinit eivät ole olemassa fyysisessä tai digitaalisessa muodossa, jota voitaisiin säilyttää, vaan ne edustetaan tilikirjassa **UTXO**ina (*Käyttämätön Transaktiotuloste*).
-UTXO:t edustavat siis bitcoinien palasia, vaihtelevan kokoisia, joita voidaan käyttää, kunhan niiden *scriptPubKey* täyttyy. Bitcoinien käyttämiseksi käyttäjän on annettava *scriptSig*, joka avaa hänen UTXO:onsa liittyvän *scriptPubKey*. Tämä todiste tehdään yleensä digitaalisen allekirjoituksen kautta, joka on luotu yksityisavaimella, joka vastaa *scriptPubKey*ssa olevaa julkista avainta. Näin ollen ratkaiseva elementti, jonka käyttäjän on turvattava, on yksityisavain. Bitcoin-lompakon rooli on juuri näiden yksityisavainten turvallinen hallinta. Todellisuudessa sen rooli on enemmän avainnipun kuin perinteisessä mielessä olevan lompakon kaltainen.
+Toisin kuin perinteiset lompakot, jotka mahdollistavat fyysisten seteleiden ja kolikoiden säilyttämisen, Bitcoin-lompakko ei "sisällä" bitcoineja sinänsä. Itse asiassa bitcoinit eivät ole olemassa fyysisessä tai digitaalisessa muodossa, jota voitaisiin säilyttää, vaan ne edustetaan tilikirjassa **UTXO**ina (_Käyttämätön Transaktiotuloste_).
+UTXO:t edustavat siis bitcoinien palasia, vaihtelevan kokoisia, joita voidaan käyttää, kunhan niiden _scriptPubKey_ täyttyy. Bitcoinien käyttämiseksi käyttäjän on annettava _scriptSig_, joka avaa hänen UTXO:onsa liittyvän _scriptPubKey_. Tämä todiste tehdään yleensä digitaalisen allekirjoituksen kautta, joka on luotu yksityisavaimella, joka vastaa *scriptPubKey*ssa olevaa julkista avainta. Näin ollen ratkaiseva elementti, jonka käyttäjän on turvattava, on yksityisavain. Bitcoin-lompakon rooli on juuri näiden yksityisavainten turvallinen hallinta. Todellisuudessa sen rooli on enemmän avainnipun kuin perinteisessä mielessä olevan lompakon kaltainen.
 
-### JBOK Lompakot (*Just a Bunch Of Keys*)
+### JBOK Lompakot (_Just a Bunch Of Keys_)
 
-Bitcoinin ensimmäiset käytössä olleet lompakot olivat JBOK (*Just a Bunch Of Keys*) lompakoita, jotka ryhmittivät yksityisesti luodut avaimet itsenäisesti ja ilman niiden välisiä linkkejä. Nämä lompakot toimivat yksinkertaisella mallilla, jossa jokainen yksityisavain saattoi avata ainutlaatuisen Bitcoinin vastaanotto-osoitteen.
+Bitcoinin ensimmäiset käytössä olleet lompakot olivat JBOK (_Just a Bunch Of Keys_) lompakoita, jotka ryhmittivät yksityisesti luodut avaimet itsenäisesti ja ilman niiden välisiä linkkejä. Nämä lompakot toimivat yksinkertaisella mallilla, jossa jokainen yksityisavain saattoi avata ainutlaatuisen Bitcoinin vastaanotto-osoitteen.
 
 ![CYP201](assets/fr/033.webp)
 
@@ -1037,13 +1095,15 @@ Lisätietoja Bitcoinin yksityisyysmallista ja menetelmistä yksityisyytesi suoja
 
 https://planb.network/courses/btc204
 
-### HD Lompakot (*Hierarchical Deterministic*)
+### HD Lompakot (_Hierarchical Deterministic_)
+
 JBOK-lompakoiden rajoituksen ratkaisemiseksi myöhemmin otettiin käyttöön uusi lompakon rakenne. Vuonna 2012 Pieter Wuille esitteli parannuksen BIP32:n kanssa, joka tuo käyttöön hierarkkiset deterministiset lompakot. HD-lompakon periaate on johtaa kaikki yksityisavaimet yhdestä tietolähteestä, siemenestä, deterministisellä ja hierarkkisella tavalla. Tämä siemen luodaan satunnaisesti, kun lompakko luodaan, ja muodostaa ainutlaatuisen varmuuskopion, joka mahdollistaa kaikkien lompakon yksityisavainten uudelleenluomisen. Näin käyttäjä voi luoda hyvin suuren määrän yksityisavaimia välttääkseen osoitteen uudelleenkäytön ja säilyttääkseen yksityisyytensä, tarviten vain yhden varmuuskopion lompakostaan siemenen kautta.
 ![CYP201](assets/fr/034.webp)
 
 HD-lompakoissa avainten johtaminen suoritetaan hierarkkisen rakenteen mukaisesti, joka mahdollistaa avainten järjestämisen johtamisalasubavaruuteen, jokaista subspacea voidaan edelleen jakaa, helpottamaan varojen hallintaa ja yhteentoimivuutta eri lompakko-ohjelmistojen välillä. Nykyään tämä standardi on hyväksytty valtaosan Bitcoin-käyttäjien toimesta. Tästä syystä tarkastelemme sitä yksityiskohtaisesti seuraavissa luvuissa.
 
 ### BIP39-standardi: Mnemoninen lause
+
 Lisäksi BIP32:n ohella BIP39 standardoi siemenmuodon muistisanoiksi, jotta varmuuskopiointi ja käyttäjien luettavuus helpottuisivat. Muistisanat, joita kutsutaan myös palautuslausekkeeksi tai 24 sanan lauseeksi, on sanojen jono, joka on poimittu ennalta määritellystä listasta ja joka turvallisesti koodaa lompakon siemenen.
 
 Muistisanat huomattavasti yksinkertaistavat käyttäjän varmuuskopiointia. Laitteen katoamisen, vahingoittumisen tai varkauden sattuessa, jossa lompakko sijaitsee, pelkästään tämän muistisanan tietäminen mahdollistaa lompakon uudelleenluomisen ja pääsyn kaikkiin sen turvaamiin varoihin palauttamisen.
@@ -1051,8 +1111,10 @@ Muistisanat huomattavasti yksinkertaistavat käyttäjän varmuuskopiointia. Lait
 Tulevissa luvuissa tutkimme HD-lompakoiden sisäistä toimintaa, mukaan lukien avainjohdannan mekanismit ja erilaiset mahdolliset hierarkkiset rakenteet. Tämä antaa sinulle paremman ymmärryksen kryptografisista perusteista, joihin Bitcoinin varojen turvallisuus perustuu. Ja aloittaaksemme, seuraavassa luvussa ehdotan, että tutustumme entropian rooliin lompakkosi perustana.
 
 ## Entropia ja Satunnaisluku
+
 <chapterId>b43c715d-affb-56d8-a697-ad5bc2fffd63</chapterId>
 Nykyajan HD-lompakot (deterministiset ja hierarkkiset) perustuvat yhteen alkuinformaation palaseen, jota kutsutaan "entropiaksi", jotta ne voivat deterministisesti generoida koko avainjoukon. Tämä entropia on pseudo-satunnaisluku, jonka kaaoksen taso osittain määrittää lompakon turvallisuuden.
+
 ### Entropian määritelmä
 
 Entropia, kryptografian ja informaation kontekstissa, on kvantitatiivinen mittaus epävarmuudelle tai arvaamattomuudelle, joka liittyy datalähteeseen tai satunnaisprosessiin. Se on tärkeässä roolissa kryptografisten järjestelmien turvallisuudessa, erityisesti avainten ja satunnaislukujen generoinnissa. Korkea entropia varmistaa, että generoidut avaimet ovat riittävän arvaamattomia ja vastustuskykyisiä brute force -hyökkäyksille, joissa hyökkääjä kokeilee kaikkia mahdollisia yhdistelmiä avaimen arvaamiseksi.
@@ -1062,10 +1124,11 @@ Bitcoinin kontekstissa entropiaa käytetään siemenen generoimiseen. Determinis
 ### Entropian generoinnin menetelmät
 
 HD-lompakon alkuperäiseen entropiaan käytetään yleensä 128 bittiä tai 256 bittiä, missä:
+
 - **128 bittiä entropiaa** vastaa **12 sanan** muistilauseetta;
 - **256 bittiä entropiaa** vastaa **24 sanan** muistilauseetta.
 
-Useimmissa tapauksissa tämä satunnaisluku generoidaan automaattisesti lompakko-ohjelmiston toimesta käyttäen PRNG:tä (*Pseudo-Random Number Generator*). PRNG:t ovat algoritmien kategoria, jota käytetään numerosekvenssien generoimiseen alkutilasta, jolla on ominaisuuksia, jotka lähestyvät satunnaisluvun ominaisuuksia, olematta kuitenkaan sellainen. Hyvällä PRNG:llä on oltava ominaisuuksia kuten tuloksen yhtenäisyys, arvaamattomuus ja vastustuskyky ennustettavuushyökkäyksille. Toisin kuin todelliset satunnaislukugeneraattorit (TRNG), PRNG:t ovat deterministisiä ja toistettavissa.
+Useimmissa tapauksissa tämä satunnaisluku generoidaan automaattisesti lompakko-ohjelmiston toimesta käyttäen PRNG:tä (_Pseudo-Random Number Generator_). PRNG:t ovat algoritmien kategoria, jota käytetään numerosekvenssien generoimiseen alkutilasta, jolla on ominaisuuksia, jotka lähestyvät satunnaisluvun ominaisuuksia, olematta kuitenkaan sellainen. Hyvällä PRNG:llä on oltava ominaisuuksia kuten tuloksen yhtenäisyys, arvaamattomuus ja vastustuskyky ennustettavuushyökkäyksille. Toisin kuin todelliset satunnaislukugeneraattorit (TRNG), PRNG:t ovat deterministisiä ja toistettavissa.
 
 ![CYP201](assets/fr/035.webp)
 
@@ -1074,6 +1137,7 @@ Vaihtoehtona on manuaalisesti generoida entropia, mikä tarjoaa paremman kontrol
 Seuraavassa luvussa näemme, miten siirrymme satunnaisluvusta 12 tai 24 sanan muistilauseeseen.
 
 ## Muistilause
+
 <chapterId>8f9340c1-e6dc-5557-a2f2-26c9669987d5</chapterId>
 Mnemoninen lause, jota kutsutaan myös "siemenlauseeksi", "palautuslauseeksi", "salaisuuslauseeksi" tai "24 sanan lauseeksi", on yleensä 12 tai 24 sanasta koostuva jono, joka on generoitu entropiasta. Sitä käytetään deterministisesti johdettamaan kaikki HD-lompakon avaimet. Tämä tarkoittaa, että tästä lauseesta on mahdollista deterministisesti generoida ja uudelleen luoda kaikki Bitcoin-lompakon yksityiset ja julkiset avaimet, ja siten päästä käsiksi sen suojaamiin varoihin. Mnemonisen lauseen tarkoitus on tarjota sekä turvallinen että helppokäyttöinen varmuuskopioinnin ja palautuksen keino bitcoineille. Se otettiin standardeihin käyttöön vuonna 2013 BIP39:n myötä.
 Tutkitaan yhdessä, miten entropiasta päästään mnemoniseen lauseeseen.
@@ -1103,6 +1167,7 @@ Kun tarkistussumma on laskettu, se yhdistetään entropian kanssa saadakseen laa
 ### Vastaavuus Entropian ja Mnemonisen Lauseen Välillä
 
 Mnemonisen lauseen sanojen määrä riippuu alkuperäisen entropian koosta, kuten seuraavassa taulukossa on esitetty:
+
 - $\text{ENT}$: entropian koko biteissä;
 - $\text{CS}$: tarkistussumman koko biteissä;
 - $w$: lopullisen mnemonisen lauseen sanojen määrä.
@@ -1141,8 +1206,11 @@ Tämä ero lauseen turvallisuustasossa ei kuitenkaan paranna Bitcoin-lompakon ko
 
 256-bittisille avaimille, kuten niille, joita käytetään Bitcoinissa, Pollardin rho-algoritmi vähentää siis monimutkaisuuden $2^{128}$ operaatioon:
 
+
 $$
+
 O(\sqrt{2^{256}}) = O(2^{128})
+
 $$
 
 Näin ollen katsotaan, että Bitcoinissa käytetty yksityinen avain tarjoaa 128 bitin turvallisuuden.
@@ -1168,13 +1236,13 @@ Salasana toimii yhdessä mnemonisen lauseen kanssa, muuttaen siemenen, josta ava
 
 ![CYP201](assets/fr/041.webp)
 
-## Miksi sinun tulisi käyttää salasanaa?
+### Miksi sinun tulisi käyttää salasanaa?
 
 Salasana on mielivaltainen ja voi olla käyttäjän valitsema mikä tahansa merkkien yhdistelmä. Salasanan käyttö tarjoaa siis useita etuja. Ensinnäkin, se vähentää kaikki riskit, jotka liittyvät mnemonisen lauseen kompromettoitumiseen vaatimalla toisen tekijän varojen käyttöön pääsemiseksi (murtovarkaus, pääsy kotiisi jne.).
 
 Seuraavaksi, sitä voidaan käyttää strategisesti luomaan harhautuslompakko, jotta voidaan kohdata fyysisiä rajoitteita varojen varastamiseksi, kuten kuuluisa "_5 dollarin jakoavainhyökkäys_". Tässä skenaariossa idea on olla lompakko ilman salasanaa, joka sisältää vain pienen määrän bitcoineja, tarpeeksi tyydyttämään mahdollisen hyökkääjän, samalla kun on olemassa piilotettu lompakko. Tämä jälkimmäinen käyttää samaa mnemonista lausetta, mutta on suojattu lisäsalasanalla.
 Lopuksi, salasanan käyttö on mielenkiintoista, kun halutaan hallita HD-lompakon siemenen generoinnin satunnaisuutta.
-## Miten valita hyvä salasana?
+### Miten valita hyvä salasana?
 
 Jotta salasana olisi tehokas, sen on oltava riittävän pitkä ja satunnainen. Kuten vahvan salasanan kohdalla, suosittelen valitsemaan mahdollisimman pitkän ja satunnaisen salasanan, jossa on kirjainten, numeroiden ja symbolien monimuotoisuutta, jotta mikä tahansa brute force -hyökkäys olisi mahdoton.
 On myös tärkeää tallentaa tämä salalause oikein, samalla tavalla kuin muistisarja. **Sen menettäminen tarkoittaa pääsyn menettämistä bitcoineihisi**. Vahva suositus on, että et luota pelkästään muistiisi, sillä se lisää kohtuuttomasti menetyksen riskiä. Ihanteellista on kirjoittaa se fyysiselle välineelle (paperille tai metallille) erillään muistisarjasta. Tämä varmuuskopio on ilmeisesti säilytettävä eri paikassa kuin missä muistisarjasi on, jotta molempia ei vaaranneta samanaikaisesti.
@@ -1206,8 +1274,11 @@ Riippumatta valitusta muistisarjan pituudesta (132 bittiä tai 264 bittiä), PBK
 
 Seuraava yhtälö havainnollistaa siemenen johdattamista muistisarjasta ja salalauseesta:
 
+
 $$
-s = \text{PBKDF2}_{\text{HMAC-SHA512}}(m, p, 2048)
+
+s = \text{PBKDF2}\_{\text{HMAC-SHA512}}(m, p, 2048)
+
 $$
 
 ![CYP201](assets/fr/044.webp)
@@ -1225,8 +1296,11 @@ Mestari yksityisavaimen ja mestari ketjukoodin saamiseksi HMAC-SHA512 -funktiota
 - $s$: 512-bittinen lompakon siemen;
 - $\text{"Bitcoin Seed"}$: yhteinen johdannaisvakio kaikille Bitcoin-lompakoille.
 
+
 $$
+
 \text{output} = \text{HMAC-SHA512}(\text{"Bitcoin Seed"}, s)
+
 $$
 
 Tämän funktion tuloksena on siis 512 bittiä. Se jaetaan sitten kahteen osaan:
@@ -1234,11 +1308,16 @@ Tämän funktion tuloksena on siis 512 bittiä. Se jaetaan sitten kahteen osaan:
 - Oikeat 256 bittiä muodostavat **mestari ketjukoodin**.
 Matemaattisesti nämä kaksi arvoa voidaan merkitä seuraavasti, $k_M$ ollessa mestari yksityisavain ja $C_M$ mestari ketjukoodi:
 $$
-k_M = \text{HMAC-SHA512}(\text{"Bitcoin Seed"}, s)_{[:256]}
-$$
+
+k*M = \text{HMAC-SHA512}(\text{"Bitcoin Seed"}, s)*{[:256]}
 
 $$
-C_M = \text{HMAC-SHA512}(\text{"Bitcoin Seed"}, s)_{[256:]}
+
+
+$$
+
+C*M = \text{HMAC-SHA512}(\text{"Bitcoin Seed"}, s)*{[256:]}
+
 $$
 
 ![CYP201](assets/fr/045.webp)
@@ -1333,23 +1412,23 @@ Ymmärtääksemme paremmin laajennetun avaimen sisäistä rakennetta, otetaan es
 
 - **Base58-muodossa**:
 
-```txt
+```text
 xpub6CTNzMUkzpurBWaT4HQoYzLP4uBbGJuWY358Rj7rauiw4rMHCyq3Rfy9w4kyJXJzeFfyrKLUar2rUCukSiDQFa7roTwzjiAhyQAdPLEjqHT
 ```
 
 - **Heksadesimaalimuodossa**:
 
-```txt
+```text
 0488B21E036D5601AD80000000C605DF9FBD77FD6965BD02B77831EC5C78646AD3ACA14DC3984186F72633A89303772CCB99F4EF346078D167065404EED8A58787DED31BFA479244824DF50658051F067C3A
 ```
 
 Tämä laajennettu avain jakautuu useisiin erillisiin elementteihin:
 
-1. **Versio**: `0488B21E`  
+1. **Versio**: `0488B21E`
 
 Ensimmäiset 4 tavua ovat versio. Tässä se vastaa laajennettua julkista avainta Mainnet-verkossa, jolla on joko *Legacy* tai *SegWit v1* johdannaiskäyttötarkoitus.
 
-2. **Syvyys**: `03`  
+2. **Syvyys**: `03`
 
 Tämä kenttä ilmaisee avaimen hierarkisen tason HD-lompakossa. Tässä tapauksessa syvyyden ollessa `03` tarkoittaa, että tämä avain on kolme johdannaistasoa pääavaimen alapuolella.
 
@@ -1400,32 +1479,47 @@ Lapsen yksityisen avaimen $k_{\text{CHD}}$ johtamiseksi vanhemman yksityisestä 
 
 **Normaalille lapsiavaimelle** ($i < 2^{31}$) $\text{hash}$ lasketaan seuraavasti:
 
+
 $$
-\text{hash} = \text{HMAC-SHA512}(C_{\text{PAR}}, G \cdot k_{\text{PAR}} \Vert i)
+
+\text{hash} = \text{HMAC-SHA512}(C*{\text{PAR}}, G \cdot k*{\text{PAR}} \Vert i)
+
 $$
 Tässä laskennassa huomaamme, että HMAC-funktiomme ottaa kaksi syötettä: ensin vanhemman ketjukoodin, ja sitten indeksin yhdistämisen vanhemman yksityiseen avaimen liittyvän julkisen avaimen kanssa. Vanhempaa julkista avainta käytetään tässä, koska haluamme johtaa normaalin lapsiavaimen, ei kovennettua.
 Nyt meillä on 64-tavuinen $\text{hash}$, jonka jaamme kahteen 32 tavun osaan: $h_1$ ja $h_2$:
 
-$$
-\text{hash} = h_1 \Vert h_2
-$$
 
 $$
-h_1 = \text{hash}_{[:32]} \quad, \quad h_2 = \text{hash}_{[32:]}
+
+\text{hash} = h_1 \Vert h_2
+
+$$
+
+
+$$
+
+h*1 = \text{hash}*{[:32]} \quad, \quad h*2 = \text{hash}*{[32:]}
+
 $$
 
 Lapsen yksityinen avain $k_{\text{CHD}}^n$ lasketaan sitten seuraavasti:
 
+
 $$
-k_{\text{CHD}}^n = \text{parse256}(h_1) + k_{\text{PAR}} \mod n
+
+k*{\text{CHD}}^n = \text{parse256}(h_1) + k*{\text{PAR}} \mod n
+
 $$
 Tässä laskennassa toiminto $\text{parse256}(h_1)$ koostuu ensimmäisen 32 tavun tulkinnasta $\text{hash}$:sta 256-bittisenä kokonaislukuna. Tämä luku lisätään sitten vanhemman yksityisavaimen arvoon, kaikki otetaan modulo $n$ pysyäkseen elliptisen käyrän järjestyksessä, kuten näimme osiossa 3 digitaalisista allekirjoituksista. Näin ollen normaalin lapsen yksityisavaimen johdannaisessa, vaikka vanhemman julkista avainta käytetään laskennan perustana HMAC-SHA512 funktion syötteissä, on aina tarpeen olla vanhemman yksityisavain laskennan viimeistelyä varten.
 Tästä lapsen yksityisavaimesta on mahdollista johtaa vastaava julkinen avain soveltamalla ECDSA:ta tai Schnorr:ia. Tällä tavoin saamme täydellisen avainparin.
 
 Sitten $\text{hash}$:n toinen osa tulkitaan yksinkertaisesti lapsen avainparin ketjukoodiksi, jonka juuri johdimme:
 
+
 $$
-C_{\text{CHD}} = h_2
+
+C\_{\text{CHD}} = h_2
+
 $$
 
 Tässä on kaavamainen esitys koko johdannaisesta:
@@ -1434,30 +1528,44 @@ Tässä on kaavamainen esitys koko johdannaisesta:
 
 **Kovennetulle lapsen avaimelle** ($i \geq 2^{31}$), $\text{hash}$:n laskenta on seuraava:
 
+
 $$
-hash = \text{HMAC-SHA512}(C_{\text{PAR}}, 0x00 \Vert k_{\text{PAR}} \Vert i)
+
+hash = \text{HMAC-SHA512}(C*{\text{PAR}}, 0x00 \Vert k*{\text{PAR}} \Vert i)
+
 $$
 
 Tässä laskennassa huomaamme, että HMAC-funktiomme ottaa kaksi syötettä: ensin, vanhemman ketjukoodin, ja sitten indeksin yhdistämisen vanhemman yksityisavaimen kanssa. Vanhempaa yksityisavainta käytetään tässä, koska pyrimme johtamaan kovennetun lapsen avaimen. Lisäksi avaimen alkuun lisätään tavu, joka on yhtä suuri kuin `0x00`. Tämä toimenpide tasoittaa sen pituuden vastaamaan pakatun julkisen avaimen pituutta.
 Joten meillä on nyt 64-tavuinen $\text{hash}$, jonka jaamme kahteen 32 tavun osaan: $h_1$ ja $h_2$:
 $$
+
 \text{hash} = h_1 \Vert h_2
-$$
 
 $$
+
+
+$$
+
 h_1 = \text{hash}[:32] \quad, \quad h_2 = \text{hash}[32:]
+
 $$
 
 Lapsen yksityisavain $k_{\text{CHD}}^h$ lasketaan sitten seuraavasti:
 
+
 $$
-k_{\text{CHD}}^h = \text{parse256}(h_1) + k_{\text{PAR}} \mod n
+
+k*{\text{CHD}}^h = \text{parse256}(h_1) + k*{\text{PAR}} \mod n
+
 $$
 
 Seuraavaksi tulkitaan yksinkertaisesti $\text{hash}$:n toinen osa olevan juuri johdetun lapsen avainparin ketjukoodi:
 
+
 $$
-C_{\text{CHD}} = h_2
+
+C\_{\text{CHD}} = h_2
+
 $$
 
 Tässä on kaavamainen esitys koko johdannaisesta:
@@ -1470,34 +1578,49 @@ Voimme nähdä, että normaali johdannainen ja kovennettu johdannainen toimivat 
 Jos tiedämme vain vanhemman julkisen avaimen $K_{\text{PAR}}$ ja siihen liittyvän ketjukoodin $C_{\text{PAR}}$, eli laajennetun julkisen avaimen, on mahdollista johtaa lapsen julkisia avaimia $K_{\text{CHD}}^n$, mutta vain normaaleille (ei-kovennetuille) lapsiavaimille. Tämä periaate mahdollistaa erityisesti Bitcoin-lompakon tilin liikkeiden seuraamisen `xpub` (*vain seuranta*) avulla.
 Tämän laskennan suorittamiseksi laskemme $\text{hash}$ indeksillä $i < 2^{31}$ (normaali johdannainen):
 
+
 $$
-\text{hash} = \text{HMAC-SHA512}(C_{\text{PAR}}, K_{\text{PAR}} \Vert i)
+
+\text{hash} = \text{HMAC-SHA512}(C*{\text{PAR}}, K*{\text{PAR}} \Vert i)
+
 $$
 
 Tässä laskennassa huomaamme, että HMAC-funktiomme ottaa kaksi syötettä: ensin vanhemman ketjukoodin, sitten indeksin yhdistämisen vanhemman julkisen avaimen kanssa.
 
 Joten, meillä on nyt 64 tavun $hash$, jonka jaamme kahteen 32 tavun osaan: $h_1$ ja $h_2$:
 
-$$
-\text{hash} = h_1 \Vert h_2
-$$
 
 $$
+
+\text{hash} = h_1 \Vert h_2
+
+$$
+
+
+$$
+
 h_1 = \text{hash}[:32] \quad, \quad h_2 = \text{hash}[32:]
+
 $$
 
 Lapsen julkinen avain $K_{\text{CHD}}^n$ lasketaan sitten seuraavasti:
 
+
 $$
-K_{\text{CHD}}^n = G \cdot \text{parse256}(h_1) + K_{\text{PAR}}
+
+K*{\text{CHD}}^n = G \cdot \text{parse256}(h_1) + K*{\text{PAR}}
+
 $$
 Jos $\text{parse256}(h_1) \geq n$ (elliptisen käyrän järjestys) tai jos $K_{\text{CHD}}^n$ on äärettömyyden piste, johdannainen on virheellinen, ja toinen indeksi on valittava.
 Tässä laskennassa toiminto $\text{parse256}(h_1)$ sisältää ensimmäisen 32 tavun $\text{hash}$ tulkinnan 256-bittiseksi kokonaisluvuksi. Tätä lukua käytetään laskemaan piste elliptisellä käyrällä lisäyksen ja kaksinkertaistamisen kautta generaattoripisteestä $G$. Tämä piste lisätään sitten vanhemman julkiseen avaimen saadakseen normaalin lapsen julkisen avaimen. Näin ollen normaalin lapsen julkisen avaimen johtamiseksi tarvitaan vain vanhemman julkinen avain ja vanhemman ketjukoodi; vanhemman yksityinen avain ei koskaan tule tähän prosessiin, toisin kuin lapsen yksityisen avaimen laskenta, jonka näimme aiemmin.
 
 Seuraavaksi lapsen ketjukoodi on yksinkertaisesti:
 
+
 $$
-C_{\text{CHD}} = h_2
+
+C\_{\text{CHD}} = h_2
+
 $$
 
 Tässä on kaavamainen esitys koko johdannaisesta:
@@ -1514,20 +1637,25 @@ Elliptisen käyrän lisäys- ja kaksinkertaistamistoimintojen ansiosta molemmat 
 
 Yhteenvetona, tässä ovat erilaiset mahdolliset johdannaistyypit:
 
+
 $$
+
 \begin{array}{|c|c|c|c|}
 \hline
 \rightarrow & \text{PAR} & \text{CHD} & \text{n/h} \\
 \hline
-k_{\text{PAR}} \rightarrow k_{\text{CHD}} & k_{\text{PAR}} & \{ k_{\text{CHD}}^n, k_{\text{CHD}}^h \} & \{ n, h \} \\
+k*{\text{PAR}} \rightarrow k*{\text{CHD}} & k*{\text{PAR}} & \{ k*{\text{CHD}}^n, k\_{\text{CHD}}^h \} & \{ n, h \} \\
 \end{array}
+
 $$
 $$
-k_{\text{PAR}} \rightarrow K_{\text{CHD}} & k_{\text{PAR}} & \{ K_{\text{CHD}}^n, K_{\text{CHD}}^h \} & \{ n, h \} \\
-K_{\text{PAR}} \rightarrow k_{\text{CHD}} & K_{\text{PAR}} & \times & \times \\
-K_{\text{PAR}} \rightarrow K_{\text{CHD}} & K_{\text{PAR}} & K_{\text{CHD}}^n & n \\
+
+k*{\text{PAR}} \rightarrow K*{\text{CHD}} & k*{\text{PAR}} & \{ K*{\text{CHD}}^n, K*{\text{CHD}}^h \} & \{ n, h \} \\
+K*{\text{PAR}} \rightarrow k*{\text{CHD}} & K*{\text{PAR}} & \times & \times \\
+K*{\text{PAR}} \rightarrow K*{\text{CHD}} & K*{\text{PAR}} & K*{\text{CHD}}^n & n \\
 \hline
 \end{array}
+
 $$
 
 Yhteenvetona, tähän mennessä olet oppinut luomaan HD-lompakon peruselementit: muistilauseen, siemenen ja sitten pääavaimen sekä pääketjukoodin. Olet myös löytänyt, miten johdetaan lapsiavainpareja tässä luvussa. Seuraavassa luvussa tutkimme, miten nämä johdannaiset on järjestetty Bitcoin-lompakoissa ja mitä rakennetta noudattaa konkreettisesti vastaanotto-osoitteiden sekä *scriptPubKey* ja *scriptSig*:ssä käytettyjen avainparien saamiseksi.
@@ -1569,7 +1697,7 @@ Antaakseni muita esimerkkejä, tässä on joitakin valuuttojen indeksejä:
 Jokainen lompakko voidaan jakaa useisiin tileihin, jotka on numeroitu alkaen $2^{31}$, ja esitetty syvyydessä 3 $/0'/$ ensimmäiselle tilille, $/1'/$ toiselle ja niin edelleen. Yleensä, kun viitataan laajennettuun avaimen `xpub`, se viittaa avaimiin tässä johdannaisen syvyydessä.
 
 Tämä erottelu eri tileihin on valinnainen. Sen tavoitteena on yksinkertaistaa lompakon organisointia käyttäjille. Käytännössä usein käytetään vain yhtä tiliä, yleensä oletuksena ensimmäistä. Kuitenkin joissakin tapauksissa, jos halutaan selvästi erottaa avainparit eri käyttötarkoituksiin, tämä voi olla hyödyllistä. Esimerkiksi on mahdollista luoda henkilökohtainen tili ja ammattitili samasta siemenestä, täysin erillisillä avainryhmillä tästä johdannaisen syvyydestä.
-**Syvyys 4: Ketju (BIP32)**  
+**Syvyys 4: Ketju (BIP32)**
 Syvyydessä 3 määritelty kunkin tilin rakenne jaetaan sitten kahteen ketjuun:
 - **Ulkoinen ketju**: Tässä ketjussa johdetaan niin sanottuja "julkisia" osoitteita. Nämä vastaanotto-osoitteet on tarkoitettu lukitsemaan UTXO:t, jotka tulevat ulkoisista transaktioista (toisin sanoen, peräisin UTXO:ista, jotka eivät kuulu sinulle). Yksinkertaisesti sanottuna, tätä ulkoista ketjua käytetään aina, kun halutaan vastaanottaa bittejä. Kun napsautat "*vastaanota*" lompakko-ohjelmistossasi, sinulle tarjotaan aina osoitetta ulkoisesta ketjusta. Tämä ketju on esitetty avainparilla, joka on johdettu indeksillä $/0/$.
 - **Sisäinen ketju (vaihto)**: Tämä ketju on varattu vastaanotto-osoitteille, jotka lukitsevat bitit, jotka tulevat sinulle kuuluvien UTXO:iden kulutuksesta, toisin sanoen vaihto-osoitteille. Se tunnistetaan indeksillä $/1/$.
@@ -1583,15 +1711,20 @@ Lopulta syvyys 5 edustaa viimeistä vaihetta lompakon johdannaisprosessissa. Vai
 Johdannaispolku kirjoitetaan erottamalla jokainen taso kauttaviivalla ($/$). Jokainen kauttaviiva siis osoittaa vanhemman avainparin ($k_{\text{PAR}}$, $K_{\text{PAR}}$, $C_{\text{PAR}}$) johdattamisen lapsiavainpariksi ($k_{\text{CHD}}$, $K_{\text{CHD}}$, $C_{\text{CHD}}$). Jokaisessa syvyydessä mainittu numero vastaa indeksiä, jota käytetään tämän avaimen johdattamiseen vanhemmistaan. Heittomerkki ($'$) joskus indeksin oikealla puolella osoittaa kovennetun johdannaisen ($k_{\text{CHD}}^h$, $K_{\text{CHD}}^h$). Joskus tämä heittomerkki korvataan $h$:lla. Heittomerkin tai $h$:n puuttuessa kyseessä on siis normaali johdannainen ($k_{\text{CHD}}^n$, $K_{\text{CHD}}^n$).
 Kuten aiemmissa luvuissa olemme nähneet, kovennetut avainindeksit alkavat $2^{31}$:stä, tai `0x80000000` heksadesimaalina. Siksi, kun johdannaispolussa indeksiä seuraa heittomerkki, $2^{31}$ on lisättävä ilmoitettuun numeroon saadaksemme todellisen arvon, jota käytetään HMAC-SHA512-funktiossa. Esimerkiksi, jos johdannaispolku määrittelee $/44'/$, todellinen indeksi on:
 $$
+
 i = 44 + 2^{31} = 2\,147\,483\,692
+
 $$
 
 Heksadesimaalina tämä on `0x8000002C`.
 
 Nyt kun olemme ymmärtäneet johdannaispolkujen pääperiaatteet, otetaan esimerkki! Tässä on johdannaispolku Bitcoinin vastaanotto-osoitteelle:
 
+
 $$
+
 m / 84' / 0' / 1' / 0 / 7
+
 $$
 
 Tässä esimerkissä:
@@ -1682,13 +1815,13 @@ Juuri *scriptPubKey*:ssa löytyvät vastaanotto-osoitteet. Kuitenkin niiden käy
 
 Skriptissä käytetyt operaatiokoodit on suunniteltu tiedon käsittelyyn ja tarvittaessa sen vertailuun tai testaamiseen. Otetaan esimerkiksi P2PKH-skripti, joka on seuraava:
 
-```txt
+```text
 OP_DUP OP_HASH160 OP_PUSHBYTES_20 <pubKeyHash> OP_EQUALVERIFY OP_CHECKSIG
 ```
 
 Kuten tässä luvussa näemme, `<pubKeyHash>` edustaa itse asiassa vastaanotto-osoitteen kuormaa, jota käytetään UTXO:n lukitsemiseen. Tämän *scriptPubKey*:n avaamiseksi on tarpeen toimittaa *scriptSig*, joka sisältää:
 
-```txt
+```text
 <signature> <public key>
 ```
 Skriptikielessä "pino" on "*LIFO*" ("*Viimeksi sisään, ensimmäisenä ulos*") -tietorakenne, jota käytetään elementtien väliaikaiseen tallentamiseen skriptin suorituksen aikana. Jokainen skriptitoiminto manipuloi tätä pinoa, jossa elementtejä voidaan lisätä (*push*) tai poistaa (*pop*). Skriptit käyttävät näitä pinoja lausekkeiden arvioimiseen, väliaikaisten muuttujien tallentamiseen ja ehtojen hallintaan.
@@ -1780,7 +1913,7 @@ Elliptisillä käyrillä on kuitenkin symmetriaominaisuus x-akselin suhteen: ann
 Julkisen avaimen tiivistämisessä koodataan vain $x$, joka vie 256 bittiä, ja lisätään etuliite, joka määrittää $y$:n pariteetin. Tämä menetelmä pienentää julkisen avaimen kokoa 264 bittiin alkuperäisen 520 sijaan. Etuliite `0x02` osoittaa, että $y$ on parillinen, ja etuliite `0x03` osoittaa, että $y$ on pariton.
 Otetaan esimerkki ymmärtääksemme paremmin, käyttäen raakaa julkista avainta pakkaamattomassa esitysmuodossa:
 
-```txt
+```text
 K = 04678afdb0fe5548271967f1a67130b7105cd6a828e03909a67962e0ea1f61deb649f6bc3f4cef38c4f35504e51ec112de5c384df7ba0b8d578a4c702b6bf11d5f
 ```
 
@@ -1793,7 +1926,7 @@ $y$:n viimeinen heksadesimaalimerkki on `f`. Kymmenjärjestelmässä `f = 15`, m
 
 Tiivistetty julkinen avain muodostuu:
 
-```txt
+```text
 K = 03678afdb0fe5548271967f1a67130b7105cd6a828e03909a67962e0ea1f61deb6
 ```
 Tämä toimenpide pätee kaikkiin ECDSA:han perustuviin skriptimalleihin, eli kaikkiin paitsi P2TR, joka käyttää Schnorr-signaaleja. Schnorrin tapauksessa, kuten osassa 3 selitettiin, säilytämme vain $x$:n arvon lisäämättä etuliitettä osoittamaan $y$:n pariteettia, toisin kuin ECDSA:ssa. Tämä on mahdollista, koska kaikille avaimille on mielivaltaisesti valittu yksi pariteetti. Tämä mahdollistaa julkisten avainten tarvitseman tallennustilan lievän vähentämisen.
@@ -1803,25 +1936,30 @@ Nyt kun olemme saaneet tiivistetyn julkisen avaimemme, voimme johtaa siitä SegW
 
 Ensimmäinen vaihe on soveltaa HASH160-hajautusfunktiota tiivistettyyn julkiseen avaimeen. HASH160 on kahden peräkkäisen hajautusfunktion yhdistelmä: SHA256, jonka jälkeen RIPEMD160:
 
+
 $$
+
 \text{HASH160}(K) = \text{RIPEMD160}(\text{SHA256}(K))
+
 $$
 
 Ensiksi, käymme avaimen läpi SHA256:n avulla:
 
-```txt
+```text
 SHA256(K) = C489EBD66E4103B3C4B5EAFF462B92F5847CA2DCE0825F4997C7CF57DF35BF3A
 ```
 
 Sitten viemme tuloksen läpi RIPEMD160:n:
 
-```txt
+```text
 RIPEMD160(SHA256(K)) = 9F81322CC88622CA4CCB2A52A21E2888727AA535
 ```
 Olemme saaneet 160-bittisen julkisen avaimen tiivisteen, joka muodostaa niin kutsutun osoitteen kuorman (payload). Tämä kuorma edustaa osoitteen keskeisintä ja tärkeintä osaa. Sitä käytetään myös *scriptPubKey:ssä* lukitsemaan UTXO:t.
 Jotta tämä kuorma olisi ihmisille helpommin käytettävissä, siihen lisätään metadataa. Seuraava vaihe sisältää tämän tiivisteen koodaamisen 5 bitin ryhmiin desimaalimuodossa. Tämä desimaalimuunnos on hyödyllinen muunnoksessa *bech32*-muotoon, jota käytetään post-SegWit-osoitteissa. 160-bittinen binääritiiviste jaetaan siten 32 ryhmään, joissa on 5 bittiä:
 
+
 $$
+
 \begin{array}{|c|c|}
 \hline
 \text{5-bittiset Ryhmät} & \text{Desimaaliarvo} \\
@@ -1850,10 +1988,11 @@ $$
 00111 & 7 \\
 10001 & 17 \\
 \end{array}
+
 $$
 Joten meillä on:
 
-```txt
+```text
 HASH = 19 30 00 19 04 11 06 08 16 24 17 12 20 19 06 11 05 09 09 10 04 07 17 08 17 01 25 07 21 09 09 21
 ```
 
@@ -1877,7 +2016,7 @@ IHM on laajennettava erottamalla jokainen merkki kahteen osaan:
 
 Kahden merkin välissä olevalla erotinmerkillä `0`, IHM:n laajennus on siis:
 
-```txt
+```text
 03 03 00 02 03
 ```
 
@@ -1889,7 +2028,7 @@ Kahden merkin välissä olevalla erotinmerkillä `0`, IHM:n laajennus on siis:
 
 Kaikki ohjelmaan syötettäväksi yhdistettävät tiedot tarkistussumman laskemiseksi ovat seuraavat:
 
-```txt
+```text
 IHM = 03 03 00 02 03
 SEGWIT v0 = 00
 HASH = 19 30 00 19 04 11 06 08 16 24 17 12 20 19 06 11 05 09 09 10 04 07 17 08 17 01 25 07 21 09 09 21
@@ -1900,7 +2039,7 @@ SYÖTE = 03 03 00 02 03 00 19 30 00 19 04 11 06 08 16 24 17 12 20 19 06 11 05 09
 
 Tarkistussumman laskenta on melko monimutkaista. Se sisältää polynomisen äärelliskenttäaritmetiikan. Emme käsittele tätä laskentaa tässä yksityiskohtaisesti, vaan siirrymme suoraan tulokseen. Esimerkissämme saadun tarkistussumman desimaaliarvot ovat:
 
-```txt
+```text
 10 16 11 04 13 18
 ```
 
@@ -1911,14 +2050,16 @@ Voimme nyt muodostaa vastaanotto-osoitteen yhdistämällä järjestyksessä seur
 
 Tämä antaa meille desimaaliluvuissa:
 
-```txt
+```text
 00 19 30 00 19 04 11 06 08 16 24 17 12 20 19 06 11 05 09 09 10 04 07 17 08 17 01 25 07 21 09 09 21 10 16 11 04 13 18
 ```
 
 Sitten jokainen desimaaliarvo on kartoitettava vastaavaan *bech32*-merkkiin käyttäen seuraavaa muunnostaulukkoa:
 
+
 $$
-Arvon muuttaminen *bech32*-merkiksi tämän taulukon avulla on yksinkertaista: etsi ensimmäisestä sarakkeesta ja ensimmäisestä rivistä arvot, jotka yhteenlaskettuna antavat halutun tuloksen. Sen jälkeen hae vastaava merkki. Esimerkiksi desimaaliluku `19` muunnetaan kirjaimeksi `n`, koska $19 = 16 + 3$.
+
+Arvon muuttaminen _bech32_-merkiksi tämän taulukon avulla on yksinkertaista: etsi ensimmäisestä sarakkeesta ja ensimmäisestä rivistä arvot, jotka yhteenlaskettuna antavat halutun tuloksen. Sen jälkeen hae vastaava merkki. Esimerkiksi desimaaliluku `19` muunnetaan kirjaimeksi `n`, koska $19 = 16 + 3$.
 Kartoittamalla kaikki arvomme saamme seuraavan osoitteen:
 
 ```
@@ -1931,7 +2072,7 @@ Ainoa jäljellä oleva tehtävä on lisätä HRP `bc`, joka osoittaa, että kyse
 bc1qn7qnytxgsc3v5nxt9ff2y83g3pe849942stydj
 ```
 
-Tämän *bech32*-aakkoston erityispiirre on, että se sisältää kaikki alfanumeeriset merkit paitsi `1`, `b`, `i` ja `o` välttääkseen visuaalisen sekaannuksen samankaltaisten merkkien välillä, erityisesti niiden syöttämisen tai lukemisen aikana ihmisille.
+Tämän _bech32_-aakkoston erityispiirre on, että se sisältää kaikki alfanumeeriset merkit paitsi `1`, `b`, `i` ja `o` välttääkseen visuaalisen sekaannuksen samankaltaisten merkkien välillä, erityisesti niiden syöttämisen tai lukemisen aikana ihmisille.
 
 Yhteenvetona, tässä on johdatusprosessi:
 
@@ -1944,9 +2085,10 @@ Näin johdetaan P2WPKH (SegWit v0) vastaanotto-osoite avainparista. Siirrytään
 Taproot-osoitteiden luontiprosessi eroaa hieman. Katsotaan tätä yhdessä!
 
 Julkisen avaimen tiivistämisen vaiheesta alkaen ilmenee ensimmäinen ero verrattuna ECDSA:han: Bitcoinin Schnorrilla käytetyt julkiset avaimet esitetään vain niiden abskissalla ($x$). Siksi etuliitettä ei ole, ja tiivistetty avain on tarkalleen 256 bittiä.
-Kuten edellisessä luvussa näimme, P2TR-skripti lukitsee bitcoinit yksilölliseen Schnorrin julkiseen avaimen, jota merkitään $Q$:lla. Tämä avain $Q$ on kahden julkisen avaimen aggregaatti: $P$, pääsisäinen julkinen avain, ja $M$, Merkle-juuren perusteella johdettu julkinen avain *scriptPubKey*-listasta. Tällaisella skriptillä lukitut bitcoinit voidaan kuluttaa kahdella tavalla:
-- Julkaisemalla allekirjoitus julkiselle avaimelle $P$ (*key path*);
-- Tyydyttämällä yksi Merkle-puussa sisältyvistä skripteistä (*script path*).
+Kuten edellisessä luvussa näimme, P2TR-skripti lukitsee bitcoinit yksilölliseen Schnorrin julkiseen avaimen, jota merkitään $Q$:lla. Tämä avain $Q$ on kahden julkisen avaimen aggregaatti: $P$, pääsisäinen julkinen avain, ja $M$, Merkle-juuren perusteella johdettu julkinen avain _scriptPubKey_-listasta. Tällaisella skriptillä lukitut bitcoinit voidaan kuluttaa kahdella tavalla:
+
+- Julkaisemalla allekirjoitus julkiselle avaimelle $P$ (_key path_);
+- Tyydyttämällä yksi Merkle-puussa sisältyvistä skripteistä (_script path_).
 
 Todellisuudessa näitä kahta avainta ei varsinaisesti "aggregoida". Avain $P$ sen sijaan "tweakataan" avaimella $M$. Kryptografiassa julkisen avaimen "tweakaaminen" tarkoittaa tämän avaimen muokkaamista soveltamalla lisäarvoa, jota kutsutaan "tweakiksi". Tämä toimenpide mahdollistaa muokatun avaimen yhteensopivuuden alkuperäisen yksityisen avaimen ja tweakin kanssa. Teknisesti tweak on skalaariarvo $t$, joka lisätään alkuperäiseen julkiseen avaimen. Jos $P$ on alkuperäinen julkinen avain, tweakattu avain muodostuu:
 
@@ -1955,12 +2097,14 @@ P' = P + tG
 $$
 
 Missä $G$ on käytetyn elliptisen käyrän generaattori. Tämä toimenpide tuottaa uuden julkisen avaimen, joka on johdettu alkuperäisestä avaimesta, säilyttäen samalla kryptografiset ominaisuudet, jotka mahdollistavat sen käytön.
-Jos sinun ei tarvitse lisätä vaihtoehtoisia skriptejä (kuluttaen yksinomaan *avainpolun* kautta), voit luoda Taproot-osoitteen, joka perustuu yksinomaan julkiseen avaimen, joka on läsnä lompakkosi syvyydessä 5. Tässä tapauksessa on tarpeen luoda kuluttamaton skripti *skriptipolulle*, jotta rakenteen vaatimukset täyttyvät. Muunnos $t$ lasketaan soveltamalla merkittyä hajautusfunktiota, **`TapTweak`**, sisäiseen julkiseen avaimen $P$:
+Jos sinun ei tarvitse lisätä vaihtoehtoisia skriptejä (kuluttaen yksinomaan _avainpolun_ kautta), voit luoda Taproot-osoitteen, joka perustuu yksinomaan julkiseen avaimen, joka on läsnä lompakkosi syvyydessä 5. Tässä tapauksessa on tarpeen luoda kuluttamaton skripti _skriptipolulle_, jotta rakenteen vaatimukset täyttyvät. Muunnos $t$ lasketaan soveltamalla merkittyä hajautusfunktiota, **`TapTweak`**, sisäiseen julkiseen avaimen $P$:
+
 $$
 t = \text{H}_{\text{TapTweak}}(P)
 $$
 
 missä:
+
 - **$\text{H}_{\text{TapTweak}}$** on SHA256-hajautusfunktio, joka on merkitty tagilla `TapTweak`. Jos et ole tuttu merkittyjen hajautusfunktioiden kanssa, suosittelen tutustumaan lukuun 3.3;
 - $P$ on sisäinen julkinen avain, esitetty sen tiivistetyssä 256-bittisessä muodossa, käyttäen vain $x$-koordinaattia.
 
@@ -1969,12 +2113,14 @@ Taproot-julkinen avain $Q$ lasketaan lisäämällä muunnos $t$, kerrottuna elli
 $$
 Q = P + t \cdot G
 $$
+
 Kun Taproot-julkinen avain $Q$ on saatu, voimme luoda vastaavan vastaanotto-osoitteen. Toisin kuin muissa formaateissa, Taproot-osoitteet eivät perustu julkisen avaimen hajautukseen. Siksi avain $Q$ lisätään suoraan osoitteeseen raakamuodossa.
 
-Aloitamme poimimalla pisteen $Q$ $x$-koordinaatin saadaksemme tiivistetyn julkisen avaimen. Tähän kuormaan lasketaan tarkistussumma käyttäen BCH-koodeja, kuten SegWit v0 -osoitteissa. Taproot-osoitteiden käyttämä ohjelma eroaa kuitenkin hieman. Todellakin, *bech32*-formaatin käyttöönoton jälkeen SegWitissä löydettiin bugi: kun osoitteen viimeinen merkki on `p`, `q`:iden lisääminen tai poistaminen juuri ennen tätä `p`:tä ei tee tarkistussummasta virheellistä. Vaikka tällä bugilla ei ole seurauksia SegWit v0:ssa (kiitos kokorajoituksen), se voisi aiheuttaa ongelman tulevaisuudessa. Tämä bugi on siis korjattu Taproot-osoitteissa, ja uusi korjattu formaatti on nimeltään "*bech32m*".
+Aloitamme poimimalla pisteen $Q$ $x$-koordinaatin saadaksemme tiivistetyn julkisen avaimen. Tähän kuormaan lasketaan tarkistussumma käyttäen BCH-koodeja, kuten SegWit v0 -osoitteissa. Taproot-osoitteiden käyttämä ohjelma eroaa kuitenkin hieman. Todellakin, _bech32_-formaatin käyttöönoton jälkeen SegWitissä löydettiin bugi: kun osoitteen viimeinen merkki on `p`, `q`:iden lisääminen tai poistaminen juuri ennen tätä `p`:tä ei tee tarkistussummasta virheellistä. Vaikka tällä bugilla ei ole seurauksia SegWit v0:ssa (kiitos kokorajoituksen), se voisi aiheuttaa ongelman tulevaisuudessa. Tämä bugi on siis korjattu Taproot-osoitteissa, ja uusi korjattu formaatti on nimeltään "_bech32m_".
 
-Taproot-osoite luodaan koodaamalla $Q$:n $x$-koordinaatti *bech32m*-formaattiin, seuraavilla elementeillä:
-- **HRP (*Human Readable Part*)**: `bc`, osoittamaan pääasiallista Bitcoin-verkkoa;
+Taproot-osoite luodaan koodaamalla $Q$:n $x$-koordinaatti _bech32m_-formaattiin, seuraavilla elementeillä:
+
+- **HRP (_Human Readable Part_)**: `bc`, osoittamaan pääasiallista Bitcoin-verkkoa;
 - **Versio**: `1` osoittamaan Taproot / SegWit v1;
 - **Tarkistussumma**.
 
@@ -1984,7 +2130,7 @@ Lopullinen osoite on siis muodossa:
 bc1p[Qx][tarkistussumma]
 ```
 
-Toisaalta, jos haluat lisätä vaihtoehtoisia skriptejä kuluttaen sisäisen julkisen avaimen (*skriptipolku*) lisäksi, vastaanotto-osoitteen laskenta on hieman erilainen. Sinun on sisällytettävä vaihtoehtoisten skriptien hajautus muunnoksen laskentaan. Taprootissa jokainen vaihtoehtoinen skripti, joka sijaitsee Merkle-puun lopussa, kutsutaan "lehdeksi".
+Toisaalta, jos haluat lisätä vaihtoehtoisia skriptejä kuluttaen sisäisen julkisen avaimen (_skriptipolku_) lisäksi, vastaanotto-osoitteen laskenta on hieman erilainen. Sinun on sisällytettävä vaihtoehtoisten skriptien hajautus muunnoksen laskentaan. Taprootissa jokainen vaihtoehtoinen skripti, joka sijaitsee Merkle-puun lopussa, kutsutaan "lehdeksi".
 
 Kun eri vaihtoehtoiset skriptit on kirjoitettu, sinun on läpikäytävä ne yksitellen merkityn hajautusfunktion `TapLeaf` kautta, jonka yhteydessä on jotakin metadataa:
 
@@ -1993,17 +2139,18 @@ $$
 $$
 
 Missä:
+
 - $v$: skriptin versionumero (oletusarvo `0xC0` Taprootille);
-- $sz$: skriptin koko, joka on koodattu *CompactSize*-muodossa; - $S$: skripti.
+- $sz$: skriptin koko, joka on koodattu _CompactSize_-muodossa; - $S$: skripti.
 
 Eri skriptien hajautukset ($\text{h}_{\text{leaf}}$) lajitellaan ensin leksikografiseen järjestykseen. Sen jälkeen ne yhdistetään pareittain ja syötetään merkityn hajautusfunktion `TapBranch` läpi. Tätä prosessia toistetaan iteratiivisesti rakentaaksemme askel askeleelta Merkle-puun:
-Haaran hajautus \(\text{h}_{\text{branch}}\) lasketaan soveltamalla merkittyä hajautusfunktiota `TapBranch` lehtihajautusten \(\text{h}_{\text{leaf1}} \Vert \text{h}_{\text{leaf2}}\) yhdistelmään:
+Haaran hajautus \(\text{h}_{\text{branch}}\) lasketaan soveltamalla merkittyä hajautusfunktiota `TapBranch` lehtihajautusten \(\text{h}_{\text{leaf1}} \Vert \text{h}\_{\text{leaf2}}\) yhdistelmään:
 
 Jatkamme sitten tulosten yhdistämistä kaksi kerrallaan, syöttämällä ne jokaisella askeleella merkityn hajautusfunktion `TapBranch` läpi, kunnes saamme Merkle-puun juuren:
 
 ![CYP201](assets/fr/066.webp)
 
-Kun Merkle-juuri \(h_{\text{root}}\) on laskettu, voimme laskea muunnoksen. Tätä varten yhdistämme lompakon sisäisen julkisen avaimen \(P\) juuren \(h_{\text{root}}\) kanssa, ja sitten syötämme koko yhdistelmän merkityn hajautusfunktion `TapTweak` läpi:
+Kun Merkle-juuri \(h*{\text{root}}\) on laskettu, voimme laskea muunnoksen. Tätä varten yhdistämme lompakon sisäisen julkisen avaimen \(P\) juuren \(h*{\text{root}}\) kanssa, ja sitten syötämme koko yhdistelmän merkityn hajautusfunktion `TapTweak` läpi:
 
 \[
 t = \text{H}_{\text{TapTweak}}(P \Vert h_{\text{root}})
@@ -2021,11 +2168,21 @@ Ja siinä kaikki! Olemme saapuneet CYP201-kurssin päätökseen. Jos pidit kurss
 
 # Yhteenveto
 
+<partId>58111408-b734-54db-9ea7-0d5b67f99f99</partId>
+
 ## Arvioi tämä kurssi
+
+<chapterId>0cd71541-a7fd-53db-b66a-8611b6a28b04</chapterId>
+<isCourseReview>true</isCourseReview>
 
 ## Loppukoe
 
+<chapterId>a53ea27d-0f84-56cd-b37c-a66210a4b31d</chapterId>
+<isCourseExam>true</isCourseExam>
+
 ## Yhteenveto
+
+<chapterId>d291428b-3cfa-5394-930e-4b514be82d5a</chapterId>
 
 Olemme saapuneet CYP201-kurssin päätökseen. Toivon, että se on ollut hyödyllinen oppimiskokemuksessasi Bitcoinista ja on mahdollistanut sinun ymmärtää paremmin päivittäin käyttämiesi HD-lompakoiden toimintaa. Kiitos, että seurasit tätä kurssia loppuun!
 Mielestäni tieto lompakoista on perustavanlaatuista, koska se yhdistää Bitcoinin teoreettisen aspektin sen käytännön käyttöön. Todellakin, jos käytät Bitcoinia, käsittelet väistämättä lompakko-ohjelmistoa. Ymmärtämällä, miten ne toimivat, voit toteuttaa tehokkaita turvallisuusstrategioita hallitsemalla samalla taustalla olevia mekanismeja, riskejä ja mahdollisia heikkouksia. Näin voit käyttää Bitcoinia turvallisemmin ja luottavaisemmin.

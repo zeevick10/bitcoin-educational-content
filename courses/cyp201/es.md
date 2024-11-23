@@ -21,9 +21,11 @@ Con una pedagogía clara, más de 60 diagramas explicativos y ejemplos concretos
 +++
 
 # Introducción
+
 <partId>32960669-d13a-592f-a053-37f70b997cbf</partId>
 
 ## Introducción al Curso
+
 <chapterId>fb4e8857-ea35-5a8a-ae8a-5300234e0104</chapterId>
 
 Bienvenido al curso CYP201, donde exploraremos en profundidad el funcionamiento de las carteras de Bitcoin HD. Este curso está diseñado para cualquier persona que quiera entender los fundamentos técnicos del uso de Bitcoin, ya sean usuarios casuales, entusiastas iluminados o futuros expertos.
@@ -51,20 +53,23 @@ Finalmente, a partir de la llave maestra, descubriremos cómo se derivan los par
 Esta formación te permitirá usar tu software de billetera con confianza, al mismo tiempo que mejora tus habilidades para identificar y mitigar riesgos. ¡Prepárate para convertirte en un verdadero experto en billeteras de Bitcoin!
 
 # Funciones Hash
+
 <partId>3713fee1-2ec2-512e-9e97-b6da9e4d2f17</partId>
 
 ## Introducción a las Funciones Hash
+
 <chapterId>dba011f5-1805-5a48-ac2b-4bd637c93703</chapterId>
 
 El primer tipo de algoritmos criptográficos utilizados en Bitcoin abarca las funciones hash. Juegan un papel esencial en diferentes niveles del protocolo, pero también dentro de las billeteras de Bitcoin. Descubramos juntos qué es una función hash y para qué se utiliza en Bitcoin.
 
 ### Definición y Principio del Hashing
+
 El hashing es un proceso que transforma información de longitud arbitraria en otra pieza de información de longitud fija a través de una función hash criptográfica. En otras palabras, una función hash toma una entrada de cualquier tamaño y la convierte en una huella digital de tamaño fijo, llamada "hash".
 El hash también puede ser referido a veces como "digest", "condensado", o "hasheado".
 
-Por ejemplo, la función hash SHA256 produce un hash de una longitud fija de 256 bits. Así, si usamos la entrada "*PlanB*", un mensaje de longitud arbitraria, el hash generado será la siguiente huella digital de 256 bits:
+Por ejemplo, la función hash SHA256 produce un hash de una longitud fija de 256 bits. Así, si usamos la entrada "_PlanB_", un mensaje de longitud arbitraria, el hash generado será la siguiente huella digital de 256 bits:
 
-```txt
+```text
 24f1b93b68026bfc24f5c8265f287b4c940fb1664b0d75053589d7a4f821b688
 ```
 
@@ -73,6 +78,7 @@ Por ejemplo, la función hash SHA256 produce un hash de una longitud fija de 256
 ### Características de las Funciones Hash
 
 Estas funciones hash criptográficas tienen varias características esenciales que las hacen particularmente útiles en el contexto de Bitcoin y otros sistemas informáticos:
+
 1. Irreversibilidad (o resistencia a la imagen previa)
 2. Resistencia a la manipulación (efecto avalancha)
 3. Resistencia a colisiones
@@ -80,22 +86,26 @@ Estas funciones hash criptográficas tienen varias características esenciales q
 
 #### 1. Irreversibilidad (resistencia a la imagen previa):
 
-La irreversibilidad significa que es fácil calcular el hash a partir de la información de entrada, pero el cálculo inverso, es decir, encontrar la entrada a partir del hash, es prácticamente imposible. Esta propiedad hace que las funciones hash sean perfectas para crear huellas digitales únicas sin comprometer la información original. Esta característica se conoce a menudo como una función unidireccional o una "*función de trampa*".
+La irreversibilidad significa que es fácil calcular el hash a partir de la información de entrada, pero el cálculo inverso, es decir, encontrar la entrada a partir del hash, es prácticamente imposible. Esta propiedad hace que las funciones hash sean perfectas para crear huellas digitales únicas sin comprometer la información original. Esta característica se conoce a menudo como una función unidireccional o una "_función de trampa_".
 
-En el ejemplo dado, obtener el hash `24f1b9…` sabiendo la entrada "*PlanB*" es simple y rápido. Sin embargo, encontrar el mensaje "*PlanB*" solo sabiendo `24f1b9…` es imposible.
+En el ejemplo dado, obtener el hash `24f1b9…` sabiendo la entrada "_PlanB_" es simple y rápido. Sin embargo, encontrar el mensaje "_PlanB_" solo sabiendo `24f1b9…` es imposible.
 
 ![CYP201](assets/fr/002.webp)
 
 Por lo tanto, es imposible encontrar una preimagen $m$ para un hash $h$ tal que $h = \text{HASH}(m)$, donde $\text{HASH}$ es una función hash criptográfica.
 
 #### 2. Resistencia a la manipulación (efecto avalancha)
+
 La segunda característica es la resistencia a la manipulación, también conocida como el **efecto avalancha**. Esta característica se observa en una función hash si un pequeño cambio en el mensaje de entrada resulta en un cambio radical en el hash de salida.
-Si volvemos a nuestro ejemplo con la entrada "*PlanB*" y la función SHA256, hemos visto que el hash generado es el siguiente:
+Si volvemos a nuestro ejemplo con la entrada "_PlanB_" y la función SHA256, hemos visto que el hash generado es el siguiente:
 
-```txt
-Si hacemos un cambio muy leve en la entrada usando "*Planb*" esta vez, entonces simplemente cambiando de una "B" mayúscula a una "b" minúscula altera completamente el hash de salida SHA256:
+```text
+24f1b93b68026bfc24f5c8265f287b4c940fb1664b0d75053589d7a4f821b688
+```
 
-```txt
+Si hacemos un cambio muy leve en la entrada usando "_Planb_" esta vez, entonces simplemente cambiando de una "B" mayúscula a una "b" minúscula altera completamente el hash de salida SHA256:
+
+```text
 bb038b4503ac5d90e1205788b00f8f314583c5e22f72bec84b8735ba5a36df3f
 ```
 
@@ -117,6 +127,7 @@ En realidad, es matemáticamente inevitable que existan colisiones para las func
 
 Por lo tanto, esta característica no significa que no haya colisiones para las funciones hash, sino más bien que una buena función hash hace que la probabilidad de encontrar una colisión sea despreciable. Esta característica, por ejemplo, ya no se verifica en los algoritmos SHA-0 y SHA-1, predecesores de SHA-2, para los cuales se han encontrado colisiones. Estas funciones, por lo tanto, ahora se desaconsejan y a menudo se consideran obsoletas.
 Para una función hash de $n$ bits, la resistencia a colisiones es del orden de $2^{\frac{n}{2}}$, de acuerdo con el ataque de cumpleaños. Por ejemplo, para SHA256 ($n = 256$), la complejidad de encontrar una colisión es del orden de $2^{128}$ intentos. En términos prácticos, esto significa que si uno pasa $2^{128}$ mensajes diferentes a través de la función, es probable que encuentre una colisión.
+
 #### 4. Resistencia a Segunda Preimagen
 
 La resistencia a la segunda preimagen es otra característica importante de las funciones hash. Declara que dado un mensaje $m_1$ y su hash $h$, es computacionalmente inviable encontrar otro mensaje $m_2 \neq m_1$ tal que:
@@ -126,13 +137,14 @@ $$
 $$
 
 Por lo tanto, la resistencia a la segunda preimagen es algo similar a la resistencia a colisiones, excepto que aquí, el ataque es más difícil porque el atacante no puede elegir libremente $m_1$.
+
 ### Aplicaciones de las Funciones Hash en Bitcoin
 
-La función hash más utilizada en Bitcoin es **SHA256** ("*Secure Hash Algorithm 256 bits"*). Diseñada a principios de los años 2000 por la NSA y estandarizada por el NIST, produce una salida hash de 256 bits.
+La función hash más utilizada en Bitcoin es **SHA256** ("_Secure Hash Algorithm 256 bits"_). Diseñada a principios de los años 2000 por la NSA y estandarizada por el NIST, produce una salida hash de 256 bits.
 
 Esta función se utiliza en muchos aspectos de Bitcoin. A nivel de protocolo, está involucrada en el mecanismo de Prueba de Trabajo, donde se aplica un doble hash para buscar una colisión parcial entre el encabezado de un bloque candidato, creado por un minero, y el objetivo de dificultad. Si se encuentra esta colisión parcial, el bloque candidato se valida y puede añadirse a la blockchain.
 
-SHA256 también se utiliza en la construcción de un árbol de Merkle, que es notablemente el acumulador utilizado para registrar transacciones en bloques. Esta estructura también se encuentra en el protocolo Utreexo, que permite reducir el tamaño del Conjunto UTXO. Además, con la introducción de Taproot en 2021, SHA256 se explota en MAST (*Merkelised Alternative Script Tree*), que permite revelar solo las condiciones de gasto realmente utilizadas en un script, sin divulgar las otras opciones posibles. También se utiliza en el cálculo de identificadores de transacción, en la transmisión de paquetes a través de la red P2P, en firmas electrónicas... Finalmente, y esto es de particular interés en esta formación, SHA256 se utiliza a nivel de aplicación para la construcción de carteras de Bitcoin y la derivación de direcciones.
+SHA256 también se utiliza en la construcción de un árbol de Merkle, que es notablemente el acumulador utilizado para registrar transacciones en bloques. Esta estructura también se encuentra en el protocolo Utreexo, que permite reducir el tamaño del Conjunto UTXO. Además, con la introducción de Taproot en 2021, SHA256 se explota en MAST (_Merkelised Alternative Script Tree_), que permite revelar solo las condiciones de gasto realmente utilizadas en un script, sin divulgar las otras opciones posibles. También se utiliza en el cálculo de identificadores de transacción, en la transmisión de paquetes a través de la red P2P, en firmas electrónicas... Finalmente, y esto es de particular interés en esta formación, SHA256 se utiliza a nivel de aplicación para la construcción de carteras de Bitcoin y la derivación de direcciones.
 
 La mayoría de las veces, cuando te encuentres con el uso de SHA256 en Bitcoin, en realidad será un doble hash SHA256, denominado "**HASH256**", que simplemente consiste en aplicar SHA256 dos veces sucesivamente:
 HASH256(m) = SHA256(SHA256(m))
@@ -152,6 +164,7 @@ Finalmente, solo a nivel de aplicación, la función SHA512 también se utiliza 
 Ahora conoces los conceptos básicos esenciales sobre las funciones hash para lo que sigue. En el próximo capítulo, propongo descubrir con más detalle el funcionamiento de la función que está en el corazón de Bitcoin: SHA256. Lo diseccionaremos para entender cómo logra las características que hemos descrito aquí. Este próximo capítulo es bastante largo y técnico, pero no es esencial para seguir el resto de la formación. Así que, si tienes dificultades para entenderlo, no te preocupes y pasa directamente al siguiente capítulo, que será mucho más accesible.
 
 ## El Funcionamiento Interno de SHA256
+
 <chapterId>905eb320-f15b-5fb6-8d2d-5bb447337deb</chapterId>
 Hemos visto anteriormente que las funciones de hashing poseen características importantes que justifican su uso en Bitcoin. Ahora examinemos los mecanismos internos de estas funciones de hashing que les otorgan estas propiedades, y para hacer esto, propongo diseccionar el funcionamiento de SHA256.
 Las funciones SHA256 y SHA512 pertenecen a la misma familia SHA2. Su mecanismo se basa en una construcción específica llamada **construcción de Merkle-Damgård**. RIPEMD160 también utiliza este mismo tipo de construcción.
@@ -159,6 +172,7 @@ Las funciones SHA256 y SHA512 pertenecen a la misma familia SHA2. Su mecanismo s
 Como recordatorio, tenemos un mensaje de tamaño arbitrario como entrada a SHA256, y lo pasaremos a través de la función para obtener un hash de 256 bits como salida.
 
 ### Pre-procesamiento de la entrada
+
 Para comenzar, necesitamos preparar nuestro mensaje de entrada $m$ para que tenga una longitud estándar que sea múltiplo de 512 bits. Este paso es crucial para el correcto funcionamiento del algoritmo posteriormente.
 Para hacer esto, comenzamos con el paso de bits de relleno. Primero agregamos un bit separador `1` al mensaje, seguido de cierto número de bits `0`. El número de bits `0` agregados se calcula de modo que la longitud total del mensaje después de esta adición sea congruente con 448 módulo 512. Así, la longitud $L$ del mensaje con los bits de relleno es igual a:
 
@@ -197,14 +211,19 @@ $$
 
 Así, tendríamos 9 `0`s además del separador `1`. Nuestros bits de relleno a agregar directamente después de nuestro mensaje $M$ serían así:
 
-```txt
+```text
 1000 0000 00
 ```
 
 Después de agregar los bits de relleno a nuestro mensaje $M$, también agregamos una representación de 64 bits de la longitud original del mensaje $M$, expresada en binario. Esto permite que la función hash sea sensible al orden de bits y a la longitud del mensaje.
 Si volvemos a nuestro ejemplo con un mensaje inicial de 950 bits, convertimos el número decimal `950` a binario, lo que nos da `1110 1101 10`. Completamos este número con ceros en la base para hacer un total de 64 bits. En nuestro ejemplo, esto da:
-```txt
+
+```text
+0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0011 1011 0110
+```
+
 Este tamaño de relleno se añade siguiendo el relleno de bits. Por lo tanto, el mensaje después de nuestro preprocesamiento consiste en tres partes:
+
 1. El mensaje original $M$;
 2. Un bit `1` seguido por varios bits `0` para formar el relleno de bits;
 3. Una representación de 64 bits de la longitud de $M$ para formar el relleno con el tamaño.
@@ -238,7 +257,9 @@ K[0 \ldots 63] = \begin{pmatrix}
 0xc6e00bf3, & 0xd5a79147, & 0x06ca6351, & 0x14292967, \\
 0x27b70a85, & 0x2e1b2138, & 0x4d2c6dfc, & 0x53380d13, \\
 
+
 $$
+
 \begin{pmatrix}
 0x650a7354, & 0x766a0abb, & 0x81c2c92e, & 0x92722c85, \\0xa2bfe8a1, & 0xa81a664b, & 0xc24b8b70, & 0xc76c51a3, \\0xd192e819, & 0xd6990624, & 0xf40e3585, & 0x106aa070, \\
 0x19a4c116, & 0x1e376c08, & 0x2748774c, & 0x34b0bcb5, \\
@@ -246,6 +267,7 @@ $$
 0x748f82ee, & 0x78a5636f, & 0x84c87814, & 0x8cc70208, \\
 0x90befffa, & 0xa4506ceb, & 0xbef9a3f7, & 0xc67178f2
 \end{pmatrix}
+
 $$
 
 ### División de la Entrada
@@ -294,8 +316,11 @@ Tomemos un ejemplo para entender la operación de XOR a nivel de bit. Si tenemos
 
 Entonces:
 
+
 $$
+
 a \oplus b = 101100 \oplus 001000 = 100100
+
 $$
 
 Aplicando XOR bit a bit:
@@ -317,8 +342,11 @@ Primero, está la operación de desplazamiento lógico hacia la derecha, denotad
 
 Por ejemplo, para $x = 101100001$ (en 9 bits) y $n = 4$:
 
+
 $$
+
 ShR_4(101100001) = 000010110
+
 $$
 
 Esquemáticamente, la operación de desplazamiento hacia la derecha podría verse así:
@@ -327,8 +355,11 @@ Esquemáticamente, la operación de desplazamiento hacia la derecha podría vers
 Otra operación utilizada en SHA256 para la manipulación de bits es la rotación circular hacia la derecha, denotada $RotR_n(x)$, que desplaza los bits de $x$ hacia la derecha por $n$ posiciones, reinsertando los bits desplazados al principio de la cadena.
 Por ejemplo, para $x = 101100001$ (sobre 9 bits) y $n = 4$:
 
+
 $$
+
 RotR_4(101100001) = 000110110
+
 $$
 
 Esquemáticamente, la operación de desplazamiento circular hacia la derecha podría verse así:
@@ -346,8 +377,11 @@ En el paso anterior, dividimos nuestra entrada en varias piezas de 512 bits $P$.
 Las primeras 16 palabras, $W_0$ hasta $W_{15}$, se extraen directamente del bloque procesado de 512 bits $P$. Cada palabra $W_i$ consta de 32 bits consecutivos del bloque. Así, por ejemplo, tomamos nuestra primera pieza de entrada $P_1$, y la dividimos aún más en piezas más pequeñas de 32 bits que llamamos palabras.
 Las siguientes 48 palabras ($W_{16}$ hasta $W_{63}$) se generan utilizando la siguiente fórmula:
 
+
 $$
-W_i = W_{i-16} + \sigma_0(W_{i-15}) + W_{i-7} + \sigma_1(W_{i-2}) \mod 2^{32}
+
+W*i = W*{i-16} + \sigma*0(W*{i-15}) + W*{i-7} + \sigma_1(W*{i-2}) \mod 2^{32}
+
 $$
 
 Con:
@@ -364,49 +398,70 @@ Luego realizamos las siguientes operaciones en nuestras entradas:
 
 - **Función $\Sigma_0$:**
 
+
 $$
-\Sigma_0(A) = RotR_2(A) \oplus RotR_{13}(A) \oplus RotR_{22}(A)
+
+\Sigma*0(A) = RotR_2(A) \oplus RotR*{13}(A) \oplus RotR\_{22}(A)
+
 $$
 
 - **Función $\Sigma_1$:**
 
+
 $$
-\Sigma_1(E) = RotR_6(E) \oplus RotR_{11}(E) \oplus RotR_{25}(E)
+
+\Sigma*1(E) = RotR_6(E) \oplus RotR*{11}(E) \oplus RotR\_{25}(E)
+
 $$
 
 - **Función $Ch$ ("*Elegir*"):**
 
+
 $$
+
 Ch(E, F, G) = (E \land F) \oplus (\lnot E \land G)
+
 $$
 
 - **Función $Maj$ ("*Mayoría*"):**
 
+
 $$
+
 Maj(A, B, C) = (A \land B) \oplus (A \land C) \oplus (B \land C)
+
 $$
 
 Luego calculamos 2 variables temporales:
 
 - $temp1$:
 
+
 $$
+
 temp1 = H + \Sigma_1(E) + Ch(E, F, G) + K_i + W_i \mod 2^{32}
+
 $$
 
 - $temp2$:
 
+
 $$
+
 temp2 = \Sigma_0(A) + Maj(A, B, C) \mod 2^{32}
+
 $$
 
 A continuación, actualizamos las variables de estado de la siguiente manera:
 
+
 $$
+
 \begin{cases}
 H = G \\
 G = F \\
 F = E \\
+
 $$
 E = D + \text{temp1} \mod 2^{32} \\
 D = C \\
@@ -426,6 +481,7 @@ El siguiente diagrama representa una ronda de la función de compresión SHA256 
 
 Ya podemos observar que esta ronda produce nuevas variables de estado $A$, $B$, $C$, $D$, $E$, $F$, $G$ y $H$. Estas nuevas variables servirán como entrada para la siguiente ronda, la cual a su vez producirá nuevas variables $A$, $B$, $C$, $D$, $E$, $F$, $G$ y $H$, para ser utilizadas en la ronda siguiente. Este proceso continúa hasta la ronda 64.
 Después de las 64 rondas, actualizamos los valores iniciales de las variables de estado sumándolos a los valores finales al final de la ronda 64:
+
 $$
 \begin{cases}
 A = A_{\text{inicial}} + A \mod 2^{32} \\
@@ -458,6 +514,7 @@ A continuación, al discutir una función hash criptográfica, el término "irre
 3+2 \mod 10 = 5 \\
 7+8 \mod 10 = 5 \\
 5+10 \mod 10 = 5
+
 $$
 
 En este ejemplo, sabiendo solo el módulo utilizado (10) y el resultado (5), no se puede determinar con certeza cuáles son los operandos correctos utilizados en la adición. Se dice que hay múltiples congruencias módulo 10.
@@ -480,14 +537,18 @@ La estructura de SHA256 se basa en la construcción de Merkle-Damgård, que perm
 Sin embargo, algunas funciones hash antiguas como SHA1 o MD5, que utilizan esta construcción específica, son vulnerables a ataques de extensión de longitud. Esta es una técnica que permite a un atacante que conoce el hash de un mensaje $M$ y la longitud de $M$ (sin conocer el mensaje en sí) calcular el hash de un mensaje $M'$ formado por la concatenación de $M$ con contenido adicional.
 SHA256, aunque utiliza el mismo tipo de construcción, es teóricamente resistente a este tipo de ataque, a diferencia de SHA1 y MD5. Esto podría explicar el misterio de la doble hash implementada en todo Bitcoin por Satoshi Nakamoto. Para evitar este tipo de ataque, Satoshi podría haber preferido usar un doble SHA256:
 
+
 $$
+
 \text{HASH256}(m) = \text{SHA256}(\text{SHA256}(m))
+
 $$
 
 Esto mejora la seguridad contra ataques potenciales relacionados con la construcción de Merkle-Damgård, pero no aumenta la seguridad del proceso de hashing en términos de resistencia a colisiones. Además, incluso si SHA256 hubiera sido vulnerable a este tipo de ataque, no habría tenido un impacto grave, ya que todos los casos de uso de funciones hash en Bitcoin involucran datos públicos. Sin embargo, el ataque de extensión de longitud solo sería útil para un atacante si los datos hasheados son privados y el usuario ha utilizado la función hash como un mecanismo de autenticación para estos datos, similar a un MAC. Por lo tanto, la implementación de doble hashing sigue siendo un misterio en el diseño de Bitcoin.
 Ahora que hemos examinado en detalle el funcionamiento de las funciones hash, particularmente SHA256, que se utiliza extensivamente en Bitcoin, nos centraremos más específicamente en los algoritmos de derivación criptográfica utilizados a nivel de aplicación, especialmente para derivar las claves para tu billetera.
 
 ## Los algoritmos utilizados para la derivación
+<chapterId>cc668121-7789-5e99-bf5e-1ba085f4f5f2</chapterId>
 
 En Bitcoin a nivel de aplicación, además de las funciones hash, se utilizan algoritmos de derivación criptográfica para generar datos seguros a partir de entradas iniciales. Aunque estos algoritmos dependen de las funciones hash, sirven para diferentes propósitos, especialmente en términos de autenticación y generación de claves. Estos algoritmos retienen algunas de las características de las funciones hash, como la irreversibilidad, resistencia a la manipulación y resistencia a colisiones.
 
@@ -517,14 +578,20 @@ Estudiemos con más detalle lo que sucede en esta caja negra de HMAC-SHA512. La 
 Antes de calcular el HMAC, es necesario igualar la clave y las constantes de acuerdo con el tamaño de bloque $B$. Por ejemplo, si la clave $K$ es más corta que 128 bytes, se rellena con ceros hasta alcanzar el tamaño $B$. Si $K$ es más larga que 128 bytes, se comprime usando SHA512, y luego se añaden ceros hasta que alcanza 128 bytes. De esta manera, se obtiene una clave igualada denominada $K'$.
 Los valores de $\text{opad}$ y $\text{ipad}$ se obtienen repitiendo su byte base ($0x5c$ para $\text{opad}$, $0x36$ para $\text{ipad}$) hasta que se alcanza el tamaño $B$. Así, con $B = 128$ bytes, tenemos:
 
+
 $$
-\text{opad} = \underbrace{0x5c5c\ldots5c}_{128 \, \text{bytes}}
+
+\text{opad} = \underbrace{0x5c5c\ldots5c}\_{128 \, \text{bytes}}
+
 $$
 
 Una vez hecho el preprocesamiento, el algoritmo HMAC-SHA512 se define por la siguiente ecuación:
 
+
 $$
-\text {HMAC-SHA512}_K(m) = \text{SHA512} \left( (K' \oplus \text{opad}) \parallel \text{SHA512} \left( (K' \oplus \text{ipad}) \parallel m \right) \right)
+
+\text {HMAC-SHA512}\_K(m) = \text{SHA512} \left( (K' \oplus \text{opad}) \parallel \text{SHA512} \left( (K' \oplus \text{ipad}) \parallel m \right) \right)
+
 $$
 
 Esta ecuación se desglosa en los siguientes pasos:
@@ -553,7 +620,9 @@ El proceso PBKDF2 es el siguiente, con:
 - $n$: el número de iteraciones de la función, en nuestro caso, es 2048.
 La función PBKDF2 se define de manera iterativa. Cada iteración toma el resultado de la anterior, lo pasa a través de HMAC-SHA512 y combina los resultados sucesivos para producir la clave final:
 $$
+
 \text{PBKDF2}(m, s) = \text{HMAC-SHA512}^{2048}(m, s)
+
 $$
 
 Esquemáticamente, PBKDF2 se puede representar de la siguiente manera:
@@ -594,8 +663,11 @@ Aquí hay una representación de una curva elíptica sobre el campo de los núme
 
 Cada curva elíptica se define por una ecuación de la forma:
 
+
 $$
+
 y^2 = x^3 + ax + b
+
 $$
 
 ### secp256k1
@@ -604,8 +676,11 @@ Para usar ECDSA o Schnorr, uno debe elegir los parámetros de la curva elíptica
 
 A pesar de esto, Satoshi Nakamoto, el inventor de Bitcoin, eligió no usar esta curva. La razón de esta elección es desconocida, pero algunos creen que prefirió encontrar una alternativa porque los parámetros de esta curva podrían contener potencialmente una puerta trasera. En su lugar, el protocolo de Bitcoin utiliza la curva estándar ***secp256k1***. Esta curva está definida por los parámetros $a = 0$ y $b = 7$. Su ecuación es, por lo tanto:
 
+
 $$
+
 y^2 = x^3 + 7
+
 $$
 
 Su representación gráfica sobre el campo de los números reales se ve así:
@@ -616,20 +691,26 @@ En Bitcoin, el número primo $p$ utilizado para definir el campo finito es muy g
 
 El número primo $p$ utilizado es:
 
-```txt
+```text
 p = 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEFFFFFC2F
 ```
 
 En notación decimal, esto corresponde a:
 
+
 $$
+
 p = 2^{256} - 2^{32} - 977
+
 $$
 
 Por lo tanto, la ecuación de nuestra curva elíptica es en realidad:
 
+
 $$
+
 y^2 \equiv x^3 + 7 \mod p
+
 $$
 
 Dado que esta curva está definida sobre el campo finito $\mathbb{F}_p$, ya no se asemeja a una curva continua sino más bien a un conjunto discreto de puntos. Por ejemplo, aquí está cómo se ve la curva utilizada en Bitcoin para un $p$ muy pequeño, $p = 17$:
@@ -670,8 +751,11 @@ Sin embargo, también es posible representar la clave pública en una forma comp
 
 Para calcular el punto $K$ que corresponde a nuestra clave pública, usamos la operación de multiplicación escalar en curvas elípticas, definida como una adición repetida ($k$ veces) del punto generador $G$:
 
+
 $$
+
 K = k \cdot G
+
 $$
 
 donde:
@@ -687,8 +771,11 @@ La principal característica de esta operación es que es una función unidirecc
 
 El concepto de adición en curvas elípticas se define geométricamente. Si tenemos dos puntos $P$ y $Q$ en la curva, la operación $P + Q$ se calcula trazando una línea que pase por $P$ y $Q$. Esta línea necesariamente intersectará la curva en un tercer punto $R'$. Luego tomamos la imagen espejo de este punto con respecto al eje x para obtener el punto $R$, que es el resultado de la adición:
 
+
 $$
+
 P + Q = R
+
 $$
 
 Gráficamente, esto se puede representar de la siguiente manera:
@@ -697,8 +784,11 @@ Gráficamente, esto se puede representar de la siguiente manera:
 
 Para la duplicación de un punto, es decir, la operación $P + P$, trazamos la tangente a la curva en el punto $P$. Esta tangente intersecta la curva en otro punto $S'$. Luego tomamos la imagen espejo de este punto con respecto al eje x para obtener el punto $S$, que es el resultado de la duplicación:
 
+
 $$
+
 2P = S
+
 $$
 
 Gráficamente, se muestra así:
@@ -709,8 +799,11 @@ Utilizando estas operaciones de adición y duplicación, podemos realizar la mul
 
 Por ejemplo, supongamos que hemos elegido una clave privada $k = 4$. Para calcular la clave pública asociada, realizamos:
 
+
 $$
+
 K = k \cdot G = 4G
+
 $$
 
 Gráficamente, esto corresponde a realizar una serie de adiciones y duplicaciones:
@@ -723,12 +816,18 @@ Si deseamos, por ejemplo, calcular el punto $3G$, primero debemos calcular el pu
 
 Tendremos:
 
-$$
-G + G = 2G
-$$
 
 $$
+
+G + G = 2G
+
+$$
+
+
+$$
+
 2G + G = 3G
+
 $$
 
 Gráficamente, esto se representaría de la siguiente manera:
@@ -738,7 +837,8 @@ Gráficamente, esto se representaría de la siguiente manera:
 Gracias a estas operaciones, podemos entender por qué es fácil derivar una clave pública a partir de una clave privada, pero lo contrario es prácticamente imposible.
 
 Volvamos a nuestro ejemplo simplificado. Con una clave privada $k = 4$. Para calcular la clave pública asociada, realizamos:
-K = k \cdot G = 4G$$
+K = k \cdot G = 4G
+$$
 
 Así hemos podido calcular fácilmente la clave pública $K$ conociendo $k$ y $G$.
 
@@ -747,9 +847,10 @@ Ahora, si alguien solo conoce la clave pública $K$, se enfrenta al problema del
 Por supuesto, en este ejemplo simplificado con $k = 4$, sería posible encontrar $k$ mediante prueba y error, ya que el número de posibilidades es bajo. Sin embargo, en la práctica en Bitcoin, $k$ es un entero de 256 bits, lo que hace que el número de posibilidades sea astronómicamente grande (alrededor de $1.158 \times 10^{77}$). Por lo tanto, es inviable encontrar $k$ por fuerza bruta.
 
 ## Firmando con la Clave Privada
+
 <chapterId>bb07826f-826e-5905-b307-3d82001fb778</chapterId>
 
-Ahora que sabes cómo derivar una clave pública a partir de una clave privada, ya puedes recibir bitcoins utilizando este par de claves como condición de gasto. Pero, ¿cómo gastarlos? Para gastar bitcoins, necesitarás desbloquear el *scriptPubKey* adjunto a tu UTXO para probar que eres de hecho su legítimo propietario. Para hacer esto, debes producir una firma $s$ que coincida con la clave pública $K$ presente en el *scriptPubKey* utilizando la clave privada $k$ que se utilizó inicialmente para calcular $K$. La firma digital es así una prueba irrefutable de que estás en posesión de la clave privada asociada con la clave pública que reclamas.
+Ahora que sabes cómo derivar una clave pública a partir de una clave privada, ya puedes recibir bitcoins utilizando este par de claves como condición de gasto. Pero, ¿cómo gastarlos? Para gastar bitcoins, necesitarás desbloquear el _scriptPubKey_ adjunto a tu UTXO para probar que eres de hecho su legítimo propietario. Para hacer esto, debes producir una firma $s$ que coincida con la clave pública $K$ presente en el _scriptPubKey_ utilizando la clave privada $k$ que se utilizó inicialmente para calcular $K$. La firma digital es así una prueba irrefutable de que estás en posesión de la clave privada asociada con la clave pública que reclamas.
 
 ### Parámetros de la Curva Elíptica
 
@@ -761,7 +862,7 @@ $$
 p = 2^{256} - 2^{32} - 977
 $$
 
-```txt
+```text
 p = 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEFFFFFC2F
 ```
 
@@ -775,14 +876,16 @@ $$
 
 El punto generador o punto de origen $G$:
 
-```txt
+```text
 G = 0x0279BE667EF9DCBBAC55A06295CE870B07029BFCDB2DCE28D959F2815B16F81798
 ```
+
 Este número es la forma comprimida que solo da la abscisa del punto $G$. El prefijo `02` al principio determina cuál de los dos valores que tienen esta abscisa $x$ se debe usar como punto generador.
 El orden $n$ de $G$ (el número de puntos existentes) y el cofactor $h$:
 
-```txt
-$n = 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEBAAEDCE6AF48A03BBFD25E8CD0364141```
+```text
+$n = 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEBAAEDCE6AF48A03BBFD25E8CD0364141
+```
 
 $n$ es un número muy grande ligeramente menor que $p$.
 
@@ -796,7 +899,7 @@ Toda esta información es pública y conocida por todos los participantes. Graci
 
 ### Firma con ECDSA
 
-El algoritmo ECDSA permite a un usuario firmar un mensaje usando su clave privada, de tal manera que cualquiera que conozca la clave pública correspondiente puede verificar la validez de la firma, sin que la clave privada sea revelada. En el contexto de Bitcoin, el mensaje a firmar depende del *sighash* elegido por el usuario. Es este *sighash* el que determinará qué partes de la transacción están cubiertas por la firma. Hablaré más sobre esto en el próximo capítulo.
+El algoritmo ECDSA permite a un usuario firmar un mensaje usando su clave privada, de tal manera que cualquiera que conozca la clave pública correspondiente puede verificar la validez de la firma, sin que la clave privada sea revelada. En el contexto de Bitcoin, el mensaje a firmar depende del _sighash_ elegido por el usuario. Es este _sighash_ el que determinará qué partes de la transacción están cubiertas por la firma. Hablaré más sobre esto en el próximo capítulo.
 
 Aquí están los pasos para generar una firma ECDSA:
 
@@ -821,6 +924,7 @@ s = r^{-1} \left( e + k \cdot x_R \right) \mod n
 $$
 
 donde:
+
 - $r^{-1}$ es el inverso modular de $r$ módulo $n$, es decir, un entero tal que $r \cdot r^{-1} \equiv 1 \mod n$;
 - $k$ es la clave privada del usuario;
 - $e$ es el hash del mensaje;
@@ -884,7 +988,8 @@ Además del mensaje, la coordenada $x$ de la clave pública $K_x$, así como un 
 El resultado de este hash, notado $e$, se llama el "desafío":
 
 $$
-e = \text{HASH}(\text{``BIP0340/challenge''}, R_x \Vert K_x \Vert m) \mod n$$
+e = \text{HASH}(\text{``BIP0340/challenge''}, R_x \Vert K_x \Vert m) \mod n
+$$
 
 Aquí, $\text{HASH}$ es la función de hash SHA256, y \text{``BIP0340/challenge''} es la etiqueta específica para el hashing.
 
@@ -959,9 +1064,12 @@ Bueno, realmente no sabemos por qué Satoshi no lo eligió, pero una hipótesis 
 
 ## Los flags de sighash
 
+<chapterId>231c41a2-aff2-4655-9048-47b6d2d83d64</chapterId>
+
 Como hemos visto en capítulos anteriores, las firmas digitales se utilizan a menudo para desbloquear el script de una entrada. En el proceso de firma, es necesario incluir los datos firmados en el cálculo, designados en nuestros ejemplos por el mensaje $m$. Estos datos, una vez firmados, no pueden ser modificados sin invalidar la firma. De hecho, ya sea para ECDSA o Schnorr, el verificador de la firma debe incluir en su cálculo el mismo mensaje $m$. Si difiere del mensaje $m$ inicialmente utilizado por el firmante, el resultado será incorrecto y la firma se considerará inválida. Entonces se dice que una firma cubre ciertos datos y los protege, de cierta manera, contra modificaciones no autorizadas.
 
 ### ¿Qué es un flag de sighash?
+
 En el caso específico de Bitcoin, hemos visto que el mensaje $m$ corresponde a la transacción. Sin embargo, en realidad, es un poco más complejo. De hecho, gracias a los flags de sighash, es posible seleccionar datos específicos dentro de la transacción que estarán cubiertos o no por la firma.
 El "flag de sighash" es, por lo tanto, un parámetro agregado a cada entrada, permitiendo la determinación de los componentes de una transacción que están cubiertos por la firma asociada. Estos componentes son las entradas y las salidas. La elección del flag de sighash determina así cuáles entradas y cuáles salidas de la transacción son fijadas por la firma y cuáles pueden aún ser modificadas sin invalidarla. Este mecanismo permite que las firmas comprometan datos de la transacción de acuerdo con las intenciones del firmante.
 Obviamente, una vez que la transacción es confirmada en la blockchain, se vuelve inmutable, independientemente de los flags de sighash utilizados. La posibilidad de modificación a través de los flags de sighash está limitada al período entre la firma y la confirmación.
@@ -980,8 +1088,9 @@ En todos los diagramas de este capítulo, el color naranja representa los elemen
 - `SIGHASH_NONE` (`0x02`): La firma cubre todas las entradas pero ninguna de las salidas, permitiendo así la modificación de las salidas después de la firma. En términos concretos, esto es similar a un cheque en blanco. El firmante desbloquea los UTXOs en las entradas pero deja el campo de las salidas completamente modificable. Cualquiera que conozca esta transacción puede así agregar la salida de su elección, por ejemplo especificando una dirección de recepción para recoger los fondos consumidos por las entradas, y luego transmitir la transacción para recuperar los bitcoins. La firma del propietario de las entradas no será invalidada, ya que solo cubre las entradas.
 
 ![CYP201](assets/fr/027.webp)
-- `SIGHASH_SINGLE` (`0x03`): La firma cubre todas las entradas así como una única salida, correspondiente al índice de la entrada firmada. Por ejemplo, si la firma desbloquea el *scriptPubKey* de la entrada #0, entonces también cubre la salida #0. La firma también protege todas las otras entradas, las cuales ya no pueden ser modificadas. Sin embargo, cualquiera puede agregar una salida adicional sin invalidar la firma, siempre que la salida #0, que es la única cubierta por ella, no sea modificada.
-![CYP201](assets/fr/028.webp)
+
+- `SIGHASH_SINGLE` (`0x03`): La firma cubre todas las entradas así como una única salida, correspondiente al índice de la entrada firmada. Por ejemplo, si la firma desbloquea el _scriptPubKey_ de la entrada #0, entonces también cubre la salida #0. La firma también protege todas las otras entradas, las cuales ya no pueden ser modificadas. Sin embargo, cualquiera puede agregar una salida adicional sin invalidar la firma, siempre que la salida #0, que es la única cubierta por ella, no sea modificada.
+  ![CYP201](assets/fr/028.webp)
 
 Además de estos tres flags de sighash, también existe el modificador `SIGHASH_ANYONECANPAY` (`0x80`). Este modificador puede combinarse con un flag de sighash básico para crear tres nuevos flags de sighash:
 
@@ -992,12 +1101,13 @@ Además de estos tres flags de sighash, también existe el modificador `SIGHASH_
 - `SIGHASH_NONE | SIGHASH_ANYONECANPAY` (`0x82`): La firma cubre una única entrada, sin comprometerse con ninguna salida;
 
 ![CYP201](assets/fr/030.webp)
-- `SIGHASH_SINGLE | SIGHASH_ANYONECANPAY` (`0x83`): La firma cubre una sola entrada así como la salida que tiene el mismo índice que esta entrada. Por ejemplo, si la firma desbloquea el *scriptPubKey* de la entrada #3, también cubrirá la salida #3. El resto de la transacción permanece modificable, tanto en términos de otras entradas como de otras salidas.
-![CYP201](assets/fr/031.webp)
+
+- `SIGHASH_SINGLE | SIGHASH_ANYONECANPAY` (`0x83`): La firma cubre una sola entrada así como la salida que tiene el mismo índice que esta entrada. Por ejemplo, si la firma desbloquea el _scriptPubKey_ de la entrada #3, también cubrirá la salida #3. El resto de la transacción permanece modificable, tanto en términos de otras entradas como de otras salidas.
+  ![CYP201](assets/fr/031.webp)
 
 ### Proyectos para Agregar Nuevas Banderas de Sighash
 
-Actualmente (2024), solo las banderas de sighash presentadas en la sección anterior son utilizables en Bitcoin. Sin embargo, algunos proyectos están considerando la adición de nuevas banderas de sighash. Por ejemplo, el BIP118, propuesto por Christian Decker y Anthony Towns, introduce dos nuevas banderas de sighash: `SIGHASH_ANYPREVOUT` y `SIGHASH_ANYPREVOUTANYSCRIPT` (*AnyPrevOut = "Cualquier Salida Anterior"*).
+Actualmente (2024), solo las banderas de sighash presentadas en la sección anterior son utilizables en Bitcoin. Sin embargo, algunos proyectos están considerando la adición de nuevas banderas de sighash. Por ejemplo, el BIP118, propuesto por Christian Decker y Anthony Towns, introduce dos nuevas banderas de sighash: `SIGHASH_ANYPREVOUT` y `SIGHASH_ANYPREVOUTANYSCRIPT` (_AnyPrevOut = "Cualquier Salida Anterior"_).
 
 Estas dos banderas de sighash ofrecerían una posibilidad adicional en Bitcoin: crear firmas que no cubren ninguna entrada específica de la transacción.
 
@@ -1013,9 +1123,11 @@ https://planb.network/courses/lnp201
 En la siguiente parte, propongo descubrir cómo funciona la frase mnemónica en la base de tu billetera Bitcoin.
 
 # La frase mnemónica
+
 <partId>4070af16-c8a2-58b5-9871-a22c86c07458</partId>
 
 ## Evolución de las billeteras Bitcoin
+
 <chapterId>9d9acd5d-a0e5-5dfd-b544-f043fae8840f</chapterId>
 
 Ahora que hemos explorado el funcionamiento de las funciones hash y las firmas digitales, podemos estudiar cómo funcionan las billeteras Bitcoin. El objetivo será imaginar cómo se construye una billetera en Bitcoin, cómo se descompone y cuáles son las diferentes piezas de información que la constituyen y para qué se utilizan. Este entendimiento de los mecanismos de la billetera te permitirá mejorar tu uso de Bitcoin en términos de seguridad y privacidad.
@@ -1024,11 +1136,12 @@ Antes de sumergirnos en los detalles técnicos, es esencial aclarar qué se enti
 
 ### ¿Qué es una billetera Bitcoin?
 
-A diferencia de las billeteras tradicionales, que te permiten almacenar billetes y monedas físicas, una billetera Bitcoin no "contiene" bitcoins per se. De hecho, los bitcoins no existen en una forma física o digital que pueda ser almacenada, sino que están representados por unidades de cuenta descritas en el sistema en forma de **UTXOs** (*Salida de Transacción No Gastada*).
-Los UTXOs representan fragmentos de bitcoins, de diversos tamaños, que pueden ser gastados siempre que su *scriptPubKey* sea satisfecho. Para gastar sus bitcoins, un usuario debe proporcionar un *scriptSig* que desbloquee el *scriptPubKey* asociado con su UTXO. Esta prueba generalmente se realiza a través de una firma digital, generada desde la clave privada correspondiente a la clave pública presente en el *scriptPubKey*. Por lo tanto, el elemento crucial que el usuario debe asegurar es la clave privada. El papel de una billetera de Bitcoin es precisamente gestionar estas claves privadas de manera segura. En realidad, su papel es más similar al de un llavero que al de una billetera en el sentido tradicional.
-### JBOK Wallets (*Just a Bunch Of Keys*)
+A diferencia de las billeteras tradicionales, que te permiten almacenar billetes y monedas físicas, una billetera Bitcoin no "contiene" bitcoins per se. De hecho, los bitcoins no existen en una forma física o digital que pueda ser almacenada, sino que están representados por unidades de cuenta descritas en el sistema en forma de **UTXOs** (_Salida de Transacción No Gastada_).
+Los UTXOs representan fragmentos de bitcoins, de diversos tamaños, que pueden ser gastados siempre que su _scriptPubKey_ sea satisfecho. Para gastar sus bitcoins, un usuario debe proporcionar un _scriptSig_ que desbloquee el _scriptPubKey_ asociado con su UTXO. Esta prueba generalmente se realiza a través de una firma digital, generada desde la clave privada correspondiente a la clave pública presente en el _scriptPubKey_. Por lo tanto, el elemento crucial que el usuario debe asegurar es la clave privada. El papel de una billetera de Bitcoin es precisamente gestionar estas claves privadas de manera segura. En realidad, su papel es más similar al de un llavero que al de una billetera en el sentido tradicional.
 
-Las primeras billeteras utilizadas en Bitcoin fueron las billeteras JBOK (*Just a Bunch Of Keys*), que agrupaban claves privadas generadas de manera independiente y sin ningún vínculo entre ellas. Estas billeteras operaban en un modelo simple donde cada clave privada podía desbloquear una dirección de recepción de Bitcoin única.
+### JBOK Wallets (_Just a Bunch Of Keys_)
+
+Las primeras billeteras utilizadas en Bitcoin fueron las billeteras JBOK (_Just a Bunch Of Keys_), que agrupaban claves privadas generadas de manera independiente y sin ningún vínculo entre ellas. Estas billeteras operaban en un modelo simple donde cada clave privada podía desbloquear una dirección de recepción de Bitcoin única.
 
 ![CYP201](assets/fr/033.webp)
 
@@ -1040,13 +1153,15 @@ Para aprender más sobre el modelo de privacidad de Bitcoin y descubrir métodos
 
 https://planb.network/courses/btc204
 
-### HD Wallets (*Hierarchical Deterministic*)
+### HD Wallets (_Hierarchical Deterministic_)
+
 Para abordar la limitación de las billeteras JBOK, posteriormente se utilizó una nueva estructura de billetera. En 2012, Pieter Wuille introdujo una mejora con BIP32, que introduce billeteras deterministas jerárquicas. El principio de una billetera HD es derivar todas las claves privadas de una única fuente de información, llamada semilla, de manera determinista y jerárquica. Esta semilla se genera aleatoriamente cuando se crea la billetera y constituye una copia de seguridad única que permite la recreación de todas las claves privadas de la billetera. Así, el usuario puede generar un número muy grande de claves privadas para evitar la reutilización de direcciones y preservar su privacidad, mientras que solo necesita hacer una única copia de seguridad de su billetera a través de la semilla.
 ![CYP201](assets/fr/034.webp)
 
 En las billeteras HD, la derivación de claves se realiza de acuerdo con una estructura jerárquica que permite organizar las claves en subespacios de derivación, cada subespacio siendo aún más subdivisible, para facilitar la gestión de fondos y la interoperabilidad entre diferentes software de billetera. Hoy en día, este estándar es adoptado por la gran mayoría de los usuarios de Bitcoin. Por esta razón, lo examinaremos en detalle en los siguientes capítulos.
 
 ### El Estándar BIP39: La Frase Mnemotécnica
+
 Además de BIP32, BIP39 estandariza el formato de la semilla como una frase mnemotécnica, para facilitar la copia de seguridad y la legibilidad por parte de los usuarios. La frase mnemotécnica, también llamada frase de recuperación o frase de 24 palabras, es una secuencia de palabras extraídas de una lista predefinida que codifica de manera segura la semilla de la cartera.
 
 La frase mnemotécnica simplifica enormemente la copia de seguridad para el usuario. En caso de pérdida, daño o robo del dispositivo que aloja la cartera, simplemente con conocer esta frase mnemotécnica permite la recreación de la cartera y la recuperación del acceso a todos los fondos asegurados por ella.
@@ -1054,8 +1169,10 @@ La frase mnemotécnica simplifica enormemente la copia de seguridad para el usua
 En los próximos capítulos, exploraremos el funcionamiento interno de las carteras HD, incluyendo los mecanismos de derivación de claves y las diferentes estructuras jerárquicas posibles. Esto te permitirá entender mejor los fundamentos criptográficos sobre los cuales se basa la seguridad de los fondos en Bitcoin. Y para comenzar, en el próximo capítulo, propongo que descubramos el papel de la entropía en la base de tu cartera.
 
 ## Entropía y Número Aleatorio
+
 <chapterId>b43c715d-affb-56d8-a697-ad5bc2fffd63</chapterId>
 Las carteras HD modernas (deterministas y jerárquicas) dependen de una única pieza inicial de información llamada "entropía" para generar de manera determinista el conjunto completo de claves de la cartera. Esta entropía es un número pseudoaleatorio cuyo nivel de caos determina en parte la seguridad de la cartera.
+
 ### Definición de Entropía
 
 La entropía, en el contexto de la criptografía y la información, es una medida cuantitativa de la incertidumbre o imprevisibilidad asociada con una fuente de datos o un proceso aleatorio. Juega un papel importante en la seguridad de los sistemas criptográficos, especialmente en la generación de claves y números aleatorios. Una alta entropía asegura que las claves generadas sean suficientemente impredecibles y resistentes a ataques de fuerza bruta, donde un atacante intenta todas las combinaciones posibles para adivinar la clave.
@@ -1065,10 +1182,11 @@ En el contexto de Bitcoin, la entropía se utiliza para generar la semilla. Al c
 ### Métodos de Generación de Entropía
 
 La entropía inicial utilizada para una cartera HD es generalmente de 128 bits o 256 bits, donde:
+
 - **128 bits de entropía** corresponden a una frase mnemotécnica de **12 palabras**;
 - **256 bits de entropía** corresponden a una frase mnemotécnica de **24 palabras**.
 
-En la mayoría de los casos, este número aleatorio se genera automáticamente por el software de la cartera utilizando un PRNG (*Pseudo-Random Number Generator*). Los PRNG son una categoría de algoritmos utilizados para generar secuencias de números a partir de un estado inicial, que tienen características que se acercan a las de un número aleatorio, sin serlo realmente. Un buen PRNG debe tener propiedades como uniformidad de salida, imprevisibilidad y resistencia a ataques predictivos. A diferencia de los generadores de números aleatorios verdaderos (TRNG), los PRNG son deterministas y reproducibles.
+En la mayoría de los casos, este número aleatorio se genera automáticamente por el software de la cartera utilizando un PRNG (_Pseudo-Random Number Generator_). Los PRNG son una categoría de algoritmos utilizados para generar secuencias de números a partir de un estado inicial, que tienen características que se acercan a las de un número aleatorio, sin serlo realmente. Un buen PRNG debe tener propiedades como uniformidad de salida, imprevisibilidad y resistencia a ataques predictivos. A diferencia de los generadores de números aleatorios verdaderos (TRNG), los PRNG son deterministas y reproducibles.
 
 ![CYP201](assets/fr/035.webp)
 
@@ -1077,6 +1195,7 @@ Una alternativa es generar manualmente la entropía, lo que ofrece un mejor cont
 En el próximo capítulo, veremos cómo pasamos de un número aleatorio a una frase mnemotécnica de 12 o 24 palabras.
 
 ## La Frase Mnemotécnica
+
 <chapterId>8f9340c1-e6dc-5557-a2f2-26c9669987d5</chapterId>
 La frase mnemotécnica, también llamada "frase semilla", "frase de recuperación", "frase secreta" o "frase de 24 palabras", es una secuencia compuesta usualmente de 12 o 24 palabras, que se genera a partir de la entropía. Se utiliza para derivar de manera determinista todas las claves de una cartera HD (Hierarchical Deterministic Wallet). Esto significa que a partir de esta frase, es posible generar y recrear de manera determinista todas las claves privadas y públicas de la cartera de Bitcoin, y consecuentemente acceder a los fondos que están protegidos con ella. El propósito de la frase mnemotécnica es proporcionar un medio de respaldo y recuperación de bitcoins que sea seguro y fácil de usar. Fue introducida en los estándares en 2013 con el BIP39.
 Descubramos juntos cómo pasar de la entropía a una frase mnemotécnica.
@@ -1106,6 +1225,7 @@ Una vez calculada la suma de verificación, se concatena con la entropía para o
 ### Correspondencia entre la Entropía y la Frase Mnemotécnica
 
 El número de palabras en la frase mnemotécnica depende del tamaño de la entropía inicial, como se ilustra en la siguiente tabla con:
+
 - $\text{ENT}$: el tamaño en bits de la entropía;
 - $\text{CS}$: el tamaño en bits de la suma de verificación;
 - $w$: el número de palabras en la frase mnemotécnica final.
@@ -1144,8 +1264,11 @@ Sin embargo, esta diferencia en la seguridad a nivel de frase no mejora la segur
 
 Para claves de 256 bits, como las utilizadas en Bitcoin, el algoritmo rho de Pollard reduce así la complejidad a $2^{128}$ operaciones:
 
+
 $$
+
 O(\sqrt{2^{256}}) = O(2^{128})
+
 $$
 
 Por lo tanto, se considera que una clave privada utilizada en Bitcoin ofrece 128 bits de seguridad.
@@ -1171,13 +1294,13 @@ La frase de paso trabaja en conjunto con la frase mnemotécnica, modificando la 
 
 ![CYP201](assets/fr/041.webp)
 
-## ¿Por qué deberías usar una frase de paso?
+### ¿Por qué deberías usar una frase de paso?
 
 La frase de paso es arbitraria y puede ser cualquier combinación de caracteres elegida por el usuario. Usar una frase de paso ofrece varias ventajas. En primer lugar, reduce todos los riesgos asociados con el compromiso de la frase mnemotécnica al requerir un segundo factor para acceder a los fondos (robo, acceso a tu hogar, etc.).
 
 Luego, puede usarse estratégicamente para crear una billetera señuelo, para enfrentar restricciones físicas para robar tus fondos como el infame "_ataque de la llave inglesa de 5 dólares_". En este escenario, la idea es tener una billetera sin frase de paso que contenga solo una pequeña cantidad de bitcoins, suficiente para satisfacer a un posible agresor, mientras se tiene una billetera oculta. Esta última utiliza la misma frase mnemotécnica pero está asegurada con una frase de paso adicional.
 Finalmente, el uso de una frase de paso es interesante cuando se desea controlar la aleatoriedad de la generación de la semilla de la billetera HD.
-## ¿Cómo elegir una buena frase de paso?
+### ¿Cómo elegir una buena frase de paso?
 
 Para que la frase de paso sea efectiva, debe ser suficientemente larga y aleatoria. Al igual que con una contraseña fuerte, recomiendo elegir una frase de paso que sea lo más larga y aleatoria posible, con una diversidad de letras, números y símbolos para hacer cualquier ataque de fuerza bruta imposible.
 También es importante guardar adecuadamente esta frase de contraseña, de la misma manera que la frase mnemotécnica. **Perderla significa perder el acceso a tus bitcoins**. Aconsejo encarecidamente no recordarla solo de memoria, ya que esto aumenta de manera irrazonable el riesgo de pérdida. Lo ideal es anotarla en un medio físico (papel o metal) separado de la frase mnemotécnica. Esta copia de seguridad debe, obviamente, almacenarse en un lugar diferente de donde se guarda tu frase mnemotécnica para evitar que ambos se vean comprometidos simultáneamente.
@@ -1209,8 +1332,11 @@ Independientemente de la longitud de la frase mnemotécnica elegida (132 bits o 
 
 La siguiente ecuación ilustra la derivación de la semilla a partir de la frase mnemotécnica y la frase de contraseña:
 
+
 $$
-s = \text{PBKDF2}_{\text{HMAC-SHA512}}(m, p, 2048)
+
+s = \text{PBKDF2}\_{\text{HMAC-SHA512}}(m, p, 2048)
+
 $$
 
 ![CYP201](assets/fr/044.webp)
@@ -1228,8 +1354,11 @@ Para obtener la llave privada maestra y el código de cadena maestro, se aplica 
 - $s$: la semilla de la cartera de 512 bits;
 - $\text{"Bitcoin Seed"}$: la constante de derivación común para todas las carteras Bitcoin.
 
+
 $$
+
 \text{output} = \text{HMAC-SHA512}(\text{"Bitcoin Seed"}, s)
+
 $$
 
 La salida de esta función es, por lo tanto, de 512 bits. Luego se divide en 2 partes:
@@ -1237,11 +1366,16 @@ La salida de esta función es, por lo tanto, de 512 bits. Luego se divide en 2 p
 - Los 256 bits derechos forman el **código de cadena maestro**.
 Matemáticamente, estos dos valores se pueden notar de la siguiente manera con $k_M$ siendo la llave privada maestra y $C_M$ el código de cadena maestro:
 $$
-k_M = \text{HMAC-SHA512}(\text{"Bitcoin Seed"}, s)_{[:256]}
-$$
+
+k*M = \text{HMAC-SHA512}(\text{"Bitcoin Seed"}, s)*{[:256]}
 
 $$
-C_M = \text{HMAC-SHA512}(\text{"Bitcoin Seed"}, s)_{[256:]}
+
+
+$$
+
+C*M = \text{HMAC-SHA512}(\text{"Bitcoin Seed"}, s)*{[256:]}
+
 $$
 
 ![CYP201](assets/fr/045.webp)
@@ -1335,28 +1469,28 @@ Para entender mejor la estructura interna de una clave extendida, tomemos una co
 
 - **En Base58**:
 
-```txt
+```text
 xpub6CTNzMUkzpurBWaT4HQoYzLP4uBbGJuWY358Rj7rauiw4rMHCyq3Rfy9w4kyJXJzeFfyrKLUar2rUCukSiDQFa7roTwzjiAhyQAdPLEjqHT
 ```
 
 - **En hexadecimal**:
 
-```txt
+```text
 0488B21E036D5601AD80000000C605DF9FBD77FD6965BD02B77831EC5C78646AD3ACA14DC3984186F72633A89303772CCB99F4EF346078D167065404EED8A58787DED31BFA479244824DF50658051F067C3A
 ```
 
 Esta clave extendida se desglosa en varios elementos distintos:
 
-1. **Versión**: `0488B21E`  
+1. **Versión**: `0488B21E`
 
-Los primeros 4 bytes son la versión. Aquí, corresponde a una clave pública extendida en el Mainnet con un propósito de derivación de *Legacy* o *SegWit v1*.
+Los primeros 4 bytes son la versión. Aquí, corresponde a una clave pública extendida en el Mainnet con un propósito de derivación de _Legacy_ o _SegWit v1_.
 
-2. **Profundidad**: `03`  
+2. **Profundidad**: `03`
 
 Este campo indica el nivel jerárquico de la clave dentro de la cartera HD. En este caso, una profundidad de `03` significa que esta clave es tres niveles de derivación por debajo de la clave maestra.
 
 3. **Huella digital del padre**: `6D5601AD`
-Estos son los primeros 4 bytes del hash HASH160 de la clave pública padre que se utilizó para derivar este `xpub`.
+   Estos son los primeros 4 bytes del hash HASH160 de la clave pública padre que se utilizó para derivar este `xpub`.
 4. **Número de índice**: `80000000`
 
 Este índice indica la posición de la clave entre los hijos de su padre. El prefijo `0x80` indica que la clave se deriva de manera endurecida, y dado que el resto está lleno de ceros, indica que esta clave es la primera entre sus posibles hermanos.
@@ -1370,9 +1504,10 @@ El checksum corresponde a los primeros 4 bytes del hash (doble SHA256) de todo l
 En este capítulo, descubrimos que existen dos tipos diferentes de claves hijas. También aprendimos que la derivación de estas claves hijas requiere una clave (ya sea privada o pública) y su código de cadena. En el próximo capítulo, examinaremos en detalle la naturaleza de estos diferentes tipos de claves y cómo derivarlas de su clave padre y código de cadena.
 
 ## Derivación de Pares de Claves Hijas
+
 <chapterId>61c0807c-845b-5076-ad06-7f395b36adfd</chapterId>
 
-La derivación de pares de claves hijas en las carteras HD de Bitcoin se basa en una estructura jerárquica que permite generar un gran número de claves, mientras organiza estos pares en diferentes grupos a través de ramas. Cada par hijo derivado de un par padre puede usarse directamente en un *scriptPubKey* para bloquear bitcoins, o como punto de partida para generar más claves hijas, y así sucesivamente, para crear un árbol de claves.
+La derivación de pares de claves hijas en las carteras HD de Bitcoin se basa en una estructura jerárquica que permite generar un gran número de claves, mientras organiza estos pares en diferentes grupos a través de ramas. Cada par hijo derivado de un par padre puede usarse directamente en un _scriptPubKey_ para bloquear bitcoins, o como punto de partida para generar más claves hijas, y así sucesivamente, para crear un árbol de claves.
 
 Todas estas derivaciones comienzan con la clave maestra y el código de cadena maestro, que son los primeros padres en el nivel de profundidad 0. Son, de cierta manera, el Adán y Eva de las claves de tu cartera, ancestros comunes de todas las claves derivadas.
 
@@ -1383,12 +1518,15 @@ Exploraremos cómo funciona esta derivación determinista.
 ### Los Diferentes Tipos de Derivaciones de Claves Hijas
 
 Como mencionamos brevemente en el capítulo anterior: las claves hijas se dividen en dos tipos principales:
+
 1. **Claves hijas normales** ($k_{\text{CHD}}^n, K_{\text{CHD}}^n$): Estas se derivan de la clave pública extendida ($K_{\text{PAR}}$), o de la clave privada extendida ($k_{\text{PAR}}$), derivando primero la clave pública.
 2. **Claves hijas endurecidas** ($k_{\text{CHD}}^h, K_{\text{CHD}}^h$): Estas solo pueden derivarse de la clave privada extendida ($k_{\text{PAR}}$) y, por lo tanto, son invisibles para los observadores que solo tienen la clave pública extendida.
-Cada par de claves hijo se identifica por un **índice** de 32 bits (denominado $i$ en nuestros cálculos). Los índices para las claves normales van de $0$ a $2^{31}-1$, mientras que los de las claves endurecidas van de $2^{31}$ a $2^{32}-1$. Estos números se utilizan para distinguir entre pares de claves hermanas durante la derivación. De hecho, cada par de claves padre debe ser capaz de derivar múltiples pares de claves hijo. Si aplicáramos el mismo cálculo sistemáticamente desde las claves padre, todas las claves hermanas obtenidas serían idénticas, lo cual no es deseable. El índice introduce así una variable que modifica el cálculo de derivación, permitiendo diferenciar cada par de hermanos. Excepto por el uso específico en ciertos protocolos y estándares de derivación, generalmente comenzamos derivando la primera clave hijo con el índice `0`, la segunda con el índice `1`, y así sucesivamente.
+   Cada par de claves hijo se identifica por un **índice** de 32 bits (denominado $i$ en nuestros cálculos). Los índices para las claves normales van de $0$ a $2^{31}-1$, mientras que los de las claves endurecidas van de $2^{31}$ a $2^{32}-1$. Estos números se utilizan para distinguir entre pares de claves hermanas durante la derivación. De hecho, cada par de claves padre debe ser capaz de derivar múltiples pares de claves hijo. Si aplicáramos el mismo cálculo sistemáticamente desde las claves padre, todas las claves hermanas obtenidas serían idénticas, lo cual no es deseable. El índice introduce así una variable que modifica el cálculo de derivación, permitiendo diferenciar cada par de hermanos. Excepto por el uso específico en ciertos protocolos y estándares de derivación, generalmente comenzamos derivando la primera clave hijo con el índice `0`, la segunda con el índice `1`, y así sucesivamente.
+
 ### Proceso de Derivación con HMAC-SHA512
 
 La derivación de cada clave hijo se basa en la función HMAC-SHA512, la cual discutimos en la Sección 2 sobre funciones hash. Toma dos entradas: el código de cadena padre $C_{\text{PAR}}$ y la concatenación de la clave padre (ya sea la clave pública $K_{\text{PAR}}$ o la clave privada $k_{\text{PAR}}$, dependiendo del tipo de clave hijo deseada) y el índice. La salida del HMAC-SHA512 es una secuencia de 512 bits, dividida en dos partes:
+
 - **Los primeros 32 bytes** (o $h_1$) se utilizan para calcular el nuevo par hijo.
 - **Los últimos 32 bytes** (o $h_2$) sirven como el nuevo código de cadena $C_{\text{CHD}}$ para el par hijo.
 
@@ -1402,32 +1540,49 @@ Para derivar una clave privada hijo $k_{\text{CHD}}$ de una clave privada padre 
 
 Para una **clave hijo normal** ($i < 2^{31}$), el cálculo de $\text{hash}$ es el siguiente:
 
+
 $$
-\text{hash} = \text{HMAC-SHA512}(C_{\text{PAR}}, G \cdot k_{\text{PAR}} \Vert i)
+
+\text{hash} = \text{HMAC-SHA512}(C*{\text{PAR}}, G \cdot k*{\text{PAR}} \Vert i)
+
 $$
+
 En este cálculo, observamos que nuestra función HMAC toma dos entradas: primero, el código de cadena padre, y luego la concatenación del índice con la clave pública asociada a la clave privada padre. La clave pública padre se utiliza aquí porque estamos buscando derivar una clave hijo normal, no una endurecida.
 Ahora tenemos un $\text{hash}$ de 64 bytes que dividiremos en 2 partes de 32 bytes cada una: $h_1$ y $h_2$:
 
-$$
-\text{hash} = h_1 \Vert h_2
-$$
 
 $$
-h_1 = \text{hash}_{[:32]} \quad, \quad h_2 = \text{hash}_{[32:]}
+
+\text{hash} = h_1 \Vert h_2
+
+$$
+
+
+$$
+
+h*1 = \text{hash}*{[:32]} \quad, \quad h*2 = \text{hash}*{[32:]}
+
 $$
 
 La clave privada hijo $k_{\text{CHD}}^n$ se calcula entonces de la siguiente manera:
 
+
 $$
-k_{\text{CHD}}^n = \text{parse256}(h_1) + k_{\text{PAR}} \mod n
+
+k*{\text{CHD}}^n = \text{parse256}(h_1) + k*{\text{PAR}} \mod n
+
 $$
+
 En este cálculo, la operación $\text{parse256}(h_1)$ consiste en interpretar los primeros 32 bytes del $\text{hash}$ como un entero de 256 bits. Este número se suma luego a la clave privada padre, todo tomado módulo $n$ para permanecer dentro del orden de la curva elíptica, como vimos en la sección 3 sobre firmas digitales. Así, para derivar una clave privada de hijo normal, aunque la clave pública padre se usa como base para el cálculo en las entradas de la función HMAC-SHA512, siempre es necesario tener la clave privada padre para finalizar el cálculo.
 A partir de esta clave privada de hijo, es posible derivar la clave pública correspondiente aplicando ECDSA o Schnorr. De esta manera, obtenemos un par completo de claves.
 
 Luego, la segunda parte del $\text{hash}$ se interpreta simplemente como el código de cadena para el par de claves de hijo que acabamos de derivar:
 
+
 $$
-C_{\text{CHD}} = h_2
+
+C\_{\text{CHD}} = h_2
+
 $$
 
 Aquí hay una representación esquemática de la derivación general:
@@ -1436,30 +1591,46 @@ Aquí hay una representación esquemática de la derivación general:
 
 Para una **clave de hijo endurecida** ($i \geq 2^{31}$), el cálculo del $\text{hash}$ es como sigue:
 
+
 $$
-hash = \text{HMAC-SHA512}(C_{\text{PAR}}, 0x00 \Vert k_{\text{PAR}} \Vert i)
+
+hash = \text{HMAC-SHA512}(C*{\text{PAR}}, 0x00 \Vert k*{\text{PAR}} \Vert i)
+
 $$
 
 En este cálculo, observamos que nuestra función HMAC toma dos entradas: primero, el código de cadena padre, y luego la concatenación del índice con la clave privada padre. La clave privada padre se usa aquí porque estamos buscando derivar una clave de hijo endurecida. Además, un byte igual a `0x00` se añade al principio de la clave. Esta operación iguala su longitud para que coincida con la de una clave pública comprimida.
 Así que ahora tenemos un $\text{hash}$ de 64 bytes que dividiremos en 2 partes de 32 bytes cada una: $h_1$ y $h_2$:
-$$
-\text{hash} = h_1 \Vert h_2
-$$
+
 
 $$
+
+\text{hash} = h_1 \Vert h_2
+
+$$
+
+
+$$
+
 h_1 = \text{hash}[:32] \quad, \quad h_2 = \text{hash}[32:]
+
 $$
 
 La clave privada de hijo $k_{\text{CHD}}^h$ se calcula entonces de la siguiente manera:
 
+
 $$
-k_{\text{CHD}}^h = \text{parse256}(h_1) + k_{\text{PAR}} \mod n
+
+k*{\text{CHD}}^h = \text{parse256}(h_1) + k*{\text{PAR}} \mod n
+
 $$
 
 A continuación, simplemente interpretamos la segunda parte del $\text{hash}$ como el código de cadena para el par de claves de hijo que acabamos de derivar:
 
+
 $$
-C_{\text{CHD}} = h_2
+
+C\_{\text{CHD}} = h_2
+
 $$
 
 Aquí hay una representación esquemática de la derivación general:
@@ -1469,37 +1640,54 @@ Aquí hay una representación esquemática de la derivación general:
 Podemos ver que la derivación normal y la derivación endurecida funcionan de la misma manera, con esta diferencia: la derivación normal usa la clave pública padre como entrada a la función HMAC, mientras que la derivación endurecida usa la clave privada padre.
 
 #### Derivando una clave pública de hijo a partir de una clave pública padre
-Si solo conocemos la clave pública del padre $K_{\text{PAR}}$ y el código de cadena asociado $C_{\text{PAR}}$, es decir, una clave pública extendida, es posible derivar claves públicas hijas $K_{\text{CHD}}^n$, pero solo para claves hijas normales (no endurecidas). Este principio permite notablemente monitorear los movimientos de una cuenta en una billetera de Bitcoin desde el `xpub` (*solo visualización*).
+
+Si solo conocemos la clave pública del padre $K_{\text{PAR}}$ y el código de cadena asociado $C_{\text{PAR}}$, es decir, una clave pública extendida, es posible derivar claves públicas hijas $K_{\text{CHD}}^n$, pero solo para claves hijas normales (no endurecidas). Este principio permite notablemente monitorear los movimientos de una cuenta en una billetera de Bitcoin desde el `xpub` (_solo visualización_).
 Para realizar este cálculo, computaremos el $\text{hash}$ con un índice $i < 2^{31}$ (derivación normal):
 
+
 $$
-\text{hash} = \text{HMAC-SHA512}(C_{\text{PAR}}, K_{\text{PAR}} \Vert i)
+
+\text{hash} = \text{HMAC-SHA512}(C*{\text{PAR}}, K*{\text{PAR}} \Vert i)
+
 $$
 
 En este cálculo, observamos que nuestra función HMAC toma dos entradas: primero el código de cadena del padre, luego la concatenación del índice con la clave pública del padre.
 
 Así, ahora tenemos un $hash$ de 64 bytes que dividiremos en 2 partes de 32 bytes cada una: $h_1$ y $h_2$:
 
-$$
-\text{hash} = h_1 \Vert h_2
-$$
 
 $$
+
+\text{hash} = h_1 \Vert h_2
+
+$$
+
+
+$$
+
 h_1 = \text{hash}[:32] \quad, \quad h_2 = \text{hash}[32:]
+
 $$
 
 La clave pública hija $K_{\text{CHD}}^n$ se calcula entonces de la siguiente manera:
 
+
 $$
-K_{\text{CHD}}^n = G \cdot \text{parse256}(h_1) + K_{\text{PAR}}
+
+K*{\text{CHD}}^n = G \cdot \text{parse256}(h_1) + K*{\text{PAR}}
+
 $$
+
 Si $\text{parse256}(h_1) \geq n$ (orden de la curva elíptica) o si $K_{\text{CHD}}^n$ es el punto en el infinito, la derivación es inválida y se debe elegir otro índice.
 En este cálculo, la operación $\text{parse256}(h_1)$ implica interpretar los primeros 32 bytes del $\text{hash}$ como un entero de 256 bits. Este número se utiliza para calcular un punto en la curva elíptica a través de la adición y duplicación desde el punto generador $G$. Este punto se suma entonces a la clave pública del padre para obtener la clave pública hija normal. Así, para derivar una clave pública hija normal, solo se necesitan la clave pública del padre y el código de cadena del padre; la clave privada del padre nunca entra en este proceso, a diferencia del cálculo de la clave privada hija que vimos anteriormente.
 
 A continuación, el código de cadena hijo es simplemente:
 
+
 $$
-C_{\text{CHD}} = h_2
+
+C\_{\text{CHD}} = h_2
+
 $$
 
 Aquí hay una representación esquemática de la derivación general:
@@ -1509,33 +1697,42 @@ Aquí hay una representación esquemática de la derivación general:
 ### Correspondencia entre claves públicas y privadas hijas
 
 Una pregunta que puede surgir es cómo una clave pública hija normal derivada de una clave pública padre puede corresponder a una clave privada hija normal derivada de la clave privada padre correspondiente. Este enlace está precisamente asegurado por las propiedades de las curvas elípticas. De hecho, para derivar una clave pública hija normal, se aplica HMAC-SHA512 de la misma manera, pero su salida se utiliza de manera diferente:
-   - **Clave privada hija normal**: $k_{\text{CHD}}^n = \text{parse256}(h_1) + k_{\text{PAR}} \mod n$
-   - **Clave pública hija normal**: $K_{\text{CHD}}^n = G \cdot \text{parse256}(h_1) + K_{\text{PAR}}$
-Gracias a las operaciones de adición y duplicación en la curva elíptica, ambos métodos producen resultados consistentes: la clave pública derivada de la clave privada hija es idéntica a la clave pública hija derivada directamente de la clave pública padre.
+
+- **Clave privada hija normal**: $k_{\text{CHD}}^n = \text{parse256}(h_1) + k_{\text{PAR}} \mod n$
+- **Clave pública hija normal**: $K_{\text{CHD}}^n = G \cdot \text{parse256}(h_1) + K_{\text{PAR}}$
+  Gracias a las operaciones de adición y duplicación en la curva elíptica, ambos métodos producen resultados consistentes: la clave pública derivada de la clave privada hija es idéntica a la clave pública hija derivada directamente de la clave pública padre.
 
 ### Resumen de los tipos de derivación
 
 Para resumir, aquí están los diferentes tipos posibles de derivaciones:
 
+
 $$
+
 \begin{array}{|c|c|c|c|}
 \hline
 \rightarrow & \text{PAR} & \text{CHD} & \text{n/h} \\
 \hline
-k_{\text{PAR}} \rightarrow k_{\text{CHD}} & k_{\text{PAR}} & \{ k_{\text{CHD}}^n, k_{\text{CHD}}^h \} & \{ n, h \} \\
+k*{\text{PAR}} \rightarrow k*{\text{CHD}} & k*{\text{PAR}} & \{ k*{\text{CHD}}^n, k\_{\text{CHD}}^h \} & \{ n, h \} \\
 \end{array}
+
 $$
+
+
 $$
-k_{\text{PAR}} \rightarrow K_{\text{CHD}} & k_{\text{PAR}} & \{ K_{\text{CHD}}^n, K_{\text{CHD}}^h \} & \{ n, h \} \\
-K_{\text{PAR}} \rightarrow k_{\text{CHD}} & K_{\text{PAR}} & \times & \times \\
-K_{\text{PAR}} \rightarrow K_{\text{CHD}} & K_{\text{PAR}} & K_{\text{CHD}}^n & n \\
+
+k*{\text{PAR}} \rightarrow K*{\text{CHD}} & k*{\text{PAR}} & \{ K*{\text{CHD}}^n, K*{\text{CHD}}^h \} & \{ n, h \} \\
+K*{\text{PAR}} \rightarrow k*{\text{CHD}} & K*{\text{PAR}} & \times & \times \\
+K*{\text{PAR}} \rightarrow K*{\text{CHD}} & K*{\text{PAR}} & K*{\text{CHD}}^n & n \\
 \hline
 \end{array}
+
 $$
 
-Para resumir, hasta ahora has aprendido a crear los elementos básicos de la billetera HD: la frase mnemotécnica, la semilla y luego la clave maestra y el código de cadena maestro. También has descubierto cómo derivar pares de claves hijas en este capítulo. En el próximo capítulo, exploraremos cómo se organizan estas derivaciones en las billeteras de Bitcoin y qué estructura seguir para obtener concretamente las direcciones de recepción así como los pares de claves utilizados en el *scriptPubKey* y *scriptSig*.
+Para resumir, hasta ahora has aprendido a crear los elementos básicos de la billetera HD: la frase mnemotécnica, la semilla y luego la clave maestra y el código de cadena maestro. También has descubierto cómo derivar pares de claves hijas en este capítulo. En el próximo capítulo, exploraremos cómo se organizan estas derivaciones en las billeteras de Bitcoin y qué estructura seguir para obtener concretamente las direcciones de recepción así como los pares de claves utilizados en el _scriptPubKey_ y _scriptSig_.
 
 ## Estructura de la Billetera y Caminos de Derivación
+
 <chapterId>34e1bbda-67de-5493-b268-1fded8d67689</chapterId>
 
 La estructura jerárquica de las billeteras HD en Bitcoin permite la organización de pares de claves de varias maneras. La idea es derivar, desde la clave privada maestra y el código de cadena maestro, varios niveles de profundidad. Cada nivel agregado corresponde a la derivación de un par de claves hija de un par de claves padre.
@@ -1544,7 +1741,7 @@ Con el tiempo, diferentes BIPs han introducido estándares para estos caminos de
 
 ### Las Profundidades de Derivación de una Billetera HD
 
-Los caminos de derivación se organizan en capas de profundidad, que van desde la profundidad 0, que representa la clave maestra y el código de cadena maestro, hasta capas de subniveles para derivar direcciones utilizadas para bloquear UTXOs. Los BIPs (*Propuestas de Mejora de Bitcoin*) definen los estándares para cada capa, lo que ayuda a armonizar las prácticas en diferentes software de gestión de billeteras.
+Los caminos de derivación se organizan en capas de profundidad, que van desde la profundidad 0, que representa la clave maestra y el código de cadena maestro, hasta capas de subniveles para derivar direcciones utilizadas para bloquear UTXOs. Los BIPs (_Propuestas de Mejora de Bitcoin_) definen los estándares para cada capa, lo que ayuda a armonizar las prácticas en diferentes software de gestión de billeteras.
 
 Un camino de derivación, por lo tanto, se refiere a la secuencia de índices utilizados para derivar claves hijas de una clave maestra.
 
@@ -1563,6 +1760,7 @@ Desde el par de llaves en profundidad 1, se realiza una nueva derivación para o
 Cada moneda tiene un índice único para asegurar la compatibilidad a través de billeteras multicriptomoneda. Por ejemplo, para Bitcoin, el índice es $/0'/$ (o `0x80000000` en notación hexadecimal). Los índices de las monedas se eligen en el rango de $2^{31}$ a $2^{32}-1$ para asegurar una derivación reforzada.
 
 Para darte otros ejemplos, aquí están los índices de algunas monedas:
+
 - $1'$ (`0x80000001`) para bitcoins de testnet;
 - $2'$ (`0x80000002`) para Litecoin;
 - $60'$ (`0x8000003c`) para Ethereum...
@@ -1572,9 +1770,10 @@ Para darte otros ejemplos, aquí están los índices de algunas monedas:
 Cada billetera puede dividirse en varias cuentas, numeradas desde $2^{31}$, y representadas en profundidad 3 por $/0'/$ para la primera cuenta, $/1'/$ para la segunda, y así sucesivamente. Generalmente, cuando se refiere a una llave extendida `xpub`, se refiere a llaves en esta profundidad de derivación.
 
 Esta separación en diferentes cuentas es opcional. Su objetivo es simplificar la organización de la billetera para los usuarios. En la práctica, a menudo solo se usa una cuenta, generalmente la primera por defecto. Sin embargo, en algunos casos, si se desea distinguir claramente pares de llaves para diferentes usos, esto puede ser útil. Por ejemplo, es posible crear una cuenta personal y una cuenta profesional a partir de la misma semilla, con grupos completamente distintos de llaves desde esta profundidad de derivación.
-**Profundidad 4: Cadena (BIP32)**  
+**Profundidad 4: Cadena (BIP32)**
 Cada cuenta definida en profundidad 3 se estructura entonces en dos cadenas:
-- **La cadena externa**: En esta cadena, lo que se conocen como direcciones "públicas" son derivadas. Estas direcciones de recepción están destinadas a bloquear UTXOs provenientes de transacciones externas (es decir, originadas del consumo de UTXOs que no te pertenecen). Para ponerlo simplemente, esta cadena externa se utiliza siempre que se desea recibir bitcoins. Cuando haces clic en "*recibir*" en tu software de billetera, siempre es una dirección de la cadena externa la que se te ofrece. Esta cadena está representada por un par de llaves derivadas con el índice $/0/$.
+
+- **La cadena externa**: En esta cadena, lo que se conocen como direcciones "públicas" son derivadas. Estas direcciones de recepción están destinadas a bloquear UTXOs provenientes de transacciones externas (es decir, originadas del consumo de UTXOs que no te pertenecen). Para ponerlo simplemente, esta cadena externa se utiliza siempre que se desea recibir bitcoins. Cuando haces clic en "_recibir_" en tu software de billetera, siempre es una dirección de la cadena externa la que se te ofrece. Esta cadena está representada por un par de llaves derivadas con el índice $/0/$.
 - **La cadena interna (cambio)**: Esta cadena está reservada para direcciones de recepción que bloquean bitcoins provenientes del consumo de UTXOs que te pertenecen, en otras palabras, direcciones de cambio. Se identifica por el índice $/1/$.
 
 **Profundidad 5: Índice de Dirección (BIP32)**
@@ -1585,19 +1784,27 @@ Finalmente, la profundidad 5 representa el último paso de derivación en la bil
 
 La ruta de derivación se escribe separando cada nivel con una barra ($/$). Cada barra indica así una derivación de un par de claves padre ($k_{\text{PAR}}$, $K_{\text{PAR}}$, $C_{\text{PAR}}$) a un par de claves hijo ($k_{\text{CHD}}$, $K_{\text{CHD}}$, $C_{\text{CHD}}$). El número anotado en cada profundidad corresponde al índice utilizado para derivar esta clave de sus padres. El apóstrofo ($'$) a veces colocado a la derecha del índice indica una derivación endurecida ($k_{\text{CHD}}^h$, $K_{\text{CHD}}^h$). A veces, este apóstrofo es reemplazado por una $h$. En ausencia de un apóstrofo o $h$, se trata por lo tanto de una derivación normal ($k_{\text{CHD}}^n$, $K_{\text{CHD}}^n$).
 Como hemos visto en los capítulos anteriores, los índices de claves endurecidas comienzan desde $2^{31}$, o `0x80000000` en hexadecimal. Por lo tanto, cuando un índice es seguido por un apóstrofo en una ruta de derivación, se debe agregar $2^{31}$ al número indicado para obtener el valor real utilizado en la función HMAC-SHA512. Por ejemplo, si la ruta de derivación especifica $/44'/$, el índice real será:
+
+
 $$
+
 i = 44 + 2^{31} = 2\,147\,483\,692
+
 $$
 
 En hexadecimal, esto es `0x8000002C`.
 
 Ahora que hemos entendido los principios principales de las rutas de derivación, ¡tomemos un ejemplo! Aquí está la ruta de derivación para una dirección de recepción de Bitcoin:
 
+
 $$
+
 m / 84' / 0' / 1' / 0 / 7
+
 $$
 
 En este ejemplo:
+
 - $84'$ indica el estándar P2WPKH (SegWit v0);
 - $0'$ indica la moneda Bitcoin en la red principal;
 - $1'$ corresponde a la segunda cuenta en la billetera;
@@ -1606,44 +1813,50 @@ En este ejemplo:
 
 ### Resumen de la estructura de derivación
 
-| Profundidad | Descripción        | Ejemplo Estándar                  |
-| ----------- | ------------------ | --------------------------------- |
-| 0           | Clave Maestra      | $m/$                              |
-| 1           | Propósito          | $/86'/$ (P2TR)                    |
-| 2           | Moneda             | $/0'/$ (Bitcoin)                  |
-| 3           | Cuenta             | $/0'/$ (Primera cuenta)           |
-| 4           | Cadena             | $/0/$ (externa) o $/1/$ (cambio)  |
-| 5           | Índice de Dirección| $/0/$ (primera dirección)         |
-En el próximo capítulo, descubriremos qué son los "*output script descriptors*", una innovación recientemente introducida en Bitcoin Core que simplifica la copia de seguridad de una cartera de Bitcoin.
+| Profundidad | Descripción         | Ejemplo Estándar                 |
+| ----------- | ------------------- | -------------------------------- |
+| 0           | Clave Maestra       | $m/$                             |
+| 1           | Propósito           | $/86'/$ (P2TR)                   |
+| 2           | Moneda              | $/0'/$ (Bitcoin)                 |
+| 3           | Cuenta              | $/0'/$ (Primera cuenta)          |
+| 4           | Cadena              | $/0/$ (externa) o $/1/$ (cambio) |
+| 5           | Índice de Dirección | $/0/$ (primera dirección)        |
+
+En el próximo capítulo, descubriremos qué son los "_output script descriptors_", una innovación recientemente introducida en Bitcoin Core que simplifica la copia de seguridad de una cartera de Bitcoin.
+
 ## Descriptores de script de salida
+
 <chapterId>e4f1c2d3-9b8a-4d3e-8f2a-7b6c5d4e3f2a</chapterId>
 A menudo se dice que la frase mnemotécnica por sí sola es suficiente para recuperar el acceso a una cartera. En realidad, las cosas son un poco más complejas. En el capítulo anterior, examinamos la estructura de derivación de la cartera HD, y podrías haber notado que este proceso es bastante complejo. Los caminos de derivación le dicen al software qué dirección seguir para derivar las claves del usuario. Sin embargo, al recuperar una cartera de Bitcoin, si uno no conoce estos caminos, la frase mnemotécnica por sí sola no es suficiente. Permite obtener la clave maestra y el código de cadena maestro, pero luego es necesario conocer los índices utilizados para alcanzar las claves secundarias.
 
-Teóricamente, sería necesario guardar no solo la frase mnemotécnica de nuestra cartera, sino también los caminos hacia las cuentas que usamos. En la práctica, a menudo es posible recuperar el acceso a las claves secundarias sin esta información, siempre que se hayan seguido los estándares. Probando cada estándar uno por uno, generalmente es posible recuperar el acceso a los bitcoins. Sin embargo, esto no está garantizado y es especialmente complicado para los principiantes. Además, con la diversificación de los tipos de script y la aparición de configuraciones más complejas, esta información podría volverse difícil de extrapolar, convirtiendo así estos datos en información privada y difícil de recuperar por fuerza bruta. Es por esto que recientemente se ha introducido una innovación y está comenzando a integrarse en tu software de cartera favorito: los *output script descriptors*.
+Teóricamente, sería necesario guardar no solo la frase mnemotécnica de nuestra cartera, sino también los caminos hacia las cuentas que usamos. En la práctica, a menudo es posible recuperar el acceso a las claves secundarias sin esta información, siempre que se hayan seguido los estándares. Probando cada estándar uno por uno, generalmente es posible recuperar el acceso a los bitcoins. Sin embargo, esto no está garantizado y es especialmente complicado para los principiantes. Además, con la diversificación de los tipos de script y la aparición de configuraciones más complejas, esta información podría volverse difícil de extrapolar, convirtiendo así estos datos en información privada y difícil de recuperar por fuerza bruta. Es por esto que recientemente se ha introducido una innovación y está comenzando a integrarse en tu software de cartera favorito: los _output script descriptors_.
 
 ### ¿Qué es un "descriptor"?
 
-Los "*output script descriptors*", o simplemente "*descriptors*", son expresiones estructuradas que describen completamente un script de salida (*scriptPubKey*) y proporcionan toda la información necesaria para seguir las transacciones asociadas con un script particular. Facilitan la gestión de claves en carteras HD al ofrecer una descripción estandarizada y completa de la estructura de la cartera y los tipos de direcciones utilizadas.
+Los "_output script descriptors_", o simplemente "_descriptors_", son expresiones estructuradas que describen completamente un script de salida (_scriptPubKey_) y proporcionan toda la información necesaria para seguir las transacciones asociadas con un script particular. Facilitan la gestión de claves en carteras HD al ofrecer una descripción estandarizada y completa de la estructura de la cartera y los tipos de direcciones utilizadas.
 
 La principal ventaja de los descriptores radica en su capacidad para encapsular toda la información esencial para restaurar una cartera en una sola cadena (además de la frase de recuperación). Al guardar un descriptor con las frases mnemotécnicas asociadas, se hace posible restaurar las claves privadas conociendo precisamente su posición en la jerarquía. Para las carteras multisig, cuya copia de seguridad inicialmente era más compleja, el descriptor incluye el `xpub` de cada factor, asegurando así la posibilidad de regenerar las direcciones en caso de un problema.
 
 ### Construcción de un descriptor
 
 Un descriptor consiste en varios elementos:
-* Funciones de script como `pk` (*Pay-to-PubKey*), `pkh` (*Pay-to-PubKey-Hash*), `wpkh` (*Pay-to-Witness-PubKey-Hash*), `sh` (*Pay-to-Script-Hash*), `wsh` (*Pay-to-Witness-Script-Hash*), `tr` (*Pay-to-Taproot*), `multi` (*Multifirma*), y `sortedmulti` (*Multifirma con claves ordenadas*);
-* Caminos de derivación, por ejemplo, `[d34db33f/44h/0h/0h]` que indica un camino de cuenta derivada y una huella digital de clave maestra específica;
-* Claves en varios formatos como claves públicas hexadecimales o claves públicas extendidas (`xpub`);
-* Un checksum, precedido por un signo de hash, para verificar la integridad del descriptor.
-Por ejemplo, un descriptor para una cartera P2WPKH (SegWit v0) podría verse así:
+
+- Funciones de script como `pk` (_Pay-to-PubKey_), `pkh` (_Pay-to-PubKey-Hash_), `wpkh` (_Pay-to-Witness-PubKey-Hash_), `sh` (_Pay-to-Script-Hash_), `wsh` (_Pay-to-Witness-Script-Hash_), `tr` (_Pay-to-Taproot_), `multi` (_Multifirma_), y `sortedmulti` (_Multifirma con claves ordenadas_);
+- Caminos de derivación, por ejemplo, `[d34db33f/44h/0h/0h]` que indica un camino de cuenta derivada y una huella digital de clave maestra específica;
+- Claves en varios formatos como claves públicas hexadecimales o claves públicas extendidas (`xpub`);
+- Un checksum, precedido por un signo de hash, para verificar la integridad del descriptor.
+  Por ejemplo, un descriptor para una cartera P2WPKH (SegWit v0) podría verse así:
+
 ```text
 wpkh([cdeab12f/84h/0h/0h]xpub6CUGRUonZSQ4TWtTMmzXdrXDtyPWKiKbERr4d5qkSmh5h17C1TjvMt7DJ9Qve4dRxm91CDv6cNfKsq2mK1rMsJKhtRUPZz7MQtp3y6atC1U/<0;1>/*)#jy0l7nr4
 ```
 
-En este descriptor, la función de derivación `wpkh` indica un tipo de script *Pago-a-Testigo-de-Clave-Pública-Hash*. Le sigue la ruta de derivación que contiene:
-* `cdeab12f`: la huella de la clave maestra;
-* `84h`: que significa el uso de un propósito BIP84, destinado para direcciones SegWit v0;
-* `0h`: que indica que es una moneda BTC en la red principal;
-* `0h`: que se refiere al número de cuenta específico utilizado en la cartera.
+En este descriptor, la función de derivación `wpkh` indica un tipo de script _Pago-a-Testigo-de-Clave-Pública-Hash_. Le sigue la ruta de derivación que contiene:
+
+- `cdeab12f`: la huella de la clave maestra;
+- `84h`: que significa el uso de un propósito BIP84, destinado para direcciones SegWit v0;
+- `0h`: que indica que es una moneda BTC en la red principal;
+- `0h`: que se refiere al número de cuenta específico utilizado en la cartera.
 
 El descriptor también incluye la clave pública extendida utilizada en esta cartera:
 
@@ -1656,55 +1869,57 @@ Finalmente, `#jy0l7nr4` representa la suma de comprobación para verificar la in
 Ahora sabes todo sobre el funcionamiento de la cartera HD en Bitcoin y el proceso de derivación de pares de claves. Sin embargo, en los últimos capítulos, nos limitamos a la generación de claves privadas y públicas, sin abordar la construcción de direcciones de recepción. ¡Este será precisamente el tema del próximo capítulo!
 
 ## Direcciones de Recepción
+
 <chapterId>ca80a89d-f8da-4e09-8c35-43179b65bced</chapterId>
 
-Las direcciones de recepción son piezas de información incrustadas en *scriptPubKey* para bloquear los UTXOs recién creados. En pocas palabras, una dirección sirve para recibir bitcoins. Vamos a explorar su funcionamiento en conexión con lo que hemos estudiado en los capítulos anteriores.
+Las direcciones de recepción son piezas de información incrustadas en _scriptPubKey_ para bloquear los UTXOs recién creados. En pocas palabras, una dirección sirve para recibir bitcoins. Vamos a explorar su funcionamiento en conexión con lo que hemos estudiado en los capítulos anteriores.
 
 ### El Papel de las Direcciones de Bitcoin en los Scripts
 
 Como se explicó anteriormente, el papel de una transacción es transferir la propiedad de bitcoins de entradas a salidas. Este proceso implica consumir UTXOs como entradas mientras se crean nuevos UTXOs como salidas. Estos UTXOs están asegurados por scripts, que definen las condiciones necesarias para desbloquear los fondos.
-Cuando un usuario recibe bitcoins, el emisor crea una salida UTXO y la bloquea con un *scriptPubKey*. Este script contiene las reglas que especifican típicamente las firmas y claves públicas requeridas para desbloquear este UTXO. Para gastar este UTXO en una nueva transacción, el usuario debe proporcionar la información solicitada a través de un *scriptSig*. La ejecución de *scriptSig* en combinación con *scriptPubKey* debe retornar "verdadero" o `1`. Si se cumple esta condición, el UTXO puede gastarse para crear un nuevo UTXO, a su vez bloqueado por un nuevo *scriptPubKey*, y así sucesivamente.
+Cuando un usuario recibe bitcoins, el emisor crea una salida UTXO y la bloquea con un _scriptPubKey_. Este script contiene las reglas que especifican típicamente las firmas y claves públicas requeridas para desbloquear este UTXO. Para gastar este UTXO en una nueva transacción, el usuario debe proporcionar la información solicitada a través de un _scriptSig_. La ejecución de _scriptSig_ en combinación con _scriptPubKey_ debe retornar "verdadero" o `1`. Si se cumple esta condición, el UTXO puede gastarse para crear un nuevo UTXO, a su vez bloqueado por un nuevo _scriptPubKey_, y así sucesivamente.
 ![CYP201](assets/fr/054.webp)
 
-Es precisamente en el *scriptPubKey* donde se encuentran las direcciones de recepción. Sin embargo, su uso varía dependiendo del estándar de script adoptado. Aquí hay una tabla resumen de la información contenida en el *scriptPubKey* según el estándar utilizado, así como la información esperada en el *scriptSig* para desbloquear el *scriptPubKey*.
+Es precisamente en el _scriptPubKey_ donde se encuentran las direcciones de recepción. Sin embargo, su uso varía dependiendo del estándar de script adoptado. Aquí hay una tabla resumen de la información contenida en el _scriptPubKey_ según el estándar utilizado, así como la información esperada en el _scriptSig_ para desbloquear el _scriptPubKey_.
 
-| Estándar           | *scriptPubKey*                                              | *scriptSig*                     | *script de redención* | *testigo*                                |
-| ------------------ | ----------------------------------------------------------- | ------------------------------- | --------------------- | ---------------------------------------- |
-| P2PK               | `<pubkey> OP_CHECKSIG`                                      | `<firma>`                       |                       |                                          |
-| P2PKH              | `OP_DUP OP_HASH160 <pubKeyHash> OP_EQUALVERIFY OP_CHECKSIG` | `<firma> <clave pública>`       |                       |                                          |
-| P2SH               | `OP_HASH160 <scriptHash> OP_EQUAL`                          | `<empujes de datos> <script de redención>` | Datos arbitrarios     |                                          |
-| P2WPKH             | `0 <pubKeyHash>`                                            |                                 |                       | `<firma> <clave pública>`               |
-| P2WSH              | `0 <witnessScriptHash>`                                     |                                 |                       | `<empujes de datos> <script de testigo>` |
-| P2SH-P2WPKH        | `OP_HASH160 <redeemScriptHash> OP_EQUAL`                    | `<script de redención>`         | `0 <pubKeyHash>`      | `<firma> <clave pública>`               |
-| P2SH-P2WSH         | `OP_HASH160 <redeemScriptHash> OP_EQUAL`                    | `<script de redención>`         | `0 <scriptHash>`      | `<empujes de datos> <script de testigo>` |
-| P2TR (ruta de clave)    | `1 <clave pública>`                                      |                                 |                       | `<firma>`                            |
-| P2TR (ruta de script) | `1 <clave pública>`                                      |                                 |                       | `<empujes de datos> <script> <bloque de control>` |
+| Estándar              | _scriptPubKey_                                              | _scriptSig_                                | _script de redención_ | _testigo_                                         |
+| --------------------- | ----------------------------------------------------------- | ------------------------------------------ | --------------------- | ------------------------------------------------- |
+| P2PK                  | `<pubkey> OP_CHECKSIG`                                      | `<firma>`                                  |                       |                                                   |
+| P2PKH                 | `OP_DUP OP_HASH160 <pubKeyHash> OP_EQUALVERIFY OP_CHECKSIG` | `<firma> <clave pública>`                  |                       |                                                   |
+| P2SH                  | `OP_HASH160 <scriptHash> OP_EQUAL`                          | `<empujes de datos> <script de redención>` | Datos arbitrarios     |                                                   |
+| P2WPKH                | `0 <pubKeyHash>`                                            |                                            |                       | `<firma> <clave pública>`                         |
+| P2WSH                 | `0 <witnessScriptHash>`                                     |                                            |                       | `<empujes de datos> <script de testigo>`          |
+| P2SH-P2WPKH           | `OP_HASH160 <redeemScriptHash> OP_EQUAL`                    | `<script de redención>`                    | `0 <pubKeyHash>`      | `<firma> <clave pública>`                         |
+| P2SH-P2WSH            | `OP_HASH160 <redeemScriptHash> OP_EQUAL`                    | `<script de redención>`                    | `0 <scriptHash>`      | `<empujes de datos> <script de testigo>`          |
+| P2TR (ruta de clave)  | `1 <clave pública>`                                         |                                            |                       | `<firma>`                                         |
+| P2TR (ruta de script) | `1 <clave pública>`                                         |                                            |                       | `<empujes de datos> <script> <bloque de control>` |
 
-*Fuente: Bitcoin Core PR review club, 7 de julio de 2021 - Gloria Zhao*
+_Fuente: Bitcoin Core PR review club, 7 de julio de 2021 - Gloria Zhao_
 
 Los opcodes utilizados en un script están diseñados para manipular información y, si es necesario, para compararla o probarla. Tomemos el ejemplo de un script P2PKH, que es como sigue:
 
-```txt
+```text
 OP_DUP OP_HASH160 OP_PUSHBYTES_20 <pubKeyHash> OP_EQUALVERIFY OP_CHECKSIG
 ```
 
-Como veremos en este capítulo, `<pubKeyHash>` representa en realidad el payload de la dirección de recepción utilizada para bloquear el UTXO. Para desbloquear este *scriptPubKey*, es necesario proporcionar un *scriptSig* que contenga:
+Como veremos en este capítulo, `<pubKeyHash>` representa en realidad el payload de la dirección de recepción utilizada para bloquear el UTXO. Para desbloquear este _scriptPubKey_, es necesario proporcionar un _scriptSig_ que contenga:
 
-```txt
+```text
 <firma> <clave pública>
 ```
-En el lenguaje de script, la "pila" es una estructura de datos "*LIFO*" ("*Last In, First Out*" o "Último en Entrar, Primero en Salir") utilizada para almacenar temporalmente elementos durante la ejecución del script. Cada operación del script manipula esta pila, donde los elementos pueden ser añadidos (*push*) o eliminados (*pop*). Los scripts utilizan estas pilas para evaluar expresiones, almacenar variables temporales y gestionar condiciones.
+
+En el lenguaje de script, la "pila" es una estructura de datos "_LIFO_" ("_Last In, First Out_" o "Último en Entrar, Primero en Salir") utilizada para almacenar temporalmente elementos durante la ejecución del script. Cada operación del script manipula esta pila, donde los elementos pueden ser añadidos (_push_) o eliminados (_pop_). Los scripts utilizan estas pilas para evaluar expresiones, almacenar variables temporales y gestionar condiciones.
 La ejecución del script que acabo de dar como ejemplo sigue este proceso:
 
-- Tenemos el *scriptSig*, el *ScriptPubKey*, y la pila:
+- Tenemos el _scriptSig_, el _ScriptPubKey_, y la pila:
 
 ![CYP201](assets/fr/055.webp)
 
-- El *scriptSig* se introduce en la pila:
+- El _scriptSig_ se introduce en la pila:
 
 ![CYP201](assets/fr/056.webp)
 
-- `OP_DUP` duplica la clave pública proporcionada en el *scriptSig* en la pila:
+- `OP_DUP` duplica la clave pública proporcionada en el _scriptSig_ en la pila:
 
 ![CYP201](assets/fr/057.webp)
 
@@ -1712,14 +1927,14 @@ La ejecución del script que acabo de dar como ejemplo sigue este proceso:
 
 ![CYP201](assets/fr/058.webp)
 
-- `OP_PUSHBYTES_20 <pubKeyHash>` introduce la dirección de Bitcoin contenida en el *scriptPubKey* en la pila:
+- `OP_PUSHBYTES_20 <pubKeyHash>` introduce la dirección de Bitcoin contenida en el _scriptPubKey_ en la pila:
 
 ![CYP201](assets/fr/059.webp)
 
 - `OP_EQUALVERIFY` verifica que la clave pública hasheada coincida con la dirección de recepción proporcionada:
 
 ![CYP201](assets/fr/060.webp)
-`OP_CHECKSIG` verifica la firma contenida en el *scriptSig* usando la clave pública. Este opcode esencialmente realiza una verificación de firma como describimos en la parte 3 de esta formación:
+`OP_CHECKSIG` verifica la firma contenida en el _scriptSig_ usando la clave pública. Este opcode esencialmente realiza una verificación de firma como describimos en la parte 3 de esta formación:
 ![CYP201](assets/fr/061.webp)
 
 - Si `1` permanece en la pila, entonces el script es válido:
@@ -1732,40 +1947,42 @@ Por lo tanto, para resumir, este script permite verificar, con la ayuda de la fi
 
 A lo largo de la evolución de Bitcoin, se han añadido varios modelos de script estándar. Cada uno de ellos utiliza un tipo distinto de dirección de recepción. Aquí hay una visión general de los principales modelos de script disponibles hasta la fecha:
 
-**P2PK (*Pay-to-PubKey*)**:
+**P2PK (_Pay-to-PubKey_)**:
 
-Este modelo de script fue introducido en la primera versión de Bitcoin por Satoshi Nakamoto. El script P2PK bloquea los bitcoins directamente usando una clave pública cruda (por lo tanto, no se utiliza ninguna dirección de recepción con este modelo). Su estructura es simple: contiene una clave pública y requiere una firma digital correspondiente para desbloquear los fondos. Este script es parte del estándar "*Legacy*".
+Este modelo de script fue introducido en la primera versión de Bitcoin por Satoshi Nakamoto. El script P2PK bloquea los bitcoins directamente usando una clave pública cruda (por lo tanto, no se utiliza ninguna dirección de recepción con este modelo). Su estructura es simple: contiene una clave pública y requiere una firma digital correspondiente para desbloquear los fondos. Este script es parte del estándar "_Legacy_".
 
-**P2PKH (*Pay-to-PubKey-Hash*)**:
+**P2PKH (_Pay-to-PubKey-Hash_)**:
 
-Al igual que P2PK, el script P2PKH fue introducido en el lanzamiento de Bitcoin. A diferencia de su predecesor, bloquea los bitcoins usando el hash de la clave pública, en lugar de usar directamente la clave pública cruda. El *scriptSig* debe entonces proporcionar la clave pública asociada con la dirección de recepción, así como una firma válida. Las direcciones correspondientes a este modelo comienzan con `1` y están codificadas en *base58check*. Este script también pertenece al estándar "*Legacy*".
+Al igual que P2PK, el script P2PKH fue introducido en el lanzamiento de Bitcoin. A diferencia de su predecesor, bloquea los bitcoins usando el hash de la clave pública, en lugar de usar directamente la clave pública cruda. El _scriptSig_ debe entonces proporcionar la clave pública asociada con la dirección de recepción, así como una firma válida. Las direcciones correspondientes a este modelo comienzan con `1` y están codificadas en _base58check_. Este script también pertenece al estándar "_Legacy_".
 
-**P2SH (*Pay-to-Script-Hash*)**:
-Introducido en 2012 con el BIP16, el modelo P2SH permite usar el hash de un script arbitrario en el *scriptPubKey*. Este script hasheado, llamado "*redeemScript*", contiene las condiciones para desbloquear los fondos. Para gastar un UTXO bloqueado con P2SH, es necesario proporcionar un *scriptSig* que contenga el *redeemScript* original así como los datos necesarios para validar dicho script. Este modelo es notablemente utilizado para multisigs antiguos. Las direcciones asociadas con P2SH comienzan con `3` y están codificadas en *base58check*. Este script también pertenece al estándar "*Legacy*".
-**P2WPKH (*Pay-to-Witness-PubKey-Hash*)**:
-Este script es similar a P2PKH, ya que también bloquea bitcoins usando el hash de una clave pública. Sin embargo, a diferencia de P2PKH, el *scriptSig* se traslada a una sección separada llamada "*Witness*". Esto a veces se refiere como "*scriptWitness*" para denotar el conjunto que comprende la firma y la clave pública. Cada entrada SegWit tiene su propio *scriptWitness*, y la colección de *scriptWitnesses* constituye el campo *Witness* de la transacción. Este movimiento de datos de firma es una innovación introducida por la actualización SegWit, dirigida particularmente a prevenir la maleabilidad de las transacciones debido a las firmas ECDSA.
-Las direcciones P2WPKH usan codificación *bech32* y siempre comienzan con `bc1q`. Este tipo de script corresponde a las salidas SegWit versión 0.
+**P2SH (_Pay-to-Script-Hash_)**:
+Introducido en 2012 con el BIP16, el modelo P2SH permite usar el hash de un script arbitrario en el _scriptPubKey_. Este script hasheado, llamado "_redeemScript_", contiene las condiciones para desbloquear los fondos. Para gastar un UTXO bloqueado con P2SH, es necesario proporcionar un _scriptSig_ que contenga el _redeemScript_ original así como los datos necesarios para validar dicho script. Este modelo es notablemente utilizado para multisigs antiguos. Las direcciones asociadas con P2SH comienzan con `3` y están codificadas en _base58check_. Este script también pertenece al estándar "_Legacy_".
+**P2WPKH (_Pay-to-Witness-PubKey-Hash_)**:
+Este script es similar a P2PKH, ya que también bloquea bitcoins usando el hash de una clave pública. Sin embargo, a diferencia de P2PKH, el _scriptSig_ se traslada a una sección separada llamada "_Witness_". Esto a veces se refiere como "_scriptWitness_" para denotar el conjunto que comprende la firma y la clave pública. Cada entrada SegWit tiene su propio _scriptWitness_, y la colección de _scriptWitnesses_ constituye el campo _Witness_ de la transacción. Este movimiento de datos de firma es una innovación introducida por la actualización SegWit, dirigida particularmente a prevenir la maleabilidad de las transacciones debido a las firmas ECDSA.
+Las direcciones P2WPKH usan codificación _bech32_ y siempre comienzan con `bc1q`. Este tipo de script corresponde a las salidas SegWit versión 0.
 
-**P2WSH (*Pay-to-Witness-Script-Hash*)**:
+**P2WSH (_Pay-to-Witness-Script-Hash_)**:
 
-El modelo P2WSH también fue introducido con la actualización SegWit en agosto de 2017. Similar al modelo P2SH, bloquea bitcoins usando el hash de un script. La principal diferencia radica en cómo se incorporan las firmas y los scripts en la transacción. Para gastar bitcoins bloqueados con este tipo de script, el destinatario debe proporcionar el script original, llamado *witnessScript* (equivalente a *redeemScript* en P2SH), junto con los datos necesarios para validar este *witnessScript*. Este mecanismo permite la implementación de condiciones de gasto más complejas, como multisigs.
+El modelo P2WSH también fue introducido con la actualización SegWit en agosto de 2017. Similar al modelo P2SH, bloquea bitcoins usando el hash de un script. La principal diferencia radica en cómo se incorporan las firmas y los scripts en la transacción. Para gastar bitcoins bloqueados con este tipo de script, el destinatario debe proporcionar el script original, llamado _witnessScript_ (equivalente a _redeemScript_ en P2SH), junto con los datos necesarios para validar este _witnessScript_. Este mecanismo permite la implementación de condiciones de gasto más complejas, como multisigs.
 
-Las direcciones P2WSH usan codificación *bech32* y siempre comienzan con `bc1q`. Este script también corresponde a las salidas SegWit versión 0.
+Las direcciones P2WSH usan codificación _bech32_ y siempre comienzan con `bc1q`. Este script también corresponde a las salidas SegWit versión 0.
 
-**P2TR (*Pay-to-Taproot*)**:
+**P2TR (_Pay-to-Taproot_)**:
 
-El modelo P2TR fue introducido con la implementación de Taproot en noviembre de 2021. Se basa en el protocolo Schnorr para la agregación de claves criptográficas, así como en un árbol de Merkle para scripts alternativos, llamado MAST (*Merkelized Alternative Script Tree*). A diferencia de otros tipos de scripts, donde las condiciones de gasto se exponen públicamente (ya sea al recibir o al gastar), P2TR permite ocultar scripts complejos detrás de una única clave pública aparente.
+El modelo P2TR fue introducido con la implementación de Taproot en noviembre de 2021. Se basa en el protocolo Schnorr para la agregación de claves criptográficas, así como en un árbol de Merkle para scripts alternativos, llamado MAST (_Merkelized Alternative Script Tree_). A diferencia de otros tipos de scripts, donde las condiciones de gasto se exponen públicamente (ya sea al recibir o al gastar), P2TR permite ocultar scripts complejos detrás de una única clave pública aparente.
 
-Técnicamente, un script P2TR bloquea bitcoins en una clave pública Schnorr única, denotada como $Q$. Esta clave $Q$ es en realidad un agregado de una clave pública $P$ y una clave pública $M$, siendo esta última calculada a partir de la raíz de Merkle de una lista de *scriptPubKey*. Los bitcoins bloqueados con este tipo de script pueden gastarse de dos maneras:
-- Publicando una firma para la clave pública $P$ (*camino de clave*).
-- Satisfaciendo uno de los scripts contenidos en el árbol de Merkle (*camino de script*).
-P2TR ofrece así una gran flexibilidad, ya que permite bloquear bitcoins ya sea con una clave pública única, con varios scripts de elección, o ambos simultáneamente. La ventaja de esta estructura de árbol de Merkle es que solo se revela el script de gasto utilizado durante la transacción, pero todos los demás scripts alternativos permanecen en secreto. ![CYP201](assets/fr/063.webp)
+Técnicamente, un script P2TR bloquea bitcoins en una clave pública Schnorr única, denotada como $Q$. Esta clave $Q$ es en realidad un agregado de una clave pública $P$ y una clave pública $M$, siendo esta última calculada a partir de la raíz de Merkle de una lista de _scriptPubKey_. Los bitcoins bloqueados con este tipo de script pueden gastarse de dos maneras:
 
-P2TR corresponde a las salidas de versión 1 de SegWit, lo que significa que las firmas para las entradas P2TR se almacenan en la sección *Witness* de la transacción, y no en el *scriptSig*. Las direcciones P2TR utilizan la codificación *bech32m* y comienzan con `bc1p`, pero son bastante únicas porque no utilizan una función hash para su construcción. De hecho, representan directamente la clave pública $Q$ que simplemente está formateada con metadatos. Por lo tanto, es un modelo de script cercano a P2PK.
+- Publicando una firma para la clave pública $P$ (_camino de clave_).
+- Satisfaciendo uno de los scripts contenidos en el árbol de Merkle (_camino de script_).
+  P2TR ofrece así una gran flexibilidad, ya que permite bloquear bitcoins ya sea con una clave pública única, con varios scripts de elección, o ambos simultáneamente. La ventaja de esta estructura de árbol de Merkle es que solo se revela el script de gasto utilizado durante la transacción, pero todos los demás scripts alternativos permanecen en secreto. ![CYP201](assets/fr/063.webp)
+
+P2TR corresponde a las salidas de versión 1 de SegWit, lo que significa que las firmas para las entradas P2TR se almacenan en la sección _Witness_ de la transacción, y no en el _scriptSig_. Las direcciones P2TR utilizan la codificación _bech32m_ y comienzan con `bc1p`, pero son bastante únicas porque no utilizan una función hash para su construcción. De hecho, representan directamente la clave pública $Q$ que simplemente está formateada con metadatos. Por lo tanto, es un modelo de script cercano a P2PK.
 
 Ahora que hemos cubierto la teoría, ¡pasemos a la práctica! En el siguiente capítulo, propongo derivar tanto una dirección SegWit v0 como una dirección SegWit v1 a partir de un par de claves.
 
 ## Derivación de Direcciones
+
 <chapterId>3ebdc750-4135-4881-b07e-08965941b93e</chapterId>
 
 Exploremos juntos cómo generar una dirección de recepción a partir de un par de claves ubicadas, por ejemplo, en la profundidad 5 de una cartera HD. Esta dirección puede entonces utilizarse en un software de cartera para bloquear un UTXO.
@@ -1784,48 +2001,57 @@ Sin embargo, las curvas elípticas tienen una propiedad de simetría con respect
 Para comprimir una clave pública, solo se codifica $x$, que ocupa 256 bits, y se añade un prefijo para especificar la paridad de $y$. Este método reduce el tamaño de la clave pública a 264 bits en lugar de los 520 iniciales. El prefijo `0x02` indica que $y$ es par, y el prefijo `0x03` indica que $y$ es impar.
 Tomemos un ejemplo para entender bien, con una clave pública cruda en representación no comprimida:
 
-```txt
+```text
 K = 04678afdb0fe5548271967f1a67130b7105cd6a828e03909a67962e0ea1f61deb649f6bc3f4cef38c4f35504e51ec112de5c384df7ba0b8d578a4c702b6bf11d5f
 ```
 
 Si descomponemos esta clave, tenemos:
-   - El prefijo: `04`;
-   - $x$: `678afdb0fe5548271967f1a67130b7105cd6a828e03909a67962e0ea1f61deb6`;
-   - $y$: `49f6bc3f4cef38c4f35504e51ec112de5c384df7ba0b8d578a4c702b6bf11d5f`
+
+- El prefijo: `04`;
+- $x$: `678afdb0fe5548271967f1a67130b7105cd6a828e03909a67962e0ea1f61deb6`;
+- $y$: `49f6bc3f4cef38c4f35504e51ec112de5c384df7ba0b8d578a4c702b6bf11d5f`
 
 El último carácter hexadecimal de $y$ es `f`. En base 10, `f = 15`, lo que corresponde a un número impar. Por lo tanto, $y$ es impar, y el prefijo será `0x03` para indicar esto.
 
 La clave pública comprimida se convierte en:
 
-```txt
+```text
 K = 03678afdb0fe5548271967f1a67130b7105cd6a828e03909a67962e0ea1f61deb6
 ```
+
 Esta operación se aplica a todos los modelos de script basados en ECDSA, es decir, todos excepto P2TR que utiliza Schnorr. En el caso de Schnorr, como se explicó en la parte 3, solo retenemos el valor de $x$, sin añadir un prefijo para indicar la paridad de $y$, a diferencia de ECDSA. Esto es posible por el hecho de que se elige arbitrariamente una paridad única para todas las claves. Esto permite una ligera reducción en el espacio de almacenamiento requerido para las claves públicas.
+
 ### Derivación de una dirección SegWit v0 (bech32)
 
 Ahora que hemos obtenido nuestra clave pública comprimida, podemos derivar de ella una dirección de recepción SegWit v0.
 
 El primer paso es aplicar la función de hash HASH160 a la clave pública comprimida. HASH160 es una composición de dos funciones de hash sucesivas: SHA256, seguido por RIPEMD160:
 
+
 $$
+
 \text{HASH160}(K) = \text{RIPEMD160}(\text{SHA256}(K))
+
 $$
 
 Primero, pasamos la clave por SHA256:
 
-```txt
+```text
 SHA256(K) = C489EBD66E4103B3C4B5EAFF462B92F5847CA2DCE0825F4997C7CF57DF35BF3A
 ```
 
 Luego pasamos el resultado por RIPEMD160:
 
-```txt
+```text
 RIPEMD160(SHA256(K)) = 9F81322CC88622CA4CCB2A52A21E2888727AA535
 ```
-Hemos obtenido un hash de 160 bits de la clave pública, lo que constituye lo que se llama el payload de la dirección. Este payload representa la parte central y más importante de la dirección. También se utiliza en el *scriptPubKey* para bloquear los UTXOs.
-Sin embargo, para hacer este payload más fácilmente utilizable por humanos, se le añade metadatos. El siguiente paso implica codificar este hash en grupos de 5 bits en decimal. Esta transformación decimal será útil para la conversión a *bech32*, utilizado por direcciones post-SegWit. El hash binario de 160 bits se divide así en 32 grupos de 5 bits:
+
+Hemos obtenido un hash de 160 bits de la clave pública, lo que constituye lo que se llama el payload de la dirección. Este payload representa la parte central y más importante de la dirección. También se utiliza en el _scriptPubKey_ para bloquear los UTXOs.
+Sin embargo, para hacer este payload más fácilmente utilizable por humanos, se le añade metadatos. El siguiente paso implica codificar este hash en grupos de 5 bits en decimal. Esta transformación decimal será útil para la conversión a _bech32_, utilizado por direcciones post-SegWit. El hash binario de 160 bits se divide así en 32 grupos de 5 bits:
+
 
 $$
+
 \begin{array}{|c|c|}
 \hline
 \text{Grupos de 5 bits} & \text{Valor Decimal} \\
@@ -1854,24 +2080,27 @@ $$
 00111 & 7 \\
 10001 & 17 \\
 \end{array}
+
 $$
+
 Entonces, tenemos:
 
-```txt
+```text
 HASH = 19 30 00 19 04 11 06 08 16 24 17 12 20 19 06 11 05 09 09 10 04 07 17 08 17 01 25 07 21 09 09 21
 ```
 
 Una vez que el hash está codificado en grupos de 5 bits, se añade un checksum a la dirección. Este checksum se utiliza para verificar que el payload de la dirección no ha sido alterado durante su almacenamiento o transmisión. Por ejemplo, permite a un software de billetera asegurarse de que no has cometido un error al ingresar una dirección de recepción. Sin esta verificación, podrías enviar accidentalmente bitcoins a una dirección incorrecta, resultando en una pérdida permanente de fondos, ya que no posees la clave pública o privada asociada. Por lo tanto, el checksum es una protección contra errores humanos.
 
-Para las antiguas direcciones de Bitcoin *Legacy*, el checksum se calculaba simplemente desde el principio del hash de la dirección con la función HASH256. Con la introducción de SegWit y el formato *bech32*, ahora se utilizan los códigos BCH (*Bose, Ray-Chaudhuri y Hocquenghem*). Estos códigos de corrección de errores se utilizan para detectar y corregir errores en secuencias de datos. Aseguran que la información transmitida llegue intacta a su destino, incluso en caso de alteraciones menores. Los códigos BCH se utilizan en muchos campos, como SSDs, DVDs y códigos QR. Por ejemplo, gracias a estos códigos BCH, un código QR parcialmente oscurecido aún puede ser leído y decodificado.
+Para las antiguas direcciones de Bitcoin _Legacy_, el checksum se calculaba simplemente desde el principio del hash de la dirección con la función HASH256. Con la introducción de SegWit y el formato _bech32_, ahora se utilizan los códigos BCH (_Bose, Ray-Chaudhuri y Hocquenghem_). Estos códigos de corrección de errores se utilizan para detectar y corregir errores en secuencias de datos. Aseguran que la información transmitida llegue intacta a su destino, incluso en caso de alteraciones menores. Los códigos BCH se utilizan en muchos campos, como SSDs, DVDs y códigos QR. Por ejemplo, gracias a estos códigos BCH, un código QR parcialmente oscurecido aún puede ser leído y decodificado.
 
-En el contexto de Bitcoin, los códigos BCH ofrecen un mejor compromiso entre tamaño y capacidad de detección de errores en comparación con las simples funciones hash utilizadas para direcciones *Legacy*. Sin embargo, en Bitcoin, los códigos BCH se utilizan solo para la detección de errores, no para la corrección. Así, el software de billetera señalará una dirección de recepción incorrecta pero no la corregirá automáticamente. Esta limitación es deliberada: permitir la corrección automática reduciría la capacidad de detección de errores.
+En el contexto de Bitcoin, los códigos BCH ofrecen un mejor compromiso entre tamaño y capacidad de detección de errores en comparación con las simples funciones hash utilizadas para direcciones _Legacy_. Sin embargo, en Bitcoin, los códigos BCH se utilizan solo para la detección de errores, no para la corrección. Así, el software de billetera señalará una dirección de recepción incorrecta pero no la corregirá automáticamente. Esta limitación es deliberada: permitir la corrección automática reduciría la capacidad de detección de errores.
 
 Para calcular el checksum con códigos BCH, necesitamos preparar varios elementos:
+
 - **La Parte Legible por Humanos (HRP)**: Para la red principal de Bitcoin, el HRP es `bc`;
-El HRP debe expandirse separando cada carácter en dos partes:
+  El HRP debe expandirse separando cada carácter en dos partes:
 - Tomando los caracteres del HRP en ASCII:
-	- `b`: `01100010`
+  - `b`: `01100010`
 - `c`: `01100011`
 - Extrayendo los 3 bits más significativos y los 5 bits menos significativos:
   - 3 bits más significativos: `011` (3 en decimal)
@@ -1881,7 +2110,7 @@ El HRP debe expandirse separando cada carácter en dos partes:
 
 Con el separador `0` entre los dos caracteres, la extensión del HRP es, por lo tanto:
 
-```txt
+```text
 03 03 00 02 03
 ```
 
@@ -1893,7 +2122,7 @@ Con el separador `0` entre los dos caracteres, la extensión del HRP es, por lo 
 
 Todos los datos combinados para introducir en el programa para calcular el checksum son los siguientes:
 
-```txt
+```text
 HRP = 03 03 00 02 03
 SEGWIT v0 = 00
 HASH = 19 30 00 19 04 11 06 08 16 24 17 12 20 19 06 11 05 09 09 10 04 07 17 08 17 01 25 07 21 09 09 21
@@ -1904,25 +2133,28 @@ INPUT = 03 03 00 02 03 00 19 30 00 19 04 11 06 08 16 24 17 12 20 19 06 11 05 09 
 
 El cálculo del checksum es bastante complejo. Involucra aritmética de campos finitos polinomiales. No detallaremos este cálculo aquí y pasaremos directamente al resultado. En nuestro ejemplo, el checksum obtenido en decimal es:
 
-```txt
+```text
 10 16 11 04 13 18
 ```
 
 Ahora podemos construir la dirección de recepción concatenando en orden los siguientes elementos:
+
 - **La versión de SegWit**: `00`
 - **El payload**: El hash de la clave pública
 - **El checksum**: Los valores obtenidos en el paso anterior (`10 16 11 04 13 18`)
 
 Esto nos da en decimal:
 
-```txt
+```text
 00 19 30 00 19 04 11 06 08 16 24 17 12 20 19 06 11 05 09 09 10 04 07 17 08 17 01 25 07 21 09 09 21 10 16 11 04 13 18
 ```
 
-Luego, cada valor decimal debe mapearse a su carácter *bech32* usando la siguiente tabla de conversión:
+Luego, cada valor decimal debe mapearse a su carácter _bech32_ usando la siguiente tabla de conversión:
+
 
 $$
-Para convertir un valor en un carácter *bech32* usando esta tabla, simplemente localiza los valores en la primera columna y la primera fila que, al sumarlos, produzcan el resultado deseado. Luego, recupera el carácter correspondiente. Por ejemplo, el número decimal `19` se convertirá en la letra `n`, porque $19 = 16 + 3$.
+
+Para convertir un valor en un carácter _bech32_ usando esta tabla, simplemente localiza los valores en la primera columna y la primera fila que, al sumarlos, produzcan el resultado deseado. Luego, recupera el carácter correspondiente. Por ejemplo, el número decimal `19` se convertirá en la letra `n`, porque $19 = 16 + 3$.
 Al mapear todos nuestros valores, obtenemos la siguiente dirección:
 
 ```
@@ -1935,7 +2167,7 @@ Todo lo que queda es añadir el HRP `bc`, que indica que es una dirección para 
 bc1qn7qnytxgsc3v5nxt9ff2y83g3pe849942stydj
 ```
 
-La particularidad de este alfabeto *bech32* es que incluye todos los caracteres alfanuméricos excepto `1`, `b`, `i` y `o` para evitar la confusión visual entre caracteres similares, especialmente durante su entrada o lectura por humanos.
+La particularidad de este alfabeto _bech32_ es que incluye todos los caracteres alfanuméricos excepto `1`, `b`, `i` y `o` para evitar la confusión visual entre caracteres similares, especialmente durante su entrada o lectura por humanos.
 
 Para resumir, aquí está el proceso de derivación:
 
@@ -1948,37 +2180,51 @@ Así es como se deriva una dirección de recepción P2WPKH (SegWit v0) a partir 
 Para las direcciones Taproot, el proceso de generación difiere ligeramente. ¡Veámoslo juntos!
 
 Desde el paso de la compresión de la clave pública, aparece una primera distinción en comparación con ECDSA: las claves públicas utilizadas para Schnorr en Bitcoin están representadas solo por su abscisa ($x$). Por lo tanto, no hay prefijo, y la clave comprimida mide exactamente 256 bits.
-Como vimos en el capítulo anterior, un script P2TR bloquea bitcoins en una única clave pública Schnorr, designada por $Q$. Esta clave $Q$ es un agregado de dos claves públicas: $P$, una clave pública interna principal, y $M$, una clave pública derivada de la raíz de Merkle de una lista de *scriptPubKey*. Los bitcoins bloqueados con este tipo de script pueden gastarse de dos maneras:
-- Publicando una firma para la clave pública $P$ (*ruta de clave*);
-- Satisfaciendo uno de los scripts incluidos en el árbol de Merkle (*ruta de script*).
+Como vimos en el capítulo anterior, un script P2TR bloquea bitcoins en una única clave pública Schnorr, designada por $Q$. Esta clave $Q$ es un agregado de dos claves públicas: $P$, una clave pública interna principal, y $M$, una clave pública derivada de la raíz de Merkle de una lista de _scriptPubKey_. Los bitcoins bloqueados con este tipo de script pueden gastarse de dos maneras:
+
+- Publicando una firma para la clave pública $P$ (_ruta de clave_);
+- Satisfaciendo uno de los scripts incluidos en el árbol de Merkle (_ruta de script_).
 
 En realidad, estas dos claves no están verdaderamente "agregadas". La clave $P$ en cambio es modificada por la clave $M$. En criptografía, "modificar" una clave pública significa modificar esta clave aplicando un valor aditivo llamado "modificación". Esta operación permite que la clave modificada siga siendo compatible con la clave privada original y la modificación. Técnicamente, una modificación es un valor escalar $t$ que se suma a la clave pública inicial. Si $P$ es la clave pública original, la clave modificada se convierte en:
 
 $$
+
 P' = P + tG
+
+
 $$
 
 Donde $G$ es el generador de la curva elíptica utilizada. Esta operación produce una nueva clave pública derivada de la clave original, mientras retiene propiedades criptográficas que permiten su uso.
-Si no necesitas agregar scripts alternativos (gastando exclusivamente a través del *key path*), puedes generar una dirección Taproot basada únicamente en la clave pública presente en el nivel 5 de tu billetera. En este caso, es necesario crear un script no gastable para el *script path*, con el fin de satisfacer los requisitos de la estructura. El ajuste $t$ se calcula entonces aplicando una función de hash etiquetada, **`TapTweak`**, sobre la clave pública interna $P$:
+Si no necesitas agregar scripts alternativos (gastando exclusivamente a través del _key path_), puedes generar una dirección Taproot basada únicamente en la clave pública presente en el nivel 5 de tu billetera. En este caso, es necesario crear un script no gastable para el _script path_, con el fin de satisfacer los requisitos de la estructura. El ajuste $t$ se calcula entonces aplicando una función de hash etiquetada, **`TapTweak`**, sobre la clave pública interna $P$:
+
 $$
-t = \text{H}_{\text{TapTweak}}(P)
+
+t = \text{H}\_{\text{TapTweak}}(P)
+
+
 $$
 
 donde:
+
 - **$\text{H}_{\text{TapTweak}}$** es una función de hash SHA256 etiquetada con la etiqueta `TapTweak`. Si no estás familiarizado con lo que es una función de hash etiquetada, te invito a consultar el capítulo 3.3;
 - $P$ es la clave pública interna, representada en su formato comprimido de 256 bits, utilizando solo la coordenada $x$.
 
 La clave pública Taproot $Q$ se calcula entonces sumando el ajuste $t$, multiplicado por el generador de curva elíptica $G$, a la clave pública interna $P$:
 
 $$
+
 Q = P + t \cdot G
+
+
 $$
+
 Una vez que se obtiene la clave pública Taproot $Q$, podemos generar la dirección de recepción correspondiente. A diferencia de otros formatos, las direcciones Taproot no se establecen en un hash de la clave pública. Por lo tanto, la clave $Q$ se inserta directamente en la dirección, de manera cruda.
 
-Para comenzar, extraemos la coordenada $x$ del punto $Q$ para obtener una clave pública comprimida. Sobre este payload, se calcula un checksum usando códigos BCH, como con las direcciones SegWit v0. Sin embargo, el programa utilizado para las direcciones Taproot difiere ligeramente. De hecho, después de la introducción del formato *bech32* con SegWit, se descubrió un bug: cuando el último carácter de una dirección es una `p`, insertar o quitar `q`s justo antes de esta `p` no hace que el checksum sea inválido. Aunque este bug no tiene consecuencias en SegWit v0 (gracias a una restricción de tamaño), podría plantear un problema en el futuro. Este bug ha sido corregido para las direcciones Taproot, y el nuevo formato corregido se llama "*bech32m*".
+Para comenzar, extraemos la coordenada $x$ del punto $Q$ para obtener una clave pública comprimida. Sobre este payload, se calcula un checksum usando códigos BCH, como con las direcciones SegWit v0. Sin embargo, el programa utilizado para las direcciones Taproot difiere ligeramente. De hecho, después de la introducción del formato _bech32_ con SegWit, se descubrió un bug: cuando el último carácter de una dirección es una `p`, insertar o quitar `q`s justo antes de esta `p` no hace que el checksum sea inválido. Aunque este bug no tiene consecuencias en SegWit v0 (gracias a una restricción de tamaño), podría plantear un problema en el futuro. Este bug ha sido corregido para las direcciones Taproot, y el nuevo formato corregido se llama "_bech32m_".
 
-La dirección Taproot se genera codificando la coordenada $x$ de $Q$ en el formato *bech32m*, con los siguientes elementos:
-- **La HRP (*Human Readable Part*)**: `bc`, para indicar la red principal de Bitcoin;
+La dirección Taproot se genera codificando la coordenada $x$ de $Q$ en el formato _bech32m_, con los siguientes elementos:
+
+- **La HRP (_Human Readable Part_)**: `bc`, para indicar la red principal de Bitcoin;
 - **La versión**: `1` para indicar Taproot / SegWit v1;
 - **El checksum**.
 
@@ -1988,26 +2234,30 @@ La dirección final tendrá por lo tanto el formato:
 bc1p[Qx][checksum]
 ```
 
-Por otro lado, si deseas agregar scripts alternativos además de gastar con la clave pública interna (*script path*), el cálculo de la dirección de recepción será ligeramente diferente. Necesitarás incluir el hash de los scripts alternativos en el cálculo del ajuste. En Taproot, cada script alternativo, ubicado al final del árbol de Merkle, se llama "hoja".
+Por otro lado, si deseas agregar scripts alternativos además de gastar con la clave pública interna (_script path_), el cálculo de la dirección de recepción será ligeramente diferente. Necesitarás incluir el hash de los scripts alternativos en el cálculo del ajuste. En Taproot, cada script alternativo, ubicado al final del árbol de Merkle, se llama "hoja".
 
 Una vez que se escriben los diferentes scripts alternativos, debes pasarlos individualmente a través de una función de hash etiquetada `TapLeaf`, acompañada de algunos metadatos:
 
 $$
+
 \text{h}_{\text{leaf}} = \text{H}_{\text{TapLeaf}} (v \Vert sz \Vert S)
+
+
 $$
 
 Con:
+
 - $v$: el número de versión del script (por defecto `0xC0` para Taproot);
-- $sz$: el tamaño del script codificado en formato *CompactSize*; - $S$: el script.
+- $sz$: el tamaño del script codificado en formato _CompactSize_; - $S$: el script.
 
 Los diferentes hashes de script ($\text{h}_{\text{leaf}}$) se ordenan primero en orden lexicográfico. Luego, se concatenan en pares y se pasan a través de una función hash etiquetada `TapBranch`. Este proceso se repite iterativamente para construir, paso a paso, el árbol de Merkle:
-El hash de la rama \(\text{h}_{\text{branch}}\) se calcula como la función hash etiquetada `TapBranch` aplicada a la concatenación de los hashes de las hojas \(\text{h}_{\text{leaf1}} \Vert \text{h}_{\text{leaf2}}\):
+El hash de la rama \(\text{h}_{\text{branch}}\) se calcula como la función hash etiquetada `TapBranch` aplicada a la concatenación de los hashes de las hojas \(\text{h}_{\text{leaf1}} \Vert \text{h}\_{\text{leaf2}}\):
 
 Luego continuamos concatenando los resultados de dos en dos, pasándolos en cada paso a través de la función hash etiquetada `TapBranch`, hasta obtener la raíz del árbol de Merkle:
 
 ![CYP201](assets/fr/066.webp)
 
-Una vez calculada la raíz de Merkle \(h_{\text{root}}\), podemos calcular el ajuste. Para esto, concatenamos la clave pública interna de la billetera \(P\) con la raíz \(h_{\text{root}}\), y luego pasamos el conjunto a través de la función hash etiquetada `TapTweak`:
+Una vez calculada la raíz de Merkle \(h*{\text{root}}\), podemos calcular el ajuste. Para esto, concatenamos la clave pública interna de la billetera \(P\) con la raíz \(h*{\text{root}}\), y luego pasamos el conjunto a través de la función hash etiquetada `TapTweak`:
 
 \[
 t = \text{H}_{\text{TapTweak}}(P \Vert h_{\text{root}})
@@ -2024,17 +2274,21 @@ Luego, la generación de la dirección sigue el mismo proceso, utilizando la cla
 ¡Y ahí lo tienes! Hemos llegado al final de este curso CYP201. Si encontraste este curso útil, estaría muy agradecido si pudieras tomar unos momentos para darle una buena calificación en el siguiente capítulo de evaluación. Siéntete libre de compartirlo también con tus seres queridos o en tus redes sociales. Finalmente, si deseas obtener tu diploma para este curso, puedes tomar el examen final justo después del capítulo de evaluación.
 
 # Conclusión
+
 <partId>58111408-b734-54db-9ea7-0d5b67f99f99</partId>
 
 ## Evalúa este curso
+
 <chapterId>0cd71541-a7fd-53db-b66a-8611b6a28b04</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Examen Final
+
 <chapterId>a53ea27d-0f84-56cd-b37c-a66210a4b31d</chapterId>
 <isCourseExam>true</isCourseExam>
 
 ## Conclusión
+
 <chapterId>d291428b-3cfa-5394-930e-4b514be82d5a</chapterId>
 
 Hemos llegado al final del curso CYP201. Espero que haya sido útil en tu aprendizaje sobre Bitcoin y te haya permitido entender mejor el funcionamiento de las billeteras HD que usas diariamente. ¡Gracias por seguir este curso hasta el final!
@@ -2043,3 +2297,6 @@ Si aún no lo has hecho, te invito a que califiques y comentes sobre este curso.
 Para continuar tu viaje por la madriguera del conejo, te recomiendo altamente el curso **BTC204**, que también produje en Plan B Network. Está dedicado a la privacidad en Bitcoin y explora temas clave: ¿Cuál es el modelo de privacidad? ¿Cómo funciona el análisis de cadena? ¿Cómo usar Bitcoin de manera óptima para maximizar tu privacidad? ¡Un siguiente paso lógico para profundizar tus habilidades!
 
 https://planb.network/courses/btc204
+
+$$
+$$

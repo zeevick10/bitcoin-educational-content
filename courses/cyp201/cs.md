@@ -21,9 +21,11 @@ S jasnou pedagogikou, více než 60 vysvětlujícími diagramy a konkrétními p
 +++
 
 # Úvod
+
 <partId>32960669-d13a-592f-a053-37f70b997cbf</partId>
 
 ## Úvod do kurzu
+
 <chapterId>fb4e8857-ea35-5a8a-ae8a-5300234e0104</chapterId>
 
 Vítejte v kurzu CYP201, kde se podrobně seznámíme s fungováním HD Bitcoinových peněženek. Tento kurz je určen každému, kdo chce pochopit technické základy používání Bitcoinu, ať už jde o příležitostné uživatele, osvícené nadšence nebo budoucí odborníky.
@@ -50,20 +52,23 @@ Nakonec, z hlavního klíče, objevíme, jak jsou odvozeny kryptografické klí�
 Toto školení vám umožní používat vaše peněženkové software s důvěrou, zatímco si rozšíříte dovednosti v identifikaci a minimalizaci rizik. Připravte se stát se pravým expertem na Bitcoinové peněženky!
 
 # Hašovací Funkce
+
 <partId>3713fee1-2ec2-512e-9e97-b6da9e4d2f17</partId>
 
 ## Úvod do Hašovacích Funkcí
+
 <chapterId>dba011f5-1805-5a48-ac2b-4bd637c93703</chapterId>
 
 První typ kryptografických algoritmů používaných na Bitcoinu zahrnuje hašovací funkce. Hrají zásadní roli na různých úrovních protokolu, ale také uvnitř Bitcoinových peněženek. Pojďme společně objevit, co je hašovací funkce a k čemu se používá v Bitcoinu.
 
 ### Definice a Princip Hašování
+
 Hašování je proces, který transformuje informace libovolné délky na jinou informaci pevné délky prostřednictvím kryptografické hašovací funkce. Jinými slovy, hašovací funkce přijme vstup jakékoli velikosti a převede jej na otisk pevné velikosti, nazývaný "hash".
 Hash může být také někdy označován jako "digest", "condensate", "condensed" nebo "hashed".
 
-Například hašovací funkce SHA256 produkuje hash pevné délky 256 bitů. Takže pokud použijeme vstup "*PlanB*", zprávu libovolné délky, vygenerovaný hash bude následující 256bitový otisk:
+Například hašovací funkce SHA256 produkuje hash pevné délky 256 bitů. Takže pokud použijeme vstup "_PlanB_", zprávu libovolné délky, vygenerovaný hash bude následující 256bitový otisk:
 
-```txt
+```text
 24f1b93b68026bfc24f5c8265f287b4c940fb1664b0d75053589d7a4f821b688
 ```
 
@@ -72,6 +77,7 @@ Například hašovací funkce SHA256 produkuje hash pevné délky 256 bitů. Tak
 ### Charakteristiky Hašovacích Funkcí
 
 Tyto kryptografické hašovací funkce mají několik zásadních charakteristik, které je činí obzvláště užitečnými v kontextu Bitcoinu a dalších počítačových systémů:
+
 1. Nezvratnost (nebo odolnost proti zpětnému zjištění)
 2. Odolnost proti manipulaci (lavina efekt)
 3. Odolnost proti kolizím
@@ -79,22 +85,26 @@ Tyto kryptografické hašovací funkce mají několik zásadních charakteristik
 
 #### 1. Nezvratnost (odolnost proti zpětnému zjištění):
 
-Nezvratnost znamená, že je snadné vypočítat hash z vstupních informací, ale opačný výpočet, tj. nalezení vstupu z hash, je prakticky nemožné. Tato vlastnost činí hašovací funkce dokonalými pro vytváření unikátních digitálních otisků bez ohrožení původních informací. Tato charakteristika je často označována jako jednosměrná funkce nebo "*pastová funkce*".
+Nezvratnost znamená, že je snadné vypočítat hash z vstupních informací, ale opačný výpočet, tj. nalezení vstupu z hash, je prakticky nemožné. Tato vlastnost činí hašovací funkce dokonalými pro vytváření unikátních digitálních otisků bez ohrožení původních informací. Tato charakteristika je často označována jako jednosměrná funkce nebo "_pastová funkce_".
 
-V daném příkladu, získání hash `24f1b9…` znalostí vstupu "*PlanB*" je jednoduché a rychlé. Nicméně, nalezení zprávy "*PlanB*" pouze znalostí `24f1b9…` je nemožné.
+V daném příkladu, získání hash `24f1b9…` znalostí vstupu "_PlanB_" je jednoduché a rychlé. Nicméně, nalezení zprávy "_PlanB_" pouze znalostí `24f1b9…` je nemožné.
 
 ![CYP201](assets/fr/002.webp)
 
 Proto je nemožné najít preimage $m$ pro hash $h$ tak, že $h = \text{HASH}(m)$, kde $\text{HASH}$ je kryptografická hašovací funkce.
 
 #### 2. Odolnost proti manipulaci (lavina efekt)
+
 Druhá charakteristika je odolnost proti manipulaci, známá také jako **lavina efekt**. Tato charakteristika je pozorována u hašovací funkce, pokud malá změna ve vstupní zprávě způsobí radikální změnu ve výstupním haši.
-Pokud se vrátíme k našemu příkladu se vstupem "*PlanB*" a funkcí SHA256, viděli jsme, že generovaný haš je následující:
+Pokud se vrátíme k našemu příkladu se vstupem "_PlanB_" a funkcí SHA256, viděli jsme, že generovaný haš je následující:
 
-```txt
-Pokud uděláme velmi malou změnu ve vstupu použitím "*Planb*" tentokrát, pak jednoduchá změna z velkého "B" na malé "b" zcela změní výstupní haš SHA256:
+```text
+24f1b93b68026bfc24f5c8265f287b4c940fb1664b0d75053589d7a4f821b688
+```
 
-```txt
+Pokud uděláme velmi malou změnu ve vstupu použitím "_Planb_" tentokrát, pak jednoduchá změna z velkého "B" na malé "b" zcela změní výstupní haš SHA256:
+
+```text
 bb038b4503ac5d90e1205788b00f8f314583c5e22f72bec84b8735ba5a36df3f
 ```
 
@@ -116,6 +126,7 @@ Ve skutečnosti je matematicky nevyhnutelné, že pro hašovací funkce existuj�
 
 Takže tato charakteristika neznamená, že pro hašovací funkce neexistují žádné kolize, ale spíše, že dobrá hašovací funkce činí pravděpodobnost nalezení kolize zanedbatelnou. Tato charakteristika například již není ověřena u algoritmů SHA-0 a SHA-1, předchůdců SHA-2, u kterých byly nalezeny kolize. Tyto funkce jsou proto nyní často nedoporučovány a považovány za zastaralé.
 Pro hašovací funkci o $n$ bitech je odolnost proti kolizím řádu $2^{\frac{n}{2}}$, v souladu s útokem narozenin. Například pro SHA256 ($n = 256$) je složitost nalezení kolize řádu $2^{128}$ pokusů. V praktickém smyslu to znamená, že pokud se přes funkci převede $2^{128}$ různých zpráv, je pravděpodobné, že se najde kolize.
+
 #### 4. Odolnost proti druhému preobrazu
 
 Odolnost proti druhému preobrazu je další důležitou charakteristikou hašovacích funkcí. Tvrzení, že pokud je dána zpráva $m_1$ a její haš $h$, je výpočetně nemožné najít jinou zprávu $m_2 \neq m_1$ tak, že:
@@ -125,13 +136,14 @@ $$
 $$
 
 Tedy odolnost proti druhému preobrazu je do jisté míry podobná odolnosti proti kolizím, kromě toho, že zde je útok obtížnější, protože útočník nemůže volně vybírat $m_1$.
+
 ### Aplikace hašovacích funkcí v Bitcoinu
 
-Nejpoužívanější hašovací funkcí v Bitcoinu je **SHA256** ("*Secure Hash Algorithm 256 bits"*). Navržena na začátku 2000s NSA a standardizována NIST, produkuje 256-bitový hašovací výstup.
+Nejpoužívanější hašovací funkcí v Bitcoinu je **SHA256** ("_Secure Hash Algorithm 256 bits"_). Navržena na začátku 2000s NSA a standardizována NIST, produkuje 256-bitový hašovací výstup.
 
 Tato funkce je používána v mnoha aspektech Bitcoinu. Na úrovni protokolu se podílí na mechanismu Proof-of-Work, kde je aplikována dvojité hašování pro hledání částečné kolize mezi hlavičkou kandidátního bloku, vytvořeného těžařem, a cílem obtížnosti. Pokud je tato částečná kolize nalezena, kandidátní blok se stává platným a může být přidán do blockchainu.
 
-SHA256 je také používána při konstrukci Merkleova stromu, který je významným akumulátorem používaným pro zaznamenávání transakcí v blocích. Tato struktura je také nalezena v protokolu Utreexo, který umožňuje snížení velikosti UTXO Setu. Kromě toho, s představením Taprootu v roce 2021, je SHA256 využívána v MAST (*Merkelised Alternative Script Tree*), což umožňuje odhalit pouze skutečně použité podmínky výdaje ve skriptu, aniž by byly odhaleny ostatní možné možnosti. Je také používána při výpočtu identifikátorů transakcí, při přenosu paketů přes P2P síť, v elektronických podpisech... Nakonec, a to je zvláště zajímavé v tomto školení, SHA256 je používána na aplikační úrovni pro konstrukci Bitcoinových peněženek a derivaci adres.
+SHA256 je také používána při konstrukci Merkleova stromu, který je významným akumulátorem používaným pro zaznamenávání transakcí v blocích. Tato struktura je také nalezena v protokolu Utreexo, který umožňuje snížení velikosti UTXO Setu. Kromě toho, s představením Taprootu v roce 2021, je SHA256 využívána v MAST (_Merkelised Alternative Script Tree_), což umožňuje odhalit pouze skutečně použité podmínky výdaje ve skriptu, aniž by byly odhaleny ostatní možné možnosti. Je také používána při výpočtu identifikátorů transakcí, při přenosu paketů přes P2P síť, v elektronických podpisech... Nakonec, a to je zvláště zajímavé v tomto školení, SHA256 je používána na aplikační úrovni pro konstrukci Bitcoinových peněženek a derivaci adres.
 
 Většinou, když narazíte na použití SHA256 v Bitcoinu, bude to ve skutečnosti dvojité hašování SHA256, označované jako "**HASH256**", které jednoduše spočívá v dvakrát po sobě jdoucím aplikování SHA256:
 HASH256(m) = SHA256(SHA256(m))
@@ -151,6 +163,7 @@ Nakonec, pouze na aplikační úrovni, je někdy používána také funkce SHA51
 Nyní znáte základní informace o hašovacích funkcích pro to, co následuje. V další kapitole navrhuji podrobněji prozkoumat fungování funkce, která je jádrem Bitcoinu: SHA256. Rozklíčujeme ji, abychom pochopili, jak dosahuje charakteristik, které jsme zde popisovali. Tato další kapitola je poměrně dlouhá a technická, ale není nezbytná pro pokračování v školení. Takže, pokud máte s jejím pochopením potíže, nebojte se a přejděte přímo na následující kapitolu, která bude mnohem přístupnější.
 
 ## Vnitřní fungování SHA256
+
 <chapterId>905eb320-f15b-5fb6-8d2d-5bb447337deb</chapterId>
 Dříve jsme viděli, že hashovací funkce mají důležité charakteristiky, které ospravedlňují jejich použití v Bitcoinu. Nyní se podíváme na vnitřní mechanismy těchto hashovacích funkcí, které jim dávají tyto vlastnosti, a k tomu navrhuji rozebrat fungování SHA256.
 Funkce SHA256 a SHA512 patří do stejné rodiny SHA2. Jejich mechanismus je založen na specifické konstrukci nazvané **Merkle-Damgårdova konstrukce**. RIPEMD160 také využívá tento stejný typ konstrukce.
@@ -158,6 +171,7 @@ Funkce SHA256 a SHA512 patří do stejné rodiny SHA2. Jejich mechanismus je zal
 Jako připomínku, máme na vstupu do SHA256 zprávu libovolné velikosti a převedeme ji funkcí, abychom získali 256bitový hash na výstupu.
 
 ### Předzpracování vstupu
+
 Začneme tím, že připravíme naši vstupní zprávu $m$ tak, aby měla standardní délku, která je násobkem 512 bitů. Tento krok je zásadní pro správné fungování algoritmu následně.
 K tomu začneme krokem přidání bitů pro zarovnání. Nejprve přidáme k zprávě oddělovací bit `1`, následovaný určitým počtem bitů `0`. Počet přidaných bitů `0` je vypočítán tak, aby celková délka zprávy po tomto přidání byla kongruentní s 448 modulo 512. Tedy délka $L$ zprávy s bitů pro zarovnání je rovna:
 
@@ -196,14 +210,19 @@ $$
 
 Takže bychom měli 9 `0` navíc k oddělovací `1`. Naše bity pro zarovnání, které mají být přidány přímo po naší zprávě $M$, by tedy byly:
 
-```txt
+```text
 1000 0000 00
 ```
 
 Po přidání bitů pro zarovnání k naší zprávě $M$ přidáme také 64bitovou reprezentaci původní délky zprávy $M$, vyjádřenou v binární formě. To umožňuje hashovací funkci být citlivou na pořadí bitů a délku zprávy.
 Pokud se vrátíme k našemu příkladu s počáteční zprávou o 950 bitech, převedeme desítkové číslo `950` na binární, což nám dá `1110 1101 10`. Toto číslo doplníme nulami na základně, aby celkem dosáhlo 64 bitů. V našem příkladu to dává:
-```txt
+
+```text
+0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0011 1011 0110
+```
+
 Tato velikost doplnění je přidána podle pravidel doplnění bitů. Proto zpráva po našem předzpracování se skládá ze tří částí:
+
 1. Původní zpráva $M$;
 2. Bit `1` následovaný několika bity `0` pro formování doplnění bitů;
 3. 64-bitová reprezentace délky $M$ pro formování doplnění s velikostí.
@@ -237,8 +256,11 @@ K[0 \ldots 63] = \begin{pmatrix}
 0xc6e00bf3, & 0xd5a79147, & 0x06ca6351, & 0x14292967, \\
 0x27b70a85, & 0x2e1b2138, & 0x4d2c6dfc, & 0x53380d13, \\
 
+
 $$
+
 \begin{pmatrix}
+
 $$
 \begin{pmatrix}
 0x650a7354, & 0x766a0abb, & 0x81c2c92e, & 0x92722c85, \\0xa2bfe8a1, & 0xa81a664b, & 0xc24b8b70, & 0xc76c51a3, \\0xd192e819, & 0xd6990624, & 0xf40e3585, & 0x106aa070, \\
@@ -258,6 +280,7 @@ Nejprve začneme dělením naší vyrovnáné zprávy (výsledek předzpracovate
 ### Logické operace
 
 Před prozkoumáním kompresní funkce detailně je důležité porozumět základním logickým operacím používaným v ní. Tyto operace, založené na Booleově algebře, pracují na úrovni bitů. Základní logické operace používané jsou:
+
 - **Konjunkce (AND)**: označená $\land$, odpovídá logickému "A".
 - **Disjunkce (OR)**: označená $\lor$, odpovídá logickému "NEBO".
 - **Negace (NOT)**: označená $\lnot$, odpovídá logickému "NE".
@@ -276,9 +299,9 @@ Pro XOR ($\oplus$):
 Pro AND ($\land$):
 
 | $p$ | $q$ | $p \land q$ |
-| --- | --- | ----------- |
+| --- | --- | ----------- | --- | --- | --- | --- |
 | 0   | 0   | 0           |
-| 0   | 1   | 0           || 1   | 0   | 0           |
+| 0   | 1   | 0           |     | 1   | 0   | 0   |
 | 1   | 1   | 1           |
 
 Pro NOT ($\lnot p$):
@@ -341,17 +364,19 @@ Schématicky lze pravou kruhovou rotaci vidět takto:
 Nyní, když jsme pochopili základní operace, pojďme si podrobně prohlédnout kompresní funkci SHA256.
 
 V předchozím kroku jsme náš vstup rozdělili na několik 512bitových částí $P$. Pro každý 512bitový blok $P$ máme:
+
 - **Slova zprávy $W_i$**: pro $i$ od 0 do 63.
 - **Konstanty $K_i$**: pro $i$ od 0 do 63, definované v předchozím kroku.
 - **Stavové proměnné $A, B, C, D, E, F, G, H$**: inicializované hodnotami z předchozího kroku.
-Prvních 16 slov, $W_0$ až $W_{15}$, je přímo extrahováno z zpracovaného 512-bitového bloku $P$. Každé slovo $W_i$ se skládá z 32 po sobě jdoucích bitů z bloku. Takže například vezmeme naši první část vstupu $P_1$ a dále ji rozdělíme na menší 32-bitové části, které nazýváme slova.
-Dalších 48 slov ($W_{16}$ až $W_{63}$) je generováno použitím následujícího vzorce:
+  Prvních 16 slov, $W_0$ až $W_{15}$, je přímo extrahováno z zpracovaného 512-bitového bloku $P$. Každé slovo $W_i$ se skládá z 32 po sobě jdoucích bitů z bloku. Takže například vezmeme naši první část vstupu $P_1$ a dále ji rozdělíme na menší 32-bitové části, které nazýváme slova.
+  Dalších 48 slov ($W_{16}$ až $W_{63}$) je generováno použitím následujícího vzorce:
 
 $$
 W_i = W_{i-16} + \sigma_0(W_{i-15}) + W_{i-7} + \sigma_1(W_{i-2}) \mod 2^{32}
 $$
 
 S:
+
 - $\sigma_0(x) = RotR_7(x) \oplus RotR_{18}(x) \oplus ShR_3(x)$
 - $\sigma_1(x) = RotR_{17}(x) \oplus RotR_{19}(x) \oplus ShR_{10}(x)$
 
@@ -375,13 +400,13 @@ $$
 \Sigma_1(E) = RotR_6(E) \oplus RotR_{11}(E) \oplus RotR_{25}(E)
 $$
 
-- **Funkce $Ch$ ("*Vybrat*"):**
+- **Funkce $Ch$ ("_Vybrat_"):**
 
 $$
 Ch(E, F, G) = (E \land F) \oplus (\lnot E \land G)
 $$
 
-- **Funkce $Maj$ ("*Většina*"):**
+- **Funkce $Maj$ ("_Většina_"):**
 
 $$
 Maj(A, B, C) = (A \land B) \oplus (A \land C) \oplus (B \land C)
@@ -409,12 +434,14 @@ H = G \\
 G = F \\
 F = E \\
 $$
+
 E = D + \text{temp1} \mod 2^{32} \\
 D = C \\
 C = B \\
 B = A \\
 A = \text{temp1} + \text{temp2} \mod 2^{32}
 \end{cases}
+
 $$
 
 Následující diagram představuje jedno kolo kompresní funkce SHA256, jak jsme právě popisovali:
@@ -428,24 +455,29 @@ Následující diagram představuje jedno kolo kompresní funkce SHA256, jak jsm
 Už nyní můžeme pozorovat, že toto kolo výstupuje nové stavové proměnné $A$, $B$, $C$, $D$, $E$, $F$, $G$ a $H$. Tyto nové proměnné budou sloužit jako vstup pro další kolo, které zase produkuje nové proměnné $A$, $B$, $C$, $D$, $E$, $F$, $G$ a $H$, jež budou použity pro následující kolo. Tento proces pokračuje až do 64. kola.
 Po 64 kolech aktualizujeme počáteční hodnoty stavových proměnných jejich přičtením k konečným hodnotám na konci 64. kola:
 $$
+
 \begin{cases}
-A = A_{\text{počáteční}} + A \mod 2^{32} \\
-B = B_{\text{počáteční}} + B \mod 2^{32} \\
-C = C_{\text{počáteční}} + C \mod 2^{32} \\
-D = D_{\text{počáteční}} + D \mod 2^{32} \\
-E = E_{\text{počáteční}} + E \mod 2^{32} \\
-F = F_{\text{počáteční}} + F \mod 2^{32} \\
-G = G_{\text{počáteční}} + G \mod 2^{32} \\
-H = H_{\text{počáteční}} + H \mod 2^{32}
+A = A*{\text{počáteční}} + A \mod 2^{32} \\
+B = B*{\text{počáteční}} + B \mod 2^{32} \\
+C = C*{\text{počáteční}} + C \mod 2^{32} \\
+D = D*{\text{počáteční}} + D \mod 2^{32} \\
+E = E*{\text{počáteční}} + E \mod 2^{32} \\
+F = F*{\text{počáteční}} + F \mod 2^{32} \\
+G = G*{\text{počáteční}} + G \mod 2^{32} \\
+H = H*{\text{počáteční}} + H \mod 2^{32}
 \end{cases}
+
 $$
 
 Tyto nové hodnoty $A$, $B$, $C$, $D$, $E$, $F$, $G$ a $H$ budou sloužit jako počáteční hodnoty pro další blok, $P_2$. Pro tento blok $P_2$ replikujeme stejný kompresní proces s 64 koly, poté aktualizujeme proměnné pro blok $P_3$ a tak dále až do posledního bloku našeho vyrovnávaného vstupu.
 
 Po zpracování všech bloků zprávy konkatenací konečných hodnot proměnných $A$, $B$, $C$, $D$, $E$, $F$, $G$ a $H$ vytvoříme konečný 256bitový hash naší hašovací funkce:
 
+
 $$
+
 \text{Hash} = A \Vert B \Vert C \Vert D \Vert E \Vert F \Vert G \Vert H
+
 $$
 
 Každá proměnná je 32bitové celé číslo, takže jejich konkatenace vždy vede k 256bitovému výsledku, bez ohledu na velikost našeho vstupu zprávy do hašovací funkce.
@@ -469,6 +501,7 @@ Komprese také využívá operaci $\text{ShR}$. Tato operace odstraní část z�
 
 Nakonec, pro charakteristiku odolnosti vůči kolizím, hrají roli několik parametrů. Předzpracování původní zprávy hraje zásadní roli. Bez tohoto předzpracování by mohlo být snazší najít kolize na funkci. Ačkoliv teoreticky kolize existují (kvůli principu holubníku), struktura hašovací funkce, kombinovaná s výše zmíněnými vlastnostmi, činí pravděpodobnost nalezení kolize extrémně nízkou.
 Pro to, aby byla hašovací funkce odolná vůči kolizím, je zásadní, že:
+
 - Výstup je nepředvídatelný: Jakákoli předvídatelnost může být využita k rychlejšímu nalezení kolizí než pomocí útoku hrubou silou. Funkce zajišťuje, že každý bit výstupu závisí na vstupu netriviálním způsobem. Jinými slovy, funkce je navržena tak, aby každý bit konečného výsledku měl nezávislou pravděpodobnost být 0 nebo 1, i když tato nezávislost v praxi není absolutní.
 - Distribuce hašů je pseudonáhodná: To zajišťuje, že haše jsou rovnoměrně distribuovány.
 - Velikost haše je značná: čím větší možný prostor pro výsledky, tím je obtížnější najít kolizi.
@@ -489,13 +522,15 @@ To zvyšuje bezpečnost proti potenciálním útokům souvisejícím s konstrukc
 Nyní, když jsme se podrobně podívali na fungování hašovacích funkcí, zejména SHA256, které se v Bitcoinu používá rozsáhle, zaměříme se konkrétněji na kryptografické algoritmy derivace používané na aplikační úrovni, zejména pro odvozování klíčů pro vaši peněženku.
 
 ## Algoritmy používané pro derivaci
+
 <chapterId>cc668121-7789-5e99-bf5e-1ba085f4f5f2</chapterId>
 
 V Bitcoinu na aplikační úrovni, kromě hašovacích funkcí, se používají kryptografické algoritmy derivace k generování bezpečných dat z počátečních vstupů. Ačkoli tyto algoritmy spoléhají na hašovací funkce, slouží k jiným účelům, zejména co se týče autentizace a generování klíčů. Tyto algoritmy si zachovávají některé charakteristiky hašovacích funkcí, jako je nevratnost, odolnost vůči manipulaci a odolnost proti kolizím.
 
 V peněženkách Bitcoinu se hlavně používají 2 algoritmy derivace:
-1. **HMAC (*Hash-based Message Authentication Code*)**
-2. **PBKDF2 (*Password-Based Key Derivation Function 2*)**
+
+1. **HMAC (_Hash-based Message Authentication Code_)**
+2. **PBKDF2 (_Password-Based Key Derivation Function 2_)**
 
 Společně prozkoumáme fungování a roli každého z nich.
 
@@ -508,6 +543,7 @@ Zde je jeho obecné schéma fungování s $m$ jako vstupní zprávou a $K$ tajn�
 ![CYP201](assets/fr/011.webp)
 
 Podívejme se podrobněji na to, co se děje v této černé skříňce HMAC-SHA512. Funkce HMAC-SHA512 s:
+
 - $m$: libovolně velká zpráva zvolená uživatelem (první vstup);
 - $K$: libovolný tajný klíč zvolený uživatelem (druhý vstup);
 - $K'$: klíč $K$ upravený na velikost $B$ bloků hašovací funkce (1024 bitů pro SHA512, nebo 128 bajtů);
@@ -516,8 +552,8 @@ Podívejme se podrobněji na to, co se děje v této černé skříňce HMAC-SHA
 - $\Vert$: operátor konkatenace, spojující řetězce bitů konec s koncem;
 - $\text{opad}$: konstanta složená z bytu $0x5c$ opakovaného 128krát
 - $\text{ipad}$: konstanta složená z bytu $0x36$ opakovaného 128krát
-Před výpočtem HMAC je nutné sladit klíč a konstanty podle velikosti bloku $B$. Například, pokud je klíč $K$ kratší než 128 bytů, je doplněn nulami, aby dosáhl velikosti $B$. Pokud je $K$ delší než 128 bytů, je komprimován pomocí SHA512 a poté jsou přidány nuly, dokud nedosáhne 128 bytů. Tímto způsobem je získán sladěný klíč pojmenovaný $K'$.
-Hodnoty $\text{opad}$ a $\text{ipad}$ jsou získány opakováním jejich základního bytu ($0x5c$ pro $\text{opad}$, $0x36$ pro $\text{ipad}$) dokud není dosaženo velikosti $B$. Tedy s $B = 128$ byty máme:
+  Před výpočtem HMAC je nutné sladit klíč a konstanty podle velikosti bloku $B$. Například, pokud je klíč $K$ kratší než 128 bytů, je doplněn nulami, aby dosáhl velikosti $B$. Pokud je $K$ delší než 128 bytů, je komprimován pomocí SHA512 a poté jsou přidány nuly, dokud nedosáhne 128 bytů. Tímto způsobem je získán sladěný klíč pojmenovaný $K'$.
+  Hodnoty $\text{opad}$ a $\text{ipad}$ jsou získány opakováním jejich základního bytu ($0x5c$ pro $\text{opad}$, $0x36$ pro $\text{ipad}$) dokud není dosaženo velikosti $B$. Tedy s $B = 128$ byty máme:
 
 $$
 \text{opad} = \underbrace{0x5c5c\ldots5c}_{128 \, \text{bytů}}
@@ -530,6 +566,7 @@ $$
 $$
 
 Tato rovnice je rozložena na následující kroky:
+
 1. XOR upraveného klíče $K'$ s $\text{ipad}$ pro získání $\text{iKpad}$;
 2. XOR upraveného klíče $K'$ s $\text{opad}$ pro získání $\text{oKpad}$;
 3. Konkatenace $\text{iKpad}$ s zprávou $m$.
@@ -545,18 +582,19 @@ HMAC se v Bitcoinu používá zejména pro derivaci klíčů v HD (Hierarchický
 
 ### PBKDF2
 
-PBKDF2 (*Password-Based Key Derivation Function 2*) je algoritmus derivace klíčů navržený pro zvýšení bezpečnosti hesel. Algoritmus aplikuje pseudo-náhodnou funkci (zde HMAC-SHA512) na heslo a kryptografickou sůl, a poté tuto operaci opakuje určitý počet krát, aby vyprodukoval výstupní klíč.
+PBKDF2 (_Password-Based Key Derivation Function 2_) je algoritmus derivace klíčů navržený pro zvýšení bezpečnosti hesel. Algoritmus aplikuje pseudo-náhodnou funkci (zde HMAC-SHA512) na heslo a kryptografickou sůl, a poté tuto operaci opakuje určitý počet krát, aby vyprodukoval výstupní klíč.
 
 V Bitcoinu se PBKDF2 používá k generování seedu HD peněženky z mnemonické fráze a heslové fráze (ale o tomto budeme mluvit podrobněji v nadcházejících kapitolách).
 
 Proces PBKDF2 je následující, s:
+
 - $m$: mnemonická fráze uživatele;
 - $s$: volitelná heslová fráze pro zvýšení bezpečnosti (prázdné pole, pokud není heslová fráze);
 - $n$: počet iterací funkce, v našem případě je to 2048.
-Funkce PBKDF2 je definována iterativně. Každá iterace vezme výsledek předchozí, projde jej přes HMAC-SHA512 a kombinuje postupné výsledky k vytvoření finálního klíče:
-$$
-\text{PBKDF2}(m, s) = \text{HMAC-SHA512}^{2048}(m, s)
-$$
+  Funkce PBKDF2 je definována iterativně. Každá iterace vezme výsledek předchozí, projde jej přes HMAC-SHA512 a kombinuje postupné výsledky k vytvoření finálního klíče:
+  $$
+  \text{PBKDF2}(m, s) = \text{HMAC-SHA512}^{2048}(m, s)
+  $$
 
 Schématicky lze PBKDF2 reprezentovat takto:
 
@@ -565,26 +603,29 @@ Schématicky lze PBKDF2 reprezentovat takto:
 V této kapitole jsme prozkoumali funkce HMAC-SHA512 a PBKDF2, které používají hashovací funkce k zajištění integrity a bezpečnosti odvození klíčů v protokolu Bitcoinu. V další části se podíváme na digitální podpisy, další kryptografickou metodu široce používanou v Bitcoinu.
 
 # Digitální Podpisy
+
 <partId>76b58a00-0c18-54b9-870d-6b7e34029db8</partId>
 
 ## Digitální Podpisy a Eliptické Křivky
+
 <chapterId>c9dd9672-6da1-57f8-9871-8b28994d4c1a</chapterId>
 
 Druhou kryptografickou metodou používanou v Bitcoinu jsou algoritmy digitálních podpisů. Pojďme prozkoumat, co to znamená a jak to funguje.
 
 ### Bitcoiny, UTXO a Podmínky Výdaje
 
-Pojem "*peněženka*" v Bitcoinu může být pro začátečníky matoucí. Skutečně, to, co se nazývá Bitcoinová peněženka, je software, který přímo neobsahuje vaše bitcoiny, na rozdíl od fyzické peněženky, která může obsahovat mince nebo bankovky. Bitcoiny jsou prostě jednotky účtu. Tato jednotka účtu je reprezentována **UTXO** (*Unspent Transaction Outputs*), což jsou nevyužité transakční výstupy. Pokud jsou tyto výstupy nevyužité, znamená to, že patří uživateli. UTXO jsou, jakýmsi způsobem, kusy bitcoinů, proměnné velikosti, patřící uživateli.
+Pojem "_peněženka_" v Bitcoinu může být pro začátečníky matoucí. Skutečně, to, co se nazývá Bitcoinová peněženka, je software, který přímo neobsahuje vaše bitcoiny, na rozdíl od fyzické peněženky, která může obsahovat mince nebo bankovky. Bitcoiny jsou prostě jednotky účtu. Tato jednotka účtu je reprezentována **UTXO** (_Unspent Transaction Outputs_), což jsou nevyužité transakční výstupy. Pokud jsou tyto výstupy nevyužité, znamená to, že patří uživateli. UTXO jsou, jakýmsi způsobem, kusy bitcoinů, proměnné velikosti, patřící uživateli.
 
-Protokol Bitcoinu je distribuovaný a funguje bez centrální autority. Proto to není jako tradiční bankovní záznamy, kde eura, která vám patří, jsou jednoduše spojena s vaší osobní identitou. V Bitcoinu vaše UTXO patří vám, protože jsou chráněna podmínkami výdaje specifikovanými v jazyce Script. Zjednodušeně řečeno, existují dva typy skriptů: uzamykací skript (*scriptPubKey*), který chrání UTXO, a odemykací skript (*scriptSig*), který umožňuje odemknout UTXO a tím utratit bitcoinové jednotky, které reprezentuje.
-Počáteční operace Bitcoinu s P2PK skripty zahrnuje použití veřejného klíče k uzamčení prostředků, specifikující v *scriptPubKey*, že osoba, která si přeje utratit toto UTXO, musí poskytnout platný podpis s privátním klíčem odpovídajícím tomuto veřejnému klíči. K odemčení tohoto UTXO je tedy nutné poskytnout platný podpis v *scriptSig*. Jak názvy napovídají, veřejný klíč je znám všem, protože je vysílán na blockchainu, zatímco privátní klíč zná pouze legitimní vlastník prostředků.
-To je základní operace Bitcoinu, ale časem se tato operace stala složitější. Nejprve Satoshi také představil P2PKH skripty, které používají přijímací adresu v *scriptPubKey*, což představuje hash veřejného klíče. Poté se systém stal ještě složitějším s příchodem SegWitu a poté Taprootu. Nicméně, obecný princip zůstává zásadně stejný: veřejný klíč nebo reprezentace tohoto klíče je použita k uzamčení UTXO, a odpovídající privátní klíč je vyžadován k jejich odemčení a tím k jejich utracení.
+Protokol Bitcoinu je distribuovaný a funguje bez centrální autority. Proto to není jako tradiční bankovní záznamy, kde eura, která vám patří, jsou jednoduše spojena s vaší osobní identitou. V Bitcoinu vaše UTXO patří vám, protože jsou chráněna podmínkami výdaje specifikovanými v jazyce Script. Zjednodušeně řečeno, existují dva typy skriptů: uzamykací skript (_scriptPubKey_), který chrání UTXO, a odemykací skript (_scriptSig_), který umožňuje odemknout UTXO a tím utratit bitcoinové jednotky, které reprezentuje.
+Počáteční operace Bitcoinu s P2PK skripty zahrnuje použití veřejného klíče k uzamčení prostředků, specifikující v _scriptPubKey_, že osoba, která si přeje utratit toto UTXO, musí poskytnout platný podpis s privátním klíčem odpovídajícím tomuto veřejnému klíči. K odemčení tohoto UTXO je tedy nutné poskytnout platný podpis v _scriptSig_. Jak názvy napovídají, veřejný klíč je znám všem, protože je vysílán na blockchainu, zatímco privátní klíč zná pouze legitimní vlastník prostředků.
+To je základní operace Bitcoinu, ale časem se tato operace stala složitější. Nejprve Satoshi také představil P2PKH skripty, které používají přijímací adresu v _scriptPubKey_, což představuje hash veřejného klíče. Poté se systém stal ještě složitějším s příchodem SegWitu a poté Taprootu. Nicméně, obecný princip zůstává zásadně stejný: veřejný klíč nebo reprezentace tohoto klíče je použita k uzamčení UTXO, a odpovídající privátní klíč je vyžadován k jejich odemčení a tím k jejich utracení.
 Uživatel, který si přeje provést transakci s Bitcoinem, musí proto vytvořit digitální podpis pomocí svého soukromého klíče k dané transakci. Tento podpis mohou ověřit ostatní účastníci sítě. Pokud je platný, znamená to, že uživatel iniciující transakci je skutečně vlastníkem soukromého klíče a tedy i vlastníkem bitcoinů, které si přeje utratit. Ostatní uživatelé mohou poté transakci přijmout a dále šířit.
 
 V důsledku toho musí uživatel, který vlastní bitcoiny uzamčené veřejným klíčem, najít způsob, jak bezpečně uložit to, co umožňuje odemknout jejich prostředky: soukromý klíč. Bitcoinová peněženka je přesně zařízení, které vám umožní snadno uchovávat všechny vaše klíče bez přístupu ostatních lidí. Je tedy spíše jako svazek klíčů než jako peněženka.
 
-Matematická vazba mezi veřejným a soukromým klíčem, stejně jako schopnost provést podpis k prokázání držení soukromého klíče bez jeho odhalení, jsou umožněny algoritmem digitálního podpisu. V protokolu Bitcoinu jsou použity 2 algoritmy pro podpis: **ECDSA** (*Elliptic Curve Digital Signature Algorithm*) a **Schnorrův schéma podpisu**. ECDSA je digitální podpisový protokol používaný v Bitcoinu od jeho počátků. Schnorr je v Bitcoinu novější, protože byl zaveden v listopadu 2021 s aktualizací Taproot.
+Matematická vazba mezi veřejným a soukromým klíčem, stejně jako schopnost provést podpis k prokázání držení soukromého klíče bez jeho odhalení, jsou umožněny algoritmem digitálního podpisu. V protokolu Bitcoinu jsou použity 2 algoritmy pro podpis: **ECDSA** (_Elliptic Curve Digital Signature Algorithm_) a **Schnorrův schéma podpisu**. ECDSA je digitální podpisový protokol používaný v Bitcoinu od jeho počátků. Schnorr je v Bitcoinu novější, protože byl zaveden v listopadu 2021 s aktualizací Taproot.
 Tyto dva algoritmy jsou si ve svých mechanismech poměrně podobné. Oba jsou založeny na kryptografii eliptických křivek. Hlavní rozdíl mezi těmito dvěma protokoly spočívá ve struktuře podpisu a některých specifických matematických vlastnostech. Proto se budeme zabývat fungováním těchto algoritmů, začínající nejstarším: ECDSA.
+
 ### Kryptografie eliptických křivek
 
 Kryptografie eliptických křivek (ECC) je soubor algoritmů, které pro kryptografické účely využívají eliptickou křivku a její různé matematické a geometrické vlastnosti. Bezpečnost těchto algoritmů spočívá v obtížnosti problému diskrétního logaritmu na eliptických křivkách. Eliptické křivky se významně používají pro výměnu klíčů, asymetrické šifrování nebo pro vytváření digitálních podpisů.
@@ -603,9 +644,9 @@ $$
 
 ### secp256k1
 
-Pro použití ECDSA nebo Schnorra je nutné zvolit parametry eliptické křivky, tj. hodnoty $a$ a $b$ v rovnici křivky. Existují různé standardy eliptických křivek, které jsou považovány za kryptograficky bezpečné. Nejznámější je křivka *secp256r1*, definovaná a doporučená NIST (*National Institute of Standards and Technology*).
+Pro použití ECDSA nebo Schnorra je nutné zvolit parametry eliptické křivky, tj. hodnoty $a$ a $b$ v rovnici křivky. Existují různé standardy eliptických křivek, které jsou považovány za kryptograficky bezpečné. Nejznámější je křivka _secp256r1_, definovaná a doporučená NIST (_National Institute of Standards and Technology_).
 
-Přesto se Satoshi Nakamoto, tvůrce Bitcoinu, rozhodl tuto křivku nepoužít. Důvod tohoto rozhodnutí není znám, ale někteří se domnívají, že upřednostnil hledání alternativy, protože parametry této křivky by mohly potenciálně obsahovat zadní vrátka. Místo toho protokol Bitcoinu používá standardní křivku ***secp256k1***. Tato křivka je definována parametry $a = 0$ a $b = 7$. Její rovnice je tedy:
+Přesto se Satoshi Nakamoto, tvůrce Bitcoinu, rozhodl tuto křivku nepoužít. Důvod tohoto rozhodnutí není znám, ale někteří se domnívají, že upřednostnil hledání alternativy, protože parametry této křivky by mohly potenciálně obsahovat zadní vrátka. Místo toho protokol Bitcoinu používá standardní křivku **_secp256k1_**. Tato křivka je definována parametry $a = 0$ a $b = 7$. Její rovnice je tedy:
 
 $$
 y^2 = x^3 + 7
@@ -619,7 +660,7 @@ V Bitcoinu je prvočíslo $p$ použité k definici konečného tělesa velmi vel
 
 Použité prvočíslo $p$ je:
 
-```txt
+```text
 p = 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEFFFFFC2F
 ```
 
@@ -650,6 +691,7 @@ Pokud se chcete dozvědět více o matematických základech moderní kryptograf
 https://planb.network/courses/cyp302
 
 ## Výpočet veřejného klíče z privátního klíče
+
 <chapterId>fcb2bd58-5dda-5ecf-bb8f-ad1a0561ab4a</chapterId>
 Jak bylo dříve viděno, algoritmy digitálního podpisu v Bitcoinu jsou založeny na páru privátních a veřejných klíčů, které jsou matematicky propojeny. Pojďme společně prozkoumat, jaký je tento matematický vztah a jak jsou generovány.
 
@@ -666,6 +708,7 @@ Jak uvidíme v nadcházejících kapitolách, dnes většina soukromých klíč�
 Pro pokračování vysvětlení bude soukromý klíč označen malým písmenem $k$.
 
 ### Veřejný klíč
+
 Veřejný klíč je bod na eliptické křivce, označený velkým písmenem $K$, a je vypočítán z soukromého klíče $k$. Tento bod $K$ je reprezentován párem souřadnic $(x, y)$ na eliptické křivce, přičemž každá souřadnice je celé číslo modulo $p$, prvočíslo definující konečné pole $\mathbb{F}_p$.
 V praxi je nekomprimovaný veřejný klíč reprezentován 512 bity (nebo 64 byty), což odpovídá dvěma 256-bitovým číslům ($x$ a $y$) umístěným vedle sebe. Tato čísla jsou souřadnice abscisy ($x$) a ordináty ($y$) našeho bodu na secp256k1. Pokud přidáme prefix, veřejný klíč má celkem 520 bitů.
 
@@ -678,6 +721,7 @@ K = k \cdot G
 $$
 
 kde:
+
 - $k$ je soukromý klíč (náhodné celé číslo mezi $1$ a $n-1$);
 - $G$ je generátorový bod eliptické křivky používaný všemi účastníky Bitcoinové sítě; - $\cdot$ reprezentuje skalární násobení na eliptické křivce, což je ekvivalentní k přidání bodu $G$ k sobě samému $k$-krát.
 
@@ -686,6 +730,7 @@ Fakt, že tento bod $G$ je společný pro všechny veřejné klíče na Bitcoinu
 ![CYP201](assets/fr/017.webp)
 
 Hlavní charakteristikou této operace je, že jde o jednosměrnou funkci. Je snadné vypočítat veřejný klíč $K$ znalostí soukromého klíče $k$ a generátorového bodu $G$, ale je prakticky nemožné vypočítat soukromý klíč $k$ znalostí pouze veřejného klíče $K$ a generátorového bodu $G$. Najít $k$ z $K$ a $G$ znamená řešit problém diskrétního logaritmu na eliptických křivkách, matematicky obtížný problém, pro který není znám žádný efektivní algoritmus. Ani nejsilnější současné kalkulačky nejsou schopny tento problém vyřešit v rozumném čase.
+
 ### Sčítání a zdvojení bodů na eliptických křivkách
 
 Koncept sčítání na eliptických křivkách je definován geometricky. Pokud máme na křivce dva body $P$ a $Q$, operace $P + Q$ se vypočítá tak, že nakreslíme čáru procházející body $P$ a $Q$. Tato čára nutně protne křivku ve třetím bodě $R'$. Poté vezmeme zrcadlový obraz tohoto bodu vzhledem k ose x, abychom získali bod $R$, který je výsledkem sčítání:
@@ -717,6 +762,7 @@ K = k \cdot G = 4G
 $$
 
 Graficky to odpovídá provádění série sčítání a zdvojení:
+
 - Vypočítáme $2G$ zdvojením $G$.
 - Vypočítáme $4G$ zdvojením $2G$.
 
@@ -736,6 +782,7 @@ $$
 
 Graficky by to bylo znázorněno takto:
 ![CYP201](assets/fr/022.webp)
+
 ### Jednosměrná funkce
 
 Díky těmto operacím můžeme pochopit, proč je snadné odvodit veřejný klíč z privátního klíče, ale opak je prakticky nemožný.
@@ -750,9 +797,10 @@ Nyní, pokud někdo zná pouze veřejný klíč $K$, setká se s problémem disk
 Samozřejmě, v tomto zjednodušeném příkladu s $k = 4$, by bylo možné najít $k$ metodou pokus-omyl, protože počet možností je nízký. Avšak v praxi na Bitcoinu je $k$ 256-bitové celé číslo, což činí počet možností astronomicky velký (přibližně $1.158 \times 10^{77}$). Proto je nemožné najít $k$ hrubou silou.
 
 ## Podpis privátním klíčem
+
 <chapterId>bb07826f-826e-5905-b307-3d82001fb778</chapterId>
 
-Nyní, když víte, jak odvodit veřejný klíč z privátního klíče, můžete již přijímat bitcoiny použitím této dvojice klíčů jako podmínky pro utrácení. Ale jak je utratit? Pro utrácení bitcoinů budete muset odemknout *scriptPubKey* připojený k vašemu UTXO, abyste dokázali, že jste skutečně jeho legitimním vlastníkem. K tomu musíte vyprodukovat podpis $s$, který odpovídá veřejnému klíči $K$ přítomnému ve *scriptPubKey* pomocí privátního klíče $k$, který byl původně použit pro výpočet $K$. Digitální podpis je tak nezpochybnitelným důkazem, že máte v držení privátní klíč spojený s veřejným klíčem, který tvrdíte.
+Nyní, když víte, jak odvodit veřejný klíč z privátního klíče, můžete již přijímat bitcoiny použitím této dvojice klíčů jako podmínky pro utrácení. Ale jak je utratit? Pro utrácení bitcoinů budete muset odemknout _scriptPubKey_ připojený k vašemu UTXO, abyste dokázali, že jste skutečně jeho legitimním vlastníkem. K tomu musíte vyprodukovat podpis $s$, který odpovídá veřejnému klíči $K$ přítomnému ve _scriptPubKey_ pomocí privátního klíče $k$, který byl původně použit pro výpočet $K$. Digitální podpis je tak nezpochybnitelným důkazem, že máte v držení privátní klíč spojený s veřejným klíčem, který tvrdíte.
 
 ### Parametry eliptické křivky
 
@@ -764,7 +812,7 @@ $$
 p = 2^{256} - 2^{32} - 977
 $$
 
-```txt
+```text
 p = 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEFFFFFC2F
 ```
 
@@ -778,14 +826,16 @@ $$
 
 Generující bod nebo počáteční bod $G$:
 
-```txt
+```text
 G = 0x0279BE667EF9DCBBAC55A06295CE870B07029BFCDB2DCE28D959F2815B16F81798
 ```
+
 Toto číslo je komprimovaná forma, která udává pouze souřadnici bodu $G$. Předpona `02` na začátku určuje, která ze dvou hodnot majících tuto souřadnici $x$ má být použita jako generující bod.
 Řád $n$ bodu $G$ (počet existujících bodů) a kofaktor $h$:
 
-```txt
+```text
 n = 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEBAAEDCE6AF48A03BBFD25E8CD0364141
+```
 
 $n$ je velmi velké číslo, které je o něco menší než $p$.
 
@@ -799,7 +849,7 @@ Všechny tyto informace jsou veřejné a známé všem účastníkům. Díky nim
 
 ### Podpis s ECDSA
 
-Algoritmus ECDSA umožňuje uživateli podepsat zprávu pomocí svého soukromého klíče takovým způsobem, že kdokoli zná odpovídající veřejný klíč, může ověřit platnost podpisu, aniž by byl soukromý klíč kdy odhalen. V kontextu Bitcoinu závisí zpráva, která má být podepsána, na *sighash* vybraném uživatelem. Právě tento *sighash* určí, které části transakce jsou podpisem pokryty. O tomto budu hovořit více v další kapitole.
+Algoritmus ECDSA umožňuje uživateli podepsat zprávu pomocí svého soukromého klíče takovým způsobem, že kdokoli zná odpovídající veřejný klíč, může ověřit platnost podpisu, aniž by byl soukromý klíč kdy odhalen. V kontextu Bitcoinu závisí zpráva, která má být podepsána, na _sighash_ vybraném uživatelem. Právě tento _sighash_ určí, které části transakce jsou podpisem pokryty. O tomto budu hovořit více v další kapitole.
 
 Zde jsou kroky pro generování podpisu ECDSA:
 
@@ -824,6 +874,7 @@ s = r^{-1} \left( e + k \cdot x_R \right) \mod n
 $$
 
 kde:
+
 - $r^{-1}$ je modulární inverze $r$ modulo $n$, tj. celé číslo takové, že $r \cdot r^{-1} \equiv 1 \mod n$;
 - $k$ je soukromý klíč uživatele;
 - $e$ je hash zprávy;
@@ -887,7 +938,8 @@ Kromě zprávy jsou do označené funkce předány také $x$ souřadnice veřejn
 Výsledek tohoto hashování označený $e$ se nazývá "výzva":
 
 $$
-e = \text{HASH}(\text{``BIP0340/challenge''}, R_x \Vert K_x \Vert m) \mod n$$
+e = \text{HASH}(\text{``BIP0340/challenge''}, R_x \Vert K_x \Vert m) \mod n
+$$
 
 Zde $\text{HASH}$ je hashovací funkce SHA256 a $\text{``BIP0340/challenge''}$ je specifický tag pro hashování.
 
@@ -961,11 +1013,13 @@ Jak jsme viděli, Satoshi původně zvolil pro digitální podpisy na Bitcoinu i
 Ve skutečnosti nevíme, proč si Satoshi jej nevybral, ale pravděpodobná hypotéza je, že tento protokol byl do roku 2008 pod patentem. Ačkoli byl Bitcoin vytvořen o rok později, v lednu 2009, v té době nebyla k dispozici žádná otevřená standardizace pro Schnorrovy podpisy. Možná Satoshi považoval za bezpečnější použít ECDSA, která byla již široce používána a testována v open-source software a měla několik uznávaných implementací (zejména knihovna OpenSSL používaná do roku 2015 na Bitcoin Core, poté nahrazená libsecp256k1 ve verzi 0.10.0). Nebo možná nevěděl, že tento patent vyprší v roce 2008. Každopádně nejpravděpodobnější hypotéza se zdá být spojena s tímto patentem a skutečností, že ECDSA měla prokázanou historii a byla snazší k implementaci.
 
 ## The sighash flags
+
 <chapterId>231c41a2-aff2-4655-9048-47b6d2d83d64</chapterId>
 
 Jak jsme viděli v předchozích kapitolách, digitální podpisy jsou často používány k odemčení skriptu vstupu. Při procesu podepisování je nutné zahrnout podepsaná data do výpočtu, označená v našich příkladech jako zpráva $m$. Tato data, jakmile jsou podepsána, nemohou být změněna bez zneplatnění podpisu. Skutečně, ať už pro ECDSA nebo Schnorr, musí verifikátor podpisu zahrnout do svého výpočtu stejnou zprávu $m$. Pokud se liší od zprávy $m$ původně použité signatářem, výsledek bude nesprávný a podpis bude považován za neplatný. Říká se, že podpis pokrývá určitá data a chrání je tak nějakým způsobem proti neoprávněným úpravám.
 
 ### Co je to sighash flag?
+
 Ve specifickém případě Bitcoinu jsme viděli, že zpráva $m$ odpovídá transakci. Ve skutečnosti je to ale trochu složitější. Díky sighash flagům je možné vybrat specifická data v rámci transakce, která budou nebo nebudou podpisem pokryta.
 "Sighash flag" je tedy parametr přidaný ke každému vstupu, který umožňuje určit komponenty transakce, které jsou pokryty přidruženým podpisem. Tyto komponenty jsou vstupy a výstupy. Volba sighash flagu tedy určuje, které vstupy a výstupy transakce jsou podpisem fixovány a které je možné stále měnit bez zneplatnění. Tento mechanismus umožňuje podpisům zavázat data transakce podle záměrů signatáře.
 Je zřejmé, že jakmile je transakce potvrzena na blockchainu, stává se neměnnou, bez ohledu na použité příznaky sighash. Možnost úpravy prostřednictvím příznaků sighash je omezena na období mezi podepsáním a potvrzením.
@@ -984,8 +1038,9 @@ Ve všech diagramech této kapitoly oranžová barva reprezentuje prvky pokryté
 - `SIGHASH_NONE` (`0x02`): Podpis pokrývá všechny vstupy, ale žádné výstupy, což umožňuje úpravu výstupů po podpisu. Konkrétně je to podobné jako vystavit prázdný šek. Signatář odemkne UTXO na vstupech, ale nechá pole výstupů zcela upravitelné. Kdokoli, kdo zná tuto transakci, může tedy přidat výstup dle svého výběru, například zadáním přijímací adresy pro shromáždění prostředků spotřebovaných vstupy, a poté transakci vysílat, aby získal bitcoiny. Podpis vlastníka vstupů nebude zneplatněn, protože pokrývá pouze vstupy.
 
 ![CYP201](assets/fr/027.webp)
-- `SIGHASH_SINGLE` (`0x03`): Podpis pokrývá všechny vstupy stejně jako jeden výstup, který odpovídá indexu podepsaného vstupu. Například, pokud podpis odemkne *scriptPubKey* vstupu č. 0, pak také pokrývá výstup č. 0. Podpis také chrání všechny ostatní vstupy, které již nemohou být upraveny. Nicméně, kdokoli může přidat další výstup bez zneplatnění podpisu, za předpokladu, že výstup č. 0, který je jediný jím pokrytý, není upraven.
-![CYP201](assets/fr/028.webp)
+
+- `SIGHASH_SINGLE` (`0x03`): Podpis pokrývá všechny vstupy stejně jako jeden výstup, který odpovídá indexu podepsaného vstupu. Například, pokud podpis odemkne _scriptPubKey_ vstupu č. 0, pak také pokrývá výstup č. 0. Podpis také chrání všechny ostatní vstupy, které již nemohou být upraveny. Nicméně, kdokoli může přidat další výstup bez zneplatnění podpisu, za předpokladu, že výstup č. 0, který je jediný jím pokrytý, není upraven.
+  ![CYP201](assets/fr/028.webp)
 
 Kromě těchto tří základních příznaků sighash existuje také modifikátor `SIGHASH_ANYONECANPAY` (`0x80`). Tento modifikátor lze kombinovat se základním příznakem sighash a vytvořit tak tři nové příznaky sighash:
 
@@ -996,12 +1051,13 @@ Kromě těchto tří základních příznaků sighash existuje také modifikáto
 - `SIGHASH_NONE | SIGHASH_ANYONECANPAY` (`0x82`): Podpis pokrývá jediný vstup, aniž by se zavazoval k jakémukoli výstupu;
 
 ![CYP201](assets/fr/030.webp)
-- `SIGHASH_SINGLE | SIGHASH_ANYONECANPAY` (`0x83`): Podpis pokrývá jediný vstup stejně jako výstup, který má stejný index jako tento vstup. Například, pokud podpis odemyká *scriptPubKey* vstupu č. 3, bude také pokrývat výstup č. 3. Zbytek transakce zůstává modifikovatelný, a to jak z hlediska ostatních vstupů, tak i ostatních výstupů.
-![CYP201](assets/fr/031.webp)
+
+- `SIGHASH_SINGLE | SIGHASH_ANYONECANPAY` (`0x83`): Podpis pokrývá jediný vstup stejně jako výstup, který má stejný index jako tento vstup. Například, pokud podpis odemyká _scriptPubKey_ vstupu č. 3, bude také pokrývat výstup č. 3. Zbytek transakce zůstává modifikovatelný, a to jak z hlediska ostatních vstupů, tak i ostatních výstupů.
+  ![CYP201](assets/fr/031.webp)
 
 ### Projekty na přidání nových Sighash příznaků
 
-V současnosti (2024) jsou na Bitcoinu použitelné pouze příznaky sighash prezentované v předchozí sekci. Nicméně, některé projekty zvažují přidání nových příznaků sighash. Například, BIP118, navržený Christianem Deckerem a Anthonym Townsem, představuje dva nové příznaky sighash: `SIGHASH_ANYPREVOUT` a `SIGHASH_ANYPREVOUTANYSCRIPT` (*AnyPrevOut = "Jakýkoliv Předchozí Výstup"*).
+V současnosti (2024) jsou na Bitcoinu použitelné pouze příznaky sighash prezentované v předchozí sekci. Nicméně, některé projekty zvažují přidání nových příznaků sighash. Například, BIP118, navržený Christianem Deckerem a Anthonym Townsem, představuje dva nové příznaky sighash: `SIGHASH_ANYPREVOUT` a `SIGHASH_ANYPREVOUTANYSCRIPT` (_AnyPrevOut = "Jakýkoliv Předchozí Výstup"_).
 
 Tyto dva příznaky sighash by nabídly na Bitcoinu další možnost: vytváření podpisů, které nepokrývají žádný konkrétní vstup transakce.
 
@@ -1017,9 +1073,11 @@ https://planb.network/courses/lnp201
 V další části navrhuji objevit, jak funguje mnemonická fráze, která je základem vaší Bitcoin peněženky.
 
 # Mnemonická fráze
+
 <partId>4070af16-c8a2-58b5-9871-a22c86c07458</partId>
 
 ## Vývoj Bitcoin peněženek
+
 <chapterId>9d9acd5d-a0e5-5dfd-b544-f043fae8840f</chapterId>
 
 Nyní, když jsme prozkoumali fungování hašovacích funkcí a digitálních podpisů, můžeme studovat, jak fungují Bitcoin peněženky. Cílem bude představit si, jak je peněženka na Bitcoinu konstruována, jak je dekomponována a jaké různé informace, které ji tvoří, se používají. Toto porozumění mechanismům peněženky vám umožní zlepšit vaše používání Bitcoinu z hlediska bezpečnosti a soukromí.
@@ -1028,11 +1086,12 @@ Před ponořením do technických detailů je nezbytné objasnit, co se myslí p
 
 ### Co je Bitcoin peněženka?
 
-Na rozdíl od tradičních peněženek, které vám umožňují ukládat fyzické bankovky a mince, Bitcoin peněženka jako taková neobsahuje bitcoiny. Ve skutečnosti bitcoiny neexistují ve fyzické nebo digitální formě, která by mohla být uložena, ale jsou reprezentovány jednotkami účtu zobrazenými v systému ve formě **UTXO** (*Unspent Transaction Output* - Nevyužitý Transakční Výstup).
-UTXO tak představují fragmenty bitcoinů různých velikostí, které lze utratit, pokud je splněn jejich *scriptPubKey*. Aby uživatel mohl utratit své bitcoiny, musí poskytnout *scriptSig*, který odemkne *scriptPubKey* spojený s jeho UTXO. Tento důkaz je obvykle poskytnut prostřednictvím digitálního podpisu, generovaného z privátního klíče odpovídajícího veřejnému klíči přítomnému v *scriptPubKey*. Tím pádem je klíčovým prvkem, který musí uživatel zabezpečit, privátní klíč. Úlohou Bitcoinové peněženky je právě bezpečně spravovat tyto privátní klíče. Ve skutečnosti je její role více podobná té klíčenky než peněženky v tradičním smyslu.
-### JBOK Peněženky (*Just a Bunch Of Keys*)
+Na rozdíl od tradičních peněženek, které vám umožňují ukládat fyzické bankovky a mince, Bitcoin peněženka jako taková neobsahuje bitcoiny. Ve skutečnosti bitcoiny neexistují ve fyzické nebo digitální formě, která by mohla být uložena, ale jsou reprezentovány jednotkami účtu zobrazenými v systému ve formě **UTXO** (_Unspent Transaction Output_ - Nevyužitý Transakční Výstup).
+UTXO tak představují fragmenty bitcoinů různých velikostí, které lze utratit, pokud je splněn jejich _scriptPubKey_. Aby uživatel mohl utratit své bitcoiny, musí poskytnout _scriptSig_, který odemkne _scriptPubKey_ spojený s jeho UTXO. Tento důkaz je obvykle poskytnut prostřednictvím digitálního podpisu, generovaného z privátního klíče odpovídajícího veřejnému klíči přítomnému v _scriptPubKey_. Tím pádem je klíčovým prvkem, který musí uživatel zabezpečit, privátní klíč. Úlohou Bitcoinové peněženky je právě bezpečně spravovat tyto privátní klíče. Ve skutečnosti je její role více podobná té klíčenky než peněženky v tradičním smyslu.
 
-První peněženky používané na Bitcoinu byly JBOK (*Just a Bunch Of Keys*) peněženky, které seskupovaly soukromě generované klíče nezávisle a bez jakéhokoli vzájemného propojení. Tyto peněženky fungovaly na jednoduchém modelu, kde každý soukromý klíč mohl odemknout unikátní přijímací adresu Bitcoinu.
+### JBOK Peněženky (_Just a Bunch Of Keys_)
+
+První peněženky používané na Bitcoinu byly JBOK (_Just a Bunch Of Keys_) peněženky, které seskupovaly soukromě generované klíče nezávisle a bez jakéhokoli vzájemného propojení. Tyto peněženky fungovaly na jednoduchém modelu, kde každý soukromý klíč mohl odemknout unikátní přijímací adresu Bitcoinu.
 
 ![CYP201](assets/fr/033.webp)
 
@@ -1044,21 +1103,25 @@ Pro více informací o modelu soukromí Bitcoinu a objevení metod, jak chránit
 
 https://planb.network/courses/btc204
 
-### HD Peněženky (*Hierarchical Deterministic*)
+### HD Peněženky (_Hierarchical Deterministic_)
+
 Aby se překonalo omezení JBOK peněženek, byla následně využita nová struktura peněženky. V roce 2012 Pieter Wuille představil vylepšení s BIP32, které zavádí hierarchické deterministické peněženky. Princip HD peněženky spočívá v odvození všech soukromých klíčů z jediného zdroje informací, nazývaného semínko, deterministickým a hierarchickým způsobem. Toto semínko je generováno náhodně při vytvoření peněženky a představuje unikátní zálohu, která umožňuje rekreaci všech soukromých klíčů peněženky. Tímto způsobem může uživatel generovat velmi velké množství soukromých klíčů, aby se vyhnul opakovanému používání adres a zachoval své soukromí, zatímco potřebuje udělat jedinou zálohu své peněženky prostřednictvím semínka.
 ![CYP201](assets/fr/034.webp)
 
 V HD peněženkách se odvození klíčů provádí podle hierarchické struktury, která umožňuje klíče organizovat do odvozovacích podprostorů, přičemž každý podprostor je dále dělitelný, aby se usnadnilo správa finančních prostředků a interoperabilita mezi různými softwary peněženek. Dnes je tento standard přijat většinou uživatelů Bitcoinu. Z tohoto důvodu se mu budeme v následujících kapitolách podrobně věnovat.
 
 ### Standard BIP39: Mnemonická Fráze
+
 Kromě BIP32 standardizuje BIP39 formát seedu jako mnemonickou frázi, aby usnadnil zálohování a čitelnost uživateli. Mnemonická fráze, také nazývaná obnovovací fráze nebo 24-slovní fráze, je sekvence slov vybraných z předdefinovaného seznamu, která bezpečně kóduje seed peněženky.
 Mnemonická fráze výrazně zjednodušuje zálohování pro uživatele. V případě ztráty, poškození nebo krádeže zařízení hostícího peněženku umožňuje pouhé znalosti této mnemonické fráze obnovit peněženku a získat zpět přístup ke všem finančním prostředkům, které jsou jí zajištěny.
 
 V nadcházejících kapitolách prozkoumáme vnitřní fungování HD peněženek, včetně mechanismů derivace klíčů a různých možných hierarchických struktur. To vám umožní lépe pochopit kryptografické základy, na kterých je založena bezpečnost finančních prostředků na Bitcoinu. A začneme v další kapitole, kde navrhuji objevit roli entropie v základu vaší peněženky.
 
 ## Entropie a náhodné číslo
+
 <chapterId>b43c715d-affb-56d8-a697-ad5bc2fffd63</chapterId>
 Moderní HD peněženky (deterministické a hierarchické) spoléhají na jediný počáteční kus informace nazývaný "entropie" pro deterministické generování celé sady klíčů peněženky. Tato entropie je pseudo-náhodné číslo, jehož úroveň chaosu částečně určuje bezpečnost peněženky.
+
 ### Definice Entropie
 
 Entropie, v kontextu kryptografie a informací, je kvantitativní míra nejistoty nebo nepředvídatelnosti spojená se zdrojem dat nebo náhodným procesem. Hraje důležitou roli v bezpečnosti kryptografických systémů, zejména při generování klíčů a náhodných čísel. Vysoká entropie zajišťuje, že generované klíče jsou dostatečně nepředvídatelné a odolné vůči útokům hrubou silou, kdy útočník zkouší všechny možné kombinace, aby uhodl klíč.
@@ -1068,10 +1131,11 @@ V kontextu Bitcoinu se entropie používá k generování seedu. Při vytvářen
 ### Metody generování entropie
 
 Počáteční entropie použitá pro HD peněženku je obvykle 128 bitů nebo 256 bitů, kde:
+
 - **128 bitů entropie** odpovídá mnemonické frázi **12 slov**;
 - **256 bitů entropie** odpovídá mnemonické frázi **24 slov**.
 
-Ve většině případů je toto náhodné číslo generováno automaticky softwarovou peněženkou pomocí PRNG (*Pseudo-Random Number Generator*). PRNG jsou kategorie algoritmů používaných k generování sekvencí čísel z počátečního stavu, které mají vlastnosti přibližující se náhodnému číslu, aniž by byly skutečně náhodné. Dobrý PRNG musí mít vlastnosti jako je uniformita výstupu, nepředvídatelnost a odolnost vůči prediktivním útokům. Na rozdíl od skutečných generátorů náhodných čísel (TRNG) jsou PRNG deterministické a reprodukovatelné.
+Ve většině případů je toto náhodné číslo generováno automaticky softwarovou peněženkou pomocí PRNG (_Pseudo-Random Number Generator_). PRNG jsou kategorie algoritmů používaných k generování sekvencí čísel z počátečního stavu, které mají vlastnosti přibližující se náhodnému číslu, aniž by byly skutečně náhodné. Dobrý PRNG musí mít vlastnosti jako je uniformita výstupu, nepředvídatelnost a odolnost vůči prediktivním útokům. Na rozdíl od skutečných generátorů náhodných čísel (TRNG) jsou PRNG deterministické a reprodukovatelné.
 
 ![CYP201](assets/fr/035.webp)
 
@@ -1080,6 +1144,7 @@ Alternativou je manuální generování entropie, které nabízí lepší kontro
 V další kapitole uvidíme, jak přejdeme od náhodného čísla k mnemonické frázi 12 nebo 24 slov.
 
 ## Mnemonická fráze
+
 <chapterId>8f9340c1-e6dc-5557-a2f2-26c9669987d5</chapterId>
 Mnemonická fráze, také nazývaná "seed fráze", "recovery fráze", "tajná fráze" nebo "24-slovní fráze", je sekvence obvykle složená ze 12 nebo 24 slov, která je generována z entropie. Používá se k deterministickému odvození všech klíčů HD peněženky. To znamená, že z této fráze je možné deterministicky generovat a znovu vytvořit všechny soukromé a veřejné klíče Bitcoinové peněženky a tím pádem přistupovat k fondům, které jsou s ní chráněny. Účelem mnemonické fráze je poskytnout prostředek pro zálohování a obnovu bitcoinů, který je zároveň bezpečný a snadno použitelný. Do standardů byla zavedena v roce 2013 s BIP39.
 Pojďme společně objevit, jak přejít od entropie k mnemonické frázi.
@@ -1109,6 +1174,7 @@ Jakmile je kontrolní součet vypočítán, je konkatenován s entropií, aby se
 ### Korespondence mezi Entropií a Mnemonickou Frází
 
 Počet slov v mnemonické frázi závisí na velikosti počáteční entropie, jak je ilustrováno v následující tabulce s:
+
 - $\text{ENT}$: velikost entropie v bitech;
 - $\text{CS}$: velikost kontrolního součtu v bitech;
 - $w$: počet slov v konečné mnemonické frázi.
@@ -1147,8 +1213,11 @@ Tento rozdíl v bezpečnosti na úrovni fráze však nezlepšuje celkovou bezpe�
 
 Pro 256bitové klíče, jako jsou ty používané na Bitcoinu, tak Pollardův rho algoritmus snižuje složitost na $2^{128}$ operací:
 
+
 $$
+
 O(\sqrt{2^{256}}) = O(2^{128})
+
 $$
 
 Proto se považuje, že soukromý klíč používaný na Bitcoinu nabízí 128bitovou bezpečnost.
@@ -1174,13 +1243,13 @@ Heslo pracuje v tandemu s mnemonickou frází, mění semeno, ze kterého jsou g
 
 ![CYP201](assets/fr/041.webp)
 
-## Proč byste měli používat heslo?
+### Proč byste měli používat heslo?
 
 Heslo je libovolné a může být jakoukoli kombinací znaků zvolenou uživatelem. Použití hesla tak nabízí několik výhod. Především snižuje všechna rizika spojená s kompromitací mnemonické fráze tím, že vyžaduje druhý faktor pro přístup k prostředkům (vloupání, přístup do vašeho domova atd.).
 
 Dále může být strategicky použito k vytvoření návnadové peněženky, aby čelilo fyzickým omezením krádeže vašich prostředků, jako je proslulý "_útok klíčem za 5 dolarů_". V tomto scénáři je myšlenka mít peněženku bez hesla obsahující pouze malé množství bitcoinů, dostatečné k uspokojení potenciálního agresora, zatímco máte skrytou peněženku. Tato poslední používá stejnou mnemonickou frázi, ale je zabezpečena dodatečným heslem.
 Nakonec je použití hesla zajímavé, když si přejete kontrolovat náhodnost generování semene HD peněženky.
-## Jak vybrat dobré heslo?
+### Jak vybrat dobré heslo?
 
 Aby bylo heslo účinné, musí být dostatečně dlouhé a náhodné. Stejně jako u silného hesla doporučuji vybrat heslo, které je co nejdelší a nejnáhodnější, s rozmanitostí písmen, čísel a symbolů, aby byl jakýkoli pokus o hrubou sílu nemožný.
 Je také důležité správně uložit tuto heslovou frázi, stejně jako mnemonickou frázi. **Ztráta znamená ztrátu přístupu k vašim bitcoinům**. Důrazně nedoporučuji ji pamatovat si pouze nazpaměť, protože to neracionálně zvyšuje riziko ztráty. Ideální je zapsat ji na fyzické médium (papír nebo kov) odděleně od mnemonické fráze. Tato záloha musí být samozřejmě uložena na jiném místě než vaše mnemonická fráze, aby se zabránilo jejich současnému ohrožení.
@@ -1213,8 +1282,11 @@ Bez ohledu na délku zvolené mnemonické fráze (132 bitů nebo 264 bitů), fun
 
 Následující rovnice ilustruje odvození semene z mnemonické fráze a heslové fráze:
 
+
 $$
-s = \text{PBKDF2}_{\text{HMAC-SHA512}}(m, p, 2048)
+
+s = \text{PBKDF2}\_{\text{HMAC-SHA512}}(m, p, 2048)
+
 $$
 
 ![CYP201](assets/fr/044.webp)
@@ -1232,8 +1304,11 @@ Pro získání hlavního soukromého klíče a hlavního řetězového kódu se 
 - $s$: 512-bitové semínko peněženky;
 - $\text{"Bitcoin Seed"}$: společná konstanta odvození pro všechny Bitcoinové peněženky.
 
+
 $$
+
 \text{výstup} = \text{HMAC-SHA512}(\text{"Bitcoin Seed"}, s)
+
 $$
 
 Výstup této funkce je tedy 512 bitů. Poté je rozdělen na 2 části:
@@ -1241,11 +1316,16 @@ Výstup této funkce je tedy 512 bitů. Poté je rozdělen na 2 části:
 - Pravých 256 bitů tvoří **hlavní řetězový kód**.
 Matematicky lze tyto dvě hodnoty označit následovně s $k_M$ jako hlavním soukromým klíčem a $C_M$ jako hlavním řetězovým kódem:
 $$
-k_M = \text{HMAC-SHA512}(\text{"Bitcoin Seed"}, s)_{[:256]}
-$$
+
+k*M = \text{HMAC-SHA512}(\text{"Bitcoin Seed"}, s)*{[:256]}
 
 $$
-C_M = \text{HMAC-SHA512}(\text{"Bitcoin Seed"}, s)_{[256:]}
+
+
+$$
+
+C*M = \text{HMAC-SHA512}(\text{"Bitcoin Seed"}, s)*{[256:]}
+
 $$
 
 ![CYP201](assets/fr/045.webp)
@@ -1339,23 +1419,23 @@ Pro lepší pochopení vnitřní struktury rozšířeného klíče si vezměme j
 
 - **V Base58**:
 
-```txt
+```text
 xpub6CTNzMUkzpurBWaT4HQoYzLP4uBbGJuWY358Rj7rauiw4rMHCyq3Rfy9w4kyJXJzeFfyrKLUar2rUCukSiDQFa7roTwzjiAhyQAdPLEjqHT
 ```
 
 - **V hexadecimálním formátu**:
 
-```txt
+```text
 0488B21E036D5601AD80000000C605DF9FBD77FD6965BD02B77831EC5C78646AD3ACA14DC3984186F72633A89303772CCB99F4EF346078D167065404EED8A58787DED31BFA479244824DF50658051F067C3A
 ```
 
 Tento rozšířený klíč se rozkládá na několik odlišných prvků:
 
-1. **Verze**: `0488B21E`  
+1. **Verze**: `0488B21E`
 
 První 4 bajty jsou verze. Zde odpovídá rozšířenému veřejnému klíči na Mainnetu s účelem derivace buď *Legacy* nebo *SegWit v1*.
 
-2. **Hloubka**: `03`  
+2. **Hloubka**: `03`
 
 Toto pole udává hierarchickou úroveň klíče v rámci HD peněženky. V tomto případě hloubka `03` znamená, že tento klíč je tři úrovně derivace pod hlavním klíčem.
 
@@ -1406,32 +1486,47 @@ Pro derivaci dětského soukromého klíče $k_{\text{CHD}}$ z rodičovského so
 
 Pro **normální dětský klíč** ($i < 2^{31}$) je výpočet $\text{hash}$ následující:
 
+
 $$
-\text{hash} = \text{HMAC-SHA512}(C_{\text{PAR}}, G \cdot k_{\text{PAR}} \Vert i)
+
+\text{hash} = \text{HMAC-SHA512}(C*{\text{PAR}}, G \cdot k*{\text{PAR}} \Vert i)
+
 $$
 V tomto výpočtu pozorujeme, že naše HMAC funkce přijímá dva vstupy: nejprve rodičovský řetězec kódů a poté konkatenaci indexu s veřejným klíčem spojeným s rodičovským soukromým klíčem. Rodičovský veřejný klíč je zde použit, protože hledáme derivaci normálního dětského klíče, nikoli zpevněného.
 Nyní máme 64-bajtový $\text{hash}$, který rozdělíme na 2 části po 32 bajtech: $h_1$ a $h_2$:
 
-$$
-\text{hash} = h_1 \Vert h_2
-$$
 
 $$
-h_1 = \text{hash}_{[:32]} \quad, \quad h_2 = \text{hash}_{[32:]}
+
+\text{hash} = h_1 \Vert h_2
+
+$$
+
+
+$$
+
+h*1 = \text{hash}*{[:32]} \quad, \quad h*2 = \text{hash}*{[32:]}
+
 $$
 
 Dětský soukromý klíč $k_{\text{CHD}}^n$ je poté vypočítán následovně:
 
+
 $$
-k_{\text{CHD}}^n = \text{parse256}(h_1) + k_{\text{PAR}} \mod n
+
+k*{\text{CHD}}^n = \text{parse256}(h_1) + k*{\text{PAR}} \mod n
+
 $$
 V této kalkulaci operace $\text{parse256}(h_1)$ spočívá v interpretaci prvních 32 bajtů $\text{hash}$ jako 256-bitového celého čísla. Toto číslo je poté přičteno k rodičovskému soukromému klíči, vše modulo $n$ pro zachování v rámci řádu eliptické křivky, jak jsme viděli v sekci 3 o digitálních podpisech. Takto, pro odvození normálního dětského soukromého klíče, ačkoliv je jako základ pro výpočet vstupů funkce HMAC-SHA512 použit rodičovský veřejný klíč, je vždy nutné mít rodičovský soukromý klíč pro dokončení výpočtu.
 Z tohoto dětského soukromého klíče je možné odvodit odpovídající veřejný klíč aplikací ECDSA nebo Schnorr. Tímto způsobem získáme kompletní pár klíčů.
 
 Poté je druhá část $\text{hash}$ jednoduše interpretována jako řetězový kód pro právě odvozený pár dětských klíčů:
 
+
 $$
-C_{\text{CHD}} = h_2
+
+C\_{\text{CHD}} = h_2
+
 $$
 
 Zde je schématické znázornění celkové derivace:
@@ -1440,30 +1535,44 @@ Zde je schématické znázornění celkové derivace:
 
 Pro **zpevněný dětský klíč** ($i \geq 2^{31}$) je výpočet $\text{hash}$ následující:
 
+
 $$
-hash = \text{HMAC-SHA512}(C_{\text{PAR}}, 0x00 \Vert k_{\text{PAR}} \Vert i)
+
+hash = \text{HMAC-SHA512}(C*{\text{PAR}}, 0x00 \Vert k*{\text{PAR}} \Vert i)
+
 $$
 
 V tomto výpočtu pozorujeme, že naše funkce HMAC bere dva vstupy: prvně, rodičovský řetězový kód, a poté konkatenaci indexu s rodičovským soukromým klíčem. Rodičovský soukromý klíč je zde použit, protože se snažíme odvodit zpevněný dětský klíč. Navíc, na začátek klíče je přidán bajt rovný `0x00`. Tato operace vyrovnává jeho délku tak, aby odpovídala délce komprimovaného veřejného klíče.
 Takže nyní máme 64-bajtový $\text{hash}$, který rozdělíme na 2 části po 32 bajtech: $h_1$ a $h_2$:
 $$
+
 \text{hash} = h_1 \Vert h_2
-$$
 
 $$
+
+
+$$
+
 h_1 = \text{hash}[:32] \quad, \quad h_2 = \text{hash}[32:]
+
 $$
 
 Dětský soukromý klíč $k_{\text{CHD}}^h$ je poté vypočítán následovně:
 
+
 $$
-k_{\text{CHD}}^h = \text{parse256}(h_1) + k_{\text{PAR}} \mod n
+
+k*{\text{CHD}}^h = \text{parse256}(h_1) + k*{\text{PAR}} \mod n
+
 $$
 
 Dále jednoduše interpretujeme druhou část $\text{hash}$ jako řetězový kód pro právě odvozený pár dětských klíčů:
 
+
 $$
-C_{\text{CHD}} = h_2
+
+C\_{\text{CHD}} = h_2
+
 $$
 
 Zde je schématické znázornění celkové derivace:
@@ -1476,34 +1585,49 @@ Vidíme, že normální derivace a zpevněná derivace fungují stejným způsob
 Pokud známe pouze veřejný klíč rodiče $K_{\text{PAR}}$ a přidružený řetězový kód $C_{\text{PAR}}$, to znamená rozšířený veřejný klíč, je možné odvodit dětské veřejné klíče $K_{\text{CHD}}^n$, ale pouze pro normální (nepevněné) dětské klíče. Tento princip umožňuje zejména sledování pohybů na účtu v Bitcoinové peněžence z `xpub` (*pouze pro sledování*).
 Pro provedení tohoto výpočtu vypočítáme $\text{hash}$ s indexem $i < 2^{31}$ (normální odvození):
 
+
 $$
-\text{hash} = \text{HMAC-SHA512}(C_{\text{PAR}}, K_{\text{PAR}} \Vert i)
+
+\text{hash} = \text{HMAC-SHA512}(C*{\text{PAR}}, K*{\text{PAR}} \Vert i)
+
 $$
 
 V tomto výpočtu pozorujeme, že naše funkce HMAC bere dva vstupy: nejprve řetězový kód rodiče, poté konkatenaci indexu s veřejným klíčem rodiče.
 
 Nyní tedy máme $hash$ o velikosti 64 bajtů, který rozdělíme na 2 části po 32 bajtech: $h_1$ a $h_2$:
 
-$$
-\text{hash} = h_1 \Vert h_2
-$$
 
 $$
+
+\text{hash} = h_1 \Vert h_2
+
+$$
+
+
+$$
+
 h_1 = \text{hash}[:32] \quad, \quad h_2 = \text{hash}[32:]
+
 $$
 
 Dětský veřejný klíč $K_{\text{CHD}}^n$ je poté vypočítán následovně:
 
+
 $$
-K_{\text{CHD}}^n = G \cdot \text{parse256}(h_1) + K_{\text{PAR}}
+
+K*{\text{CHD}}^n = G \cdot \text{parse256}(h_1) + K*{\text{PAR}}
+
 $$
 Pokud $\text{parse256}(h_1) \geq n$ (řád eliptické křivky) nebo pokud $K_{\text{CHD}}^n$ je bod v nekonečnu, odvození je neplatné a musí být vybrán jiný index.
 V tomto výpočtu operace $\text{parse256}(h_1)$ zahrnuje interpretaci prvních 32 bajtů $\text{hash}$ jako 256-bitového celého čísla. Toto číslo se používá k výpočtu bodu na eliptické křivce prostřednictvím sčítání a zdvojení od generátorového bodu $G$. Tento bod je poté přičten k veřejnému klíči rodiče, aby se získal normální dětský veřejný klíč. Takže pro odvození normálního dětského veřejného klíče jsou nutné pouze veřejný klíč rodiče a řetězový kód rodiče; soukromý klíč rodiče do tohoto procesu nikdy nevstupuje, na rozdíl od výpočtu dětského soukromého klíče, který jsme viděli dříve.
 
 Následně je dětský řetězový kód jednoduše:
 
+
 $$
-C_{\text{CHD}} = h_2
+
+C\_{\text{CHD}} = h_2
+
 $$
 
 Zde je schématické znázornění celkového odvození:
@@ -1520,20 +1644,25 @@ Díky operacím sčítání a zdvojení na eliptické křivce obě metody produk
 
 Shrnutí různých možných typů derivací:
 
+
 $$
+
 \begin{array}{|c|c|c|c|}
 \hline
 \rightarrow & \text{PAR} & \text{CHD} & \text{n/h} \\
 \hline
-k_{\text{PAR}} \rightarrow k_{\text{CHD}} & k_{\text{PAR}} & \{ k_{\text{CHD}}^n, k_{\text{CHD}}^h \} & \{ n, h \} \\
+k*{\text{PAR}} \rightarrow k*{\text{CHD}} & k*{\text{PAR}} & \{ k*{\text{CHD}}^n, k\_{\text{CHD}}^h \} & \{ n, h \} \\
 \end{array}
+
 $$
 $$
-k_{\text{PAR}} \rightarrow K_{\text{CHD}} & k_{\text{PAR}} & \{ K_{\text{CHD}}^n, K_{\text{CHD}}^h \} & \{ n, h \} \\
-K_{\text{PAR}} \rightarrow k_{\text{CHD}} & K_{\text{PAR}} & \times & \times \\
-K_{\text{PAR}} \rightarrow K_{\text{CHD}} & K_{\text{PAR}} & K_{\text{CHD}}^n & n \\
+
+k*{\text{PAR}} \rightarrow K*{\text{CHD}} & k*{\text{PAR}} & \{ K*{\text{CHD}}^n, K*{\text{CHD}}^h \} & \{ n, h \} \\
+K*{\text{PAR}} \rightarrow k*{\text{CHD}} & K*{\text{PAR}} & \times & \times \\
+K*{\text{PAR}} \rightarrow K*{\text{CHD}} & K*{\text{PAR}} & K*{\text{CHD}}^n & n \\
 \hline
 \end{array}
+
 $$
 
 Shrnutí, dosud jste se naučili vytvářet základní prvky HD peněženky: mnemonickou frázi, seed a poté hlavní klíč a hlavní řetězový kód. Také jste objevili, jak odvozovat dětské páry klíčů v této kapitole. V další kapitole prozkoumáme, jak jsou tyto derivace organizovány v Bitcoinových peněženkách a jakou strukturu sledovat, abychom konkrétně získali přijímací adresy stejně jako páry klíčů používané v *scriptPubKey* a *scriptSig*.
@@ -1575,7 +1704,7 @@ Pro další příklady, zde jsou indexy některých měn:
 Každou peněženku lze rozdělit do několika účtů, číslovaných od $2^{31}$, a reprezentovaných na hloubce 3 $/0'/$ pro první účet, $/1'/$ pro druhý a tak dále. Obecně, když se mluví o rozšířeném klíči `xpub`, odkazuje se na klíče na této hloubce odvození.
 
 Toto rozdělení do různých účtů je volitelné. Jeho cílem je zjednodušit organizaci peněženky pro uživatele. V praxi se často používá pouze jeden účet, obvykle ten první jako výchozí. Nicméně, v některých případech, pokud si přeje někdo jasně rozlišit páry klíčů pro různé účely, může to být užitečné. Například je možné vytvořit osobní a profesionální účet ze stejného seedu, s úplně odlišnými skupinami klíčů z této hloubky odvození.
-**Hloubka 4: Řetězec (BIP32)**  
+**Hloubka 4: Řetězec (BIP32)**
 Každý účet definovaný na hloubce 3 je poté strukturován do dvou řetězců:
 - **Vnější řetězec**: V tomto řetězci jsou odvozeny takzvané "veřejné" adresy. Tyto přijímací adresy jsou určeny k uzamčení UTXO pocházejících z externích transakcí (to znamená, pocházejících z konzumace UTXO, které vám nepatří). Jednoduše řečeno, tento vnější řetězec se používá vždy, když si přejete přijímat bitcoiny. Když v softwaru vaší peněženky kliknete na "*přijmout*", je vám vždy nabídnuta adresa z vnějšího řetězce. Tento řetězec je reprezentován párem klíčů odvozených s indexem $/0/$.
 - **Vnitřní řetězec (změna)**: Tento řetězec je vyhrazen pro přijímací adresy, které uzamknou bitcoiny pocházející z konzumace UTXO, které vám patří, jinými slovy, adresy pro změnu. Je identifikován indexem $/1/$.
@@ -1589,15 +1718,20 @@ Nakonec, hloubka 5 představuje poslední krok odvození v peněžence. Ačkoliv
 Cesta odvození je zapsána oddělením každé úrovně lomítkem ($/$). Každé lomítko tak indikuje odvození rodičovského páru klíčů ($k_{\text{PAR}}$, $K_{\text{PAR}}$, $C_{\text{PAR}}$) na dětský pár klíčů ($k_{\text{CHD}}$, $K_{\text{CHD}}$, $C_{\text{CHD}}$). Číslo uvedené na každé hloubce odpovídá indexu použitému k odvození tohoto klíče od jeho rodičů. Apostrof ($'$) někdy umístěný vpravo od indexu označuje zpevněné odvození ($k_{\text{CHD}}^h$, $K_{\text{CHD}}^h$). Někdy je tento apostrof nahrazen písmenem $h$. V případě absence apostrofu nebo $h$ se jedná tedy o normální odvození ($k_{\text{CHD}}^n$, $K_{\text{CHD}}^n$).
 Jak jsme viděli v předchozích kapitolách, indexy zpevněných klíčů začínají od $2^{31}$, nebo `0x80000000` v hexadecimálním zápisu. Proto, když je index následován apostrofem v cestě odvození, musí být k uvedenému číslu přidáno $2^{31}$, aby byla získána skutečná hodnota použitá ve funkci HMAC-SHA512. Například, pokud cesta odvození specifikuje $/44'/$, skutečný index bude:
 $$
+
 i = 44 + 2^{31} = 2\,147\,483\,692
+
 $$
 
 V hexadecimálním zápisu je to `0x8000002C`.
 
 Nyní, když jsme pochopili hlavní principy cest odvození, pojďme si dát příklad! Zde je cesta odvození pro přijímací adresu Bitcoinu:
 
+
 $$
+
 m / 84' / 0' / 1' / 0 / 7
+
 $$
 
 V tomto příkladu:
@@ -1687,13 +1821,13 @@ Je právě v *scriptPubKey*, kde se nacházejí přijímací adresy. Nicméně j
 
 Opcodes použité ve skriptu jsou navrženy k manipulaci s informacemi a v případě potřeby k jejich porovnání nebo testování. Vezměme si příklad skriptu P2PKH, který vypadá takto:
 
-```txt
+```text
 OP_DUP OP_HASH160 OP_PUSHBYTES_20 <pubKeyHash> OP_EQUALVERIFY OP_CHECKSIG
 ```
 
 Jak uvidíme v této kapitole, `<pubKeyHash>` ve skutečnosti představuje náklad přijímací adresy použité k zamčení UTXO. K odemčení *scriptPubKey* je nutné poskytnout *scriptSig* obsahující:
 
-```txt
+```text
 <signature> <public key>
 ```
 Ve skriptovacím jazyce je "zásobník" datová struktura typu "*LIFO*" ("*Last In, First Out*"), která se používá k dočasnému ukládání prvků během vykonávání skriptu. Každá operace ve skriptu manipuluje s tímto zásobníkem, kde mohou být prvky přidávány (*push*) nebo odebírány (*pop*). Skripty využívají tyto zásobníky k vyhodnocení výrazů, ukládání dočasných proměnných a řízení podmínek.
@@ -1769,6 +1903,7 @@ P2TR odpovídá výstupům SegWit verze 1, což znamená, že podpisy pro vstupy
 Nyní, když jsme probrali teorii, pojďme přejít k praxi! V následující kapitole navrhuji odvození jak adresy SegWit v0, tak adresy SegWit v1 z páru klíčů.
 
 ## Odvození adresy
+<chapterId>3ebdc750-4135-4881-b07e-08965941b93e</chapterId>
 
 Pojďme společně prozkoumat, jak generovat přijímací adresu z páru klíčů umístěných například na hloubce 5 v HD peněžence. Tato adresa pak může být použita v softwaru peněženky k uzamčení UTXO.
 
@@ -1784,7 +1919,7 @@ Eliptické křivky však mají vlastnost symetrie vzhledem k ose x: pro danou so
 Pro kompresi veřejného klíče se kóduje pouze $x$, které zabírá 256 bitů, a přidá se prefix, který specifikuje paritu $y$. Tato metoda redukuje velikost veřejného klíče na 264 bitů namísto původních 520. Prefix `0x02` indikuje, že $y$ je sudé, a prefix `0x03` indikuje, že $y$ je liché.
 Pojďme si vzít příklad pro lepší pochopení, s nekomprimovanou reprezentací veřejného klíče:
 
-```txt
+```text
 K = 04678afdb0fe5548271967f1a67130b7105cd6a828e03909a67962e0ea1f61deb649f6bc3f4cef38c4f35504e51ec112de5c384df7ba0b8d578a4c702b6bf11d5f
 ```
 
@@ -1797,7 +1932,7 @@ Poslední hexadecimální znak $y$ je `f`. V desítkové soustavě `f = 15`, co�
 
 Kompresovaný veřejný klíč se stává:
 
-```txt
+```text
 K = 03678afdb0fe5548271967f1a67130b7105cd6a828e03909a67962e0ea1f61deb6
 ```
 Tato operace se aplikuje na všechny modely skriptů založené na ECDSA, to znamená na všechny kromě P2TR, který používá Schnorr. V případě Schnorra, jak je vysvětleno v části 3, si ponecháváme pouze hodnotu $x$, bez přidání prefixu k indikaci parity $y$, na rozdíl od ECDSA. To je umožněno tím, že pro všechny klíče je libovolně zvolena jedinečná parita. To umožňuje mírné snížení potřebného úložného prostoru pro veřejné klíče.
@@ -1807,26 +1942,31 @@ Nyní, když jsme získali náš komprimovaný veřejný klíč, můžeme z něj
 
 Prvním krokem je aplikovat hashovací funkci HASH160 na komprimovaný veřejný klíč. HASH160 je kompozice dvou po sobě jdoucích hashovacích funkcí: SHA256, následovaná RIPEMD160:
 
+
 $$
+
 \text{HASH160}(K) = \text{RIPEMD160}(\text{SHA256}(K))
+
 $$
 
 Nejprve klíč projde SHA256:
 
-```txt
+```text
 SHA256(K) = C489EBD66E4103B3C4B5EAFF462B92F5847CA2DCE0825F4997C7CF57DF35BF3A
 ```
 
 Poté výsledek projde RIPEMD160:
 
-```txt
+```text
 RIPEMD160(SHA256(K)) = 9F81322CC88622CA4CCB2A52A21E2888727AA535
 ```
 Získali jsme 160bitový hash veřejného klíče, který tvoří to, co se nazývá payload adresy. Tento payload představuje centrální a nejdůležitější část adresy. Používá se také ve *scriptPubKey* k uzamčení UTXO.
 
 Avšak, aby byl tento payload snadněji použitelný pro lidi, je k němu přidána metadata. Dalším krokem je zakódování tohoto hashe do skupin po 5 bitech v desítkové soustavě. Tato desítková transformace bude užitečná pro konverzi do *bech32*, která je používána u adres po SegWit. 160bitový binární hash je tak rozdělen do 32 skupin po 5 bitech:
 
+
 $$
+
 \begin{array}{|c|c|}
 \hline
 \text{5-bitové Skupiny} & \text{Desítková Hodnota} \\
@@ -1855,10 +1995,11 @@ $$
 00111 & 7 \\
 10001 & 17 \\
 \end{array}
+
 $$
 Takže máme:
 
-```txt
+```text
 HASH = 19 30 00 19 04 11 06 08 16 24 17 12 20 19 06 11 05 09 09 10 04 07 17 08 17 01 25 07 21 09 09 21
 ```
 
@@ -1882,7 +2023,7 @@ HRP musí být rozšířeno oddělením každého znaku na dvě části:
 
 S oddělovačem `0` mezi dvěma znaky je tedy rozšíření HRP:
 
-```txt
+```text
 03 03 00 02 03
 ```
 
@@ -1894,7 +2035,7 @@ S oddělovačem `0` mezi dvěma znaky je tedy rozšíření HRP:
 
 Všechna data kombinovaná pro vstup do programu pro výpočet kontrolního součtu jsou následující:
 
-```txt
+```text
 HRP = 03 03 00 02 03
 SEGWIT v0 = 00
 HASH = 19 30 00 19 04 11 06 08 16 24 17 12 20 19 06 11 05 09 09 10 04 07 17 08 17 01 25 07 21 09 09 21
@@ -1905,7 +2046,7 @@ INPUT = 03 03 00 02 03 00 19 30 00 19 04 11 06 08 16 24 17 12 20 19 06 11 05 09 
 
 Výpočet kontrolního součtu je poměrně složitý. Zahrnuje aritmetiku konečných polynomů. Tento výpočet zde podrobněji rozebírat nebudeme a přejdeme přímo k výsledku. V našem příkladu je získaný kontrolní součet v desítkové soustavě:
 
-```txt
+```text
 10 16 11 04 13 18
 ```
 
@@ -1916,14 +2057,16 @@ Nyní můžeme sestavit přijímací adresu spojením následujících prvků v 
 
 To nám v desítkové soustavě dává:
 
-```txt
+```text
 00 19 30 00 19 04 11 06 08 16 24 17 12 20 19 06 11 05 09 09 10 04 07 17 08 17 01 25 07 21 09 09 21 10 16 11 04 13 18
 ```
 
 Poté musí být každá desítková hodnota převedena na její *bech32* znak pomocí následující konverzní tabulky:
 
+
 $$
-Pro převedení hodnoty na znak *bech32* pomocí této tabulky jednoduše najděte hodnoty v prvním sloupci a prvním řádku, které po sečtení dávají požadovaný výsledek. Poté získejte odpovídající znak. Například desítkové číslo `19` bude převedeno na písmeno `n`, protože $19 = 16 + 3$.
+
+Pro převedení hodnoty na znak _bech32_ pomocí této tabulky jednoduše najděte hodnoty v prvním sloupci a prvním řádku, které po sečtení dávají požadovaný výsledek. Poté získejte odpovídající znak. Například desítkové číslo `19` bude převedeno na písmeno `n`, protože $19 = 16 + 3$.
 Mapováním všech našich hodnot získáme následující adresu:
 
 ```
@@ -1936,7 +2079,7 @@ Zbývá již jen přidat HRP `bc`, což naznačuje, že se jedná o adresu pro B
 bc1qn7qnytxgsc3v5nxt9ff2y83g3pe849942stydj
 ```
 
-Zvláštností této abecedy *bech32* je, že zahrnuje všechny alfanumerické znaky kromě `1`, `b`, `i` a `o`, aby se zabránilo vizuálnímu zmatení mezi podobnými znaky, zejména při jejich zadávání nebo čtení lidmi.
+Zvláštností této abecedy _bech32_ je, že zahrnuje všechny alfanumerické znaky kromě `1`, `b`, `i` a `o`, aby se zabránilo vizuálnímu zmatení mezi podobnými znaky, zejména při jejich zadávání nebo čtení lidmi.
 
 Shrnutí, zde je proces derivace:
 
@@ -1949,9 +2092,10 @@ Takto se odvozuje P2WPKH (SegWit v0) přijímací adresa z páru klíčů. Nyní
 Pro adresy Taproot se proces generování mírně liší. Podívejme se na to společně!
 
 Od kroku komprese veřejného klíče se objevuje první rozdíl ve srovnání s ECDSA: veřejné klíče používané pro Schnorr na Bitcoinu jsou reprezentovány pouze jejich abscisou ($x$). Proto není žádná předpona a komprimovaný klíč má přesně 256 bitů.
-Jak jsme viděli v předchozí kapitole, skript P2TR uzamkne bitcoiny na unikátním veřejném klíči Schnorr, označeném jako $Q$. Tento klíč $Q$ je agregátem dvou veřejných klíčů: $P$, hlavní interní veřejný klíč, a $M$, veřejný klíč odvozený z kořenového Merkle stromu seznamu *scriptPubKey*. Bitcoiny uzamčené s tímto typem skriptu lze utratit dvěma způsoby:
-- Zveřejněním podpisu pro veřejný klíč $P$ (*cesta klíče*);
-- Splněním jednoho ze skriptů zahrnutých v Merkle stromu (*cesta skriptu*).
+Jak jsme viděli v předchozí kapitole, skript P2TR uzamkne bitcoiny na unikátním veřejném klíči Schnorr, označeném jako $Q$. Tento klíč $Q$ je agregátem dvou veřejných klíčů: $P$, hlavní interní veřejný klíč, a $M$, veřejný klíč odvozený z kořenového Merkle stromu seznamu _scriptPubKey_. Bitcoiny uzamčené s tímto typem skriptu lze utratit dvěma způsoby:
+
+- Zveřejněním podpisu pro veřejný klíč $P$ (_cesta klíče_);
+- Splněním jednoho ze skriptů zahrnutých v Merkle stromu (_cesta skriptu_).
 
 Ve skutečnosti tyto dva klíče nejsou skutečně "agregovány". Klíč $P$ je místo toho upraven klíčem $M$. V kryptografii znamená "upravit" veřejný klíč modifikaci tohoto klíče aplikací aditivní hodnoty nazývané "tweak". Tato operace umožňuje modifikovanému klíči zůstat kompatibilní s původním soukromým klíčem a tweakem. Technicky je tweak skalární hodnota $t$, která je přidána k původnímu veřejnému klíči. Pokud je $P$ původní veřejný klíč, upravený klíč se stává:
 
@@ -1960,12 +2104,14 @@ P' = P + tG
 $$
 
 Kde $G$ je generátor eliptické křivky použité. Tato operace produkuje nový veřejný klíč odvozený z původního klíče, přičemž si zachovává kryptografické vlastnosti umožňující jeho použití.
-Pokud nepotřebujete přidávat alternativní skripty (výdaje výhradně prostřednictvím *klíčové cesty*), můžete vygenerovat Taproot adresu založenou pouze na veřejném klíči přítomném na hloubce 5 vaší peněženky. V tomto případě je nutné vytvořit nespotřebitelný skript pro *skriptovou cestu*, aby byly splněny požadavky struktury. Úprava $t$ je poté vypočítána aplikací značkované hašovací funkce, **`TapTweak`**, na interní veřejný klíč $P$:
+Pokud nepotřebujete přidávat alternativní skripty (výdaje výhradně prostřednictvím _klíčové cesty_), můžete vygenerovat Taproot adresu založenou pouze na veřejném klíči přítomném na hloubce 5 vaší peněženky. V tomto případě je nutné vytvořit nespotřebitelný skript pro _skriptovou cestu_, aby byly splněny požadavky struktury. Úprava $t$ je poté vypočítána aplikací značkované hašovací funkce, **`TapTweak`**, na interní veřejný klíč $P$:
+
 $$
 t = \text{H}_{\text{TapTweak}}(P)
 $$
 
 kde:
+
 - **$\text{H}_{\text{TapTweak}}$** je SHA256 hašovací funkce označená značkou `TapTweak`. Pokud nejste obeznámeni s tím, co je značkovaná hašovací funkce, doporučuji vám konzultovat kapitolu 3.3;
 - $P$ je interní veřejný klíč, reprezentovaný ve svém komprimovaném 256-bitovém formátu, používající pouze souřadnici $x$.
 
@@ -1974,12 +2120,14 @@ Taproot veřejný klíč $Q$ je poté vypočítán přičtením úpravy $t$, vyn
 $$
 Q = P + t \cdot G
 $$
+
 Jakmile je získán Taproot veřejný klíč $Q$, můžeme vygenerovat odpovídající přijímací adresu. Na rozdíl od jiných formátů nejsou Taproot adresy založeny na haši veřejného klíče. Klíč $Q$ je proto vložen přímo do adresy, v surové formě.
 
-Začneme extrakcí souřadnice $x$ bodu $Q$ k získání komprimovaného veřejného klíče. Na tuto nákladovou část je vypočítán kontrolní součet pomocí BCH kódů, stejně jako u adres SegWit v0. Program použitý pro Taproot adresy se však mírně liší. Skutečně, po zavedení formátu *bech32* s SegWit byla objevena chyba: když je poslední znak adresy `p`, vkládání nebo odstraňování `q` těsně před tímto `p` nezpůsobí neplatnost kontrolního součtu. Ačkoli tato chyba nemá důsledky na SegWit v0 (díky omezení velikosti), v budoucnu by mohla představovat problém. Tato chyba byla proto pro Taproot adresy opravena a nový opravený formát se nazývá "*bech32m*".
+Začneme extrakcí souřadnice $x$ bodu $Q$ k získání komprimovaného veřejného klíče. Na tuto nákladovou část je vypočítán kontrolní součet pomocí BCH kódů, stejně jako u adres SegWit v0. Program použitý pro Taproot adresy se však mírně liší. Skutečně, po zavedení formátu _bech32_ s SegWit byla objevena chyba: když je poslední znak adresy `p`, vkládání nebo odstraňování `q` těsně před tímto `p` nezpůsobí neplatnost kontrolního součtu. Ačkoli tato chyba nemá důsledky na SegWit v0 (díky omezení velikosti), v budoucnu by mohla představovat problém. Tato chyba byla proto pro Taproot adresy opravena a nový opravený formát se nazývá "_bech32m_".
 
-Taproot adresa je generována kódováním souřadnice $x$ $Q$ ve formátu *bech32m*, s následujícími prvky:
-- **HRP (*Human Readable Part*)**: `bc`, k označení hlavní sítě Bitcoinu;
+Taproot adresa je generována kódováním souřadnice $x$ $Q$ ve formátu _bech32m_, s následujícími prvky:
+
+- **HRP (_Human Readable Part_)**: `bc`, k označení hlavní sítě Bitcoinu;
 - **Verze**: `1` k označení Taproot / SegWit v1;
 - **Kontrolní součet**.
 
@@ -1989,7 +2137,7 @@ Konečná adresa bude mít tedy formát:
 bc1p[Qx][kontrolní součet]
 ```
 
-Na druhou stranu, pokud si přejete přidat alternativní skripty kromě výdajů s interním veřejným klíčem (*skriptová cesta*), výpočet přijímací adresy bude mírně odlišný. Budete muset zahrnout haš alternativních skriptů do výpočtu úpravy. V Taprootu je každý alternativní skript, umístěný na konci Merkleova stromu, nazýván "list".
+Na druhou stranu, pokud si přejete přidat alternativní skripty kromě výdajů s interním veřejným klíčem (_skriptová cesta_), výpočet přijímací adresy bude mírně odlišný. Budete muset zahrnout haš alternativních skriptů do výpočtu úpravy. V Taprootu je každý alternativní skript, umístěný na konci Merkleova stromu, nazýván "list".
 
 Jakmile jsou napsány různé alternativní skripty, musíte je jednotlivě projít značkovanou hašovací funkcí `TapLeaf`, doprovázenou některými metadaty:
 
@@ -1998,17 +2146,18 @@ $$
 $$
 
 S:
+
 - $v$: číslo verze skriptu (výchozí `0xC0` pro Taproot);
-- $sz$: velikost skriptu zakódovaná ve formátu *CompactSize*; - $S$: skript.
+- $sz$: velikost skriptu zakódovaná ve formátu _CompactSize_; - $S$: skript.
 
 Různé hashe skriptů ($\text{h}_{\text{leaf}}$) jsou nejprve seřazeny v lexikografickém pořadí. Poté jsou spojeny po dvojicích a procházejí funkcí značeného hashování `TapBranch`. Tento proces se opakuje iterativně, aby se krok za krokem budoval Merkleův strom:
-Větevní hash \(\text{h}_{\text{branch}}\) je vypočítán jako značená hashovací funkce `TapBranch` aplikovaná na spojení hashů listů \(\text{h}_{\text{leaf1}} \Vert \text{h}_{\text{leaf2}}\):
+Větevní hash \(\text{h}_{\text{branch}}\) je vypočítán jako značená hashovací funkce `TapBranch` aplikovaná na spojení hashů listů \(\text{h}_{\text{leaf1}} \Vert \text{h}\_{\text{leaf2}}\):
 
 Pokračujeme spojováním výsledků po dvou, přičemž je na každém kroku procházíme funkcí značeného hashování `TapBranch`, dokud nezískáme kořen Merkleova stromu:
 
 ![CYP201](assets/fr/066.webp)
 
-Jakmile je vypočítán kořen Merkleova stromu \(h_{\text{root}}\), můžeme vypočítat úpravu. K tomu spojíme interní veřejný klíč peněženky \(P\) s kořenem \(h_{\text{root}}\), a poté celé procházíme funkcí značeného hashování `TapTweak`:
+Jakmile je vypočítán kořen Merkleova stromu \(h*{\text{root}}\), můžeme vypočítat úpravu. K tomu spojíme interní veřejný klíč peněženky \(P\) s kořenem \(h*{\text{root}}\), a poté celé procházíme funkcí značeného hashování `TapTweak`:
 
 \[
 t = \text{H}_{\text{TapTweak}}(P \Vert h_{\text{root}})
@@ -2025,17 +2174,21 @@ Poté následuje generování adresy stejným procesem, použitím surového ve�
 A to je vše! Dospěli jsme ke konci tohoto kurzu CYP201. Pokud jste tento kurz považovali za užitečný, byl bych velmi vděčný, pokud byste si našli chvilku na to, abyste mu dali dobré hodnocení v následující kapitole hodnocení. Neváhejte jej také sdílet s vašimi blízkými nebo na sociálních sítích. Nakonec, pokud si přejete získat diplom za tento kurz, můžete po kapitole hodnocení absolvovat závěrečnou zkoušku.
 
 # Závěr
+
 <partId>58111408-b734-54db-9ea7-0d5b67f99f99</partId>
 
 ## Ohodnoťte tento kurz
+
 <chapterId>0cd71541-a7fd-53db-b66a-8611b6a28b04</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Závěrečná zkouška
+
 <chapterId>a53ea27d-0f84-56cd-b37c-a66210a4b31d</chapterId>
 <isCourseExam>true</isCourseExam>
 
 ## Závěr
+
 <chapterId>d291428b-3cfa-5394-930e-4b514be82d5a</chapterId>
 
 Dospěli jsme ke konci kurzu CYP201. Doufám, že byl pro vaše učení o Bitcoinu užitečný a umožnil vám lépe porozumět fungování HD peněženek, které denně používáte. Děkuji, že jste tento kurz sledovali až do konce!

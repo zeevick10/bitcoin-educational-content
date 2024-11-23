@@ -21,9 +21,11 @@ Med klar pedagogikk, over 60 forklarende diagrammer og konkrete eksempler, vil C
 +++
 
 # Introduksjon
+
 <partId>32960669-d13a-592f-a053-37f70b997cbf</partId>
 
 ## Kursintroduksjon
+
 <chapterId>fb4e8857-ea35-5a8a-ae8a-5300234e0104</chapterId>
 
 Velkommen til CYP201-kurset, hvor vi vil utforske HD Bitcoin-lommebøker i dybden. Dette kurset er designet for alle som ønsker å forstå de tekniske grunnleggende om å bruke Bitcoin, enten de er tilfeldige brukere, opplyste entusiaster eller fremtidige eksperter.
@@ -51,20 +53,23 @@ Til slutt, fra hovednøkkelen, vil vi oppdage hvordan kryptografiske nøkkelpar 
 Denne opplæringen vil gjøre deg i stand til å bruke lommebokprogramvaren din med tillit, samtidig som du forbedrer dine ferdigheter til å identifisere og redusere risikoer. Forbered deg på å bli en ekte ekspert på Bitcoin-lommebøker!
 
 # Hashfunksjoner
+
 <partId>3713fee1-2ec2-512e-9e97-b6da9e4d2f17</partId>
 
 ## Introduksjon til Hashfunksjoner
+
 <chapterId>dba011f5-1805-5a48-ac2b-4bd637c93703</chapterId>
 
 Den første typen kryptografiske algoritmer brukt på Bitcoin omfatter hashfunksjoner. De spiller en essensiell rolle på forskjellige nivåer av protokollen, men også innenfor Bitcoin-lommebøker. La oss sammen oppdage hva en hashfunksjon er og hva den brukes til i Bitcoin.
 
 ### Definisjon og Prinsipp for Hashing
+
 Hashing er en prosess som transformerer informasjon av vilkårlig lengde til et annet stykke informasjon av fast lengde gjennom en kryptografisk hashfunksjon. Med andre ord tar en hashfunksjon en inndata av hvilken som helst størrelse og konverterer den til et fingeravtrykk av fast størrelse, kalt en "hash".
 Hashen kan også noen ganger refereres til som "digest", "condensate", "condensed", eller "hashed".
 
-For eksempel produserer SHA256-hashfunksjonen en hash av en fast lengde på 256 bits. Så, hvis vi bruker inndataen "*PlanB*", en melding av vilkårlig lengde, vil den genererte hashen være følgende 256-bits fingeravtrykk:
+For eksempel produserer SHA256-hashfunksjonen en hash av en fast lengde på 256 bits. Så, hvis vi bruker inndataen "_PlanB_", en melding av vilkårlig lengde, vil den genererte hashen være følgende 256-bits fingeravtrykk:
 
-```txt
+```text
 24f1b93b68026bfc24f5c8265f287b4c940fb1664b0d75053589d7a4f821b688
 ```
 
@@ -73,6 +78,7 @@ For eksempel produserer SHA256-hashfunksjonen en hash av en fast lengde på 256 
 ### Egenskaper ved Hashfunksjoner
 
 Disse kryptografiske hashfunksjonene har flere essensielle egenskaper som gjør dem spesielt nyttige i konteksten av Bitcoin og andre datasystemer:
+
 1. Irreversibilitet (eller preimage-motstand)
 2. Manipulasjonsmotstand (snøskredseffekt)
 3. Kollisjonsmotstand
@@ -80,22 +86,26 @@ Disse kryptografiske hashfunksjonene har flere essensielle egenskaper som gjør 
 
 #### 1. Irreversibilitet (preimage-motstand):
 
-Irreversibilitet betyr at det er enkelt å beregne hashen fra inndatainformasjonen, men den inverse beregningen, det vil si å finne inndataen fra hashen, er praktisk talt umulig. Denne egenskapen gjør hashfunksjoner perfekte for å skape unike digitale fingeravtrykk uten å kompromittere den opprinnelige informasjonen. Denne karakteristikken omtales ofte som en enveisfunksjon eller en "*felle dør-funksjon*".
+Irreversibilitet betyr at det er enkelt å beregne hashen fra inndatainformasjonen, men den inverse beregningen, det vil si å finne inndataen fra hashen, er praktisk talt umulig. Denne egenskapen gjør hashfunksjoner perfekte for å skape unike digitale fingeravtrykk uten å kompromittere den opprinnelige informasjonen. Denne karakteristikken omtales ofte som en enveisfunksjon eller en "_felle dør-funksjon_".
 
-I det gitte eksemplet er det enkelt og raskt å oppnå hashen `24f1b9…` ved å kjenne inndataen "*PlanB*". Imidlertid er det umulig å finne meldingen "*PlanB*" ved kun å kjenne `24f1b9…`.
+I det gitte eksemplet er det enkelt og raskt å oppnå hashen `24f1b9…` ved å kjenne inndataen "_PlanB_". Imidlertid er det umulig å finne meldingen "_PlanB_" ved kun å kjenne `24f1b9…`.
 
 ![CYP201](assets/fr/002.webp)
 
 Derfor er det umulig å finne et preimage $m$ for en hash $h$ slik at $h = \text{HASH}(m)$, hvor $\text{HASH}$ er en kryptografisk hashfunksjon.
 
 #### 2. Manipulasjonsmotstand (snøskredseffekt)
+
 Det andre kjennetegnet er motstandsdyktighet mot manipulering, også kjent som **snøballeffekten**. Dette kjennetegnet observeres i en hash-funksjon hvis en liten endring i inngangsmeldingen resulterer i en radikal endring i utgangshashen.
-Hvis vi går tilbake til eksemplet vårt med inngangen "*PlanB*" og SHA256-funksjonen, har vi sett at den genererte hashen er som følger:
+Hvis vi går tilbake til eksemplet vårt med inngangen "_PlanB_" og SHA256-funksjonen, har vi sett at den genererte hashen er som følger:
 
-```txt
-Hvis vi gjør en veldig liten endring til inngangen ved å bruke "*Planb*" denne gangen, så endrer simpelthen endringen fra en stor "B" til en liten "b" helt den utgitte SHA256-hashen:
+```text
+24f1b93b68026bfc24f5c8265f287b4c940fb1664b0d75053589d7a4f821b688
+```
 
-```txt
+Hvis vi gjør en veldig liten endring til inngangen ved å bruke "_Planb_" denne gangen, så endrer simpelthen endringen fra en stor "B" til en liten "b" helt den utgitte SHA256-hashen:
+
+```text
 bb038b4503ac5d90e1205788b00f8f314583c5e22f72bec84b8735ba5a36df3f
 ```
 
@@ -117,6 +127,7 @@ I virkeligheten er det matematisk uunngåelig at kollisjoner eksisterer for hash
 
 Dermed betyr ikke dette kjennetegnet at det ikke finnes kollisjoner for hash-funksjoner, men heller at en god hash-funksjon gjør sannsynligheten for å finne en kollisjon ubetydelig. Dette kjennetegnet, for eksempel, er ikke lenger verifisert på SHA-0 og SHA-1 algoritmene, forgjengerne til SHA-2, for hvilke kollisjoner har blitt funnet. Disse funksjonene er derfor nå frarådet og ofte ansett som foreldet.
 For en hash-funksjon på $n$ bits, er kollisjonsresistensen av orden $2^{\frac{n}{2}}$, i samsvar med bursdagsangrepet. For eksempel, for SHA256 ($n = 256$), er kompleksiteten av å finne en kollisjon av orden $2^{128}$ forsøk. I praktiske termer betyr dette at hvis man passerer $2^{128}$ forskjellige meldinger gjennom funksjonen, er man sannsynlig å finne en kollisjon.
+
 #### 4. Motstand mot Sekundært Prebilde
 
 Motstand mot sekundært prebilde er et annet viktig kjennetegn ved hash-funksjoner. Det hevder at gitt en melding $m_1$ og dens hash $h$, er det beregningsmessig uoverkommelig å finne en annen melding $m_2 \neq m_1$ slik at:
@@ -126,13 +137,14 @@ $$
 $$
 
 Derfor er motstand mot sekundært prebilde noe lik kollisjonsresistens, bortsett fra at her er angrepet vanskeligere fordi angriperen ikke fritt kan velge $m_1$.
+
 ### Bruk av Hashfunksjoner i Bitcoin
 
-Den mest brukte hashfunksjonen i Bitcoin er **SHA256** ("*Secure Hash Algorithm 256 bits"*). Designet på begynnelsen av 2000-tallet av NSA og standardisert av NIST, produserer den et 256-bit hashresultat.
+Den mest brukte hashfunksjonen i Bitcoin er **SHA256** ("_Secure Hash Algorithm 256 bits"_). Designet på begynnelsen av 2000-tallet av NSA og standardisert av NIST, produserer den et 256-bit hashresultat.
 
 Denne funksjonen brukes i mange aspekter av Bitcoin. På protokollnivå er den involvert i Proof-of-Work-mekanismen, hvor den brukes i dobbel hashing for å søke etter en delvis kollisjon mellom headeren til en kandidatblokk, skapt av en miner, og vanskelighetsmålet. Hvis denne delvise kollisjonen blir funnet, blir kandidatblokken gyldig og kan legges til i blockchain.
 
-SHA256 brukes også i konstruksjonen av et Merkle-tre, som er akkumulatoren brukt for å registrere transaksjoner i blokker. Denne strukturen finnes også i Utreexo-protokollen, som tillater reduksjon av størrelsen på UTXO-settet. I tillegg, med introduksjonen av Taproot i 2021, blir SHA256 utnyttet i MAST (*Merkelised Alternative Script Tree*), som tillater å avsløre kun de brukte utgiftsbetingelsene i et skript, uten å avsløre de andre mulige alternativene. Den brukes også i beregningen av transaksjonsidentifikatorer, i overføring av pakker over P2P-nettverket, i elektroniske signaturer... Til slutt, og dette er av spesiell interesse i denne opplæringen, brukes SHA256 på applikasjonsnivå for konstruksjonen av Bitcoin-lommebøker og derivasjon av adresser.
+SHA256 brukes også i konstruksjonen av et Merkle-tre, som er akkumulatoren brukt for å registrere transaksjoner i blokker. Denne strukturen finnes også i Utreexo-protokollen, som tillater reduksjon av størrelsen på UTXO-settet. I tillegg, med introduksjonen av Taproot i 2021, blir SHA256 utnyttet i MAST (_Merkelised Alternative Script Tree_), som tillater å avsløre kun de brukte utgiftsbetingelsene i et skript, uten å avsløre de andre mulige alternativene. Den brukes også i beregningen av transaksjonsidentifikatorer, i overføring av pakker over P2P-nettverket, i elektroniske signaturer... Til slutt, og dette er av spesiell interesse i denne opplæringen, brukes SHA256 på applikasjonsnivå for konstruksjonen av Bitcoin-lommebøker og derivasjon av adresser.
 
 De fleste ganger, når du kommer over bruken av SHA256 på Bitcoin, vil det faktisk være en dobbel hash SHA256, notert "**HASH256**", som ganske enkelt består av å anvende SHA256 to ganger suksessivt:
 HASH256(m) = SHA256(SHA256(m))
@@ -152,12 +164,15 @@ Til slutt, kun på applikasjonsnivå, brukes noen ganger også SHA512-funksjonen
 Du kjenner nå til de grunnleggende prinsippene om hashfunksjoner for det som følger. I neste kapittel foreslår jeg å oppdage mer detaljert hvordan funksjonen som er hjertet av Bitcoin: SHA256, fungerer. Vi vil dissekere den for å forstå hvordan den oppnår de karakteristikkene vi har beskrevet her. Dette neste kapittelet er ganske langt og teknisk, men det er ikke essensielt å følge resten av opplæringen. Så, hvis du har vanskeligheter med å forstå det, ikke bekymre deg og gå direkte til det følgende kapittelet, som vil være mye mer tilgjengelig.
 
 ## Detaljene i SHA256
+
+<chapterId>905eb320-f15b-5fb6-8d2d-5bb447337deb</chapterId>
 Vi har tidligere sett at hash-funksjoner har viktige egenskaper som rettferdiggjør deres bruk i Bitcoin. La oss nå undersøke de interne mekanismene til disse hash-funksjonene som gir dem disse egenskapene, og for å gjøre dette, foreslår jeg å dissekere driften av SHA256.
 SHA256 og SHA512-funksjonene tilhører samme SHA2-familie. Deres mekanisme er basert på en spesifikk konstruksjon kalt **Merkle-Damgård konstruksjonen**. RIPEMD160 bruker også denne samme typen konstruksjon.
 
 Som en påminnelse, vi har en melding av vilkårlig størrelse som input til SHA256, og vi vil sende den gjennom funksjonen for å oppnå en 256-bit hash som output.
 
 ### Forbehandling av input
+
 For å begynne, må vi forberede vår inputmelding $m$ slik at den har en standard lengde som er et multiplum av 512 bits. Dette steget er avgjørende for den korrekte funksjonen av algoritmen etterpå.
 For å gjøre dette, starter vi med padding bits-steget. Vi legger først til et separatorbit `1` til meldingen, etterfulgt av et visst antall `0` bits. Antallet `0` bits som legges til, beregnes slik at den totale lengden på meldingen etter denne tilleggingen er kongruent med 448 modulo 512. Dermed er lengden $L$ på meldingen med padding bits lik:
 
@@ -196,14 +211,19 @@ $$
 
 Dermed ville vi ha 9 `0`er i tillegg til separator `1`. Våre padding bits som skal legges direkte etter vår melding $M$ ville dermed være:
 
-```txt
+```text
 1000 0000 00
 ```
 
 Etter å ha lagt til padding bits til vår melding $M$, legger vi også til en 64-bits representasjon av den opprinnelige lengden på meldingen $M$, uttrykt i binært. Dette gjør hash-funksjonen følsom for bitenes rekkefølge og meldingens lengde.
 Hvis vi går tilbake til eksemplet vårt med en opprinnelig melding på 950 bits, konverterer vi det desimale tallet `950` til binært, som gir oss `1110 1101 10`. Vi kompletterer dette tallet med nuller i bunnen for å lage totalt 64 bits. I vårt eksempel gir dette:
-```txt
+
+```text
+0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0011 1011 0110
+```
+
 Denne padding-størrelsen legges til etter bit-paddingen. Derfor består meldingen etter vår forbehandling av tre deler:
+
 1. Den opprinnelige meldingen $M$;
 2. En bit `1` etterfulgt av flere bits `0` for å danne bit-paddingen;
 3. En 64-bits representasjon av lengden på $M$ for å danne paddingen med størrelsen.
@@ -237,8 +257,11 @@ K[0 \ldots 63] = \begin{pmatrix}
 0xc6e00bf3, & 0xd5a79147, & 0x06ca6351, & 0x14292967, \\
 0x27b70a85, & 0x2e1b2138, & 0x4d2c6dfc, & 0x53380d13, \\
 
+
 $$
+
 \begin{pmatrix}
+
 $$
 \begin{pmatrix}
 0x650a7354, & 0x766a0abb, & 0x81c2c92e, & 0x92722c85, \\0xa2bfe8a1, & 0xa81a664b, & 0xc24b8b70, & 0xc76c51a3, \\0xd192e819, & 0xd6990624, & 0xf40e3585, & 0x106aa070, \\
@@ -258,6 +281,7 @@ Først starter vi med å dele vår likestilte melding (resultatet av forbehandli
 ### Logiske operasjoner
 
 Før vi utforsker kompresjonsfunksjonen i detalj, er det viktig å forstå de grunnleggende logiske operasjonene som brukes i den. Disse operasjonene, basert på boolsk algebra, opererer på bitnivå. De grunnleggende logiske operasjonene som brukes er:
+
 - **Konjunksjon (OG)**: betegnet $\land$, tilsvarer en logisk "OG".
 - **Disjunksjon (ELLER)**: betegnet $\lor$, tilsvarer en logisk "ELLER".
 - **Negasjon (IKKE)**: betegnet $\lnot$, tilsvarer en logisk "IKKE".
@@ -276,9 +300,9 @@ For XOR ($\oplus$):
 For OG ($\land$):
 
 | $p$ | $q$ | $p \land q$ |
-| --- | --- | ----------- |
+| --- | --- | ----------- | --- | --- | --- | --- |
 | 0   | 0   | 0           |
-| 0   | 1   | 0           || 1   | 0   | 0           |
+| 0   | 1   | 0           |     | 1   | 0   | 0   |
 | 1   | 1   | 1           |
 
 For NOT ($\lnot p$):
@@ -302,13 +326,13 @@ $$
 Ved å anvende XOR bit for bit:
 
 | Bitposisjon | $a$ | $b$ | $a \oplus b$ |
-| ------------ | --- | --- | ------------ |
-| 1            | 1   | 0   | 1            |
-| 2            | 0   | 0   | 0            |
-| 3            | 1   | 1   | 0            |
-| 4            | 1   | 0   | 1            |
-| 5            | 0   | 0   | 0            |
-| 6            | 0   | 0   | 0            |
+| ----------- | --- | --- | ------------ |
+| 1           | 1   | 0   | 1            |
+| 2           | 0   | 0   | 0            |
+| 3           | 1   | 1   | 0            |
+| 4           | 1   | 0   | 1            |
+| 5           | 0   | 0   | 0            |
+| 6           | 0   | 0   | 0            |
 
 Resultatet blir derfor $100100$.
 
@@ -341,17 +365,19 @@ Skjematisk kan den høyre sirkulære skiftoperasjonen ses slik:
 Nå som vi har forstått de grunnleggende operasjonene, la oss undersøke SHA256 kompresjonsfunksjonen i detalj.
 
 I det forrige steget delte vi vårt inndata i flere 512-bits stykker $P$. For hver 512-bits blokk $P$, har vi:
+
 - **Meldingsordene $W_i$**: for $i$ fra 0 til 63.
 - **Konstantene $K_i$**: for $i$ fra 0 til 63, definert i det forrige steget.
 - **Tilstandsvariablene $A, B, C, D, E, F, G, H$**: initialisert med verdiene fra det forrige steget.
-De første 16 ordene, $W_0$ til $W_{15}$, er direkte hentet fra den bearbeidede 512-bits blokken $P$. Hvert ord $W_i$ består av 32 påfølgende bits fra blokken. Så, for eksempel, tar vi vår første del av inndata $P_1$, og vi deler den videre inn i mindre 32-bits deler som vi kaller ord.
-De neste 48 ordene ($W_{16}$ til $W_{63}$) genereres ved hjelp av følgende formel:
+  De første 16 ordene, $W_0$ til $W_{15}$, er direkte hentet fra den bearbeidede 512-bits blokken $P$. Hvert ord $W_i$ består av 32 påfølgende bits fra blokken. Så, for eksempel, tar vi vår første del av inndata $P_1$, og vi deler den videre inn i mindre 32-bits deler som vi kaller ord.
+  De neste 48 ordene ($W_{16}$ til $W_{63}$) genereres ved hjelp av følgende formel:
 
 $$
 W_i = W_{i-16} + \sigma_0(W_{i-15}) + W_{i-7} + \sigma_1(W_{i-2}) \mod 2^{32}
 $$
 
 Med:
+
 - $\sigma_0(x) = RotR_7(x) \oplus RotR_{18}(x) \oplus ShR_3(x)$
 - $\sigma_1(x) = RotR_{17}(x) \oplus RotR_{19}(x) \oplus ShR_{10}(x)$
 
@@ -375,13 +401,13 @@ $$
 \Sigma_1(E) = RotR_6(E) \oplus RotR_{11}(E) \oplus RotR_{25}(E)
 $$
 
-- **Funksjon $Ch$ ("*Velg*"):**
+- **Funksjon $Ch$ ("_Velg_"):**
 
 $$
 Ch(E, F, G) = (E \land F) \oplus (\lnot E \land G)
 $$
 
-- **Funksjon $Maj$ ("*Flertall*"):**
+- **Funksjon $Maj$ ("_Flertall_"):**
 
 $$
 Maj(A, B, C) = (A \land B) \oplus (A \land C) \oplus (B \land C)
@@ -409,11 +435,13 @@ H = G \\
 G = F \\
 F = E \\
 $$
+
 E = D + \text{temp1} \mod 2^{32} \\D = C \\
 C = B \\
 B = A \\
 A = \text{temp1} + \text{temp2} \mod 2^{32}
 \end{cases}
+
 $$
 
 Følgende diagram representerer en runde av SHA256-komprimeringsfunksjonen slik vi nettopp har beskrevet:
@@ -427,24 +455,29 @@ Følgende diagram representerer en runde av SHA256-komprimeringsfunksjonen slik 
 Vi kan allerede observere at denne runden produserer nye tilstandsvariabler $A$, $B$, $C$, $D$, $E$, $F$, $G$, og $H$. Disse nye variablene vil tjene som input for neste runde, som igjen vil produsere nye variabler $A$, $B$, $C$, $D$, $E$, $F$, $G$, og $H$, for å brukes i den følgende runden. Denne prosessen fortsetter opp til den 64. runden.
 Etter de 64 rundene, oppdaterer vi de opprinnelige verdiene av tilstandsvariablene ved å legge dem til de endelige verdiene ved slutten av runde 64:
 $$
+
 \begin{cases}
-A = A_{\text{initial}} + A \mod 2^{32} \\
-B = B_{\text{initial}} + B \mod 2^{32} \\
-C = C_{\text{initial}} + C \mod 2^{32} \\
-D = D_{\text{initial}} + D \mod 2^{32} \\
-E = E_{\text{initial}} + E \mod 2^{32} \\
-F = F_{\text{initial}} + F \mod 2^{32} \\
-G = G_{\text{initial}} + G \mod 2^{32} \\
-H = H_{\text{initial}} + H \mod 2^{32}
+A = A*{\text{initial}} + A \mod 2^{32} \\
+B = B*{\text{initial}} + B \mod 2^{32} \\
+C = C*{\text{initial}} + C \mod 2^{32} \\
+D = D*{\text{initial}} + D \mod 2^{32} \\
+E = E*{\text{initial}} + E \mod 2^{32} \\
+F = F*{\text{initial}} + F \mod 2^{32} \\
+G = G*{\text{initial}} + G \mod 2^{32} \\
+H = H*{\text{initial}} + H \mod 2^{32}
 \end{cases}
+
 $$
 
 Disse nye verdiene av $A$, $B$, $C$, $D$, $E$, $F$, $G$, og $H$ vil tjene som de opprinnelige verdiene for neste blokk, $P_2$. For denne blokken $P_2$, replikerer vi den samme komprimeringsprosessen med 64 runder, deretter oppdaterer vi variablene for blokk $P_3$, og så videre til den siste blokken av vårt likestilte input.
 
 Etter å ha behandlet alle meldingsblokkene, konkatenrer vi de endelige verdiene av variablene $A$, $B$, $C$, $D$, $E$, $F$, $G$, og $H$ for å danne den endelige 256-bit hashen av vår hashfunksjon:
 
+
 $$
+
 \text{Hash} = A \Vert B \Vert C \Vert D \Vert E \Vert F \Vert G \Vert H
+
 $$
 
 Hver variabel er et 32-bit heltall, så deres konkatenasjon gir alltid et 256-bit resultat, uavhengig av størrelsen på vår meldingsinput til hashfunksjonen.
@@ -468,6 +501,7 @@ Kompresjonsfunksjonen bruker også $\text{ShR}$-operasjonen. Denne operasjonen f
 
 Til slutt, for egenskapen til kollisjonsmotstand, kommer flere parametere i spill. Forbehandlingen av den opprinnelige meldingen spiller en essensiell rolle. Uten denne forbehandlingen, kunne det vært lettere å finne kollisjoner på funksjonen. Selv om kollisjoner teoretisk eksisterer (på grunn av duehullprinsippet), gjør strukturen til hashfunksjonen, kombinert med de nevnte egenskapene, sannsynligheten for å finne en kollisjon ekstremt lav.
 For at en hashfunksjon skal være motstandsdyktig mot kollisjoner, er det essensielt at:
+
 - Utdataet er uforutsigbart: Enhver forutsigbarhet kan utnyttes for å finne kollisjoner raskere enn med en brute force-angrep. Funksjonen sikrer at hvert bit av utdataet avhenger på en ikke-triviell måte av inndata. Med andre ord, funksjonen er designet slik at hvert bit av det endelige resultatet har en uavhengig sannsynlighet for å være 0 eller 1, selv om denne uavhengigheten ikke er absolutt i praksis.
 - Distribusjonen av hasher er pseudo-tilfeldig: Dette sikrer at hashene er jevnt fordelt.
 - Størrelsen på hashen er betydelig: jo større det mulige rommet for resultater, jo vanskeligere er det å finne en kollisjon.
@@ -488,13 +522,15 @@ Dette forbedrer sikkerheten mot potensielle angrep relatert til Merkle-Damgård-
 Nå som vi har sett nærmere på virkemåten til hash-funksjoner, spesielt SHA256, som brukes omfattende i Bitcoin, vil vi fokusere mer spesifikt på de kryptografiske derivasjonsalgoritmene som brukes på applikasjonsnivå, spesielt for å utlede nøklene til lommeboken din.
 
 ## Algoritmene som brukes for derivasjon
+
 <chapterId>cc668121-7789-5e99-bf5e-1ba085f4f5f2</chapterId>
 
 I Bitcoin på applikasjonsnivå, i tillegg til hash-funksjoner, brukes kryptografiske derivasjonsalgoritmer for å generere sikre data fra innledende inndata. Selv om disse algoritmene er avhengige av hash-funksjoner, tjener de forskjellige formål, spesielt når det gjelder autentisering og nøkkelgenerering. Disse algoritmene beholder noen av egenskapene til hash-funksjoner, som irreversibilitet, manipuleringsmotstand og kollisjonsmotstand.
 
 På Bitcoin-lommebøker brukes hovedsakelig 2 derivasjonsalgoritmer:
-1. **HMAC (*Hash-basert meldingsautentiseringskode*)**
-2. **PBKDF2 (*Password-Based Key Derivation Function 2*)**
+
+1. **HMAC (_Hash-basert meldingsautentiseringskode_)**
+2. **PBKDF2 (_Password-Based Key Derivation Function 2_)**
 
 Vi vil utforske funksjonen og rollen til hver av dem.
 
@@ -507,6 +543,7 @@ Her er dens generelle driftsskjema med $m$ som inngangsmeldingen og $K$ en hemme
 ![CYP201](assets/fr/011.webp)
 
 La oss studere mer i detalj hva som skjer i denne HMAC-SHA512 svarte boksen. HMAC-SHA512-funksjonen med:
+
 - $m$: den vilkårlig store meldingen valgt av brukeren (første inndata);
 - $K$: den vilkårlige hemmelige nøkkelen valgt av brukeren (andre inndata);
 - $K'$: nøkkelen $K$ justert til størrelsen $B$ på hash-funksjonens blokker (1024 bits for SHA512, eller 128 bytes);
@@ -515,8 +552,8 @@ La oss studere mer i detalj hva som skjer i denne HMAC-SHA512 svarte boksen. HMA
 - $\Vert$: operatøren for sammenkjeding, som kobler bitstrenger ende-til-ende;
 - $\text{opad}$: konstant bestående av bytet $0x5c$ gjentatt 128 ganger
 - $\text{ipad}$: konstant bestående av bytet $0x36$ gjentatt 128 ganger
-Før man beregner HMAC, er det nødvendig å likestille nøkkelen og konstantene i henhold til blokkstørrelsen $B$. For eksempel, hvis nøkkelen $K$ er kortere enn 128 byte, blir den fylt ut med nuller for å nå størrelsen $B$. Hvis $K$ er lengre enn 128 byte, blir den komprimert ved hjelp av SHA512, og deretter blir nuller lagt til inntil den når 128 byte. På denne måten oppnås en likestilt nøkkel kalt $K'$.
-Verdiene av $\text{opad}$ og $\text{ipad}$ oppnås ved å gjenta deres basisbyte ($0x5c$ for $\text{opad}$, $0x36$ for $\text{ipad}$) inntil størrelsen $B$ er nådd. Således, med $B = 128$ byte, har vi:
+  Før man beregner HMAC, er det nødvendig å likestille nøkkelen og konstantene i henhold til blokkstørrelsen $B$. For eksempel, hvis nøkkelen $K$ er kortere enn 128 byte, blir den fylt ut med nuller for å nå størrelsen $B$. Hvis $K$ er lengre enn 128 byte, blir den komprimert ved hjelp av SHA512, og deretter blir nuller lagt til inntil den når 128 byte. På denne måten oppnås en likestilt nøkkel kalt $K'$.
+  Verdiene av $\text{opad}$ og $\text{ipad}$ oppnås ved å gjenta deres basisbyte ($0x5c$ for $\text{opad}$, $0x36$ for $\text{ipad}$) inntil størrelsen $B$ er nådd. Således, med $B = 128$ byte, har vi:
 
 $$
 \text{opad} = \underbrace{0x5c5c\ldots5c}_{128 \, \text{bytes}}
@@ -529,6 +566,7 @@ $$
 $$
 
 Denne ligningen brytes ned i følgende trinn:
+
 1. XOR den justerte nøkkelen $K'$ med $\text{ipad}$ for å oppnå $\text{iKpad}$;
 2. XOR den justerte nøkkelen $K'$ med $\text{opad}$ for å oppnå $\text{oKpad}$;
 3. Sammenkjed $\text{iKpad}$ med meldingen $m$.
@@ -544,18 +582,19 @@ HMAC brukes i Bitcoin spesielt for nøkkelavledning i HD (Hierarchical Determini
 
 ### PBKDF2
 
-PBKDF2 (*Password-Based Key Derivation Function 2*) er en nøkkelavledningsalgoritme designet for å forbedre sikkerheten til passord. Algoritmen anvender en pseudo-tilfeldig funksjon (her HMAC-SHA512) på et passord og en kryptografisk salt, og gjentar deretter denne operasjonen et bestemt antall ganger for å produsere en utgangsnøkkel.
+PBKDF2 (_Password-Based Key Derivation Function 2_) er en nøkkelavledningsalgoritme designet for å forbedre sikkerheten til passord. Algoritmen anvender en pseudo-tilfeldig funksjon (her HMAC-SHA512) på et passord og en kryptografisk salt, og gjentar deretter denne operasjonen et bestemt antall ganger for å produsere en utgangsnøkkel.
 
 I Bitcoin brukes PBKDF2 til å generere frøet til en HD-lommebok fra en mnemonisk frase og en passfrase (men vi vil snakke mer om dette i detalj i kommende kapitler).
 
 PBKDF2-prosessen er som følger, med:
+
 - $m$: brukerens mnemoniske frase;
 - $s$: den valgfrie passfrasen for å øke sikkerheten (tomt felt hvis ingen passfrase);
 - $n$: antall iterasjoner av funksjonen, i vårt tilfelle er det 2048.
-PBKDF2-funksjonen er definert iterativt. Hver iterasjon tar resultatet fra den forrige, passerer det gjennom HMAC-SHA512, og kombinerer de påfølgende resultatene for å produsere den endelige nøkkelen:
-$$
-\text{PBKDF2}(m, s) = \text{HMAC-SHA512}^{2048}(m, s)
-$$
+  PBKDF2-funksjonen er definert iterativt. Hver iterasjon tar resultatet fra den forrige, passerer det gjennom HMAC-SHA512, og kombinerer de påfølgende resultatene for å produsere den endelige nøkkelen:
+  $$
+  \text{PBKDF2}(m, s) = \text{HMAC-SHA512}^{2048}(m, s)
+  $$
 
 Skjematisk kan PBKDF2 representeres som følger:
 
@@ -564,25 +603,28 @@ Skjematisk kan PBKDF2 representeres som følger:
 I dette kapittelet har vi utforsket HMAC-SHA512 og PBKDF2-funksjonene, som bruker hash-funksjoner for å sikre integriteten og sikkerheten til nøkkelavledninger i Bitcoin-protokollen. I neste del vil vi se nærmere på digitale signaturer, en annen kryptografisk metode som er mye brukt i Bitcoin.
 
 # Digitale Signaturer
+
 <partId>76b58a00-0c18-54b9-870d-6b7e34029db8</partId>
 
 ## Digitale Signaturer og Elliptiske Kurver
+
 <chapterId>c9dd9672-6da1-57f8-9871-8b28994d4c1a</chapterId>
 
 Den andre kryptografiske metoden som brukes i Bitcoin involverer algoritmer for digitale signaturer. La oss utforske hva dette innebærer og hvordan det fungerer.
 
 ### Bitcoins, UTXOer og Betingelser for Bruk
 
-Begrepet "*lommebok*" i Bitcoin kan være ganske forvirrende for nybegynnere. Faktisk, det som kalles en Bitcoin-lommebok er programvare som ikke direkte holder dine bitcoins, i motsetning til en fysisk lommebok som kan holde mynter eller sedler. Bitcoins er rett og slett enheter av konto. Denne kontoenheten representeres av **UTXO** (*Unspent Transaction Outputs*), som er ubrukte transaksjonsutganger. Hvis disse utgangene er ubrukte, betyr det at de tilhører en bruker. UTXOer er på en måte biter av bitcoins, av variabel størrelse, som tilhører en bruker.
+Begrepet "_lommebok_" i Bitcoin kan være ganske forvirrende for nybegynnere. Faktisk, det som kalles en Bitcoin-lommebok er programvare som ikke direkte holder dine bitcoins, i motsetning til en fysisk lommebok som kan holde mynter eller sedler. Bitcoins er rett og slett enheter av konto. Denne kontoenheten representeres av **UTXO** (_Unspent Transaction Outputs_), som er ubrukte transaksjonsutganger. Hvis disse utgangene er ubrukte, betyr det at de tilhører en bruker. UTXOer er på en måte biter av bitcoins, av variabel størrelse, som tilhører en bruker.
 
-Bitcoin-protokollen er distribuert og opererer uten en sentral autoritet. Derfor er den ikke som tradisjonelle bankposter, hvor euroene som tilhører deg er enkelt assosiert med din personlige identitet. På Bitcoin tilhører dine UTXOer deg fordi de er beskyttet av brukerbetingelser spesifisert i Script-språket. For å forenkle, det finnes to typer skript: låseskriptet (*scriptPubKey*), som beskytter en UTXO, og opplåsingsskriptet (*scriptSig*), som tillater opplåsing av en UTXO og dermed bruk av bitcoin-enhetene den representerer.
-Den opprinnelige operasjonen av Bitcoin med P2PK-skript involverer bruk av en offentlig nøkkel for å låse midler, og spesifiserer i et *scriptPubKey* at personen som ønsker å bruke denne UTXOen må gi en gyldig signatur med den private nøkkelen som tilsvarer denne offentlige nøkkelen. For å låse opp denne UTXOen, er det derfor nødvendig å gi en gyldig signatur i *scriptSig*. Som navnene antyder, er den offentlige nøkkelen kjent for alle siden den er kringkastet på blokkjeden, mens den private nøkkelen bare er kjent for den legitime eieren av midlene.
-Dette er den grunnleggende operasjonen av Bitcoin, men over tid har denne operasjonen blitt mer kompleks. Først introduserte Satoshi også P2PKH-skript, som bruker en mottaksadresse i *scriptPubKey*, som representerer hashen av den offentlige nøkkelen. Deretter ble systemet enda mer komplekst med ankomsten av SegWit og deretter Taproot. Imidlertid forblir det generelle prinsippet grunnleggende det samme: en offentlig nøkkel eller en representasjon av denne nøkkelen brukes til å låse UTXOer, og en tilsvarende privat nøkkel kreves for å låse dem opp og dermed bruke dem.
+Bitcoin-protokollen er distribuert og opererer uten en sentral autoritet. Derfor er den ikke som tradisjonelle bankposter, hvor euroene som tilhører deg er enkelt assosiert med din personlige identitet. På Bitcoin tilhører dine UTXOer deg fordi de er beskyttet av brukerbetingelser spesifisert i Script-språket. For å forenkle, det finnes to typer skript: låseskriptet (_scriptPubKey_), som beskytter en UTXO, og opplåsingsskriptet (_scriptSig_), som tillater opplåsing av en UTXO og dermed bruk av bitcoin-enhetene den representerer.
+Den opprinnelige operasjonen av Bitcoin med P2PK-skript involverer bruk av en offentlig nøkkel for å låse midler, og spesifiserer i et _scriptPubKey_ at personen som ønsker å bruke denne UTXOen må gi en gyldig signatur med den private nøkkelen som tilsvarer denne offentlige nøkkelen. For å låse opp denne UTXOen, er det derfor nødvendig å gi en gyldig signatur i _scriptSig_. Som navnene antyder, er den offentlige nøkkelen kjent for alle siden den er kringkastet på blokkjeden, mens den private nøkkelen bare er kjent for den legitime eieren av midlene.
+Dette er den grunnleggende operasjonen av Bitcoin, men over tid har denne operasjonen blitt mer kompleks. Først introduserte Satoshi også P2PKH-skript, som bruker en mottaksadresse i _scriptPubKey_, som representerer hashen av den offentlige nøkkelen. Deretter ble systemet enda mer komplekst med ankomsten av SegWit og deretter Taproot. Imidlertid forblir det generelle prinsippet grunnleggende det samme: en offentlig nøkkel eller en representasjon av denne nøkkelen brukes til å låse UTXOer, og en tilsvarende privat nøkkel kreves for å låse dem opp og dermed bruke dem.
 En bruker som ønsker å utføre en Bitcoin-transaksjon må derfor opprette en digital signatur ved hjelp av sin private nøkkel på den aktuelle transaksjonen. Signaturen kan verifiseres av andre nettverksdeltakere. Hvis den er gyldig, betyr dette at brukeren som initierer transaksjonen faktisk er eieren av den private nøkkelen, og derfor eieren av bitcoinene de ønsker å bruke. Andre brukere kan deretter akseptere og formidle transaksjonen.
 Som et resultat må en bruker som eier bitcoins låst med en offentlig nøkkel finne en måte å sikkert lagre det som tillater opplåsing av deres midler: den private nøkkelen. En Bitcoin-lommebok er nettopp en enhet som vil tillate deg å enkelt holde alle nøklene dine uten at andre mennesker har tilgang til dem. Det er derfor mer som en nøkkelring enn en lommebok.
 
-Den matematiske koblingen mellom en offentlig nøkkel og en privat nøkkel, samt evnen til å utføre en signatur for å bevise besittelsen av en privat nøkkel uten å avsløre den, er muliggjort av en digital signaturalgoritme. I Bitcoin-protokollen brukes 2 signaturalgoritmer: **ECDSA** (*Elliptic Curve Digital Signature Algorithm*) og **Schnorr-signaturordningen**. ECDSA er den digitale signaturprotokollen som brukes i Bitcoin fra begynnelsen. Schnorr er mer nylig i Bitcoin, da den ble introdusert i november 2021 med Taproot-oppdateringen.
+Den matematiske koblingen mellom en offentlig nøkkel og en privat nøkkel, samt evnen til å utføre en signatur for å bevise besittelsen av en privat nøkkel uten å avsløre den, er muliggjort av en digital signaturalgoritme. I Bitcoin-protokollen brukes 2 signaturalgoritmer: **ECDSA** (_Elliptic Curve Digital Signature Algorithm_) og **Schnorr-signaturordningen**. ECDSA er den digitale signaturprotokollen som brukes i Bitcoin fra begynnelsen. Schnorr er mer nylig i Bitcoin, da den ble introdusert i november 2021 med Taproot-oppdateringen.
 Disse to algoritmene er ganske like i sine mekanismer. De er begge basert på elliptisk kurvekryptografi. Den største forskjellen mellom disse to protokollene ligger i strukturen av signaturen og noen spesifikke matematiske egenskaper. Vi vil derfor studere funksjonen til disse algoritmene, og starter med den eldste: ECDSA.
+
 ### Elliptisk Kurvekryptografi
 
 Elliptisk Kurvekryptografi (ECC) er et sett med algoritmer som bruker en elliptisk kurve for sine ulike matematiske og geometriske egenskaper til kryptografiske formål. Sikkerheten til disse algoritmene er avhengig av vanskeligheten med det diskrete logaritmeproblemet på elliptiske kurver. Elliptiske kurver brukes spesielt for nøkkelutvekslinger, asymmetrisk kryptering, eller for å skape digitale signaturer.
@@ -601,9 +643,9 @@ $$
 
 ### secp256k1
 
-For å bruke ECDSA eller Schnorr, må man velge parametrene for den elliptiske kurven, det vil si verdiene av $a$ og $b$ i kurveligningen. Det finnes forskjellige standarder av elliptiske kurver som er ansett for å være kryptografisk sikre. Den mest kjente er *secp256r1*-kurven, definert og anbefalt av NIST (*National Institute of Standards and Technology*).
+For å bruke ECDSA eller Schnorr, må man velge parametrene for den elliptiske kurven, det vil si verdiene av $a$ og $b$ i kurveligningen. Det finnes forskjellige standarder av elliptiske kurver som er ansett for å være kryptografisk sikre. Den mest kjente er _secp256r1_-kurven, definert og anbefalt av NIST (_National Institute of Standards and Technology_).
 
-Til tross for dette valgte Satoshi Nakamoto, oppfinneren av Bitcoin, å ikke bruke denne kurven. Grunnen til dette valget er ukjent, men noen tror han foretrakk å finne et alternativ fordi parametrene til denne kurven potensielt kunne inneholde en bakdør. I stedet bruker Bitcoin-protokollen standarden ***secp256k1***-kurven. Denne kurven er definert av parametrene $a = 0$ og $b = 7$. Dens ligning er derfor:
+Til tross for dette valgte Satoshi Nakamoto, oppfinneren av Bitcoin, å ikke bruke denne kurven. Grunnen til dette valget er ukjent, men noen tror han foretrakk å finne et alternativ fordi parametrene til denne kurven potensielt kunne inneholde en bakdør. I stedet bruker Bitcoin-protokollen standarden **_secp256k1_**-kurven. Denne kurven er definert av parametrene $a = 0$ og $b = 7$. Dens ligning er derfor:
 
 $$
 y^2 = x^3 + 7
@@ -617,7 +659,7 @@ I Bitcoin er primtallet $p$ som brukes til å definere det endelige feltet veldi
 
 Primtallet $p$ som brukes er:
 
-```txt
+```text
 p = 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEFFFFFC2F
 ```
 
@@ -648,6 +690,7 @@ Hvis du ønsker å lære mer om de matematiske grunnlagene for moderne kryptogra
 https://planb.network/courses/cyp302
 
 ## Beregning av den offentlige nøkkelen fra den private nøkkelen
+
 <chapterId>fcb2bd58-5dda-5ecf-bb8f-ad1a0561ab4a</chapterId>
 Som tidligere sett, er de digitale signaturalgoritmene på Bitcoin basert på et par av private og offentlige nøkler som er matematisk koblet. La oss utforske sammen hva denne matematiske koblingen er og hvordan de genereres.
 
@@ -664,6 +707,7 @@ Som vi vil se i de kommende kapitlene, i dag, genereres flertallet av private n�
 For fortsettelsen av forklaringen, vil den private nøkkelen bli betegnet med den lille bokstaven $k$.
 
 ### Den Offentlige Nøkkelen
+
 Den offentlige nøkkelen er et punkt på den elliptiske kurven, betegnet med stor bokstav $K$, og beregnes fra den private nøkkelen $k$. Dette punktet $K$ representeres av et par koordinater $(x, y)$ på den elliptiske kurven, hver koordinat er et heltall modulo $p$, primtallet som definerer det endelige feltet $\mathbb{F}_p$.
 I praksis representeres en ukomprimert offentlig nøkkel av 512 bits (eller 64 bytes), som tilsvarer to 256-bits tall ($x$ og $y$) plassert ende-til-ende. Disse tallene er absissen ($x$) og ordinaten ($y$) for vårt punkt på secp256k1. Hvis vi legger til prefikset, totaliserer den offentlige nøkkelen 520 bits.
 
@@ -676,6 +720,7 @@ K = k \cdot G
 $$
 
 hvor:
+
 - $k$ er den private nøkkelen (et tilfeldig heltall mellom $1$ og $n-1$);
 - $G$ er generatorelementet til den elliptiske kurven som brukes av alle deltakere i Bitcoin-nettverket;
 - $\cdot$ representerer den skalar multiplikasjonen på den elliptiske kurven, som tilsvarer å legge til punktet $G$ til seg selv $k$ ganger.
@@ -685,6 +730,7 @@ Det faktum at dette punktet $G$ er felles for alle offentlige nøkler på Bitcoi
 ![CYP201](assets/fr/017.webp)
 
 Hovedkarakteristikken til denne operasjonen er at det er en enveisfunksjon. Det er enkelt å beregne den offentlige nøkkelen $K$ ved å kjenne den private nøkkelen $k$ og generatorelementet $G$, men det er praktisk talt umulig å beregne den private nøkkelen $k$ ved å kun kjenne den offentlige nøkkelen $K$ og generatorelementet $G$. Å finne $k$ fra $K$ og $G$ tilsvarer å løse det diskrete logaritmeproblemet på elliptiske kurver, et matematisk vanskelig problem for hvilket det ikke er kjent noen effektiv algoritme. Selv de kraftigste nåværende kalkulatorene er ute av stand til å løse dette problemet på en rimelig tid.
+
 ### Addisjon og Dobling av Punkter på Elliptiske Kurver
 
 Konseptet med addisjon på elliptiske kurver er definert geometrisk. Hvis vi har to punkter $P$ og $Q$ på kurven, blir operasjonen $P + Q$ beregnet ved å tegne en linje som passerer gjennom $P$ og $Q$. Denne linjen vil nødvendigvis krysse kurven ved et tredje punkt $R'$. Vi tar deretter speilbildet av dette punktet med hensyn til x-aksen for å få punktet $R$, som er resultatet av addisjonen:
@@ -716,6 +762,7 @@ K = k \cdot G = 4G
 $$
 
 Grafisk tilsvarer dette å utføre en serie av addisjoner og doblinger:
+
 - Beregn $2G$ ved å doble $G$.
 - Beregn $4G$ ved å doble $2G$.
 
@@ -735,6 +782,7 @@ $$
 
 Grafisk ville dette bli representert som følger:
 ![CYP201](assets/fr/022.webp)
+
 ### Enveiskryptering
 
 Takket være disse operasjonene, kan vi forstå hvorfor det er enkelt å utlede en offentlig nøkkel fra en privat nøkkel, men det motsatte er praktisk talt umulig.
@@ -749,9 +797,10 @@ Nå, hvis noen bare kjenner den offentlige nøkkelen $K$, står de overfor diskr
 Selvfølgelig, i dette forenklede eksemplet med $k = 4$, ville det være mulig å finne $k$ gjennom prøving og feiling, ettersom antall muligheter er lavt. Men i praksis på Bitcoin, er $k$ et 256-bits heltall, noe som gjør antall muligheter astronomisk stort (omtrent $1.158 \times 10^{77}$). Derfor er det uoverkommelig å finne $k$ ved brute force.
 
 ## Signering med den private nøkkelen
+
 <chapterId>bb07826f-826e-5905-b307-3d82001fb778</chapterId>
 
-Nå som du vet hvordan du kan utlede en offentlig nøkkel fra en privat nøkkel, kan du allerede motta bitcoins ved å bruke dette nøkkelparet som en betingelse for utgift. Men hvordan bruke dem? For å bruke bitcoins, må du låse opp *scriptPubKey* knyttet til din UTXO for å bevise at du faktisk er dens legitime eier. For å gjøre dette, må du produsere en signatur $s$ som matcher den offentlige nøkkelen $K$ til stede i *scriptPubKey* ved å bruke den private nøkkelen $k$ som opprinnelig ble brukt til å beregne $K$. Den digitale signaturen er dermed utvetydig bevis på at du er i besittelse av den private nøkkelen assosiert med den offentlige nøkkelen du hevder.
+Nå som du vet hvordan du kan utlede en offentlig nøkkel fra en privat nøkkel, kan du allerede motta bitcoins ved å bruke dette nøkkelparet som en betingelse for utgift. Men hvordan bruke dem? For å bruke bitcoins, må du låse opp _scriptPubKey_ knyttet til din UTXO for å bevise at du faktisk er dens legitime eier. For å gjøre dette, må du produsere en signatur $s$ som matcher den offentlige nøkkelen $K$ til stede i _scriptPubKey_ ved å bruke den private nøkkelen $k$ som opprinnelig ble brukt til å beregne $K$. Den digitale signaturen er dermed utvetydig bevis på at du er i besittelse av den private nøkkelen assosiert med den offentlige nøkkelen du hevder.
 
 ### Parametere for elliptisk kurve
 
@@ -763,7 +812,7 @@ $$
 p = 2^{256} - 2^{32} - 977
 $$
 
-```txt
+```text
 p = 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEFFFFFC2F
 ```
 
@@ -777,11 +826,17 @@ $$
 
 Generasjonspunktet eller opprinnelsespunktet $G$:
 
-```txt
+```text
 G = 0x0279BE667EF9DCBBAC55A06295CE870B07029BFCDB2DCE28D959F2815B16F81798
 ```
+
 Dette tallet er den komprimerte formen som bare gir absissen til punkt $G$. Prefikset `02` i begynnelsen bestemmer hvilken av de to verdiene som har denne absissen $x$ skal brukes som generasjonspunkt.
 Ordenen $n$ til $G$ (antallet eksisterende punkter) og kofaktoren $h$:
+
+```text
+n = 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEBAAEDCE6AF48A03BBFD25E8CD0364141
+```
+
 $n$ er et veldig stort tall som er litt mindre enn $p$.
 
 $$
@@ -794,7 +849,7 @@ All denne informasjonen er offentlig og kjent for alle deltakere. Takket være d
 
 ### Signatur med ECDSA
 
-ECDSA-algoritmen lar en bruker signere en melding med sin private nøkkel, på en slik måte at hvem som helst som kjenner den tilsvarende offentlige nøkkelen kan verifisere signaturens gyldighet, uten at den private nøkkelen noen gang blir avslørt. I konteksten av Bitcoin, avhenger meldingen som skal signeres av *sighash* valgt av brukeren. Det er denne *sighash* som vil bestemme hvilke deler av transaksjonen som er dekket av signaturen. Jeg vil snakke mer om dette i neste kapittel.
+ECDSA-algoritmen lar en bruker signere en melding med sin private nøkkel, på en slik måte at hvem som helst som kjenner den tilsvarende offentlige nøkkelen kan verifisere signaturens gyldighet, uten at den private nøkkelen noen gang blir avslørt. I konteksten av Bitcoin, avhenger meldingen som skal signeres av _sighash_ valgt av brukeren. Det er denne _sighash_ som vil bestemme hvilke deler av transaksjonen som er dekket av signaturen. Jeg vil snakke mer om dette i neste kapittel.
 
 Her er stegene for å generere en ECDSA-signatur:
 
@@ -819,6 +874,7 @@ s = r^{-1} \left( e + k \cdot x_R \right) \mod n
 $$
 
 hvor:
+
 - $r^{-1}$ er den modulære inversen av $r$ modulo $n$, det vil si et heltall slik at $r \cdot r^{-1} \equiv 1 \mod n$;
 - $k$ er brukerens private nøkkel;
 - $e$ er hashen av meldingen;
@@ -954,11 +1010,13 @@ Som vi har sett, valgte Satoshi opprinnelig å implementere ECDSA for digitale s
 Vel, vi vet egentlig ikke hvorfor Satoshi ikke valgte det, men en sannsynlig hypotese er at dette protokollet var under patent frem til 2008. Selv om Bitcoin ble opprettet et år senere, i januar 2009, var det ingen åpen kildekode-standardisering for Schnorr-signaturer tilgjengelig på det tidspunktet. Kanskje anså Satoshi det som tryggere å bruke ECDSA, som allerede var mye brukt og testet i åpen kildekode-programvare og hadde flere anerkjente implementasjoner (spesielt OpenSSL-biblioteket brukt frem til 2015 på Bitcoin Core, deretter erstattet av libsecp256k1 i versjon 0.10.0). Eller kanskje han rett og slett ikke var klar over at dette patentet skulle utløpe i 2008. Uansett virker den mest sannsynlige hypotesen å være relatert til dette patentet og det faktum at ECDSA hadde en bevist historie og var lettere å implementere.
 
 ## The sighash flags
+
 <chapterId>231c41a2-aff2-4655-9048-47b6d2d83d64</chapterId>
 
 Som vi har sett i tidligere kapitler, brukes digitale signaturer ofte til å låse opp skriptet til en inngang. I signeringsprosessen er det nødvendig å inkludere de signerte dataene i beregningen, betegnet i våre eksempler med meldingen $m$. Disse dataene, når de er signert, kan ikke endres uten å gjøre signaturen ugyldig. Faktisk, enten for ECDSA eller Schnorr, må signaturens verifiserer inkludere den samme meldingen $m$ i sin beregning. Hvis den avviker fra meldingen $m$ som opprinnelig ble brukt av signereren, vil resultatet være feil og signaturen vil bli ansett som ugyldig. Det sies da at en signatur dekker visse data og beskytter dem, på en måte, mot uautoriserte endringer.
 
 ### Hva er et sighash-flagg?
+
 I det spesifikke tilfellet med Bitcoin har vi sett at meldingen $m$ tilsvarer transaksjonen. Men i virkeligheten er det litt mer komplekst. Faktisk, takket være sighash-flagg, er det mulig å velge spesifikke data innenfor transaksjonen som vil bli dekket eller ikke av signaturen.
 "Sighash-flagget" er dermed en parameter lagt til hver inngang, som tillater bestemmelsen av komponentene i en transaksjon som er dekket av den tilknyttede signaturen. Disse komponentene er inngangene og utgangene. Valget av sighash-flagget bestemmer dermed hvilke innganger og utganger av transaksjonen som er fastsatt av signaturen og hvilke som fortsatt kan endres uten å ugyldiggjøre den. Denne mekanismen tillater signaturer å forplikte transaksjonsdata i henhold til signererens intensjoner.
 Åpenbart, når transaksjonen er bekreftet på blokkjeden, blir den uforanderlig, uavhengig av hvilke sighash-flagg som er brukt. Muligheten for modifikasjon via sighash-flaggene er begrenset til perioden mellom signeringen og bekreftelsen.
@@ -977,8 +1035,9 @@ I alle diagrammene i dette kapittelet representerer oransje farge elementene dek
 - `SIGHASH_NONE` (`0x02`): Signaturen dekker alle inndataene, men ingen av utdataene, noe som tillater modifikasjon av utdataene etter signaturen. I praksis er dette lik en blank sjekk. Signataren låser opp UTXOene i inndataene, men etterlater feltet for utdata helt modifiserbart. Enhver som kjenner til denne transaksjonen kan dermed legge til utdataene av sitt valg, for eksempel ved å spesifisere en mottaksadresse for å samle inn midlene som brukes av inndataene, og deretter kringkaste transaksjonen for å gjenopprette bitcoinene. Signaturen til eieren av inndataene vil ikke bli ugyldiggjort, ettersom den bare dekker inndataene.
 
 ![CYP201](assets/fr/027.webp)
-- `SIGHASH_SINGLE` (`0x03`): Signaturen dekker alle inndata samt et enkelt utdata, som tilsvarer indeksen til det signerte inndataet. For eksempel, hvis signaturen låser opp *scriptPubKey* for inndata #0, dekker den også utdata #0. Signaturen beskytter også alle andre inndata, som ikke lenger kan modifiseres. Imidlertid kan hvem som helst legge til et ekstra utdata uten å ugyldiggjøre signaturen, forutsatt at utdata #0, som er det eneste som er dekket av den, ikke er modifisert.
-![CYP201](assets/fr/028.webp)
+
+- `SIGHASH_SINGLE` (`0x03`): Signaturen dekker alle inndata samt et enkelt utdata, som tilsvarer indeksen til det signerte inndataet. For eksempel, hvis signaturen låser opp _scriptPubKey_ for inndata #0, dekker den også utdata #0. Signaturen beskytter også alle andre inndata, som ikke lenger kan modifiseres. Imidlertid kan hvem som helst legge til et ekstra utdata uten å ugyldiggjøre signaturen, forutsatt at utdata #0, som er det eneste som er dekket av den, ikke er modifisert.
+  ![CYP201](assets/fr/028.webp)
 
 I tillegg til disse tre sighash-flaggene finnes det også modifikatoren `SIGHASH_ANYONECANPAY` (`0x80`). Denne modifikatoren kan kombineres med et grunnleggende sighash-flagg for å skape tre nye sighash-flagg:
 
@@ -989,12 +1048,13 @@ I tillegg til disse tre sighash-flaggene finnes det også modifikatoren `SIGHASH
 - `SIGHASH_NONE | SIGHASH_ANYONECANPAY` (`0x82`): Signaturen dekker et enkelt inndata, uten å forplikte seg til noe utdata;
 
 ![CYP201](assets/fr/030.webp)
-- `SIGHASH_SINGLE | SIGHASH_ANYONECANPAY` (`0x83`): Signaturen dekker et enkelt inngangspunkt samt utgangspunktet som har samme indeks som dette inngangspunktet. For eksempel, hvis signaturen låser opp *scriptPubKey* for inngang #3, vil den også dekke utgang #3. Resten av transaksjonen forblir modifiserbar, både med hensyn til andre innganger og andre utganger.
-![CYP201](assets/fr/031.webp)
+
+- `SIGHASH_SINGLE | SIGHASH_ANYONECANPAY` (`0x83`): Signaturen dekker et enkelt inngangspunkt samt utgangspunktet som har samme indeks som dette inngangspunktet. For eksempel, hvis signaturen låser opp _scriptPubKey_ for inngang #3, vil den også dekke utgang #3. Resten av transaksjonen forblir modifiserbar, både med hensyn til andre innganger og andre utganger.
+  ![CYP201](assets/fr/031.webp)
 
 ### Prosjekter for å legge til nye Sighash-flagg
 
-For øyeblikket (2024) er kun de sighash-flaggene som er presentert i forrige seksjon brukbare på Bitcoin. Imidlertid vurderer noen prosjekter å legge til nye sighash-flagg. For eksempel, BIP118, foreslått av Christian Decker og Anthony Towns, introduserer to nye sighash-flagg: `SIGHASH_ANYPREVOUT` og `SIGHASH_ANYPREVOUTANYSCRIPT` (*AnyPrevOut = "Enhver Tidligere Utgang"*).
+For øyeblikket (2024) er kun de sighash-flaggene som er presentert i forrige seksjon brukbare på Bitcoin. Imidlertid vurderer noen prosjekter å legge til nye sighash-flagg. For eksempel, BIP118, foreslått av Christian Decker og Anthony Towns, introduserer to nye sighash-flagg: `SIGHASH_ANYPREVOUT` og `SIGHASH_ANYPREVOUTANYSCRIPT` (_AnyPrevOut = "Enhver Tidligere Utgang"_).
 
 Disse to sighash-flaggene ville tilby en ekstra mulighet på Bitcoin: å skape signaturer som ikke dekker noen spesifikk inngang i transaksjonen.
 
@@ -1010,9 +1070,11 @@ https://planb.network/courses/lnp201
 I neste del foreslår jeg å oppdage hvordan den mnemoniske frasen som ligger til grunn for din Bitcoin-lommebok fungerer.
 
 # Den mnemoniske frasen
+
 <partId>4070af16-c8a2-58b5-9871-a22c86c07458</partId>
 
 ## Utviklingen av Bitcoin-lommebøker
+
 <chapterId>9d9acd5d-a0e5-5dfd-b544-f043fae8840f</chapterId>
 
 Nå som vi har utforsket hvordan hash-funksjoner og digitale signaturer fungerer, kan vi studere hvordan Bitcoin-lommebøker fungerer. Målet vil være å forestille seg hvordan en lommebok på Bitcoin er konstruert, hvordan den er dekomponert, og hvilke forskjellige informasjonsbiter som utgjør den brukes til. Denne forståelsen av lommebokmekanismene vil tillate deg å forbedre din bruk av Bitcoin når det gjelder sikkerhet og personvern.
@@ -1021,11 +1083,12 @@ Før vi dykker ned i de tekniske detaljene, er det essensielt å klargjøre hva 
 
 ### Hva er en Bitcoin-lommebok?
 
-I motsetning til tradisjonelle lommebøker, som lar deg lagre fysiske sedler og mynter, "inneholder" ikke en Bitcoin-lommebok bitcoins per se. Faktisk eksisterer ikke bitcoins i en fysisk eller digital form som kan lagres, men er representert ved enheter av konto avbildet i systemet i form av **UTXOs** (*Ubrukt Transaksjonsutgang*).
-UTXOer representerer dermed fragmenter av bitcoins, i varierende størrelser, som kan brukes forutsatt at deres *scriptPubKey* er oppfylt. For å bruke sine bitcoins, må en bruker gi en *scriptSig* som låser opp *scriptPubKey* knyttet til hans UTXO. Dette beviset er vanligvis gjennom en digital signatur, generert fra den private nøkkelen som tilsvarer den offentlige nøkkelen til stede i *scriptPubKey*. Dermed er det avgjørende elementet som brukeren må sikre, den private nøkkelen. Rollen til en Bitcoin-lommebok er nettopp å håndtere disse private nøklene på en sikker måte. I virkeligheten er dens rolle mer lik den til en nøkkelring enn en lommebok i tradisjonell forstand.
-### JBOK Lommebøker (*Just a Bunch Of Keys*)
+I motsetning til tradisjonelle lommebøker, som lar deg lagre fysiske sedler og mynter, "inneholder" ikke en Bitcoin-lommebok bitcoins per se. Faktisk eksisterer ikke bitcoins i en fysisk eller digital form som kan lagres, men er representert ved enheter av konto avbildet i systemet i form av **UTXOs** (_Ubrukt Transaksjonsutgang_).
+UTXOer representerer dermed fragmenter av bitcoins, i varierende størrelser, som kan brukes forutsatt at deres _scriptPubKey_ er oppfylt. For å bruke sine bitcoins, må en bruker gi en _scriptSig_ som låser opp _scriptPubKey_ knyttet til hans UTXO. Dette beviset er vanligvis gjennom en digital signatur, generert fra den private nøkkelen som tilsvarer den offentlige nøkkelen til stede i _scriptPubKey_. Dermed er det avgjørende elementet som brukeren må sikre, den private nøkkelen. Rollen til en Bitcoin-lommebok er nettopp å håndtere disse private nøklene på en sikker måte. I virkeligheten er dens rolle mer lik den til en nøkkelring enn en lommebok i tradisjonell forstand.
 
-De første lommebøkene som ble brukt på Bitcoin, var JBOK (*Just a Bunch Of Keys*) lommebøker, som grupperte sammen privat genererte nøkler uavhengig og uten noen kobling mellom dem. Disse lommebøkene opererte på en enkel modell hvor hver privat nøkkel kunne låse opp en unik Bitcoin mottaksadresse.
+### JBOK Lommebøker (_Just a Bunch Of Keys_)
+
+De første lommebøkene som ble brukt på Bitcoin, var JBOK (_Just a Bunch Of Keys_) lommebøker, som grupperte sammen privat genererte nøkler uavhengig og uten noen kobling mellom dem. Disse lommebøkene opererte på en enkel modell hvor hver privat nøkkel kunne låse opp en unik Bitcoin mottaksadresse.
 
 ![CYP201](assets/fr/033.webp)
 
@@ -1037,21 +1100,25 @@ For å lære mer om Bitcoins personvernmodell og oppdage metoder for å beskytte
 
 https://planb.network/courses/btc204
 
-### HD Lommebøker (*Hierarchical Deterministic*)
+### HD Lommebøker (_Hierarchical Deterministic_)
+
 For å adressere begrensningen av JBOK-lommebøker, ble en ny lommebokstruktur senere tatt i bruk. I 2012 introduserte Pieter Wuille en forbedring med BIP32, som introduserer hierarkiske deterministiske lommebøker. Prinsippet med en HD-lommebok er å avlede alle private nøkler fra en enkelt informasjonskilde, kalt et frø, på en deterministisk og hierarkisk måte. Dette frøet genereres tilfeldig når lommeboken opprettes og utgjør en unik sikkerhetskopi som tillater gjenoppretting av alle lommebokens private nøkler. Dermed kan brukeren generere et svært stort antall private nøkler for å unngå adressegjenbruk og bevare sitt personvern, samtidig som det kun er nødvendig å lage en enkelt sikkerhetskopi av lommeboken via frøet.
 ![CYP201](assets/fr/034.webp)
 
 I HD-lommebøker utføres nøkkelavledning i henhold til en hierarkisk struktur som tillater nøkler å bli organisert i avledningssubrom, hvert subspace kan videre deles opp, for å lette fondshåndtering og interoperabilitet mellom forskjellige lommebokprogramvarer. I dag er denne standarden adoptert av det store flertallet av Bitcoin-brukere. Av denne grunn vil vi undersøke den i detalj i de følgende kapitlene.
 
 ### BIP39-standarden: Den Mnemoniske Frasen
+
 I tillegg til BIP32 standardiserer BIP39 formatet for frøet som en mnemonic frase, for å lette backup og lesbarhet for brukere. Den mnemonic frasen, også kalt en gjenopprettingsfrase eller 24-ords frase, er en sekvens av ord hentet fra en forhåndsdefinert liste som sikkert koder lommebokens frø.
 Den mnemonic frasen forenkler betraktelig backup for brukeren. I tilfelle tap, skade eller tyveri av enheten som huser lommeboken, gjør det å kun kjenne denne mnemonic frasen det mulig å gjenskape lommeboken og gjenopprette tilgangen til alle midlene sikret av den.
 
 I de kommende kapitlene vil vi utforske de interne mekanismene til HD-lommebøker, inkludert mekanismer for nøkkelavledning og de forskjellige mulige hierarkiske strukturene. Dette vil tillate deg å bedre forstå de kryptografiske grunnlagene som sikkerheten til midler på Bitcoin er basert på. Og for å starte, i neste kapittel, foreslår jeg at vi oppdager rollen til entropi i bunnen av lommeboken din.
 
 ## Entropi og Tilfeldig Nummer
+
 <chapterId>b43c715d-affb-56d8-a697-ad5bc2fffd63</chapterId>
 Moderne HD-lommebøker (deterministiske og hierarkiske) er avhengige av et enkelt innledende stykke informasjon kalt "entropi" for å deterministisk generere hele settet med lommeboknøkler. Denne entropien er et pseudo-tilfeldig nummer hvis kaosnivå delvis bestemmer sikkerheten til lommeboken.
+
 ### Definisjon av Entropi
 
 Entropi, i konteksten av kryptografi og informasjon, er et kvantitativt mål på usikkerheten eller uforutsigbarheten forbundet med en datakilde eller en tilfeldig prosess. Det spiller en viktig rolle i sikkerheten til kryptografiske systemer, spesielt i genereringen av nøkler og tilfeldige tall. Høy entropi sikrer at de genererte nøklene er tilstrekkelig uforutsigbare og motstandsdyktige mot brute force-angrep, der en angriper prøver alle mulige kombinasjoner for å gjette nøkkelen.
@@ -1061,10 +1128,11 @@ I konteksten av Bitcoin brukes entropi til å generere frøet. Når man opprette
 ### Metoder for å Generere Entropi
 
 Den innledende entropien som brukes for en HD-lommebok er generelt 128 bits eller 256 bits, der:
+
 - **128 bits entropi** tilsvarer en mnemonic frase på **12 ord**;
 - **256 bits entropi** tilsvarer en mnemonic frase på **24 ord**.
 
-I de fleste tilfeller genereres dette tilfeldige nummeret automatisk av lommebokprogramvaren ved hjelp av en PRNG (*Pseudo-Random Number Generator*). PRNG-er er en kategori algoritmer som brukes til å generere sekvenser av tall fra en innledende tilstand, som har egenskaper som nærmer seg det til et tilfeldig tall, uten faktisk å være ett. En god PRNG må ha egenskaper som utgangsuniformitet, uforutsigbarhet og motstand mot prediktive angrep. I motsetning til ekte tilfeldige tallgeneratorer (TRNG), er PRNG-er deterministiske og reproduserbare.
+I de fleste tilfeller genereres dette tilfeldige nummeret automatisk av lommebokprogramvaren ved hjelp av en PRNG (_Pseudo-Random Number Generator_). PRNG-er er en kategori algoritmer som brukes til å generere sekvenser av tall fra en innledende tilstand, som har egenskaper som nærmer seg det til et tilfeldig tall, uten faktisk å være ett. En god PRNG må ha egenskaper som utgangsuniformitet, uforutsigbarhet og motstand mot prediktive angrep. I motsetning til ekte tilfeldige tallgeneratorer (TRNG), er PRNG-er deterministiske og reproduserbare.
 
 ![CYP201](assets/fr/035.webp)
 
@@ -1073,6 +1141,7 @@ Et alternativ er å manuelt generere entropien, som tilbyr bedre kontroll, men e
 I neste kapittel vil vi se hvordan vi går fra et tilfeldig nummer til en mnemonic frase på 12 eller 24 ord.
 
 ## Den Mnemonic Frasen
+
 <chapterId>8f9340c1-e6dc-5557-a2f2-26c9669987d5</chapterId>
 Mnemonisk frase, også kalt "seed phrase", "recovery phrase", "secret phrase", eller "24-ords frase", er en sekvens som vanligvis består av 12 eller 24 ord, som genereres fra entropi. Den brukes til deterministisk å avlede alle nøklene til en HD-lommebok. Dette betyr at fra denne frasen, er det mulig å deterministisk generere og gjenskape alle de private og offentlige nøklene til Bitcoin-lommeboken, og dermed få tilgang til midlene som er beskyttet med den. Formålet med den mnemoniske frasen er å tilby et middel for sikkerhetskopiering og gjenoppretting av bitcoins som er både sikkert og enkelt å bruke. Den ble introdusert i standarder i 2013 med BIP39.
 La oss sammen oppdage hvordan vi går fra entropi til en mnemonisk frase.
@@ -1102,6 +1171,7 @@ Når sjekksummen er beregnet, blir den konkatenert med entropien for å oppnå e
 ### Korrespondanse mellom Entropien og den Mnemoniske Frasen
 
 Antall ord i den mnemoniske frasen avhenger av størrelsen på den opprinnelige entropien, som illustrert i følgende tabell med:
+
 - $\text{ENT}$: størrelsen i bits av entropien;
 - $\text{CS}$: størrelsen i bits av sjekksummen;
 - $w$: antall ord i den endelige mnemoniske frasen.
@@ -1140,8 +1210,11 @@ Men, denne forskjellen i frasenivå-sikkerhet forbedrer ikke den generelle sikke
 
 For 256-bits nøkler, slik som de som brukes på Bitcoin, reduserer Pollards rho-algoritme dermed kompleksiteten til $2^{128}$ operasjoner:
 
+
 $$
+
 O(\sqrt{2^{256}}) = O(2^{128})
+
 $$
 
 Derfor anses det at en privat nøkkel brukt på Bitcoin tilbyr 128 bits sikkerhet.
@@ -1167,13 +1240,13 @@ Passfrasen fungerer i tandem med den mnemoniske frasen, og endrer frøet som nø
 
 ![CYP201](assets/fr/041.webp)
 
-## Hvorfor bør du bruke en passfrase?
+### Hvorfor bør du bruke en passfrase?
 
 Passfrasen er vilkårlig og kan være hvilken som helst kombinasjon av tegn valgt av brukeren. Bruk av en passfrase tilbyr dermed flere fordeler. Først og fremst reduserer det alle risikoer forbundet med kompromittering av den mnemoniske frasen ved å kreve en andre faktor for å få tilgang til midlene (innbrudd, tilgang til hjemmet ditt, osv.).
 
 Videre kan den brukes strategisk for å skape en avledningslommebok, for å møte fysiske begrensninger for å stjele midlene dine som den beryktede "_$5 skiftenøkkelangrepet_". I dette scenarioet er ideen å ha en lommebok uten en passfrase som inneholder bare en liten mengde bitcoins, nok til å tilfredsstille en potensiell angriper, mens man har en skjult lommebok. Denne sistnevnte bruker samme mnemoniske frase, men er sikret med en ekstra passfrase.
 Til slutt er bruken av en passfrase interessant når man ønsker å kontrollere tilfeldigheten av genereringen av HD-lommebokens frø.
-## Hvordan velge en god passfrase?
+### Hvordan velge en god passfrase?
 
 For at passfrasen skal være effektiv, må den være tilstrekkelig lang og tilfeldig. Som med et sterkt passord, anbefaler jeg å velge en passfrase som er så lang og tilfeldig som mulig, med en mangfoldighet av bokstaver, tall og symboler for å gjøre ethvert brute force-angrep umulig.
 Det er også viktig å lagre denne passfrasen på riktig måte, på samme måte som den mnemoniske frasen. **Å miste den betyr å miste tilgangen til dine bitcoins**. Jeg råder sterkt mot å bare huske den i hodet, da dette urimelig øker risikoen for tap. Det ideelle er å skrive den ned på et fysisk medium (papir eller metall) separat fra den mnemoniske frasen. Denne sikkerhetskopien må åpenbart oppbevares på et annet sted enn der din mnemoniske frase er lagret for å forhindre at begge blir kompromittert samtidig.
@@ -1205,8 +1278,11 @@ Uavhengig av lengden på den mnemoniske frasen som er valgt (132 bits eller 264 
 
 Følgende ligning illustrerer utledningen av seedet fra den mnemoniske frasen og passfrasen:
 
+
 $$
-s = \text{PBKDF2}_{\text{HMAC-SHA512}}(m, p, 2048)
+
+s = \text{PBKDF2}\_{\text{HMAC-SHA512}}(m, p, 2048)
+
 $$
 
 ![CYP201](assets/fr/044.webp)
@@ -1224,8 +1300,11 @@ For å oppnå den mesterlige private nøkkelen og den mesterlige kjedekoden, anv
 - $s$: det 512-biters lommebokfrøet;
 - $\text{"Bitcoin Seed"}$: den felles utledningskonstanten for alle Bitcoin-lommebøker.
 
+
 $$
+
 \text{output} = \text{HMAC-SHA512}(\text{"Bitcoin Seed"}, s)
+
 $$
 
 Utgangen av denne funksjonen er derfor 512 bits. Den deles deretter inn i 2 deler:
@@ -1233,11 +1312,16 @@ Utgangen av denne funksjonen er derfor 512 bits. Den deles deretter inn i 2 dele
 - De høyre 256 bitene danner **den mesterlige kjedekoden**.
 Matematisk kan disse to verdiene noteres som følger med $k_M$ som den mesterlige private nøkkelen og $C_M$ som den mesterlige kjedekoden:
 $$
-k_M = \text{HMAC-SHA512}(\text{"Bitcoin Seed"}, s)_{[:256]}
-$$
+
+k*M = \text{HMAC-SHA512}(\text{"Bitcoin Seed"}, s)*{[:256]}
 
 $$
-C_M = \text{HMAC-SHA512}(\text{"Bitcoin Seed"}, s)_{[256:]}
+
+
+$$
+
+C*M = \text{HMAC-SHA512}(\text{"Bitcoin Seed"}, s)*{[256:]}
+
 $$
 
 ![CYP201](assets/fr/045.webp)
@@ -1331,23 +1415,23 @@ For å bedre forstå den interne strukturen til en utvidet nøkkel, la oss ta en
 
 - **I Base58**:
 
-```txt
+```text
 xpub6CTNzMUkzpurBWaT4HQoYzLP4uBbGJuWY358Rj7rauiw4rMHCyq3Rfy9w4kyJXJzeFfyrKLUar2rUCukSiDQFa7roTwzjiAhyQAdPLEjqHT
 ```
 
 - **I heksadesimal**:
 
-```txt
+```text
 0488B21E036D5601AD80000000C605DF9FBD77FD6965BD02B77831EC5C78646AD3ACA14DC3984186F72633A89303772CCB99F4EF346078D167065404EED8A58787DED31BFA479244824DF50658051F067C3A
 ```
 
 Denne utvidede nøkkelen brytes ned i flere distinkte elementer:
 
-1. **Versjon**: `0488B21E`  
+1. **Versjon**: `0488B21E`
 
 De første 4 bytene er versjonen. Her tilsvarer det en utvidet offentlig nøkkel på Hovednett med et avledningsformål av enten *Legacy* eller *SegWit v1*.
 
-2. **Dybde**: `03`  
+2. **Dybde**: `03`
 
 Dette feltet indikerer det hierarkiske nivået til nøkkelen innenfor HD-lommeboken. I dette tilfellet betyr en dybde på `03` at denne nøkkelen er tre nivåer av avledning under hovednøkkelen.
 
@@ -1398,32 +1482,47 @@ For å derivere en barn privat nøkkel $k_{\text{CHD}}$ fra en forelder privat n
 
 For en **normal barnenøkkel** ($i < 2^{31}$), er beregningen av $\text{hash}$ som følger:
 
+
 $$
-\text{hash} = \text{HMAC-SHA512}(C_{\text{PAR}}, G \cdot k_{\text{PAR}} \Vert i)
+
+\text{hash} = \text{HMAC-SHA512}(C*{\text{PAR}}, G \cdot k*{\text{PAR}} \Vert i)
+
 $$
 I denne beregningen observerer vi at vår HMAC-funksjon tar to inndata: først, foreldrenes kjedekode, og deretter sammenkjedningen av indeksen med den offentlige nøkkelen assosiert med den private foreldrenøkkelen. Den offentlige foreldrenøkkelen brukes her fordi vi ser etter å derivere en normal barnenøkkel, ikke en herdet en.
 Vi har nå en 64-byte $\text{hash}$ som vi vil dele inn i 2 deler på 32 byte hver: $h_1$ og $h_2$:
 
-$$
-\text{hash} = h_1 \Vert h_2
-$$
 
 $$
-h_1 = \text{hash}_{[:32]} \quad, \quad h_2 = \text{hash}_{[32:]}
+
+\text{hash} = h_1 \Vert h_2
+
+$$
+
+
+$$
+
+h*1 = \text{hash}*{[:32]} \quad, \quad h*2 = \text{hash}*{[32:]}
+
 $$
 
 Den barn private nøkkelen $k_{\text{CHD}}^n$ beregnes deretter som følger:
 
+
 $$
-k_{\text{CHD}}^n = \text{parse256}(h_1) + k_{\text{PAR}} \mod n
+
+k*{\text{CHD}}^n = \text{parse256}(h_1) + k*{\text{PAR}} \mod n
+
 $$
 I denne beregningen består operasjonen $\text{parse256}(h_1)$ av å tolke de første 32 bytene av $\text{hash}$ som et 256-bits heltall. Dette tallet legges deretter til den overordnede private nøkkelen, alt tatt modulo $n$ for å holde seg innenfor elliptisk kurves orden, som vi så i seksjon 3 om digitale signaturer. Dermed, for å utlede en normal barnenøkkel, selv om den overordnede offentlige nøkkelen brukes som grunnlag for beregning i inndataene til HMAC-SHA512-funksjonen, er det alltid nødvendig å ha den overordnede private nøkkelen for å fullføre beregningen.
 Fra denne barnenøkkelen er det mulig å utlede den tilsvarende offentlige nøkkelen ved å anvende ECDSA eller Schnorr. På denne måten får vi et komplett nøkkelpar.
 
 Deretter tolkes den andre delen av $\text{hash}$ rett og slett som kjedekoden for nøkkelparet til barnet som vi nettopp har utledet:
 
+
 $$
-C_{\text{CHD}} = h_2
+
+C\_{\text{CHD}} = h_2
+
 $$
 
 Her er en skjematisk representasjon av den totale derivasjonen:
@@ -1432,30 +1531,44 @@ Her er en skjematisk representasjon av den totale derivasjonen:
 
 For en **hardened barnenøkkel** ($i \geq 2^{31}$), er beregningen av $\text{hash}$ som følger:
 
+
 $$
-hash = \text{HMAC-SHA512}(C_{\text{PAR}}, 0x00 \Vert k_{\text{PAR}} \Vert i)
+
+hash = \text{HMAC-SHA512}(C*{\text{PAR}}, 0x00 \Vert k*{\text{PAR}} \Vert i)
+
 $$
 
 I denne beregningen observerer vi at vår HMAC-funksjon tar to inndata: først, den overordnede kjedekoden, og deretter sammenkjedningen av indeksen med den overordnede private nøkkelen. Den overordnede private nøkkelen brukes her fordi vi ser etter å utlede en hardened barnenøkkel. I tillegg legges en byte lik `0x00` til i begynnelsen av nøkkelen. Denne operasjonen jevner ut lengden for å matche den til en komprimert offentlig nøkkel.
 Så, nå har vi en 64-byte $\text{hash}$ som vi vil dele inn i 2 deler på 32 byte hver: $h_1$ og $h_2$:
 $$
+
 \text{hash} = h_1 \Vert h_2
-$$
 
 $$
+
+
+$$
+
 h_1 = \text{hash}[:32] \quad, \quad h_2 = \text{hash}[32:]
+
 $$
 
 Barnets private nøkkel $k_{\text{CHD}}^h$ beregnes deretter som følger:
 
+
 $$
-k_{\text{CHD}}^h = \text{parse256}(h_1) + k_{\text{PAR}} \mod n
+
+k*{\text{CHD}}^h = \text{parse256}(h_1) + k*{\text{PAR}} \mod n
+
 $$
 
 Deretter tolker vi rett og slett den andre delen av $\text{hash}$ som kjedekoden for nøkkelparet til barnet som vi nettopp har utledet:
 
+
 $$
-C_{\text{CHD}} = h_2
+
+C\_{\text{CHD}} = h_2
+
 $$
 
 Her er en skjematisk representasjon av den totale derivasjonen:
@@ -1468,34 +1581,49 @@ Vi kan se at normal derivasjon og hardened derivasjon fungerer på samme måte, 
 Hvis vi kun kjenner den offentlige nøkkelen til forelderen $K_{\text{PAR}}$ og den tilknyttede kjedekoden $C_{\text{PAR}}$, det vil si en utvidet offentlig nøkkel, er det mulig å utlede offentlige nøkler til barn $K_{\text{CHD}}^n$, men kun for normale (ikke-forsterkede) barnenøkler. Dette prinsippet gjør det spesielt mulig å overvåke bevegelsene til en konto i en Bitcoin-lommebok fra `xpub` (*kun-visning*).
 For å utføre denne beregningen, vil vi beregne $\text{hash}$ med et indeks $i < 2^{31}$ (normal utledning):
 
+
 $$
-\text{hash} = \text{HMAC-SHA512}(C_{\text{PAR}}, K_{\text{PAR}} \Vert i)
+
+\text{hash} = \text{HMAC-SHA512}(C*{\text{PAR}}, K*{\text{PAR}} \Vert i)
+
 $$
 
 I denne beregningen observerer vi at vår HMAC-funksjon tar to innganger: først kjedekoden til forelderen, deretter sammenkjedningen av indeksen med den offentlige nøkkelen til forelderen.
 
 Så, nå har vi en $hash$ på 64 bytes som vi vil dele inn i 2 deler på 32 bytes hver: $h_1$ og $h_2$:
 
-$$
-\text{hash} = h_1 \Vert h_2
-$$
 
 $$
+
+\text{hash} = h_1 \Vert h_2
+
+$$
+
+
+$$
+
 h_1 = \text{hash}[:32] \quad, \quad h_2 = \text{hash}[32:]
+
 $$
 
 Den offentlige nøkkelen til barnet $K_{\text{CHD}}^n$ beregnes deretter som følger:
 
+
 $$
-K_{\text{CHD}}^n = G \cdot \text{parse256}(h_1) + K_{\text{PAR}}
+
+K*{\text{CHD}}^n = G \cdot \text{parse256}(h_1) + K*{\text{PAR}}
+
 $$
 Hvis $\text{parse256}(h_1) \geq n$ (ordenen til den elliptiske kurven) eller hvis $K_{\text{CHD}}^n$ er punktet i uendelighet, er utledningen ugyldig, og et annet indeks må velges.
 I denne beregningen innebærer operasjonen $\text{parse256}(h_1)$ å tolke de første 32 bytes av $\text{hash}$ som et 256-bits heltall. Dette tallet brukes til å beregne et punkt på den elliptiske kurven gjennom addisjon og dobling fra generatorenpunktet $G$. Dette punktet legges deretter til den offentlige nøkkelen til forelderen for å oppnå den normale offentlige nøkkelen til barnet. Således, for å utlede en normal offentlig nøkkel til barnet, er kun den offentlige nøkkelen til forelderen og kjedekoden til forelderen nødvendig; den private nøkkelen til forelderen kommer aldri inn i denne prosessen, i motsetning til beregningen av den private nøkkelen til barnet vi så tidligere.
 
 Videre er kjedekoden til barnet ganske enkelt:
 
+
 $$
-C_{\text{CHD}} = h_2
+
+C\_{\text{CHD}} = h_2
+
 $$
 
 Her er en skjematisk representasjon av den samlede utledningen:
@@ -1512,20 +1640,25 @@ Takket være addisjons- og doblingsoperasjonene på den elliptiske kurven, produ
 
 For å oppsummere, her er de forskjellige mulige typene av avledninger:
 
+
 $$
+
 \begin{array}{|c|c|c|c|}
 \hline
 \rightarrow & \text{PAR} & \text{CHD} & \text{n/h} \\
 \hline
-k_{\text{PAR}} \rightarrow k_{\text{CHD}} & k_{\text{PAR}} & \{ k_{\text{CHD}}^n, k_{\text{CHD}}^h \} & \{ n, h \} \\
+k*{\text{PAR}} \rightarrow k*{\text{CHD}} & k*{\text{PAR}} & \{ k*{\text{CHD}}^n, k\_{\text{CHD}}^h \} & \{ n, h \} \\
 \end{array}
+
 $$
 $$
-k_{\text{PAR}} \rightarrow K_{\text{CHD}} & k_{\text{PAR}} & \{ K_{\text{CHD}}^n, K_{\text{CHD}}^h \} & \{ n, h \} \\
-K_{\text{PAR}} \rightarrow k_{\text{CHD}} & K_{\text{PAR}} & \times & \times \\
-K_{\text{PAR}} \rightarrow K_{\text{CHD}} & K_{\text{PAR}} & K_{\text{CHD}}^n & n \\
+
+k*{\text{PAR}} \rightarrow K*{\text{CHD}} & k*{\text{PAR}} & \{ K*{\text{CHD}}^n, K*{\text{CHD}}^h \} & \{ n, h \} \\
+K*{\text{PAR}} \rightarrow k*{\text{CHD}} & K*{\text{PAR}} & \times & \times \\
+K*{\text{PAR}} \rightarrow K*{\text{CHD}} & K*{\text{PAR}} & K*{\text{CHD}}^n & n \\
 \hline
 \end{array}
+
 $$
 
 For å oppsummere, så langt har du lært å skape de grunnleggende elementene av HD-lommeboken: den mnemoniske frasen, frøet, og deretter hovednøkkelen og hovedkjedekoden. Du har også oppdaget hvordan man avleder barne-nøkkelpar i dette kapittelet. I neste kapittel vil vi utforske hvordan disse avledningene er organisert i Bitcoin-lommebøker og hvilken struktur man skal følge for å konkret oppnå mottaksadressene samt nøkkelparene som brukes i *scriptPubKey* og *scriptSig*.
@@ -1567,7 +1700,7 @@ For å gi deg andre eksempler, her er indeksene til noen valutaer:
 Hver lommebok kan deles inn i flere kontoer, nummerert fra $2^{31}$, og representert på dybde 3 av $/0'/$ for den første kontoen, $/1'/$ for den andre, og så videre. Generelt, når man refererer til en utvidet nøkkel `xpub`, refererer det til nøkler på denne derivasjonsdybden.
 
 Denne separasjonen i forskjellige kontoer er valgfri. Den har som mål å forenkle organiseringen av lommeboken for brukerne. I praksis brukes ofte bare én konto, vanligvis den første som standard. Imidlertid, i noen tilfeller, hvis man ønsker å tydelig skille nøkkelpar for forskjellige bruksområder, kan dette være nyttig. For eksempel er det mulig å opprette en personlig konto og en profesjonell konto fra samme frø, med helt distinkte grupper av nøkler fra denne derivasjonsdybden.
-**Dybde 4: Kjede (BIP32)**  
+**Dybde 4: Kjede (BIP32)**
 Hver konto definert på dybde 3 er deretter strukturert inn i to kjeder:
 - **Den eksterne kjeden**: I denne kjeden, det som er kjent som "offentlige" adresser, er derivert. Disse mottaksadressene er ment å låse UTXOer som kommer fra eksterne transaksjoner (det vil si, som stammer fra forbruket av UTXOer som ikke tilhører deg). Enkelt sagt, denne eksterne kjeden brukes når man ønsker å motta bitcoins. Når du klikker på "*motta*" i lommebokprogramvaren din, er det alltid en adresse fra den eksterne kjeden som tilbys deg. Denne kjeden representeres av et par nøkler derivert med indeksen $/0/$.
 - **Den interne kjeden (veksel)**: Denne kjeden er reservert for mottaksadresser som låser bitcoins som kommer fra forbruket av UTXOer som tilhører deg, med andre ord, vekseladresser. Den er identifisert ved indeksen $/1/$.
@@ -1581,15 +1714,20 @@ Til slutt representerer dybde 5 det siste trinnet i derivasjonen i lommeboken. S
 Derivasjonsveien er skrevet ved å skille hvert nivå med en skråstrek ($/$). Hver skråstrek indikerer dermed en derivasjon av et foreldre nøkkelpar ($k_{\text{PAR}}$, $K_{\text{PAR}}$, $C_{\text{PAR}}$) til et barn nøkkelpar ($k_{\text{CHD}}$, $K_{\text{CHD}}$, $C_{\text{CHD}}$). Nummeret notert ved hver dybde tilsvarer indeksen som brukes til å avlede denne nøkkelen fra foreldrene. Apostrofen ($'$) som noen ganger er plassert til høyre for indeksen, indikerer en herdet derivasjon ($k_{\text{CHD}}^h$, $K_{\text{CHD}}^h$). Noen ganger erstattes denne apostrofen med et $h$. I fravær av en apostrof eller $h$, er det derfor en normal derivasjon ($k_{\text{CHD}}^n$, $K_{\text{CHD}}^n$).
 Som vi har sett i de foregående kapitlene, starter herdede nøkkelindekser fra $2^{31}$, eller `0x80000000` i heksadesimalt. Derfor, når en indeks følges av en apostrof i en derivasjonsvei, må $2^{31}$ legges til det angitte nummeret for å oppnå den faktiske verdien som brukes i HMAC-SHA512-funksjonen. For eksempel, hvis derivasjonsveien spesifiserer $/44'/$, vil den faktiske indeksen være:
 $$
+
 i = 44 + 2^{31} = 2\,147\,483\,692
+
 $$
 
 I heksadesimalt er dette `0x8000002C`.
 
 Nå som vi har forstått hovedprinsippene for derivasjonsveier, la oss ta et eksempel! Her er derivasjonsveien for en Bitcoin mottaksadresse:
 
+
 $$
+
 m / 84' / 0' / 1' / 0 / 7
+
 $$
 
 I dette eksemplet:
@@ -1679,13 +1817,13 @@ Det er nettopp i *scriptPubKey* at mottaksadressene finnes. Imidlertid varierer 
 
 Opcodes brukt i et skript er designet for å manipulere informasjon, og om nødvendig, sammenligne eller teste den. La oss ta eksempelet med et P2PKH-skript, som er som følger:
 
-```txt
+```text
 OP_DUP OP_HASH160 OP_PUSHBYTES_20 <pubKeyHash> OP_EQUALVERIFY OP_CHECKSIG
 ```
 
 Som vi vil se i dette kapittelet, representerer `<pubKeyHash>` faktisk nyttelasten til mottaksadressen som brukes til å låse UTXOen. For å låse opp denne *scriptPubKey*, er det nødvendig å gi en *scriptSig* som inneholder:
 
-```txt
+```text
 <signatur> <offentlig nøkkel>
 ```
 I skriptspråk er "stacken" en "*LIFO*" ("*Last In, First Out*") datastruktur som brukes til å midlertidig lagre elementer under utførelsen av skriptet. Hver skriptoperasjon manipulerer denne stacken, hvor elementer kan legges til (*push*) eller fjernes (*pop*). Skript bruker disse stackene til å evaluere uttrykk, lagre midlertidige variabler og håndtere betingelser.
@@ -1779,7 +1917,7 @@ Imidlertid har elliptiske kurver en symmetriegenskap med hensyn til x-aksen: for
 For å komprimere en offentlig nøkkel, kodes bare $x$, som opptar 256 bits, og et prefiks legges til for å spesifisere pariteten til $y$. Denne metoden reduserer størrelsen på den offentlige nøkkelen til 264 bits i stedet for de opprinnelige 520. Prefikset `0x02` indikerer at $y$ er partall, og prefikset `0x03` indikerer at $y$ er oddetall.
 La oss ta et eksempel for å forstå godt, med en rå offentlig nøkkel i ukomprimert representasjon:
 
-```txt
+```text
 K = 04678afdb0fe5548271967f1a67130b7105cd6a828e03909a67962e0ea1f61deb649f6bc3f4cef38c4f35504e51ec112de5c384df7ba0b8d578a4c702b6bf11d5f
 ```
 
@@ -1792,7 +1930,7 @@ Det siste heksadesimale tegnet til $y$ er `f`. I base 10, `f = 15`, som tilsvare
 
 Den komprimerte offentlige nøkkelen blir:
 
-```txt
+```text
 K = 03678afdb0fe5548271967f1a67130b7105cd6a828e03909a67962e0ea1f61deb6
 ```
 Denne operasjonen gjelder for alle skriptmodeller basert på ECDSA, det vil si alle unntatt P2TR som bruker Schnorr. I tilfellet med Schnorr, som forklart i del 3, beholder vi bare verdien av $x$, uten å legge til et prefiks for å indikere pariteten til $y$, i motsetning til ECDSA. Dette gjøres mulig ved at en unik paritet vilkårlig velges for alle nøkler. Dette tillater en liten reduksjon i lagringsplassen som kreves for offentlige nøkler.
@@ -1802,25 +1940,30 @@ Nå som vi har oppnådd vår komprimerte offentlige nøkkel, kan vi derivere en 
 
 Det første steget er å anvende HASH160 hash-funksjonen på den komprimerte offentlige nøkkelen. HASH160 er en sammensetning av to påfølgende hash-funksjoner: SHA256, etterfulgt av RIPEMD160:
 
+
 $$
+
 \text{HASH160}(K) = \text{RIPEMD160}(\text{SHA256}(K))
+
 $$
 
 Først passerer vi nøkkelen gjennom SHA256:
 
-```txt
+```text
 SHA256(K) = C489EBD66E4103B3C4B5EAFF462B92F5847CA2DCE0825F4997C7CF57DF35BF3A
 ```
 
 Deretter passerer vi resultatet gjennom RIPEMD160:
 
-```txt
+```text
 RIPEMD160(SHA256(K)) = 9F81322CC88622CA4CCB2A52A21E2888727AA535
 ```
 Vi har oppnådd en 160-bits hash av den offentlige nøkkelen, som utgjør det som kalles nyttelasten til adressen. Denne nyttelasten representerer den sentrale og viktigste delen av adressen. Den brukes også i *scriptPubKey* for å låse UTXOene.
 Men, for å gjøre denne nyttelasten lettere brukbar for mennesker, legges metadata til den. Neste steg involverer koding av denne hashen til grupper av 5 bits i desimal. Denne desimalomformingen vil være nyttig for konvertering til *bech32*, som brukes av post-SegWit-adresser. Den 160-bits binære hashen deles dermed inn i 32 grupper av 5 bits:
 
+
 $$
+
 \begin{array}{|c|c|}
 \hline
 \text{5-bits Grupper} & \text{Desimalverdi} \\
@@ -1849,10 +1992,11 @@ $$
 00111 & 7 \\
 10001 & 17 \\
 \end{array}
+
 $$
 Så, vi har:
 
-```txt
+```text
 HASH = 19 30 00 19 04 11 06 08 16 24 17 12 20 19 06 11 05 09 09 10 04 07 17 08 17 01 25 07 21 09 09 21
 ```
 
@@ -1876,7 +2020,7 @@ HRP må utvides ved å dele hvert tegn inn i to deler:
 
 Med skilletegnet `0` mellom de to tegnene, er derfor HRP-utvidelsen:
 
-```txt
+```text
 03 03 00 02 03
 ```
 
@@ -1888,7 +2032,7 @@ Med skilletegnet `0` mellom de to tegnene, er derfor HRP-utvidelsen:
 
 Alle dataene kombinert for å legge inn i programmet for å beregne sjekksummen er som følger:
 
-```txt
+```text
 HRP = 03 03 00 02 03
 SEGWIT v0 = 00
 HASH = 19 30 00 19 04 11 06 08 16 24 17 12 20 19 06 11 05 09 09 10 04 07 17 08 17 01 25 07 21 09 09 21
@@ -1899,7 +2043,7 @@ INPUT = 03 03 00 02 03 00 19 30 00 19 04 11 06 08 16 24 17 12 20 19 06 11 05 09 
 
 Beregningen av sjekksummen er ganske kompleks. Den involverer polynomisk endelig feltaritmetikk. Vi vil ikke detaljere denne beregningen her og vil gå direkte til resultatet. I vårt eksempel er sjekksummen oppnådd i desimal:
 
-```txt
+```text
 10 16 11 04 13 18
 ```
 
@@ -1910,14 +2054,16 @@ Vi kan nå konstruere mottaksadressen ved å sette sammen i rekkefølge følgend
 
 Dette gir oss i desimal:
 
-```txt
+```text
 00 19 30 00 19 04 11 06 08 16 24 17 12 20 19 06 11 05 09 09 10 04 07 17 08 17 01 25 07 21 09 09 21 10 16 11 04 13 18
 ```
 
 Deretter må hver desimalverdi kartlegges til sin *bech32*-karakter ved hjelp av følgende konverteringstabell:
 
+
 $$
-For å konvertere en verdi til et *bech32*-tegn ved hjelp av denne tabellen, finn ganske enkelt verdiene i den første kolonnen og den første raden som, når de legges sammen, gir det ønskede resultatet. Deretter henter du det tilsvarende tegnet. For eksempel vil det desimale tallet `19` bli konvertert til bokstaven `n`, fordi $19 = 16 + 3$.
+
+For å konvertere en verdi til et _bech32_-tegn ved hjelp av denne tabellen, finn ganske enkelt verdiene i den første kolonnen og den første raden som, når de legges sammen, gir det ønskede resultatet. Deretter henter du det tilsvarende tegnet. For eksempel vil det desimale tallet `19` bli konvertert til bokstaven `n`, fordi $19 = 16 + 3$.
 Ved å kartlegge alle våre verdier, får vi følgende adresse:
 
 ```
@@ -1930,7 +2076,7 @@ Alt som gjenstår er å legge til HRP `bc`, som indikerer at det er en adresse f
 bc1qn7qnytxgsc3v5nxt9ff2y83g3pe849942stydj
 ```
 
-Det spesielle med dette *bech32*-alfabetet er at det inkluderer alle alfanumeriske tegn unntatt `1`, `b`, `i`, og `o` for å unngå visuell forvirring mellom lignende tegn, spesielt under deres inntasting eller lesing av mennesker.
+Det spesielle med dette _bech32_-alfabetet er at det inkluderer alle alfanumeriske tegn unntatt `1`, `b`, `i`, og `o` for å unngå visuell forvirring mellom lignende tegn, spesielt under deres inntasting eller lesing av mennesker.
 
 For å oppsummere, her er avledningsprosessen:
 
@@ -1943,9 +2089,10 @@ Dette er hvordan man avleder en P2WPKH (SegWit v0) mottaksadresse fra et par nø
 For Taproot-adresser, er genereringsprosessen litt annerledes. La oss se på dette sammen!
 
 Fra trinnet med kompresjon av offentlig nøkkel, vises en første distinksjon sammenlignet med ECDSA: de offentlige nøklene brukt for Schnorr på Bitcoin representeres kun ved deres abscissa ($x$). Derfor er det ingen prefiks, og den komprimerte nøkkelen måler nøyaktig 256 bits.
-Som vi så i forrige kapittel, låser en P2TR-script bitcoins på en unik Schnorr offentlig nøkkel, betegnet ved $Q$. Denne nøkkelen $Q$ er en aggregat av to offentlige nøkler: $P$, en hoved intern offentlig nøkkel, og $M$, en offentlig nøkkel avledet fra Merkle-roten av en liste over *scriptPubKey*. Bitcoins låst med denne typen script kan brukes på to måter:
-- Ved å publisere en signatur for den offentlige nøkkelen $P$ (*key path*);
-- Ved å tilfredsstille ett av scriptene inkludert i Merkle-treet (*script path*).
+Som vi så i forrige kapittel, låser en P2TR-script bitcoins på en unik Schnorr offentlig nøkkel, betegnet ved $Q$. Denne nøkkelen $Q$ er en aggregat av to offentlige nøkler: $P$, en hoved intern offentlig nøkkel, og $M$, en offentlig nøkkel avledet fra Merkle-roten av en liste over _scriptPubKey_. Bitcoins låst med denne typen script kan brukes på to måter:
+
+- Ved å publisere en signatur for den offentlige nøkkelen $P$ (_key path_);
+- Ved å tilfredsstille ett av scriptene inkludert i Merkle-treet (_script path_).
 
 I virkeligheten er disse to nøklene ikke virkelig "aggregerte." Nøkkelen $P$ er i stedet justert av nøkkelen $M$. I kryptografi betyr det å "justere" en offentlig nøkkel å modifisere denne nøkkelen ved å anvende en additiv verdi kalt en "justering." Denne operasjonen lar den modifiserte nøkkelen forbli kompatibel med den opprinnelige private nøkkelen og justeringen. Teknisk sett er en justering en skalarverdi $t$ som legges til den opprinnelige offentlige nøkkelen. Hvis $P$ er den opprinnelige offentlige nøkkelen, blir den justerte nøkkelen:
 
@@ -1954,12 +2101,14 @@ P' = P + tG
 $$
 
 Hvor $G$ er generatoren av den elliptiske kurven som brukes. Denne operasjonen produserer en ny offentlig nøkkel avledet fra den opprinnelige nøkkelen, samtidig som den beholder kryptografiske egenskaper som tillater dens bruk.
-Hvis du ikke trenger å legge til alternative skript (bruker utelukkende via *nøkkelbanen*), kan du generere en Taproot-adresse basert kun på den offentlige nøkkelen som er til stede på dybde 5 i lommeboken din. I dette tilfellet er det nødvendig å opprette et ikke-utgiftbart skript for *skriptbanen*, for å tilfredsstille kravene til strukturen. Justeringen $t$ blir deretter beregnet ved å anvende en merket hash-funksjon, **`TapTweak`**, på den interne offentlige nøkkelen $P$:
+Hvis du ikke trenger å legge til alternative skript (bruker utelukkende via _nøkkelbanen_), kan du generere en Taproot-adresse basert kun på den offentlige nøkkelen som er til stede på dybde 5 i lommeboken din. I dette tilfellet er det nødvendig å opprette et ikke-utgiftbart skript for _skriptbanen_, for å tilfredsstille kravene til strukturen. Justeringen $t$ blir deretter beregnet ved å anvende en merket hash-funksjon, **`TapTweak`**, på den interne offentlige nøkkelen $P$:
+
 $$
 t = \text{H}_{\text{TapTweak}}(P)
 $$
 
 hvor:
+
 - **$\text{H}_{\text{TapTweak}}$** er en SHA256 hash-funksjon merket med taggen `TapTweak`. Hvis du ikke er kjent med hva en merket hash-funksjon er, inviterer jeg deg til å konsultere kapittel 3.3;
 - $P$ er den interne offentlige nøkkelen, representert i sitt komprimerte 256-bits format, ved å bruke kun $x$-koordinaten.
 
@@ -1968,12 +2117,14 @@ Taproot-offentlige nøkkelen $Q$ blir deretter beregnet ved å legge til justeri
 $$
 Q = P + t \cdot G
 $$
+
 Når Taproot-offentlige nøkkelen $Q$ er oppnådd, kan vi generere den tilsvarende mottaksadressen. I motsetning til andre formater, er Taproot-adresser ikke etablert på en hash av den offentlige nøkkelen. Derfor blir nøkkelen $Q$ satt direkte inn i adressen, på en rå måte.
 
-For å starte, ekstraherer vi $x$-koordinaten til punktet $Q$ for å oppnå en komprimert offentlig nøkkel. På denne lasten beregnes en sjekksum ved hjelp av BCH-koder, som med SegWit v0-adresser. Programmet som brukes for Taproot-adresser, er imidlertid litt forskjellig. Faktisk, etter introduksjonen av *bech32*-formatet med SegWit, ble en feil oppdaget: når den siste karakteren av en adresse er en `p`, gjør innsetting eller fjerning av `q`er rett før denne `p`en ikke sjekksummen ugyldig. Selv om denne feilen ikke har konsekvenser på SegWit v0 (takket være en størrelsesbegrensning), kunne den utgjøre et problem i fremtiden. Denne feilen har derfor blitt rettet for Taproot-adresser, og det nye korrigerte formatet kalles "*bech32m*".
+For å starte, ekstraherer vi $x$-koordinaten til punktet $Q$ for å oppnå en komprimert offentlig nøkkel. På denne lasten beregnes en sjekksum ved hjelp av BCH-koder, som med SegWit v0-adresser. Programmet som brukes for Taproot-adresser, er imidlertid litt forskjellig. Faktisk, etter introduksjonen av _bech32_-formatet med SegWit, ble en feil oppdaget: når den siste karakteren av en adresse er en `p`, gjør innsetting eller fjerning av `q`er rett før denne `p`en ikke sjekksummen ugyldig. Selv om denne feilen ikke har konsekvenser på SegWit v0 (takket være en størrelsesbegrensning), kunne den utgjøre et problem i fremtiden. Denne feilen har derfor blitt rettet for Taproot-adresser, og det nye korrigerte formatet kalles "_bech32m_".
 
-Taproot-adressen genereres ved å kode $x$-koordinaten til $Q$ i *bech32m*-formatet, med følgende elementer:
-- **HRP (*Human Readable Part*)**: `bc`, for å indikere hoved Bitcoin-nettverket;
+Taproot-adressen genereres ved å kode $x$-koordinaten til $Q$ i _bech32m_-formatet, med følgende elementer:
+
+- **HRP (_Human Readable Part_)**: `bc`, for å indikere hoved Bitcoin-nettverket;
 - **Versjonen**: `1` for å indikere Taproot / SegWit v1;
 - **Sjekksummen**.
 
@@ -1983,7 +2134,7 @@ Den endelige adressen vil derfor ha formatet:
 bc1p[Qx][sjekksum]
 ```
 
-På den annen side, hvis du ønsker å legge til alternative skript i tillegg til å bruke den interne offentlige nøkkelen (*skriptbanen*), vil beregningen av mottaksadressen være litt annerledes. Du må inkludere hashen av de alternative skriptene i beregningen av justeringen. I Taproot, kalles hvert alternativt skript, som ligger i enden av Merkle-treet, en "blad".
+På den annen side, hvis du ønsker å legge til alternative skript i tillegg til å bruke den interne offentlige nøkkelen (_skriptbanen_), vil beregningen av mottaksadressen være litt annerledes. Du må inkludere hashen av de alternative skriptene i beregningen av justeringen. I Taproot, kalles hvert alternativt skript, som ligger i enden av Merkle-treet, en "blad".
 
 Når de forskjellige alternative skriptene er skrevet, må du sende dem individuelt gjennom en merket hash-funksjon `TapLeaf`, ledsaget av noe metadata:
 
@@ -1992,17 +2143,18 @@ $$
 $$
 
 Med:
+
 - $v$: versjonsnummeret til skriptet (standard `0xC0` for Taproot);
-- $sz$: størrelsen på skriptet kodet i *CompactSize*-formatet; - $S$: skriptet.
+- $sz$: størrelsen på skriptet kodet i _CompactSize_-formatet; - $S$: skriptet.
 
 De forskjellige skript-hashene ($\text{h}_{\text{leaf}}$) sorteres først i leksikografisk rekkefølge. Deretter blir de konkatenert i par og sendt gjennom den merkede hash-funksjonen `TapBranch`. Denne prosessen gjentas iterativt for å bygge, steg for steg, Merkle-treet:
-Gren-hashen \(\text{h}_{\text{branch}}\) beregnes som den merkede hash-funksjonen `TapBranch` anvendt på konkatenasjonen av blad-hashene \(\text{h}_{\text{leaf1}} \Vert \text{h}_{\text{leaf2}}\):
+Gren-hashen \(\text{h}_{\text{branch}}\) beregnes som den merkede hash-funksjonen `TapBranch` anvendt på konkatenasjonen av blad-hashene \(\text{h}_{\text{leaf1}} \Vert \text{h}\_{\text{leaf2}}\):
 
 Vi fortsetter deretter med å konkatenere resultatene to og to, og sender dem gjennom den merkede hash-funksjonen `TapBranch` ved hvert steg, til vi oppnår Merkle-treets rot:
 
 ![CYP201](assets/fr/066.webp)
 
-Når Merkle-roten \(h_{\text{root}}\) er beregnet, kan vi beregne justeringen. For dette konkatenrer vi lommebokens interne offentlige nøkkel \(P\) med roten \(h_{\text{root}}\), og deretter sender vi hele gjennom den merkede hash-funksjonen `TapTweak`:
+Når Merkle-roten \(h*{\text{root}}\) er beregnet, kan vi beregne justeringen. For dette konkatenrer vi lommebokens interne offentlige nøkkel \(P\) med roten \(h*{\text{root}}\), og deretter sender vi hele gjennom den merkede hash-funksjonen `TapTweak`:
 
 \[
 t = \text{H}_{\text{TapTweak}}(P \Vert h_{\text{root}})
@@ -2019,17 +2171,21 @@ Deretter følger genereringen av adressen samme prosess, ved å bruke den rå of
 Og der har du det! Vi har nådd slutten av dette CYP201-kurset. Hvis du fant dette kurset nyttig, ville jeg være veldig takknemlig hvis du kunne ta deg noen øyeblikk til å gi det en god vurdering i det følgende evalueringskapittelet. Føl deg også fri til å dele det med dine kjære eller på dine sosiale nettverk. Til slutt, hvis du ønsker å oppnå ditt diplom for dette kurset, kan du ta den endelige eksamenen rett etter evalueringskapittelet.
 
 # Konklusjon
+
 <partId>58111408-b734-54db-9ea7-0d5b67f99f99</partId>
 
 ## Evaluer dette kurset
+
 <chapterId>0cd71541-a7fd-53db-b66a-8611b6a28b04</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Avsluttende eksamen
+
 <chapterId>a53ea27d-0f84-56cd-b37c-a66210a4b31d</chapterId>
 <isCourseExam>true</isCourseExam>
 
 ## Konklusjon
+
 <chapterId>d291428b-3cfa-5394-930e-4b514be82d5a</chapterId>
 
 Vi har nådd slutten av CYP201-kurset. Jeg håper det har vært til hjelp i din læring om Bitcoin og har tillatt deg å bedre forstå funksjonen til HD-lommebøkene du bruker daglig. Takk for at du fulgte dette kurset til slutten!
