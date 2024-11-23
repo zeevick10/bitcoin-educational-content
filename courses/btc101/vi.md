@@ -1343,22 +1343,22 @@ Thay đổi hệ thống tài chính đòi hỏi phải thay đổi tiền tệ.
 
 Chúc mừng bạn đã hoàn thành khóa học BTC 101! Tôi chân thành hy vọng rằng bạn đã thích nó và nó đã mở ra những cánh cửa mới cho bạn. Hành trình khám phá Bitcoin của bạn mới chỉ bắt đầu và tôi mời bạn khám phá tất cả các khóa học khác có sẵn trên PlanB Network:
 
-##### Nhận và bảo mật bitcoin đầu tiên của bạn với
+#### Nhận và bảo mật bitcoin đầu tiên của bạn với
 
 https://planb.network/courses/btc102
 
-##### Khám phá Lightning Network với
+#### Khám phá Lightning Network với
 
 https://planb.network/courses/lnp201
 
-##### Tìm hiểu về Trường phái Kinh tế học Áo với
+#### Tìm hiểu về Trường phái Kinh tế học Áo với
 
 https://planb.network/courses/eco201
 
-##### Cập nhật bảo mật trực tuyến của bạn với
+#### Cập nhật bảo mật trực tuyến của bạn với
 
 https://planb.network/courses/scu101
 
-##### Hiểu về các nguyên tắc cơ bản của Bitcoin và xây dựng hệ thống sưởi gia đình của bạn với
+#### Hiểu về các nguyên tắc cơ bản của Bitcoin và xây dựng hệ thống sưởi gia đình của bạn với
 
 https://planb.network/courses/min201

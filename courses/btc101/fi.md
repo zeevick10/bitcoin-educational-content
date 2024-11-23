@@ -1331,22 +1331,22 @@ Rahoitusjärjestelmän muuttaminen edellyttää valuutan muuttamista. Satoshi lo
 
 Onnittelut BTC 101 -koulutuksen suorittamisesta! Toivon sydämestäni, että pidit siitä ja se avasi sinulle uusia ovia. Bitcoin-matkasi on vasta alussa, ja kutsun sinut tutustumaan kaikkiin muihin PlanB Networkissa saatavilla oleviin kursseihin:
 
-##### Hanki ja turvaa ensimmäiset bitcoinisi kurssilla
+#### Hanki ja turvaa ensimmäiset bitcoinisi kurssilla
 
 https://planb.network/courses/btc102
 
-##### Tutustu Lightning Networkiin kurssilla
+#### Tutustu Lightning Networkiin kurssilla
 
 https://planb.network/courses/lnp201
 
-##### Tutustu itävaltalaiseen talousajatteluun kurssilla
+#### Tutustu itävaltalaiseen talousajatteluun kurssilla
 
 https://planb.network/courses/eco201
 
-##### Päivitä verkon turvallisuutesi kurssilla
+#### Päivitä verkon turvallisuutesi kurssilla
 
 https://planb.network/courses/scu101
 
-##### Ymmärrä Bitcoinin perusteet ja rakenna kotisi lämmitysjärjestelmä kurssilla
+#### Ymmärrä Bitcoinin perusteet ja rakenna kotisi lämmitysjärjestelmä kurssilla
 
 https://planb.network/courses/min201
