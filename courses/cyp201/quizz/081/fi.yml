@@ -1,4 +1,4 @@
-question: Mikä on P2WPKH-skriptien pääuutuus verrattuna P2PKH: een?
+question: Mikä on P2WPKH-skriptien pääuutuus verrattuna P2PKH een?
 answer: Allekirjoitukset siirretään Todistaja-kenttään.
 wrong_answers:
   - Osoitteet on koodattu base58check-muodossa.

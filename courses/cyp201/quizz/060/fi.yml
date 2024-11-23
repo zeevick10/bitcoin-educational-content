@@ -1,5 +1,5 @@
 question: Minkä tyyppinen avain liittyy "zpub"-etuliitteeseen?
-answer: Laajennettu julkinen avain SegWit V0: lle Mainnetissä
+answer: Laajennettu julkinen avain SegWit V0 lle Mainnetissä
 wrong_answers:
   - Laajennettu yksityinen avain SegWit V1: lle Mainnetissä
   - Laajennettu julkinen avain Legacylle Testnetissä

@@ -1,4 +1,4 @@
-question: Minkä tyyppistä avainta käytetään lukitsemaan UTXO: t Bitcoinissa?
+question: Minkä tyyppistä avainta käytetään lukitsemaan UTXO t Bitcoinissa?
 answer: Julkinen avain
 wrong_answers:
   - Yksityinen avain

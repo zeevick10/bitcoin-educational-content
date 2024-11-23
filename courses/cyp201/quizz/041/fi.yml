@@ -1,4 +1,4 @@
-question: Mikä on suurin riski käyttää huonosti suunniteltua PRNG: tä entropian tuottamiseen?
+question: Mikä on suurin riski käyttää huonosti suunniteltua PRNG tä entropian tuottamiseen?
 answer: Hyökkääjä voisi arvata yksityiset avaimet
 wrong_answers:
   - Mnemoninen lause voisi sisältää vääriä sanoja
