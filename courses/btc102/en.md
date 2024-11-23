@@ -1040,3 +1040,33 @@ In any case, all our courses are free, and many resources or tutorials are avail
 ## Conclusion
 
 <chapterId>b082b8eb-dabc-5d79-94cf-eb8f48fc1968</chapterId>
+
+Congratulations on completing this course!
+
+We're thrilled that you've successfully reached this milestone in your learning journey. Through your dedication and engagement, you've gained valuable knowledge and skills that will serve you well in your professional development.
+
+To continue going deep down into the Bitcoin rabbit hole, we invite you to explore all the other courses available on Plan ₿ Network:
+
+#### Discover Bitcoin and its fundamentals with
+
+https://planb.network/courses/btc101
+
+#### Update your online security with
+
+https://planb.network/courses/scu101
+
+#### Discover the Lightning Network with
+
+https://planb.network/courses/lnp201
+
+#### Learn about the Austrian School of Economic Thought with
+
+https://planb.network/courses/eco201
+
+#### Understand Bitcoin basics and build your home heating with
+
+https://planb.network/courses/min201
+
+#### Understand how Bitcoin wallet works with
+
+https://planb.network/courses/cyp201
