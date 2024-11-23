@@ -1,4 +1,4 @@
-question: What does an apostrophe (') or the "h" in a derivation path mean?
+question: What does an apostrophe (') or the h in a derivation path mean?
 answer: A hardened derivation
 wrong_answers:
   - A normal derivation

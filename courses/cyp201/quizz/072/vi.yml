@@ -1,4 +1,4 @@
-question: Dấu nháy đơn (') hoặc chữ "h" trong một đường dẫn phái sinh có ý nghĩa gì?
+question: Dấu nháy đơn (') hoặc chữ h trong một đường dẫn phái sinh có ý nghĩa gì?
 answer: Một phái sinh cứng
 wrong_answers:
   - Một phái sinh bình thường

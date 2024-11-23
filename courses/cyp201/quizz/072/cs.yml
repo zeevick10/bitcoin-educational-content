@@ -1,4 +1,4 @@
-question: Co znamená apostrof (') nebo "h" v cestě derivace?
+question: Co znamená apostrof (') nebo h v cestě derivace?
 answer: Zpevněná derivace
 wrong_answers:
   - Normální derivace

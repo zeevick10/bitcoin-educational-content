@@ -1,4 +1,4 @@
-question: Mida tähendab apostroof (') või "h" tuletustee osana?
+question: Mida tähendab apostroof (') või h tuletustee osana?
 answer: Kõvastatud tuletus
 wrong_answers:
   - Tavaline tuletus

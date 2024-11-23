@@ -1,4 +1,4 @@
-questão: Qual é o principal papel da frase-senha em uma carteira HD Bitcoin?
+question: Qual é o principal papel da frase-senha em uma carteira HD Bitcoin?
 answer: Modificar a derivação de chave para aumentar a segurança
 wrong_answers:
   - Descriptografar transações pendentes

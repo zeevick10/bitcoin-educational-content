@@ -1,4 +1,4 @@
-question: `1`で始まり、Legacy標準に属するアドレスのタイプは何ですか？
+question: `1` で始まり、Legacy標準に属するアドレスのタイプは何ですか？
 answer: P2PKH
 wrong_answers:
   - P2WPKH
