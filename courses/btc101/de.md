@@ -1317,22 +1317,22 @@ Die Veränderung des Finanzsystems erfordert eine Veränderung der Währung. Sat
 
 Herzlichen Glückwunsch zum Abschluss dieser BTC 101-Schulung! Ich hoffe von Herzen, dass sie Ihnen gefallen und neue Türen geöffnet hat. Ihre Entdeckungsreise in die Bitcoin-Welt hat gerade erst begonnen, und ich lade Sie ein, alle anderen verfügbaren Kurse auf PlanB Network zu entdecken:
 
-#### Erhalten und sichern Sie Ihre ersten Bitcoins mit
+^##### Erhalten und sichern Sie Ihre ersten Bitcoins mit
 
 https://planb.network/courses/btc102
 
-#### Entdecken Sie das Lightning Network mit
+^##### Entdecken Sie das Lightning Network mit
 
 https://planb.network/courses/lnp201
 
-#### Lernen Sie die Österreichische Schule der Wirtschaftstheorie kennen mit
+^##### Lernen Sie die Österreichische Schule der Wirtschaftstheorie kennen mit
 
 https://planb.network/courses/eco201
 
-#### Aktualisieren Sie Ihre Online-Sicherheit mit
+^##### Aktualisieren Sie Ihre Online-Sicherheit mit
 
 https://planb.network/courses/scu101
 
-#### Verstehen Sie die Grundlagen von Bitcoin und bauen Sie Ihre Hausheizung mit
+^##### Verstehen Sie die Grundlagen von Bitcoin und bauen Sie Ihre Hausheizung mit
 
 https://planb.network/courses/min201

@@ -1384,22 +1384,22 @@ Cambiar el sistema financiero requiere cambiar la moneda. Satoshi Nakamoto creó
 
 ¡Felicitaciones por completar el entrenamiento BTC 101! Espero de todo corazón que te haya gustado y que te haya abierto nuevas puertas. Tu descubrimiento de Bitcoin apenas está comenzando y te invito a explorar todos los otros cursos disponibles en PlanB Network:
 
-#### Obtén y asegura tus primeros bitcoins con
+^##### Obtén y asegura tus primeros bitcoins con
 
 https://planb.network/courses/btc102
 
-#### Descubre la Red Lightning con
+^##### Descubre la Red Lightning con
 
 https://planb.network/courses/lnp201
 
-#### Conoce la Escuela Austríaca de pensamiento económico con
+^##### Conoce la Escuela Austríaca de pensamiento económico con
 
 https://planb.network/courses/eco201
 
-#### Actualiza tu seguridad en línea con
+^##### Actualiza tu seguridad en línea con
 
 https://planb.network/courses/scu101
 
-#### Comprende los fundamentos de Bitcoin y construye tu calefacción doméstica con
+^##### Comprende los fundamentos de Bitcoin y construye tu calefacción doméstica con
 
 https://planb.network/courses/min201

@@ -1326,22 +1326,22 @@ Cambiare il sistema finanziario richiede di cambiare la valuta. Satoshi ha creat
 
 Congratulazioni per aver completato il corso BTC 101! Spero di cuore che ti sia piaciuto e che ti abbia aperto nuove porte. La tua scoperta di Bitcoin è solo all'inizio e ti invito a esplorare tutti gli altri corsi disponibili su PlanB Network:
 
-#### Ottieni e proteggi i tuoi primi bitcoin con
+^##### Ottieni e proteggi i tuoi primi bitcoin con
 
 https://planb.network/courses/btc102
 
-#### Scopri il Lightning Network con
+^##### Scopri il Lightning Network con
 
 https://planb.network/courses/lnp201
 
-#### Scopri la Scuola Austriaca di pensiero economico con
+^##### Scopri la Scuola Austriaca di pensiero economico con
 
 https://planb.network/courses/eco201
 
-#### Aggiorna la tua sicurezza online con
+^##### Aggiorna la tua sicurezza online con
 
 https://planb.network/courses/scu101
 
-#### Comprendi le basi di Bitcoin e costruisci il tuo riscaldamento domestico con
+^##### Comprendi le basi di Bitcoin e costruisci il tuo riscaldamento domestico con
 
 https://planb.network/courses/min201

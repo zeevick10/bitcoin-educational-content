@@ -1334,22 +1334,22 @@ https://planb.network/courses/lnp201
 
 恭喜您完成BTC 101培训！衷心希望您喜欢这个课程，并为您打开了新的机遇之门。您的比特币探索之旅才刚刚开始，我邀请您探索PlanB Network上所有其他可用的课程：
 
-#### 获取并保护您的第一笔比特币
+^##### 获取并保护您的第一笔比特币
 
 https://planb.network/courses/btc102
 
-#### 探索闪电网络
+^##### 探索闪电网络
 
 https://planb.network/courses/lnp201
 
-#### 了解奥地利经济学派思想
+^##### 了解奥地利经济学派思想
 
 https://planb.network/courses/eco201
 
-#### 更新您的在线安全
+^##### 更新您的在线安全
 
 https://planb.network/courses/scu101
 
-#### 了解比特币基础知识并建造您的家庭供暖系统
+^##### 了解比特币基础知识并建造您的家庭供暖系统
 
 https://planb.network/courses/min201
