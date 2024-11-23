@@ -1,9 +1,9 @@
-spørsmål: Hva er størrelsen på en komprimert offentlig nøkkel ved bruk av Schnorr-protokollen?
-svar: 32 bytes
-feil_svar:
+question: Hva er størrelsen på en komprimert offentlig nøkkel ved bruk av Schnorr-protokollen?
+answer: 32 bytes
+wrong_answers:
   - 33 bytes
   - 64 bytes
   - 256 bits
-forklaring: |
+explanation: |
   En offentlig Schnorr-nøkkel representeres kun av x-koordinaten til punktet på den elliptiske kurven, noe som reduserer størrelsen til 32 bytes.
-gjennomgått: false
+reviewed: false
