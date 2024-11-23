@@ -4,6 +4,6 @@ wrong_answers:
   - 128位
   - 256位
   - 根据助记词长度变化
-reviewed:
+explanation: |
   不管助记词的长度如何，PBKDF2总是生成一个512位的种子。
 reviewed:否

@@ -4,5 +4,5 @@ wrong_answers:
   - 深度 1
   - 深度 3
   - 深度 4
-reviewed: |
+explanation: |
   深度 2 用于在多货币钱包中识别货币，例如比特币（索引 0'）或莱特币（索引 2'）。

@@ -4,5 +4,5 @@ wrong_answers:
   - 通过两次应用HASH256
   - 通过添加一个RIPEMD160哈希
   - 通过直接以base64编码
-reviewed:
+explanation: |
   Bech32地址使用BCH码来计算校验和。

@@ -4,5 +4,5 @@ wrong_answers:
   - 它们不允许生成新地址
   - 它们与数字签名不兼容
   - 它们使用未压缩的公钥
-reviewed:
+explanation: |
   JBOK钱包强制用户单独备份每个私钥，这使得管理变得复杂。

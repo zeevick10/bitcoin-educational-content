@@ -4,5 +4,5 @@ wrong_answers:
   - base58check
   - bech32m
   - base64
-reviewed:
+explanation: |
   SegWit v0地址，例如P2WPKH和P2WSH，使用了随SegWit一起引入的bech32编码。

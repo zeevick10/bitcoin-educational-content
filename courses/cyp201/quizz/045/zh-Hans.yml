@@ -4,5 +4,5 @@ wrong_answers:
   - RIPEMD160
   - SHA512
   - HASH256
-reviewed:
+explanation: |
   助记词的校验和是通过对熵应用一个简单的SHA256哈希计算得到的。

@@ -4,5 +4,5 @@ wrong_answers:
   - 质数分解
   - 计算二次剩余
   - 离散立方问题
-reviewed:
+explanation: |
   椭圆曲线密码学的安全性基于这些曲线上解决离散对数问题的难度。

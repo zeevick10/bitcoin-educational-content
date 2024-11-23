@@ -4,5 +4,5 @@ wrong_answers:
   - 仅SHA256
   - 双重SHA256
   - AES-256
-reviewed:
+explanation: |
   种子是通过使用PBKDF2函数与HMAC-SHA512和2048次迭代，从助记词短语和密码短语中生成的。

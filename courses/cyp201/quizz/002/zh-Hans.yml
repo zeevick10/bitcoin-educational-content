@@ -4,5 +4,5 @@ wrong_answers:
   - 抗碰撞性
   - 第二原像抗性
   - 长度
-reviewed:
+explanation: |
   输入的一个小改变会导致哈希发生根本性的变化，这就是所谓的雪崩效应。

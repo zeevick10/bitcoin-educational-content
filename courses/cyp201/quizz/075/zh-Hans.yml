@@ -4,5 +4,5 @@ wrong_answers:
   - 44h/0h/0h
   - 86h/0h/0h
   - 84/0/0
-reviewed:
+explanation: |
   路径84h/0h/0h在BIP84中定义，用于派生带有P2WPKH的SegWit v0地址的账户。

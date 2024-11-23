@@ -4,5 +4,5 @@ wrong_answers:
   - "Master Key"
   - "HD Wallet Seed"
   - "Blockchain Root"
-reviewed:
+explanation: |
   "Bitcoin Seed"常数被用作HMAC-SHA512函数中的一个键，以派生主私钥和主链代码。

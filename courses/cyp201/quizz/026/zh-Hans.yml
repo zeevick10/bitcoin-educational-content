@@ -4,5 +4,5 @@ wrong_answers:
   - 公钥
   - 一个固定的随机数
   - 一个自定义的椭圆曲线
-reviewed:
+explanation: |
   ECDSA签名的开始是计算要签名的消息的哈希值，通常使用SHA256。

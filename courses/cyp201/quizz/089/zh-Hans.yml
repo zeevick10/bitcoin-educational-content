@@ -4,5 +4,5 @@ wrong_answers:
   - 添加校验和
   - 转换为bech32格式
   - 以base58check编码
-reviewed:
+explanation: |
   公钥必须先被压缩以减小其大小，然后才能通过HASH160哈希函数。

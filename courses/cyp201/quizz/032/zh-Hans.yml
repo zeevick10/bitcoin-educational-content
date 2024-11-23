@@ -4,5 +4,5 @@ wrong_answers:
   - SIGHASH_NONE | SIGHASH_ANYONECANPAY
   - SIGHASH_SINGLE | SIGHASH_ANYONECANPAY
   - SIGHASH_ALL
-reviewed:
+explanation: |
   SIGHASH_ALL结合SIGHASH_ANYONECANPAY允许在不修改输出的情况下添加输入。

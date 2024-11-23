@@ -4,5 +4,5 @@ wrong_answers:
   - 0x02
   - 0x04
   - 0x00
-reviewed:
+explanation: |
   前缀0x03表示具有奇数y坐标的压缩公钥。

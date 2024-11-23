@@ -4,5 +4,5 @@ wrong_answers:
   - 1024
   - 4096
   - 512
-reviewed:
+explanation: |
   PBKDF2重复执行HMAC-SHA512过程2048次以增强安全性。

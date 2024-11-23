@@ -4,5 +4,5 @@ wrong_answers:
   - SHA512
   - SHA256
   - RIPEMD160
-reviewed:
+explanation: |
   HMAC-SHA512是一种算法，它结合了哈希函数和密钥来计算认证码。

@@ -4,5 +4,5 @@ wrong_answers:
   - SHA256 散列
   - 助记词
   - 压缩公钥
-reviewed:
+explanation: |
   椭圆曲线 secp256k1 的生成器点 G 被用来从私钥计算公钥。

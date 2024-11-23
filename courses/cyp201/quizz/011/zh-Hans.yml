@@ -4,5 +4,5 @@ wrong_answers:
   - SHA256
   - RIPEMD160
   - HASH160
-reviewed:
+explanation: |
   HMAC使用SHA512来生成一个安全的512位哈希。

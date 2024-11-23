@@ -4,5 +4,5 @@ wrong_answers:
   - 128位
   - 512位
   - 64位
-reviewed: |
+explanation: |
   一个24词助记词短语基于256位的熵，确保了非常高的安全性。

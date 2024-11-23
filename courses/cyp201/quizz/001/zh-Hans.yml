@@ -4,5 +4,5 @@ wrong_answers:
   - 冲突抗性
   - 雪崩效应
   - 二次原像抗性
-reviewed:
+explanation: |
   原像抗性确保从其哈希值找回原始消息在实践中是不可能的。

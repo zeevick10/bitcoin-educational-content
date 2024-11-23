@@ -4,5 +4,5 @@ wrong_answers:
   - SHA512-SHA256
   - HASH256
   - SHA160
-reviewed:
+explanation: |
   HASH160结合了SHA256和RIPEMD160来生成160位的指纹，特别用于比特币地址。

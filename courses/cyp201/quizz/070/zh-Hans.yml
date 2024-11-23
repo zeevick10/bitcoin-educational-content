@@ -4,5 +4,5 @@ wrong_answers:
   - 地址的外部链
   - 默认账户
   - 货币类型
-reviewed:
+explanation: |
   深度0对应于主密钥和主链代码，这是HD钱包中所有派生的起点。
