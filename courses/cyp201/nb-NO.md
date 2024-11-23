@@ -67,7 +67,7 @@ Den første typen kryptografiske algoritmer brukt på Bitcoin omfatter hashfunks
 Hashing er en prosess som transformerer informasjon av vilkårlig lengde til et annet stykke informasjon av fast lengde gjennom en kryptografisk hashfunksjon. Med andre ord tar en hashfunksjon en inndata av hvilken som helst størrelse og konverterer den til et fingeravtrykk av fast størrelse, kalt en "hash".
 Hashen kan også noen ganger refereres til som "digest", "condensate", "condensed", eller "hashed".
 
-For eksempel produserer SHA256-hashfunksjonen en hash av en fast lengde på 256 bits. Så, hvis vi bruker inndataen "_PlanB_", en melding av vilkårlig lengde, vil den genererte hashen være følgende 256-bits fingeravtrykk:
+For eksempel produserer SHA256-hashfunksjonen en hash av en fast lengde på 256 bits. Så, hvis vi bruker inndataen "_Plan ₿_", en melding av vilkårlig lengde, vil den genererte hashen være følgende 256-bits fingeravtrykk:
 
 ```text
 24f1b93b68026bfc24f5c8265f287b4c940fb1664b0d75053589d7a4f821b688
@@ -88,7 +88,7 @@ Disse kryptografiske hashfunksjonene har flere essensielle egenskaper som gjør 
 
 Irreversibilitet betyr at det er enkelt å beregne hashen fra inndatainformasjonen, men den inverse beregningen, det vil si å finne inndataen fra hashen, er praktisk talt umulig. Denne egenskapen gjør hashfunksjoner perfekte for å skape unike digitale fingeravtrykk uten å kompromittere den opprinnelige informasjonen. Denne karakteristikken omtales ofte som en enveisfunksjon eller en "_felle dør-funksjon_".
 
-I det gitte eksemplet er det enkelt og raskt å oppnå hashen `24f1b9…` ved å kjenne inndataen "_PlanB_". Imidlertid er det umulig å finne meldingen "_PlanB_" ved kun å kjenne `24f1b9…`.
+I det gitte eksemplet er det enkelt og raskt å oppnå hashen `24f1b9…` ved å kjenne inndataen "_Plan ₿_". Imidlertid er det umulig å finne meldingen "_Plan ₿_" ved kun å kjenne `24f1b9…`.
 
 ![CYP201](assets/fr/002.webp)
 
@@ -97,7 +97,7 @@ Derfor er det umulig å finne et preimage $m$ for en hash $h$ slik at $h = \text
 #### 2. Manipulasjonsmotstand (snøskredseffekt)
 
 Det andre kjennetegnet er motstandsdyktighet mot manipulering, også kjent som **snøballeffekten**. Dette kjennetegnet observeres i en hash-funksjon hvis en liten endring i inngangsmeldingen resulterer i en radikal endring i utgangshashen.
-Hvis vi går tilbake til eksemplet vårt med inngangen "_PlanB_" og SHA256-funksjonen, har vi sett at den genererte hashen er som følger:
+Hvis vi går tilbake til eksemplet vårt med inngangen "_Plan ₿_" og SHA256-funksjonen, har vi sett at den genererte hashen er som følger:
 
 ```text
 24f1b93b68026bfc24f5c8265f287b4c940fb1664b0d75053589d7a4f821b688
@@ -685,7 +685,7 @@ Vi bruker et endelig felt av heltall modulo $p$ for å sikre nøyaktigheten av o
 
 Matematikken til elliptiske kurver over endelige felt er analog med de over feltet av reelle tall, med tilpasningen at alle operasjoner utføres modulo $p$. For å forenkle forklaringer, vil vi i de følgende kapitlene fortsette å illustrere konsepter ved hjelp av en kurve definert over reelle tall, samtidig som vi husker at, i praksis, er kurven definert over et endelig felt.
 
-Hvis du ønsker å lære mer om de matematiske grunnlagene for moderne kryptografi, anbefaler jeg også å konsultere dette andre kurset på Plan B Network:
+Hvis du ønsker å lære mer om de matematiske grunnlagene for moderne kryptografi, anbefaler jeg også å konsultere dette andre kurset på Plan ₿ Network:
 
 https://planb.network/courses/cyp302
 
@@ -1096,7 +1096,7 @@ Hvis man ønsket å bruke flere private nøkler, var det da nødvendig å lage l
 
 Denne begrensningen stammer fra Bitcoins personvernmodell. Ved å gjenbruke samme adresse, gjør det det lettere for eksterne observatører å spore alle mine Bitcoin-transaksjoner. Derfor er gjenbruk av en mottaksadresse sterkt frarådet. Imidlertid, for å ha flere adresser og offentlig skille våre transaksjoner, er det nødvendig å håndtere flere private nøkler. I tilfellet med JBOK-lommebøker, innebærer dette å skape like mange sikkerhetskopier som det er nye par med nøkler, en oppgave som raskt kan bli kompleks og vanskelig å opprettholde for brukere.
 
-For å lære mer om Bitcoins personvernmodell og oppdage metoder for å beskytte ditt personvern, anbefaler jeg også å følge mitt BTC204 kurs på Plan B Network:
+For å lære mer om Bitcoins personvernmodell og oppdage metoder for å beskytte ditt personvern, anbefaler jeg også å følge mitt BTC204 kurs på Plan ₿ Network:
 
 https://planb.network/courses/btc204
 
@@ -1183,7 +1183,7 @@ For eksempel, for en entropi på 256 bits, er resultatet $\text{ENT} \Vert \text
 
 ### Konvertering av den Binære Sekvensen til en Mnemonisk Frase
 
-Bitsekvensen $\text{ENT} \Vert \text{CS}$ deles deretter inn i segmenter på 11 bits. Hvert 11-bits segment, når det er konvertert til desimal, tilsvarer et tall mellom 0 og 2047, som angir posisjonen til et ord [i en liste over 2048 ord standardisert av BIP39](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
+Bitsekvensen $\text{ENT} \Vert \text{CS}$ deles deretter inn i segmenter på 11 bits. Hvert 11-bits segment, når det er konvertert til desimal, tilsvarer et tall mellom 0 og 2047, som angir posisjonen til et ord [i en liste over 2048 ord standardisert av BIP39](https://github.com/Plan ₿-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
 
 ![CYP201](assets/fr/037.webp)
 For eksempel, for en 128-bit entropi, er kontrollsummen 4 bit, og dermed måler den totale sekvensen 132 bit. Den er delt inn i 12 segmenter på 11 bit (de oransje bitene betegner kontrollsummen):
@@ -2191,6 +2191,6 @@ Og der har du det! Vi har nådd slutten av dette CYP201-kurset. Hvis du fant det
 Vi har nådd slutten av CYP201-kurset. Jeg håper det har vært til hjelp i din læring om Bitcoin og har tillatt deg å bedre forstå funksjonen til HD-lommebøkene du bruker daglig. Takk for at du fulgte dette kurset til slutten!
 Etter min mening er kunnskap om lommebøker grunnleggende fordi det knytter en teoretisk aspekt av Bitcoin til dets praktiske bruk. Faktisk, hvis du bruker Bitcoin, håndterer du uunngåelig lommebokprogramvare. Å forstå hvordan de fungerer lar deg implementere effektive sikkerhetsstrategier samtidig som du mestrer de underliggende mekanismene, risikoene og potensielle svakheter. Således kan du bruke Bitcoin mer sikkert og med tillit.
 Hvis du ikke har gjort det ennå, inviterer jeg deg til å vurdere og kommentere på dette kurset. Det ville hjulpet meg enormt. Du kan også dele dette kurset på dine sosiale nettverk for å spre denne kunnskapen til så mange som mulig.
-For å fortsette din reise ned i kaninhullet, anbefaler jeg på det sterkeste **BTC204**-kurset, som jeg også har produsert på Plan B Network. Det er dedikert til personvern på Bitcoin og utforsker nøkkeltemaer: Hva er personvernsmodellen? Hvordan fungerer kjedeanalyse? Hvordan bruke Bitcoin optimalt for å maksimere ditt personvern? Et logisk neste skritt for å fordype dine ferdigheter!
+For å fortsette din reise ned i kaninhullet, anbefaler jeg på det sterkeste **BTC204**-kurset, som jeg også har produsert på Plan ₿ Network. Det er dedikert til personvern på Bitcoin og utforsker nøkkeltemaer: Hva er personvernsmodellen? Hvordan fungerer kjedeanalyse? Hvordan bruke Bitcoin optimalt for å maksimere ditt personvern? Et logisk neste skritt for å fordype dine ferdigheter!
 
 https://planb.network/courses/btc204

@@ -1337,7 +1337,7 @@ Změna finančního systému vyžaduje změnu měny. Satoshi vytvořil Bitcoin v
 
 <chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
 
-Gratulujeme k dokončení školení BTC 101! Upřímně doufám, že se vám líbilo a otevřelo vám nové možnosti. Vaše objevování Bitcoinu teprve začíná a zvu vás k prozkoumání všech ostatních kurzů dostupných na PlanB Network:
+Gratulujeme k dokončení školení BTC 101! Upřímně doufám, že se vám líbilo a otevřelo vám nové možnosti. Vaše objevování Bitcoinu teprve začíná a zvu vás k prozkoumání všech ostatních kurzů dostupných na Plan ₿ Network:
 
 #### Získejte a zabezpečte své první bitcoiny s
 

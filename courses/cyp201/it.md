@@ -66,7 +66,7 @@ Il primo tipo di algoritmi crittografici utilizzati su Bitcoin comprende le funz
 L'hashing è un processo che trasforma informazioni di lunghezza arbitraria in un'altra informazione di lunghezza fissa attraverso una funzione hash crittografica. In altre parole, una funzione hash prende un input di qualsiasi dimensione e lo converte in un'impronta digitale di dimensione fissa, chiamata "hash".
 L'hash può anche essere talvolta definito come "digest", "condensato", o "hashed".
 
-Ad esempio, la funzione hash SHA256 produce un hash di lunghezza fissa di 256 bit. Così, se usiamo l'input "_PlanB_", un messaggio di lunghezza arbitraria, l'hash generato sarà la seguente impronta digitale di 256 bit:
+Ad esempio, la funzione hash SHA256 produce un hash di lunghezza fissa di 256 bit. Così, se usiamo l'input "_Plan ₿_", un messaggio di lunghezza arbitraria, l'hash generato sarà la seguente impronta digitale di 256 bit:
 
 ```text
 24f1b93b68026bfc24f5c8265f287b4c940fb1664b0d75053589d7a4f821b688
@@ -87,7 +87,7 @@ Queste funzioni hash crittografiche hanno diverse caratteristiche essenziali che
 
 L'irreversibilità significa che è facile calcolare l'hash dalle informazioni di input, ma il calcolo inverso, cioè trovare l'input dall'hash, è praticamente impossibile. Questa proprietà rende le funzioni hash perfette per creare impronte digitali uniche senza compromettere le informazioni originali. Questa caratteristica è spesso definita come una funzione unidirezionale o una "_funzione trappola_".
 
-Nell'esempio dato, ottenere l'hash `24f1b9…` conoscendo l'input "_PlanB_" è semplice e veloce. Tuttavia, trovare il messaggio "_PlanB_" conoscendo solo `24f1b9…` è impossibile.
+Nell'esempio dato, ottenere l'hash `24f1b9…` conoscendo l'input "_Plan ₿_" è semplice e veloce. Tuttavia, trovare il messaggio "_Plan ₿_" conoscendo solo `24f1b9…` è impossibile.
 
 ![CYP201](assets/fr/002.webp)
 
@@ -97,7 +97,7 @@ Pertanto, è impossibile trovare una preimmagine $m$ per un hash $h$ tale che $h
 
 La seconda caratteristica è la resistenza alla manomissione, nota anche come **effetto valanga**. Questa caratteristica si osserva in una funzione hash se un piccolo cambiamento nel messaggio di input comporta un radicale cambiamento nell'hash di output.
 
-Se torniamo al nostro esempio con l'input "_PlanB_" e la funzione SHA256, abbiamo visto che l'hash generato è il seguente:
+Se torniamo al nostro esempio con l'input "_Plan ₿_" e la funzione SHA256, abbiamo visto che l'hash generato è il seguente:
 
 ```text
 24f1b93b68026bfc24f5c8265f287b4c940fb1664b0d75053589d7a4f821b688
@@ -706,7 +706,7 @@ Utilizziamo un campo finito di interi modulo $p$ per garantire l'accuratezza del
 
 La matematica delle curve ellittiche sui campi finiti è analoga a quella sui campi dei numeri reali, con l'adattamento che tutte le operazioni sono eseguite modulo $p$. Per semplificare le spiegazioni, continueremo nei capitoli seguenti a illustrare i concetti utilizzando una curva definita sui numeri reali, tenendo presente che, in pratica, la curva è definita su un campo finito.
 
-Se desideri approfondire le basi matematiche della crittografia moderna, ti consiglio anche di consultare questo altro corso su Plan B Network:
+Se desideri approfondire le basi matematiche della crittografia moderna, ti consiglio anche di consultare questo altro corso su Plan ₿ Network:
 
 https://planb.network/courses/cyp302
 
@@ -1116,7 +1116,7 @@ Se si desiderava utilizzare più chiavi private, era quindi necessario effettuar
 
 Questo vincolo deriva dal modello di privacy di Bitcoin. Riutilizzando lo stesso indirizzo, si facilita per gli osservatori esterni la tracciabilità di tutte le mie transazioni Bitcoin. Ecco perché è fortemente sconsigliato riutilizzare un indirizzo di ricezione. Tuttavia, per avere più indirizzi e separare pubblicamente le nostre transazioni, è necessario gestire più chiavi private. Nel caso dei portafogli JBOK, ciò implica la creazione di altrettanti backup quanti sono le nuove coppie di chiavi, un compito che può rapidamente diventare complesso e difficile da mantenere per gli utenti.
 
-Per saperne di più sul modello di privacy di Bitcoin e scoprire metodi per proteggere la tua privacy, ti consiglio anche di seguire il mio corso BTC204 su Plan B Network:
+Per saperne di più sul modello di privacy di Bitcoin e scoprire metodi per proteggere la tua privacy, ti consiglio anche di seguire il mio corso BTC204 su Plan ₿ Network:
 
 https://planb.network/courses/btc204
 
@@ -1204,7 +1204,7 @@ Per esempio, per un'entropia di 256 bit, il risultato $\text{ENT} \Vert \text{CS
 
 ### Conversione della Sequenza Binaria in una Frase Mnemonica
 
-La sequenza di bit $\text{ENT} \Vert \text{CS}$ viene quindi divisa in segmenti di 11 bit. Ogni segmento di 11 bit, una volta convertito in decimale, corrisponde a un numero tra 0 e 2047, che designa la posizione di una parola [in una lista di 2048 parole standardizzata dal BIP39](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
+La sequenza di bit $\text{ENT} \Vert \text{CS}$ viene quindi divisa in segmenti di 11 bit. Ogni segmento di 11 bit, una volta convertito in decimale, corrisponde a un numero tra 0 e 2047, che designa la posizione di una parola [in una lista di 2048 parole standardizzata dal BIP39](https://github.com/Plan ₿-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
 
 ![CYP201](assets/fr/037.webp)
 Per esempio, per un'entropia di 128 bit, il checksum è di 4 bit, e quindi la sequenza totale misura 132 bit. È divisa in 12 segmenti di 11 bit (i bit arancioni designano il checksum):
@@ -2213,6 +2213,6 @@ Ed eccoci! Abbiamo raggiunto la fine di questo corso CYP201. Se hai trovato ques
 Abbiamo raggiunto la fine del corso CYP201. Spero che sia stato utile nel tuo apprendimento su Bitcoin e ti abbia permesso di comprendere meglio il funzionamento dei portafogli HD che utilizzi quotidianamente. Grazie per aver seguito questo corso fino alla fine!
 A mio parere, la conoscenza sui portafogli è fondamentale perché collega un aspetto teorico di Bitcoin al suo uso pratico. Infatti, se utilizzi Bitcoin, inevitabilmente gestisci un software di portafoglio. Comprendere come funzionano ti permette di implementare strategie di sicurezza efficaci mentre padroneggi i meccanismi sottostanti, i rischi e le potenziali debolezze. Così, puoi utilizzare Bitcoin in modo più sicuro e con fiducia.
 Se non l'hai ancora fatto, ti invito a valutare e commentare questo corso. Mi sarebbe di enorme aiuto. Puoi anche condividere questo corso sui tuoi social network per diffondere questa conoscenza al maggior numero di persone possibile.
-Per continuare il tuo viaggio nella tana del bianconiglio, ti consiglio vivamente il corso **BTC204**, che ho anch'io prodotto su Plan B Network. È dedicato alla privacy su Bitcoin ed esplora temi chiave: Qual è il modello di privacy? Come funziona l'analisi della catena? Come utilizzare Bitcoin in modo ottimale per massimizzare la tua privacy? Un passo logico successivo per approfondire le tue competenze!
+Per continuare il tuo viaggio nella tana del bianconiglio, ti consiglio vivamente il corso **BTC204**, che ho anch'io prodotto su Plan ₿ Network. È dedicato alla privacy su Bitcoin ed esplora temi chiave: Qual è il modello di privacy? Come funziona l'analisi della catena? Come utilizzare Bitcoin in modo ottimale per massimizzare la tua privacy? Un passo logico successivo per approfondire le tue competenze!
 
 https://planb.network/courses/btc204

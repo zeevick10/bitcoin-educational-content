@@ -1230,7 +1230,7 @@ Tra gli altri metodi per acquisire bitcoin proteggendo la tua privacy, c'è ovvi
 
 Un altro metodo consiste nel lavorare in cambio di bitcoin. Questo metodo di acquisizione può essere interessante, ma il grado di identificazione richiesto varia notevolmente a seconda delle circostanze.
 
-\_Per scrivere questo capitolo, ho utilizzato il corso [BTC205](https://planb.network/fr/courses/btc205) creato da [@pivi\_\_\_](https://x.com/pivi___) sulla Rete PlanB (disponibile solo in francese per il momento).\_
+\_Per scrivere questo capitolo, ho utilizzato il corso [BTC205](https://planb.network/fr/courses/btc205) creato da [@pivi\_\_\_](https://x.com/pivi___) sulla Rete Plan ₿ (disponibile solo in francese per il momento).\_
 
 ## Consolidamento, Gestione UTXO e CIOH
 
@@ -2490,7 +2490,7 @@ Questi avatar possono essere anche rappresentati sotto forma di immagini:
 ![BTC204](assets/notext/66/6.webp)
 
 Sebbene questi robot non abbiano una specifica funzionalità tecnica all'interno del quadro del BIP47, giocano un ruolo nel facilitare le interazioni tra gli utenti offrendo un'identità visiva facilmente riconoscibile.
-Nelle sezioni seguenti di questo capitolo dedicato al BIP47, esamineremo in dettaglio come funziona, con un particolare accento sui metodi crittografici utilizzati. Per comprendere appieno queste spiegazioni un po' tecniche, è essenziale prima capire la struttura dei portafogli HD, i processi di derivazione delle chiavi e i principi fondamentali della crittografia basata sulla curva ellittica. Se desideri approfondire questi concetti, è disponibile un altro corso gratuito su PlanB Network: [CRYPTO 301](https://planb.network/en/courses/crypto301). Ti consiglio comunque di seguirli, poiché comprendere il funzionamento tecnico del BIP47 renderà molto più facile per te comprendere altre proposte simili che discuteremo nei capitoli seguenti.
+Nelle sezioni seguenti di questo capitolo dedicato al BIP47, esamineremo in dettaglio come funziona, con un particolare accento sui metodi crittografici utilizzati. Per comprendere appieno queste spiegazioni un po' tecniche, è essenziale prima capire la struttura dei portafogli HD, i processi di derivazione delle chiavi e i principi fondamentali della crittografia basata sulla curva ellittica. Se desideri approfondire questi concetti, è disponibile un altro corso gratuito su Plan ₿ Network: [CRYPTO 301](https://planb.network/en/courses/crypto301). Ti consiglio comunque di seguirli, poiché comprendere il funzionamento tecnico del BIP47 renderà molto più facile per te comprendere altre proposte simili che discuteremo nei capitoli seguenti.
 
 ### Codice di Pagamento Riutilizzabile
 
@@ -3580,7 +3580,7 @@ Congratulazioni per aver completato questa formazione sulla privacy in Bitcoin!
 
 Abbiamo trattato molti argomenti avanzati e tecnici in questa formazione, ma non è imperativo utilizzare tutti gli strumenti presentati. L'obiettivo principale era di permetterti di scegliere le informazioni che desideri divulgare e quelle che preferisci mantenere confidenziali nel tuo uso di Bitcoin. Questo incarna l'essenza stessa della protezione della privacy. Per prendere decisioni informate sulle informazioni da condividere o nascondere, è necessario essere consapevoli delle implicazioni delle nostre azioni. Spero che questa formazione ti abbia aiutato a ottenere questa conoscenza.
 Se dovessi scegliere la parte più importante di questa formazione, sceglierei la sezione dedicata all'analisi della catena. Comprendere le tecniche utilizzate dai potenziali attaccanti è il modo migliore per proteggersi. Pertanto, il mio consiglio sarebbe di rivedere attentamente questa parte e cercare di afferrarne tutti i dettagli.
-In questo corso di formazione, ci siamo concentrati esclusivamente sulla privacy di Bitcoin sulla catena principale. Le questioni relative alla privacy sui sistemi di secondo livello, come la Lightning Network e le sidechain, sono altrettanto significative e presentano caratteristiche molto specifiche. Sebbene l'utilizzo di transazioni off-chain possa essere una strategia efficace per eludere i numerosi rischi di tracciabilità su Bitcoin che abbiamo studiato, espone a ulteriori rischi dei quali è essenziale essere consapevoli. Ecco perché questi argomenti saranno trattati in un futuro corso di formazione dedicato sulla PlanB Network.
+In questo corso di formazione, ci siamo concentrati esclusivamente sulla privacy di Bitcoin sulla catena principale. Le questioni relative alla privacy sui sistemi di secondo livello, come la Lightning Network e le sidechain, sono altrettanto significative e presentano caratteristiche molto specifiche. Sebbene l'utilizzo di transazioni off-chain possa essere una strategia efficace per eludere i numerosi rischi di tracciabilità su Bitcoin che abbiamo studiato, espone a ulteriori rischi dei quali è essenziale essere consapevoli. Ecco perché questi argomenti saranno trattati in un futuro corso di formazione dedicato sulla Plan ₿ Network.
 Se questo corso di formazione ti è piaciuto, ti sarei molto grato se potessi condividerlo con i tuoi amici e sui social media. Grazie! :)
 
 

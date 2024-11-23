@@ -67,7 +67,7 @@ Ensimmäinen Bitcoinissa käytetty kryptografisten algoritmien tyyppi kattaa hä
 Häsäys on prosessi, joka muuntaa mielivaltaisen pituisen tiedon toiseksi, kiinteän pituiseksi tiedoksi kryptografisen häsäfunktion avulla. Toisin sanoen, häsäfunktio ottaa syötteenä minkä tahansa kokoisen tiedon ja muuntaa sen kiinteän kokoiseksi sormenjäljeksi, jota kutsutaan "häsäykseksi".
 Häsäystä voidaan joskus kutsua myös "digestiksi", "tiivisteeksi", "tiivistetyksi" tai "häsätyksi".
 
-Esimerkiksi SHA256-häsäfunktio tuottaa kiinteän pituisen, 256-bittisen häsäyksen. Jos käytämme syötteenä "_PlanB_", mielivaltaisen pituisen viestin, tuotettu häsäys on seuraava 256-bittinen sormenjälki:
+Esimerkiksi SHA256-häsäfunktio tuottaa kiinteän pituisen, 256-bittisen häsäyksen. Jos käytämme syötteenä "_Plan ₿_", mielivaltaisen pituisen viestin, tuotettu häsäys on seuraava 256-bittinen sormenjälki:
 
 ```text
 24f1b93b68026bfc24f5c8265f287b4c940fb1664b0d75053589d7a4f821b688
@@ -88,7 +88,7 @@ Näillä kryptografisilla häsäfunktioilla on useita olennaisia ominaisuuksia, 
 
 Palautumattomuus tarkoittaa, että häsäyksen laskeminen syötteestä on helppoa, mutta käänteinen laskenta, eli syötteen löytäminen häsäyksestä, on käytännössä mahdotonta. Tämä ominaisuus tekee häsäfunktioista täydellisiä ainutlaatuisten digitaalisten sormenjälkien luomiseen ilman alkuperäisen tiedon vaarantamista. Tätä ominaisuutta kutsutaan usein yksisuuntaiseksi funktioksi tai "_ansaovifunktioksi_".
 
-Annetussa esimerkissä häsäyksen `24f1b9…` saaminen tietäen syötteen "_PlanB_" on yksinkertaista ja nopeaa. Kuitenkin viestin "_PlanB_" löytäminen tietäen vain `24f1b9…` on mahdotonta.
+Annetussa esimerkissä häsäyksen `24f1b9…` saaminen tietäen syötteen "_Plan ₿_" on yksinkertaista ja nopeaa. Kuitenkin viestin "_Plan ₿_" löytäminen tietäen vain `24f1b9…` on mahdotonta.
 
 ![CYP201](assets/fr/002.webp)
 
@@ -97,7 +97,7 @@ Siksi on mahdotonta löytää esikuvaa $m$ häsäykselle $h$ siten, että $h = \
 #### 2. Muutoksenkestävyys (lumivyöryvaikutus)
 
 Toisen ominaisuuden nimi on manipuloinnin kestävyys, joka tunnetaan myös **lumivyöryefektinä**. Tämä ominaisuus havaitaan hajautusfunktiossa, jos pieni muutos syötteen viestissä johtaa radikaaliin muutokseen tulosteessa olevassa hajautusarvossa.
-Jos palaamme esimerkkiimme syötteellä "_PlanB_" ja SHA256-funktiolla, olemme nähneet, että tuotettu hajautusarvo on seuraava:
+Jos palaamme esimerkkiimme syötteellä "_Plan ₿_" ja SHA256-funktiolla, olemme nähneet, että tuotettu hajautusarvo on seuraava:
 
 ```text
 24f1b93b68026bfc24f5c8265f287b4c940fb1664b0d75053589d7a4f821b688
@@ -678,7 +678,7 @@ Käytämme äärellistä kokonaislukujen modulo $p$ kenttää varmistaaksemme k�
 
 Elliptisten käyrien matematiikka äärellisillä kentillä on analoginen reaalilukujen kentän matematiikan kanssa, sopeutuksella, että kaikki toiminnot suoritetaan modulo $p$. Selitysten yksinkertaistamiseksi jatkamme seuraavissa luvuissa käsitteiden havainnollistamista käyrällä, joka on määritelty reaalilukujen yli, pitäen mielessä, että käytännössä käyrä on määritelty äärellisellä kentällä.
 
-Jos haluat oppia lisää modernin kryptografian matemaattisista perusteista, suosittelen myös tutustumaan tähän toiseen kurssiin Plan B Networkissa:
+Jos haluat oppia lisää modernin kryptografian matemaattisista perusteista, suosittelen myös tutustumaan tähän toiseen kurssiin Plan ₿ Networkissa:
 
 https://planb.network/courses/cyp302
 
@@ -1091,7 +1091,7 @@ Jos halusi käyttää useita yksityisavaimia, oli tarpeen tehdä yhtä monta var
 
 Tämä rajoitus juontuu Bitcoinin yksityisyysmallista. Saman osoitteen uudelleenkäyttö helpottaa ulkopuolisten tarkkailijoiden mahdollisuutta jäljittää kaikki Bitcoin-transaktioni. Siksi vastaanotto-osoitteen uudelleenkäyttöä suositellaan voimakkaasti välttämään. Kuitenkin, jotta voimme hallita useita osoitteita ja erottaa transaktiomme julkisesti, on tarpeen hallita useita yksityisavaimia. JBOK-lompakoiden tapauksessa tämä tarkoittaa yhtä monta varmuuskopiota kuin uusia avainpareja, tehtävä, joka voi nopeasti muuttua monimutkaiseksi ja vaikeaksi ylläpitää käyttäjille.
 
-Lisätietoja Bitcoinin yksityisyysmallista ja menetelmistä yksityisyytesi suojaamiseksi suosittelen myös seuraamaan BTC204-kurssiani Plan B Networkissa:
+Lisätietoja Bitcoinin yksityisyysmallista ja menetelmistä yksityisyytesi suojaamiseksi suosittelen myös seuraamaan BTC204-kurssiani Plan ₿ Networkissa:
 
 https://planb.network/courses/btc204
 
@@ -1179,7 +1179,7 @@ Esimerkiksi 256-bittiselle entropialle tulos $\text{ENT} \Vert \text{CS}$ on 264
 
 ### Binäärijonon Muuntaminen Mnemoniseksi Lauseeksi
 
-Bittijono $\text{ENT} \Vert \text{CS}$ jaetaan sitten 11 bitin segmentteihin. Kukin 11-bittinen segmentti, kun se muunnetaan desimaaliksi, vastaa numeroa välillä 0 ja 2047, joka osoittaa sanan sijainnin [2048 sanan standardoidussa listassa BIP39:n mukaan](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
+Bittijono $\text{ENT} \Vert \text{CS}$ jaetaan sitten 11 bitin segmentteihin. Kukin 11-bittinen segmentti, kun se muunnetaan desimaaliksi, vastaa numeroa välillä 0 ja 2047, joka osoittaa sanan sijainnin [2048 sanan standardoidussa listassa BIP39:n mukaan](https://github.com/Plan ₿-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
 
 ![CYP201](assets/fr/037.webp)
 Esimerkiksi 128-bittiselle entropialle tarkistussumma on 4 bittiä, ja näin ollen koko sekvenssi on 132 bittiä pitkä. Se jaetaan 12 segmenttiin, joista jokainen on 11 bittiä (oranssit bitit merkitsevät tarkistussummaa):
@@ -2187,6 +2187,6 @@ Ja siinä kaikki! Olemme saapuneet CYP201-kurssin päätökseen. Jos pidit kurss
 Olemme saapuneet CYP201-kurssin päätökseen. Toivon, että se on ollut hyödyllinen oppimiskokemuksessasi Bitcoinista ja on mahdollistanut sinun ymmärtää paremmin päivittäin käyttämiesi HD-lompakoiden toimintaa. Kiitos, että seurasit tätä kurssia loppuun!
 Mielestäni tieto lompakoista on perustavanlaatuista, koska se yhdistää Bitcoinin teoreettisen aspektin sen käytännön käyttöön. Todellakin, jos käytät Bitcoinia, käsittelet väistämättä lompakko-ohjelmistoa. Ymmärtämällä, miten ne toimivat, voit toteuttaa tehokkaita turvallisuusstrategioita hallitsemalla samalla taustalla olevia mekanismeja, riskejä ja mahdollisia heikkouksia. Näin voit käyttää Bitcoinia turvallisemmin ja luottavaisemmin.
 Jos et ole vielä tehnyt niin, kutsun sinut arvostelemaan ja kommentoimaan tätä kurssia. Se auttaisi minua valtavasti. Voit myös jakaa tämän kurssin sosiaalisissa verkostoissasi levittääksesi tätä tietoa mahdollisimman monelle ihmiselle.
-Jatkaaksesi matkaasi alas pupun koloon, suosittelen lämpimästi **BTC204**-kurssia, jonka olen myös tuottanut Plan B -verkostossa. Se keskittyy yksityisyyteen Bitcoinissa ja tutkii keskeisiä teemoja: Mikä on yksityisyyden malli? Miten ketjuanalyysi toimii? Kuinka käyttää Bitcoinia optimaalisesti maksimoidaksesi yksityisyytesi? Looginen seuraava askel taitojesi syventämiseen!
+Jatkaaksesi matkaasi alas pupun koloon, suosittelen lämpimästi **BTC204**-kurssia, jonka olen myös tuottanut Plan ₿ -verkostossa. Se keskittyy yksityisyyteen Bitcoinissa ja tutkii keskeisiä teemoja: Mikä on yksityisyyden malli? Miten ketjuanalyysi toimii? Kuinka käyttää Bitcoinia optimaalisesti maksimoidaksesi yksityisyytesi? Looginen seuraava askel taitojesi syventämiseen!
 
 https://planb.network/courses/btc204

@@ -67,7 +67,7 @@ Esimest tüüpi krüptograafilised algoritmid, mida Bitcoinis kasutatakse, hõlm
 Hashimine on protsess, mis muundab suvalise pikkusega informatsiooni teiseks, fikseeritud pikkusega informatsiooniks läbi krüptograafilise hash-funktsiooni. Teisisõnu, hash-funktsioon võtab sisendi mis tahes suuruses ja muundab selle fikseeritud suurusega sõrmejäljeks, mida nimetatakse "hashiks".
 Hashi võib mõnikord nimetada ka "digestiks", "kondensaadiks", "kondenseerituks" või "hashituks".
 
-Näiteks SHA256 hash-funktsioon toodab 256-bitise fikseeritud pikkusega hashi. Seega, kui kasutame sisendina "_PlanB_", suvalise pikkusega sõnumit, siis genereeritud hash on järgmine 256-bitine sõrmejälg:
+Näiteks SHA256 hash-funktsioon toodab 256-bitise fikseeritud pikkusega hashi. Seega, kui kasutame sisendina "_Plan ₿_", suvalise pikkusega sõnumit, siis genereeritud hash on järgmine 256-bitine sõrmejälg:
 
 ```text
 24f1b93b68026bfc24f5c8265f287b4c940fb1664b0d75053589d7a4f821b688
@@ -88,7 +88,7 @@ Need krüptograafilised hash-funktsioonid omavad mitmeid olulisi omadusi, mis mu
 
 Pöördumatuse all mõeldakse, et hashi on lihtne arvutada sisendinformatsioonist, kuid vastupidine arvutus, st sisendi leidmine hashi põhjal, on praktiliselt võimatu. See omadus muudab hash-funktsioonid ideaalseks unikaalsete digitaalsete sõrmejälgede loomiseks ilma algse informatsiooni ohustamata. Seda omadust nimetatakse sageli ühesuunaliseks funktsiooniks või "_lõksuukse funktsiooniks_".
 
-Antud näites on hashi `24f1b9…` saamine teades sisendit "_PlanB_" lihtne ja kiire. Kuid sõnumi "_PlanB_" leidmine teades ainult `24f1b9…` on võimatu.
+Antud näites on hashi `24f1b9…` saamine teades sisendit "_Plan ₿_" lihtne ja kiire. Kuid sõnumi "_Plan ₿_" leidmine teades ainult `24f1b9…` on võimatu.
 
 ![CYP201](assets/fr/002.webp)
 
@@ -97,7 +97,7 @@ Seega on võimatu leida eelkujutist $m$ hashi $h$ jaoks nii, et $h = \text{HASH}
 #### 2. Muutmiskindlus (laviiniefekt)
 
 Teine omadus on rikkumiskindlus, mida tuntakse ka kui **laviiniefekti**. Seda omadust täheldatakse räsifunktsioonis, kui sisendsõnumis tehtud väike muudatus põhjustab radikaalse muutuse väljundräsis.
-Kui me pöördume tagasi meie näite juurde sisendiga "_PlanB_" ja SHA256 funktsiooni kasutades, oleme näinud, et genereeritud räsi on järgmine:
+Kui me pöördume tagasi meie näite juurde sisendiga "_Plan ₿_" ja SHA256 funktsiooni kasutades, oleme näinud, et genereeritud räsi on järgmine:
 
 ```text
 24f1b93b68026bfc24f5c8265f287b4c940fb1664b0d75053589d7a4f821b688
@@ -687,7 +687,7 @@ Kasutame lõplikku välja täisarvude modulo $p$ täpsuse tagamiseks kõvera ope
 
 Elliptiliste kõverate matemaatika lõplikel väljadel on analoogne reaalarvude väljal olevaga, kohandusega, et kõik operatsioonid tehakse modulo $p$ järgi. Selgituste lihtsustamiseks jätkame järgmistes peatükkides kontseptsioonide illustreerimist kõvera abil, mis on määratletud reaalarvude üle, hoides meeles, et praktikas on kõver määratletud lõplikul väljal.
 
-Kui soovite rohkem teada saada kaasaegse krüptograafia matemaatilistest alustest, soovitan samuti konsulteerida selle teise kursusega Plan B võrgustikus:
+Kui soovite rohkem teada saada kaasaegse krüptograafia matemaatilistest alustest, soovitan samuti konsulteerida selle teise kursusega Plan ₿ võrgustikus:
 
 https://planb.network/courses/cyp302
 
@@ -1102,7 +1102,7 @@ Kui sooviti kasutada mitut privaatvõtit, oli vajalik teha sama palju varukoopia
 
 See piirang tuleneb Bitcoini privaatsusmudelist. Sama aadressi korduva kasutamisega muudetakse välisvaatlejate jaoks lihtsamaks kõigi minu Bitcoini tehingute jälgimine. Seetõttu on vastuvõtu aadressi korduvkasutamine tungivalt soovitatav. Siiski, et omada mitut aadressi ja avalikult eraldada meie tehinguid, on vajalik hallata mitut privaatvõtit. JBOK rahakottide puhul tähendab see nii paljude varukoopiaid loomist, kui on uusi võtmepaare, ülesanne, mis võib kasutajate jaoks kiiresti muutuda keerukaks ja raskesti hooldatavaks.
 
-Bitcoini privaatsusmudeli kohta lisateabe saamiseks ja oma privaatsuse kaitsmise meetodite avastamiseks soovitan samuti jälgida minu BTC204 kursust Plan B võrgustikus:
+Bitcoini privaatsusmudeli kohta lisateabe saamiseks ja oma privaatsuse kaitsmise meetodite avastamiseks soovitan samuti jälgida minu BTC204 kursust Plan ₿ võrgustikus:
 
 https://planb.network/courses/btc204
 
@@ -1190,7 +1190,7 @@ Näiteks 256-bitise entroopia puhul on tulemus $\text{ENT} \Vert \text{CS}$ 264 
 
 ### Binaarjada Muundamine Mnemooniliseks Fraasiks
 
-Bittide jada $\text{ENT} \Vert \text{CS}$ jagatakse seejärel 11-bitisteks segmentideks. Iga 11-bitine segment, kui see on muundatud kümnendkohaks, vastab numbrile vahemikus 0 kuni 2047, mis määrab sõna positsiooni [2048 sõna standardiseeritud nimekirjas BIP39 poolt](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
+Bittide jada $\text{ENT} \Vert \text{CS}$ jagatakse seejärel 11-bitisteks segmentideks. Iga 11-bitine segment, kui see on muundatud kümnendkohaks, vastab numbrile vahemikus 0 kuni 2047, mis määrab sõna positsiooni [2048 sõna standardiseeritud nimekirjas BIP39 poolt](https://github.com/Plan ₿-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
 
 ![CYP201](assets/fr/037.webp)
 Näiteks 128-bitise entroopia korral on kontrollsumma 4 bitti, seega kogu jada mõõdab 132 bitti. See jagatakse 12 segmendiks, millest igaüks on 11 bitti (oranžid bitid tähistavad kontrollsummat):
@@ -2246,7 +2246,7 @@ Ja nii me jõudsimegi CYP201 kursuse lõppu. Kui leidsite selle kursuse kasuliku
 Oleme jõudnud CYP201 kursuse lõppu. Loodan, et see oli teile abiks Bitcoin'i kohta õppimisel ja aitas paremini mõista igapäevaselt kasutatavate HD rahakottide toimimist. Tänan, et järgisite seda kursust lõpuni!
 Minu arvates on teadmised rahakottidest fundamentaalsed, kuna need ühendavad Bitcoin'i teoreetilise aspekti selle praktilise kasutusega. Tõepoolest, kui kasutate Bitcoin'i, käitlete paratamatult rahakottide tarkvara. Mõistmine, kuidas need töötavad, võimaldab teil rakendada tõhusaid turvistrateegiaid, samal ajal valdades aluseks olevaid mehhanisme, riske ja potentsiaalseid nõrkusi. Seega saate Bitcoin'i kasutada turvalisemalt ja enesekindlamalt.
 Kui te pole seda veel teinud, siis kutsun teid üles hindama ja kommenteerima seda kursust. See aitaks mulle tohutult. Samuti võite jagada seda kursust oma sotsiaalvõrgustikes, et levitada seda teadmist nii paljude inimesteni kui võimalik.
-Jätkamaks oma teekonda jäneseurgu, soovitan tungivalt kursust **BTC204**, mille olen samuti tootnud Plan B võrgustikus. See on pühendatud privaatsusele Bitcoinis ja uurib võtmeteemasid: Mis on privaatsusmudel? Kuidas töötab ahela analüüs? Kuidas kasutada Bitcoini optimaalselt oma privaatsuse maksimeerimiseks? Loogiline järgmine samm oma oskuste süvendamiseks!
+Jätkamaks oma teekonda jäneseurgu, soovitan tungivalt kursust **BTC204**, mille olen samuti tootnud Plan ₿ võrgustikus. See on pühendatud privaatsusele Bitcoinis ja uurib võtmeteemasid: Mis on privaatsusmudel? Kuidas töötab ahela analüüs? Kuidas kasutada Bitcoini optimaalselt oma privaatsuse maksimeerimiseks? Loogiline järgmine samm oma oskuste süvendamiseks!
 
 https://planb.network/courses/btc204
 

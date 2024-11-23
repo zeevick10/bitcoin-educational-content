@@ -1193,7 +1193,7 @@ Teiste meetodite hulgas, et omandada bitcoine samal ajal oma privaatsust kaitste
 
 Teine meetod seisneb töötamises bitcoine vastu. See omandamise meetod võib olla huvitav, kuid nõutava identifitseerimise aste varieerub suuresti olenevalt asjaoludest.
 
-*Selle peatüki kirjutamiseks kasutasin kursust [BTC205](https://planb.network/fr/courses/btc205), mille lõi [@pivi___](https://x.com/pivi___) PlanB võrgustikus (hetkel saadaval ainult prantsuse keeles).*
+*Selle peatüki kirjutamiseks kasutasin kursust [BTC205](https://planb.network/fr/courses/btc205), mille lõi [@pivi___](https://x.com/pivi___) Plan ₿ võrgustikus (hetkel saadaval ainult prantsuse keeles).*
 
 ## Konsolideerimine, UTXO Haldamine ja CIOH
 <chapterId>d0486c8f-332d-402b-ae2e-949416752b9c</chapterId>
@@ -2460,7 +2460,7 @@ Neid avatare saab samuti esitada piltide kujul:
 ![BTC204](assets/notext/66/6.webp)
 
 Kuigi neil robotitel ei ole BIP47 raamistikus spetsiifilist tehnilist funktsionaalsust, mängivad nad rolli kasutajatevaheliste interaktsioonide hõlbustamisel, pakkudes kergesti äratuntavat visuaalset identiteeti.
-Järgnevates peatükkides, mis on pühendatud BIP47-le, uurime üksikasjalikult, kuidas see töötab, erilise rõhuasetusega kasutatavatele krüptograafilistele meetoditele. Et täielikult mõista neid veidi tehnilisi selgitusi, on hädavajalik esmalt mõista HD rahakottide struktuuri, võtmete tuletamise protsesse ja elliptilise kõvera põhineva krüptograafia põhiprintsiipe. Kui soovite nendesse kontseptsioonidesse sügavamale sukelduda, on PlanB võrgustikus saadaval teine tasuta kursus: [CRYPTO 301](https://planb.network/en/courses/crypto301). Soovitan siiski neid jälgida, kuna BIP47 tehnilise toimimise mõistmine teeb teile palju lihtsamaks teiste sarnaste ettepanekute mõistmise, mida järgnevates peatükkides arutame.
+Järgnevates peatükkides, mis on pühendatud BIP47-le, uurime üksikasjalikult, kuidas see töötab, erilise rõhuasetusega kasutatavatele krüptograafilistele meetoditele. Et täielikult mõista neid veidi tehnilisi selgitusi, on hädavajalik esmalt mõista HD rahakottide struktuuri, võtmete tuletamise protsesse ja elliptilise kõvera põhineva krüptograafia põhiprintsiipe. Kui soovite nendesse kontseptsioonidesse sügavamale sukelduda, on Plan ₿ võrgustikus saadaval teine tasuta kursus: [CRYPTO 301](https://planb.network/en/courses/crypto301). Soovitan siiski neid jälgida, kuna BIP47 tehnilise toimimise mõistmine teeb teile palju lihtsamaks teiste sarnaste ettepanekute mõistmise, mida järgnevates peatükkides arutame.
 ### Korduvkasutatav Maksekood
 
 Nagu varem mainitud, asub korduvkasutatav maksekood HD rahakoti sügavusel 3, muutes selle võrreldavaks `xpub`-iga, nii oma positsiooni poolest rahakoti struktuuris kui ka oma rolli poolest.
@@ -3434,6 +3434,6 @@ Kuna see funktsioon on hiljutine, on soovitatav olla ettevaatlik ja vältida Sil
 Palju õnne Bitcoin'i privaatsuse koolituse lõpetamise puhul!
 Oleme käsitlenud palju keerukaid ja tehnilisi teemasid selles koolitusel, kuid pole hädavajalik kasutada kõiki tutvustatud tööriistu. Peamine eesmärk oli anda teile võimalus valida, millist informatsiooni soovite avalikustada ja millist eelistate konfidentsiaalsena hoida Bitcoin'i kasutamisel. See kehastab privaatsuse kaitse olemust. Informeeritud valikute tegemiseks selle kohta, millist informatsiooni jagada või varjata, on vajalik olla teadlik meie tegevuse tagajärgedest. Loodan, et see koolitus on aidanud teil seda teadmist omandada. Kui peaksin valima selle koolituse kõige olulisema osa, valiksin jaotise, mis on pühendatud ahela analüüsile. Oma potentsiaalsete ründajate kasutatavate tehnikate mõistmine on parim viis enda kaitsmiseks. Seetõttu oleks minu soovitus hoolikalt üle vaadata see osa ja püüda mõista kõiki selle detaile.
 
-Selles koolituses keskendusime ainult Bitcoin'i privaatsusele põhiahelas. Teise kihi süsteemide, nagu Lightning Network ja külgahelad, privaatsusprobleemid on samuti olulised ja omavad väga spetsiifilisi omadusi. Kuigi off-chain tehingute kasutamine võib olla tõhus strateegia paljude uuritud Bitcoin'i jälgitavuse riskide vältimiseks, puutute kokku ka teiste riskidega, millest on samuti oluline teadlik olla. Seetõttu käsitletakse neid teemasid tulevikus PlanB võrgustikus pühendatud koolitusel.
+Selles koolituses keskendusime ainult Bitcoin'i privaatsusele põhiahelas. Teise kihi süsteemide, nagu Lightning Network ja külgahelad, privaatsusprobleemid on samuti olulised ja omavad väga spetsiifilisi omadusi. Kuigi off-chain tehingute kasutamine võib olla tõhus strateegia paljude uuritud Bitcoin'i jälgitavuse riskide vältimiseks, puutute kokku ka teiste riskidega, millest on samuti oluline teadlik olla. Seetõttu käsitletakse neid teemasid tulevikus Plan ₿ võrgustikus pühendatud koolitusel.
 
 Kui see koolitus teile meeldis, oleksin väga tänulik, kui jagaksite seda oma sõpradega ja sotsiaalmeedias. Aitäh! :)

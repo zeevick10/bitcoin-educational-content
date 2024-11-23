@@ -1274,7 +1274,7 @@ Muita menetelmiä hankkia bitcoineja samalla kun suojataan yksityisyyttäsi, on 
 
 Toinen menetelmä koostuu työskentelystä vaihdossa bitcoineihin. Tämä hankintamenetelmä voi olla mielenkiintoinen, mutta vaaditun tunnistautumisen aste vaihtelee suuresti olosuhteiden mukaan.
 
-\_Tämän luvun kirjoittamiseen käytin kurssia [BTC205](https://planb.network/fr/courses/btc205) jonka loi [@pivi\_\_\_](https://x.com/pivi___) PlanB Networkissa (toistaiseksi saatavilla vain ranskaksi).\_
+\_Tämän luvun kirjoittamiseen käytin kurssia [BTC205](https://planb.network/fr/courses/btc205) jonka loi [@pivi\_\_\_](https://x.com/pivi___) Plan ₿ Networkissa (toistaiseksi saatavilla vain ranskaksi).\_
 
 ## Konsolidointi, UTXO-hallinta ja CIOH
 
@@ -2616,7 +2616,7 @@ Nämä avatarit voidaan myös esittää kuvien muodossa:
 ![BTC204](assets/notext/66/6.webp)
 
 Vaikka näillä roboteilla ei ole erityistä teknistä toiminnallisuutta BIP47:n puitteissa, ne toimivat roolissa helpottamassa käyttäjien välisiä vuorovaikutuksia tarjoamalla helposti tunnistettavan visuaalisen identiteetin.
-Tässä luvussa, joka on omistettu BIP47:lle, tarkastelemme yksityiskohtaisesti sen toimintaa, erityisesti keskittyen käytettyihin kryptografisiin menetelmiin. Jotta voit täysin ymmärtää nämä hieman tekniset selitykset, on olennaista ensin ymmärtää HD-lompakoiden rakenne, avainjohdannaisprosessit ja elliptiseen käyrään perustuvan kryptografian perusperiaatteet. Jos haluat syventää näitä käsitteitä, toinen ilmainen kurssi on saatavilla PlanB Networkissa: [CRYPTO 301](https://planb.network/en/courses/crypto301). Suosittelen silti niiden seuraamista, sillä BIP47:n teknisen toiminnan ymmärtäminen helpottaa huomattavasti muiden samankaltaisten ehdotusten ymmärtämistä, joita käsittelemme seuraavissa luvuissa.
+Tässä luvussa, joka on omistettu BIP47:lle, tarkastelemme yksityiskohtaisesti sen toimintaa, erityisesti keskittyen käytettyihin kryptografisiin menetelmiin. Jotta voit täysin ymmärtää nämä hieman tekniset selitykset, on olennaista ensin ymmärtää HD-lompakoiden rakenne, avainjohdannaisprosessit ja elliptiseen käyrään perustuvan kryptografian perusperiaatteet. Jos haluat syventää näitä käsitteitä, toinen ilmainen kurssi on saatavilla Plan ₿ Networkissa: [CRYPTO 301](https://planb.network/en/courses/crypto301). Suosittelen silti niiden seuraamista, sillä BIP47:n teknisen toiminnan ymmärtäminen helpottaa huomattavasti muiden samankaltaisten ehdotusten ymmärtämistä, joita käsittelemme seuraavissa luvuissa.
 
 ### Uudelleenkäytettävä Maksukoodi
 
@@ -3650,6 +3650,6 @@ Onnittelut Bitcoinin yksityisyyden suojan koulutuksen suorittamisesta!
 
 Olemme käsitelleet monia edistyneitä ja teknisiä aiheita tässä koulutuksessa, mutta ei ole välttämätöntä käyttää kaikkia esiteltyjä työkaluja. Päämääränä oli valtuuttaa sinut valitsemaan, mitä tietoja haluat paljastaa ja mitä tietoja haluat pitää luottamuksellisina Bitcoinin käytössäsi. Tämä tiivistää yksityisyyden suojan ydinolemuksen. Tietoisten valintojen tekeminen jaettavasta tai piilotettavasta tiedosta edellyttää toimintamme seurausten ymmärtämistä. Toivon, että tämä koulutus on auttanut sinua saavuttamaan tämän tiedon.
 Jos minun pitäisi valita tämän koulutuksen tärkein osa, valitsisin ketjuanalyysille omistetun osion. Mahdollisten hyökkääjien käyttämien tekniikoiden ymmärtäminen on paras tapa suojautua. Siksi neuvoni olisi tarkastella huolellisesti tätä osaa ja pyrkiä ymmärtämään kaikki sen yksityiskohdat.
-Tässä koulutuksessa keskityimme yksinomaan Bitcoinin yksityisyyteen pääketjussa. Myös toisen kerroksen järjestelmien, kuten Lightning Networkin ja sivuketjujen, yksityisyysongelmat ovat merkittäviä ja niillä on hyvin spesifisiä ominaisuuksia. Vaikka off-chain -transaktioiden käyttö voi olla tehokas strategia välttää monia Bitcoinissa tutkimiamme jäljitettävyysriskejä, se altistaa sinut myös muille riskeille, joista on myös tärkeää olla tietoinen. Siksi nämä aiheet käsitellään tulevassa omistetussa koulutuksessa PlanB Networkissa.
+Tässä koulutuksessa keskityimme yksinomaan Bitcoinin yksityisyyteen pääketjussa. Myös toisen kerroksen järjestelmien, kuten Lightning Networkin ja sivuketjujen, yksityisyysongelmat ovat merkittäviä ja niillä on hyvin spesifisiä ominaisuuksia. Vaikka off-chain -transaktioiden käyttö voi olla tehokas strategia välttää monia Bitcoinissa tutkimiamme jäljitettävyysriskejä, se altistaa sinut myös muille riskeille, joista on myös tärkeää olla tietoinen. Siksi nämä aiheet käsitellään tulevassa omistetussa koulutuksessa Plan ₿ Networkissa.
 
 Jos pidit tästä koulutuksesta, olisin erittäin kiitollinen, jos voisit jakaa sen ystäviesi kanssa ja sosiaalisessa mediassa. Kiitos! :)

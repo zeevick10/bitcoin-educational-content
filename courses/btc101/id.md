@@ -1338,7 +1338,7 @@ Perubahan sistem finansial memerlukan penggantian mata uang. Satoshi menciptakan
 
 <chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
 
-Selamat atas penyelesaian pelatihan BTC 101! Saya sangat berharap Anda menikmatinya dan pelatihan ini membuka pintu-pintu baru untuk Anda. Perjalanan Anda dalam mengenal Bitcoin baru saja dimulai dan saya mengundang Anda untuk menjelajahi semua kursus lain yang tersedia di PlanB Network:
+Selamat atas penyelesaian pelatihan BTC 101! Saya sangat berharap Anda menikmatinya dan pelatihan ini membuka pintu-pintu baru untuk Anda. Perjalanan Anda dalam mengenal Bitcoin baru saja dimulai dan saya mengundang Anda untuk menjelajahi semua kursus lain yang tersedia di Plan ₿ Network:
 
 #### Dapatkan dan amankan bitcoin pertama Anda dengan
 

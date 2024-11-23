@@ -1298,7 +1298,7 @@ Among other methods to acquire bitcoins while protecting your privacy, there is 
 
 Another method consists of working in exchange for bitcoins. This acquisition method can be interesting, but the degree of identification required varies greatly depending on the circumstances.
 
-*To write this chapter, I used the course [BTC205](https://planb.network/fr/courses/btc205) created by [@pivi___](https://x.com/pivi___) on PlanB Network (available only in French for the moment).*
+*To write this chapter, I used the course [BTC205](https://planb.network/fr/courses/btc205) created by [@pivi___](https://x.com/pivi___) on Plan ₿ Network (available only in French for the moment).*
 
 ## Consolidation, UTXO Management, and CIOH
 <chapterId>d0486c8f-332d-402b-ae2e-949416752b9c</chapterId>
@@ -2644,7 +2644,7 @@ These avatars can also be represented in the form of images:
 ![BTC204](assets/notext/66/6.webp)
 
 Although these robots do not have a specific technical functionality within the framework of BIP47, they play a role in facilitating interactions between users by offering an easily recognizable visual identity.
-In the following sections of this chapter dedicated to BIP47, we will examine in detail how it works, with a particular emphasis on the cryptographic methods used. To fully grasp these somewhat technical explanations, it is essential to first understand the structure of HD wallets, the key derivation processes, and the fundamental principles of elliptic curve-based cryptography. If you wish to delve deeper into these concepts, another free course is available on PlanB Network: [CRYPTO 301](https://planb.network/en/courses/crypto301). I still advise you to follow them, as understanding the technical workings of BIP47 will make it much easier for you to comprehend other similar proposals that we will discuss in the following chapters.
+In the following sections of this chapter dedicated to BIP47, we will examine in detail how it works, with a particular emphasis on the cryptographic methods used. To fully grasp these somewhat technical explanations, it is essential to first understand the structure of HD wallets, the key derivation processes, and the fundamental principles of elliptic curve-based cryptography. If you wish to delve deeper into these concepts, another free course is available on Plan ₿ Network: [CRYPTO 301](https://planb.network/en/courses/crypto301). I still advise you to follow them, as understanding the technical workings of BIP47 will make it much easier for you to comprehend other similar proposals that we will discuss in the following chapters.
 ### Reusable Payment Code
 
 As mentioned before, the reusable payment code is located at depth 3 of the HD wallet, making it comparable to an `xpub`, both in its position within the wallet structure and in its role.
@@ -3668,6 +3668,6 @@ Congratulations on completing this training on privacy in Bitcoin!
 We have covered many advanced and technical topics in this training, but it is not imperative to use all the tools presented. The main goal was to empower you to choose the information you wish to disclose and the information you prefer to keep confidential in your use of Bitcoin. This embodies the very essence of privacy protection. To make informed choices about the information to share or hide, it is necessary to be aware of the implications of our actions. I hope this training has helped you gain this knowledge.
 If I had to choose the most important part of this training, I would pick the section dedicated to chain analysis. Understanding the techniques used by your potential attackers is the best way to protect yourself. Therefore, my advice would be to carefully review this part and try to grasp all its details.
 
-In this training, we focused exclusively on Bitcoin's privacy on the main chain. The privacy issues on second-layer systems, such as the Lightning Network and sidechains, are also significant and have very specific characteristics. Although the use of off-chain transactions can be an effective strategy to circumvent the many traceability risks on Bitcoin that we have studied, it exposes you to other risks that are also essential to be aware of. That's why these topics will be covered in a future dedicated training on PlanB Network.
+In this training, we focused exclusively on Bitcoin's privacy on the main chain. The privacy issues on second-layer systems, such as the Lightning Network and sidechains, are also significant and have very specific characteristics. Although the use of off-chain transactions can be an effective strategy to circumvent the many traceability risks on Bitcoin that we have studied, it exposes you to other risks that are also essential to be aware of. That's why these topics will be covered in a future dedicated training on Plan ₿ Network.
 
 If you enjoyed this training, I would be very grateful if you could share it with your friends and on social media. Thank you! :)

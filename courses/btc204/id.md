@@ -1221,7 +1221,7 @@ Di antara metode lain untuk memperoleh bitcoin sambil melindungi privasi Anda, t
 
 Metode lain terdiri dari bekerja sebagai imbalan untuk bitcoin. Metode akuisisi ini bisa menarik, tetapi tingkat identifikasi yang diperlukan sangat bervariasi tergantung pada keadaannya.
 
-*Untuk menulis bab ini, saya menggunakan kursus [BTC205](https://planb.network/fr/courses/btc205) yang dibuat oleh [@pivi___](https://x.com/pivi___) di PlanB Network (hanya tersedia dalam bahasa Prancis untuk saat ini).*
+*Untuk menulis bab ini, saya menggunakan kursus [BTC205](https://planb.network/fr/courses/btc205) yang dibuat oleh [@pivi___](https://x.com/pivi___) di Plan ₿ Network (hanya tersedia dalam bahasa Prancis untuk saat ini).*
 
 ## Konsolidasi, Manajemen UTXO, dan CIOH
 <chapterId>d0486c8f-332d-402b-ae2e-949416752b9c</chapterId>
@@ -2498,7 +2498,7 @@ Avatar-avatarnya juga dapat direpresentasikan dalam bentuk gambar:
 ![BTC204](assets/notext/66/6.webp)
 
 Meskipun robot-robot ini tidak memiliki fungsi teknis spesifik dalam kerangka BIP47, mereka memainkan peran dalam memfasilitasi interaksi antar pengguna dengan menawarkan identitas visual yang mudah dikenali.
-Dalam bagian-bagian berikut dari bab ini yang didedikasikan untuk BIP47, kita akan memeriksa secara detail cara kerjanya, dengan penekanan khusus pada metode kriptografi yang digunakan. Untuk sepenuhnya memahami penjelasan teknis ini, sangat penting untuk terlebih dahulu memahami struktur dompet HD, proses derivasi kunci, dan prinsip-prinsip dasar kriptografi berbasis kurva eliptik. Jika Anda ingin mendalami konsep-konsep ini, kursus gratis lainnya tersedia di PlanB Network: [CRYPTO 301](https://planb.network/en/courses/crypto301). Saya masih menyarankan Anda untuk mengikutinya, karena memahami cara kerja teknis BIP47 akan memudahkan Anda untuk memahami proposal serupa lainnya yang akan kita bahas di bab-bab berikutnya.
+Dalam bagian-bagian berikut dari bab ini yang didedikasikan untuk BIP47, kita akan memeriksa secara detail cara kerjanya, dengan penekanan khusus pada metode kriptografi yang digunakan. Untuk sepenuhnya memahami penjelasan teknis ini, sangat penting untuk terlebih dahulu memahami struktur dompet HD, proses derivasi kunci, dan prinsip-prinsip dasar kriptografi berbasis kurva eliptik. Jika Anda ingin mendalami konsep-konsep ini, kursus gratis lainnya tersedia di Plan ₿ Network: [CRYPTO 301](https://planb.network/en/courses/crypto301). Saya masih menyarankan Anda untuk mengikutinya, karena memahami cara kerja teknis BIP47 akan memudahkan Anda untuk memahami proposal serupa lainnya yang akan kita bahas di bab-bab berikutnya.
 ### Kode Pembayaran yang Dapat Digunakan Kembali
 
 Seperti yang disebutkan sebelumnya, kode pembayaran yang dapat digunakan kembali terletak pada kedalaman 3 dari dompet HD, membuatnya sebanding dengan `xpub`, baik dalam posisinya dalam struktur dompet maupun dalam perannya.
@@ -3473,6 +3473,6 @@ Kami telah membahas banyak topik lanjutan dan teknis dalam pelatihan ini, tetapi
 
 Jika saya harus memilih bagian terpenting dari pelatihan ini, saya akan memilih bagian yang didedikasikan untuk analisis rantai. Memahami teknik yang digunakan oleh penyerang potensial Anda adalah cara terbaik untuk melindungi diri. Oleh karena itu, saran saya adalah untuk secara seksama meninjau bagian ini dan mencoba memahami semua detailnya.
 
-Dalam pelatihan ini, kami secara eksklusif fokus pada privasi Bitcoin di rantai utama. Masalah privasi pada sistem lapis kedua, seperti Lightning Network dan sidechain, juga signifikan dan memiliki karakteristik yang sangat spesifik. Meskipun penggunaan transaksi off-chain bisa menjadi strategi efektif untuk menghindari banyak risiko pelacakan pada Bitcoin yang telah kami pelajari, ini mengekspos Anda pada risiko lain yang juga penting untuk diketahui. Itulah mengapa topik-topik ini akan dibahas dalam pelatihan khusus di masa depan di PlanB Network.
+Dalam pelatihan ini, kami secara eksklusif fokus pada privasi Bitcoin di rantai utama. Masalah privasi pada sistem lapis kedua, seperti Lightning Network dan sidechain, juga signifikan dan memiliki karakteristik yang sangat spesifik. Meskipun penggunaan transaksi off-chain bisa menjadi strategi efektif untuk menghindari banyak risiko pelacakan pada Bitcoin yang telah kami pelajari, ini mengekspos Anda pada risiko lain yang juga penting untuk diketahui. Itulah mengapa topik-topik ini akan dibahas dalam pelatihan khusus di masa depan di Plan ₿ Network.
 
 Jika Anda menikmati pelatihan ini, saya akan sangat berterima kasih jika Anda bisa membagikannya dengan teman-teman Anda dan di media sosial. Terima kasih! :)

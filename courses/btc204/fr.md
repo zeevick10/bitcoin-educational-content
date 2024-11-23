@@ -1397,7 +1397,7 @@ Parmi les autres méthodes pour acquérir des bitcoins tout en protégeant votre
 
 Une autre méthode consiste à travailler en échange de bitcoins. Cette méthode d'acquisition peut être intéressante, mais le degré d'identification requis varie considérablement selon les circonstances.
 
-*Pour rédiger ce chapitre, je me suis servi de la formation [BTC205](https://planb.network/fr/courses/btc205) réalisée par [@pivi___](https://x.com/pivi___) sur PlanB Network (disponible uniquement en français pour le moment).*
+*Pour rédiger ce chapitre, je me suis servi de la formation [BTC205](https://planb.network/fr/courses/btc205) réalisée par [@pivi___](https://x.com/pivi___) sur Plan ₿ Network (disponible uniquement en français pour le moment).*
 
 ## La consolidation, la gestion des UTXOs et la CIOH
 <chapterId>d0486c8f-332d-402b-ae2e-949416752b9c</chapterId>
@@ -2838,7 +2838,7 @@ Bien que ces robots n'aient pas de fonctionnalité technique spécifique dans le
 
 ---
 
-*Dans les sections suivantes de ce chapitre dédié au BIP47, nous allons examiner en détail son fonctionnement, en mettant un accent particulier sur les méthodes cryptographiques utilisées. Pour saisir pleinement ces explications quelque peu techniques, il est essentiel de comprendre au préalable la structure des portefeuilles HD, les procédés de dérivation de clés et les principes fondamentaux de la cryptographie basée sur les courbes elliptiques. Si vous souhaitez approfondir ces concepts, une autre formation gratuite est disponible sur PlanB Network : [CRYPTO 301](https://planb.network/en/courses/crypto301). Je vous conseille tout de même de les suivre, car en comprenant le fonctionnement technique du BIP47, vous comprendrez beaucoup plus facilement d'autres propositions similaires dont nous allons parler dans les chapitres suivants.*
+*Dans les sections suivantes de ce chapitre dédié au BIP47, nous allons examiner en détail son fonctionnement, en mettant un accent particulier sur les méthodes cryptographiques utilisées. Pour saisir pleinement ces explications quelque peu techniques, il est essentiel de comprendre au préalable la structure des portefeuilles HD, les procédés de dérivation de clés et les principes fondamentaux de la cryptographie basée sur les courbes elliptiques. Si vous souhaitez approfondir ces concepts, une autre formation gratuite est disponible sur Plan ₿ Network : [CRYPTO 301](https://planb.network/en/courses/crypto301). Je vous conseille tout de même de les suivre, car en comprenant le fonctionnement technique du BIP47, vous comprendrez beaucoup plus facilement d'autres propositions similaires dont nous allons parler dans les chapitres suivants.*
 
 ### Le code de paiement réutilisable
 
@@ -3909,6 +3909,6 @@ Nous avons abordé de nombreux sujets avancés et techniques dans cette formatio
 
 Si je devais choisir la partie la plus importante de cette formation, je prendrais la section dédiée à l'analyse de chaîne. Comprendre les techniques employées par vos potentiels attaquants est le meilleur moyen de vous en protéger. Mon conseil serait donc de revoir attentivement cette partie et d'essayer de saisir tous ses détails.
 
-Dans cette formation, nous nous sommes concentrés exclusivement sur la confidentialité de Bitcoin sur la chaîne principale. Les enjeux de confidentialité sur les systèmes de seconde couche, comme le Lightning Network et les sidechains, sont également importants et possèdent des caractéristiques très spécifiques. Bien que l'utilisation de transactions off-chain puisse être une stratégie efficace pour contourner les nombreux risques de traçabilité sur Bitcoin que nous avons étudiés, elle expose à d'autres risques qu'il est aussi essentiel de connaître. C'est pour cela que ces sujets seront abordés dans une future formation dédiée sur PlanB Network.
+Dans cette formation, nous nous sommes concentrés exclusivement sur la confidentialité de Bitcoin sur la chaîne principale. Les enjeux de confidentialité sur les systèmes de seconde couche, comme le Lightning Network et les sidechains, sont également importants et possèdent des caractéristiques très spécifiques. Bien que l'utilisation de transactions off-chain puisse être une stratégie efficace pour contourner les nombreux risques de traçabilité sur Bitcoin que nous avons étudiés, elle expose à d'autres risques qu'il est aussi essentiel de connaître. C'est pour cela que ces sujets seront abordés dans une future formation dédiée sur Plan ₿ Network.
 
 Si vous avez apprécié cette formation, je vous serais très reconnaissant de la partager avec vos proches et sur les réseaux sociaux. Merci ! :)

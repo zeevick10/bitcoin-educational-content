@@ -485,7 +485,7 @@ Man könnte sich die Frage stellen: Was ist, wenn jemand zufällig unsere Liste 
 
 Die Wahrscheinlichkeit eines Hacks Ihrer Bitcoin-Brieftasche ist daher astronomisch gering, wenn Sie bewährte Sicherheitspraktiken befolgen. Diese Praktiken werden im nächsten Abschnitt ausführlich erläutert.
 
-Wählen Sie eine Brieftasche, die Ihren Bedürfnissen und Ihrer Verwendung entspricht. Detaillierte Anleitungen zur Verwendung und Sicherung verschiedener Brieftaschen finden Sie im Abschnitt [Tutorial PlanB](https://planb.network/tutorials/wallet).
+Wählen Sie eine Brieftasche, die Ihren Bedürfnissen und Ihrer Verwendung entspricht. Detaillierte Anleitungen zur Verwendung und Sicherung verschiedener Brieftaschen finden Sie im Abschnitt [Tutorial Plan ₿](https://planb.network/tutorials/wallet).
 
 Wenn Sie während Ihrer Reise durch den Kaninchenbau mehr über den Aufbau einer Bitcoin-Wallet erfahren möchten, von der Entropie bis hin zu Empfangsadressen, empfehle ich den Kurs CYP 201, der diesem Thema gewidmet ist:
 
@@ -1315,7 +1315,7 @@ Die Veränderung des Finanzsystems erfordert eine Veränderung der Währung. Sat
 
 <chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
 
-Herzlichen Glückwunsch zum Abschluss dieser BTC 101-Schulung! Ich hoffe von Herzen, dass sie Ihnen gefallen und neue Türen geöffnet hat. Ihre Entdeckungsreise in die Bitcoin-Welt hat gerade erst begonnen, und ich lade Sie ein, alle anderen verfügbaren Kurse auf PlanB Network zu entdecken:
+Herzlichen Glückwunsch zum Abschluss dieser BTC 101-Schulung! Ich hoffe von Herzen, dass sie Ihnen gefallen und neue Türen geöffnet hat. Ihre Entdeckungsreise in die Bitcoin-Welt hat gerade erst begonnen, und ich lade Sie ein, alle anderen verfügbaren Kurse auf Plan ₿ Network zu entdecken:
 
 #### Erhalten und sichern Sie Ihre ersten Bitcoins mit
 

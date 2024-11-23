@@ -68,7 +68,7 @@ Loại thuật toán mật mã đầu tiên được sử dụng trên Bitcoin b
 Băm là quá trình biến đổi thông tin có độ dài tùy ý thành một mảnh thông tin có độ dài cố định thông qua một hàm băm mật mã. Nói cách khác, một hàm băm nhận đầu vào bất kỳ và chuyển đổi nó thành một dấu vân tay cố định, gọi là "băm".
 Băm cũng đôi khi được gọi là "digest", "condensate", "condensed", hoặc "hashed".
 
-Ví dụ, hàm băm SHA256 tạo ra một băm có độ dài cố định 256 bit. Vì vậy, nếu chúng ta sử dụng đầu vào "_PlanB_", một thông điệp có độ dài tùy ý, băm được tạo ra sẽ là dấu vân tay 256-bit sau đây:
+Ví dụ, hàm băm SHA256 tạo ra một băm có độ dài cố định 256 bit. Vì vậy, nếu chúng ta sử dụng đầu vào "_Plan ₿_", một thông điệp có độ dài tùy ý, băm được tạo ra sẽ là dấu vân tay 256-bit sau đây:
 
 ```text
 24f1b93b68026bfc24f5c8265f287b4c940fb1664b0d75053589d7a4f821b688
@@ -89,7 +89,7 @@ Những hàm băm mật mã này có một số đặc điểm thiết yếu là
 
 Khả năng không thể đảo ngược có nghĩa là việc tính toán băm từ thông tin đầu vào là dễ dàng, nhưng phép tính ngược lại, tức là tìm thông tin đầu vào từ băm, là gần như không thể. Tính chất này làm cho hàm băm hoàn hảo cho việc tạo ra các dấu vân tay số duy nhất mà không làm lộ thông tin gốc. Đặc điểm này thường được gọi là một hàm một chiều hoặc "_hàm cửa bẫy_".
 
-Trong ví dụ đã cho, việc thu được băm `24f1b9…` bằng cách biết đầu vào "_PlanB_" là đơn giản và nhanh chóng. Tuy nhiên, việc tìm ra thông điệp "_PlanB_" chỉ bằng cách biết `24f1b9…` là không thể.
+Trong ví dụ đã cho, việc thu được băm `24f1b9…` bằng cách biết đầu vào "_Plan ₿_" là đơn giản và nhanh chóng. Tuy nhiên, việc tìm ra thông điệp "_Plan ₿_" chỉ bằng cách biết `24f1b9…` là không thể.
 
 ![CYP201](assets/fr/002.webp)
 
@@ -98,7 +98,7 @@ Do đó, không thể tìm ra một ảnh trước $m$ cho một băm $h$ sao ch
 #### 2. Kháng thay đổi (hiệu ứng tuyết lở)
 
 Đặc điểm thứ hai là khả năng chống thay đổi, còn được biết đến với cái tên **hiệu ứng tuyết lở**. Đặc điểm này được quan sát thấy trong một hàm băm nếu một thay đổi nhỏ trong thông điệp đầu vào dẫn đến một sự thay đổi lớn trong kết quả băm đầu ra.
-Nếu quay lại ví dụ của chúng ta với đầu vào "_PlanB_" và hàm SHA256, chúng ta đã thấy rằng băm được tạo ra như sau:
+Nếu quay lại ví dụ của chúng ta với đầu vào "_Plan ₿_" và hàm SHA256, chúng ta đã thấy rằng băm được tạo ra như sau:
 
 ```text
 24f1b93b68026bfc24f5c8265f287b4c940fb1664b0d75053589d7a4f821b688
@@ -689,7 +689,7 @@ Chúng ta sử dụng trường hữu hạn của các số nguyên modulo $p$ �
 
 Toán học của đường cong elliptic trên trường hữu hạn tương đương với trường số thực, với sự điều chỉnh là tất cả các phép toán được thực hiện modulo $p$. Để giải thích đơn giản, chúng tôi sẽ tiếp tục trong các chương sau đây minh họa các khái niệm sử dụng một đường cong được định nghĩa trên số thực, trong khi nhớ rằng, trên thực tế, đường cong được định nghĩa trên một trường hữu hạn.
 
-Nếu bạn muốn tìm hiểu thêm về nền tảng toán học của mật mã học hiện đại, tôi cũng khuyên bạn tham khảo khóa học khác trên Plan B Network:
+Nếu bạn muốn tìm hiểu thêm về nền tảng toán học của mật mã học hiện đại, tôi cũng khuyên bạn tham khảo khóa học khác trên Plan ₿ Network:
 
 https://planb.network/courses/cyp302
 
@@ -1116,7 +1116,7 @@ Nếu muốn sử dụng nhiều khóa riêng, sau đó cần phải tạo nhi�
 
 Ràng buộc này xuất phát từ mô hình bảo mật của Bitcoin. Bằng cách tái sử dụng cùng một địa chỉ, nó làm cho việc truy vết tất cả giao dịch Bitcoin của tôi trở nên dễ dàng hơn cho các quan sát viên bên ngoài. Đó là lý do tại sao việc tái sử dụng một địa chỉ nhận được khuyến cáo mạnh mẽ là không nên. Tuy nhiên, để có nhiều địa chỉ và tách biệt công khai các giao dịch của chúng ta, cần phải quản lý nhiều khóa riêng. Trong trường hợp của ví JBOK, điều này đòi hỏi việc tạo ra nhiều bản sao lưu như có nhiều cặp khóa mới, một nhiệm vụ có thể nhanh chóng trở nên phức tạp và khó duy trì cho người dùng.
 
-Để tìm hiểu thêm về mô hình bảo mật của Bitcoin và khám phá các phương pháp để bảo vệ sự riêng tư của bạn, tôi cũng khuyến nghị theo dõi khóa học BTC204 của tôi trên Plan B Network:
+Để tìm hiểu thêm về mô hình bảo mật của Bitcoin và khám phá các phương pháp để bảo vệ sự riêng tư của bạn, tôi cũng khuyến nghị theo dõi khóa học BTC204 của tôi trên Plan ₿ Network:
 
 https://planb.network/courses/btc204
 
@@ -1204,7 +1204,7 @@ Ví dụ, đối với một entropy 256-bit, kết quả $\text{ENT} \Vert \tex
 
 ### Chuyển Đổi Chuỗi Nhị Phân thành Cụm Từ Ghi Nhớ
 
-Chuỗi bit $\text{ENT} \Vert \text{CS}$ sau đó được chia thành các phân đoạn 11 bit. Mỗi phân đoạn 11 bit, một khi được chuyển đổi sang thập phân, tương ứng với một số từ 0 đến 2047, chỉ vị trí của một từ [trong danh sách 2048 từ được chuẩn hóa bởi BIP39](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
+Chuỗi bit $\text{ENT} \Vert \text{CS}$ sau đó được chia thành các phân đoạn 11 bit. Mỗi phân đoạn 11 bit, một khi được chuyển đổi sang thập phân, tương ứng với một số từ 0 đến 2047, chỉ vị trí của một từ [trong danh sách 2048 từ được chuẩn hóa bởi BIP39](https://github.com/Plan ₿-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
 
 ![CYP201](assets/fr/037.webp)
 Ví dụ, đối với một entropy 128-bit, checksum là 4 bit, và do đó, chuỗi tổng cộng là 132 bit. Nó được chia thành 12 phân đoạn 11 bit (các bit màu cam chỉ checksum):
@@ -2215,7 +2215,7 @@ Và đó là tất cả! Chúng ta đã đến cuối khóa học CYP201. Nếu 
 Chúng ta đã đến cuối khóa học CYP201. Tôi hy vọng nó đã hữu ích trong việc học của bạn về Bitcoin và đã giúp bạn hiểu rõ hơn về cách hoạt động của các ví HD mà bạn sử dụng hàng ngày. Cảm ơn bạn đã theo dõi khóa học này đến cuối!
 Theo ý kiến của tôi, kiến thức về ví là cơ bản vì nó kết nối một khía cạnh lý thuyết của Bitcoin với việc sử dụng thực tế của nó. Thực sự, nếu bạn sử dụng Bitcoin, bạn không thể tránh khỏi việc sử dụng phần mềm ví. Hiểu cách chúng hoạt động giúp bạn thực hiện các chiến lược bảo mật hiệu quả trong khi nắm vững các cơ chế cơ bản, rủi ro và điểm yếu tiềm ẩn. Như vậy, bạn có thể sử dụng Bitcoin một cách an toàn và tự tin hơn.
 Nếu bạn chưa thực hiện, tôi mời bạn đánh giá và bình luận về khóa học này. Điều đó sẽ giúp tôi rất nhiều. Bạn cũng có thể chia sẻ khóa học này trên các mạng xã hội của mình để lan truyền kiến thức này đến càng nhiều người càng tốt.
-Để tiếp tục hành trình của bạn xuống "lỗ thỏ", tôi rất khuyên bạn nên tham gia khóa học **BTC204**, mà tôi cũng đã sản xuất trên Mạng Plan B. Khóa học này được dành riêng cho vấn đề bảo mật trên Bitcoin và khám phá các chủ đề chính: Mô hình bảo mật là gì? Phân tích chuỗi hoạt động như thế nào? Làm thế nào để sử dụng Bitcoin một cách tối ưu để tối đa hóa quyền riêng tư của bạn? Một bước tiếp theo hợp lý để nâng cao kỹ năng của bạn!
+Để tiếp tục hành trình của bạn xuống "lỗ thỏ", tôi rất khuyên bạn nên tham gia khóa học **BTC204**, mà tôi cũng đã sản xuất trên Mạng Plan ₿. Khóa học này được dành riêng cho vấn đề bảo mật trên Bitcoin và khám phá các chủ đề chính: Mô hình bảo mật là gì? Phân tích chuỗi hoạt động như thế nào? Làm thế nào để sử dụng Bitcoin một cách tối ưu để tối đa hóa quyền riêng tư của bạn? Một bước tiếp theo hợp lý để nâng cao kỹ năng của bạn!
 
 https://planb.network/courses/btc204
 $$

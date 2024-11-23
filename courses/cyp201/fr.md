@@ -72,7 +72,7 @@ Le hachage est un procédé qui permet de transformer une information de longueu
 
 Le hash peut également parfois être désigné par les termes "digest", "condensat", "condensé" ou "haché".
 
-Par exemple, la fonction de hachage SHA256 produit un hash d'une longueur fixe de 256 bits. Ainsi, si l’on utilise l’entrée "_PlanB_", un message de longueur arbitraire, le hash généré sera l'empreinte de 256 bits suivante :
+Par exemple, la fonction de hachage SHA256 produit un hash d'une longueur fixe de 256 bits. Ainsi, si l’on utilise l’entrée "_Plan ₿_", un message de longueur arbitraire, le hash généré sera l'empreinte de 256 bits suivante :
 
 ```txt
 24f1b93b68026bfc24f5c8265f287b4c940fb1664b0d75053589d7a4f821b688
@@ -93,7 +93,7 @@ Ces fonctions de hachage cryptographiques possèdent plusieurs caractéristiques
 
 L'irréversibilité signifie qu'il est facile de calculer le hash à partir de l'information en entrée, mais que le calcul inverse, c'est-à-dire retrouver l'entrée à partir du hash, est pratiquement impossible. Cette propriété rend les fonctions de hachage parfaites pour créer des empreintes numériques uniques sans compromettre les informations d'origine. On parle souvent de fonction à sens unique ou de "_trap door function_" pour décrire cette caractéristique.
 
-Dans l'exemple donné, obtenir le hash `24f1b9…` en connaissant l'entrée "_PlanB_" est simple et rapide. Toutefois, retrouver le message "_PlanB_" en connaissant uniquement `24f1b9…` est impossible.
+Dans l'exemple donné, obtenir le hash `24f1b9…` en connaissant l'entrée "_Plan ₿_" est simple et rapide. Toutefois, retrouver le message "_Plan ₿_" en connaissant uniquement `24f1b9…` est impossible.
 
 ![CYP201](assets/fr/002.webp)
 
@@ -103,7 +103,7 @@ Il est donc impossible de trouver une préimage $m$ pour un hash $h$ tel que $h 
 
 La deuxième caractéristique est la résistance à la falsification, également connue sous le nom d'**effet avalanche**. Cette caractéristique s'observe sur une fonction de hachage si une petite modification du message d'entrée entraîne une modification radicale du hash de sortie.
 
-Si l'on reprend notre exemple avec l’entrée "_PlanB_" et la fonction SHA256, nous avons vu que le hash généré est le suivant :
+Si l'on reprend notre exemple avec l’entrée "_Plan ₿_" et la fonction SHA256, nous avons vu que le hash généré est le suivant :
 
 ```txt
 24f1b93b68026bfc24f5c8265f287b4c940fb1664b0d75053589d7a4f821b688
@@ -719,7 +719,7 @@ Nous utilisons un corps fini d'entiers modulo $p$ afin d'assurer la précision d
 
 Les mathématiques des courbes elliptiques sur les corps finis sont analogues à celles sur le corps des réels, avec l'adaptation que toutes les opérations sont effectuées modulo $p$. Pour simplifier les explications, nous continuerons dans les prochains chapitres à illustrer les concepts en utilisant une courbe définie sur les nombres réels, tout en gardant à l'esprit que, dans la pratique, la courbe est définie sur un corps fini.
 
-Si vous souhaitez en savoir plus sur les bases mathématiques de la cryptographie moderne, je vous conseille par la suite de consulter également cette autre formation sur Plan B Network :
+Si vous souhaitez en savoir plus sur les bases mathématiques de la cryptographie moderne, je vous conseille par la suite de consulter également cette autre formation sur Plan ₿ Network :
 
 https://planb.network/courses/cyp302
 
@@ -1162,7 +1162,7 @@ Si l’on souhaitait utiliser plusieurs clés privées, il fallait alors effectu
 
 Cette contrainte découle du modèle de confidentialité de Bitcoin. En réutilisant une même adresse, on facilite le travail des observateurs externes qui peuvent alors retracer l’ensemble de mes transactions Bitcoin. C’est pourquoi la réutilisation d’une adresse de réception est fortement déconseillée. Or, pour disposer de plusieurs adresses et séparer publiquement nos transactions, il est nécessaire de gérer de multiples clés privées. Dans le cas des portefeuilles JBOK, cela implique de créer autant de sauvegardes qu'il y a de nouvelles paires de clés, une tâche qui peut rapidement devenir complexe et difficile à maintenir pour les utilisateurs.
 
-Pour en savoir plus sur le modèle de confidentialité de Bitcoin et découvrir les méthodes pour protéger votre vie privée, je vous recommande également de suivre ma formation BTC204 sur Plan B Network :
+Pour en savoir plus sur le modèle de confidentialité de Bitcoin et découvrir les méthodes pour protéger votre vie privée, je vous recommande également de suivre ma formation BTC204 sur Plan ₿ Network :
 
 https://planb.network/courses/btc204
 
@@ -1265,7 +1265,7 @@ Par exemple, pour une entropie de 256 bits, le résultat $\text{ENT} \Vert \text
 
 ### Conversion de la séquence binaire en une phrase mnémonique
 
-La séquence de bits $\text{ENT} \Vert \text{CS}$ est ensuite découpée en segments de 11 bits. Chaque segment de 11 bits, une fois converti en décimal, correspond à un nombre compris entre 0 et 2047, qui désigne la position d’un mot [dans une liste de 2048 mots standardisée par le BIP39](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
+La séquence de bits $\text{ENT} \Vert \text{CS}$ est ensuite découpée en segments de 11 bits. Chaque segment de 11 bits, une fois converti en décimal, correspond à un nombre compris entre 0 et 2047, qui désigne la position d’un mot [dans une liste de 2048 mots standardisée par le BIP39](https://github.com/Plan ₿-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
 
 ![CYP201](assets/fr/037.webp)
 
@@ -2332,6 +2332,6 @@ Selon moi, ces connaissances sur les portefeuilles sont fondamentales, car elles
 
 Si vous ne l’avez pas encore fait, je vous invite à noter et à commenter cette formation. Cela m’aiderait énormément. Vous pouvez également partager cette formation sur vos réseaux sociaux pour diffuser ces connaissances au plus grand nombre.
 
-Pour poursuivre votre parcours dans le terrier du lapin, je vous recommande vivement la formation **BTC204**, que j’ai également produite sur Plan B Network. Elle est dédiée à la confidentialité sur Bitcoin et explore des thématiques clés : Quel est le modèle de confidentialité ? Comment fonctionne l’analyse de chaîne ? Comment utiliser Bitcoin de manière optimale pour maximiser votre confidentialité ? Une suite logique pour approfondir vos compétences !
+Pour poursuivre votre parcours dans le terrier du lapin, je vous recommande vivement la formation **BTC204**, que j’ai également produite sur Plan ₿ Network. Elle est dédiée à la confidentialité sur Bitcoin et explore des thématiques clés : Quel est le modèle de confidentialité ? Comment fonctionne l’analyse de chaîne ? Comment utiliser Bitcoin de manière optimale pour maximiser votre confidentialité ? Une suite logique pour approfondir vos compétences !
 
 https://planb.network/courses/btc204

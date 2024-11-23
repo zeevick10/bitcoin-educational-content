@@ -1250,7 +1250,7 @@ Mezi další metody získání bitcoinů při ochraně vašeho soukromí patří
 
 Další metoda spočívá v práci výměnou za bitcoiny. Tato metoda získání může být zajímavá, ale stupeň vyžadované identifikace se velmi liší v závislosti na okolnostech.
 
-\_K napsání této kapitoly jsem využil kurz [BTC205](https://planb.network/fr/courses/btc205) vytvořený [@pivi\_\_\_](https://x.com/pivi___) na PlanB Network (zatím dostupný pouze ve francouzštině).\_
+\_K napsání této kapitoly jsem využil kurz [BTC205](https://planb.network/fr/courses/btc205) vytvořený [@pivi\_\_\_](https://x.com/pivi___) na Plan ₿ Network (zatím dostupný pouze ve francouzštině).\_
 
 ## Konsolidace, Správa UTXO a CIOH
 
@@ -2587,7 +2587,7 @@ Tyto avatary mohou být také reprezentovány ve formě obrázků:
 ![BTC204](assets/notext/66/6.webp)
 
 Ačkoliv tyto roboty nemají v rámci BIP47 specifickou technickou funkcionalitu, hrají roli ve zjednodušení interakcí mezi uživateli tím, že nabízejí snadno rozpoznatelnou vizuální identitu.
-V následujících částech této kapitoly věnované BIP47 podrobně prozkoumáme, jak to funguje, s osobitým důrazem na použité kryptografické metody. Abychom plně pochopili tyto poněkud technické vysvětlení, je nezbytné nejprve porozumět struktuře HD peněženek, procesům derivace klíčů a základním principům kryptografie založené na eliptických křivkách. Pokud se chcete do těchto konceptů ponořit hlouběji, další bezplatný kurz je k dispozici na PlanB Network: [CRYPTO 301](https://planb.network/en/courses/crypto301). Přesto vám doporučuji je sledovat, protože pochopení technického fungování BIP47 vám velmi usnadní pochopení dalších podobných návrhů, o kterých budeme diskutovat v následujících kapitolách.
+V následujících částech této kapitoly věnované BIP47 podrobně prozkoumáme, jak to funguje, s osobitým důrazem na použité kryptografické metody. Abychom plně pochopili tyto poněkud technické vysvětlení, je nezbytné nejprve porozumět struktuře HD peněženek, procesům derivace klíčů a základním principům kryptografie založené na eliptických křivkách. Pokud se chcete do těchto konceptů ponořit hlouběji, další bezplatný kurz je k dispozici na Plan ₿ Network: [CRYPTO 301](https://planb.network/en/courses/crypto301). Přesto vám doporučuji je sledovat, protože pochopení technického fungování BIP47 vám velmi usnadní pochopení dalších podobných návrhů, o kterých budeme diskutovat v následujících kapitolách.
 
 ### Opakovaně použitelný platební kód
 
@@ -3710,7 +3710,7 @@ Gratuluji k dokončení tohoto školení o soukromí v Bitcoinu!
 
 Probrali jsme mnoho pokročilých a technických témat v tomto školení, ale není nezbytné používat všechny prezentované nástroje. Hlavním cílem bylo poskytnout vám možnost vybrat si, které informace chcete zveřejnit a které informace dáváte přednost udržet v soukromí při používání Bitcoinu. To je samotná podstata ochrany soukromí. Abychom mohli dělat informovaná rozhodnutí o tom, které informace sdílet nebo skrývat, je nutné být si vědom důsledků našich akcí. Doufám, že vám toto školení pomohlo získat tuto znalost.
 Pokud bych měl vybrat nejdůležitější část tohoto školení, vybral bych sekci věnovanou analýze řetězců. Porozumění technikám používaným vašimi potenciálními útočníky je nejlepší způsob, jak se chránit. Proto bych vám doporučil pečlivě si tuto část projít a pokusit se pochopit všechny její detaily.
-V tomto školení jsme se zaměřili výhradně na soukromí Bitcoinu na hlavním řetězci. Problémy soukromí na systémech druhé vrstvy, jako je Lightning Network a sidechainy, jsou také významné a mají velmi specifické charakteristiky. Ačkoliv použití transakcí mimo hlavní řetězec může být efektivní strategií, jak se vyhnout mnoha rizikům sledovatelnosti na Bitcoinu, které jsme studovali, vystavuje vás to jiným rizikům, o kterých je také důležité vědět. Proto budou tyto témata pokryta v budoucím specializovaném školení na PlanB Network.
+V tomto školení jsme se zaměřili výhradně na soukromí Bitcoinu na hlavním řetězci. Problémy soukromí na systémech druhé vrstvy, jako je Lightning Network a sidechainy, jsou také významné a mají velmi specifické charakteristiky. Ačkoliv použití transakcí mimo hlavní řetězec může být efektivní strategií, jak se vyhnout mnoha rizikům sledovatelnosti na Bitcoinu, které jsme studovali, vystavuje vás to jiným rizikům, o kterých je také důležité vědět. Proto budou tyto témata pokryta v budoucím specializovaném školení na Plan ₿ Network.
 
 Pokud se vám toto školení líbilo, byl bych velmi vděčný, pokud byste jej mohli sdílet s přáteli a na sociálních médiích. Děkuji! :)
 $$

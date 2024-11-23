@@ -67,7 +67,7 @@ Die erste Art von kryptografischen Algorithmen, die bei Bitcoin verwendet werden
 Hashing ist ein Prozess, der Informationen beliebiger Länge in ein anderes Stück Information fester Länge durch eine kryptografische Hash-Funktion transformiert. Mit anderen Worten, eine Hash-Funktion nimmt eine Eingabe beliebiger Größe und wandelt sie in einen Fingerabdruck fester Größe um, der als "Hash" bezeichnet wird.
 Der Hash kann manchmal auch als "Digest", "Kondensat", "verdichtet" oder "gehasht" bezeichnet werden.
 
-Zum Beispiel erzeugt die SHA256-Hash-Funktion einen Hash fester Länge von 256 Bit. Wenn wir also die Eingabe "_PlanB_", eine Nachricht beliebiger Länge, verwenden, wird der erzeugte Hash der folgende 256-Bit-Fingerabdruck sein:
+Zum Beispiel erzeugt die SHA256-Hash-Funktion einen Hash fester Länge von 256 Bit. Wenn wir also die Eingabe "_Plan ₿_", eine Nachricht beliebiger Länge, verwenden, wird der erzeugte Hash der folgende 256-Bit-Fingerabdruck sein:
 
 ```text
 24f1b93b68026bfc24f5c8265f287b4c940fb1664b0d75053589d7a4f821b688
@@ -88,7 +88,7 @@ Diese kryptografischen Hash-Funktionen haben mehrere wesentliche Eigenschaften, 
 
 Unumkehrbarkeit bedeutet, dass es einfach ist, den Hash aus den Eingangsinformationen zu berechnen, aber die umgekehrte Berechnung, also das Finden der Eingabe aus dem Hash, praktisch unmöglich ist. Diese Eigenschaft macht Hash-Funktionen perfekt für die Erstellung einzigartiger digitaler Fingerabdrücke, ohne die ursprünglichen Informationen zu kompromittieren. Diese Eigenschaft wird oft als Einwegfunktion oder "_Falltürfunktion_" bezeichnet.
 
-Im gegebenen Beispiel ist es einfach und schnell, den Hash `24f1b9…` zu erhalten, wenn man die Eingabe "_PlanB_" kennt. Jedoch ist es unmöglich, die Nachricht "_PlanB_" zu finden, wenn man nur `24f1b9…` kennt.
+Im gegebenen Beispiel ist es einfach und schnell, den Hash `24f1b9…` zu erhalten, wenn man die Eingabe "_Plan ₿_" kennt. Jedoch ist es unmöglich, die Nachricht "_Plan ₿_" zu finden, wenn man nur `24f1b9…` kennt.
 
 ![CYP201](assets/fr/002.webp)
 
@@ -97,7 +97,7 @@ Daher ist es unmöglich, ein Preimage $m$ für einen Hash $h$ zu finden, so dass
 #### 2. Manipulationssicherheit (Lawineneffekt)
 
 Das zweite Merkmal ist die Manipulationssicherheit, auch bekannt als der **Lawineneffekt**. Dieses Merkmal wird bei einer Hash-Funktion beobachtet, wenn eine kleine Änderung in der Eingangsnachricht eine radikale Änderung im Ausgabe-Hash bewirkt.
-Wenn wir zu unserem Beispiel mit der Eingabe "_PlanB_" und der SHA256-Funktion zurückkehren, haben wir gesehen, dass der generierte Hash wie folgt ist:
+Wenn wir zu unserem Beispiel mit der Eingabe "_Plan ₿_" und der SHA256-Funktion zurückkehren, haben wir gesehen, dass der generierte Hash wie folgt ist:
 
 ```text
 24f1b93b68026bfc24f5c8265f287b4c940fb1664b0d75053589d7a4f821b688
@@ -724,7 +724,7 @@ Wir verwenden ein endliches Feld ganzer Zahlen modulo $p$, um die Genauigkeit de
 
 Die Mathematik der elliptischen Kurven über endlichen Feldern ist analog zu der über dem Feld der reellen Zahlen, mit der Anpassung, dass alle Operationen modulo $p$ durchgeführt werden. Um die Erklärungen zu vereinfachen, werden wir in den folgenden Kapiteln weiterhin Konzepte anhand einer Kurve, die über reelle Zahlen definiert ist, veranschaulichen, während wir im Hinterkopf behalten, dass die Kurve in der Praxis über ein endliches Feld definiert ist.
 
-Wenn Sie mehr über die mathematischen Grundlagen der modernen Kryptographie erfahren möchten, empfehle ich auch, diesen anderen Kurs im Plan B Network zu konsultieren:
+Wenn Sie mehr über die mathematischen Grundlagen der modernen Kryptographie erfahren möchten, empfehle ich auch, diesen anderen Kurs im Plan ₿ Network zu konsultieren:
 
 https://planb.network/courses/cyp302
 
@@ -1150,7 +1150,7 @@ Wenn man mehrere private Schlüssel verwenden wollte, war es dann notwendig, ebe
 
 Diese Einschränkung ergibt sich aus dem Datenschutzmodell von Bitcoin. Durch die Wiederverwendung derselben Adresse wird es externen Beobachtern leichter gemacht, alle meine Bitcoin-Transaktionen nachzuverfolgen. Deshalb wird dringend davon abgeraten, eine Empfangsadresse wiederzuverwenden. Um jedoch mehrere Adressen zu haben und unsere Transaktionen öffentlich zu trennen, ist es notwendig, mehrere private Schlüssel zu verwalten. Im Falle von JBOK-Wallets impliziert dies, so viele Backups zu erstellen, wie es neue Schlüsselpaare gibt, eine Aufgabe, die schnell komplex und für die Benutzer schwer zu pflegen werden kann.
 
-Um mehr über das Datenschutzmodell von Bitcoin zu erfahren und Methoden zum Schutz Ihrer Privatsphäre zu entdecken, empfehle ich auch, meinem BTC204-Kurs im Plan B Network zu folgen:
+Um mehr über das Datenschutzmodell von Bitcoin zu erfahren und Methoden zum Schutz Ihrer Privatsphäre zu entdecken, empfehle ich auch, meinem BTC204-Kurs im Plan ₿ Network zu folgen:
 
 https://planb.network/courses/btc204
 
@@ -1237,7 +1237,7 @@ Beispielsweise ergibt eine 256-Bit-Entropie das Ergebnis $\text{ENT} \Vert \text
 
 ### Umwandlung der Binärsequenz in eine mnemonische Phrase
 
-Die Bitsequenz $\text{ENT} \Vert \text{CS}$ wird dann in Segmente von 11 Bits unterteilt. Jedes 11-Bit-Segment, einmal in Dezimal umgewandelt, entspricht einer Zahl zwischen 0 und 2047, die die Position eines Wortes [in einer Liste von 2048 durch BIP39 standardisierten Wörtern](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf) bezeichnet.
+Die Bitsequenz $\text{ENT} \Vert \text{CS}$ wird dann in Segmente von 11 Bits unterteilt. Jedes 11-Bit-Segment, einmal in Dezimal umgewandelt, entspricht einer Zahl zwischen 0 und 2047, die die Position eines Wortes [in einer Liste von 2048 durch BIP39 standardisierten Wörtern](https://github.com/Plan ₿-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf) bezeichnet.
 
 ![CYP201](assets/fr/037.webp)
 Zum Beispiel beträgt bei einer 128-Bit-Entropie die Prüfsumme 4 Bits, und somit misst die gesamte Sequenz 132 Bits. Sie wird in 12 Segmente zu je 11 Bits unterteilt (die orangefarbenen Bits bezeichnen die Prüfsumme):
@@ -2246,6 +2246,6 @@ Und damit haben wir das Ende dieses CYP201-Kurses erreicht. Wenn Sie diesen Kurs
 Wir haben das Ende des CYP201-Kurses erreicht. Ich hoffe, er war hilfreich für Ihr Lernen über Bitcoin und hat es Ihnen ermöglicht, die Funktionsweise der HD-Wallets, die Sie täglich verwenden, besser zu verstehen. Vielen Dank, dass Sie diesem Kurs bis zum Ende gefolgt sind!
 Meiner Meinung nach ist Wissen über Wallets grundlegend, da es einen theoretischen Aspekt von Bitcoin mit seiner praktischen Nutzung verbindet. Tatsächlich, wenn Sie Bitcoin verwenden, handhaben Sie unweigerlich Wallet-Software. Zu verstehen, wie sie funktionieren, ermöglicht es Ihnen, effektive Sicherheitsstrategien zu implementieren, während Sie die zugrundeliegenden Mechanismen, Risiken und potenziellen Schwächen beherrschen. So können Sie Bitcoin sicherer und mit Vertrauen verwenden.
 Falls Sie es noch nicht getan haben, lade ich Sie ein, diesen Kurs zu bewerten und zu kommentieren. Das würde mir enorm helfen. Sie können diesen Kurs auch in Ihren sozialen Netzwerken teilen, um dieses Wissen mit so vielen Menschen wie möglich zu teilen.
-Um Ihre Reise weiter in den Kaninchenbau zu verfolgen, empfehle ich Ihnen dringend den **BTC204** Kurs, den ich ebenfalls auf dem Plan B Network produziert habe. Er widmet sich der Privatsphäre bei Bitcoin und erkundet Schlüsselthemen: Was ist das Datenschutzmodell? Wie funktioniert Kettenanalyse? Wie verwendet man Bitcoin optimal, um die eigene Privatsphäre zu maximieren? Ein logischer nächster Schritt, um Ihre Fähigkeiten zu vertiefen!
+Um Ihre Reise weiter in den Kaninchenbau zu verfolgen, empfehle ich Ihnen dringend den **BTC204** Kurs, den ich ebenfalls auf dem Plan ₿ Network produziert habe. Er widmet sich der Privatsphäre bei Bitcoin und erkundet Schlüsselthemen: Was ist das Datenschutzmodell? Wie funktioniert Kettenanalyse? Wie verwendet man Bitcoin optimal, um die eigene Privatsphäre zu maximieren? Ein logischer nächster Schritt, um Ihre Fähigkeiten zu vertiefen!
 
 https://planb.network/courses/btc204

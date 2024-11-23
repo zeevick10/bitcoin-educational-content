@@ -1329,7 +1329,7 @@ Rahoitusjärjestelmän muuttaminen edellyttää valuutan muuttamista. Satoshi lo
 
 <chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
 
-Onnittelut BTC 101 -koulutuksen suorittamisesta! Toivon sydämestäni, että pidit siitä ja se avasi sinulle uusia ovia. Bitcoin-matkasi on vasta alussa, ja kutsun sinut tutustumaan kaikkiin muihin PlanB Networkissa saatavilla oleviin kursseihin:
+Onnittelut BTC 101 -koulutuksen suorittamisesta! Toivon sydämestäni, että pidit siitä ja se avasi sinulle uusia ovia. Bitcoin-matkasi on vasta alussa, ja kutsun sinut tutustumaan kaikkiin muihin Plan ₿ Networkissa saatavilla oleviin kursseihin:
 
 #### Hanki ja turvaa ensimmäiset bitcoinisi kurssilla
 

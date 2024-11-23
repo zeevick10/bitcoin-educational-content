@@ -1337,7 +1337,7 @@ Finantssüsteemi muutmine nõuab valuuta muutmist. Satoshi lõi Bitcoini 2008. a
 
 <chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
 
-Õnnitlused BTC 101 koolituse lõpetamise puhul! Loodan siiralt, et see meeldis teile ja avas uusi uksi. Teie Bitcoini avastamine on alles alguses ja kutsun teid tutvuma kõigi teiste PlanB Networkis saadaolevate kursustega:
+Õnnitlused BTC 101 koolituse lõpetamise puhul! Loodan siiralt, et see meeldis teile ja avas uusi uksi. Teie Bitcoini avastamine on alles alguses ja kutsun teid tutvuma kõigi teiste Plan ₿ Networkis saadaolevate kursustega:
 
 #### Saage ja turvake oma esimesed bitcoinid kursusega
 

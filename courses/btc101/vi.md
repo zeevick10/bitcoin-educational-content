@@ -1341,7 +1341,7 @@ Thay đổi hệ thống tài chính đòi hỏi phải thay đổi tiền tệ.
 
 <chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
 
-Chúc mừng bạn đã hoàn thành khóa học BTC 101! Tôi chân thành hy vọng rằng bạn đã thích nó và nó đã mở ra những cánh cửa mới cho bạn. Hành trình khám phá Bitcoin của bạn mới chỉ bắt đầu và tôi mời bạn khám phá tất cả các khóa học khác có sẵn trên PlanB Network:
+Chúc mừng bạn đã hoàn thành khóa học BTC 101! Tôi chân thành hy vọng rằng bạn đã thích nó và nó đã mở ra những cánh cửa mới cho bạn. Hành trình khám phá Bitcoin của bạn mới chỉ bắt đầu và tôi mời bạn khám phá tất cả các khóa học khác có sẵn trên Plan ₿ Network:
 
 #### Nhận và bảo mật bitcoin đầu tiên của bạn với
 

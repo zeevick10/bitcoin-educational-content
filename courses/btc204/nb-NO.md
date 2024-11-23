@@ -1253,7 +1253,7 @@ Blant andre metoder for å skaffe bitcoins samtidig som du beskytter ditt person
 
 En annen metode består i å jobbe i bytte mot bitcoins. Denne anskaffelsesmetoden kan være interessant, men graden av identifikasjon som kreves varierer sterkt avhengig av omstendighetene.
 
-\_For å skrive dette kapittelet, brukte jeg kurset [BTC205](https://planb.network/fr/courses/btc205) skapt av [@pivi\_\_\_](https://x.com/pivi___) på PlanB Network (tilgjengelig kun på fransk for øyeblikket).\_
+\_For å skrive dette kapittelet, brukte jeg kurset [BTC205](https://planb.network/fr/courses/btc205) skapt av [@pivi\_\_\_](https://x.com/pivi___) på Plan ₿ Network (tilgjengelig kun på fransk for øyeblikket).\_
 
 ## Konsolidering, UTXO-håndtering, og CIOH
 
@@ -2591,7 +2591,7 @@ Disse avatarer kan også representeres i form av bilder:
 ![BTC204](assets/notext/66/6.webp)
 
 Selv om disse robotene ikke har en spesifikk teknisk funksjonalitet innenfor rammen av BIP47, spiller de en rolle i å lette interaksjoner mellom brukere ved å tilby en lett gjenkjennelig visuell identitet.
-I de følgende avsnittene av dette kapittelet dedikert til BIP47, vil vi undersøke i detalj hvordan det fungerer, med spesiell vekt på de kryptografiske metodene som brukes. For å fullt ut forstå disse noe tekniske forklaringene, er det essensielt å først forstå strukturen til HD-lommebøker, nøkkelavledningsprosessene og de grunnleggende prinsippene for kryptografi basert på elliptiske kurver. Hvis du ønsker å fordype deg i disse konseptene, er et annet gratis kurs tilgjengelig på PlanB Network: [CRYPTO 301](https://planb.network/en/courses/crypto301). Jeg råder deg likevel til å følge dem, da forståelsen av den tekniske funksjonen til BIP47 vil gjøre det mye enklere for deg å forstå andre lignende forslag som vi vil diskutere i de følgende kapitlene.
+I de følgende avsnittene av dette kapittelet dedikert til BIP47, vil vi undersøke i detalj hvordan det fungerer, med spesiell vekt på de kryptografiske metodene som brukes. For å fullt ut forstå disse noe tekniske forklaringene, er det essensielt å først forstå strukturen til HD-lommebøker, nøkkelavledningsprosessene og de grunnleggende prinsippene for kryptografi basert på elliptiske kurver. Hvis du ønsker å fordype deg i disse konseptene, er et annet gratis kurs tilgjengelig på Plan ₿ Network: [CRYPTO 301](https://planb.network/en/courses/crypto301). Jeg råder deg likevel til å følge dem, da forståelsen av den tekniske funksjonen til BIP47 vil gjøre det mye enklere for deg å forstå andre lignende forslag som vi vil diskutere i de følgende kapitlene.
 
 ### Gjenbrukbar Betalingskode
 
@@ -3611,6 +3611,6 @@ Gratulerer med å ha fullført denne opplæringen om personvern i Bitcoin!
 Vi har dekket mange avanserte og tekniske emner i denne opplæringen, men det er ikke nødvendig å bruke alle verktøyene som er presentert. Hovedmålet var å gi deg muligheten til å velge hvilken informasjon du ønsker å avsløre og hvilken informasjon du foretrekker å holde konfidensiell i din bruk av Bitcoin. Dette er selve essensen av beskyttelse av personvern. For å ta informerte valg om informasjonen som skal deles eller skjules, er det nødvendig å være klar over implikasjonene av våre handlinger. Jeg håper denne opplæringen har hjulpet deg med å oppnå denne kunnskapen.
 Hvis jeg måtte velge den viktigste delen av denne opplæringen, ville jeg valgt seksjonen som er viet til kjedeanalyse. Å forstå teknikkene som potensielle angripere bruker, er den beste måten å beskytte seg selv på. Derfor ville mitt råd være å nøye gjennomgå denne delen og forsøke å forstå alle detaljene.
 
-I denne opplæringen fokuserte vi utelukkende på Bitcoins personvern på hovedkjeden. Personvernsproblemer på sekundærlagssystemer, som Lightning Network og sidekjeder, er også betydelige og har veldig spesifikke egenskaper. Selv om bruk av transaksjoner utenfor kjeden kan være en effektiv strategi for å omgå de mange sporbarhetsrisikoene på Bitcoin som vi har studert, eksponerer det deg for andre risikoer som også er essensielle å være klar over. Det er derfor disse emnene vil bli dekket i en fremtidig dedikert opplæring på PlanB Network.
+I denne opplæringen fokuserte vi utelukkende på Bitcoins personvern på hovedkjeden. Personvernsproblemer på sekundærlagssystemer, som Lightning Network og sidekjeder, er også betydelige og har veldig spesifikke egenskaper. Selv om bruk av transaksjoner utenfor kjeden kan være en effektiv strategi for å omgå de mange sporbarhetsrisikoene på Bitcoin som vi har studert, eksponerer det deg for andre risikoer som også er essensielle å være klar over. Det er derfor disse emnene vil bli dekket i en fremtidig dedikert opplæring på Plan ₿ Network.
 
 Hvis du likte denne opplæringen, ville jeg være veldig takknemlig hvis du kunne dele den med vennene dine og på sosiale medier. Takk! :)

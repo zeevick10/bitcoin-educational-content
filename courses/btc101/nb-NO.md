@@ -1331,7 +1331,7 @@ Bitcoin kan ikke lenger stoppes og kan ikke lenger sensureres. Det er en fredeli
 
 <chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
 
-Gratulerer med fullført BTC 101-kurs! Jeg håper inderlig at du likte det og at det åpnet nye dører for deg. Din oppdagelsesreise med Bitcoin har bare begynt, og jeg inviterer deg til å utforske alle de andre kursene som er tilgjengelige på PlanB Network:
+Gratulerer med fullført BTC 101-kurs! Jeg håper inderlig at du likte det og at det åpnet nye dører for deg. Din oppdagelsesreise med Bitcoin har bare begynt, og jeg inviterer deg til å utforske alle de andre kursene som er tilgjengelige på Plan ₿ Network:
 
 #### Få og sikre dine første bitcoins med
 

@@ -1379,7 +1379,7 @@ Changing the financial system requires changing the currency. Satoshi created Bi
 
 <chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
 
-Congratulations on completing this BTC 101 training! I sincerely hope you enjoyed it and that it opened new doors for you. Your discovery of Bitcoin is just beginning and I invite you to explore all the other courses available on PlanB Network:
+Congratulations on completing this BTC 101 training! I sincerely hope you enjoyed it and that it opened new doors for you. Your discovery of Bitcoin is just beginning and I invite you to explore all the other courses available on Plan ₿ Network:
 
 #### Get and secure your first bitcoins with
 

@@ -67,7 +67,7 @@ El primer tipo de algoritmos criptográficos utilizados en Bitcoin abarca las fu
 El hashing es un proceso que transforma información de longitud arbitraria en otra pieza de información de longitud fija a través de una función hash criptográfica. En otras palabras, una función hash toma una entrada de cualquier tamaño y la convierte en una huella digital de tamaño fijo, llamada "hash".
 El hash también puede ser referido a veces como "digest", "condensado", o "hasheado".
 
-Por ejemplo, la función hash SHA256 produce un hash de una longitud fija de 256 bits. Así, si usamos la entrada "_PlanB_", un mensaje de longitud arbitraria, el hash generado será la siguiente huella digital de 256 bits:
+Por ejemplo, la función hash SHA256 produce un hash de una longitud fija de 256 bits. Así, si usamos la entrada "_Plan ₿_", un mensaje de longitud arbitraria, el hash generado será la siguiente huella digital de 256 bits:
 
 ```text
 24f1b93b68026bfc24f5c8265f287b4c940fb1664b0d75053589d7a4f821b688
@@ -88,7 +88,7 @@ Estas funciones hash criptográficas tienen varias características esenciales q
 
 La irreversibilidad significa que es fácil calcular el hash a partir de la información de entrada, pero el cálculo inverso, es decir, encontrar la entrada a partir del hash, es prácticamente imposible. Esta propiedad hace que las funciones hash sean perfectas para crear huellas digitales únicas sin comprometer la información original. Esta característica se conoce a menudo como una función unidireccional o una "_función de trampa_".
 
-En el ejemplo dado, obtener el hash `24f1b9…` sabiendo la entrada "_PlanB_" es simple y rápido. Sin embargo, encontrar el mensaje "_PlanB_" solo sabiendo `24f1b9…` es imposible.
+En el ejemplo dado, obtener el hash `24f1b9…` sabiendo la entrada "_Plan ₿_" es simple y rápido. Sin embargo, encontrar el mensaje "_Plan ₿_" solo sabiendo `24f1b9…` es imposible.
 
 ![CYP201](assets/fr/002.webp)
 
@@ -97,7 +97,7 @@ Por lo tanto, es imposible encontrar una preimagen $m$ para un hash $h$ tal que 
 #### 2. Resistencia a la manipulación (efecto avalancha)
 
 La segunda característica es la resistencia a la manipulación, también conocida como el **efecto avalancha**. Esta característica se observa en una función hash si un pequeño cambio en el mensaje de entrada resulta en un cambio radical en el hash de salida.
-Si volvemos a nuestro ejemplo con la entrada "_PlanB_" y la función SHA256, hemos visto que el hash generado es el siguiente:
+Si volvemos a nuestro ejemplo con la entrada "_Plan ₿_" y la función SHA256, hemos visto que el hash generado es el siguiente:
 
 ```text
 24f1b93b68026bfc24f5c8265f287b4c940fb1664b0d75053589d7a4f821b688
@@ -723,7 +723,7 @@ Usamos un campo finito de enteros módulo $p$ para asegurar la precisión de las
 
 La matemática de las curvas elípticas sobre campos finitos es análoga a la de los campos de números reales, con la adaptación de que todas las operaciones se realizan módulo $p$. Para simplificar las explicaciones, continuaremos en los siguientes capítulos ilustrando conceptos usando una curva definida sobre números reales, mientras mantenemos en mente que, en la práctica, la curva está definida sobre un campo finito.
 
-Si deseas aprender más sobre los fundamentos matemáticos de la criptografía moderna, también recomiendo consultar este otro curso en Plan B Network:
+Si deseas aprender más sobre los fundamentos matemáticos de la criptografía moderna, también recomiendo consultar este otro curso en Plan ₿ Network:
 
 https://planb.network/courses/cyp302
 
@@ -1149,7 +1149,7 @@ Si se deseaba utilizar múltiples claves privadas, entonces era necesario hacer 
 
 Esta restricción proviene del modelo de privacidad de Bitcoin. Al reutilizar la misma dirección, facilita a los observadores externos rastrear todas mis transacciones de Bitcoin. Es por eso que se desaconseja fuertemente reutilizar una dirección de recepción. Sin embargo, para tener múltiples direcciones y separar públicamente nuestras transacciones, es necesario gestionar múltiples claves privadas. En el caso de las billeteras JBOK, esto implica crear tantas copias de seguridad como nuevos pares de claves, una tarea que rápidamente puede volverse compleja y difícil de mantener para los usuarios.
 
-Para aprender más sobre el modelo de privacidad de Bitcoin y descubrir métodos para proteger tu privacidad, también recomiendo seguir mi curso BTC204 en Plan B Network:
+Para aprender más sobre el modelo de privacidad de Bitcoin y descubrir métodos para proteger tu privacidad, también recomiendo seguir mi curso BTC204 en Plan ₿ Network:
 
 https://planb.network/courses/btc204
 
@@ -1237,7 +1237,7 @@ Por ejemplo, para una entropía de 256 bits, el resultado $\text{ENT} \Vert \tex
 
 ### Conversión de la Secuencia Binaria en una Frase Mnemotécnica
 
-La secuencia de bits $\text{ENT} \Vert \text{CS}$ se divide entonces en segmentos de 11 bits. Cada segmento de 11 bits, una vez convertido a decimal, corresponde a un número entre 0 y 2047, que designa la posición de una palabra [en una lista de 2048 palabras estandarizadas por el BIP39](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
+La secuencia de bits $\text{ENT} \Vert \text{CS}$ se divide entonces en segmentos de 11 bits. Cada segmento de 11 bits, una vez convertido a decimal, corresponde a un número entre 0 y 2047, que designa la posición de una palabra [en una lista de 2048 palabras estandarizadas por el BIP39](https://github.com/Plan ₿-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
 
 ![CYP201](assets/fr/037.webp)
 Por ejemplo, para una entropía de 128 bits, la suma de verificación es de 4 bits, y así la secuencia total mide 132 bits. Se divide en 12 segmentos de 11 bits (los bits naranjas designan la suma de verificación):
@@ -2294,7 +2294,7 @@ Luego, la generación de la dirección sigue el mismo proceso, utilizando la cla
 Hemos llegado al final del curso CYP201. Espero que haya sido útil en tu aprendizaje sobre Bitcoin y te haya permitido entender mejor el funcionamiento de las billeteras HD que usas diariamente. ¡Gracias por seguir este curso hasta el final!
 En mi opinión, el conocimiento sobre billeteras es fundamental porque conecta un aspecto teórico de Bitcoin con su uso práctico. De hecho, si usas Bitcoin, inevitablemente manejas software de billetera. Entender cómo funcionan te permite implementar estrategias de seguridad efectivas mientras dominas los mecanismos subyacentes, riesgos y potenciales debilidades. Así, puedes usar Bitcoin de manera más segura y con confianza.
 Si aún no lo has hecho, te invito a que califiques y comentes sobre este curso. Me ayudaría enormemente. También puedes compartir este curso en tus redes sociales para difundir este conocimiento a tantas personas como sea posible.
-Para continuar tu viaje por la madriguera del conejo, te recomiendo altamente el curso **BTC204**, que también produje en Plan B Network. Está dedicado a la privacidad en Bitcoin y explora temas clave: ¿Cuál es el modelo de privacidad? ¿Cómo funciona el análisis de cadena? ¿Cómo usar Bitcoin de manera óptima para maximizar tu privacidad? ¡Un siguiente paso lógico para profundizar tus habilidades!
+Para continuar tu viaje por la madriguera del conejo, te recomiendo altamente el curso **BTC204**, que también produje en Plan ₿ Network. Está dedicado a la privacidad en Bitcoin y explora temas clave: ¿Cuál es el modelo de privacidad? ¿Cómo funciona el análisis de cadena? ¿Cómo usar Bitcoin de manera óptima para maximizar tu privacidad? ¡Un siguiente paso lógico para profundizar tus habilidades!
 
 https://planb.network/courses/btc204
 

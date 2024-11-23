@@ -69,7 +69,7 @@ The first type of cryptographic algorithms used on Bitcoin encompasses hash func
 Hashing is a process that transforms information of arbitrary length into another piece of information of fixed length through a cryptographic hash function. In other words, a hash function takes an input of any size and converts it into a fixed-size fingerprint, called a "hash".
 The hash can also sometimes be referred to as "digest", "condensate", "condensed", or "hashed".
 
-For example, the SHA256 hash function produces a hash of a fixed length of 256 bits. Thus, if we use the input "_PlanB_", a message of arbitrary length, the generated hash will be the following 256-bit fingerprint:
+For example, the SHA256 hash function produces a hash of a fixed length of 256 bits. Thus, if we use the input "_Plan ₿_", a message of arbitrary length, the generated hash will be the following 256-bit fingerprint:
 
 ```text
 24f1b93b68026bfc24f5c8265f287b4c940fb1664b0d75053589d7a4f821b688
@@ -90,7 +90,7 @@ These cryptographic hash functions have several essential characteristics that m
 
 Irreversibility means that it is easy to calculate the hash from the input information, but the inverse calculation, that is, finding the input from the hash, is practically impossible. This property makes hash functions perfect for creating unique digital fingerprints without compromising the original information. This characteristic is often referred to as a one-way function or a "_trap door function_".
 
-In the given example, obtaining the hash `24f1b9…` by knowing the input "_PlanB_" is simple and quick. However, finding the message "_PlanB_" by only knowing `24f1b9…` is impossible.
+In the given example, obtaining the hash `24f1b9…` by knowing the input "_Plan ₿_" is simple and quick. However, finding the message "_Plan ₿_" by only knowing `24f1b9…` is impossible.
 
 ![CYP201](assets/fr/002.webp)
 
@@ -100,7 +100,7 @@ Therefore, it is impossible to find a preimage $m$ for a hash $h$ such that $h =
 
 The second characteristic is tamper resistance, also known as the **avalanche effect**. This characteristic is observed in a hash function if a small change in the input message results in a radical change in the output hash.
 
-If we go back to our example with the input "_PlanB_" and the SHA256 function, we have seen that the generated hash is as follows:
+If we go back to our example with the input "_Plan ₿_" and the SHA256 function, we have seen that the generated hash is as follows:
 
 ```text
 24f1b93b68026bfc24f5c8265f287b4c940fb1664b0d75053589d7a4f821b688
@@ -742,7 +742,7 @@ We use a finite field of integers modulo $p$ to ensure the accuracy of operation
 
 The mathematics of elliptic curves over finite fields are analogous to those over the field of real numbers, with the adaptation that all operations are performed modulo $p$. To simplify explanations, we will continue in the following chapters to illustrate concepts using a curve defined over real numbers, while keeping in mind that, in practice, the curve is defined over a finite field.
 
-If you wish to learn more about the mathematical foundations of modern cryptography, I also recommend consulting this other course on Plan B Network:
+If you wish to learn more about the mathematical foundations of modern cryptography, I also recommend consulting this other course on Plan ₿ Network:
 
 https://planb.network/courses/cyp302
 
@@ -1189,7 +1189,7 @@ If one wished to use multiple private keys, it was then necessary to make as man
 
 This constraint stems from Bitcoin's privacy model. By reusing the same address, it makes it easier for external observers to trace all of my Bitcoin transactions. That's why reusing a receiving address is strongly discouraged. However, to have multiple addresses and publicly separate our transactions, it is necessary to manage multiple private keys. In the case of JBOK wallets, this implies creating as many backups as there are new pairs of keys, a task that can quickly become complex and difficult to maintain for users.
 
-To learn more about Bitcoin's privacy model and discover methods to protect your privacy, I also recommend following my BTC204 course on Plan B Network:
+To learn more about Bitcoin's privacy model and discover methods to protect your privacy, I also recommend following my BTC204 course on Plan ₿ Network:
 
 https://planb.network/courses/btc204
 
@@ -1289,7 +1289,7 @@ For example, for a 256-bit entropy, the result $\text{ENT} \Vert \text{CS}$ is 2
 
 ### Conversion of the Binary Sequence into a Mnemonic Phrase
 
-The bit sequence $\text{ENT} \Vert \text{CS}$ is then divided into segments of 11 bits. Each 11-bit segment, once converted to decimal, corresponds to a number between 0 and 2047, which designates the position of a word [in a list of 2048 words standardized by BIP39](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
+The bit sequence $\text{ENT} \Vert \text{CS}$ is then divided into segments of 11 bits. Each 11-bit segment, once converted to decimal, corresponds to a number between 0 and 2047, which designates the position of a word [in a list of 2048 words standardized by BIP39](https://github.com/Plan ₿-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
 
 ![CYP201](assets/fr/037.webp)
 
@@ -2390,7 +2390,7 @@ In my opinion, knowledge about wallets is fundamental because it connects a theo
 
 If you haven't done so yet, I invite you to rate and comment on this course. It would help me enormously. You can also share this course on your social networks to spread this knowledge to as many people as possible.
 
-To continue your journey down the rabbit hole, I highly recommend the **BTC204** course, which I also produced on Plan B Network. It is dedicated to privacy on Bitcoin and explores key themes: What is the privacy model? How does chain analysis work? How to use Bitcoin optimally to maximize your privacy? A logical next step to deepen your skills!
+To continue your journey down the rabbit hole, I highly recommend the **BTC204** course, which I also produced on Plan ₿ Network. It is dedicated to privacy on Bitcoin and explores key themes: What is the privacy model? How does chain analysis work? How to use Bitcoin optimally to maximize your privacy? A logical next step to deepen your skills!
 
 https://planb.network/courses/btc204
 $$

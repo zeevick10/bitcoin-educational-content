@@ -1034,6 +1034,6 @@ Vous avez terminé la formation LN 201 – Introduction au Lightning Network ! V
 
 Un grand merci à **Fanis Michalakis** pour nous avoir offert ce super cours gratuit sur le fonctionnement technique du Lightning Network. N’hésitez pas à le suivre sur [Twitter](https://x.com/FanisMichalakis), sur [son blog](https://fanismichalakis.fr/) ou via son travail chez [LN Markets](https://lnmarkets.com/).
 
-Maintenant que vous maîtrisez le Lightning Network, je vous invite à explorer [nos autres cours gratuits sur PlanB Network](https://planb.network/courses) pour approfondir les autres aspects de l'invention de Satoshi Nakamoto.
+Maintenant que vous maîtrisez le Lightning Network, je vous invite à explorer [nos autres cours gratuits sur Plan ₿ Network](https://planb.network/courses) pour approfondir les autres aspects de l'invention de Satoshi Nakamoto.
 
 Rogzy

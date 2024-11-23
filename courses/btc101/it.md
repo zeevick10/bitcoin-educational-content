@@ -1324,7 +1324,7 @@ Cambiare il sistema finanziario richiede di cambiare la valuta. Satoshi ha creat
 
 <chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
 
-Congratulazioni per aver completato il corso BTC 101! Spero di cuore che ti sia piaciuto e che ti abbia aperto nuove porte. La tua scoperta di Bitcoin è solo all'inizio e ti invito a esplorare tutti gli altri corsi disponibili su PlanB Network:
+Congratulazioni per aver completato il corso BTC 101! Spero di cuore che ti sia piaciuto e che ti abbia aperto nuove porte. La tua scoperta di Bitcoin è solo all'inizio e ti invito a esplorare tutti gli altri corsi disponibili su Plan ₿ Network:
 
 #### Ottieni e proteggi i tuoi primi bitcoin con
 

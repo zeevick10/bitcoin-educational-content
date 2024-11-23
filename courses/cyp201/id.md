@@ -67,7 +67,7 @@ Jenis algoritma kriptografi pertama yang digunakan pada Bitcoin mencakup fungsi 
 Hashing adalah proses yang mengubah informasi dengan panjang sembarang menjadi potongan informasi dengan panjang tetap melalui fungsi hash kriptografi. Dengan kata lain, fungsi hash mengambil input dengan ukuran berapa pun dan mengubahnya menjadi sidik jari berukuran tetap, yang disebut "hash".
 Hash juga terkadang dapat disebut sebagai "digest", "condensate", "condensed", atau "hashed".
 
-Sebagai contoh, fungsi hash SHA256 menghasilkan hash dengan panjang tetap 256 bit. Jadi, jika kita menggunakan input "_PlanB_", sebuah pesan dengan panjang sembarang, hash yang dihasilkan akan menjadi sidik jari 256-bit berikut:
+Sebagai contoh, fungsi hash SHA256 menghasilkan hash dengan panjang tetap 256 bit. Jadi, jika kita menggunakan input "_Plan ₿_", sebuah pesan dengan panjang sembarang, hash yang dihasilkan akan menjadi sidik jari 256-bit berikut:
 
 ```text
 24f1b93b68026bfc24f5c8265f287b4c940fb1664b0d75053589d7a4f821b688
@@ -88,7 +88,7 @@ Fungsi hash kriptografi ini memiliki beberapa karakteristik esensial yang membua
 
 Irreversibilitas berarti mudah untuk menghitung hash dari informasi input, tetapi perhitungan terbalik, yaitu, menemukan input dari hash, praktis tidak mungkin. Sifat ini membuat fungsi hash sempurna untuk menciptakan sidik jari digital unik tanpa mengompromikan informasi asli. Karakteristik ini sering disebut sebagai fungsi satu arah atau "_fungsi pintu perangkap_".
 
-Dalam contoh yang diberikan, mendapatkan hash `24f1b9…` dengan mengetahui input "_PlanB_" adalah hal yang sederhana dan cepat. Namun, menemukan pesan "_PlanB_" hanya dengan mengetahui `24f1b9…` adalah hal yang mustahil.
+Dalam contoh yang diberikan, mendapatkan hash `24f1b9…` dengan mengetahui input "_Plan ₿_" adalah hal yang sederhana dan cepat. Namun, menemukan pesan "_Plan ₿_" hanya dengan mengetahui `24f1b9…` adalah hal yang mustahil.
 
 ![CYP201](assets/fr/002.webp)
 
@@ -98,7 +98,7 @@ Oleh karena itu, tidak mungkin menemukan preimage $m$ untuk hash $h$ sedemikian 
 
 Karakteristik kedua adalah ketahanan terhadap perubahan, juga dikenal sebagai **efek longsoran**. Karakteristik ini diamati pada fungsi hash jika perubahan kecil pada pesan masukan menghasilkan perubahan radikal pada hash keluaran.
 
-Jika kita kembali ke contoh kita dengan masukan "_PlanB_" dan fungsi SHA256, kita telah melihat bahwa hash yang dihasilkan adalah sebagai berikut:
+Jika kita kembali ke contoh kita dengan masukan "_Plan ₿_" dan fungsi SHA256, kita telah melihat bahwa hash yang dihasilkan adalah sebagai berikut:
 
 ```text
 24f1b93b68026bfc24f5c8265f287b4c940fb1664b0d75053589d7a4f821b688
@@ -686,7 +686,7 @@ Kita menggunakan lapangan terbatas bilangan bulat modulo $p$ untuk memastikan ak
 
 Matematika kurva eliptik di atas lapangan terbatas analog dengan yang di atas lapangan bilangan real, dengan adaptasi bahwa semua operasi dilakukan modulo $p$. Untuk menyederhanakan penjelasan, kita akan melanjutkan di bab-bab berikutnya untuk mengilustrasikan konsep menggunakan kurva yang didefinisikan di atas bilangan real, sambil tetap ingat bahwa, dalam praktiknya, kurva didefinisikan di atas lapangan terbatas.
 
-Jika Anda ingin mempelajari lebih lanjut tentang dasar-dasar matematika kriptografi modern, saya juga merekomendasikan untuk berkonsultasi dengan kursus lain di Jaringan Plan B:
+Jika Anda ingin mempelajari lebih lanjut tentang dasar-dasar matematika kriptografi modern, saya juga merekomendasikan untuk berkonsultasi dengan kursus lain di Jaringan Plan ₿:
 
 https://planb.network/courses/cyp302
 
@@ -1098,7 +1098,7 @@ Jika seseorang ingin menggunakan beberapa kunci privat, maka diperlukan untuk me
 
 Keterbatasan ini berasal dari model privasi Bitcoin. Dengan menggunakan alamat yang sama berulang kali, ini memudahkan pengamat eksternal untuk melacak semua transaksi Bitcoin saya. Itulah mengapa menggunakan kembali alamat penerima sangat tidak disarankan. Namun, untuk memiliki beberapa alamat dan memisahkan transaksi kita secara publik, diperlukan untuk mengelola beberapa kunci privat. Dalam kasus dompet JBOK, ini menyiratkan pembuatan banyak cadangan sebanyak pasangan kunci baru, tugas yang dapat dengan cepat menjadi kompleks dan sulit untuk dipertahankan bagi pengguna.
 
-Untuk mempelajari lebih lanjut tentang model privasi Bitcoin dan menemukan metode untuk melindungi privasi Anda, saya juga merekomendasikan mengikuti kursus BTC204 saya di Plan B Network:
+Untuk mempelajari lebih lanjut tentang model privasi Bitcoin dan menemukan metode untuk melindungi privasi Anda, saya juga merekomendasikan mengikuti kursus BTC204 saya di Plan ₿ Network:
 
 https://planb.network/courses/btc204
 
@@ -1186,7 +1186,7 @@ Misalnya, untuk entropi 256-bit, hasil $\text{ENT} \Vert \text{CS}$ adalah 264 b
 
 ### Konversi Urutan Biner menjadi Frasa Mnemonik
 
-Urutan bit $\text{ENT} \Vert \text{CS}$ kemudian dibagi menjadi segmen-segmen 11 bit. Setiap segmen 11-bit, setelah dikonversi ke desimal, sesuai dengan nomor antara 0 dan 2047, yang menunjukkan posisi kata [dalam daftar 2048 kata yang distandarisasi oleh BIP39](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
+Urutan bit $\text{ENT} \Vert \text{CS}$ kemudian dibagi menjadi segmen-segmen 11 bit. Setiap segmen 11-bit, setelah dikonversi ke desimal, sesuai dengan nomor antara 0 dan 2047, yang menunjukkan posisi kata [dalam daftar 2048 kata yang distandarisasi oleh BIP39](https://github.com/Plan ₿-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
 
 ![CYP201](assets/fr/037.webp)
 Misalnya, untuk entropi 128-bit, checksum adalah 4 bit, sehingga total urutan berukuran 132 bit. Ini dibagi menjadi 12 segmen dari 11 bit (bit oranye menunjukkan checksum):
@@ -2193,6 +2193,6 @@ Dan itulah! Kita telah mencapai akhir kursus CYP201 ini. Jika Anda merasa kursus
 Kita telah mencapai akhir kursus CYP201. Saya harap ini telah membantu dalam pembelajaran Anda tentang Bitcoin dan telah memungkinkan Anda untuk lebih memahami fungsi dompet HD yang Anda gunakan sehari-hari. Terima kasih telah mengikuti kursus ini sampai akhir!
 Menurut saya, pengetahuan tentang dompet adalah fundamental karena menghubungkan aspek teoretis Bitcoin dengan penggunaannya secara praktis. Memang, jika Anda menggunakan Bitcoin, Anda pasti menangani perangkat lunak dompet. Memahami cara kerjanya memungkinkan Anda untuk menerapkan strategi keamanan yang efektif sambil menguasai mekanisme, risiko, dan kelemahan potensial yang mendasarinya. Dengan demikian, Anda dapat menggunakan Bitcoin dengan lebih aman dan percaya diri.
 Jika Anda belum melakukannya, saya mengundang Anda untuk memberi nilai dan komentar tentang kursus ini. Hal tersebut akan sangat membantu saya. Anda juga dapat membagikan kursus ini di jejaring sosial Anda untuk menyebarkan pengetahuan ini kepada sebanyak mungkin orang.
-Untuk melanjutkan perjalanan Anda ke dalam lubang kelinci, saya sangat merekomendasikan kursus **BTC204**, yang juga saya produksi di Plan B Network. Kursus ini didedikasikan untuk privasi pada Bitcoin dan mengeksplorasi tema-tema kunci: Apa itu model privasi? Bagaimana cara kerja analisis rantai? Bagaimana menggunakan Bitcoin secara optimal untuk memaksimalkan privasi Anda? Sebuah langkah logis selanjutnya untuk memperdalam keterampilan Anda!
+Untuk melanjutkan perjalanan Anda ke dalam lubang kelinci, saya sangat merekomendasikan kursus **BTC204**, yang juga saya produksi di Plan ₿ Network. Kursus ini didedikasikan untuk privasi pada Bitcoin dan mengeksplorasi tema-tema kunci: Apa itu model privasi? Bagaimana cara kerja analisis rantai? Bagaimana menggunakan Bitcoin secara optimal untuk memaksimalkan privasi Anda? Sebuah langkah logis selanjutnya untuk memperdalam keterampilan Anda!
 
 https://planb.network/courses/btc204

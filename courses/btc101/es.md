@@ -1382,7 +1382,7 @@ Cambiar el sistema financiero requiere cambiar la moneda. Satoshi Nakamoto creó
 
 <chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
 
-¡Felicitaciones por completar el entrenamiento BTC 101! Espero de todo corazón que te haya gustado y que te haya abierto nuevas puertas. Tu descubrimiento de Bitcoin apenas está comenzando y te invito a explorar todos los otros cursos disponibles en PlanB Network:
+¡Felicitaciones por completar el entrenamiento BTC 101! Espero de todo corazón que te haya gustado y que te haya abierto nuevas puertas. Tu descubrimiento de Bitcoin apenas está comenzando y te invito a explorar todos los otros cursos disponibles en Plan ₿ Network:
 
 #### Obtén y asegura tus primeros bitcoins con
 

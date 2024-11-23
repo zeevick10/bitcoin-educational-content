@@ -66,7 +66,7 @@ První typ kryptografických algoritmů používaných na Bitcoinu zahrnuje haš
 Hašování je proces, který transformuje informace libovolné délky na jinou informaci pevné délky prostřednictvím kryptografické hašovací funkce. Jinými slovy, hašovací funkce přijme vstup jakékoli velikosti a převede jej na otisk pevné velikosti, nazývaný "hash".
 Hash může být také někdy označován jako "digest", "condensate", "condensed" nebo "hashed".
 
-Například hašovací funkce SHA256 produkuje hash pevné délky 256 bitů. Takže pokud použijeme vstup "_PlanB_", zprávu libovolné délky, vygenerovaný hash bude následující 256bitový otisk:
+Například hašovací funkce SHA256 produkuje hash pevné délky 256 bitů. Takže pokud použijeme vstup "_Plan ₿_", zprávu libovolné délky, vygenerovaný hash bude následující 256bitový otisk:
 
 ```text
 24f1b93b68026bfc24f5c8265f287b4c940fb1664b0d75053589d7a4f821b688
@@ -87,7 +87,7 @@ Tyto kryptografické hašovací funkce mají několik zásadních charakteristik
 
 Nezvratnost znamená, že je snadné vypočítat hash z vstupních informací, ale opačný výpočet, tj. nalezení vstupu z hash, je prakticky nemožné. Tato vlastnost činí hašovací funkce dokonalými pro vytváření unikátních digitálních otisků bez ohrožení původních informací. Tato charakteristika je často označována jako jednosměrná funkce nebo "_pastová funkce_".
 
-V daném příkladu, získání hash `24f1b9…` znalostí vstupu "_PlanB_" je jednoduché a rychlé. Nicméně, nalezení zprávy "_PlanB_" pouze znalostí `24f1b9…` je nemožné.
+V daném příkladu, získání hash `24f1b9…` znalostí vstupu "_Plan ₿_" je jednoduché a rychlé. Nicméně, nalezení zprávy "_Plan ₿_" pouze znalostí `24f1b9…` je nemožné.
 
 ![CYP201](assets/fr/002.webp)
 
@@ -96,7 +96,7 @@ Proto je nemožné najít preimage $m$ pro hash $h$ tak, že $h = \text{HASH}(m)
 #### 2. Odolnost proti manipulaci (lavina efekt)
 
 Druhá charakteristika je odolnost proti manipulaci, známá také jako **lavina efekt**. Tato charakteristika je pozorována u hašovací funkce, pokud malá změna ve vstupní zprávě způsobí radikální změnu ve výstupním haši.
-Pokud se vrátíme k našemu příkladu se vstupem "_PlanB_" a funkcí SHA256, viděli jsme, že generovaný haš je následující:
+Pokud se vrátíme k našemu příkladu se vstupem "_Plan ₿_" a funkcí SHA256, viděli jsme, že generovaný haš je následující:
 
 ```text
 24f1b93b68026bfc24f5c8265f287b4c940fb1664b0d75053589d7a4f821b688
@@ -686,7 +686,7 @@ Používáme konečné těleso celých čísel modulo $p$, abychom zajistili př
 
 Matematika eliptických křivek nad konečnými tělesy je analogická té nad tělesem reálných čísel, s adaptací, že všechny operace se provádějí modulo $p$. Abychom zjednodušili vysvětlení, budeme v následujících kapitolách pokračovat v ilustraci konceptů pomocí křivky definované nad reálnými čísly, přičemž si budeme pamatovat, že v praxi je křivka definována nad konečným tělesem.
 
-Pokud se chcete dozvědět více o matematických základech moderní kryptografie, doporučuji také konzultovat tento další kurz na Plan B Network:
+Pokud se chcete dozvědět více o matematických základech moderní kryptografie, doporučuji také konzultovat tento další kurz na Plan ₿ Network:
 
 https://planb.network/courses/cyp302
 
@@ -1099,7 +1099,7 @@ Pokud by člověk chtěl použít více soukromých klíčů, bylo poté nutné 
 
 Toto omezení vyplývá z modelu soukromí Bitcoinu. Opakovaným používáním stejné adresy usnadňujete externím pozorovatelům sledování všech mých transakcí s Bitcoinem. To je důvod, proč se důrazně nedoporučuje opakovaně používat přijímací adresu. Nicméně, abychom měli více adres a veřejně oddělili naše transakce, je nutné spravovat více soukromých klíčů. V případě JBOK peněženek to znamená vytvářet tolik záloh, kolik je nových párů klíčů, úkol, který se může rychle stát složitým a obtížně udržitelným pro uživatele.
 
-Pro více informací o modelu soukromí Bitcoinu a objevení metod, jak chránit vaše soukromí, doporučuji také sledovat můj kurz BTC204 na Plan B Network:
+Pro více informací o modelu soukromí Bitcoinu a objevení metod, jak chránit vaše soukromí, doporučuji také sledovat můj kurz BTC204 na Plan ₿ Network:
 
 https://planb.network/courses/btc204
 
@@ -1186,7 +1186,7 @@ Například pro entropii 256 bitů je výsledek $\text{ENT} \Vert \text{CS}$ 264
 
 ### Převod Binární Sekvence na Mnemonickou Frázi
 
-Bitová sekvence $\text{ENT} \Vert \text{CS}$ je poté rozdělena na segmenty po 11 bitech. Každý 11bitový segment, jednou převedený na desítkové číslo, odpovídá číslu mezi 0 a 2047, které určuje pozici slova [v seznamu 2048 slov standardizovaném BIP39](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
+Bitová sekvence $\text{ENT} \Vert \text{CS}$ je poté rozdělena na segmenty po 11 bitech. Každý 11bitový segment, jednou převedený na desítkové číslo, odpovídá číslu mezi 0 a 2047, které určuje pozici slova [v seznamu 2048 slov standardizovaném BIP39](https://github.com/Plan ₿-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
 
 ![CYP201](assets/fr/037.webp)
 Například pro 128bitovou entropii je kontrolní součet 4 bity, a celková sekvence tak měří 132 bitů. Je rozdělena na 12 segmentů po 11 bitech (oranžové bity označují kontrolní součet):
@@ -2194,6 +2194,6 @@ A to je vše! Dospěli jsme ke konci tohoto kurzu CYP201. Pokud jste tento kurz 
 Dospěli jsme ke konci kurzu CYP201. Doufám, že byl pro vaše učení o Bitcoinu užitečný a umožnil vám lépe porozumět fungování HD peněženek, které denně používáte. Děkuji, že jste tento kurz sledovali až do konce!
 Podle mého názoru je znalost o peněženkách zásadní, protože spojuje teoretický aspekt Bitcoinu s jeho praktickým použitím. Skutečně, pokud používáte Bitcoin, nevyhnutelně ovládáte software peněženky. Porozumění tomu, jak fungují, vám umožňuje implementovat efektivní strategie zabezpečení a zároveň ovládat základní mechanismy, rizika a potenciální slabiny. Tím můžete Bitcoin používat bezpečněji a s důvěrou.
 Pokud jste tak ještě neučinili, rád bych vás pozval k hodnocení a komentování tohoto kurzu. Pomohlo by mi to enormně. Můžete také sdílet tento kurz na svých sociálních sítích, aby se tato znalost dostala k co největšímu počtu lidí.
-Pokud chcete ve své cestě králičí norou pokračovat, vřele doporučuji kurz **BTC204**, který jsem také vytvořil na síti Plan B. Je věnován soukromí na Bitcoinu a prozkoumává klíčová témata: Jaký je model soukromí? Jak funguje analýza řetězců? Jak používat Bitcoin optimálně pro maximalizaci vašeho soukromí? Logický další krok pro prohloubení vašich dovedností!
+Pokud chcete ve své cestě králičí norou pokračovat, vřele doporučuji kurz **BTC204**, který jsem také vytvořil na síti Plan ₿. Je věnován soukromí na Bitcoinu a prozkoumává klíčová témata: Jaký je model soukromí? Jak funguje analýza řetězců? Jak používat Bitcoin optimálně pro maximalizaci vašeho soukromí? Logický další krok pro prohloubení vašich dovedností!
 
 https://planb.network/courses/btc204
