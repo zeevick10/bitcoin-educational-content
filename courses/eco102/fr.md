@@ -281,7 +281,6 @@ Finalement, la seule manière de débarrasser le monde de l’exploitation d’u
 
 Leurs idées, profondément novatrices, marqueront définitivement Frédéric Bastiat qui deviendra lui-même un profond penseur des crises politiques.
 
-
 ## Cobden et la Ligue
 
 <chapterId>7181435c-5eae-56e4-8e55-02a24273fdd6</chapterId>
@@ -505,7 +504,6 @@ Pour conclure, protectionnistes et socialistes ont un point commun, selon Bastia
 
 > L'État, c'est la grande fiction à travers laquelle tout le monde s'efforce de vivre aux dépens de tout le monde.
 
-
 ## Proudhon
 
 <chapterId>96902abd-6915-5b25-a187-a4790162b86c</chapterId>
@@ -556,7 +554,7 @@ Sans capital accumulé, sans matériaux, Robinson serait voué à la mort. Il ex
 - Il augmente la production, donc diminue le prix du bien à la consommation
 - Ce qui a pour effet d’augmenter le salaire.
 
-Dans la société moderne, le capital est une force égalisatrice. En effet, dit Bastiat: 
+Dans la société moderne, le capital est une force égalisatrice. En effet, dit Bastiat:
 
 > « quand les capitaux se multiplient, ils se font concurrence entre eux ; leur rémunération diminue, ou, en d’autres termes, l’intérêt baisse. »
 
@@ -584,7 +582,7 @@ Ainsi dans Travaux publics, Bastiat écrit :
 
 > L'État ouvre un chemin, bâtit un palais, redresse une rue, perce un canal; par-là, il donne du travail à certains ouvriers, c'est ce qu'on voit; mais il prive de travail certains autres, c'est ce qu'on ne voit pas.
 
-L’un des sophismes les plus connus est le sophisme de la vitre cassée. Certains prétendent que le bris d’une vitre dans une maison ne nuit pas à l’économie puisqu’il profite au vitrier. Mais Bastiat va montrer que la destruction n’est pas conforme à notre intérêt car elle ne créé pas de richesse. Elle coûte plus qu’elle ne rapporte. Le jeune garçon qui brise la fenêtre d'un voisin donne du travail au verrier. Mais voici que ses amis le consolent : 
+L’un des sophismes les plus connus est le sophisme de la vitre cassée. Certains prétendent que le bris d’une vitre dans une maison ne nuit pas à l’économie puisqu’il profite au vitrier. Mais Bastiat va montrer que la destruction n’est pas conforme à notre intérêt car elle ne créé pas de richesse. Elle coûte plus qu’elle ne rapporte. Le jeune garçon qui brise la fenêtre d'un voisin donne du travail au verrier. Mais voici que ses amis le consolent :
 
 > « À quelque chose malheur est bon. De tels accidents font aller l’industrie. Il faut que tout le mo nde vive. Que deviendraient les vitriers si on ne cassait jamais de vitres ».
 
@@ -1198,9 +1196,8 @@ Ecrit Frédéric Bastiat dans un court pamphlet intitulé L'État.
 
 <partId>3b62de5c-5d4a-5182-ab14-f7ef13c97e28</partId>
 
-
-
 ## Évaluez ce cours
+
 <chapterId>db20170d-ceb6-56cd-b4e5-c690942f8b29</chapterId>
 <isCourseReview>true</isCourseReview>
 
