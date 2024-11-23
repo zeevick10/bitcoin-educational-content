@@ -1,4 +1,4 @@
-question: Mikä on lohkon koko, jota SHA512 käyttää HMAC: ssa?
+question: Mikä on lohkon koko, jota SHA512 käyttää HMAC ssa?
 answer: 128 tavua
 wrong_answers:
   - 64 tavua

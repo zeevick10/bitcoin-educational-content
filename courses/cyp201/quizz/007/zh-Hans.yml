@@ -4,6 +4,6 @@ wrong_answers:
   - ShR移除了被移位的比特，RotR乘以它们的值
   - ShR向左移位，RotR向右移位
   - ShR是逻辑操作，RotR是算术操作
-reviewed:
+explanation: |
   ShR通过添加零向右移位，而RotR执行比特的循环旋转。
-reviewed:false
+reviewed: false
