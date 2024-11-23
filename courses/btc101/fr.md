@@ -1475,7 +1475,7 @@ https://planb.network/courses/btc102
 
 https://planb.network/courses/lnp201
 
-#### Découvrez l'école autrichienne de pensée économique avec
+#### Apprenez la pensée économique de l'École Autrichienne avec
 
 https://planb.network/courses/eco201
 

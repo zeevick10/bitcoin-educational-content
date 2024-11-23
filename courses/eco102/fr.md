@@ -1192,15 +1192,6 @@ Ecrit Frédéric Bastiat dans un court pamphlet intitulé L'État.
 
 ![image](assets/image/19/IMG9.webp)
 
-# Conclusion
-
-<partId>3b62de5c-5d4a-5182-ab14-f7ef13c97e28</partId>
-
-## Évaluez ce cours
-
-<chapterId>db20170d-ceb6-56cd-b4e5-c690942f8b29</chapterId>
-<isCourseReview>true</isCourseReview>
-
 ## La postérité de Frédéric Bastiat
 
 <chapterId>2a2a181a-e477-5be1-ba1f-af59490c364e</chapterId>
@@ -1242,3 +1233,51 @@ Si nous envisageons les choses sous cet angle, expliquait Reagan aux employés d
 ![image](assets/image/20/IMG10.webp)
 
 En substance, Reagan a retenu de Bastiat quelques éléments clés d’une vision libérale de la société de et de l’homme : le primat de la société civile sur l’État, la valeur du choix et de la responsabilité individuelle, l’importance de l’entrepreneur dans création de richesses, l’importance d’un cadre légal souple et minimal, qui permette la confiance et le respect des contrats, la loi fondamentale qui veut que la richesse soit créée avant d’être répartie, la volonté de donner à chacun sa chance sur des marchés concurrentiels…
+
+# Conclusion
+
+<partId>3b62de5c-5d4a-5182-ab14-f7ef13c97e28</partId>
+
+## Évaluez ce cours
+
+<chapterId>db20170d-ceb6-56cd-b4e5-c690942f8b29</chapterId>
+<isCourseReview>true</isCourseReview>
+
+## Examen final
+
+<chapterId>7e2285c9-d7f4-4e30-a1f5-f78aae06b7b3</chapterId>
+<isCourseExam>true</isCourseExam>
+
+## Conclusion
+
+<chapterId>a3e98f2f-a072-4696-9553-5d24c6d236c9</chapterId>
+
+Félicitations pour avoir terminé ce cours !
+
+Nous sommes ravis que vous ayez atteint cette étape importante dans votre parcours d'apprentissage. Grâce à votre dévouement et à votre engagement, vous avez acquis des connaissances et des compétences précieuses qui vous serviront dans votre développement professionnel.
+
+Pour continuer à explorer en profondeur l'univers du Bitcoin, nous vous invitons à découvrir tous les autres cours disponibles sur Plan ₿ Network :
+
+#### Découvrez Bitcoin et ses fondamentaux avec
+
+https://planb.network/courses/btc101
+
+#### Obtenez et sécurisez vos premiers bitcoins avec
+
+https://planb.network/courses/btc102
+
+#### Mettez à jour votre sécurité en ligne avec
+
+https://planb.network/courses/scu101
+
+#### Découvrez le Lightning Network avec
+
+https://planb.network/courses/lnp201
+
+#### Apprenez la pensée économique de l'École Autrichienne avec
+
+https://planb.network/courses/eco201
+
+#### Comprenez les bases de Bitcoin et construisez votre chauffage domestique avec
+
+https://planb.network/courses/min201
