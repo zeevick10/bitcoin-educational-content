@@ -1,6 +1,6 @@
 question: Proč SHA256 aplikuje předzpracování na vstupní zprávu?
 answer: Aby zajistila délku násobnou 512 bitů
-nesprávné_odpovědi:
+wrong_answers:
   - Ověřit integritu zprávy
   - Zašifrovat data před hashováním
   - Zvýšit velikost generovaných hashů

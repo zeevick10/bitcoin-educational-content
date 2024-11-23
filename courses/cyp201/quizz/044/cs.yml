@@ -1,6 +1,6 @@
 question: Co je entropie v kontextu kryptografie?
 answer: Míra nepředvídatelnosti spojená s náhodným procesem
-nesprávné_odpovědi:
+wrong_answers:
   - Metoda pro šifrování citlivých dat
   - Algoritmus pro výpočet veřejných klíčů
   - Technika komprese dat

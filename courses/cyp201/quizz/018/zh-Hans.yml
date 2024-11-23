@@ -6,4 +6,4 @@ wrong_answers:
   - 因为它需要专用硬件
 reviewed:
   中本聪可能更倾向于使用secp256k1曲线，因为secp256r1的参数可能包含隐藏的漏洞。
-审核：false
+reviewed:false

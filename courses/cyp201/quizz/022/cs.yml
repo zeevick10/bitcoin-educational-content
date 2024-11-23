@@ -1,6 +1,6 @@
 question: Jak se vypočítá veřejný klíč z privátního klíče?
 answer: Pomocí skalárního násobení na eliptické křivce
-nesprávné_odpovědi:
+wrong_answers:
   - Aplikací hash funkce na privátní klíč
   - Prostřednictvím asymetrického šifrování
   - Opakovaným sčítáním číselných hodnot

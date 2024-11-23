@@ -5,5 +5,5 @@ wrong_answers:
   - HASH256
   - SHA160
 explanation: |
-  HASH160 yhdistää SHA256: n ja RIPEMD160: n tuottaakseen 160-bittisiä sormenjälkiä, erityisesti Bitcoin-osoitteita varten.
+  HASH160 yhdistää SHA256 n ja RIPEMD160 n tuottaakseen 160-bittisiä sormenjälkiä, erityisesti Bitcoin-osoitteita varten.
 reviewed: false

@@ -6,4 +6,4 @@ wrong_answers:
   - 一个比特币主网货币
 reviewed:
   索引 /84'/ 在BIP84中定义，用于指示在深度1（即导出目标的深度）使用SegWit v0标准与P2WPKH地址。
-审核：false
+reviewed:false

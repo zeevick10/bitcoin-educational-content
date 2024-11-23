@@ -1,6 +1,6 @@
 question: Jaká je hlavní charakteristika skalárního násobení na eliptických křivkách?
 answer: Jednosměrná funkce
-nesprávné_odpovědi:
+wrong_answers:
   - Snadno reverzibilní
   - Založeno na faktorizaci prvočísel
   - Velmi dlouho se počítá

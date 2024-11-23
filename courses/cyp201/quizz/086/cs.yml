@@ -1,6 +1,6 @@
 question: Jak se počítá kontrolní součet pro adresy SegWit v0 zakódované v bech32?
 answer: Použitím BCH kódů
-nesprávné_odpovědi:
+wrong_answers:
   - Dvojitým použitím HASH256
   - Přidáním hash RIPEMD160
   - Přímým kódováním do base64

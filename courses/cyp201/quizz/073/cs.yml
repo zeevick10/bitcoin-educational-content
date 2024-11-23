@@ -1,6 +1,6 @@
 question: Který index reprezentuje vnější řetězec účtu v cestě derivace?
 answer: /0/
-nesprávné_odpovědi:
+wrong_answers:
   - /1/
   - /0'/
   - /2/

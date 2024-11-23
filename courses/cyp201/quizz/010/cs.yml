@@ -1,6 +1,6 @@
 question: Který algoritmus derivace se používá k výpočtu autentizačního kódu na základě tajného klíče?
 answer: HMAC-SHA512
-nesprávné_odpovědi:
+wrong_answers:
   - SHA512
   - SHA256
   - RIPEMD160

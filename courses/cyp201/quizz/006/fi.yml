@@ -1,4 +1,4 @@
-question: Mitä tapahtuu jokaisen tiivistyskierroksen aikana SHA256: ssa?
+question: Mitä tapahtuu jokaisen tiivistyskierroksen aikana SHA256 ssa?
 answer: Tilamuuttujat päivittyvät viestisanoista ja vakioista
 wrong_answers:
   - Lopullinen tiiviste tuotetaan asteittain jokaisen kierroksen jälkeen

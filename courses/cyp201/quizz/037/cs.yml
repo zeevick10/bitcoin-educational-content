@@ -1,6 +1,6 @@
 question: Jaké je hlavní omezení peněženek JBOK?
 answer: Vyžadují nezávislou zálohu pro každý soukromý klíč
-nesprávné_odpovědi:
+wrong_answers:
   - Neumožňují generování nových adres
   - Nejsou kompatibilní s digitálními podpisy
   - Používají nekomprimované veřejné klíče

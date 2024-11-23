@@ -1,6 +1,6 @@
 question: Jaká předpona se používá k označení komprimovaného veřejného klíče s lichou y-souřadnicí?
 answer: 0x03
-nesprávné_odpovědi:
+wrong_answers:
   - 0x02
   - 0x04
   - 0x00

@@ -1,6 +1,6 @@
 question: Jaká je velikost v bitech binárního segmentu použitého pro vytvoření každého mnemonického slova?
 answer: 11 bitů
-nesprávné_odpovědi:
+wrong_answers:
   - 8 bitů
   - 16 bitů
   - 10 bitů

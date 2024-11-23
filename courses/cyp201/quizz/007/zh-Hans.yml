@@ -6,4 +6,4 @@ wrong_answers:
   - ShR是逻辑操作，RotR是算术操作
 reviewed:
   ShR通过添加零向右移位，而RotR执行比特的循环旋转。
-审核：false
+reviewed:false

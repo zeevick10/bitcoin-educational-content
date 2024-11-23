@@ -1,6 +1,6 @@
 question: Jaký společný bod používají všichni účastníci pro výpočet veřejného klíče v Bitcoinu?
 answer: Generátorový bod G
-nesprávné_odpovědi:
+wrong_answers:
   - SHA256 hash
   - Mnemonická fráze
   - Kompresovaný veřejný klíč
