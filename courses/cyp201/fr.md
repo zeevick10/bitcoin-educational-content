@@ -2335,3 +2335,25 @@ Si vous ne l’avez pas encore fait, je vous invite à noter et à commenter cet
 Pour poursuivre votre parcours dans le terrier du lapin, je vous recommande vivement la formation **BTC204**, que j’ai également produite sur Plan ₿ Network. Elle est dédiée à la confidentialité sur Bitcoin et explore des thématiques clés : Quel est le modèle de confidentialité ? Comment fonctionne l’analyse de chaîne ? Comment utiliser Bitcoin de manière optimale pour maximiser votre confidentialité ? Une suite logique pour approfondir vos compétences !
 
 https://planb.network/courses/btc204
+
+De plus, pour continuer à approfondir vos connaissances dans l'univers du Bitcoin, nous vous invitons à explorer d'autres cours disponibles sur Plan ₿ Network comme :
+
+#### Apprenez à créer votre communauté Bitcoin avec
+
+https://planb.network/courses/btc302
+
+#### Découvrez le réseau Lightning avec
+
+https://planb.network/courses/lnp201
+
+#### Découvrez la pensée économique de l'École autrichienne avec
+
+https://planb.network/courses/eco201
+
+#### Découvrez l'histoire des origines de Bitcoin avec
+
+https://planb.network/courses/his201
+
+#### Découvrez l'évolution de la liberté à travers les âges avec
+
+https://planb.network/courses/phi201

@@ -2277,12 +2277,12 @@ Luego, la generación de la dirección sigue el mismo proceso, utilizando la cla
 
 <partId>58111408-b734-54db-9ea7-0d5b67f99f99</partId>
 
-## Evalúa este curso
+## Evalúe este curso
 
 <chapterId>0cd71541-a7fd-53db-b66a-8611b6a28b04</chapterId>
 <isCourseReview>true</isCourseReview>
 
-## Examen Final
+## Examen final
 
 <chapterId>a53ea27d-0f84-56cd-b37c-a66210a4b31d</chapterId>
 <isCourseExam>true</isCourseExam>
@@ -2291,12 +2291,34 @@ Luego, la generación de la dirección sigue el mismo proceso, utilizando la cla
 
 <chapterId>d291428b-3cfa-5394-930e-4b514be82d5a</chapterId>
 
-Hemos llegado al final del curso CYP201. Espero que haya sido útil en tu aprendizaje sobre Bitcoin y te haya permitido entender mejor el funcionamiento de las billeteras HD que usas diariamente. ¡Gracias por seguir este curso hasta el final!
-En mi opinión, el conocimiento sobre billeteras es fundamental porque conecta un aspecto teórico de Bitcoin con su uso práctico. De hecho, si usas Bitcoin, inevitablemente manejas software de billetera. Entender cómo funcionan te permite implementar estrategias de seguridad efectivas mientras dominas los mecanismos subyacentes, riesgos y potenciales debilidades. Así, puedes usar Bitcoin de manera más segura y con confianza.
-Si aún no lo has hecho, te invito a que califiques y comentes sobre este curso. Me ayudaría enormemente. También puedes compartir este curso en tus redes sociales para difundir este conocimiento a tantas personas como sea posible.
-Para continuar tu viaje por la madriguera del conejo, te recomiendo altamente el curso **BTC204**, que también produje en Plan ₿ Network. Está dedicado a la privacidad en Bitcoin y explora temas clave: ¿Cuál es el modelo de privacidad? ¿Cómo funciona el análisis de cadena? ¿Cómo usar Bitcoin de manera óptima para maximizar tu privacidad? ¡Un siguiente paso lógico para profundizar tus habilidades!
+Hemos llegado al final de la formación CYP201. ¡Espero que haya sido útil en su aprendizaje de Bitcoin y le haya ayudado a comprender mejor cómo funcionan las carteras HD que utiliza diariamente. ¡Gracias por seguir este curso hasta su finalización!
+
+En mi opinión, este conocimiento sobre carteras es fundamental, ya que conecta un aspecto teórico de Bitcoin con su uso práctico. De hecho, si usa Bitcoin, necesariamente maneja software de cartera. Comprender su funcionamiento interno le permite implementar estrategias de seguridad efectivas mientras domina los mecanismos subyacentes, riesgos y posibles debilidades. Así, puede usar Bitcoin de manera más segura y con confianza.
+
+Si aún no lo ha hecho, le invito a calificar y comentar esta formación. Me ayudaría enormemente. También puede compartir esta formación en sus redes sociales para difundir este conocimiento a la mayor cantidad de personas posible.
+
+Para continuar su viaje por la madriguera del conejo, le recomiendo encarecidamente la formación **BTC204**, que también produje en Plan ₿ Network. Está dedicada a la privacidad de Bitcoin y explora temas clave: ¿Cuál es el modelo de privacidad? ¿Cómo funciona el análisis de cadena? ¿Cómo usar Bitcoin de manera óptima para maximizar su privacidad? ¡Un siguiente paso lógico para profundizar sus habilidades!
 
 https://planb.network/courses/btc204
 
-$$
-$$
+Además, para seguir profundizando sus conocimientos en el universo Bitcoin, le invitamos a explorar otros cursos disponibles en Plan ₿ Network como:
+
+#### Aprenda a crear su comunidad Bitcoin con
+
+https://planb.network/courses/btc302
+
+#### Descubra la Lightning Network con
+
+https://planb.network/courses/lnp201
+
+#### Descubra el pensamiento económico de la Escuela Austríaca con
+
+https://planb.network/courses/eco201
+
+#### Descubra la historia de los orígenes de Bitcoin con
+
+https://planb.network/courses/his201
+
+#### Descubra la evolución de la libertad a través de las edades con
+
+https://planb.network/courses/phi201

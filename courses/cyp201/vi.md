@@ -2205,17 +2205,37 @@ Và đó là tất cả! Chúng ta đã đến cuối khóa học CYP201. Nếu 
 <chapterId>0cd71541-a7fd-53db-b66a-8611b6a28b04</chapterId>
 <isCourseReview>true</isCourseReview>
 
-## Kỳ Thi Cuối Khóa
+## Bài kiểm tra cuối cùng
 <chapterId>a53ea27d-0f84-56cd-b37c-a66210a4b31d</chapterId>
 <isCourseExam>true</isCourseExam>
 
 ## Kết luận
 <chapterId>d291428b-3cfa-5394-930e-4b514be82d5a</chapterId>
 
-Chúng ta đã đến cuối khóa học CYP201. Tôi hy vọng nó đã hữu ích trong việc học của bạn về Bitcoin và đã giúp bạn hiểu rõ hơn về cách hoạt động của các ví HD mà bạn sử dụng hàng ngày. Cảm ơn bạn đã theo dõi khóa học này đến cuối!
-Theo ý kiến của tôi, kiến thức về ví là cơ bản vì nó kết nối một khía cạnh lý thuyết của Bitcoin với việc sử dụng thực tế của nó. Thực sự, nếu bạn sử dụng Bitcoin, bạn không thể tránh khỏi việc sử dụng phần mềm ví. Hiểu cách chúng hoạt động giúp bạn thực hiện các chiến lược bảo mật hiệu quả trong khi nắm vững các cơ chế cơ bản, rủi ro và điểm yếu tiềm ẩn. Như vậy, bạn có thể sử dụng Bitcoin một cách an toàn và tự tin hơn.
-Nếu bạn chưa thực hiện, tôi mời bạn đánh giá và bình luận về khóa học này. Điều đó sẽ giúp tôi rất nhiều. Bạn cũng có thể chia sẻ khóa học này trên các mạng xã hội của mình để lan truyền kiến thức này đến càng nhiều người càng tốt.
-Để tiếp tục hành trình của bạn xuống "lỗ thỏ", tôi rất khuyên bạn nên tham gia khóa học **BTC204**, mà tôi cũng đã sản xuất trên Mạng Plan ₿. Khóa học này được dành riêng cho vấn đề bảo mật trên Bitcoin và khám phá các chủ đề chính: Mô hình bảo mật là gì? Phân tích chuỗi hoạt động như thế nào? Làm thế nào để sử dụng Bitcoin một cách tối ưu để tối đa hóa quyền riêng tư của bạn? Một bước tiếp theo hợp lý để nâng cao kỹ năng của bạn!
+Chúng ta đã đến cuối khóa đào tạo CYP201. Tôi hy vọng nó đã hữu ích trong hành trình học Bitcoin của bạn và đã giúp bạn hiểu rõ hơn về cách hoạt động của các ví HD mà bạn sử dụng hàng ngày. Cảm ơn bạn đã theo dõi khóa học này đến cuối!
+
+Theo tôi, kiến thức về ví này là cơ bản, vì nó kết nối khía cạnh lý thuyết của Bitcoin với việc sử dụng thực tế. Thực tế, nếu bạn sử dụng Bitcoin, bạn nhất thiết phải xử lý phần mềm ví. Hiểu cách hoạt động bên trong của chúng cho phép bạn thực hiện các chiến lược bảo mật hiệu quả trong khi nắm vững các cơ chế cơ bản, rủi ro và điểm yếu tiềm ẩn. Nhờ đó, bạn có thể sử dụng Bitcoin an toàn và tự tin hơn.
+
+Nếu bạn chưa làm điều này, tôi mời bạn đánh giá và bình luận về khóa đào tạo này. Điều đó sẽ giúp tôi rất nhiều. Bạn cũng có thể chia sẻ khóa đào tạo này trên mạng xã hội của mình để lan truyền kiến thức này đến càng nhiều người càng tốt.
+
+Để tiếp tục hành trình của bạn xuống hang thỏ, tôi đặc biệt khuyến nghị khóa đào tạo **BTC204**, mà tôi cũng đã sản xuất trên Plan ₿ Network. Nó dành riêng cho quyền riêng tư Bitcoin và khám phá các chủ đề chính: Mô hình quyền riêng tư là gì? Phân tích chuỗi hoạt động như thế nào? Làm thế nào để sử dụng Bitcoin tối ưu để tối đa hóa quyền riêng tư của bạn? Một bước tiếp theo hợp lý để nâng cao kỹ năng của bạn!
 
 https://planb.network/courses/btc204
+
+Ngoài ra, để tiếp tục đào sâu kiến thức của bạn trong vũ trụ Bitcoin, chúng tôi mời bạn khám phá các khóa học khác có sẵn trên Plan ₿ Network như:
+
+#### Học cách tạo cộng đồng Bitcoin của bạn với
+https://planb.network/courses/btc302
+
+#### Khám phá Lightning Network với
+https://planb.network/courses/lnp201
+
+#### Khám phá tư duy kinh tế của Trường phái Áo với
+https://planb.network/courses/eco201
+
+#### Khám phá lịch sử nguồn gốc của Bitcoin với
+https://planb.network/courses/his201
+
+#### Khám phá sự phát triển của tự do qua các thời đại với
+https://planb.network/courses/phi201
 $$

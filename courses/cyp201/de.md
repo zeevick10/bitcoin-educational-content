@@ -2225,7 +2225,7 @@ Dann folgt die Generierung der Adresse dem gleichen Prozess, wobei der rohe öff
 
 Und damit haben wir das Ende dieses CYP201-Kurses erreicht. Wenn Sie diesen Kurs hilfreich fanden, wäre ich Ihnen sehr dankbar, wenn Sie sich ein paar Momente Zeit nehmen könnten, um ihm in dem folgenden Bewertungskapitel eine gute Bewertung zu geben. Fühlen Sie sich auch frei, ihn mit Ihren Liebsten oder in Ihren sozialen Netzwerken zu teilen. Schließlich, wenn Sie Ihr Diplom für diesen Kurs erhalten möchten, können Sie direkt nach dem Bewertungskapitel die Abschlussprüfung ablegen.
 
-# Schlussfolgerung
+# Abschluss
 
 <partId>58111408-b734-54db-9ea7-0d5b67f99f99</partId>
 
@@ -2239,13 +2239,38 @@ Und damit haben wir das Ende dieses CYP201-Kurses erreicht. Wenn Sie diesen Kurs
 <chapterId>a53ea27d-0f84-56cd-b37c-a66210a4b31d</chapterId>
 <isCourseExam>true</isCourseExam>
 
-## Schlussfolgerung
+## Fazit
 
 <chapterId>d291428b-3cfa-5394-930e-4b514be82d5a</chapterId>
 
-Wir haben das Ende des CYP201-Kurses erreicht. Ich hoffe, er war hilfreich für Ihr Lernen über Bitcoin und hat es Ihnen ermöglicht, die Funktionsweise der HD-Wallets, die Sie täglich verwenden, besser zu verstehen. Vielen Dank, dass Sie diesem Kurs bis zum Ende gefolgt sind!
-Meiner Meinung nach ist Wissen über Wallets grundlegend, da es einen theoretischen Aspekt von Bitcoin mit seiner praktischen Nutzung verbindet. Tatsächlich, wenn Sie Bitcoin verwenden, handhaben Sie unweigerlich Wallet-Software. Zu verstehen, wie sie funktionieren, ermöglicht es Ihnen, effektive Sicherheitsstrategien zu implementieren, während Sie die zugrundeliegenden Mechanismen, Risiken und potenziellen Schwächen beherrschen. So können Sie Bitcoin sicherer und mit Vertrauen verwenden.
-Falls Sie es noch nicht getan haben, lade ich Sie ein, diesen Kurs zu bewerten und zu kommentieren. Das würde mir enorm helfen. Sie können diesen Kurs auch in Ihren sozialen Netzwerken teilen, um dieses Wissen mit so vielen Menschen wie möglich zu teilen.
-Um Ihre Reise weiter in den Kaninchenbau zu verfolgen, empfehle ich Ihnen dringend den **BTC204** Kurs, den ich ebenfalls auf dem Plan ₿ Network produziert habe. Er widmet sich der Privatsphäre bei Bitcoin und erkundet Schlüsselthemen: Was ist das Datenschutzmodell? Wie funktioniert Kettenanalyse? Wie verwendet man Bitcoin optimal, um die eigene Privatsphäre zu maximieren? Ein logischer nächster Schritt, um Ihre Fähigkeiten zu vertiefen!
+Wir sind am Ende der CYP201-Schulung angelangt. Ich hoffe, sie war hilfreich für Ihr Bitcoin-Lernen und hat Ihnen geholfen, die Funktionsweise der HD-Wallets, die Sie täglich nutzen, besser zu verstehen. Vielen Dank, dass Sie diesen Kurs bis zum Ende verfolgt haben!
+
+Meiner Meinung nach ist dieses Wissen über Wallets grundlegend, da es einen theoretischen Aspekt von Bitcoin mit seiner praktischen Anwendung verbindet. Wenn Sie Bitcoin verwenden, arbeiten Sie zwangsläufig mit Wallet-Software. Das Verständnis ihrer Funktionsweise ermöglicht es Ihnen, effektive Sicherheitsstrategien zu implementieren und gleichzeitig die zugrunde liegenden Mechanismen, Risiken und potenziellen Schwachstellen zu beherrschen. So können Sie Bitcoin sicherer und mit Vertrauen nutzen.
+
+Wenn Sie es noch nicht getan haben, lade ich Sie ein, diese Schulung zu bewerten und zu kommentieren. Das würde mir enorm helfen. Sie können diese Schulung auch in Ihren sozialen Netzwerken teilen, um dieses Wissen möglichst vielen Menschen zugänglich zu machen.
+
+Für Ihre weitere Reise durch den Kaninchenbau empfehle ich Ihnen die Schulung **BTC204**, die ich ebenfalls auf Plan ₿ Network erstellt habe. Sie widmet sich der Bitcoin-Privatsphäre und erkundet wichtige Themen: Was ist das Privatsphäre-Modell? Wie funktioniert die Kettenanalyse? Wie verwendet man Bitcoin optimal, um seine Privatsphäre zu maximieren? Ein logischer nächster Schritt zur Vertiefung Ihrer Fähigkeiten!
 
 https://planb.network/courses/btc204
+
+Um Ihr Wissen im Bitcoin-Universum weiter zu vertiefen, laden wir Sie ein, weitere Kurse auf Plan ₿ Network zu erkunden, wie zum Beispiel:
+
+#### Lernen Sie, Ihre Bitcoin-Community aufzubauen mit
+
+https://planb.network/courses/btc302
+
+#### Entdecken Sie das Lightning Network mit
+
+https://planb.network/courses/lnp201
+
+#### Entdecken Sie das ökonomische Denken der Österreichischen Schule mit
+
+https://planb.network/courses/eco201
+
+#### Entdecken Sie die Geschichte der Ursprünge von Bitcoin mit
+
+https://planb.network/courses/his201
+
+#### Entdecken Sie die Entwicklung der Freiheit im Laufe der Zeit mit
+
+https://planb.network/courses/phi201

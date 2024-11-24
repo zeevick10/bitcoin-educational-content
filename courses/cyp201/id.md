@@ -2190,9 +2190,34 @@ Dan itulah! Kita telah mencapai akhir kursus CYP201 ini. Jika Anda merasa kursus
 
 <chapterId>d291428b-3cfa-5394-930e-4b514be82d5a</chapterId>
 
-Kita telah mencapai akhir kursus CYP201. Saya harap ini telah membantu dalam pembelajaran Anda tentang Bitcoin dan telah memungkinkan Anda untuk lebih memahami fungsi dompet HD yang Anda gunakan sehari-hari. Terima kasih telah mengikuti kursus ini sampai akhir!
-Menurut saya, pengetahuan tentang dompet adalah fundamental karena menghubungkan aspek teoretis Bitcoin dengan penggunaannya secara praktis. Memang, jika Anda menggunakan Bitcoin, Anda pasti menangani perangkat lunak dompet. Memahami cara kerjanya memungkinkan Anda untuk menerapkan strategi keamanan yang efektif sambil menguasai mekanisme, risiko, dan kelemahan potensial yang mendasarinya. Dengan demikian, Anda dapat menggunakan Bitcoin dengan lebih aman dan percaya diri.
-Jika Anda belum melakukannya, saya mengundang Anda untuk memberi nilai dan komentar tentang kursus ini. Hal tersebut akan sangat membantu saya. Anda juga dapat membagikan kursus ini di jejaring sosial Anda untuk menyebarkan pengetahuan ini kepada sebanyak mungkin orang.
-Untuk melanjutkan perjalanan Anda ke dalam lubang kelinci, saya sangat merekomendasikan kursus **BTC204**, yang juga saya produksi di Plan ₿ Network. Kursus ini didedikasikan untuk privasi pada Bitcoin dan mengeksplorasi tema-tema kunci: Apa itu model privasi? Bagaimana cara kerja analisis rantai? Bagaimana menggunakan Bitcoin secara optimal untuk memaksimalkan privasi Anda? Sebuah langkah logis selanjutnya untuk memperdalam keterampilan Anda!
+Kita telah mencapai akhir dari pelatihan CYP201. Saya harap ini telah bermanfaat dalam perjalanan pembelajaran Bitcoin Anda dan membantu Anda lebih memahami cara kerja dompet HD yang Anda gunakan sehari-hari. Terima kasih telah mengikuti kursus ini hingga selesai!
+
+Menurut saya, pengetahuan tentang dompet ini sangat fundamental, karena menghubungkan aspek teoritis Bitcoin dengan penggunaan praktisnya. Memang, jika Anda menggunakan Bitcoin, Anda pasti menangani perangkat lunak dompet. Memahami cara kerjanya memungkinkan Anda menerapkan strategi keamanan yang efektif sambil menguasai mekanisme yang mendasarinya, risiko, dan potensi kelemahannya. Dengan demikian, Anda dapat menggunakan Bitcoin dengan lebih aman dan percaya diri.
+
+Jika Anda belum melakukannya, saya mengundang Anda untuk menilai dan mengomentari pelatihan ini. Ini akan sangat membantu saya. Anda juga dapat membagikan pelatihan ini di jejaring sosial Anda untuk menyebarkan pengetahuan ini kepada sebanyak mungkin orang.
+
+Untuk melanjutkan perjalanan Anda lebih dalam, saya sangat merekomendasikan pelatihan **BTC204**, yang juga saya produksi di Plan ₿ Network. Ini didedikasikan untuk privasi Bitcoin dan mengeksplorasi tema-tema kunci: Apa model privasinya? Bagaimana analisis rantai bekerja? Bagaimana menggunakan Bitcoin secara optimal untuk memaksimalkan privasi Anda? Langkah logis berikutnya untuk memperdalam keterampilan Anda!
 
 https://planb.network/courses/btc204
+
+Selain itu, untuk terus memperdalam pengetahuan Anda di alam semesta Bitcoin, kami mengundang Anda untuk mengeksplorasi kursus lain yang tersedia di Plan ₿ Network seperti:
+
+#### Pelajari cara membuat komunitas Bitcoin Anda dengan
+
+https://planb.network/courses/btc302
+
+#### Temukan Lightning Network dengan
+
+https://planb.network/courses/lnp201
+
+#### Temukan pemikiran ekonomi Sekolah Austria dengan
+
+https://planb.network/courses/eco201
+
+#### Temukan sejarah asal-usul Bitcoin dengan
+
+https://planb.network/courses/his201
+
+#### Temukan evolusi kebebasan sepanjang masa dengan
+
+https://planb.network/courses/phi201

@@ -2188,9 +2188,34 @@ Og der har du det! Vi har nådd slutten av dette CYP201-kurset. Hvis du fant det
 
 <chapterId>d291428b-3cfa-5394-930e-4b514be82d5a</chapterId>
 
-Vi har nådd slutten av CYP201-kurset. Jeg håper det har vært til hjelp i din læring om Bitcoin og har tillatt deg å bedre forstå funksjonen til HD-lommebøkene du bruker daglig. Takk for at du fulgte dette kurset til slutten!
-Etter min mening er kunnskap om lommebøker grunnleggende fordi det knytter en teoretisk aspekt av Bitcoin til dets praktiske bruk. Faktisk, hvis du bruker Bitcoin, håndterer du uunngåelig lommebokprogramvare. Å forstå hvordan de fungerer lar deg implementere effektive sikkerhetsstrategier samtidig som du mestrer de underliggende mekanismene, risikoene og potensielle svakheter. Således kan du bruke Bitcoin mer sikkert og med tillit.
-Hvis du ikke har gjort det ennå, inviterer jeg deg til å vurdere og kommentere på dette kurset. Det ville hjulpet meg enormt. Du kan også dele dette kurset på dine sosiale nettverk for å spre denne kunnskapen til så mange som mulig.
-For å fortsette din reise ned i kaninhullet, anbefaler jeg på det sterkeste **BTC204**-kurset, som jeg også har produsert på Plan ₿ Network. Det er dedikert til personvern på Bitcoin og utforsker nøkkeltemaer: Hva er personvernsmodellen? Hvordan fungerer kjedeanalyse? Hvordan bruke Bitcoin optimalt for å maksimere ditt personvern? Et logisk neste skritt for å fordype dine ferdigheter!
+Vi har nådd slutten av CYP201-opplæringen. Jeg håper den har vært nyttig i din Bitcoin-læring og har hjulpet deg å bedre forstå hvordan HD-lommebøkene du bruker daglig fungerer. Takk for at du fulgte dette kurset til slutten!
+
+Etter min mening er denne kunnskapen om lommebøker fundamental, da den knytter et teoretisk aspekt av Bitcoin til dens praktiske bruk. Hvis du bruker Bitcoin, håndterer du nødvendigvis lommebokprogramvare. Å forstå deres indre virkemåte gjør det mulig å implementere effektive sikkerhetsstrategier mens du behersker de underliggende mekanismene, risikoene og potensielle svakhetene. Dermed kan du bruke Bitcoin sikrere og med tillit.
+
+Hvis du ikke allerede har gjort det, inviterer jeg deg til å vurdere og kommentere denne opplæringen. Det ville hjulpe meg enormt. Du kan også dele denne opplæringen på dine sosiale nettverk for å spre denne kunnskapen til så mange som mulig.
+
+For å fortsette reisen din ned i kaninhullet, anbefaler jeg sterkt **BTC204**-opplæringen, som jeg også har produsert på Plan ₿ Network. Den er dedikert til Bitcoin-personvern og utforsker nøkkeltemaer: Hva er personvernmodellen? Hvordan fungerer kjedeanalyse? Hvordan bruke Bitcoin optimalt for å maksimere personvernet ditt? Et logisk neste steg for å fordype ferdighetene dine!
 
 https://planb.network/courses/btc204
+
+For å fortsette å fordype din kunnskap i Bitcoin-universet, inviterer vi deg til å utforske andre kurs tilgjengelige på Plan ₿ Network som:
+
+#### Lær å skape ditt Bitcoin-fellesskap med
+
+https://planb.network/courses/btc302
+
+#### Oppdag Lightning Network med
+
+https://planb.network/courses/lnp201
+
+#### Oppdag den økonomiske tankegangen til den østerrikske skolen med
+
+https://planb.network/courses/eco201
+
+#### Oppdag historien om Bitcoins opprinnelse med
+
+https://planb.network/courses/his201
+
+#### Oppdag frihetens utvikling gjennom tidene med
+
+https://planb.network/courses/phi201

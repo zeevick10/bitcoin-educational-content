@@ -2366,31 +2366,44 @@ $$
 Then, the generation of the address follows the same process, using the raw public key $Q$ as the payload, accompanied by some additional metadata.
 
 And there you have it! We have reached the end of this CYP201 course. If you found this course helpful, I would be very grateful if you could take a few moments to give it a good rating in the following evaluation chapter. Feel free to also share it with your loved ones or on your social networks. Finally, if you wish to obtain your diploma for this course, you can take the final exam right after the evaluation chapter.
-
 # Conclusion
-
 <partId>58111408-b734-54db-9ea7-0d5b67f99f99</partId>
 
 ## Evaluate this course
-
 <chapterId>0cd71541-a7fd-53db-b66a-8611b6a28b04</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Final Exam
-
 <chapterId>a53ea27d-0f84-56cd-b37c-a66210a4b31d</chapterId>
 <isCourseExam>true</isCourseExam>
 
 ## Conclusion
-
 <chapterId>d291428b-3cfa-5394-930e-4b514be82d5a</chapterId>
 
-We have reached the end of the CYP201 course. I hope it has been helpful in your learning about Bitcoin and has allowed you to better understand the functioning of the HD wallets you use daily. Thank you for following this course to the end!
-In my opinion, knowledge about wallets is fundamental because it connects a theoretical aspect of Bitcoin to its practical use. Indeed, if you use Bitcoin, you inevitably handle wallet software. Understanding how they work allows you to implement effective security strategies while mastering the underlying mechanisms, risks, and potential weaknesses. Thus, you can use Bitcoin more safely and with confidence.
+We have reached the end of the CYP201 training. I hope it has been useful in your Bitcoin learning journey and has helped you better understand how the HD wallets you use daily work. Thank you for following this course to its completion!
 
-If you haven't done so yet, I invite you to rate and comment on this course. It would help me enormously. You can also share this course on your social networks to spread this knowledge to as many people as possible.
+In my opinion, this knowledge about wallets is fundamental, as it connects a theoretical aspect of Bitcoin to its practical use. Indeed, if you use Bitcoin, you necessarily handle wallet software. Understanding their inner workings allows you to implement effective security strategies while mastering the underlying mechanisms, risks, and potential weaknesses. Thus, you can use Bitcoin more safely and with confidence.
 
-To continue your journey down the rabbit hole, I highly recommend the **BTC204** course, which I also produced on Plan ₿ Network. It is dedicated to privacy on Bitcoin and explores key themes: What is the privacy model? How does chain analysis work? How to use Bitcoin optimally to maximize your privacy? A logical next step to deepen your skills!
+If you haven't already, I invite you to rate and comment on this training. It would help me enormously. You can also share this training on your social networks to spread this knowledge to as many people as possible.
+
+To continue your journey down the rabbit hole, I highly recommend the **BTC204** training, which I also produced on Plan ₿ Network. It is dedicated to Bitcoin privacy and explores key themes: What is the privacy model? How does chain analysis work? How to use Bitcoin optimally to maximize your privacy? A logical next step to deepen your skills!
 
 https://planb.network/courses/btc204
+
+Moreover, to continue deepening your knowledge in the Bitcoin universe, we invite you to explore other courses available on Plan ₿ Network such as:
+
+#### Learn to create your Bitcoin community with
+https://planb.network/courses/btc302
+
+#### Discover the Lightning Network with
+https://planb.network/courses/lnp201
+
+#### Discover the economic thought of the Austrian School with
+https://planb.network/courses/eco201
+
+#### Discover the history of Bitcoin's origins with
+https://planb.network/courses/his201
+
+#### Discover the evolution of freedom through the ages with
+https://planb.network/courses/phi201
 $$

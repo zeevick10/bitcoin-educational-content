@@ -2191,9 +2191,34 @@ A to je vše! Dospěli jsme ke konci tohoto kurzu CYP201. Pokud jste tento kurz 
 
 <chapterId>d291428b-3cfa-5394-930e-4b514be82d5a</chapterId>
 
-Dospěli jsme ke konci kurzu CYP201. Doufám, že byl pro vaše učení o Bitcoinu užitečný a umožnil vám lépe porozumět fungování HD peněženek, které denně používáte. Děkuji, že jste tento kurz sledovali až do konce!
-Podle mého názoru je znalost o peněženkách zásadní, protože spojuje teoretický aspekt Bitcoinu s jeho praktickým použitím. Skutečně, pokud používáte Bitcoin, nevyhnutelně ovládáte software peněženky. Porozumění tomu, jak fungují, vám umožňuje implementovat efektivní strategie zabezpečení a zároveň ovládat základní mechanismy, rizika a potenciální slabiny. Tím můžete Bitcoin používat bezpečněji a s důvěrou.
-Pokud jste tak ještě neučinili, rád bych vás pozval k hodnocení a komentování tohoto kurzu. Pomohlo by mi to enormně. Můžete také sdílet tento kurz na svých sociálních sítích, aby se tato znalost dostala k co největšímu počtu lidí.
-Pokud chcete ve své cestě králičí norou pokračovat, vřele doporučuji kurz **BTC204**, který jsem také vytvořil na síti Plan ₿. Je věnován soukromí na Bitcoinu a prozkoumává klíčová témata: Jaký je model soukromí? Jak funguje analýza řetězců? Jak používat Bitcoin optimálně pro maximalizaci vašeho soukromí? Logický další krok pro prohloubení vašich dovedností!
+Dostáváme se na konec školení CYP201. Doufám, že vám bylo užitečné při učení se o Bitcoinu a pomohlo vám lépe porozumět fungování HD peněženek, které denně používáte. Děkuji, že jste tento kurz absolvovali až do konce!
+
+Podle mého názoru jsou tyto znalosti o peněženkách zásadní, protože spojují teoretický aspekt Bitcoinu s jeho praktickým využitím. Pokud používáte Bitcoin, nutně pracujete se softwarovými peněženkami. Pochopení jejich vnitřního fungování vám umožní implementovat efektivní bezpečnostní strategie a zároveň zvládnout základní mechanismy, rizika a potenciální slabiny. Díky tomu můžete Bitcoin používat bezpečněji a s jistotou.
+
+Pokud jste tak ještě neučinili, vyzývám vás k hodnocení a komentování tohoto školení. Velmi by mi to pomohlo. Můžete také sdílet toto školení na svých sociálních sítích, aby se tyto znalosti rozšířily mezi co nejvíce lidí.
+
+Pro pokračování vaší cesty králičí norou vřele doporučuji školení **BTC204**, které jsem také vytvořil na Plan ₿ Network. Je věnováno soukromí Bitcoinu a zkoumá klíčová témata: Jaký je model soukromí? Jak funguje analýza řetězce? Jak optimálně používat Bitcoin pro maximalizaci vašeho soukromí? Logický další krok k prohloubení vašich dovedností!
 
 https://planb.network/courses/btc204
+
+Pro další prohlubování vašich znalostí ve světě Bitcoinu vás zveme k prozkoumání dalších kurzů dostupných na Plan ₿ Network, jako jsou:
+
+#### Naučte se vytvořit svou Bitcoin komunitu s
+
+https://planb.network/courses/btc302
+
+#### Objevte Lightning Network s
+
+https://planb.network/courses/lnp201
+
+#### Objevte ekonomické myšlení Rakouské školy s
+
+https://planb.network/courses/eco201
+
+#### Objevte historii počátků Bitcoinu s
+
+https://planb.network/courses/his201
+
+#### Objevte vývoj svobody napříč věky s
+
+https://planb.network/courses/phi201

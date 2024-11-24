@@ -2184,9 +2184,34 @@ Ja siinä kaikki! Olemme saapuneet CYP201-kurssin päätökseen. Jos pidit kurss
 
 <chapterId>d291428b-3cfa-5394-930e-4b514be82d5a</chapterId>
 
-Olemme saapuneet CYP201-kurssin päätökseen. Toivon, että se on ollut hyödyllinen oppimiskokemuksessasi Bitcoinista ja on mahdollistanut sinun ymmärtää paremmin päivittäin käyttämiesi HD-lompakoiden toimintaa. Kiitos, että seurasit tätä kurssia loppuun!
-Mielestäni tieto lompakoista on perustavanlaatuista, koska se yhdistää Bitcoinin teoreettisen aspektin sen käytännön käyttöön. Todellakin, jos käytät Bitcoinia, käsittelet väistämättä lompakko-ohjelmistoa. Ymmärtämällä, miten ne toimivat, voit toteuttaa tehokkaita turvallisuusstrategioita hallitsemalla samalla taustalla olevia mekanismeja, riskejä ja mahdollisia heikkouksia. Näin voit käyttää Bitcoinia turvallisemmin ja luottavaisemmin.
-Jos et ole vielä tehnyt niin, kutsun sinut arvostelemaan ja kommentoimaan tätä kurssia. Se auttaisi minua valtavasti. Voit myös jakaa tämän kurssin sosiaalisissa verkostoissasi levittääksesi tätä tietoa mahdollisimman monelle ihmiselle.
-Jatkaaksesi matkaasi alas pupun koloon, suosittelen lämpimästi **BTC204**-kurssia, jonka olen myös tuottanut Plan ₿ -verkostossa. Se keskittyy yksityisyyteen Bitcoinissa ja tutkii keskeisiä teemoja: Mikä on yksityisyyden malli? Miten ketjuanalyysi toimii? Kuinka käyttää Bitcoinia optimaalisesti maksimoidaksesi yksityisyytesi? Looginen seuraava askel taitojesi syventämiseen!
+Olemme saapuneet CYP201-koulutuksen loppuun. Toivon, että se on ollut hyödyllinen Bitcoin-oppimismatkallasi ja auttanut sinua ymmärtämään paremmin päivittäin käyttämiesi HD-lompakoiden toimintaa. Kiitos, että seurasit tämän kurssin loppuun asti!
+
+Mielestäni nämä tiedot lompakoista ovat perustavanlaatuisia, sillä ne yhdistävät Bitcoinin teoreettisen puolen sen käytännön sovelluksiin. Jos käytät Bitcoinia, käsittelet väistämättä lompakkoohjelmistoja. Niiden toiminnan ymmärtäminen mahdollistaa tehokkaiden turvallisuusstrategioiden toteuttamisen samalla kun hallitset taustalla olevat mekanismit, riskit ja mahdolliset heikkoudet. Näin voit käyttää Bitcoinia turvallisemmin ja luottavaisemmin.
+
+Jos et ole vielä tehnyt sitä, kutsun sinut arvioimaan ja kommentoimaan tätä koulutusta. Se auttaisi minua valtavasti. Voit myös jakaa tämän koulutuksen sosiaalisissa verkostoissasi levittääksesi tätä tietoa mahdollisimman monelle.
+
+Jatkaaksesi matkaasi kaninkolan syvyyksiin, suosittelen vahvasti **BTC204**-koulutusta, jonka olen myös tuottanut Plan ₿ Networkissa. Se on omistettu Bitcoinin yksityisyydelle ja tutkii keskeisiä teemoja: Mikä on yksityisyyden malli? Miten ketjuanalyysi toimii? Miten käyttää Bitcoinia optimaalisesti maksimoidaksesi yksityisyytesi? Looginen seuraava askel taitojesi syventämiseksi!
 
 https://planb.network/courses/btc204
+
+Lisäksi kutsuimme sinut syventämään tietojasi Bitcoin-universumissa tutkimalla muita Plan ₿ Networkissa saatavilla olevia kursseja, kuten:
+
+#### Opi luomaan Bitcoin-yhteisösi
+
+https://planb.network/courses/btc302
+
+#### Tutustu Lightning Networkiin
+
+https://planb.network/courses/lnp201
+
+#### Tutustu Itävallan koulukunnan taloudelliseen ajatteluun
+
+https://planb.network/courses/eco201
+
+#### Tutustu Bitcoinin alkuperän historiaan
+
+https://planb.network/courses/his201
+
+#### Tutustu vapauden kehitykseen läpi aikojen
+
+https://planb.network/courses/phi201

@@ -2225,11 +2225,11 @@ Seejärel järgneb aadressi genereerimine sama protsessi kasutades, kasutades to
 
 Ja nii me jõudsimegi CYP201 kursuse lõppu. Kui leidsite selle kursuse kasuliku olevat, oleksin väga tänulik, kui võtaksite hetke, et anda sellele järgnevas hinnangupeatükis hea hinnang. Julgustan teid jagama seda ka oma lähedastega või sotsiaalvõrgustikes. Lõpuks, kui soovite saada selle kursuse diplomit, saate lõpueksamit teha kohe pärast hinnangupeatükki.
 
-# Järeldus
+# Kokkuvõte
 
 <partId>58111408-b734-54db-9ea7-0d5b67f99f99</partId>
 
-## Hinda seda kursust
+## Hinnake seda kursust
 
 <chapterId>0cd71541-a7fd-53db-b66a-8611b6a28b04</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -2239,16 +2239,38 @@ Ja nii me jõudsimegi CYP201 kursuse lõppu. Kui leidsite selle kursuse kasuliku
 <chapterId>a53ea27d-0f84-56cd-b37c-a66210a4b31d</chapterId>
 <isCourseExam>true</isCourseExam>
 
-## Järeldus
+## Kokkuvõte
 
 <chapterId>d291428b-3cfa-5394-930e-4b514be82d5a</chapterId>
 
-Oleme jõudnud CYP201 kursuse lõppu. Loodan, et see oli teile abiks Bitcoin'i kohta õppimisel ja aitas paremini mõista igapäevaselt kasutatavate HD rahakottide toimimist. Tänan, et järgisite seda kursust lõpuni!
-Minu arvates on teadmised rahakottidest fundamentaalsed, kuna need ühendavad Bitcoin'i teoreetilise aspekti selle praktilise kasutusega. Tõepoolest, kui kasutate Bitcoin'i, käitlete paratamatult rahakottide tarkvara. Mõistmine, kuidas need töötavad, võimaldab teil rakendada tõhusaid turvistrateegiaid, samal ajal valdades aluseks olevaid mehhanisme, riske ja potentsiaalseid nõrkusi. Seega saate Bitcoin'i kasutada turvalisemalt ja enesekindlamalt.
-Kui te pole seda veel teinud, siis kutsun teid üles hindama ja kommenteerima seda kursust. See aitaks mulle tohutult. Samuti võite jagada seda kursust oma sotsiaalvõrgustikes, et levitada seda teadmist nii paljude inimesteni kui võimalik.
-Jätkamaks oma teekonda jäneseurgu, soovitan tungivalt kursust **BTC204**, mille olen samuti tootnud Plan ₿ võrgustikus. See on pühendatud privaatsusele Bitcoinis ja uurib võtmeteemasid: Mis on privaatsusmudel? Kuidas töötab ahela analüüs? Kuidas kasutada Bitcoini optimaalselt oma privaatsuse maksimeerimiseks? Loogiline järgmine samm oma oskuste süvendamiseks!
+Oleme jõudnud CYP201 koolituse lõppu. Loodan, et see on olnud teie Bitcoini õppimise teekonnal kasulik ja aidanud teil paremini mõista igapäevaselt kasutatavate HD rahakottide toimimist. Tänan, et läbisite selle kursuse lõpuni!
+
+Minu arvates on need teadmised rahakottide kohta fundamentaalsed, kuna need ühendavad Bitcoini teoreetilise aspekti selle praktilise kasutamisega. Tõepoolest, kui kasutate Bitcoini, käsitlete paratamatult rahakoti tarkvara. Nende sisemise toimimise mõistmine võimaldab teil rakendada efektiivseid turvastrateegiaid, samal ajal valdades aluseks olevaid mehhanisme, riske ja võimalikke nõrkusi. Nii saate Bitcoini kasutada turvalisemalt ja enesekindlalt.
+
+Kui te pole seda veel teinud, palun hinnake ja kommenteerige seda koolitust. See aitaks mind tohutult. Samuti võite jagada seda koolitust oma sotsiaalvõrgustikes, et levitada neid teadmisi võimalikult paljudele inimestele.
+
+Teekonna jätkamiseks küülikuurus soovitan tungivalt **BTC204** koolitust, mille ma samuti Plan ₿ Networkis tootsin. See on pühendatud Bitcoini privaatsusele ja uurib põhiteemasid: Milline on privaatsuse mudel? Kuidas toimib ahela analüüs? Kuidas kasutada Bitcoini optimaalselt oma privaatsuse maksimeerimiseks? Loogiline järgmine samm oma oskuste süvendamiseks!
 
 https://planb.network/courses/btc204
 
-$$
-$$
+Lisaks kutsume teid oma teadmiste süvendamiseks Bitcoini universumis tutvuma teiste Plan ₿ Networkis saadaolevate kursustega nagu:
+
+#### Õppige looma oma Bitcoini kogukonda
+
+https://planb.network/courses/btc302
+
+#### Avastage Lightning Network
+
+https://planb.network/courses/lnp201
+
+#### Avastage Austria koolkonna majanduslik mõtlemine
+
+https://planb.network/courses/eco201
+
+#### Avastage Bitcoini päritolu ajalugu
+
+https://planb.network/courses/his201
+
+#### Avastage vabaduse areng läbi aegade
+
+https://planb.network/courses/phi201

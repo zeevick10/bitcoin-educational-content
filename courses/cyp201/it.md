@@ -2201,7 +2201,7 @@ Ed eccoci! Abbiamo raggiunto la fine di questo corso CYP201. Se hai trovato ques
 <chapterId>0cd71541-a7fd-53db-b66a-8611b6a28b04</chapterId>
 <isCourseReview>true</isCourseReview>
 
-## Esame Finale
+## Esame finale
 
 <chapterId>a53ea27d-0f84-56cd-b37c-a66210a4b31d</chapterId>
 <isCourseExam>true</isCourseExam>
@@ -2210,9 +2210,34 @@ Ed eccoci! Abbiamo raggiunto la fine di questo corso CYP201. Se hai trovato ques
 
 <chapterId>d291428b-3cfa-5394-930e-4b514be82d5a</chapterId>
 
-Abbiamo raggiunto la fine del corso CYP201. Spero che sia stato utile nel tuo apprendimento su Bitcoin e ti abbia permesso di comprendere meglio il funzionamento dei portafogli HD che utilizzi quotidianamente. Grazie per aver seguito questo corso fino alla fine!
-A mio parere, la conoscenza sui portafogli è fondamentale perché collega un aspetto teorico di Bitcoin al suo uso pratico. Infatti, se utilizzi Bitcoin, inevitabilmente gestisci un software di portafoglio. Comprendere come funzionano ti permette di implementare strategie di sicurezza efficaci mentre padroneggi i meccanismi sottostanti, i rischi e le potenziali debolezze. Così, puoi utilizzare Bitcoin in modo più sicuro e con fiducia.
-Se non l'hai ancora fatto, ti invito a valutare e commentare questo corso. Mi sarebbe di enorme aiuto. Puoi anche condividere questo corso sui tuoi social network per diffondere questa conoscenza al maggior numero di persone possibile.
-Per continuare il tuo viaggio nella tana del bianconiglio, ti consiglio vivamente il corso **BTC204**, che ho anch'io prodotto su Plan ₿ Network. È dedicato alla privacy su Bitcoin ed esplora temi chiave: Qual è il modello di privacy? Come funziona l'analisi della catena? Come utilizzare Bitcoin in modo ottimale per massimizzare la tua privacy? Un passo logico successivo per approfondire le tue competenze!
+Siamo giunti alla fine della formazione CYP201. Spero che sia stata utile nel vostro percorso di apprendimento di Bitcoin e vi abbia aiutato a comprendere meglio il funzionamento dei portafogli HD che utilizzate quotidianamente. Grazie per aver seguito questo corso fino alla fine!
+
+A mio parere, questa conoscenza sui portafogli è fondamentale, poiché collega un aspetto teorico di Bitcoin al suo uso pratico. Infatti, se utilizzate Bitcoin, gestite necessariamente software di portafoglio. Comprendere il loro funzionamento interno vi permette di implementare strategie di sicurezza efficaci padroneggiando al contempo i meccanismi sottostanti, i rischi e le potenziali debolezze. Così, potete utilizzare Bitcoin in modo più sicuro e con fiducia.
+
+Se non l'avete ancora fatto, vi invito a valutare e commentare questa formazione. Mi aiuterebbe enormemente. Potete anche condividere questa formazione sui vostri social network per diffondere questa conoscenza al maggior numero possibile di persone.
+
+Per continuare il vostro viaggio nella tana del coniglio, vi raccomando vivamente la formazione **BTC204**, che ho anche prodotto su Plan ₿ Network. È dedicata alla privacy di Bitcoin ed esplora temi chiave: Qual è il modello di privacy? Come funziona l'analisi della catena? Come utilizzare Bitcoin in modo ottimale per massimizzare la vostra privacy? Un logico passo successivo per approfondire le vostre competenze!
 
 https://planb.network/courses/btc204
+
+Inoltre, per continuare ad approfondire le vostre conoscenze nell'universo Bitcoin, vi invitiamo a esplorare altri corsi disponibili su Plan ₿ Network come:
+
+#### Impara a creare la tua comunità Bitcoin con
+
+https://planb.network/courses/btc302
+
+#### Scopri il Lightning Network con
+
+https://planb.network/courses/lnp201
+
+#### Scopri il pensiero economico della Scuola Austriaca con
+
+https://planb.network/courses/eco201
+
+#### Scopri la storia delle origini di Bitcoin con
+
+https://planb.network/courses/his201
+
+#### Scopri l'evoluzione della libertà attraverso le epoche con
+
+https://planb.network/courses/phi201
