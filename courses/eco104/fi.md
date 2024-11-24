@@ -1646,6 +1646,8 @@ Tulevaisuus on valoisa!
 
 ## Yhteenveto
 
+<chapterId>189d80ac-f10e-4a0d-9db8-400523cad978</chapterId>
+
 Onnittelut kurssin suorittamisesta!
 
 Olemme iloisia, että olet onnistuneesti saavuttanut tämän virstanpylvään oppimismatkallasi.

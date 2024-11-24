@@ -1625,6 +1625,8 @@ O Futuro é Brilhante!
 
 ## Conclusão
 
+<chapterId>189d80ac-f10e-4a0d-9db8-400523cad978</chapterId>
+
 Parabéns por concluir este curso!
 
 Estamos muito felizes que você tenha alcançado com sucesso este marco em sua jornada de aprendizado.

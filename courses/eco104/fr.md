@@ -1634,6 +1634,8 @@ L'avenir est radieux !
 
 ## Conclusion
 
+<chapterId>189d80ac-f10e-4a0d-9db8-400523cad978</chapterId>
+
 Félicitations pour avoir terminé ce cours !
 
 Nous sommes ravis que vous ayez atteint avec succès cette étape dans votre parcours d'apprentissage.

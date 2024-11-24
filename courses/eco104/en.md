@@ -1723,11 +1723,15 @@ The Future is Bright!
 # Conclusion
 
 <partId>0d839c56-4b1e-4863-851f-4d508f3e0020</partId>
+
 ## Evaluate the course
+
 <chapterId>86e358bb-88f4-5d20-af53-93f0f3524590</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Conclusion
+
+<chapterId>189d80ac-f10e-4a0d-9db8-400523cad978</chapterId>
 
 Congratulations on completing this course!
 

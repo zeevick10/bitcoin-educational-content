@@ -1615,6 +1615,7 @@ Tetherのステーブルコインは、経済的な課題に直面している�
 <chapterId>86e358bb-88f4-5d20-af53-93f0f3524590</chapterId>
 <isCourseReview>true</isCourseReview>
 ## まとめ
+<chapterId>189d80ac-f10e-4a0d-9db8-400523cad978</chapterId>
 このコースを修了おめでとうございます！
 
 学習の道のりにおいてこの節目を達成されたことを心よりお喜び申し上げます。

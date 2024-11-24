@@ -1639,6 +1639,8 @@ Fremtiden er lys!
 
 ## Konklusjon
 
+<chapterId>189d80ac-f10e-4a0d-9db8-400523cad978</chapterId>
+
 Gratulerer med fullført kurs!
 
 Vi er begeistret for at du har nådd denne milepælen i din lærereise.

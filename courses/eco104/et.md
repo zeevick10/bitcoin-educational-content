@@ -1646,6 +1646,8 @@ Tulevik on Helge!
 
 ## Kokkuvõte
 
+<chapterId>189d80ac-f10e-4a0d-9db8-400523cad978</chapterId>
+
 Õnnitleme kursuse läbimise puhul!
 
 Meil on hea meel, et oled edukalt jõudnud selle tähiseni oma õpiteel.
