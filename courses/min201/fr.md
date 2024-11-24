@@ -828,15 +828,46 @@ Cela met une limite supérieure au taux de hachage qu’une machine peut avoir. 
 
 Le résultat final est un taux de hachage plus élevé par watt d’électricité, ce qui signifie des marges bénéficiaires plus importantes pour les mineurs. La raison pour laquelle les machines ne sont pas distribuées avec ce type de logiciel est que la variance par machine n’est pas souhaitable, car les clients veulent savoir exactement ce qu’ils obtiennent et il est donc une mauvaise idée pour les fabricants de vendre un produit qui n’a pas des performances constantes et prévisibles d’une machine à l’autre. En outre, le réglage automatique par puce nécessite des ressources de développement considérables, car il est complexe à mettre en place. Les fabricants dépensent déjà beaucoup de ressources pour développer leurs propres firmwares. Il existe des solutions logicielles qui permettent de mettre en place l’autotuning, comme Braiins OS+. En plus d’améliorer les performances de l’ASIC jusqu’à 20%.
 
+# Conclusion
+
+<partId>fa42ec0b-b1fd-47f6-8268-6eab684c1d2b</partId>
+
 ## Évaluez ce cours
 
 <chapterId>6af13742-df68-5cf4-b7aa-93dc0c2eaae9</chapterId>
 <isCourseReview>true</isCourseReview>
 
-## Contrôler un Antminer S9 depuis son smartphone
+## Examen final
 
-<chapterId>6e7c234a-a445-5070-b087-531d16c42107</chapterId>
+<chapterId>f51a7c88-3b7e-48df-b45f-22bb10fe619f</chapterId>
+<isCourseExam>true</isCourseExam>
 
-### Créer des raccourcis sur IOS
+## Conclusion
 
-![Contrôler un Antminer S9 avec son smartphone](https://www.youtube.com/watch?v=OsKmdB2iw88&t=60s)
+<chapterId>2941f29a-d6ce-4a3c-b61b-6e399f5395b1</chapterId>
+
+Félicitations pour avoir terminé ce cours !
+
+Nous sommes ravis que vous ayez atteint cette étape importante dans votre parcours d'apprentissage. Grâce à votre dévouement et à votre engagement, vous avez acquis des connaissances et des compétences précieuses qui vous serviront dans votre développement professionnel.
+
+Pour continuer à explorer en profondeur l'univers du Bitcoin, nous vous invitons à découvrir tous les autres cours disponibles sur Plan ₿ Network :
+
+#### Découvrez Bitcoin et ses fondamentaux avec
+
+https://planb.network/courses/btc101
+
+#### Découvrez le Lightning Network avec
+
+https://planb.network/courses/lnp201
+
+#### Maîtriser les principes des la vie privée sur Bitcoin
+
+https://planb.network/courses/btc204
+
+#### Découvrez l'histoire des origines de Bitcoin avec
+
+https://planb.network/courses/his201
+
+#### Comprenez comment fonctionne le portefeuille Bitcoin avec
+
+https://planb.network/courses/cyp201

@@ -770,15 +770,47 @@ Ini menetapkan batas atas pada tingkat hash yang dapat dimiliki oleh sebuah mesi
 
 Hasil akhirnya adalah tingkat hash yang lebih tinggi per watt listrik, yang berarti margin keuntungan yang lebih besar untuk penambang. Alasan mengapa mesin tidak didistribusikan dengan jenis perangkat lunak ini adalah karena variansi mesin tidak diinginkan, karena pelanggan ingin tahu persis apa yang mereka dapatkan, sehingga merupakan ide buruk bagi produsen untuk menjual produk yang tidak memiliki kinerja yang konsisten dan dapat diprediksi dari satu mesin ke mesin lainnya. Selain itu, autotuning tingkat chip memerlukan sumber daya pengembangan yang cukup besar, karena kompleks untuk diimplementasikan. Produsen sudah menghabiskan banyak sumber daya mengembangkan firmware mereka sendiri. Ada solusi perangkat lunak yang memungkinkan autotuning, seperti Braiins OS+. Selain meningkatkan kinerja ASIC hingga 20%.
 
+# Kesimpulan
+
+<partId>fa42ec0b-b1fd-47f6-8268-6eab684c1d2b</partId>
+
 ## Evaluasi kursus ini
 
 <chapterId>6af13742-df68-5cf4-b7aa-93dc0c2eaae9</chapterId>
 <isCourseReview>true</isCourseReview>
 
-## Mengontrol Antminer S9 dari smartphone Anda
+## Ujian akhir
 
-<chapterId>6e7c234a-a445-5070-b087-531d16c42107</chapterId>
+<chapterId>f51a7c88-3b7e-48df-b45f-22bb10fe619f</chapterId>
+<isCourseExam>true</isCourseExam>
 
-### Membuat pintasan di iOS
+## Kesimpulan
 
-![Mengontrol Antminer S9 dengan smartphone Anda](https://www.youtube.com/watch?v=OsKmdB2iw88&t=60s)
+<chapterId>2941f29a-d6ce-4a3c-b61b-6e399f5395b1</chapterId>
+Selamat atas penyelesaian kursus ini!
+
+Kami senang Anda telah mencapai tonggak penting ini dalam perjalanan pembelajaran Anda.
+
+Melalui dedikasi dan komitmen Anda, Anda telah memperoleh pengetahuan dan keterampilan berharga yang akan membantu Anda dalam pengembangan profesional.
+
+Untuk terus mengeksplorasi alam semesta Bitcoin secara mendalam, kami mengundang Anda untuk menemukan semua kursus lain yang tersedia di Plan ₿ Network:
+
+#### Temukan Bitcoin dan fundamental-nya dengan
+
+https://planb.network/courses/btc101
+
+#### Temukan Lightning Network dengan
+
+https://planb.network/courses/lnp201
+
+#### Kuasai prinsip-prinsip privasi di Bitcoin
+
+https://planb.network/courses/btc204
+
+#### Temukan sejarah asal-usul Bitcoin dengan
+
+https://planb.network/courses/his201
+
+#### Pahami cara kerja dompet Bitcoin dengan
+
+https://planb.network/courses/cyp201

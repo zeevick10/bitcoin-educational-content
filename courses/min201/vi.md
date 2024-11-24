@@ -777,15 +777,47 @@ Ngày nay, có một tiến bộ mới trong lĩnh vực phần mềm và firmwa
 
 Kết quả cuối cùng là tốc độ hash cao hơn trên mỗi watt điện năng tiêu thụ, điều này có nghĩa là lợi nhuận lớn hơn cho các thợ đào. Lý do tại sao các máy không được phân phối với loại phần mềm này là vì sự biến động của máy là không mong muốn, vì khách hàng muốn biết chính xác họ đang nhận được cái gì, vì vậy việc bán một sản phẩm không có hiệu suất nhất quán và dự đoán được từ máy này sang máy khác là ý tưởng tồi cho các nhà sản xuất. Ngoài ra, autotuning ở cấp độ chip đòi hỏi nguồn lực phát triển đáng kể, vì nó phức tạp để triển khai. Các nhà sản xuất đã chi rất nhiều nguồn lực để phát triển firmware của riêng họ. Có các giải pháp phần mềm cho phép autotuning, như Braiins OS+, có thể cải thiện hiệu suất ASIC lên đến 20%.
 
-## Đánh giá khóa học
+# Kết luận
+
+<partId>fa42ec0b-b1fd-47f6-8268-6eab684c1d2b</partId>
+
+## Đánh giá khóa học này
 
 <chapterId>6af13742-df68-5cf4-b7aa-93dc0c2eaae9</chapterId>
 <isCourseReview>true</isCourseReview>
 
-## Điều khiển Antminer S9 từ điện thoại thông minh của bạn
+## Kỳ thi cuối khóa
 
-<chapterId>6e7c234a-a445-5070-b087-531d16c42107</chapterId>
+<chapterId>f51a7c88-3b7e-48df-b45f-22bb10fe619f</chapterId>
+<isCourseExam>true</isCourseExam>
 
-### Tạo phím tắt trên iOS
+## Kết luận
 
-![Điều khiển Antminer S9 bằng điện thoại thông minh của bạn](https://www.youtube.com/watch?v=OsKmdB2iw88&t=60s)
+<chapterId>2941f29a-d6ce-4a3c-b61b-6e399f5395b1</chapterId>
+Chúc mừng bạn đã hoàn thành khóa học này!
+
+Chúng tôi rất vui mừng khi bạn đã đạt được cột mốc quan trọng này trong hành trình học tập của mình.
+
+Thông qua sự cống hiến và cam kết của bạn, bạn đã thu được những kiến thức và kỹ năng quý giá sẽ phục vụ cho sự phát triển nghề nghiệp của bạn.
+
+Để tiếp tục khám phá sâu hơn về vũ trụ Bitcoin, chúng tôi mời bạn khám phá tất cả các khóa học khác có sẵn trên Plan ₿ Network:
+
+#### Khám phá Bitcoin và những điều cơ bản của nó với
+
+https://planb.network/courses/btc101
+
+#### Khám phá Lightning Network với
+
+https://planb.network/courses/lnp201
+
+#### Làm chủ các nguyên tắc về quyền riêng tư trên Bitcoin
+
+https://planb.network/courses/btc204
+
+#### Khám phá lịch sử nguồn gốc của Bitcoin với
+
+https://planb.network/courses/his201
+
+#### Hiểu cách hoạt động của ví Bitcoin với
+
+https://planb.network/courses/cyp201

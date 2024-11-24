@@ -781,15 +781,47 @@ Isso impõe um limite superior à taxa de hashing que uma máquina pode ter. O a
 
 O resultado final é uma taxa de hashing mais alta por watt de eletricidade, o que significa margens de lucro maiores para os mineradores. A razão pela qual as máquinas não são distribuídas com esse tipo de software é que a variação por máquina não é desejável, pois os clientes querem saber exatamente o que estão obtendo, e, portanto, é uma má ideia para os fabricantes venderem um produto que não tenha desempenho consistente e previsível de uma máquina para outra. Além disso, o ajuste automático por chip requer recursos de desenvolvimento consideráveis, pois é complexo de implementar. Os fabricantes já gastam muitos recursos para desenvolver seus próprios firmwares. Existem soluções de software que permitem implementar o autotuning, como o Braiins OS+. Além de melhorar o desempenho do ASIC em até 20%.
 
-## Avalie o curso
+# Conclusão
+
+<partId>fa42ec0b-b1fd-47f6-8268-6eab684c1d2b</partId>
+
+## Avalie este curso
 
 <chapterId>6af13742-df68-5cf4-b7aa-93dc0c2eaae9</chapterId>
 <isCourseReview>true</isCourseReview>
 
-## Controlando um Antminer S9 pelo smartphone
+## Exame final
 
-<chapterId>6e7c234a-a445-5070-b087-531d16c42107</chapterId>
+<chapterId>f51a7c88-3b7e-48df-b45f-22bb10fe619f</chapterId>
+<isCourseExam>true</isCourseExam>
 
-### Criando atalhos no iOS
+## Conclusão
 
-![Controlando um Antminer S9 pelo smartphone](https://www.youtube.com/watch?v=OsKmdB2iw88&t=60s)
+<chapterId>2941f29a-d6ce-4a3c-b61b-6e399f5395b1</chapterId>
+Parabéns por concluir este curso!
+
+Estamos muito satisfeitos que você tenha alcançado este importante marco em sua jornada de aprendizagem.
+
+Através de sua dedicação e comprometimento, você adquiriu conhecimentos e habilidades valiosos que servirão para seu desenvolvimento profissional.
+
+Para continuar explorando em profundidade o universo Bitcoin, convidamos você a descobrir todos os outros cursos disponíveis na Plan ₿ Network:
+
+#### Descubra o Bitcoin e seus fundamentos com
+
+https://planb.network/courses/btc101
+
+#### Descubra a Lightning Network com
+
+https://planb.network/courses/lnp201
+
+#### Domine os princípios da privacidade no Bitcoin
+
+https://planb.network/courses/btc204
+
+#### Descubra a história das origens do Bitcoin com
+
+https://planb.network/courses/his201
+
+#### Entenda como funciona a carteira Bitcoin com
+
+https://planb.network/courses/cyp201

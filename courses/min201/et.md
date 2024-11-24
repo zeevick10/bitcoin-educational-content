@@ -768,15 +768,47 @@ See seab ülemise piiri masina hashimiskiirusele. Autotuning on protsess, kus al
 
 Lõpptulemuseks on suurem hashimiskiirus vati kohta, mis tähendab kaevuritele suuremaid kasumimarginaale. Põhjus, miks masinaid ei jaotata sellise tarkvaraga, on see, et masinate varieeruvus on ebasoovitav, kuna kliendid soovivad täpselt teada, mida nad saavad, seega on tootjate jaoks halb mõte müüa toodet, millel ei ole ühelt masinalt teisele järjepidevat ja etteaimatavat jõudlust. Lisaks nõuab kiibi tasemel autotuning märkimisväärseid arendusressursse, kuna selle rakendamine on keeruline. Tootjad kulutavad juba palju ressursse oma püsivara arendamisele. On olemas tarkvaralahendusi, mis võimaldavad autotuningut, nagu näiteks Braiins OS+. Lisaks ASIC-i jõudluse parandamisele kuni 20%.
 
-## Hinnake kursust
+# Kokkuvõte
+
+<partId>fa42ec0b-b1fd-47f6-8268-6eab684c1d2b</partId>
+
+## Hinda seda kursust
 
 <chapterId>6af13742-df68-5cf4-b7aa-93dc0c2eaae9</chapterId>
 <isCourseReview>true</isCourseReview>
 
-## Antminer S9 juhtimine oma nutitelefonist
+## Lõpueksam
 
-<chapterId>6e7c234a-a445-5070-b087-531d16c42107</chapterId>
+<chapterId>f51a7c88-3b7e-48df-b45f-22bb10fe619f</chapterId>
+<isCourseExam>true</isCourseExam>
 
-### Otseteede loomine iOS-is
+## Kokkuvõte
 
-![Antminer S9 juhtimine oma nutitelefoniga](https://www.youtube.com/watch?v=OsKmdB2iw88&t=60s)
+<chapterId>2941f29a-d6ce-4a3c-b61b-6e399f5395b1</chapterId>
+Õnnitleme kursuse lõpetamise puhul!
+
+Meil on hea meel, et olete jõudnud selle olulise tähiseni oma õpiteel.
+
+Tänu teie pühendumisele ja pühendumusele olete omandanud väärtuslikke teadmisi ja oskusi, mis teenivad teid teie professionaalses arengus.
+
+Bitcoini universumi põhjalikumaks uurimiseks kutsume teid avastama kõiki teisi Plan ₿ Networkis saadaolevaid kursusi:
+
+#### Avastage Bitcoin ja selle põhitõed kursusega
+
+https://planb.network/courses/btc101
+
+#### Avastage Lightning Network kursusega
+
+https://planb.network/courses/lnp201
+
+#### Omandage Bitcoini privaatsuse põhimõtted
+
+https://planb.network/courses/btc204
+
+#### Avastage Bitcoini päritolu ajalugu kursusega
+
+https://planb.network/courses/his201
+
+#### Mõistke, kuidas Bitcoin rahakott töötab, kursusega
+
+https://planb.network/courses/cyp201

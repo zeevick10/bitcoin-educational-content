@@ -766,15 +766,47 @@ Braiins OS+支持ASIC的超频、降频和自动调频。它允许用户灵活�
 
 最终结果是每瓦特电力的哈希率更高，这意味着对矿工来说利润空间更大。之所以不在机器上分配这类软件的原因是，机器的差异性是不受欢迎的，因为客户想要确切知道他们得到了什么，所以对制造商来说，销售性能在一台机器到另一台机器之间不一致和不可预测的产品是一个坏主意。此外，芯片级自动调谐需要大量的开发资源，因为实现起来复杂。制造商已经花费了大量资源开发他们自己的固件。有一些软件解决方案允许进行自动调谐，例如Braiins OS+。除此之外，还可以通过高达20%来提高ASIC的性能。
 
-## 评估课程
+# 总结
+
+<partId>fa42ec0b-b1fd-47f6-8268-6eab684c1d2b</partId>
+
+## 评价本课程
 
 <chapterId>6af13742-df68-5cf4-b7aa-93dc0c2eaae9</chapterId>
 <isCourseReview>true</isCourseReview>
 
-## 通过智能手机控制Antminer S9
+## 期末考试
 
-<chapterId>6e7c234a-a445-5070-b087-531d16c42107</chapterId>
+<chapterId>f51a7c88-3b7e-48df-b45f-22bb10fe619f</chapterId>
+<isCourseExam>true</isCourseExam>
 
-### 在iOS上创建快捷方式
+## 总结
 
-![通过智能手机控制Antminer S9](https://www.youtube.com/watch?v=OsKmdB2iw88&t=60s)
+<chapterId>2941f29a-d6ce-4a3c-b61b-6e399f5395b1</chapterId>
+恭喜您完成本课程！
+
+我们很高兴看到您在学习旅程中达到这个重要的里程碑。
+
+通过您的奉献和投入，您获得了宝贵的知识和技能，这将有助于您的职业发展。
+
+为了继续深入探索比特币的世界，我们诚邀您发现 Plan ₿ Network 上的所有其他课程：
+
+#### 通过以下课程了解比特币及其基础知识
+
+https://planb.network/courses/btc101
+
+#### 通过以下课程了解闪电网络
+
+https://planb.network/courses/lnp201
+
+#### 掌握比特币上的隐私原则
+
+https://planb.network/courses/btc204
+
+#### 通过以下课程了解比特币起源的历史
+
+https://planb.network/courses/his201
+
+#### 通过以下课程了解比特币钱包的工作原理
+
+https://planb.network/courses/cyp201

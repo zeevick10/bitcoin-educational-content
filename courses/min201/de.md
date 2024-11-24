@@ -785,15 +785,47 @@ Dies setzt eine Obergrenze für die Hash-Rate, die eine Maschine haben kann. Das
 
 Das Endergebnis ist eine höhere Hash-Rate pro Watt Stromverbrauch, was bedeutet, dass die Miner höhere Gewinnmargen erzielen können. Der Grund, warum Maschinen nicht mit dieser Art von Software ausgeliefert werden, ist, dass eine Maschinenvarianz unerwünscht ist, da die Kunden genau wissen wollen, was sie bekommen, und es daher keine gute Idee für die Hersteller ist, ein Produkt zu verkaufen, das von Maschine zu Maschine keine konstanten und vorhersehbaren Leistungen aufweist. Darüber hinaus erfordert das Chip-Autotuning erhebliche Entwicklungsressourcen, da es komplex ist, umzusetzen. Die Hersteller investieren bereits viele Ressourcen in die Entwicklung ihrer eigenen Firmware. Es gibt Softwarelösungen, die das Autotuning ermöglichen, wie z.B. Braiins OS+. Diese verbessern die Leistung des ASICs um bis zu 20%.
 
-## Bewerten Sie den Kurs
+# Abschluss
+
+<partId>fa42ec0b-b1fd-47f6-8268-6eab684c1d2b</partId>
+
+## Bewerten Sie diesen Kurs
 
 <chapterId>6af13742-df68-5cf4-b7aa-93dc0c2eaae9</chapterId>
 <isCourseReview>true</isCourseReview>
 
-## Steuern Sie einen Antminer S9 von Ihrem Smartphone aus
+## Abschlussprüfung
 
-<chapterId>6e7c234a-a445-5070-b087-531d16c42107</chapterId>
+<chapterId>f51a7c88-3b7e-48df-b45f-22bb10fe619f</chapterId>
+<isCourseExam>true</isCourseExam>
 
-### Erstellen von Verknüpfungen auf iOS
+## Abschluss
 
-![Steuern Sie einen Antminer S9 mit Ihrem Smartphone](https://www.youtube.com/watch?v=OsKmdB2iw88&t=60s)
+<chapterId>2941f29a-d6ce-4a3c-b61b-6e399f5395b1</chapterId>
+Herzlichen Glückwunsch zum Abschluss dieses Kurses!
+
+Wir freuen uns, dass Sie diesen wichtigen Meilenstein in Ihrer Lernreise erreicht haben.
+
+Durch Ihr Engagement und Ihre Hingabe haben Sie wertvolles Wissen und Fähigkeiten erworben, die Ihnen in Ihrer beruflichen Entwicklung dienen werden.
+
+Um das Bitcoin-Universum weiter zu erforschen, laden wir Sie ein, alle anderen verfügbaren Kurse auf Plan ₿ Network zu entdecken:
+
+#### Entdecken Sie Bitcoin und seine Grundlagen mit
+
+https://planb.network/courses/btc101
+
+#### Entdecken Sie das Lightning Network mit
+
+https://planb.network/courses/lnp201
+
+#### Beherrschen Sie die Prinzipien der Privatsphäre auf Bitcoin
+
+https://planb.network/courses/btc204
+
+#### Entdecken Sie die Geschichte der Ursprünge von Bitcoin mit
+
+https://planb.network/courses/his201
+
+#### Verstehen Sie, wie die Bitcoin-Wallet funktioniert mit
+
+https://planb.network/courses/cyp201

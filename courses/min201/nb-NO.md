@@ -763,15 +763,47 @@ Dette setter en øvre grense for hash rate en maskin kan ha. Autotuning er en pr
 
 Resultatet er en høyere hash rate per watt elektrisitet, noe som betyr større fortjenestemarginer for gruvearbeidere. Grunnen til at maskiner ikke distribueres med denne typen programvare er at maskinvarians er uønsket, ettersom kunder ønsker å vite nøyaktig hva de får, så det er en dårlig idé for produsenter å selge et produkt som ikke har konsekvent og forutsigbar ytelse fra en maskin til en annen. I tillegg krever autotuning på brikkenivå betydelige utviklingsressurser, da det er komplekst å implementere. Produsenter bruker allerede mange ressurser på å utvikle sine egne firmwares. Det finnes programvareløsninger som tillater autotuning, som Braiins OS+. I tillegg til å forbedre ASIC-ytelsen med opptil 20%.
 
-## Evaluer kurset
+# Konklusjon
+
+<partId>fa42ec0b-b1fd-47f6-8268-6eab684c1d2b</partId>
+
+## Evaluer dette kurset
 
 <chapterId>6af13742-df68-5cf4-b7aa-93dc0c2eaae9</chapterId>
 <isCourseReview>true</isCourseReview>
 
-## Kontrollere en Antminer S9 fra smarttelefonen din
+## Avsluttende eksamen
 
-<chapterId>6e7c234a-a445-5070-b087-531d16c42107</chapterId>
+<chapterId>f51a7c88-3b7e-48df-b45f-22bb10fe619f</chapterId>
+<isCourseExam>true</isCourseExam>
 
-### Opprette snarveier på iOS
+## Konklusjon
 
-![Kontrollere en Antminer S9 med smarttelefonen din](https://www.youtube.com/watch?v=OsKmdB2iw88&t=60s)
+<chapterId>2941f29a-d6ce-4a3c-b61b-6e399f5395b1</chapterId>
+Gratulerer med fullført kurs!
+
+Vi er glade for at du har nådd denne viktige milepælen i din læringsprosess.
+
+Gjennom din dedikasjon og engasjement har du tilegnet deg verdifull kunnskap og ferdigheter som vil tjene deg i din profesjonelle utvikling.
+
+For å fortsette å utforske Bitcoin-universet i dybden, inviterer vi deg til å oppdage alle andre kurs som er tilgjengelige på Plan ₿ Network:
+
+#### Oppdag Bitcoin og dens grunnleggende prinsipper med
+
+https://planb.network/courses/btc101
+
+#### Oppdag Lightning Network med
+
+https://planb.network/courses/lnp201
+
+#### Behersk prinsippene for personvern på Bitcoin
+
+https://planb.network/courses/btc204
+
+#### Oppdag historien om Bitcoins opprinnelse med
+
+https://planb.network/courses/his201
+
+#### Forstå hvordan Bitcoin-lommeboken fungerer med
+
+https://planb.network/courses/cyp201

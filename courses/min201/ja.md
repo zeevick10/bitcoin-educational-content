@@ -767,15 +767,47 @@ Braiins OS+は、ASICのオーバークロック、アンダークロック、�
 
 その結果、電力1ワットあたりのより高いハッシュレートが得られ、これはマイナーにとってより大きな利益率を意味します。このタイプのソフトウェアでマシンが配布されない理由は、マシンのばらつきが望ましくないため、顧客は自分が何を得ているのかを正確に知りたいと考えているため、一貫性と予測可能なパフォーマンスを持たない製品を販売することはメーカーにとって悪い考えです。さらに、チップレベルの自動調整にはかなりの開発リソースが必要であり、実装が複雑です。メーカーはすでに自社のファームウェアの開発に多くのリソースを費やしています。Braiins OS+のように、自動調整を可能にするソフトウェアソリューションがあります。これにより、最大20％までASICのパフォーマンスが向上します。
 
-## コースの評価
+# まとめ
+
+<partId>fa42ec0b-b1fd-47f6-8268-6eab684c1d2b</partId>
+
+## このコースを評価する
 
 <chapterId>6af13742-df68-5cf4-b7aa-93dc0c2eaae9</chapterId>
 <isCourseReview>true</isCourseReview>
 
-## スマートフォンからAntminer S9を制御する
+## 最終試験
 
-<chapterId>6e7c234a-a445-5070-b087-531d16c42107</chapterId>
+<chapterId>f51a7c88-3b7e-48df-b45f-22bb10fe619f</chapterId>
+<isCourseExam>true</isCourseExam>
 
-### iOSでショートカットを作成する
+## まとめ
 
-![スマートフォンでAntminer S9を制御する](https://www.youtube.com/watch?v=OsKmdB2iw88&t=60s)
+<chapterId>2941f29a-d6ce-4a3c-b61b-6e399f5395b1</chapterId>
+このコースを修了おめでとうございます！
+
+学習の旅において、この重要なマイルストーンに到達されたことを大変嬉しく思います。
+
+あなたの献身と努力により、専門的な発展に役立つ貴重な知識とスキルを習得されました。
+
+ビットコインの世界をさらに深く探求するために、Plan ₿ Networkで利用可能な他のすべてのコースをご覧ください：
+
+#### ビットコインとその基礎を学ぶ
+
+https://planb.network/courses/btc101
+
+#### ライトニングネットワークを学ぶ
+
+https://planb.network/courses/lnp201
+
+#### ビットコインのプライバシーの原則を習得する
+
+https://planb.network/courses/btc204
+
+#### ビットコインの起源の歴史を学ぶ
+
+https://planb.network/courses/his201
+
+#### ビットコインウォレットの仕組みを理解する
+
+https://planb.network/courses/cyp201

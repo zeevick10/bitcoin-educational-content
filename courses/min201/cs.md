@@ -764,15 +764,47 @@ Dnes existuje nový pokrok v softwaru a firmwaru pro těžbu nazvaný autotuning
 Toto stanovuje horní limit pro hash rate, kterého může stroj dosáhnout. Autotuning je proces, při kterém algoritmy vyhodnocují optimální frekvence pro hashování jednotlivých čipů, místo aby byl celý stroj považován za jednotnou jednotku. To znamená, že čip vyšší kvality, který dokáže provést více hashů za sekundu, dostane vyšší frekvenci, a čip nižší kvality, který dokáže provést relativně méně hashů, dostane nižší frekvenci. Autotuning na úrovni čipů je v podstatě způsob, jak optimalizovat výkon ASIC prostřednictvím softwaru a firmware, který na něm běží.
 Výsledkem je vyšší hash rate na watt elektrické energie, což znamená větší ziskové marže pro těžaře. Důvodem, proč stroje nejsou distribuovány s tímto typem softwaru, je to, že variabilita strojů je nežádoucí, protože zákazníci chtějí přesně vědět, co kupují, takže je špatný nápad, aby výrobci prodávali produkt, který nemá konzistentní a předvídatelný výkon z jednoho stroje na druhý. Kromě toho vyžaduje autotuning na úrovni čipů značné vývojové zdroje, jelikož je složité jej implementovat. Výrobci již vynakládají mnoho zdrojů na vývoj vlastních firmware. Existují softwarová řešení, která umožňují autotuning, jako například Braiins OS+. Kromě toho zlepšují výkon ASIC až o 20 %.
 
-## Ohodnoťte kurz
+# Závěr
+
+<partId>fa42ec0b-b1fd-47f6-8268-6eab684c1d2b</partId>
+
+## Zhodnoťte tento kurz
 
 <chapterId>6af13742-df68-5cf4-b7aa-93dc0c2eaae9</chapterId>
 <isCourseReview>true</isCourseReview>
 
-## Ovládání Antmineru S9 z vašeho smartphonu
+## Závěrečná zkouška
 
-<chapterId>6e7c234a-a445-5070-b087-531d16c42107</chapterId>
+<chapterId>f51a7c88-3b7e-48df-b45f-22bb10fe619f</chapterId>
+<isCourseExam>true</isCourseExam>
 
-### Vytváření zástupců na iOS
+## Závěr
 
-![Ovládání Antmineru S9 s vaším smartphonem](https://www.youtube.com/watch?v=OsKmdB2iw88&t=60s)
+<chapterId>2941f29a-d6ce-4a3c-b61b-6e399f5395b1</chapterId>
+Gratulujeme k dokončení tohoto kurzu!
+
+Jsme rádi, že jste dosáhli tohoto důležitého milníku ve své vzdělávací cestě.
+
+Díky vaší oddanosti a závazku jste získali cenné znalosti a dovednosti, které vám poslouží ve vašem profesním rozvoji.
+
+Pro další hluboké zkoumání světa Bitcoinu vás zveme k objevování všech dalších kurzů dostupných na Plan ₿ Network:
+
+#### Objevte Bitcoin a jeho základy s
+
+https://planb.network/courses/btc101
+
+#### Objevte Lightning Network s
+
+https://planb.network/courses/lnp201
+
+#### Ovládněte principy soukromí na Bitcoinu
+
+https://planb.network/courses/btc204
+
+#### Objevte historii původu Bitcoinu s
+
+https://planb.network/courses/his201
+
+#### Pochopte, jak funguje Bitcoin peněženka s
+
+https://planb.network/courses/cyp201

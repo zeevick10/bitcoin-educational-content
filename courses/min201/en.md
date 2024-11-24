@@ -787,15 +787,47 @@ This puts an upper limit on the hash rate a machine can have. Autotuning is a pr
 
 The end result is a higher hash rate per watt of electricity, which means larger profit margins for miners. The reason why machines are not distributed with this type of software is that machine variance is undesirable, as customers want to know exactly what they are getting, so it is a bad idea for manufacturers to sell a product that does not have consistent and predictable performance from one machine to another. Additionally, chip-level autotuning requires considerable development resources, as it is complex to implement. Manufacturers already spend a lot of resources developing their own firmwares. There are software solutions that allow for autotuning, such as Braiins OS+. In addition to improving ASIC performance by up to 20%.
 
-## Evaluate the course
+# Conclusion
+
+<partId>fa42ec0b-b1fd-47f6-8268-6eab684c1d2b</partId>
+
+## Evaluate this course
 
 <chapterId>6af13742-df68-5cf4-b7aa-93dc0c2eaae9</chapterId>
 <isCourseReview>true</isCourseReview>
 
-## Controlling an Antminer S9 from your smartphone
+## Final exam
 
-<chapterId>6e7c234a-a445-5070-b087-531d16c42107</chapterId>
+<chapterId>f51a7c88-3b7e-48df-b45f-22bb10fe619f</chapterId>
+<isCourseExam>true</isCourseExam>
 
-### Creating shortcuts on iOS
+## Conclusion
 
-![Controlling an Antminer S9 with your smartphone](https://www.youtube.com/watch?v=OsKmdB2iw88&t=60s)
+<chapterId>2941f29a-d6ce-4a3c-b61b-6e399f5395b1</chapterId>
+Congratulations on completing this course!
+
+We are delighted that you have reached this important milestone in your learning journey.
+
+Through your dedication and commitment, you have gained valuable knowledge and skills that will serve you in your professional development.
+
+To continue exploring the Bitcoin universe in depth, we invite you to discover all other courses available on Plan ₿ Network:
+
+#### Discover Bitcoin and its fundamentals with
+
+https://planb.network/courses/btc101
+
+#### Discover the Lightning Network with
+
+https://planb.network/courses/lnp201
+
+#### Master the principles of privacy on Bitcoin
+
+https://planb.network/courses/btc204
+
+#### Discover the history of Bitcoin's origins with
+
+https://planb.network/courses/his201
+
+#### Understand how the Bitcoin wallet works with
+
+https://planb.network/courses/cyp201
