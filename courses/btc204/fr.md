@@ -3888,8 +3888,6 @@ Puisque cette fonctionnalité est récente, il est conseillé de faire preuve de
 *Pour créer ce chapitre sur les Silent Payments, j'ai utilisé [le site d'explication des Silent Payments](https://silentpayments.xyz/) et [le document d'explication du BIP352](https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki).*
 
 
-## Le mot de la fin
-
 # Conclusion
 <partId>2aee56c0-b285-4799-b4f7-373a552ee2b2</partId>
 
