@@ -3888,19 +3888,22 @@ Puisque cette fonctionnalité est récente, il est conseillé de faire preuve de
 *Pour créer ce chapitre sur les Silent Payments, j'ai utilisé [le site d'explication des Silent Payments](https://silentpayments.xyz/) et [le document d'explication du BIP352](https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki).*
 
 
+## Le mot de la fin
+
 # Conclusion
 <partId>2aee56c0-b285-4799-b4f7-373a552ee2b2</partId>
 
-
 ## Évaluez le cours
+
 <chapterId>195d149f-80fa-5816-8b46-995a9226d082</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Examen final
+
 <chapterId>e803d394-e3c1-5816-a6b4-a69a2472019c</chapterId>
 <isCourseExam>true</isCourseExam>
 
-## Le mot de la fin
+## Conclusion
 <chapterId>cd8e5c67-50e4-4dcd-8e04-88ba5ec95305</chapterId>
 
 Félicitations pour avoir terminé cette formation sur la confidentialité sur Bitcoin !
@@ -3912,3 +3915,31 @@ Si je devais choisir la partie la plus importante de cette formation, je prendra
 Dans cette formation, nous nous sommes concentrés exclusivement sur la confidentialité de Bitcoin sur la chaîne principale. Les enjeux de confidentialité sur les systèmes de seconde couche, comme le Lightning Network et les sidechains, sont également importants et possèdent des caractéristiques très spécifiques. Bien que l'utilisation de transactions off-chain puisse être une stratégie efficace pour contourner les nombreux risques de traçabilité sur Bitcoin que nous avons étudiés, elle expose à d'autres risques qu'il est aussi essentiel de connaître. C'est pour cela que ces sujets seront abordés dans une future formation dédiée sur Plan ₿ Network.
 
 Si vous avez apprécié cette formation, je vous serais très reconnaissant de la partager avec vos proches et sur les réseaux sociaux. Merci ! :)
+
+Pour continuer à approfondir vos connaissances dans l'univers du Bitcoin, nous vous invitons à explorer d'autres cours disponibles sur Plan ₿ Network comme :
+
+#### Comprenez le fonctionnement d'un portefeuille Bitcoin avec
+
+https://planb.network/courses/cyp201
+
+#### Apprenez à créer votre communauté Bitcoin avec
+
+https://planb.network/courses/btc302
+
+#### Découvrez l'histoire des origines de Bitcoin avec
+
+https://planb.network/courses/his201
+
+#### Configurez un serveur de paiement BTC avec
+
+https://planb.network/courses/btc305
+
+#### Découvrez le réseau Lightning avec
+
+https://planb.network/courses/lnp201
+
+#### Découvrez l'évolution de la liberté à travers les âges avec 
+
+https://planb.network/courses/phi201
+
+

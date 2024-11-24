@@ -3591,8 +3591,10 @@ Siden denne funksjonen er ny, er det tilrådelig å utøve forsiktighet og unng�
 _For å lage dette kapittelet om Silent Payments, brukte jeg [nettstedet for forklaring av Silent Payments](https://silentpayments.xyz/) og [dokumentet for forklaring av BIP352](https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki)._
 
 # Konklusjon
+
 <partId>2aee56c0-b285-4799-b4f7-373a552ee2b2</partId>
-## Evaluer kurset
+
+## Evaluer dette kurset
 
 <chapterId>195d149f-80fa-5816-8b46-995a9226d082</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -3605,12 +3607,38 @@ _For å lage dette kapittelet om Silent Payments, brukte jeg [nettstedet for for
 ## Konklusjon
 
 <chapterId>cd8e5c67-50e4-4dcd-8e04-88ba5ec95305</chapterId>
+Gratulerer med fullført opplæring om Bitcoin-personvern!
 
-Gratulerer med å ha fullført denne opplæringen om personvern i Bitcoin!
+I denne opplæringen har vi tatt for oss mange avanserte og tekniske emner, men det er ikke nødvendig å bruke alle verktøyene som er presentert. Hovedmålet var å gi deg muligheten til å velge hvilken informasjon du vil dele og hvilken du foretrekker å holde konfidensiell i din bruk av Bitcoin. Dette legemliggjør selve essensen av personvern. For å ta informerte valg om hvilken informasjon som skal deles eller skjules, må man være klar over konsekvensene av våre handlinger. Jeg håper denne opplæringen har hjulpet deg med å tilegne deg denne kunnskapen.
 
-Vi har dekket mange avanserte og tekniske emner i denne opplæringen, men det er ikke nødvendig å bruke alle verktøyene som er presentert. Hovedmålet var å gi deg muligheten til å velge hvilken informasjon du ønsker å avsløre og hvilken informasjon du foretrekker å holde konfidensiell i din bruk av Bitcoin. Dette er selve essensen av beskyttelse av personvern. For å ta informerte valg om informasjonen som skal deles eller skjules, er det nødvendig å være klar over implikasjonene av våre handlinger. Jeg håper denne opplæringen har hjulpet deg med å oppnå denne kunnskapen.
-Hvis jeg måtte velge den viktigste delen av denne opplæringen, ville jeg valgt seksjonen som er viet til kjedeanalyse. Å forstå teknikkene som potensielle angripere bruker, er den beste måten å beskytte seg selv på. Derfor ville mitt råd være å nøye gjennomgå denne delen og forsøke å forstå alle detaljene.
+Hvis jeg skulle velge den viktigste delen av denne opplæringen, ville jeg valgt seksjonen dedikert til kjedeanalyse. Å forstå teknikkene som brukes av potensielle angripere er den beste måten å beskytte seg mot dem. Mitt råd ville derfor være å gjennomgå denne delen nøye og prøve å forstå alle detaljene.
 
-I denne opplæringen fokuserte vi utelukkende på Bitcoins personvern på hovedkjeden. Personvernsproblemer på sekundærlagssystemer, som Lightning Network og sidekjeder, er også betydelige og har veldig spesifikke egenskaper. Selv om bruk av transaksjoner utenfor kjeden kan være en effektiv strategi for å omgå de mange sporbarhetsrisikoene på Bitcoin som vi har studert, eksponerer det deg for andre risikoer som også er essensielle å være klar over. Det er derfor disse emnene vil bli dekket i en fremtidig dedikert opplæring på Plan ₿ Network.
+I denne opplæringen fokuserte vi utelukkende på Bitcoin-personvern på hovedkjeden. Personvernspørsmål på andrelags-systemer, som Lightning Network og sidekjeder, er også viktige og har svært spesifikke egenskaper. Mens bruk av off-chain-transaksjoner kan være en effektiv strategi for å omgå mange av Bitcoin-sporbarhetsrisikoene vi har studert, utsetter det deg for andre risikoer som det også er viktig å kjenne til. Det er derfor disse temaene vil bli dekket i en fremtidig dedikert opplæring på Plan ₿ Network.
 
-Hvis du likte denne opplæringen, ville jeg være veldig takknemlig hvis du kunne dele den med vennene dine og på sosiale medier. Takk! :)
+Hvis du likte denne opplæringen, ville jeg vært veldig takknemlig om du ville dele den med dine nærmeste og på sosiale medier. Takk! :)
+
+For å fortsette å fordype deg i Bitcoin-universet, inviterer vi deg til å utforske andre kurs tilgjengelig på Plan ₿ Network som:
+
+#### Forstå hvordan en Bitcoin-lommebok fungerer med
+
+https://planb.network/courses/cyp201
+
+#### Lær å skape ditt Bitcoin-fellesskap med
+
+https://planb.network/courses/btc302
+
+#### Oppdag historien om Bitcoins opprinnelse med
+
+https://planb.network/courses/his201
+
+#### Konfigurer en BTC-betalingsserver med
+
+https://planb.network/courses/btc305
+
+#### Oppdag Lightning Network med
+
+https://planb.network/courses/lnp201
+
+#### Oppdag frihetens utvikling gjennom tidene med
+
+https://planb.network/courses/phi201

@@ -3683,24 +3683,45 @@ Dado que esta característica es reciente, es aconsejable ejercer precaución y 
 
 _Para crear este capítulo sobre Pagos Silenciosos, utilicé [el sitio de explicación de Pagos Silenciosos](https://silentpayments.xyz/) y [el documento de explicación del BIP352](https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki)._
 
-
 # Conclusión
 <partId>2aee56c0-b285-4799-b4f7-373a552ee2b2</partId>
 
-## Evalúe el curso 
+## Evalúe este curso
 <chapterId>195d149f-80fa-5816-8b46-995a9226d082</chapterId>
 <isCourseReview>true</isCourseReview>
 
-## Examen Final
+## Examen final
 <chapterId>e803d394-e3c1-5816-a6b4-a69a2472019c</chapterId>
 <isCourseExam>true</isCourseExam>
 
-## La palabra final
+## Conclusión
 <chapterId>cd8e5c67-50e4-4dcd-8e04-88ba5ec95305</chapterId>
+¡Felicitaciones por completar esta formación sobre la privacidad en Bitcoin!
 
-¡Felicidades por completar esta capacitación sobre la privacidad en Bitcoin!
+En esta formación hemos abordado muchos temas avanzados y técnicos, pero no es imperativo utilizar todas las herramientas presentadas. El objetivo principal era darle el poder de elegir qué información desea revelar y cuál prefiere mantener confidencial en su uso de Bitcoin. Esto encarna la esencia misma de la protección de la privacidad. Para tomar decisiones informadas sobre qué información compartir u ocultar, es necesario ser consciente de las implicaciones de nuestras acciones. Espero que esta formación le haya ayudado a adquirir estos conocimientos.
 
-Hemos cubierto muchos temas avanzados y técnicos en esta capacitación, pero no es imperativo usar todas las herramientas presentadas. El objetivo principal era empoderarte para elegir la información que deseas divulgar y la información que prefieres mantener confidencial en tu uso de Bitcoin. Esto encarna la esencia misma de la protección de la privacidad. Para tomar decisiones informadas sobre la información a compartir o esconder, es necesario estar consciente de las implicaciones de nuestras acciones. Espero que esta capacitación te haya ayudado a ganar este conocimiento.
-Si tuviera que elegir la parte más importante de esta capacitación, elegiría la sección dedicada al análisis de cadena. Entender las técnicas utilizadas por tus posibles atacantes es la mejor manera de protegerte. Por lo tanto, mi consejo sería revisar cuidadosamente esta parte e intentar comprender todos sus detalles.
-En este entrenamiento, nos centramos exclusivamente en la privacidad de Bitcoin en la cadena principal. Los problemas de privacidad en sistemas de segunda capa, como la Lightning Network y las sidechains, también son significativos y tienen características muy específicas. Aunque el uso de transacciones fuera de la cadena puede ser una estrategia efectiva para eludir los muchos riesgos de rastreabilidad en Bitcoin que hemos estudiado, te expone a otros riesgos que también es esencial tener en cuenta. Es por eso que estos temas se cubrirán en un futuro entrenamiento dedicado en Plan ₿ Network.
-Si disfrutaste de este entrenamiento, te estaría muy agradecido si pudieras compartirlo con tus amigos y en las redes sociales. ¡Gracias! :)
+Si tuviera que elegir la parte más importante de esta formación, elegiría la sección dedicada al análisis de cadena. Comprender las técnicas empleadas por sus potenciales atacantes es la mejor manera de protegerse de ellos. Mi consejo sería, por tanto, revisar cuidadosamente esta parte y tratar de captar todos sus detalles.
+
+En esta formación, nos hemos centrado exclusivamente en la privacidad de Bitcoin en la cadena principal. Los problemas de privacidad en los sistemas de segunda capa, como la Lightning Network y las sidechains, también son importantes y tienen características muy específicas. Si bien el uso de transacciones fuera de la cadena puede ser una estrategia efectiva para eludir muchos de los riesgos de trazabilidad de Bitcoin que hemos estudiado, lo expone a otros riesgos que también es esencial conocer. Es por eso que estos temas se cubrirán en una futura formación dedicada en Plan ₿ Network.
+
+Si ha disfrutado de esta formación, le estaría muy agradecido si la compartiera con sus seres queridos y en las redes sociales. ¡Gracias! :)
+
+Para continuar profundizando sus conocimientos en el universo Bitcoin, lo invitamos a explorar otros cursos disponibles en Plan ₿ Network como:
+
+#### Comprenda cómo funciona una billetera Bitcoin con
+https://planb.network/courses/cyp201
+
+#### Aprenda a crear su comunidad Bitcoin con
+https://planb.network/courses/btc302
+
+#### Descubra la historia de los orígenes de Bitcoin con
+https://planb.network/courses/his201
+
+#### Configure un servidor de pago BTC con
+https://planb.network/courses/btc305
+
+#### Descubra la Lightning Network con
+https://planb.network/courses/lnp201
+
+#### Descubra la evolución de la libertad a través de las edades con
+https://planb.network/courses/phi201

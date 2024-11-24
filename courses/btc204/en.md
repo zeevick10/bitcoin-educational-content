@@ -3651,8 +3651,7 @@ Since this feature is recent, it is advisable to exercise caution and avoid usin
 # Conclusion
 <partId>2aee56c0-b285-4799-b4f7-373a552ee2b2</partId>
 
-
-## Evaluate the course
+## Evaluate this course
 <chapterId>195d149f-80fa-5816-8b46-995a9226d082</chapterId>
 <isCourseReview>true</isCourseReview>
 
@@ -3660,14 +3659,34 @@ Since this feature is recent, it is advisable to exercise caution and avoid usin
 <chapterId>e803d394-e3c1-5816-a6b4-a69a2472019c</chapterId>
 <isCourseExam>true</isCourseExam>
 
-## The Final Word
+## Conclusion
 <chapterId>cd8e5c67-50e4-4dcd-8e04-88ba5ec95305</chapterId>
+Congratulations on completing this training on Bitcoin privacy!
 
-Congratulations on completing this training on privacy in Bitcoin!
+We covered many advanced and technical topics in this training, but it's not imperative to use all the tools presented. The main objective was to empower you to choose which information you want to disclose and which you prefer to keep confidential in your use of Bitcoin. This embodies the very essence of privacy protection. To make informed choices about what information to share or hide, you must be aware of the implications of your actions. I hope this training has helped you acquire this knowledge.
 
-We have covered many advanced and technical topics in this training, but it is not imperative to use all the tools presented. The main goal was to empower you to choose the information you wish to disclose and the information you prefer to keep confidential in your use of Bitcoin. This embodies the very essence of privacy protection. To make informed choices about the information to share or hide, it is necessary to be aware of the implications of our actions. I hope this training has helped you gain this knowledge.
-If I had to choose the most important part of this training, I would pick the section dedicated to chain analysis. Understanding the techniques used by your potential attackers is the best way to protect yourself. Therefore, my advice would be to carefully review this part and try to grasp all its details.
+If I had to choose the most important part of this training, I would take the section dedicated to chain analysis. Understanding the techniques employed by your potential attackers is the best way to protect yourself from them. My advice would therefore be to carefully review this part and try to grasp all its details.
 
-In this training, we focused exclusively on Bitcoin's privacy on the main chain. The privacy issues on second-layer systems, such as the Lightning Network and sidechains, are also significant and have very specific characteristics. Although the use of off-chain transactions can be an effective strategy to circumvent the many traceability risks on Bitcoin that we have studied, it exposes you to other risks that are also essential to be aware of. That's why these topics will be covered in a future dedicated training on Plan ₿ Network.
+In this training, we focused exclusively on Bitcoin privacy on the main chain. Privacy issues on second-layer systems, such as the Lightning Network and sidechains, are also important and have very specific characteristics. While using off-chain transactions can be an effective strategy to circumvent many of the Bitcoin traceability risks we've studied, it exposes you to other risks that are also essential to know. That's why these topics will be covered in future dedicated training on Plan ₿ Network.
 
-If you enjoyed this training, I would be very grateful if you could share it with your friends and on social media. Thank you! :)
+If you enjoyed this training, I would be very grateful if you would share it with your loved ones and on social media. Thank you! :)
+
+To continue deepening your knowledge in the Bitcoin universe, we invite you to explore other courses available on Plan ₿ Network such as:
+
+#### Understand how a Bitcoin wallet works with
+https://planb.network/courses/cyp201
+
+#### Learn to create your Bitcoin community with
+https://planb.network/courses/btc302
+
+#### Discover the history of Bitcoin's origins with
+https://planb.network/courses/his201
+
+#### Configure a BTC payment server with
+https://planb.network/courses/btc305
+
+#### Discover the Lightning Network with
+https://planb.network/courses/lnp201
+
+#### Discover the evolution of freedom through the ages with
+https://planb.network/courses/phi201

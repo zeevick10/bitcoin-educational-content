@@ -3453,26 +3453,45 @@ Chúng tôi sẽ sớm cung cấp một hướng dẫn chi tiết về cách thi
 Vì tính năng này là mới, nên cần thận trọng và tránh sử dụng Silent Payments cho các khoản tiền lớn trên mainnet.
 
 *Để tạo chương này về Silent Payments, tôi đã sử dụng [trang giải thích Silent Payments](https://silentpayments.xyz/) và [tài liệu giải thích BIP352](https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki).*
-
 # Kết luận
 <partId>2aee56c0-b285-4799-b4f7-373a552ee2b2</partId>
 
-
-## Đánh giá khóa học
+## Đánh giá khóa học này
 <chapterId>195d149f-80fa-5816-8b46-995a9226d082</chapterId>
 <isCourseReview>true</isCourseReview>
 
-## Kỳ thi cuối cùng
+## Bài kiểm tra cuối cùng
 <chapterId>e803d394-e3c1-5816-a6b4-a69a2472019c</chapterId>
 <isCourseExam>true</isCourseExam>
 
-## Lời kết
+## Kết luận
 <chapterId>cd8e5c67-50e4-4dcd-8e04-88ba5ec95305</chapterId>
+Chúc mừng bạn đã hoàn thành khóa đào tạo về quyền riêng tư Bitcoin này!
 
-Xin chúc mừng bạn đã hoàn thành khóa đào tạo này về quyền riêng tư trên mạng lưới Bitcoin!
+Trong khóa đào tạo này, chúng ta đã đề cập đến nhiều chủ đề nâng cao và kỹ thuật, nhưng không bắt buộc phải sử dụng tất cả các công cụ đã được giới thiệu. Mục tiêu chính là trao cho bạn quyền lựa chọn thông tin nào bạn muốn tiết lộ và thông tin nào bạn muốn giữ bí mật trong việc sử dụng Bitcoin của mình. Điều này thể hiện bản chất của việc bảo vệ quyền riêng tư. Để đưa ra quyết định sáng suốt về việc chia sẻ hoặc giấu thông tin nào, bạn cần nhận thức được những hệ quả từ hành động của chúng ta. Tôi hy vọng khóa đào tạo này đã giúp bạn có được những kiến thức đó.
 
-Chúng tôi đã đề cập đến nhiều chủ đề  nâng cao và thiên về kỹ thuật trong khoá này, nhưng bạn không nhất thiết phải sử dụng tất cả các công cụ được trình bày ở đây. Mục tiêu chính là trao quyền cho bạn để chọn lựa thông tin bạn muốn tiết lộ và thông tin bạn muốn giữ kín trong việc sử dụng Bitcoin của mình. Điều này thể hiện bản chất cốt lõi của việc bảo vệ quyền riêng tư. Để đưa ra quyết định thông tin nào nên chia sẻ hoặc giấu kín, cần phải nhận thức được hậu quả của các hành động của mình. Tôi hy vọng khóa đào tạo này đã giúp bạn có được những kiến thức này.
-Nếu tôi phải chọn phần quan trọng nhất của khóa đào tạo này, tôi sẽ chọn phần dành riêng cho phân tích chuỗi. Hiểu biết về các kỹ thuật mà kẻ tấn công tiềm năng của bạn sử dụng là cách tốt nhất để bảo vệ bản thân. Do đó, lời khuyên của tôi sẽ là xem xét kỹ lưỡng phần này và cố gắng nắm bắt tất cả các chi tiết.
-Trong khóa đào tạo này, chúng tôi chỉ tập trung vào vấn đề quyền riêng tư của Bitcoin trên chuỗi chính. Các vấn đề về riêng tư trên các hệ thống lớp thứ hai, như Lightning Network và sidechains, cũng rất quan trọng và có những đặc điểm cụ thể. Mặc dù việc sử dụng các giao dịch ngoại tuyến có thể là một chiến lược hiệu quả để lách qua nhiều rủi ro về khả năng theo dõi trên mạng lưới Bitcoin mà chúng ta đã nghiên cứu, nó cũng đưa bạn đến với những rủi ro khác mà chúng ta cần nhận biết. Đó là lý do tại sao những chủ đề này sẽ được đề cập trong một khóa đào tạo chuyên sâu trong tương lai trên Plan ₿ Network.
+Nếu phải chọn phần quan trọng nhất của khóa đào tạo này, tôi sẽ chọn phần dành cho phân tích chuỗi. Hiểu được các kỹ thuật mà những kẻ tấn công tiềm năng sử dụng là cách tốt nhất để bảo vệ bạn khỏi họ. Vì vậy, lời khuyên của tôi là xem xét kỹ phần này và cố gắng nắm bắt tất cả các chi tiết của nó.
 
-Nếu bạn thích khóa đào tạo này, tôi sẽ rất biết ơn nếu bạn có thể chia sẻ nó với bạn bè của bạn và trên mạng xã hội. Cảm ơn bạn! :)
+Trong khóa đào tạo này, chúng ta chỉ tập trung vào quyền riêng tư của Bitcoin trên chuỗi chính. Các vấn đề về quyền riêng tư trên các hệ thống lớp hai, như Lightning Network và sidechains, cũng quan trọng và có những đặc điểm rất riêng biệt. Mặc dù việc sử dụng các giao dịch ngoài chuỗi có thể là một chiến lược hiệu quả để tránh nhiều rủi ro về khả năng theo dõi Bitcoin mà chúng ta đã nghiên cứu, nó khiến bạn phải đối mặt với những rủi ro khác mà cũng cần thiết phải biết. Đó là lý do tại sao những chủ đề này sẽ được đề cập trong khóa đào tạo chuyên biệt trong tương lai trên Plan ₿ Network.
+
+Nếu bạn thích khóa đào tạo này, tôi sẽ rất biết ơn nếu bạn chia sẻ nó với người thân và trên mạng xã hội của bạn. Cảm ơn! :)
+
+Để tiếp tục đào sâu kiến thức của bạn trong vũ trụ Bitcoin, chúng tôi mời bạn khám phá các khóa học khác có sẵn trên Plan ₿ Network như:
+
+#### Hiểu cách hoạt động của ví Bitcoin với
+https://planb.network/courses/cyp201
+
+#### Học cách tạo cộng đồng Bitcoin của bạn với
+https://planb.network/courses/btc302
+
+#### Khám phá lịch sử nguồn gốc của Bitcoin với
+https://planb.network/courses/his201
+
+#### Cấu hình máy chủ thanh toán BTC với
+https://planb.network/courses/btc305
+
+#### Khám phá Lightning Network với
+https://planb.network/courses/lnp201
+
+#### Khám phá sự phát triển của tự do qua các thời đại với
+https://planb.network/courses/phi201
