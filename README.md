@@ -174,7 +174,7 @@ The better the quality of your work, the more translations you will get. The mor
 
 **LONG LIVE VALUE-FOR-VALUE!**
 
-# End Goal: Anihilate language barriers for Bitcoin Education
+# End Goal: Overcome the language barriers in Bitcoin Education
 
 So that's it, that's our plan to take over the world! We seek every role in every language: translators, educators, and most importantly, individuals that are eager to learn.
 
