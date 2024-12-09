@@ -67,7 +67,7 @@ Bitcoinウォレットの構造と運用の詳細に飛び込む前に、続く�
 ハッシュ化は、任意の長さの情報を暗号ハッシュ関数を通じて固定長の別の情報に変換するプロセスです。言い換えると、ハッシュ関数は任意のサイズの入力を取り、固定サイズの指紋である「ハッシュ」と呼ばれるものに変換します。
 ハッシュは、「ダイジェスト」、「コンデンセート」、「凝縮」、または「ハッシュ化された」とも呼ばれることがあります。
 
-例えば、SHA256ハッシュ関数は、256ビットの固定長のハッシュを生成します。したがって、任意の長さのメッセージ「_Plan ₿_」を入力として使用した場合、生成されるハッシュは以下の256ビットの指紋になります：
+例えば、SHA256ハッシュ関数は、256ビットの固定長のハッシュを生成します。したがって、任意の長さのメッセージ「_PlanB_」を入力として使用した場合、生成されるハッシュは以下の256ビットの指紋になります：
 
 ```text
 24f1b93b68026bfc24f5c8265f287b4c940fb1664b0d75053589d7a4f821b688
@@ -88,7 +88,7 @@ Bitcoinウォレットの構造と運用の詳細に飛び込む前に、続く�
 
 不可逆性とは、入力情報からハッシュを計算することは容易ですが、逆の計算、つまりハッシュから入力を見つけ出すことは実際には不可能であることを意味します。この特性は、元の情報を妥協することなくユニークなデジタル指紋を作成するために、ハッシュ関数を完璧にします。この特性は、しばしば一方向関数または「_トラップドア関数_」として言及されます。
 
-与えられた例では、「_Plan ₿_」という入力を知っている場合、ハッシュ`24f1b9…`を得ることは簡単で迅速です。しかし、`24f1b9…`のみを知っている状態でメッセージ「_Plan ₿_」を見つけ出すことは不可能です。
+与えられた例では、「_PlanB_」という入力を知っている場合、ハッシュ`24f1b9…`を得ることは簡単で迅速です。しかし、`24f1b9…`のみを知っている状態でメッセージ「_PlanB_」を見つけ出すことは不可能です。
 
 ![CYP201](assets/fr/002.webp)
 
@@ -97,7 +97,7 @@ Bitcoinウォレットの構造と運用の詳細に飛び込む前に、続く�
 #### 2. 改ざん耐性（アバランシェ効果）
 
 第二の特性は、改ざん耐性、または**アバランシェ効果**としても知られています。この特性は、入力メッセージのわずかな変更が出力ハッシュに根本的な変化をもたらす場合に、ハッシュ関数で観察されます。
-例として"_Plan ₿_"という入力とSHA256関数を振り返ると、生成されたハッシュは以下の通りです：
+例として"_PlanB_"という入力とSHA256関数を振り返ると、生成されたハッシュは以下の通りです：
 
 ```text
 24f1b93b68026bfc24f5c8265f287b4c940fb1664b0d75053589d7a4f821b688
@@ -256,11 +256,6 @@ K[0 \ldots 63] = \begin{pmatrix}
 0x983e5152, & 0xa831c66d, & 0xb00327c8, & 0xbf597fc7, \\
 0xc6e00bf3, & 0xd5a79147, & 0x06ca6351, & 0x14292967, \\
 0x27b70a85, & 0x2e1b2138, & 0x4d2c6dfc, & 0x53380d13, \\
-\end{pmatrix}
-$$
-
-$$
-\begin{pmatrix}
 0x650a7354, & 0x766a0abb, & 0x81c2c92e, & 0x92722c85, \\
 0xa2bfe8a1, & 0xa81a664b, & 0xc24b8b70, & 0xc76c51a3, \\
 0xd192e819, & 0xd6990624, & 0xf40e3585, & 0x106aa070, \\
@@ -270,6 +265,7 @@ $$
 0x90befffa, & 0xa4506ceb, & 0xbef9a3f7, & 0xc67178f2
 \end{pmatrix}
 $$
+
 
 ### 入力の分割
 
@@ -299,9 +295,10 @@ XOR（$\oplus$）の場合：
 AND（$\land$）の場合：
 
 | $p$ | $q$ | $p \land q$ |
-| --- | --- | ----------- | --- | --- | --- | --- |
+| --- | --- | ----------- |
 | 0   | 0   | 0           |
-| 0   | 1   | 0           |     | 1   | 0   | 0   |
+| 0   | 1   | 0           |
+| 1   | 0   | 0           |
 | 1   | 1   | 1           |
 
 NOT ($\lnot p$)について:
@@ -434,6 +431,14 @@ $$
 H = G \\
 G = F \\
 F = E \\
+E = D + temp1 \mod 2^{32} \\
+D = C \\
+C = B \\
+B = A \\
+A = temp1 + temp2 \mod 2^{32}
+\end{cases}
+$$
+
 以下は、SHA256圧縮関数のラウンドを表したものです：
 
 ![CYP201](assets/fr/010.webp)
@@ -444,17 +449,17 @@ F = E \\
 
 このラウンドが新しい状態変数$A$、$B$、$C$、$D$、$E$、$F$、$G$、$H$を出力することがすでに観察できます。これらの新しい変数は次のラウンドの入力として機能し、次に新しい変数$A$、$B$、$C$、$D$、$E$、$F$、$G$、$H$を生成し、次のラウンドに使用されます。このプロセスは64ラウンドまで続きます。
 64ラウンド後、最終ラウンドの終了時に最終値に初期値を加算することで、状態変数の初期値を更新します：
-$$
 
+$$
 \begin{cases}
-A = A*{\text{初期}} + A \mod 2^{32} \\
-B = B*{\text{初期}} + B \mod 2^{32} \\
-C = C*{\text{初期}} + C \mod 2^{32} \\
-D = D*{\text{初期}} + D \mod 2^{32} \\
-E = E*{\text{初期}} + E \mod 2^{32} \\
-F = F*{\text{初期}} + F \mod 2^{32} \\
-G = G*{\text{初期}} + G \mod 2^{32} \\
-H = H*{\text{初期}} + H \mod 2^{32}
+A = A_{\text{initial}} + A \mod 2^{32} \\
+B = B_{\text{initial}} + B \mod 2^{32} \\
+C = C_{\text{initial}} + C \mod 2^{32} \\
+D = D_{\text{initial}} + D \mod 2^{32} \\
+E = E_{\text{initial}} + E \mod 2^{32} \\
+F = F_{\text{initial}} + F \mod 2^{32} \\
+G = G_{\text{initial}} + G \mod 2^{32} \\
+H = H_{\text{initial}} + H \mod 2^{32}
 \end{cases}
 
 $$
@@ -806,6 +811,8 @@ $$
 これらの操作のおかげで、プライベートキーから公開キーを導出することは容易であるが、その逆が事実上不可能である理由を理解することができます。
 
 私たちの簡略化された例に戻りましょう。プライベートキー $k = 4$ で、関連する公開キーを計算するために、次の操作を行います：
+
+$$
 K = k \cdot G = 4G
 $$
 
@@ -1202,11 +1209,22 @@ $$
 $$
 \begin{array}{|c|c|c|c|}
 \hline
+\text{ENT} & \text{CS} & \text{ENT} \Vert \text{CS} & w \\
+\hline
+128 & 4 & 132 & 12 \\
+160 & 5 & 165 & 15 \\
+192 & 6 & 198 & 18 \\
+224 & 7 & 231 & 21 \\
+256 & 8 & 264 & 24 \\
+\hline
+\end{array}
+$$
+
 例えば、256ビットのエントロピーの場合、結果$\text{ENT} \Vert \text{CS}$は264ビットとなり、ニーモニックフレーズは24単語になります。
 
 ### バイナリシーケンスをニーモニックフレーズに変換
 
-ビットシーケンス$\text{ENT} \Vert \text{CS}$は、11ビットのセグメントに分割されます。各11ビットセグメントは、10進数に変換されると、0から2047の間の数値に対応し、これは[BIP39によって標準化された2048語のリスト](https://github.com/Plan ₿-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf)の中の単語の位置を指定します。
+ビットシーケンス$\text{ENT} \Vert \text{CS}$は、11ビットのセグメントに分割されます。各11ビットセグメントは、10進数に変換されると、0から2047の間の数値に対応し、これは[BIP39によって標準化された2048語のリスト](https://github.com/Planb-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf)の中の単語の位置を指定します。
 
 ![CYP201](assets/fr/037.webp)
 たとえば、128ビットのエントロピーの場合、チェックサムは4ビットで、したがって合計シーケンスは132ビットになります。これは11ビットの12セグメントに分割されます（オレンジ色のビットはチェックサムを指定します）：
@@ -1304,7 +1322,7 @@ BIP39標準は、シードを512ビットのシーケンスとして定義し、
 
 $$
 
-s = \text{PBKDF2}\_{\text{HMAC-SHA512}}(m, p, 2048)
+s = \text{PBKDF2}_{\text{HMAC-SHA512}}(m, p, 2048)
 
 $$
 
@@ -1336,14 +1354,14 @@ $$
 数学的に、これら二つの値は以下のように表されます。$k_M$がマスタープライベートキー、$C_M$がマスターチェーンコードです：
 $$
 
-k*M = \text{HMAC-SHA512}(\text{"Bitcoin Seed"}, s)*{[:256]}
+k_M = \text{HMAC-SHA512}(\text{"Bitcoin Seed"}, s)_{[:256]}
 
 $$
 
 
 $$
 
-C*M = \text{HMAC-SHA512}(\text{"Bitcoin Seed"}, s)*{[256:]}
+C_M = \text{HMAC-SHA512}(\text{"Bitcoin Seed"}, s)_{[256:]}
 
 $$
 
@@ -1416,22 +1434,21 @@ HDウォレットの導出を次の要素で続ける前に、次の章でマス
 先ほど見たように、拡張鍵には拡張鍵のバージョンとその性質の両方を示す接頭辞が含まれています。表記`pub`は、それが拡張公開鍵を指すことを示し、表記`prv`は拡張秘密鍵を指します。拡張鍵の基底に追加される文字は、Legacy、SegWit v0、SegWit v1など、どの標準に従っているかを示すのに役立ちます。
 ここに使用される接頭辞とその意味の要約を示します：
 
-| Base 58 Prefix | Base 16 Prefix     | Network  | Purpose              | Associated Scripts        | Derivation                 | Key Type    |
-|----------------|--------------------|----------|----------------------|---------------------------|----------------------------|-------------|
-| `xpub`         | `0488b21e`         | Mainnet  | LegacyおよびSegWit V1 | P2PK / P2PKH / P2TR      | `m/44'/0'`, `m/86'/0'`     | public      |
-| `xprv`         | `0488ade4`         | Mainnet  | LegacyおよびSegWit V1 | P2PK / P2PKH / P2TR      | `m/44'/0'`, `m/86'/0'`     | private     |
-| `tpub`         | `043587cf`         | Testnet  | LegacyおよびSegWit V1 | P2PK / P2PKH / P2TR      | `m/44'/1'`, `m/86'/1'`     | public      |
-| `tprv`         | `04358394`         | Testnet  | LegacyおよびSegWit V1 | P2PK / P2PKH / P2TR      | `m/44'/1'`, `m/86'/1'`     | private     |
-| `ypub`         | `049d7cb2`         | Mainnet  | ネストされたSegWit    | P2WPKH in P2SH           | `m/49'/0'`                 | public      |
-このテーブルは、拡張キーで使用されるプレフィックスの包括的な概要を提供し、それらのbase 58とbase 16のプレフィックス、関連するネットワーク（MainnetまたはTestnet）、目的、関連するスクリプト、導出パス、そしてそれらが公開鍵か秘密鍵かを詳細に説明しています。
+| Base 58 Prefix  | Base 16 Prefix  | Network | Purpose             | Associated Scripts  | Derivation            | Key Type     |
+| --------------- | --------------- | ------- | ------------------- | ------------------- | --------------------- | ------------ |
+| `xpub`          | `0488b21e`      | Mainnet | Legacy and SegWit V1 | P2PK / P2PKH / P2TR | `m/44'/0'`, `m/86'/0'` | public       |
+| `xprv`          | `0488ade4`      | Mainnet | Legacy and SegWit V1 | P2PK / P2PKH / P2TR | `m/44'/0'`, `m/86'/0'` | private      |
+| `tpub`          | `043587cf`      | Testnet | Legacy and SegWit V1 | P2PK / P2PKH / P2TR | `m/44'/1'`, `m/86'/1'` | public       |
+| `tprv`          | `04358394`      | Testnet | Legacy and SegWit V1 | P2PK / P2PKH / P2TR | `m/44'/1'`, `m/86'/1'` | private      |
+| `ypub`          | `049d7cb2`      | Mainnet | Nested SegWit       | P2WPKH in P2SH      | `m/49'/0'`             | public       |
+| `yprv`          | `049d7878`      | Mainnet | Nested SegWit       | P2WPKH in P2SH      | `m/49'/0'`             | private      |
+| `upub`          | `049d7cb2`      | Testnet | Nested SegWit       | P2WPKH in P2SH      | `m/49'/1'`             | public       |
+| `uprv`          | `044a4e28`      | Testnet | Nested SegWit       | P2WPKH in P2SH      | `m/49'/1'`             | private      |
+| `zpub`          | `04b24746`      | Mainnet | SegWit V0           | P2WPKH              | `m/84'/0'`             | public       |
+| `zprv`          | `04b2430c`      | Mainnet | SegWit V0           | P2WPKH              | `m/84'/0'`             | private      |
+| `vpub`          | `045f1cf6`      | Testnet | SegWit V0           | P2WPKH              | `m/84'/1'`             | public       |
+| `vprv`          | `045f18bc`      | Testnet | SegWit V0           | P2WPKH              | `m/84'/1'`             | private      |
 
-| `yprv`         | `049d7878`         | Mainnet  | Nested SegWit        | P2WPKH in P2SH           | `m/49'/0'`                 | private     |
-| `upub`         | `049d7cb2`         | Testnet  | Nested SegWit        | P2WPKH in P2SH           | `m/49'/1'`                 | public      |
-| `uprv`         | `044a4e28`         | Testnet  | Nested SegWit        | P2WPKH in P2SH           | `m/49'/1'`                 | private     |
-| `zpub`         | `04b24746`         | Mainnet  | SegWit V0            | P2WPKH                   | `m/84'/0'`                 | public      |
-| `zprv`          | `04b2430c`          | Mainnet  | SegWit V0            | P2WPKH                    | `m/84'/0'`                  | private     |
-| `vpub`          | `045f1cf6`          | Testnet  | SegWit V0            | P2WPKH                    | `m/84'/1'`                  | public      |
-| `vprv`          | `045f18bc`          | Testnet  | SegWit V0            | P2WPKH                    | `m/84'/1'`                  | private     |
 
 ### 拡張キーの要素の詳細
 
@@ -1509,7 +1526,7 @@ Bitcoin HDウォレットにおける子鍵ペアの派生は、大量の鍵を�
 
 $$
 
-\text{hash} = \text{HMAC-SHA512}(C*{\text{PAR}}, G \cdot k*{\text{PAR}} \Vert i)
+\text{hash} = \text{HMAC-SHA512}(C_{\text{PAR}}, G \cdot k_{\text{PAR}} \Vert i)
 
 $$
 この計算では、HMAC関数が2つの入力を取ることがわかります：まず、親チェーンコード、次に親秘密キーに関連付けられた公開キーとインデックスの結合です。ここでは通常の子キーを導出するために親公開キーが使用されていますが、強化キーではありません。
@@ -1525,7 +1542,7 @@ $$
 
 $$
 
-h*1 = \text{hash}*{[:32]} \quad, \quad h*2 = \text{hash}*{[32:]}
+h_1 = \text{hash}_{[:32]} \quad, \quad h_2 = \text{hash}_{[32:]}
 
 $$
 
@@ -1534,7 +1551,7 @@ $$
 
 $$
 
-k*{\text{CHD}}^n = \text{parse256}(h_1) + k*{\text{PAR}} \mod n
+k_{\text{CHD}}^n = \text{parse256}(h_1) + k_{\text{PAR}} \mod n
 
 $$
 この計算では、操作 $\text{parse256}(h_1)$ は、$\text{hash}$ の最初の32バイトを256ビット整数として解釈することから成ります。この数値はその後、親の秘密鍵に加えられ、全てが $n$ によってモジュロ演算されます。これは、セクション3で見たデジタル署名における楕円曲線の順序内に留まるためです。したがって、通常の子秘密鍵を導出するには、HMAC-SHA512関数の入力計算の基礎として親の公開鍵が使用されるものの、計算を完了するためには常に親の秘密鍵が必要です。
@@ -1558,7 +1575,7 @@ $$
 
 $$
 
-hash = \text{HMAC-SHA512}(C*{\text{PAR}}, 0x00 \Vert k*{\text{PAR}} \Vert i)
+hash = \text{HMAC-SHA512}(C_{\text{PAR}}, 0x00 \Vert k_{\text{PAR}} \Vert i)
 
 $$
 
@@ -1582,7 +1599,7 @@ $$
 
 $$
 
-k*{\text{CHD}}^h = \text{parse256}(h_1) + k*{\text{PAR}} \mod n
+k_{\text{CHD}}^h = \text{parse256}(h_1) + k_{\text{PAR}} \mod n
 
 $$
 
@@ -1608,7 +1625,7 @@ $$
 
 $$
 
-\text{hash} = \text{HMAC-SHA512}(C*{\text{PAR}}, K*{\text{PAR}} \Vert i)
+\text{hash} = \text{HMAC-SHA512}(C_{\text{PAR}}, K_{\text{PAR}} \Vert i)
 
 $$
 
@@ -1635,7 +1652,7 @@ $$
 
 $$
 
-K*{\text{CHD}}^n = G \cdot \text{parse256}(h_1) + K*{\text{PAR}}
+K_{\text{CHD}}^n = G \cdot \text{parse256}(h_1) + K_{\text{PAR}}
 
 $$
 もし $\text{parse256}(h_1) \geq n$（楕円曲線の位数）であるか、または $K_{\text{CHD}}^n$ が無限遠点である場合、導出は無効であり、別のインデックスを選択する必要があります。
@@ -1665,25 +1682,17 @@ $$
 
 ここに、可能な導出タイプを要約します：
 
-
 $$
-
 \begin{array}{|c|c|c|c|}
 \hline
 \rightarrow & \text{PAR} & \text{CHD} & \text{n/h} \\
 \hline
-k*{\text{PAR}} \rightarrow k*{\text{CHD}} & k*{\text{PAR}} & \{ k*{\text{CHD}}^n, k\_{\text{CHD}}^h \} & \{ n, h \} \\
-\end{array}
-
-$$
-$$
-
-k*{\text{PAR}} \rightarrow K*{\text{CHD}} & k*{\text{PAR}} & \{ K*{\text{CHD}}^n, K*{\text{CHD}}^h \} & \{ n, h \} \\
-K*{\text{PAR}} \rightarrow k*{\text{CHD}} & K*{\text{PAR}} & \times & \times \\
-K*{\text{PAR}} \rightarrow K*{\text{CHD}} & K*{\text{PAR}} & K*{\text{CHD}}^n & n \\
+k_{\text{PAR}} \rightarrow k_{\text{CHD}} & k_{\text{PAR}} & \{ k_{\text{CHD}}^n, k_{\text{CHD}}^h \} & \{ n, h \} \\
+k_{\text{PAR}} \rightarrow K_{\text{CHD}} & k_{\text{PAR}} & \{ K_{\text{CHD}}^n, K_{\text{CHD}}^h \} & \{ n, h \} \\
+K_{\text{PAR}} \rightarrow k_{\text{CHD}} & K_{\text{PAR}} & \times & \times \\
+K_{\text{PAR}} \rightarrow K_{\text{CHD}} & K_{\text{PAR}} & K_{\text{CHD}}^n & n \\
 \hline
 \end{array}
-
 $$
 
 要約すると、これまでにHDウォレットの基本要素を作成する方法を学びました：ニーモニックフレーズ、シード、そしてマスターキーとマスターチェーンコード。また、この章で子キーペアを導出する方法も発見しました。次の章では、これらの導出がビットコインウォレットでどのように組織され、*scriptPubKey* と *scriptSig* で使用されるキーペアと受信アドレスを具体的に取得するためにどの構造に従うべきかを探求します。
@@ -1982,12 +1991,10 @@ RIPEMD160(SHA256(K)) = 9F81322CC88622CA4CCB2A52A21E2888727AA535
 公開鍵の160ビットハッシュを取得しました。これはアドレスのペイロードと呼ばれるものを構成します。このペイロードはアドレスの中心的で最も重要な部分を表します。また、UTXOsをロックするために*scriptPubKey*で使用されます。
 しかし、このペイロードを人間がより簡単に使用できるようにするために、メタデータが追加されます。次のステップでは、このハッシュを5ビットのグループに10進数でエンコードします。この10進数変換は、SegWit以降のアドレスで使用される*bech32*への変換に役立ちます。160ビットのバイナリハッシュは、5ビットの32グループに分割されます：
 
-
 $$
-
 \begin{array}{|c|c|}
 \hline
-\text{5ビットグループ} & \text{10進数値} \\
+\text{5 bits} & \text{Decimal} \\
 \hline
 10011 & 19 \\
 11110 & 30 \\
@@ -2012,8 +2019,17 @@ $$
 00100 & 4 \\
 00111 & 7 \\
 10001 & 17 \\
+01000 & 8 \\
+10001 & 17 \\
+00001 & 1 \\
+11001 & 25 \\
+00111 & 7 \\
+10101 & 21 \\
+00101 & 5 \\
+00101 & 5 \\
+10101 & 21 \\
+\hline
 \end{array}
-
 $$
 したがって、以下のようになります：
 
@@ -2082,6 +2098,20 @@ INPUT = 03 03 00 02 03 00 19 30 00 19 04 11 06 08 16 24 17 12 20 19 06 11 05 09 
 その後、各10進数値を以下の変換表を使用して*bech32*文字にマッピングする必要があります：
 
 
+$$
+\begin{array}{|c|c|c|c|c|c|c|c|c|}
+\hline
+ & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 \\
+\hline
++0 & q & p & z & r & y & 9 & x & 8 \\
+\hline
++8 & g & f & 2 & t & v & d & w & 0 \\
+\hline
++16 & s & 3 & j & n & 5 & 4 & k & h \\
+\hline
++24 & c & e & 6 & m & u & a & 7 & l \\
+\hline
+\end{array}
 $$
 
 値を*bech32*文字に変換するには、この表を使用して、最初の列と最初の行にある値を見つけ、それらを合計すると所望の結果が得られるようにします。その後、対応する文字を取得します。例えば、10進数の`19`は、$19 = 16 + 3$であるため、文字`n`に変換されます。
@@ -2166,28 +2196,32 @@ $$
 ここで：
 
 - $v$：スクリプトのバージョン番号（Taprootのデフォルトは`0xC0`）；
-- $sz$: スクリプトのサイズは _CompactSize_ 形式でエンコードされます；- $S$: スクリプトです。
+- $sz$: スクリプトのサイズは _CompactSize_ 形式でエンコードされます；
+- $S$: スクリプトです。
 
 異なるスクリプトハッシュ ($\text{h}_{\text{leaf}}$) はまず、辞書順にソートされます。次に、これらをペアで連結し、タグ付きハッシュ関数 `TapBranch` を通して処理します。このプロセスは繰り返し行われ、段階的にマークルツリーを構築します：
-ブランチハッシュ \(\text{h}_{\text{branch}}\) は、葉のハッシュ \(\text{h}_{\text{leaf1}} \Vert \text{h}\_{\text{leaf2}}\) の連結にタグ付きハッシュ関数 `TapBranch` を適用して計算されます：
+$$
+\text{h}_{\text{branch}} = \text{H}_{\text{TapBranch}}(\text{h}_{\text{leaf1}} \Vert \text{h}_{\text{leaf2}})
+$$
 
 次に、結果を二つずつ連結し、各ステップでタグ付きハッシュ関数 `TapBranch` を通して処理を続け、マークルツリーの根を得ます：
 
 ![CYP201](assets/fr/066.webp)
 
-マークル根 \(h*{\text{root}}\) を計算したら、次にトゥウィークを計算できます。これには、ウォレットの内部公開鍵 \(P\) を根 \(h*{\text{root}}\) と連結し、その全体をタグ付きハッシュ関数 `TapTweak` を通して処理します：
+マークルルート $h_{\text{root}}$ が計算されたら、次にtweakを計算します。そのためには、ウォレットの内部公開鍵 $P$ をルート $h_{\text{root}}$ と連結し、結果をタグ付きハッシュ関数 `TapTweak` に通します：
 
-\[
+$$
 t = \text{H}_{\text{TapTweak}}(P \Vert h_{\text{root}})
-\]
+$$
 
-最後に、以前と同様に、トゥウィーク \(t\) と生成点 \(G\) の積に内部公開鍵 \(P\) を加えることで、Taproot公開鍵 \(Q\) が得られます：
+最後に、これまでと同様に、Taproot公開鍵 $Q$ は内部公開鍵 $P$ に tweak $t$ と生成点 $G$ の積を加えることで得られます：
 
-\[
+$$
 Q = P + t \cdot G
-\]
+$$
 
-その後、アドレスの生成は同じプロセスに従い、生の公開鍵 \(Q\) をペイロードとして使用し、いくつかの追加メタデータを伴います。
+その後、アドレスの生成は同じプロセスに従い、公開鍵 $Q$ をペイロードとして使用し、いくつかの追加メタデータを伴います。
+
 
 これで終わりです！CYP201コースの最後に到達しました。このコースが役立ったと思われる場合、次の評価章で良い評価をしていただけると非常に感謝します。また、愛する人やソーシャルネットワークで共有していただけると嬉しいです。最後に、このコースのディプロマを取得したい場合は、評価章の直後に最終試験を受けることができます。
 
@@ -2240,3 +2274,7 @@ https://planb.network/courses/his201
 #### 時代を通じた自由の進化を発見する
 
 https://planb.network/courses/phi201
+
+
+
+
