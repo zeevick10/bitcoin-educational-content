@@ -621,15 +621,23 @@ Nếu trong quá trình thanh toán, một trong các nút trung gian, hoặc n�
 ![LNP201](assets/en/55.webp)
 
 Sau đó là HTLC từ Alice đến Suzie.
+
+![LNP201](assets/en/56.webp)
+
 Nếu thứ tự hết hạn của HTLC được đảo ngược, Alice có thể thu hồi thanh toán của mình trước khi Suzie có thể bảo vệ mình khỏi khả năng bị lừa. Thực sự, nếu Bob quay lại để yêu cầu HTLC của mình trong khi Alice đã loại bỏ HTLC của mình, Suzie sẽ ở vào thế bất lợi. Do đó, thứ tự hết hạn của HTLC theo cấp độ này đảm bảo rằng không có nút trung gian nào phải chịu tổn thất không công bằng.
 
 ### Biểu diễn của HTLCs trong các giao dịch cam kết
 
 Các giao dịch cam kết biểu diễn HTLCs theo cách mà các điều kiện họ áp đặt lên Lightning có thể được chuyển sang Bitcoin trong trường hợp đóng kênh ép buộc trong thời gian sống của một HTLC. Như một lời nhắc nhở, các giao dịch cam kết đại diện cho trạng thái hiện tại của kênh giữa hai người dùng và cho phép đóng kênh một cách ép buộc trong trường hợp có vấn đề. Với mỗi trạng thái mới của kênh, 2 giao dịch cam kết được tạo ra: một cho mỗi bên. Hãy xem xét lại ví dụ của chúng tôi với Alice, Suzie và Bob, nhưng nhìn kỹ hơn vào những gì xảy ra ở cấp độ kênh giữa Alice và Suzie khi HTLC được tạo.
+![LNP201](assets/en/57.webp)
 
 Trước khi bắt đầu thanh toán 40,000 sats giữa Alice và Bob, Alice có 100,000 sats trong kênh của mình với Suzie, trong khi Suzie giữ 30,000. Các giao dịch cam kết của họ như sau:
 
+![LNP201](assets/en/58.webp)
+
 Alice vừa nhận được hóa đơn của Bob, đáng chú ý chứa _r_, băm của bí mật. Do đó, cô ấy có thể tạo một HTLC 40,000 satoshis với Suzie. HTLC này được biểu diễn trong các giao dịch cam kết mới nhất như một đầu ra được gọi là "**_HTLC Out_**" ở phía Alice, vì các quỹ đang đi ra, và "**_HTLC In_**" ở phía Suzie, vì các quỹ đang đi vào.
+
+![LNP201](assets/en/59.webp)
 
 Các đầu ra liên quan đến HTLC chia sẻ chính xác cùng một điều kiện, cụ thể là:
 
@@ -640,6 +648,8 @@ Những điều kiện này chỉ áp dụng nếu kênh được đóng (tức 
 
 Hơn nữa, nếu kênh được đóng trong khi nhiều HTLCs đang chờ xử lý, sẽ có nhiều đầu ra bổ sung tương ứng với số lượng HTLCs đang diễn ra.
 Nếu kênh không được đóng, sau khi thanh toán Lightning hết hạn hoặc thành công, các giao dịch cam kết mới được tạo ra để phản ánh trạng thái mới, ổn định của kênh, tức là không có HTLCs nào đang chờ xử lý. Các đầu ra liên quan đến HTLCs do đó có thể được loại bỏ khỏi các giao dịch cam kết.
+![LNP201](assets/en/60.webp)
+
 Cuối cùng, trong trường hợp đóng kênh hợp tác khi một HTLC đang hoạt động, Alice và Suzie ngừng chấp nhận thanh toán mới và chờ đợi sự giải quyết hoặc hết hạn của các HTLC đang diễn ra. Điều này cho phép họ công bố một giao dịch đóng kênh nhẹ nhàng hơn, không bao gồm các đầu ra liên quan đến HTLCs, từ đó giảm phí và tránh việc chờ đợi một khóa thời gian có thể xảy ra.
 
 **Bạn nên rút ra điều gì từ chương này?**

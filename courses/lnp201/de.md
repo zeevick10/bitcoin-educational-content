@@ -618,15 +618,23 @@ Um dies zu vermeiden, haben HTLCs auf Lightning ein Ablaufdatum, das die Entfern
 ![LNP201](assets/en/55.webp)
 
 Dann das HTLC von Alice an Suzie.
+
+![LNP201](assets/en/56.webp)
+
 Wenn die Reihenfolge des Ablaufs umgekehrt wäre, könnte Alice ihre Zahlung zurückerhalten, bevor Suzie sich vor möglichem Betrug schützen könnte. Tatsächlich, wenn Bob zurückkommt, um seine HTLC zu beanspruchen, während Alice ihre bereits entfernt hat, wäre Suzie im Nachteil. Diese kaskadierende Reihenfolge des HTLC-Ablaufs stellt daher sicher, dass kein Zwischenknoten ungerechte Verluste erleidet.
 
 ### Darstellung von HTLCs in Commitment-Transaktionen
 
 Commitment-Transaktionen stellen HTLCs so dar, dass die Bedingungen, die sie für Lightning auferlegen, auf Bitcoin übertragen werden können, falls es während der Lebensdauer einer HTLC zu einer erzwungenen Kanalschließung kommt. Zur Erinnerung: Commitment-Transaktionen repräsentieren den aktuellen Zustand des Kanals zwischen den beiden Nutzern und ermöglichen eine einseitige erzwungene Schließung im Falle von Problemen. Mit jedem neuen Zustand des Kanals werden 2 Commitment-Transaktionen erstellt: eine für jede Partei. Lassen Sie uns unser Beispiel mit Alice, Suzie und Bob erneut betrachten, aber genauer darauf eingehen, was auf Kanalebene zwischen Alice und Suzie geschieht, wenn die HTLC erstellt wird.
+![LNP201](assets/en/57.webp)
 
 Vor dem Start der 40.000 Sats-Zahlung zwischen Alice und Bob hat Alice 100.000 Sats in ihrem Kanal mit Suzie, während Suzie 30.000 hält. Ihre Commitment-Transaktionen sind wie folgt:
 
+![LNP201](assets/en/58.webp)
+
 Alice hat gerade Bobs Rechnung erhalten, die insbesondere _r_, den Hash des Geheimnisses, enthält. Sie kann also eine HTLC von 40.000 Satoshis mit Suzie konstruieren. Diese HTLC wird in den neuesten Commitment-Transaktionen als Ausgabe namens "**_HTLC Out_**" auf Alices Seite dargestellt, da die Mittel ausgehend sind, und "**_HTLC In_**" auf Suzies Seite, da die Mittel eingehend sind.
+
+![LNP201](assets/en/59.webp)
 
 Diese mit der HTLC verbundenen Ausgaben teilen genau die gleichen Bedingungen, nämlich:
 
@@ -637,6 +645,8 @@ Diese Bedingungen gelten nur, wenn der Kanal geschlossen wird (d.h., eine Commit
 
 Darüber hinaus, wenn der Kanal geschlossen wird, während mehrere HTLCs ausstehend sind, wird es so viele zusätzliche Ausgaben geben, wie es laufende HTLCs gibt.
 Wenn der Kanal nicht geschlossen wird, dann werden nach dem Ablauf oder Erfolg der Lightning-Zahlung neue Commitment-Transaktionen erstellt, um den neuen, nun stabilen Zustand des Kanals zu reflektieren, das heißt, ohne ausstehende HTLCs. Die mit den HTLCs verbundenen Ausgaben können daher aus den Commitment-Transaktionen entfernt werden.
+![LNP201](assets/en/60.webp)
+
 Schließlich, im Falle einer kooperativen Kanalschließung, während ein HTLC aktiv ist, hören Alice und Suzie auf, neue Zahlungen zu akzeptieren und warten auf die Auflösung oder das Ablaufen der laufenden HTLCs. Dies ermöglicht es ihnen, eine leichtere Abschlusstransaktion zu veröffentlichen, ohne die Ausgaben, die mit den HTLCs verbunden sind, wodurch Gebühren reduziert werden und das Warten auf eine mögliche Zeitverriegelung vermieden wird.
 **Was sollten Sie aus diesem Kapitel mitnehmen?**
 

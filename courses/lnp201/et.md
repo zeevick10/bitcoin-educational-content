@@ -222,9 +222,13 @@ Sel peatükis avastame tehnilist toimimist tehingu puhul kanalis Lightningi võr
 
 Nagu varem nähtud, algab Lightning kanal **avamisega** läbi Bitcoin'i tehingu. Kanalit saab **sulgeda** igal ajal, samuti läbi Bitcoin'i tehingu. Nende kahe hetke vahel saab kanalis toimuda peaaegu lõputu arv tehinguid, ilma et peaks minema läbi Bitcoin'i plokiahela. Vaatame, mis toimub kanalis tehingu ajal.
 
+![LNP201](assets/en/17.webp)
+
 ### Kanali algseisund
 
 Kanali avamise hetkel deposiit Alice **130 000 satoshi** kanali multisignatuuri aadressile. Seega, algseisundis on kõik vahendid Alice'i poolel. Enne kanali avamist lasi Alice Bobil allkirjastada ka **väljavõtte tehingu**, mis võimaldaks tal oma vahendid tagasi saada, kui ta sooviks kanali sulgeda.
+
+![LNP201](assets/en/18.webp)
 
 ### Avaldamata Tehingud: Kohustuslikud Tehingud
 
@@ -235,6 +239,7 @@ Võtame näiteks, kus Alice saadab 30 000 satoshi Bobile:
 - **Alguses**: Alice'il on 130 000 satoshi.
 - **Pärast tehingut**: Alice'il on 100 000 satoshi ja Bobil 30 000 satoshi.
   Selle ülekande valideerimiseks loovad Alice ja Bob uue **avaldamata Bitcoin'i tehingu**, mis saadaks **100 000 satoshi Alice'ile** ja **30 000 satoshi Bobile** multisignatuuri aadressilt. Mõlemad pooled konstrueerivad selle tehingu iseseisvalt, kuid sama andmetega (summad ja aadressid). Kui konstruktsioon on valmis, allkirjastab igaüks tehingu ja vahetab teisega oma allkirja. See võimaldab kummalgi poolel tehingu igal ajal avaldada, kui see on vajalik, et taastada oma osa kanalist peamisel Bitcoin'i plokiahelal.
+  ![LNP201](assets/en/19.webp)
 
 ### Ülekandeprotsess: Arve
 
@@ -242,12 +247,16 @@ Kui Bob soovib vahendeid vastu võtta, saadab ta Alice'ile **_arve_** 30 000 sat
 
 Iga kohustuslik tehing esindab kanalis vahendite uut jaotust pärast ülekannet. Selles näites, pärast tehingut, on Bobil 30 000 satoshi ja Alice'il 100 000 satoshi. Kui üks kahest osalejast otsustaks selle kohustusliku tehingu plokiahelale avaldada, tulemuseks oleks kanali sulgemine ja vahendid jaotataks vastavalt sellele viimasele jaotusele.
 
+![LNP201](assets/en/20.webp)
+
 ### Uus Seisund Pärast Teist Tehingut
 
 Võtame teise näite: pärast esimest tehingut, kus Alice saatis 30 000 satoshi Bobile, otsustab Bob saata **10 000 satoshi tagasi Alice'ile**. See loob kanali uue seisundi. Uus **kohustuslik tehing** esindab seda uuendatud jaotust:
 
 - **Alice**l on nüüd **110 000 satoshi**.
 - **Bob**il on **20 000 satoshi**.
+
+![LNP201](assets/en/21.webp)
 
 Jällegi, seda tehingut ei avaldata plokiahelas, kuid seda saab igal ajal teha, juhul kui kanal suletakse.
 

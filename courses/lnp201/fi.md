@@ -619,15 +619,23 @@ Välttääkseen tämän, Lightningin HTLC:illä on vanhentumisaika, joka mahdoll
 ![LNP201](assets/en/55.webp)
 
 Sitten HTLC Alicelta Suzielle.
+
+![LNP201](assets/en/56.webp)
+
 Jos erääntymisjärjestys olisi käännetty, Alice voisi palauttaa maksunsa ennen kuin Suzie ehtisi suojautua mahdolliselta huijaukselta. Todellakin, jos Bob palaa vaatimaan HTLC:tään samalla kun Alice on jo poistanut omansa, Suzie olisi epäedullisessa asemassa. Tämä HTLC:iden kaskadoituva erääntymisjärjestys varmistaa siis, että yksikään välittäjäsolmu ei kärsi epäreiluista tappioista.
 
 ### HTLC:iden esitys sitoumustapahtumissa
 
 Sitoumustapahtumat esittävät HTLC:t tavalla, joka mahdollistaa niiden asettamien ehtojen siirtämisen Bitcoinille pakotetun kanavan sulkemisen yhteydessä HTLC:n elinaikana. Muistutuksena, sitoumustapahtumat edustavat kanavan nykyistä tilaa kahden käyttäjän välillä ja mahdollistavat yksipuolisen pakotetun sulkemisen ongelmatilanteissa. Jokaisen kanavan uuden tilan myötä luodaan 2 sitoumustapahtumaa: yksi kummallekin osapuolelle. Palatkaamme esimerkkiimme Alicen, Suzien ja Bobin kanssa, mutta tarkastellaan tarkemmin, mitä tapahtuu kanavatasolla Alicen ja Suzien välillä, kun HTLC luodaan.
+![LNP201](assets/en/57.webp)
 
 Ennen 40 000 satoshin maksun aloittamista Alicen ja Bobin välillä, Alicella on 100 000 satoshia kanavassaan Suzien kanssa, kun taas Suziella on 30 000. Heidän sitoumustapahtumansa ovat seuraavat:
 
+![LNP201](assets/en/58.webp)
+
 Alice on juuri saanut Bobin laskun, joka sisältää merkittävästi _r_:n, salaisuuden hashin. Hän voi siis rakentaa 40 000 satoshin HTLC:n Suzien kanssa. Tämä HTLC esitetään viimeisimmissä sitoumustapahtumissa lähtökohtana nimeltä "**_HTLC Out_**" Alicen puolella, koska varat ovat lähteviä, ja "**_HTLC In_**" Suzien puolella, koska varat ovat saapuvia.
+
+![LNP201](assets/en/59.webp)
 
 Nämä HTLC:hen liittyvät lähdöt jakavat täsmälleen samat ehdot, nimittäin:
 
@@ -638,6 +646,8 @@ Nämä ehdot pätevät vain, jos kanava suljetaan (eli sitoumustapahtuma julkais
 
 Lisäksi, jos kanava suljetaan samalla kun useita HTLC:itä on odottamassa, luodaan yhtä monta lisälähtöä kuin käynnissä olevia HTLC:itä on.
 Jos kanavaa ei suljeta, niin Lightning-maksun vanhentumisen tai onnistumisen jälkeen luodaan uudet sitoumustapahtumat heijastamaan kanavan uutta, nyt vakaata tilaa, eli ilman odottavia HTLC:itä. HTLC:iin liittyvät lähdöt voidaan siis poistaa sitoumustapahtumista.
+![LNP201](assets/en/60.webp)
+
 Lopulta, jos yhteistyössä tapahtuvan kanavan sulkemisen aikana HTLC on aktiivinen, Alice ja Suzie lopettavat uusien maksujen hyväksymisen ja odottavat meneillään olevien HTLC:iden ratkaisua tai vanhentumista. Tämä mahdollistaa heidän julkaista kevyemmän sulkemistransaktion, ilman HTLC:iin liittyviä ulostuloja, vähentäen näin maksuja ja välttäen mahdollisen aikalukon odottamisen.
 **Mitä sinun tulisi oppia tästä luvusta?**
 

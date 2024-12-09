@@ -610,15 +610,23 @@ Aby se tomu zabránilo, HTLC na Lightningu mají expiraci, která umožňuje ods
 ![LNP201](assets/en/55.webp)
 
 Poté HTLC od Alice k Suzie.
+
+![LNP201](assets/en/56.webp)
+
 Pokud by se pořadí vypršení platnosti HTLC obrátilo, Alice by mohla získat zpět svou platbu dříve, než by Suzie mohla ochránit sebe před možným podvodem. Skutečně, pokud by se Bob vrátil pro své HTLC, zatímco Alice už své odstranila, Suzie by byla ve ztrátě. Toto kaskádové pořadí vypršení platnosti HTLC tak zajišťuje, že žádný prostředník neutrpí nespravedlivé ztráty.
 
 ### Reprezentace HTLC v transakcích závazku
 
 Transakce závazku reprezentují HTLC takovým způsobem, že podmínky, které ukládají na Lightning, mohou být přeneseny na Bitcoin v případě nuceného uzavření kanálu během životnosti HTLC. Jako připomínka, transakce závazku reprezentují aktuální stav kanálu mezi dvěma uživateli a umožňují jednostranné nucené uzavření v případě problémů. S každým novým stavem kanálu jsou vytvořeny 2 transakce závazku: jedna pro každou stranu. Pojďme se vrátit k našemu příkladu s Alicí, Suzie a Bobem, ale podívejme se podrobněji na to, co se děje na úrovni kanálu mezi Alicí a Suzie, když je HTLC vytvořeno.
+![LNP201](assets/en/57.webp)
 
 Před zahájením platby 40 000 satoshi mezi Alicí a Bobem má Alice v kanálu se Suzie 100 000 satoshi, zatímco Suzie drží 30 000. Jejich transakce závazku jsou následující:
 
+![LNP201](assets/en/58.webp)
+
 Alice právě obdržela Bobovu fakturu, která obsahuje _r_, hash tajemství. Může tedy sestavit HTLC o 40 000 satoshi se Suzie. Toto HTLC je reprezentováno v nejnovějších transakcích závazku jako výstup nazvaný "**_HTLC Out_**" na straně Alice, protože prostředky jsou odchozí, a "**_HTLC In_**" na straně Suzie, protože prostředky jsou příchozí.
+
+![LNP201](assets/en/59.webp)
 
 Tyto výstupy spojené s HTLC sdílejí přesně stejné podmínky, a to:
 
@@ -629,6 +637,9 @@ Tyto podmínky platí pouze v případě, že je kanál uzavřen (tj. transakce 
 
 Navíc, pokud je kanál uzavřen, zatímco několik HTLC je nevyřešených, bude tam tolik dalších výstupů, kolik je probíhajících HTLC.
 Pokud kanál není uzavřen, pak po vypršení nebo úspěchu platby Lightning jsou vytvořeny nové transakce závazku, které odrážejí nový, nyní stabilní stav kanálu, tj. bez jakýchkoli nevyřešených HTLC. Výstupy související s HTLC mohou být tedy odstraněny z transakcí závazku.
+
+![LNP201](assets/en/60.webp)
+
 Nakonec, v případě kooperativního uzavření kanálu, zatímco je HTLC aktivní, Alice a Suzie přestanou přijímat nové platby a čekají na vyřešení nebo vypršení platnosti probíhajících HTLC. To jim umožňuje publikovat jednodušší transakci pro uzavření, bez výstupů souvisejících s HTLC, čímž snižují poplatky a vyhýbají se čekání na možný časový zámek.
 **Co byste si měli odnést z této kapitoly?**
 
