@@ -4,7 +4,7 @@ author: LinuxSecurity Team
 publication_date: 1996-01-01
 level: expert
 link:
-  website: https://linuxsecurity.com/newsletters/linux-security-week
+  - website: https://linuxsecurity.com/newsletters/linux-security-week
 language:
   - en
 description: |
